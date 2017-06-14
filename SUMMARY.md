@@ -5,6 +5,7 @@
 * [基本表单控件【施、陆】](chapter1.md)
   * [form标签](chapter1/formbiao-dan-biao-qian.md)
   * [form\_group标签](chapter1/formgroup-biao-qian.md)
+  * [select标签](chapter1/selectbiao-qian.md)
 * [扩展表单控件【施、陆】](kuo-zhan-biao-dan-kong-jian.md)
 * [开发规范](kai-fa-gui-fan.md)
   * [前端开发规范](kai-fa-gui-fan/qian-duan-kai-fa-gui-fan.md)
