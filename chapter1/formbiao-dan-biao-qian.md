@@ -18,23 +18,25 @@
  &lt;/@form\_group&gt;
 ```
 
-     &lt;@form\_group class="row"&gt;
+```
+ &lt;@form\_group class="row"&gt;
 
-               &lt;@date\_time  label="时间框1;false" id="date1" name="start\_time3" size="3"/&gt;
+           &lt;@date\_time  label="时间框1;false" id="date1" name="start\_time3" size="3"/&gt;
 
-               &lt;@date\_time  label="时间框2;false" id="date2" name="start\_time4" size="3"/&gt;
+           &lt;@date\_time  label="时间框2;false" id="date2" name="start\_time4" size="3"/&gt;
 
-               &lt;@date\_time  label="时间框3;false" id="date3" name="start\_time5" size="3"/&gt;
+           &lt;@date\_time  label="时间框3;false" id="date3" name="start\_time5" size="3"/&gt;
 
-     &lt;/@form\_group&gt;
+ &lt;/@form\_group&gt;
+```
 
-&lt;@form\_group &gt;
+     &lt;@form\_group &gt;
 
-&lt;@button id="submit" type="submit"   value="提交" icon="search"/&gt;
+                       &lt;@button id="submit" type="submit"   value="提交" icon="search"/&gt;
 
-&lt;@button id="repeat3" type="button"   value="重置" icon="repeat"/&gt;
+                       &lt;@button id="repeat3" type="button"   value="重置" icon="repeat"/&gt;
 
-&lt;/@form\_group&gt;
+      &lt;/@form\_group&gt;
 
 &lt;/@form&gt;
 
