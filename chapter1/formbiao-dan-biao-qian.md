@@ -4,7 +4,7 @@
 
 #### form标签的引入方式如下：
 
-&lt;@form  id="demoform"  name="demoform"  action="userLogin.do" &gt;
+    &lt;@form  id="demoform"  name="demoform"  action="userLogin.do" &gt;
 
 ```
  &lt;@form\_group class="row"&gt;
@@ -30,13 +30,15 @@
  &lt;/@form\_group&gt;
 ```
 
-     &lt;@form\_group &gt;
+```
+ &lt;@form\_group &gt;
 
-                       &lt;@button id="submit" type="submit"   value="提交" icon="search"/&gt;
+                   &lt;@button id="submit" type="submit"   value="提交" icon="search"/&gt;
 
-                       &lt;@button id="repeat3" type="button"   value="重置" icon="repeat"/&gt;
+                   &lt;@button id="repeat3" type="button"   value="重置" icon="repeat"/&gt;
 
-      &lt;/@form\_group&gt;
+  &lt;/@form\_group&gt;
+```
 
 &lt;/@form&gt;
 
