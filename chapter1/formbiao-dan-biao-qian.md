@@ -7,7 +7,7 @@
 &lt;@form id="demoform" name="demoform" action="userLogin.do" &gt;
 
 ```css
-        &lt;@form\_group class="row"&gt;
+        <@form\_group class="row"&gt;
 
                  &lt;@input label="姓名：;true" id="name" name="name1"  type="text" size="3"  /&gt;
 
