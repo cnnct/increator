@@ -4,9 +4,11 @@
 
 #### form标签的引入方式如下：
 
-    &lt;@form  id="demoform"  name="demoform"  action="userLogin.do" &gt;
-
 ```
+&lt;@form  id="demoform"  name="demoform"  action="userLogin.do" &gt;
+```
+
+```java
  &lt;@form\_group class="row"&gt;
 
       &lt;@input label="姓名;true" id="name" name="name1"  type="text" size="3"  /&gt;
