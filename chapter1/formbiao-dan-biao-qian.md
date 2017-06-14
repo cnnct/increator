@@ -6,7 +6,7 @@
 
 ```html
     <@form id="demoform" name="demoform" action="userLogin.do" >
-            <@form_group class="row">
+             <@form_group class="row">
                      <@input label="姓名：;true" id="name" name="name1"  type="text" size="3"  />
                     <@input label="邮箱：;true" id="email1" name="email"  type="email" size="3" />
                      <@input label="邮编：;true" id="name1" name="name"  type="text" size="3"  />
