@@ -3,11 +3,11 @@
 #### select**标签的属性：**
 
 ```
-      select标签有12个属性分别为为id、name、size、readonly、label、select_more、choice_have、search_have、
+      select标签有12个属性分别为为id、name、size、readonly、label、select_more、choice_have、search_have、sql_condition、
+      
+            sql_key、value_field、show_field；其中id、sql_key、value_field、show_field为必填项,下面必填项加上了*号；
 
-            sql_condition、sql_key、value_field、show_field；其中id、sql_key、value_field、show_field为必填项；
-
-      id ： id属性
+      id * ： id属性
 
       name ： name属性
 
