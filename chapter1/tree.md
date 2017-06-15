@@ -18,5 +18,9 @@
 
 #### tree标签的引入方式 :
 
-    &lt;@tree size="12" id="but2" tree\_id="tree2" name="valuetree2" sql\_key="sysfunc8" checkbox\_have="true"/&gt;
+```
+<@tree size="12" id="but2" tree_id="tree2" name="valuetree2" sql_key="sysfunc8" checkbox_have="true"/>
+```
+
+
 
