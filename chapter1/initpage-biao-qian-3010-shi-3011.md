@@ -10,7 +10,7 @@
 > >
 > > **script ：** script属性引入js文件的属性
 
-#### input标签的引入方式 :
+#### init\_page标签的引入方式 :
 
 
 
