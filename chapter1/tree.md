@@ -12,15 +12,9 @@
 > >
 > > **checkbox\_have : **为是否有复选框，默认false
 > >
-> > **tree\_id \* :** label为input标签的前缀标签属性,如label="name;true;2"；其中label属性中含有三个值，第一个值
+> > **tree\_id \* :** tree树对象的id
 > >
-> > 为前缀标签的名字；第二个值为前缀标签是否加红色星号,即必填项标志；第三个值为前缀标签的尺寸,
-> >
-> > 可填的数值范围为（1-12）,默认尺寸为1；引入方式：label="name;true;2" ； label="name;true" ；
-> >
-> > label="name" ；label="name;;2" 即三个值都非必填项
-> >
-> > **sql\_key \* : ** value属性
+> > **sql\_key \* : ** sql\_key属性为select标签后台执行的sql的key值
 
 #### input标签的引入方式 :
 
