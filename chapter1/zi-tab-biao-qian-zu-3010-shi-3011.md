@@ -36,7 +36,7 @@
 > >
 > > 项为子级option的text值是用表中哪个字段来赋值，第四项为子级option的value值是由表中哪个字段来赋值，**四项都为必填值**
 
-#### cas\_select\_child**标签的属性 :**
+#### child\_tab\_content**标签的属性 :**
 
 > cas\_select\_child标签有5个属性分别为为id、name、size、label、child\_info；
 >
