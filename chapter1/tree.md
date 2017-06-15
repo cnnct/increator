@@ -2,7 +2,7 @@
 
 #### tree**标签的属性 :**
 
-> input标签有7个属性分别为为id、name、size、type、label、value、readonly
+> tree标签有7个属性分别为为id、name、size、type、label、value、readonly
 >
 > > **id ** **：** id属性
 > >
