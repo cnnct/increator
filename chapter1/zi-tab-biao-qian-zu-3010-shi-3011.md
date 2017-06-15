@@ -22,7 +22,7 @@
 
 #### child\_tab\_content**标签的属性 :**
 
-> child\_tab\_content标签有5个属性分别为为id、name、active；
+> child\_tab\_content标签有3个属性分别为为id、name、active；
 >
 > **其中id为必填项,下面必填项加上了\*号**；
 >
