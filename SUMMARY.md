@@ -14,6 +14,7 @@
   * [span标签【施】](chapter1/spanbiao-qian.md)
   * [label标签【施】](chapter1/labelbiao-qian-3010-shi-3011.md)
   * [input标签【施】](chapter1/inputbiao-qian-3010-shi-3011.md)
+  * [init\_page标签【施】](chapter1/initpage-biao-qian-3010-shi-3011.md)
 * [扩展表单控件【施、陆】](kuo-zhan-biao-dan-kong-jian.md)
 * [开发规范](kai-fa-gui-fan.md)
   * [前端开发规范](kai-fa-gui-fan/qian-duan-kai-fa-gui-fan.md)
