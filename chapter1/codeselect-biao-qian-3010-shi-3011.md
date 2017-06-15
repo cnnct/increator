@@ -35,13 +35,7 @@
 > > **search\_have :** search\_have为是否需要搜索框，该属性在select\_more属性为true时可用，可以填写的值
 > >
 > > 为"true","false",默认false
-> >
-> > **sql\_key  \* ：**sql\_key属性为select标签后台执行的sql的key值，sql可以是完整的，也可以是拥有“？”占位符的sql，配合sql\_condition属性使用；
-> >
-> > **sql\_condition :** sql\_condition属性用于配合sql\_key属性，当对应的后台sql需要传入参数替换“？”占位符时填写；
-> >
-> > **value \_field \*: **value\_field属性是指select标签选项option的value值是由表中哪个字段来赋值；
-> >
+
 > > **show\_field \* :** show\_field属性是指select标签选项option的text值是用表中哪个字段来赋值；
 > >
 > > **default\_val :** default\_val属性是指select标签的默认选中值，下标从0开始，单select\_more 属性为“true”时，可以多选，
