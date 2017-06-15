@@ -50,9 +50,11 @@
 
 #### select标签的引入方式 :
 
-&lt;@select sql\_key="syscode2"   id="sdf" sql\_condition="ACC\_RECHG\_TYPE" name="name" show\_field="CODE\_NAME" value\_field="CODE\_VALUE" default\_val="2" choice\_have="true" size="6"/&gt;
-
+```
+<@select sql_key="syscode2"   id="sdf" sql_condition="ACC_RECHG_TYPE" name="name" show_field="CODE_NAME" value_field="CODE_VALUE" default_val="2" choice_have="true" size="6"/>
 	
+<@select sql_key="syscode1" name="name" id="hjdf" show_field="CODE_NAME" value_field="CODE_VALUE" default_val="0;1"   size="6" select_more="true" search_have="true"/>
+```
 
-	&lt;@select sql\_key="syscode1" name="name" id="hjdf" show\_field="CODE\_NAME" value\_field="CODE\_VALUE" default\_val="0;1"   size="6" select\_more="true"/&gt;
+![](/assets/select.png)
 
