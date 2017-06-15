@@ -48,7 +48,7 @@
 > >
 > > 如default\_val="0;2",注意分隔符；
 >
- #### select标签的引入方式见form标签，必须配合form标签使用
+#### select标签的引入方式见form标签，必须配合form标签使用
 
 
 
