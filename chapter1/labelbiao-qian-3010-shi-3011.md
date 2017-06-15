@@ -4,11 +4,11 @@
 
 > label标签有3个属性分别为为size、name、must\_star
 >
-> > **id ** **：** id属性
+> > **size ：** size为尺寸标签,可以填的数值范围为（1-12）,如size="6",select标签的默认size为5
 > >
 > > **name ：** name属性
 > >
-> > **class : **class属性
+> > **must\_star ： **class属性
 
 #### span标签的引入方式 :
 
