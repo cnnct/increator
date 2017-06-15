@@ -2,9 +2,9 @@
 
 #### select**标签的属性 :**
 
-> select标签有12个属性分别为为id、name、size、readonly、label、select\_more、choice\_have、
+> select标签有13个属性分别为为id、name、size、readonly、label、select\_more、choice\_have、
 >
-> search\_have、sql\_condition、sql\_key、value\_field、show\_field；其中id、sql\_key、value\_field、 show\_field为必填项,下面必填项加上了\*号；
+> search\_have、sql\_condition、sql\_key、value\_field、show\_field、default\_val；其中id、sql\_key、value\_field、 show\_field为必填项,下面必填项加上了\*号；
 >
 > > id \* ： id属性
 > >
@@ -43,6 +43,10 @@
 > > value \_field : value\_field属性是指select标签选项option的value值是由表中哪个字段来赋值；
 > >
 > > show\_field : show\_field属性是指select标签选项option的text值是用表中哪个字段来赋值；
+> >
+> > default\_val : default\_val属性是指select标签的默认选中值，下标从0开始，单select\_more 属性为“true”时，可以多选，
+> >
+> > 如default\_val="0;2"
 >
 > #### select标签的引入方式见form标签，必须配合form标签使用
 
