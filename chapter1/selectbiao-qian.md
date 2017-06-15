@@ -28,11 +28,13 @@
               如果select_more属性为true时,choice_have必须为false,因为当select标签为多选标签时，默认加入了“--前选择--”项
 
       search_have : search_have为是否需要搜索框，该属性在select_more属性为true时可用，可以填写的值为"true","false",默认false
-      
+
       sql_key : sql_key为
 ```
 
 #### select标签的引入方式见form标签，必须配合form标签使用
+
+ 金卡戴珊have
 
 
 
