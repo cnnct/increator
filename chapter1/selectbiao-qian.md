@@ -50,5 +50,9 @@
 
 #### select标签的引入方式 :
 
+&lt;@select sql\_key="syscode2"   id="sdf" sql\_condition="ACC\_RECHG\_TYPE" name="name" show\_field="CODE\_NAME" value\_field="CODE\_VALUE" default\_val="2" choice\_have="true" size="6"/&gt;
 
+	
+
+	&lt;@select sql\_key="syscode1" name="name" id="hjdf" show\_field="CODE\_NAME" value\_field="CODE\_VALUE" default\_val="0;1"   size="6" select\_more="true"/&gt;
 
