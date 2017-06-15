@@ -2,7 +2,7 @@
 
 #### input**标签的属性 :**
 
-> input标签有8个属性分别为为id、name、size、type、class、icon、value、onclick；
+> input标签有7个属性分别为为id、name、size、type、label、value、readonly；
 >
 > **其中value为必填项,下面必填项加上了\*号**；
 >
