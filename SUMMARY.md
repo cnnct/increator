@@ -3,7 +3,7 @@
 * [概述](README.md)
   * [基本规范【曲】](ji-ben-gui-fan.md)
 * [基本表单控件【施、陆】](chapter1.md)
-  * [form标签](chapter1/form标签.md【施】)
+  * [form标签](chapter1/form标签.md【施】.md)
   * [form\_group标签](chapter1/formgroup-biao-qian.md)
   * [select标签](chapter1/selectbiao-qian.md)
 * [扩展表单控件【施、陆】](kuo-zhan-biao-dan-kong-jian.md)
