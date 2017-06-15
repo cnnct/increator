@@ -2,7 +2,7 @@
 
 #### code\_select**标签的属性 :**
 
-> select标签有13个属性分别为为id、name、size、readonly、label、select\_more、choice\_have、
+> code\_select标签有13个属性分别为为id、name、size、readonly、label、select\_more、choice\_have、
 >
 > search\_have、sql\_condition、sql\_key、value\_field、show\_field、default\_val；**其中id、sql\_key、value\_field、 show\_field为必填项,下面必填项加上了\*号**；
 >
