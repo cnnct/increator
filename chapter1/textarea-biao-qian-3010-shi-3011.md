@@ -22,5 +22,5 @@
 
 #### text\_area标签的引入方式 :
 
-
+&lt;@text\_area label="文本域1：;false" id="username1" name="ntextame" value="name"  size="5" /&gt; 
 
