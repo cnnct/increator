@@ -4,7 +4,7 @@
 
 > code\_select标签有12个属性分别为为id、name、size、readonly、label、select\_more、choice\_have、
 >
-> search\_have、default\_val、no\_show、only\_show、code\_type；**其中id、sql\_key、value\_field、 show\_field为必填项,下面必填项加上了\*号**；
+> search\_have、default\_val、no\_show、only\_show、code\_type；**其中id、code**\_type**为必填项,下面必填项加上了\*号**；
 >
 > > **id \*** **：** id属性
 > >
