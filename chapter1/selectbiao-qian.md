@@ -5,8 +5,8 @@ select标签有12个属性分别为为id、name、size、readonly、label、sele
 * search\_have、sql\_condition、sql\_key、value\_field、show\_field；其中id、sql\_key、value\_field、
 * show\_field为必填
 * 项,下面必填项加上了\*号；
-  * id \* ： id属性
-  * name ： name属性
+  > id \* ： id属性
+  > name ： name属性
   * size ： size为尺寸标签,可以填的数值范围为（1-12）,如size="6",select标签的默认size为5
   * readonly ： readonly为只读属性,可以填写的数值为"true","false",默认为false
   * label : label为select标签的前缀标签属性,如label="name;true;2"；其中label属性中含有三个值，第一个值为
