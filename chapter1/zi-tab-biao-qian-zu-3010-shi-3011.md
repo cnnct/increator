@@ -2,7 +2,7 @@
 
 #### 子tab标签组：
 
-> > 级联标签包含两个标签，分别为cas\_select\_parent（级联顶级标签）、cas\_select\_child（级联子孙级标签）
+> > 子tab标签组包含两个标签，分别为child\_tab（子tab标签最外层）、child\_tab\_content（子tab标签内容包裹层）
 
 #### cas\_select\_parent**标签的属性 :**
 
