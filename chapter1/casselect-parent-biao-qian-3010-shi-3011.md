@@ -40,7 +40,7 @@
 
 > cas\_select\_child标签有5个属性分别为为id、name、size、label、child\_info；
 >
-> **其中sql\_key、value\_field、 show\_field、child\_info为必填项,下面必填项加上了\*号**；
+> **其中id为必填项,下面必填项加上了\*号**；
 >
 > > **id ：** id属性
 > >
