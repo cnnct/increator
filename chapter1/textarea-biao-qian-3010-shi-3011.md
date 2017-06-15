@@ -8,7 +8,7 @@
 > >
 > > **name ：** name属性
 > >
-> > **size ：** size为尺寸标签,可以填的数值范围为（1-12）,如size="6",button标签的默认size为1
+> > **size ：** size为尺寸标签,可以填的数值范围为（1-12）,如size="6",button标签的默认size为12
 > >
 > > **readonly **： readonly为只读属性,可以填写的数值为"true","false",默认为false
 > >
