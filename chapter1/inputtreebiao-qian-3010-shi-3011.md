@@ -24,5 +24,5 @@
 <@input_tree label="多选树" size="5" id="but1" tree_id="tree1" name="valuetree1" sql_key="sysfunc7" checkbox_have="true"/>
 ```
 
-
+![](/assets/input_tree.png)
 
