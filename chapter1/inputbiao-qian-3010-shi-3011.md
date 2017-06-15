@@ -8,7 +8,7 @@
 > >
 > > **name ：** name属性
 > >
-> > **size ：** size为尺寸标签,可以填的数值范围为（1-12）,如size="6",button标签的默认size为1
+> > **size ：** size为尺寸标签,可以填的数值范围为（1-12）,如size="6",input标签的默认size为5
 > >
 > > **type : **type属性，默认为“text”
 > >
