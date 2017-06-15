@@ -62,15 +62,17 @@
 > >
 > > 项为子级option的text值是用表中哪个字段来赋值，第四项为子级option的value值是由表中哪个字段来赋值，**四项都为必填值，但是如果该级为最后一级则child\_info属性不必存在**
 
-&lt;@cas\_select\_parent  label="级联1：;false" id="parent" name="name1" sql\_key="sysfunc1" show\_field="TITLE" value\_field="FUNC\_ID"  size="5" child\_info="child;sysfunc3;TITLE;FUNC\_ID"/&gt;
+#### 级联标签的引入方式 :
 
-									&lt;@cas\_select\_child  label="级联2：;false" id="child"   name="name1" size="5"  child\_info="grandson;sysfunc5;TITLE;FUNC\_ID"/&gt;
+```
+       <@cas_select_parent  label="级联1：;false" id="parent" name="parent" sql_key="sysfunc1" show_field="TITLE" value_field="FUNC_ID"  size="5" child_info="child;sysfunc3;TITLE;FUNC_ID"/>
+       
+       <@cas_select_child  label="级联2：;false" id="child"   name="child" size="5"  child_info="grandson;sysfunc5;TITLE;FUNC_ID"/>
+                                    
+       <@cas_select_child  label="级联1：;false" id="grandson"  name="grandson" size="5" child_info="padson;sysfunc6;TITLE;FUNC_ID"/>
+                                    
+       <@cas_select_child  label="级联1：;false" id="padson"  name="padson" size="5"/>
+```
 
-							  &lt;/@form\_group&gt;
 
-				 			  &lt;@form\_group class="row"&gt;
-
-									&lt;@cas\_select\_child  label="级联1：;false" id="grandson"  name="name1" size="5" child\_info="padson;sysfunc6;TITLE;FUNC\_ID"/&gt;
-
-									&lt;@cas\_select\_child  label="级联1：;false" id="padson"  name="name1" size="5"/&gt;
 
