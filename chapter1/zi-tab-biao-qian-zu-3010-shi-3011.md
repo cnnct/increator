@@ -49,5 +49,5 @@
 </@child_tab>
 ```
 
-
+![](/assets/tab.png)
 
