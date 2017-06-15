@@ -1,6 +1,6 @@
-# inputi**标签**
+# input**标签**
 
-#### button**标签的属性 :**
+#### input**标签的属性 :**
 
 > button标签有8个属性分别为为id、name、size、type、class、icon、value、onclick；
 >
