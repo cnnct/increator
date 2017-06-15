@@ -2,7 +2,7 @@
 
 #### init\_page**标签的属性 :**
 
-> init\_page标签有7个属性分别为为id、name、size、type、label、value、readonly
+> init\_page标签有3个属性分别为为id、name、size、type、label、value、readonly
 >
 > > **id ** **：** id属性
 > >
