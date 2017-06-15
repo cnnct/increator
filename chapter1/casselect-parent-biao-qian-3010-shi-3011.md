@@ -2,7 +2,7 @@
 
 #### 级联标签：
 
-级联标签包含两个标签，分别为cas\_select\_parent（级联顶级标签）、cas\_select\_child（级联子孙级标签）
+>>级联标签包含两个标签，分别为cas\_select\_parent（级联顶级标签）、cas\_select\_child（级联子孙级标签）
 
 #### select**标签的属性 :**
 
