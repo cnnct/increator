@@ -6,7 +6,7 @@
 >
 > search\_have、sql\_condition、sql\_key、value\_field、show\_field；其中id、sql\_key、value\_field、 show\_field为必填项,下面必填项加上了\*号；
 >
-     > >id \* ： id属性
+       > >id \* ： id属性
 >
 > name ： name属性
 >
