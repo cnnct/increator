@@ -12,5 +12,11 @@
 
 #### span标签的引入方式 :
 
+ &lt;@span class="text-warning"&gt;属性显示1&lt;/@span&gt;
 
+       &lt;@span class="text-error"&gt;属性显示2&lt;/@span&gt;
+
+       &lt;@span class="text-info"&gt;属性显示3&lt;/@span&gt;
+
+       &lt;@span class="text-success"&gt;属性显示4&lt;/@span&gt;
 
