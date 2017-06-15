@@ -20,7 +20,7 @@
 > >
 > > label="name" ；label="name;;2" 即三个值都非必填项
 
-#### select标签的引入方式 :
+#### text\_area标签的引入方式 :
 
 
 
