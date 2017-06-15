@@ -42,7 +42,10 @@
 > >
 > > 如default\_val="0;2",注意分隔符；
 > >
-> > no\_show ：不显示
+> > no\_show ：不显示的option项，下标从0开始
+> >
+> > only\_show ：不显示的option项，下标从0开始
+
 
 
 
