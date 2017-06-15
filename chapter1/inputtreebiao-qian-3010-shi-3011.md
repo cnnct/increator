@@ -20,5 +20,11 @@
 
 &lt;@input\_tree label="单选树" size="4" id="but" tree\_id="tree" name="valuetree" sql\_key="sysfunc7" /&gt;
 
-	&lt;@input\_tree label="多选树" size="5" id="but1" tree\_id="tree1" name="valuetree1" sql\_key="sysfunc7" checkbox\_have="true"/&gt;
+```
+<@input_tree label="单选树" size="4" id="but" tree_id="tree" name="valuetree" sql_key="sysfunc7" />
+
+<@input_tree label="多选树" size="5" id="but1" tree_id="tree1" name="valuetree1" sql_key="sysfunc7" checkbox_have="true"/>
+```
+
+
 
