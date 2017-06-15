@@ -48,7 +48,7 @@
 > >
 > > **code\_type \* : ** 指定查询sys\_code表中code\_type表字段的值作为数据加载时使用
 
-#### code\_select**标签的属性 :**
+#### code\_select标签的引入方式 :
 
 
 
