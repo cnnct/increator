@@ -2,7 +2,7 @@
 
 #### select**标签的属性**
 <p>
-* select标签有12个属性分别为为id、name、size、readonly、label、select\_more、choice\_have、
+select标签有12个属性分别为为id、name、size、readonly、label、select\_more、choice\_have、
 * search\_have、sql\_condition、sql\_key、value\_field、show\_field；其中id、sql\_key、value\_field、
 * show\_field为必填
 * 项,下面必填项加上了\*号；
