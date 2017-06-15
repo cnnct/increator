@@ -18,8 +18,6 @@
 
 #### input\_tree标签的引入方式 :
 
-&lt;@input\_tree label="单选树" size="4" id="but" tree\_id="tree" name="valuetree" sql\_key="sysfunc7" /&gt;
-
 ```
 <@input_tree label="单选树" size="4" id="but" tree_id="tree" name="valuetree" sql_key="sysfunc7" />
 
