@@ -2,13 +2,13 @@
 
 #### tree**标签的属性 :**
 
-> tree标签有7个属性分别为为id、name、size、checkbox\_have、tree\_id、sql\_key
+> tree标签有76个属性分别为为id、name、size、checkbox\_have、tree\_id、sql\_key
 >
 > > **id ** **：** id属性
 > >
 > > **name ：** name属性
 > >
-> > **size ：** size为尺寸标签,可以填的数值范围为（1-12）,如size="6",input标签的默认size为5
+> > **size ：** size为尺寸标签,可以填的数值范围为（1-12）,如size="6",tree标签的默认size为5
 > >
 > > checkbox\_have** : **type属性，默认为“text”
 > >
