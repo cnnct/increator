@@ -10,7 +10,7 @@ show\_field为必填
 
 项,下面必填项加上了\*号；
 
-  id \* ： id属性
+           id \* ： id属性
 
 name ： name属性
 
