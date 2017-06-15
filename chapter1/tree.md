@@ -8,7 +8,7 @@
 > >
 > > **name ：** name属性
 > >
-> > **size ：** size为尺寸标签,可以填的数值范围为（1-12）,如size="6",tree标签的默认size为5
+> > **size ：** size为尺寸标签,可以填的数值范围为（1-12）,如size="6",默认size为5
 > >
 > > checkbox\_have** : **type属性，默认为“text”
 > >
