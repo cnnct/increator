@@ -56,5 +56,5 @@
 <@code_select id="select-2" id="sdfs" name="name" code_type="AREA_TYPE" default_val="0;1"   size="6"  select_more="true" search_have="true"/>
 ```
 
-
+![](/assets/code_select1.png)![](/assets/code_select2.png)
 
