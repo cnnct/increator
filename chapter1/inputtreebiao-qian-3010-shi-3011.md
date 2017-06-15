@@ -18,5 +18,7 @@
 
 #### input\_tree标签的引入方式 :
 
+&lt;@input\_tree label="单选树" size="4" id="but" tree\_id="tree" name="valuetree" sql\_key="sysfunc7" /&gt;
 
+	&lt;@input\_tree label="多选树" size="5" id="but1" tree\_id="tree1" name="valuetree1" sql\_key="sysfunc7" checkbox\_have="true"/&gt;
 
