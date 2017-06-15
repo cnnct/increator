@@ -10,7 +10,7 @@
 > >
 > > **must\_star ： must\_star **属性为是否加必填标志“\*”，可以填写的值为“true”，“false”，默认为false
 
-#### span标签的引入方式 :
+#### label标签的引入方式 :
 
 
 
