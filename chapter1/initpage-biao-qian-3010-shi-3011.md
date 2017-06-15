@@ -12,9 +12,7 @@
 
 #### init\_page标签的引入方式 :
 
-&lt;@init\_page title="登录测试页面" link="${base}/assets/css/bootstrap-duallistbox.css;${base}/assets/css/jquery-ui.css;${base}/assets/css/bootstrap-datetimepicker.css" 
+&lt;@init\_page title="登录测试页面" link="${base}/assets/css/bootstrap-duallistbox.css;${base}/assets/css/jquery-ui.css;${base}/assets/css/bootstrap-datetimepicker.css"
 
-script="${base}/assets/js/ace-extra.js;${base}/assets/js/date-time/bootstrap-datetimepicker.js;${base}/assets/js/date-time/locales/bootstrap-datepicker.zh-CN.js;${base}/assets/js/jquery-ui.js"&gt;
-
-
+      script="${base}/assets/js/ace-extra.js;${base}/assets/js/date-time/bootstrap-datetimepicker.js;${base}/assets/js/date-time/locales/bootstrap-datepicker.zh-CN.js;${base}/assets/js/jquery-ui.js"&gt;
 
