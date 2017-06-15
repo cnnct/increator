@@ -32,31 +32,22 @@
 > >
 > > active**：** active属性为是否处于选中状态，可以填写的值为“true”，“false”，默认为false
 
-&lt;@child\_tab  id="myTab2" title="home2;profile2;dropdown12;ddd3"&gt;
+```
+ <@child_tab  id="myTab2" title="home2;profile2;dropdown12;ddd3">
+        <@child_tab_content id="home2" active="true"> 
+            <p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid.</p>
+        </@child_tab_content>
+        <@child_tab_content id="profile2" > 
+            <p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid.</p>
+        </@child_tab_content>
+        <@child_tab_content id="dropdown12" > 
+            <p>Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack lo-fi farm-to-table readymade.</p>
+        </@child_tab_content>
+        <@child_tab_content id="ddd3" > 
+            <p>hfieiiejjlkfjdsfl.</p>
+        </@child_tab_content>
+</@child_tab>
+```
 
-		        &lt;@child\_tab\_content id="home2" active="true"&gt; 
 
-		            &lt;p&gt;Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid.&lt;/p&gt;
-
-		        &lt;/@child\_tab\_content&gt;
-
-		        &lt;@child\_tab\_content id="profile2" &gt; 
-
-		            &lt;p&gt;Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid.&lt;/p&gt;
-
-		        &lt;/@child\_tab\_content&gt;
-
-		        &lt;@child\_tab\_content id="dropdown12" &gt; 
-
-		            &lt;p&gt;Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack lo-fi farm-to-table readymade.&lt;/p&gt;
-
-		        &lt;/@child\_tab\_content&gt;
-
-		        &lt;@child\_tab\_content id="ddd3" &gt; 
-
-		            &lt;p&gt;hfieiiejjlkfjdsfl.&lt;/p&gt;
-
-		        &lt;/@child\_tab\_content&gt;
-
-		&lt;/@child\_tab&gt;
 
