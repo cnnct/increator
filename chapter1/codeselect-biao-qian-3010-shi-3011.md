@@ -45,6 +45,8 @@
 > > **no\_show ：**不显示的option项，下标从0开始，和only\_show属性不能同时使用，如果同时使用，则两属性失效
 > >
 > > **only\_show ：**只显示的option项，下标从0开始，和no\_show属性不能同时使用，如果同时使用，则两属性失效
+> >
+> > code\_type \* :  指定查询sys\_code表中code\_type表字段的值作为数据加载时使用
 
 
 
