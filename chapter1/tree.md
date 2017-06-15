@@ -22,5 +22,5 @@
 <@tree size="12" id="but2" tree_id="tree2" name="valuetree2" sql_key="sysfunc8" checkbox_have="true"/>
 ```
 
-
+![](/assets/tree.png)
 
