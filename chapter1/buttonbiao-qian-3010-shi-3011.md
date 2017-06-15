@@ -22,5 +22,9 @@
 > >
 > > **onclick :** onclick属性
 
+ &lt;@button id="bbs"  size="1" value="查询" icon="search" onclick="ss\(\);"/&gt;
 
+       &lt;@button id="dd"  size="1" value="删除" icon="remove"/&gt;
+
+       &lt;@button id="rr"  size="1" value="重置" icon="repeat"/&gt;
 
