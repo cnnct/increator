@@ -26,17 +26,13 @@
 >
 > >choice\_have : choice\_have为是否需要第一项加入“--请选择--”这一项,可以填写的数值为"true","false",
 >
->> 默认值为false,
+>> 默认值为false,如果select\_more属性为true时,choice\_have必须为false,因为当select标签为多选标签时，默认加入了“--请选择--”项
 >
-> 如果select\_more属性为true时,choice\_have必须为false,因为当select标签为多选标签时，默认加入了“--前
+>> search\_have : search\_have为是否需要搜索框，该属性在select\_more属性为true时可用，可以填写的值
 >
-> 选择--”项
+>> 为"true","false",默认false
 >
-> search\_have : search\_have为是否需要搜索框，该属性在select\_more属性为true时可用，可以填写的值
->
-> 为"true","false",默认false
->
-> sql\_key  ：sql\_key为select标签后台执行的sql的key值，
+>> sql\_key  ：sql\_key为select标签后台执行的sql的key值，
 >
 > #### select标签的引入方式见form标签，必须配合form标签使用
 
