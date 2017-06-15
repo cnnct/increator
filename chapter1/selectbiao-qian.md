@@ -2,8 +2,6 @@
 
 #### select**标签的属性：**
 
-其中id、sql\_key、value\_field、show\_field为必填项
-
 ```
       select标签有12个属性分别为为id、name、size、readonly、label、select_more、choice_have、search_have、
 
