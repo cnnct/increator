@@ -2,22 +2,20 @@
 
 #### 级联标签：
 
->>级联标签包含两个标签，分别为cas\_select\_parent（级联顶级标签）、cas\_select\_child（级联子孙级标签）
+> > 级联标签包含两个标签，分别为cas\_select\_parent（级联顶级标签）、cas\_select\_child（级联子孙级标签）
 
-#### select**标签的属性 :**
+#### cas\_select\_parent**标签的属性 :**
 
-> select标签有13个属性分别为为id、name、size、readonly、label、select\_more、choice\_have、
+> cas\_select\_parent标签有8个属性分别为为id、name、size、label、sql\_key、value\_field、show\_field、child\_info；
 >
-> search\_have、sql\_condition、sql\_key、value\_field、show\_field、default\_val；**其中id、sql\_key、value\_field、 show\_field为必填项,下面必填项加上了\*号**；
+> **其中sql\_key、value\_field、 show\_field、child\_info为必填项,下面必填项加上了\*号**；
 >
-> > **id \*** **：** id属性
+> > **id ：** id属性
 > >
 > > **name ：** name属性
 > >
 > > **size ：** size为尺寸标签,可以填的数值范围为（1-12）,如size="6",select标签的默认size为5
-> >
-> > **readonly ：** readonly为只读属性,可以填写的数值为"true","false",默认为false
-> >
+>
 > > **label : **label为select标签的前缀标签属性,如label="name;true;2"；其中label属性中含有三个值，第一个值
 > >
 > > 为前缀标签的名字；第二个值为前缀标签是否加红色星号,即必填项标志；第三个值为前缀标签的尺寸,
