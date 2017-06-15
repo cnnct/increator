@@ -52,9 +52,9 @@
 
 ```
 <@select sql_key="syscode2"   id="sdf" sql_condition="ACC_RECHG_TYPE" name="name" show_field="CODE_NAME" value_field="CODE_VALUE" default_val="2" choice_have="true" size="6"/>
-	
+
 <@select sql_key="syscode1" name="name" id="hjdf" show_field="CODE_NAME" value_field="CODE_VALUE" default_val="0;1"   size="6" select_more="true" search_have="true"/>
 ```
 
-![](/assets/select.png)
+![](/assets/select.png)![](/assets/selectMore1.png)
 
