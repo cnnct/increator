@@ -23,16 +23,14 @@
 > > 可填的数值范围为（1-12）,默认尺寸为1；引入方式：label="name;true;2" ； label="name;true" ；
 > >
 > > label="name" ；label="name;;2" 即三个值都非必填项
-
+> >
 > > **sql\_key  \* ：**sql\_key属性为cas\_select\_parent标签后台执行的sql的key值；
-
+> >
 > > **value \_field \* : **value\_field属性是指cas\_select\_parent标签选项option的value值是由表中哪个字段来赋值；
 > >
 > > **show\_field \* :** show\_field属性是指cas\_select\_parent标签选项option的text值是用表中哪个字段来赋值；
 > >
-> > **child\_info \* :** child\_info属性是指cas\_select\_parent标签的默认选中值，下标从0开始，单select\_more 属性为“true”时，可以多选，
-> >
-> > 如default\_val="0;2",注意分隔符；
+> > **child\_info \* :** child\_info属性是cas\_select\_parent标签记录下一级的信息的属性；如child\_info="child,sysfunc3,TITLE,FUNC\_ID"
 
 
 
