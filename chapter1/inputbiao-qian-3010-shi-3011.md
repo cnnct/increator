@@ -3,7 +3,7 @@
 #### input**标签的属性 :**
 
 > input标签有7个属性分别为为id、name、size、type、label、value、readonly
-
+>
 > > **id ** **：** id属性
 > >
 > > **name ：** name属性
@@ -12,7 +12,7 @@
 > >
 > > **type : **type属性，默认为“text”
 > >
-> > **value \* : ** value属性主要为button显示的名字
+> > **value  : ** value属性主要为button显示的名字
 > >
 > > **icon : **icon属性为button中的图标样式，默认为“search”，可填的数值详见bootstrap官网
 > >
