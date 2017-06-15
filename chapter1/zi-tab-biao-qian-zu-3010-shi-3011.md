@@ -6,9 +6,9 @@
 
 #### child\_tab**标签的属性 :**
 
-> child\_tab标签有4个属性分别为为id、name、size、label、sql\_key、value\_field、show\_field、child\_info；
+> child\_tab标签有4个属性分别为为id、name、size、title；
 >
-> **其中sql\_key、value\_field、 show\_field、child\_info为必填项,下面必填项加上了\*号**；
+> **其中title为必填项,下面必填项加上了\*号**；
 >
 > > **id ：** id属性
 > >
