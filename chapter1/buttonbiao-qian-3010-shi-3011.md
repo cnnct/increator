@@ -18,10 +18,8 @@
 > >
 > > **value \* : ** value属性主要为button显示的名字
 > >
-> > **icon : **icon属性为button中的图标样式，默认为“search”，可填的数值详见bootstrap官网 
-> >
-> > 因为当select标签为多选标签时，默认加入了“--请选择--”项
-> >
+> > **icon : **icon属性为button中的图标样式，默认为“search”，可填的数值详见bootstrap官网
+>
 > > **search\_have :** search\_have为是否需要搜索框，该属性在select\_more属性为true时可用，可以填写的值
 > >
 > > 为"true","false",默认false
