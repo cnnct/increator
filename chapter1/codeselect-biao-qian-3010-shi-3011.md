@@ -1,6 +1,6 @@
-# Select**标签**
+# code\_select**标签**
 
-#### select**标签的属性 :**
+#### code\_select**标签的属性 :**
 
 > select标签有13个属性分别为为id、name、size、readonly、label、select\_more、choice\_have、
 >
