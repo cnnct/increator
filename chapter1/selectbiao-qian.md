@@ -4,7 +4,7 @@
 
 ```
       select标签有12个属性分别为为id、name、size、readonly、label、select_more、choice_have、search_have、sql_condition、
-      
+
             sql_key、value_field、show_field；其中id、sql_key、value_field、show_field为必填项,下面必填项加上了*号；
 
       id * ： id属性
@@ -21,7 +21,7 @@
 
               引入方式：label="name;true;2" ; label="name;true" ; label="name" label="name;;2" 即三个值都非必填项
 
-      select_more : select_more
+      select_more : select_more为是否多选，可以填的数值为"true","false",默认为false
 ```
 
 #### select标签的引入方式见form标签，必须配合form标签使用
