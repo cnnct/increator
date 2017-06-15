@@ -1,7 +1,7 @@
 # Select**标签**
 
 #### select**标签的属性**
-
+<p>
 * select标签有12个属性分别为为id、name、size、readonly、label、select\_more、choice\_have、
 * search\_have、sql\_condition、sql\_key、value\_field、show\_field；其中id、sql\_key、value\_field、
 * show\_field为必填
@@ -23,7 +23,7 @@
   * search\_have : search\_have为是否需要搜索框，该属性在select\_more属性为true时可用，可以填写的值
   * 为"true","false",默认false
   * sql\_key  ：sql\_key为select标签后台执行的sql的key值，
-
+</p>
 #### select标签的引入方式见form标签，必须配合form标签使用
 
 
