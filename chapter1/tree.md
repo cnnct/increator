@@ -21,8 +21,6 @@
 > > label="name" ；label="name;;2" 即三个值都非必填项
 > >
 > > sql\_key**: ** value属性
-> >
-> > **readonly ：** readonly为只读属性,可以填写的数值为"true","false",默认为false
 
 #### input标签的引入方式 :
 
