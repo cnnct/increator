@@ -26,11 +26,9 @@
 
 #### input标签的引入方式 :
 
-&lt;@input label="邮编;true;2" id="name" name="name"  type="text" size="4"  /&gt;
-
 ```
     <@input label="邮编;true;2" id="name" name="name"  type="text" size="4"  />
-    
+
     <@input label="邮件;true;2" id="email" name="email"  type="email" size="4" />
 ```
 
