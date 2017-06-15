@@ -16,7 +16,7 @@
 > >
 > > **size ：** size为尺寸标签,可以填的数值范围为（1-12）,如size="6",child\_tab标签的默认size为12
 > >
-> > title**\* :** title属性是child\_tab标签记录下一级的信息的属性；
+> > title**\* :** title属性是child\_tab标签记录包含tab页的id值；
 > >
 > > 如child\_info="child;sysfunc3;TITLE;FUNC\_ID",其中第一项为子级的id，第二项为子级加载数据要执行的sql\_key的值，第三
 > >
