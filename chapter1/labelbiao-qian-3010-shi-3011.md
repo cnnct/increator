@@ -1,8 +1,8 @@
-# labell**标签**
+# label**标签**
 
-#### span**标签的属性 :**
+#### label**标签的属性 :**
 
-> span标签有3个属性分别为为id、name、class
+> label标签有3个属性分别为为size、name、must\_star
 >
 > > **id ** **：** id属性
 > >
