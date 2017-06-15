@@ -2,7 +2,7 @@
 
 #### tree**标签的属性 :**
 
-> tree标签有7个属性分别为为id、name、size、type、label、value、readonly
+> tree标签有7个属性分别为为id、name、size、checkbox\_have、tree\_id、sql\_key
 >
 > > **id ** **：** id属性
 > >
