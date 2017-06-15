@@ -13,6 +13,8 @@
 #### span标签的引入方式 :
 
 ```
+   <@span>属性显示</@span>
+    
    <@span class="text-warning">属性显示1</@span>
 
    <@span class="text-error">属性显示2</@span>
