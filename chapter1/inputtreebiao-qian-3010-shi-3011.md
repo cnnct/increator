@@ -3,7 +3,7 @@
 #### input\_tree**标签的属性 :**
 
 > input\_tree标签有6个属性分别为为id、name、size、checkbox\_have、tree\_id、sql\_key，**其中id、tree\_id、sql\_key为必填项**
-
+>
 > > **id ** \* **：** id属性
 > >
 > > **name ：** name属性
@@ -16,7 +16,7 @@
 > >
 > > **sql\_key \* : ** sql\_key属性为select标签后台执行的sql的key值
 
-#### tree标签的引入方式 :
+#### input\_tree标签的引入方式 :
 
 
 
