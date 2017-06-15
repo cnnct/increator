@@ -4,7 +4,7 @@
 
 > > 子tab标签组包含两个标签，分别为child\_tab（子tab标签最外层）、child\_tab\_content（子tab标签内容包裹层）
 
-#### cas\_select\_parent**标签的属性 :**
+#### child\_tab**标签的属性 :**
 
 > cas\_select\_parent标签有8个属性分别为为id、name、size、label、sql\_key、value\_field、show\_field、child\_info；
 >
