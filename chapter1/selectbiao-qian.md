@@ -14,21 +14,21 @@
 >
 > >readonly ： readonly为只读属性,可以填写的数值为"true","false",默认为false
 >
-> >label : label为select标签的前缀标签属性,如label="name;true;2"；其中label属性中含有三个值，第一个值> >为前缀标签的名字；第二个值为前缀标签是否加红色星号,即必填项标志；第三个值为前缀标签的尺寸,可填的数值范围为（1-12）,默认尺寸为1
+> >label : label为select标签的前缀标签属性,如label="name;true;2"；其中label属性中含有三个值，第一个值
 >
-> 1；引入方式：label="name;true;2" ; label="name;true" ; label="name" label="name;;2" 即三个值都
+> >为前缀标签的名字；第二个值为前缀标签是否加红色星号,即必填项标志；第三个值为前缀标签的尺寸,可填的数值范
+> 
+> >围为（1-12）,默认尺寸为1；引入方式：label="name;true;2" ; label="name;true" ; label="name" 
 >
-> 非必填项
+> >label="name;;2" 即三个值都非必填项
 >
-> select\_more : select\_more为是否多选,可以填的数值为"true","false",默认为false，和choice\_have、
+> >select\_more : select\_more为是否多选,可以填的数值为"true","false",默认为false，和choice\_have、
 >
-> search\_have属性配合使用
+> >search\_have属性配合使用
 >
-> choice\_have : choice\_have为是否需要第一项加入“--请选择--”这一项,可以填写的数值为"true","false",
+> >choice\_have : choice\_have为是否需要第一项加入“--请选择--”这一项,可以填写的数值为"true","false",
 >
-> 默认值
->
-> 为false,
+>> 默认值为false,
 >
 > 如果select\_more属性为true时,choice\_have必须为false,因为当select标签为多选标签时，默认加入了“--前
 >
