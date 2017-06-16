@@ -4,7 +4,7 @@
 
 > input标签有7个属性分别为为id、name、size、type、label、value、readonly
 >
-> > **id ：** id属性
+> >** id ：** id属性
 > >
 > > **name ：** name属性
 > >
