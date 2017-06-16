@@ -51,5 +51,11 @@
 
 #### ![](/assets/form.png)form表单的验证引入方式：
 
+![](/assets/validate1.png)
 
+![](/assets/validate2.png)
+
+自定义
+
+![](/assets/validate3.png)![](/assets/validate5.png)
 
