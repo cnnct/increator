@@ -1,4 +1,4 @@
-# toast**标签**
+# toast提示**标签**
 
 #### toast**标签的属性 :**
 
@@ -12,5 +12,5 @@
   Toast.show('Custom class alert shown');//js代码
 ```
 
-
+![](/assets/toast.png)
 

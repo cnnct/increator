@@ -17,7 +17,7 @@
   * [init\_page标签【施】](chapter1/initpage-biao-qian-3010-shi-3011.md)
   * [tree标签【施】](chapter1/tree.md)
   * [input\_tree标签【施】](chapter1/inputtreebiao-qian-3010-shi-3011.md)
-  * [toast标签【施】](chapter1/toastbiao-qian-3010-shi-3011.md)
+  * [toast提示标签【施】](chapter1/toastbiao-qian-3010-shi-3011.md)
 * [扩展表单控件【施、陆】](kuo-zhan-biao-dan-kong-jian.md)
 * [应用工具方法调用【施、陆】](ying-yong-gong-ju-fang-fa-diao-yong-3010-shi-3001-lu-3011.md)
   * [模态弹框【施】](ying-yong-gong-ju-fang-fa-diao-yong-3010-shi-3001-lu-3011/mo-tai-dan-kuang-3010-shi-3011.md)
