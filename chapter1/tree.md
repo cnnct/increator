@@ -32,7 +32,5 @@
 
 #### tree获取被勾选的节点的id的方法 :
 
-getCheckedNodesIds\(treeId\)
-
-
+     getCheckedNodesIds\(treeId\)
 
