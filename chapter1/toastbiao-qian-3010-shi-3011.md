@@ -8,6 +8,8 @@
 
 ```
   <@toast/>
+  
+  Toast.show('Custom class alert shown');
 ```
 
 
