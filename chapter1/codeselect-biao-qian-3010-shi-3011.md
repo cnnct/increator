@@ -14,7 +14,7 @@
 > >
 > > **readonly ：** readonly为只读属性,可以填写的数值为"true","false",默认为false
 > >
-> > **label : **label为select标签的前缀标签属性,如label="name;true;2"；其中label属性中含有三个值，第一个值
+> > **label : ** label为select标签的前缀标签属性,如label="name;true;2"；其中label属性中含有三个值，第一个值
 > >
 > > 为前缀标签的名字；第二个值为前缀标签是否加红色星号,即必填项标志；第三个值为前缀标签的尺寸,
 > >
@@ -22,7 +22,7 @@
 > >
 > > label="name" ；label="name;;2" 即三个值都非必填项
 > >
-> > **select\_more : **select\_more为是否多选,可以填的数值为"true","false",默认为false，和choice\_have、
+> > **select\_more : ** select\_more为是否多选,可以填的数值为"true","false",默认为false，和choice\_have、
 > >
 > > search\_have属性配合使用
 > >
@@ -42,9 +42,9 @@
 > >
 > > 如default\_val="0;2",注意分隔符；
 > >
-> > **no\_show ：**不显示的option项，下标从0开始，和only\_show属性不能同时使用，如果同时使用，则两属性失效
+> > **no\_show ：** 不显示的option项，下标从0开始，和only\_show属性不能同时使用，如果同时使用，则两属性失效
 > >
-> > **only\_show ：**只显示的option项，下标从0开始，和no\_show属性不能同时使用，如果同时使用，则两属性失效
+> > **only\_show ：** 只显示的option项，下标从0开始，和no\_show属性不能同时使用，如果同时使用，则两属性失效
 > >
 > > **code\_type \* : ** 指定查询sys\_code表中code\_type表字段的值作为数据加载时使用
 
