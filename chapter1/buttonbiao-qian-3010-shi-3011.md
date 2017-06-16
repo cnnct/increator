@@ -6,7 +6,7 @@
 >
 > **其中value为必填项,下面必填项加上了\*号**；
 >
-> > **id** ： id属性
+> > **id ：** id属性
 > >
 > > **name ：** name属性
 > >
@@ -16,7 +16,7 @@
 > >
 > > **type :** type属性，默认为“button”
 > >
-> > **value** : value属性主要为button显示的名字
+> > **value :** value属性主要为button显示的名字
 > >
 > > **icon :** icon属性为button中的图标样式，默认为“search”，可填的数值详见bootstrap官网
 > >
