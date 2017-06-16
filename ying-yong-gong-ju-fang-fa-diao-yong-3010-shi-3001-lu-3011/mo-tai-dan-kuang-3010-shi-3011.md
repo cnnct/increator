@@ -35,9 +35,12 @@
 
 ```
            prompt({ 
+                 
                  title: "What is your name?", 
+                 
                  callback: function(result){ 
-                    if(result){
+                 
+                       if(result){
                              alert("true");
                       }
                  }
