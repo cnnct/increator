@@ -35,7 +35,7 @@
 > > **active：** active属性为是否处于选中状态，可以填写的值为“true”，“false”，默认为false
 
 ```
- <@child_tab  id="myTab2" title="home2;profile2;dropdown12;ddd3">
+ <@child_tab  id="myTab2" tab_content_ids="home2;profile2;dropdown12;ddd3" tab_content_titles="home2;profile2;dropdown12;ddd3">
         <@child_tab_content id="home2" active="true"> 
             <p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid.</p>
         </@child_tab_content>
