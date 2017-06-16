@@ -6,7 +6,7 @@ gitbook官网：[www.gitbook.com](/www.gitbook.com)
 
 github官网：[https://github.com/](https://github.com/)
 
-github仓库地址：[https://github.com/iceaugust/increator.git](https://github.com/iceaugust/increator.git)
+github仓库地址：[https://github.com/cnnct/increator.git](https://github.com/iceaugust/increator.git)
 
 # 使用方法：
 
