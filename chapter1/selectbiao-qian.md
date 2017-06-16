@@ -22,7 +22,7 @@
 > >
 > > label="name" ；label="name;;2" 即三个值都非必填项
 > >
-> > **select\_more : **select\_more为是否多选,可以填的数值为"true","false",默认为false，和choice\_have、
+> > **select\_more :** select\_more为是否多选,可以填的数值为"true","false",默认为false，和choice\_have、
 > >
 > > search\_have属性配合使用
 > >
