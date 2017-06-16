@@ -30,5 +30,17 @@
         treeReload(treeId,treeData);//js代码
 ```
 
+#### input\_tree获取被勾选的节点的id的方法 :
+
+```
+        getCheckedNodesIds(treeId);//js代码，返回数组
+```
+
+#### input\_tree获取被勾选的节点的text的方法 :
+
+```
+        getCheckedNodesText(treeId);//js代码，返回字符串，以","分割
+```
+
 
 
