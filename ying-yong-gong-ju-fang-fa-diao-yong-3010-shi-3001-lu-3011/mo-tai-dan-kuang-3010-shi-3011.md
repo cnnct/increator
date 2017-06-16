@@ -46,3 +46,9 @@
 
 ![](/assets/prompt.png)
 
+
+
+#### load加载弹出框引入方式：
+
+
+
