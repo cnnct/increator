@@ -56,5 +56,5 @@
 <@select sql_key="syscode1" name="name" id="hjdf" show_field="CODE_NAME" value_field="CODE_VALUE" default_val="0;1"   size="6" select_more="true" search_have="true"/>
 ```
 
-![](/assets/select.png)![](/assets/selectMore1.png)
+![](/assets/select1.png)![](/assets/select2.png)
 
