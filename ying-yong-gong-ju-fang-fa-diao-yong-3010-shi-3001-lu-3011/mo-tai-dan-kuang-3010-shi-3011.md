@@ -29,5 +29,9 @@
            })
 ```
 
+![](/assets/confirm.png)
+
+#### prompt弹出框引入方式：
+
 
 
