@@ -4,7 +4,7 @@
 
 ```
             alert("Are you sure?");
-        
+
             alert({ 
                 title: "Destroy planet?",
                 message: "Are you sure?", 
@@ -44,5 +44,5 @@
              })
 ```
 
-
+![](/assets/prompt.png)
 
