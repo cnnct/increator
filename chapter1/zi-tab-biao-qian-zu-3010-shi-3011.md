@@ -18,7 +18,7 @@
 > >
 > > **tab\_content\_ids\* ：** tab\_content\_ids属性是child\_tab标签记录包含tab页的id值，即child\_tab\_content标签的id值，必须和child\_tab\_content一一对应，如title="home2;profile2;dropdown12;ddd3"；包含多少tab页，就填写几个id值，注意分隔符
 > >
-> > **tab\_content\_titles\*：**tab\_content\_titles属性是child\_tab标签记录包含tab页的title值
+> > **tab\_content\_titles\*：** tab\_content\_titles属性是child\_tab标签记录包含tab页的title值
 > >
 > > 如title="home2;profile2;dropdown12;ddd3"；包含多少tab页，就填写几个title值，注意分隔符
 
