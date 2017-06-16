@@ -54,5 +54,5 @@
             load('close');//关闭加载弹出框
 ```
 
-
+![](/assets/load.png)
 
