@@ -24,7 +24,11 @@
 
 ![](/assets/tree.png)
 
-#### tree的数据重新加载 :
+#### tree的数据重新加载方法 :
 
-     treeReload\("tree2",data.treeMsg\);
+```
+        treeReload(treeId,treeData);//js代码
+```
+
+
 
