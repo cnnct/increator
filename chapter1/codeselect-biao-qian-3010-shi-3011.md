@@ -51,7 +51,7 @@
 #### code\_select标签的引入方式 :
 
 ```
-<@code_select id="select-1" id="dsf" name="name" code_type="AREA_TYPE" default_val="1"  no_show="1"  size="6" choice_have="true" select_more="" />    
+<@code_select id="select-1" id="dsf" name="name" code_type="AREA_TYPE" default_val="3"  no_show="1"  size="6" choice_have="true" select_more="" />    
 
 <@code_select id="select-2" id="sdfs" name="name" code_type="AREA_TYPE" default_val="1;2"   size="6"  select_more="true" search_have="true"/>
 ```
