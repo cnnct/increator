@@ -17,5 +17,23 @@
 
 #### confirm弹出框引入方式：
 
+ confirm\({ 
+
+                          title: "Destroy planet?",
+
+                          message: "Are you sure?", 
+
+                          callback: function\(result\){ 
+
+                          		if\(result\){
+
+                          			alert\("true"\);
+
+                          		}
+
+                          }
+
+                     }\)
+
 
 
