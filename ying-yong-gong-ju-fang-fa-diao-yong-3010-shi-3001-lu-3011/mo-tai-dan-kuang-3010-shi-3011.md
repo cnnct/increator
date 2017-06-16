@@ -50,8 +50,8 @@
 
 ```
             load();
-      
-            load('close');
+
+            load('close');//关闭加载弹出框
 ```
 
 
