@@ -38,5 +38,5 @@
 
 #### tree获取被勾选的节点的text的方法 :
 
-getCheckedNodesIds\(treeId\);//js代码
+    getCheckedNodesText\(treeId\)
 
