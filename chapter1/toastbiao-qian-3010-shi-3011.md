@@ -8,8 +8,8 @@
 
 ```
   <@toast/>
-  
-  Toast.show('Custom class alert shown');
+
+  Toast.show('Custom class alert shown');//js代码
 ```
 
 
