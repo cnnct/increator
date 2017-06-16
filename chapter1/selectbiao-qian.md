@@ -26,7 +26,7 @@
 > >
 > > search\_have属性配合使用
 > >
-> > ****choice\_have ：** choice\_have为是否需要第一项加入“--请选择--”这一项,可以填写的数值为"true","false",
+> > **choice\_have ：** choice\_have为是否需要第一项加入“--请选择--”这一项,可以填写的数值为"true","false",
 > >
 > > 默认值为false,如果select\_more属性为true时,choice\_have必须为false,
 > >
