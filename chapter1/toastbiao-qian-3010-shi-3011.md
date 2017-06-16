@@ -1,6 +1,6 @@
 # toast**标签**
 
-#### tree**标签的属性 :**
+#### toast**标签的属性 :**
 
 > tree标签有6个属性分别为为id、name、size、checkbox\_have、tree\_id、sql\_key，**其中id、tree\_id、sql\_key为必填项**
 >
