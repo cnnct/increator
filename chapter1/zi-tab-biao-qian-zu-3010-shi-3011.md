@@ -8,7 +8,7 @@
 
 > child\_tab标签有5个属性分别为为id、name、size、tab\_content\_ids、tab\_content\_titles；
 >
-> **其中**tab\_content\_ids、tab\_content\_titles**为必填项,下面必填项加上了\*号**；
+> **其中tab\_content\_ids、tab\_content\_titles为必填项,下面必填项加上了\*号**；
 >
 > > **id ：** id属性
 > >
