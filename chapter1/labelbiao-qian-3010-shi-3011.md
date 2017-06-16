@@ -8,7 +8,7 @@
 > >
 > > **name ：** name属性
 > >
-> > **must\_star ： must\_star **属性为是否加必填标志“\*”，可以填写的值为“true”，“false”，默认为false
+> > **must\_star ：** must\_star 属性为是否加必填标志“\*”，可以填写的值为“true”，“false”，默认为false
 
 #### 
 
