@@ -49,9 +49,9 @@
 #### load加载弹出框引入方式：
 
 ```
-      load();
+            load();
       
-      load('close');
+            load('close');
 ```
 
 
