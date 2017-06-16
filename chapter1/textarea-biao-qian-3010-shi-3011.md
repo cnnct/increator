@@ -4,7 +4,7 @@
 
 > text\_area标签有5个属性分别为为id、name、size、readonly、label
 >
-> > **id ** **：** id属性
+> > **id ：** id属性
 > >
 > > **name ：** name属性
 > >
