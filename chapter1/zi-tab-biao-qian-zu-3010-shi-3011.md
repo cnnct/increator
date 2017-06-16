@@ -6,7 +6,7 @@
 
 #### child\_tab**标签的属性 :**
 
-> child\_tab标签有4个属性分别为为id、name、size、title；
+> child\_tab标签有5个属性分别为为id、name、size、tab\_content\_ids、tab\_content\_titles；
 >
 > **其中title为必填项,下面必填项加上了\*号**；
 >
