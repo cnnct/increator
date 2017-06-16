@@ -16,7 +16,7 @@
 > >
 > > **label :** label为select标签的前缀标签属性,如label="name;true;2"；其中label属性中含有三个值，
 > >
-> >第一个值为前缀标签的名字；第二个值为前缀标签是否加红色星号,即必填项标志；第三个值为前缀标签的尺寸,
+> > 第一个值为前缀标签的名字；第二个值为前缀标签是否加红色星号,即必填项标志；第三个值为前缀标签的尺寸,
 > >
 > > 可填的数值范围为（1-12）,默认尺寸为1；引入方式：label="name;true;2" ； label="name;true" ；
 > >
@@ -36,7 +36,7 @@
 > >
 > > 为"true","false",默认false
 > >
-> >**sql\_key  \*：**sql\_key属性为select标签后台执行的sql的key值，sql可以是完整的，也可以是拥有“？”占位符的sql，配合sql\_condition属性使用；
+> > **sql\_** **key  \*** **：**sql\_key属性为select标签后台执行的sql的key值，sql可以是完整的，也可以是拥有“？”占位符的sql，配合sql\_condition属性使用；
 > >
 > > **sql\_condition :** sql\_condition属性用于配合sql\_key属性，当对应的后台sql需要传入参数替换“？”占位符时填写；
 > >
