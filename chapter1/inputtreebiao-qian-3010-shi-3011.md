@@ -10,11 +10,11 @@
 > >
 > > **size ：** size为尺寸标签,可以填的数值范围为（1-12）,如size="6",默认size为5
 > >
-> > **checkbox\_have : **为是否有复选框，默认false
+> > **checkbox\_have ：** 为是否有复选框，默认false
 > >
-> > **tree\_id \* :** tree树对象的id
+> > **tree\_id \* ：** tree树对象的id
 > >
-> > **sql\_key \* : ** sql\_key属性为select标签后台执行的sql的key值
+> > **sql\_key \* ：** sql\_key属性为select标签后台执行的sql的key值
 
 #### input\_tree标签的引入方式 :
 
