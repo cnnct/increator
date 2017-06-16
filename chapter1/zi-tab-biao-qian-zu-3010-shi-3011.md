@@ -35,17 +35,17 @@
 > > **active：** active属性为是否处于选中状态，可以填写的值为“true”，“false”，默认为false
 
 ```
- <@child_tab  id="myTab2" tab_content_ids="home2;profile2;dropdown12;ddd3" tab_content_titles="home2;profile2;dropdown12;ddd3">
-        <@child_tab_content id="home2" active="true"> 
+ <@child_tab  id="myTab2" tab_content_ids="home;profile;dropdown;ddd" tab_content_titles="home2;profile2;dropdown12;ddd3">
+        <@child_tab_content id="home" active="true"> 
             <p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid.</p>
         </@child_tab_content>
-        <@child_tab_content id="profile2" > 
+        <@child_tab_content id="profile" > 
             <p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid.</p>
         </@child_tab_content>
-        <@child_tab_content id="dropdown12" > 
+        <@child_tab_content id="dropdown" > 
             <p>Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack lo-fi farm-to-table readymade.</p>
         </@child_tab_content>
-        <@child_tab_content id="ddd3" > 
+        <@child_tab_content id="ddd" > 
             <p>hfieiiejjlkfjdsfl.</p>
         </@child_tab_content>
 </@child_tab>
