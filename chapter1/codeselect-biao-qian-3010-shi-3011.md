@@ -22,7 +22,7 @@
 > >
 > > label="name" ；label="name;;2" 即三个值都非必填项
 > >
-> > **select\_more : ** select\_more为是否多选,可以填的数值为"true","false",默认为false，和choice\_have、
+> > **select\_more :** select\_more为是否多选,可以填的数值为"true","false",默认为false，和choice\_have、
 > >
 > > search\_have属性配合使用
 > >
@@ -46,7 +46,7 @@
 > >
 > > **only\_show ：** 只显示的option项，下标从0开始，和no\_show属性不能同时使用，如果同时使用，则两属性失效
 > >
-> > **code\_type \* : ** 指定查询sys\_code表中code\_type表字段的值作为数据加载时使用
+> > **code\_type \* ：** 指定查询sys\_code表中code\_type表字段的值作为数据加载时使用
 
 #### code\_select标签的引入方式 :
 
