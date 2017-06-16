@@ -26,7 +26,5 @@
 
 #### tree的数据重新加载 :
 
-treeReload\("tree2",data.treeMsg\);
-
-
+     treeReload\("tree2",data.treeMsg\);
 
