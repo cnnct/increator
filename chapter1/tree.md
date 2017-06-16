@@ -30,5 +30,9 @@
         treeReload(treeId,treeData);//js代码
 ```
 
+#### tree获取被勾选的节点的id的方法 :
+
+getCheckedNodesIds\(treeId\)
+
 
 
