@@ -11,5 +11,11 @@
     });
 ```
 
-                                                  ![](/assets/alert1.png)
+![](/assets/alert1.png)
+
+![](/assets/alert2.png)
+
+#### confirm弹出框引入方式：
+
+
 
