@@ -38,5 +38,9 @@
 
 #### tree获取被勾选的节点的text的方法 :
 
-    getCheckedNodesText\(treeId\)
+```
+        getCheckedNodesText\(treeId\)
+```
+
+
 
