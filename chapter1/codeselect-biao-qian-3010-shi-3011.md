@@ -38,9 +38,9 @@
 > >
 > > **show\_field \* :** show\_field属性是指select标签选项option的text值是用表中哪个字段来赋值；
 > >
-> > **default\_val :** default\_val属性是指select标签的默认选中值，下标从0开始，单select\_more 属性为“true”时，可以多选，
+> > **default\_val :** default\_val属性是指select标签的默认选中值，该值为option的value值，单select\_more 属性为“true”时，可以多选，
 > >
-> > 如default\_val="0;2",注意分隔符；
+> > 如default\_val="1;2",注意分隔符；
 > >
 > > **no\_show ：** 不显示的option项，下标从0开始，和only\_show属性不能同时使用，如果同时使用，则两属性失效
 > >
