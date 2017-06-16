@@ -6,9 +6,9 @@
 
 #### child\_tab**标签的属性 :**
 
-> child\_tab标签有5个属性分别为为id、name、size、tab\_content\_ids、tab\_content\_titles；
+> child\_tab标签有4个属性分别为为id、name、size、title；
 >
-> **其中tab\_content\_ids、tab\_content\_titles为必填项,下面必填项加上了\*号**；
+> **其中title为必填项,下面必填项加上了\*号**；
 >
 > > **id ：** id属性
 > >
@@ -16,13 +16,9 @@
 > >
 > > **size ：** size为尺寸标签,可以填的数值范围为（1-12）,如size="6",child\_tab标签的默认size为12
 > >
-> > **tab\_content\_ids\* ：** tab\_content\_ids属性是child\_tab标签记录包含tab页的id值，即child\_tab\_content标签的id值，
+> > **title\* ：** title属性是child\_tab标签记录包含tab页的id值，即child\_tab\_content标签的id值，
 > >
 > > 如title="home2;profile2;dropdown12;ddd3"；包含多少tab页，就填写几个id值，注意分隔符
-> >
-> > **tab\_content\_titles\* ：** tab\_content\_titles属性是child\_tab标签记录包含tab页的title值，
-> >
-> > 如tab\_content\_titles="home2;profile2;dropdown12;ddd3"；包含多少tab页，就填写几个title值，注意分隔符
 
 #### child\_tab\_content**标签的属性 :**
 
@@ -34,7 +30,7 @@
 > >
 > > **name ：** name属性
 > >
-> > **active：** active属性为是否处于选中状态，可以填写的值为“true”，“false”，默认为false
+> >**active：** active属性为是否处于选中状态，可以填写的值为“true”，“false”，默认为false
 
 ```
  <@child_tab  id="myTab2" title="home2;profile2;dropdown12;ddd3">
