@@ -21,10 +21,10 @@
            confirm({ 
                 title: "Destroy planet?",
                 message: "Are you sure?", 
-                callback: function(result){ 
-                		if(result){
-                			alert("true");
-                		}
+                callback: function(result){ //回调函数
+                        if(result){
+                            alert("true");
+                        }
                 }
            })
 ```
