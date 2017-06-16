@@ -8,7 +8,7 @@
 > >
 > > **name ：** name属性
 > >
-> > **class : **class属性
+> > **class ： **class属性
 
 #### span标签的引入方式 :
 
