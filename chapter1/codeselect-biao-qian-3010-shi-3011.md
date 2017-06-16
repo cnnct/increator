@@ -42,7 +42,7 @@
 > >
 > > 如default\_val="1;2",注意分隔符；
 > >
-> > **no\_show ：** 不显示的option项，该值为option的value值，和only\_show属性不能同时使用，如果同时使用，则两属性失效
+> > **no\_show ：** 不显示的option项，该值为option的value值，no\_show ="1,2",**分隔符为“，”**和only\_show属性不能同时使用，如果同时使用，则两属性失效
 > >
 > > **only\_show ：** 只显示的option项，该值为option的value值，和no\_show属性不能同时使用，如果同时使用，则两属性失效
 > >
