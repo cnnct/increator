@@ -14,7 +14,7 @@
 > >
 > > **class：** class属性
 > >
-> > type : type属性，默认为“button”
+> > **type :** type属性，默认为“button”
 > >
 > > **value** : value属性主要为button显示的名字
 > >
