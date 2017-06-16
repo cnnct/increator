@@ -36,7 +36,7 @@
 > >
 > > 为"true","false",默认false
 > >
-> >**sql\_key  \*** **：**sql\_key属性为select标签后台执行的sql的key值，sql可以是完整的，也可以是拥有“？”占位符的sql，配合sql\_condition属性使用；
+> >**sql\_key  \*：**sql\_key属性为select标签后台执行的sql的key值，sql可以是完整的，也可以是拥有“？”占位符的sql，配合sql\_condition属性使用；
 > >
 > > **sql\_condition :** sql\_condition属性用于配合sql\_key属性，当对应的后台sql需要传入参数替换“？”占位符时填写；
 > >
