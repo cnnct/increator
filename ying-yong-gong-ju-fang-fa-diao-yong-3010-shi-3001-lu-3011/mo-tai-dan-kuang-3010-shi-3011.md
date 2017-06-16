@@ -33,5 +33,19 @@
 
 #### prompt弹出框引入方式：
 
+prompt\({ 
 
+                          title: "What is your name?", 
+
+                          callback: function\(result\){ 
+
+                             if\(result\){
+
+                          			alert\("true"\);
+
+                          	 }
+
+                          }
+
+                      }\)
 
