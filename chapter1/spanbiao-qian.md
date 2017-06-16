@@ -4,7 +4,7 @@
 
 > span标签有3个属性分别为为id、name、class
 >
-> > **id ** **：** id属性
+> > **id ：** id属性
 > >
 > > **name ：** name属性
 > >
