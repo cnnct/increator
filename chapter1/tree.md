@@ -1,4 +1,4 @@
-****# tree**标签**
+**\*\*\# tree**标签\*\*
 
 #### tree**标签的属性 :**
 
@@ -15,14 +15,13 @@
 > > **tree\_id \* ：** tree树对象的id
 > >
 > > **sql\_key \* ：** sql\_key属性为select标签后台执行的sql的key值
-
->> **sql\_condition :** sql_condition属性用于配合sql_key属性，当对应的后台sql需要传入参数替换“？”占位符时填写，也可以用登录用户的id替换占位符如sql_condition="ACC_RECHG_TYPE;session.operId",其中‘ACC_RECHG_TYPE’会用来替换第一个占位符，登录用户的id会用来替换第二个占位符；
-
+> >
+> > **sql\_condition :** sql\_condition属性用于配合sql\_key属性，当对应的后台sql需要传入参数替换“？”占位符时填写，也可以用登录用户的id替换占位符如sql\_condition="ACC\_RECHG\_TYPE;session.operId",其中‘ACC\_RECHG\_TYPE’会用来替换第一个占位符，登录用户的id会用来替换第二个占位符；
 
 #### tree标签的引入方式 :
 
 ```
-<@tree size="12" id="but2" tree_id="tree2" name="valuetree2" sql_key="sysfunc8" checkbox_have="true"/>
+<@tree size="12" id="but2" tree_id="tree2" name="valuetree2" sql_key="sysfunc8" checkbox_have="true" sql_condition="session.operId"/>
 ```
 
 ![](/assets/tree.png)
