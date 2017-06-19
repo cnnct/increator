@@ -11,7 +11,7 @@
 
 >>action： action属性
 
->>enctype: enctype属性，
+>>enctype: enctype属性，enctype="multipart/form-data"，用于文件上传
 
 #### form标签的引入方式如下：
 
