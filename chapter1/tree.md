@@ -16,7 +16,7 @@
 > >
 > > **sql\_key \* ：** sql\_key属性为select标签后台执行的sql的key值
 
->> **sql_condition :** sql_condition属性用于配合sql_key属性，当对应的后台sql需要传入参数替换“？”占位符时填写，也可以用登录用户的id替换占位符如sql_condition="ACC_RECHG_TYPE;session.operId",其中‘ACC_RECHG_TYPE’会用来替换第一个占位符，登录用户的id会用来替换第二个占位符；
+>> **sql\_condition :** sql_condition属性用于配合sql_key属性，当对应的后台sql需要传入参数替换“？”占位符时填写，也可以用登录用户的id替换占位符如sql_condition="ACC_RECHG_TYPE;session.operId",其中‘ACC_RECHG_TYPE’会用来替换第一个占位符，登录用户的id会用来替换第二个占位符；
 
 
 #### tree标签的引入方式 :
