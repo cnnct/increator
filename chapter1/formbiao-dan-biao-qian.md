@@ -69,7 +69,7 @@
 
 
 ![](/assets/validate3.png)
-####form表单的验证引入方式 :
+####form表单的验证显示效果 :
 ![](/assets/validate5.png)
 
 
