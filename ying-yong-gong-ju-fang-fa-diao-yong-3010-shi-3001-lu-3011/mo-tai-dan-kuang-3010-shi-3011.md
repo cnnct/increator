@@ -58,5 +58,6 @@
             load('close');//关闭加载弹出框
 ```
 
+#### load加载弹出框显示结果：
 ![](/assets/load.png)
 
