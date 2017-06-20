@@ -34,7 +34,13 @@
 
 #### 显示结果 :
 
-#### ![](/assets/input_tree .png)input\_tree的数据重新加载方法 :
+![](/assets/input_tree1.png)
+
+![](/assets/input_tree2.png)
+
+#### 
+
+#### input\_tree的数据重新加载方法 :
 
 ```
         treeReload(treeId,treeData);//js代码
