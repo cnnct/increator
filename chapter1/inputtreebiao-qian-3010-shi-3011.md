@@ -26,7 +26,9 @@
 <@input_tree label="多选树" size="5" id="but1" tree_id="tree1" name="valuetree1" sql_key="sysfunc7" checkbox_have="true"/>
 ```
 #### 对应sql语句 :
+
 #### 显示结果 :
+
 #### ![](/assets/input_tree .png)input\_tree的数据重新加载方法 :
 
 ```
