@@ -55,7 +55,7 @@
 
 <@code_select id="select-2" id="sdfs" name="name" code_type="AREA_TYPE" default_val="1;2"   size="6"  select_more="true" search_have="true"/>
 ```
-#### code\_select标签的显示效果 :
+#### code\_select标签的显示结果 :
 
 
 ![](/assets/code_select1.png)![](/assets/code_select2.png)
