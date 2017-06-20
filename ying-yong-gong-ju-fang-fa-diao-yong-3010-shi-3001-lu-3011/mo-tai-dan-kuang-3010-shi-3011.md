@@ -47,6 +47,7 @@
              })
 ```
 
+#### prompt弹出框显示结果：
 ![](/assets/prompt.png)
 
 #### load加载弹出框引入方式：
