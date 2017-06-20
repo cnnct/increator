@@ -17,11 +17,8 @@
 #### select标签的引入方式 :
 
 ```
-   <@button id="bbs"  size="1" value="查询" icon="search" onclick="ss();"/>
+   <@date_time id="bbs"  size="1" value="查询" icon="search" onclick="ss();"/>
 
-   <@button id="dd"  size="1" value="删除" icon="remove"/>
-
-   <@button id="rr"  size="1" value="重置" icon="repeat"/>
 ```
 
 
