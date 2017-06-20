@@ -1,6 +1,6 @@
 # **Form标签**
 
-#### **form标签的属性：**
+#### **form标签的属性 :**
 
 > form标签有5个属性分别为id、class、name、action,enctype**其中id属性为必填项**；  
 > >**id \* ：** id属性
@@ -13,7 +13,7 @@
 > >
 > > **enctype:** enctype属性，enctype="multipart/form-data"，用于文件上传
 
-#### form标签的引入方式如下：
+#### form标签的引入方式如下 :
 
 ```html
     <@form id="demoform" name="demoform" action="userLogin.do" >
