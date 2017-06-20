@@ -12,6 +12,6 @@
   Toast.show('Custom class alert shown');//js代码
 ```
 
-#### toast标签显示结果 :
+#### toast标签的显示结果 :
 ![](/assets/toast.png)
 
