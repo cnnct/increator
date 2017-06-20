@@ -24,6 +24,8 @@
 <@tree size="12" id="but2" tree_id="tree2" name="valuetree2" sql_key="sysfunc8" checkbox_have="true" sql_condition="session.operId"/>
 ```
 #### 对应sql语句 :
+
+#### 显示结果 :
 ![](/assets/tree.png)
 
 #### tree的数据重新加载方法 :
