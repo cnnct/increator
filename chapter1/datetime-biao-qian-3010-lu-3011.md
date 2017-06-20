@@ -1,6 +1,6 @@
 # date\_time**标签**
 
-#### button**标签的属性 :**
+#### date\_time**标签的属性 :**
 
 > date\_time标签有4个属性分别为为id、name、size、label；
 >
