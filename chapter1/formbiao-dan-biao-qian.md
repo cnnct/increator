@@ -58,9 +58,10 @@
         </@form>
 ```
 
-#### ![](/assets/form.png)form表单的验证引入方式 :
+#### ![](/assets/form.png)form表单的引入方式 :
 
 ![](/assets/validate1.png)
+#### ![](/assets/form.png)form表单显示结果 :
 
 ![](/assets/validate2.png)
 
