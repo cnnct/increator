@@ -32,7 +32,7 @@
 SELECT
     sf.FUNC_ID AS id,
     sf.PARENT_ID AS pId,
-    sf.TITLE AS NAME,
+    sf.TITLE AS name,
     (
         CASE
         WHEN sf.FUNC_ID IN (
