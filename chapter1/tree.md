@@ -46,7 +46,8 @@ SELECT
                 srf.ROLE_ID = sr.ROLE_ID
             AND     
                 sor.ROLE_ID = sr.ROLE_ID
-            AND      sor.OPER_ID = ?
+            AND      
+                sor.OPER_ID = ?
         ) THEN
             'true'
         ELSE
