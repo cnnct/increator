@@ -55,9 +55,12 @@
 
 <@select sql_key="syscode1" name="name" id="hjdf" show_field="CODE_NAME" value_field="CODE_VALUE" default_val="1;2"   size="6" select_more="true" search_have="true"/>
 ```
+
 #### 对应sql语句 :
 
-####显示结果:
+![](/assets/select_sql.png)
+
+#### 显示结果:
 
 ![](/assets/select1.png)![](/assets/select2.png)
 
