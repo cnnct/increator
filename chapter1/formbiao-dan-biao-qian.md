@@ -66,5 +66,10 @@
 
 自定义表单正则表达式验证，文件名为custom\_validate.js
 
-![](/assets/validate3.png)![](/assets/validate5.png)
+
+
+![](/assets/validate3.png)
+####form表单的验证引入方式：
+![](/assets/validate5.png)
+
 
