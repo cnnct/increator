@@ -14,7 +14,7 @@
 > >
 > > label**：** 标签属性，如果为空说明没有
 
-#### select标签的引入方式 :
+#### date\_time标签的引入方式 :
 
 ```
    <@date_time id="start_time" name="start_time_name" size="3" />
