@@ -17,8 +17,7 @@
 #### select标签的引入方式 :
 
 ```
-   <@date_time id="bbs"  size="1" value="查询" icon="search" onclick="ss();"/>
-
+   <@date_time id="start_time" name="start_time_name" size="3" />
 ```
 
 
