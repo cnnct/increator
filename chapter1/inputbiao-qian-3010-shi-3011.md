@@ -32,5 +32,6 @@
     <@input label="邮件;true;2" id="email" name="email"  type="email" size="4" />
 ```
 
+#### input标签的显示结果:
 ![](/assets/input.png)
 

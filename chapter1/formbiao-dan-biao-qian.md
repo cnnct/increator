@@ -1,6 +1,6 @@
 # **Form标签**
 
-#### **form标签的属性：**
+#### **form标签的属性 :**
 
 > form标签有5个属性分别为id、class、name、action,enctype**其中id属性为必填项**；  
 > >**id \* ：** id属性
@@ -13,7 +13,7 @@
 > >
 > > **enctype:** enctype属性，enctype="multipart/form-data"，用于文件上传
 
-#### form标签的引入方式如下：
+#### form标签的引入方式如下 :
 
 ```html
     <@form id="demoform" name="demoform" action="userLogin.do" >
@@ -58,13 +58,19 @@
         </@form>
 ```
 
-#### ![](/assets/form.png)form表单的验证引入方式：
+#### ![](/assets/form.png)form表单的引入方式 :
 
 ![](/assets/validate1.png)
+#### ![](/assets/form.png)form表单显示结果 :
 
 ![](/assets/validate2.png)
 
 自定义表单正则表达式验证，文件名为custom\_validate.js
 
-![](/assets/validate3.png)![](/assets/validate5.png)
+
+
+![](/assets/validate3.png)
+####form表单的验证显示结果 :
+![](/assets/validate5.png)
+
 

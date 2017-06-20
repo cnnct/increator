@@ -50,6 +50,7 @@
         </@child_tab_content>
 </@child_tab>
 ```
+#### 显示结果 :
 
 ![](/assets/tab.png)
 
