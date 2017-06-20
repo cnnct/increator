@@ -73,6 +73,8 @@
 
        <@cas_select_child  label="级联4：;false" id="padson"  name="padson"/>
 ```
+####对应sql语句 ：
 
+####显示结果 :
 ![](/assets/casSelect.png)
 
