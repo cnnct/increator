@@ -26,7 +26,57 @@
 
 #### 对应sql语句 :
 
-![](/assets/tree_sql.png)上图中红色别名必须有，且区分大小，分别对应树节点的id，父级id，和显示的text名
+![](/assets/tree_sql.png)SELECT
+
+	sf.FUNC\_ID AS id,
+
+	sf.PARENT\_ID AS pId,
+
+	sf.TITLE AS NAME,
+
+	\(
+
+		CASE
+
+		WHEN sf.FUNC\_ID IN \(
+
+			SELECT
+
+				srf.FUNC\_ID
+
+			FROM
+
+				sys\_role\_func srf,
+
+				sys\_role sr,
+
+				sys\_oper\_role sor
+
+			WHERE
+
+				srf.ROLE\_ID = sr.ROLE\_ID
+
+			AND sor.ROLE\_ID = sr.ROLE\_ID
+
+			AND sor.OPER\_ID = ?
+
+		\) THEN
+
+			'true'
+
+		ELSE
+
+			'false'
+
+		END
+
+	\) AS checked
+
+FROM
+
+	sys\_func sf
+
+**上图中红色别名必须有，且区分大小，分别对应树节点的id，父级id，和显示的text名**
 
 #### 显示结果 :
 
