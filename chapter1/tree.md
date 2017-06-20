@@ -30,33 +30,32 @@
 
 ```
 SELECT
-	sf.FUNC_ID AS id,
-	sf.PARENT_ID AS pId,
-	sf.TITLE AS NAME,
-	(
-		CASE
-		WHEN sf.FUNC_ID IN (
-			SELECT
-				srf.FUNC_ID
-			FROM
-				sys_role_func srf,
-				sys_role sr,
-				sys_oper_role sor
-			WHERE
-				srf.ROLE_ID = sr.ROLE_ID
-			AND 	sor.ROLE_ID = sr.ROLE_ID
-			AND  	sor.OPER_ID = ?
-		) THEN
-			'true'
-		ELSE
-			'false'
-		END
-	) AS checked
+    sf.FUNC_ID AS id,
+    sf.PARENT_ID AS pId,
+    sf.TITLE AS NAME,
+    (
+        CASE
+        WHEN sf.FUNC_ID IN (
+            SELECT
+                srf.FUNC_ID
+            FROM
+                sys_role_func srf,
+                sys_role sr,
+                sys_oper_role sor
+            WHERE
+                srf.ROLE_ID = sr.ROLE_ID
+            AND     
+                sor.ROLE_ID = sr.ROLE_ID
+            AND      sor.OPER_ID = ?
+        ) THEN
+            'true'
+        ELSE
+            'false'
+        END
+    ) AS checked
 FROM
-	sys_func sf
+    sys_func sf
 ```
-
-
 
 **上图中红色别名必须有，且区分大小，分别对应树节点的id，父级id，和显示的text名**
 
