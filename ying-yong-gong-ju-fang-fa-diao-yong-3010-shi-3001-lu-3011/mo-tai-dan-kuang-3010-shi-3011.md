@@ -10,6 +10,7 @@
                 message: "Are you sure?", 
             });
 ```
+#### alert弹出框显示结果：
 
 ![](/assets/alert1.png)
 
