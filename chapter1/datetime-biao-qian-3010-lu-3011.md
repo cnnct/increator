@@ -20,7 +20,7 @@
    <@date_time id="start_time" name="start_time_name" size="3" label="开始时间" />
 ```
 
-#### date\_time标签显示效果图：
+#### date\_time标签显示效果图:
 
 ![](/assets/date_time.png)
 
