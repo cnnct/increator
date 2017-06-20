@@ -2,7 +2,7 @@
 
 #### button**标签的属性 :**
 
-> button标签有8个属性分别为为id、name、size、label、size；
+> button标签有8个属性分别为为id、name、size、label；
 >
 > **其中value为必填项,下面必填项加上了\*号**；
 >
