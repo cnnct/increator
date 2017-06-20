@@ -22,7 +22,7 @@
 > >
 > > **onclick :** onclick属性
 
-#### select标签的引入方式 :
+#### button标签的引入方式 :
 
 ```
    <@button id="bbs"  size="1" value="查询" icon="search" onclick="ss();"/>
