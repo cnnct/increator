@@ -30,6 +30,8 @@
 
 ![](/assets/input_tree_sql.png)
 
+**上图中红色别名必须有，且区分大小，分别对应 : 树节点的id，父级id，和显示的text名**
+
 #### 显示结果 :
 
 #### ![](/assets/input_tree .png)input\_tree的数据重新加载方法 :
