@@ -17,7 +17,7 @@
 #### date\_time标签的引入方式 :
 
 ```
-   <@date_time id="start_time" name="start_time_name" size="3" />
+   <@date_time id="start_time" name="start_time_name" size="3" label="开始时间" />
 ```
 
 
