@@ -10,9 +10,9 @@
 > >
 > > **name ：** name属性
 > >
-> > **default\_val：** 默认选中
+> > \***code\_type：** 是否可选
 > >
-> > **readonly：** 是否可选
+> > **default\_val：** 默认选中
 > >
 > > \***sql\_key：** SQL语句对应的key
 > >
