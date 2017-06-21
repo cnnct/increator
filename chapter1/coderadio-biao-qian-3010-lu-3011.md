@@ -16,9 +16,9 @@
 > >
 > > **readonly：** SQL语句对应的key
 > >
-> > \***show\_field：** 显示名对应的字段
+> > **no\_show：** 显示名对应的字段
 > >
-> > \***value\_field：** 值对应的字段
+> > **only\_show：** 值对应的字段
 > >
 > > **size ：** size为尺寸标签,可以填的数值范围为（1-12）,如size="6",button标签的默认size为1
 
