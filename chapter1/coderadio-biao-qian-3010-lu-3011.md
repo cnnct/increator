@@ -14,7 +14,7 @@
 > >
 > > **default\_val：** 默认选中
 > >
-> > **sreadonly：** SQL语句对应的key
+> > **readonly：** SQL语句对应的key
 > >
 > > \***show\_field：** 显示名对应的字段
 > >
