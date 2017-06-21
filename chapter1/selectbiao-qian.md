@@ -42,7 +42,7 @@
 > >
 > > **\* value\_field  :** value\_field属性是指select标签选项option的value值是由表中哪个字段来赋值；
 > >
-> > **show\_field \* :** show\_field属性是指select标签选项option的text值是用表中哪个字段来赋值；
+> > **\*show\_field  :** show\_field属性是指select标签选项option的text值是用表中哪个字段来赋值；
 > >
 > > **default\_val :** default\_val属性是指select标签的默认选中值，该值为option的value值，当select\_more 属性为“true”时，可以多选，
 > >
