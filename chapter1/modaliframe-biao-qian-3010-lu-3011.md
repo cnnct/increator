@@ -21,54 +21,7 @@
     编辑(iframe)
   </button>
 
-  <@modal_body id="my_modal" modal_title="在线编辑" drag="true">
-    <form action="">
-      <div class="row top_margin_20">
-        <div class="col-xs-3">
-          <label for="">用户姓名<span class="must_star">*</span></label>
-          <input type="text" id="" class="form-control" placeholder="请输入姓名"></input>
-        </div>
-        <div class="col-xs-3">
-          <label for="">手机号码<span class="must_star">*</span></label>
-          <input type="text" id="" class="form-control" placeholder="请输入手机号码"></input>
-        </div>
-        <div class="col-xs-3">
-          <label for="name">证件卡号<span class="must_star">*</span></label>
-          <input type="text" id="name" class="form-control" placeholder="请输入证件卡号"></input>
-        </div>
-        <div class="col-xs-3">
-          <label for="">市民卡号<span class="must_star">*</span></label>
-          <input type="text" id="" class="form-control" placeholder="请输入市民卡号"></input>
-        </div>
-      </div>
-      <div class="row top_margin_20">
-        <div class="col-xs-3">
-          <label for="">证件类型<span class="must_star">*</span></label>
-          <select name="" class="form-control">
-            <option value="">全部</option>
-            <option value="">身份证</option>
-          </select>
-        </div>
-      </div>
-      <div class="row top_margin_20">
-        <div class="col-xs-4">
-          <label for="">实名<span class="must_star">*</span></label>
-          <select name="" class="form-control">
-            <option value="">全部</option>
-          </select>
-        </div>
-        <div class="col-xs-4">
-          <label for="">绑卡<span class="must_star">*</span></label>
-          <select name="" class="form-control">
-            <option value="">全部</option>
-          </select>
-        </div>
-      </div>
-    </form>
-  </@modal_body>
-  <@modal_foot>
-    <a type="submit" class="btn btn-primary" data-dismiss="modal">提交更改</a>
-  </@modal_foot>
+  <@modal_iframe id="my_modal_lg_edit" modal_title="编辑操作员" class="modal-lg" drag="true" />
 ```
 
 #### modal\_iframe标签显示效果图 :
