@@ -17,7 +17,7 @@
 #### modal\_body和modal\_foot标签的引入方式 :
 
 ```
-<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#my_modal">
+  <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#my_modal">
            编辑
   </button>
 
