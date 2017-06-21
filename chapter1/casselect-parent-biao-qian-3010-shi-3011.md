@@ -24,7 +24,7 @@
 > >
 > > label="name" ；label="name;;2" 即三个值都非必填项
 > >
-> > **sql\_key  \* ：** sql\_key属性为cas\_select\_parent标签后台执行的sql的key值；
+> > **\* sql\_key  ：** sql\_key属性为cas\_select\_parent标签后台执行的sql的key值；
 > >
 > > **value \_field \* ：** value\_field属性是指cas\_select\_parent标签选项option的value值是由表中哪个字段来赋值；
 > >
