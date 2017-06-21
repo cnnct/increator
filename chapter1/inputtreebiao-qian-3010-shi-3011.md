@@ -12,7 +12,7 @@
 > >
 > > **checkbox\_have ：** 为是否有复选框，默认false
 > >
-> > **tree\_id \* ：** tree树对象的id
+> > **\* tree\_id ：** tree树对象的id
 > >
 > > **sql\_key \* ：** sql\_key属性为select标签后台执行的sql的key值
 > >
