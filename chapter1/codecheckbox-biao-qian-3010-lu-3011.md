@@ -25,7 +25,7 @@
 #### code\_checkbox标签的引入方式 :
 
 ```
-<@code_radio id="code_type1" name="code_type1_name" code_type="ORDER_STATE" default_val="28" readonly="true" no_show="19,71" only_show="09,28,58,18,41,71" size="12" />
+<@code_checkbox id="code_type2" name="code_type2_name" code_type="ORDER_STATE" default_val="09,28,58" readonly="true" no_show="19,71" only_show="09,28,58,18,41,71" size="12" />
 ```
 
 #### code\_checkbox标签显示效果图 :
