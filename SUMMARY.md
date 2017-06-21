@@ -25,6 +25,11 @@
   * [code\_checkbox标签【陆】](chapter1/codecheckbox-biao-qian-3010-lu-3011.md)
   * [search\_input标签【陆】](chapter1/searchinput-biao-qian-3010-lu-3011.md)
   * [dual\_select\_list标签【陆】](chapter1/dualselect-list-biao-qian-3010-lu-3011.md)
+  * [modal\_body和modal\_foot标签【陆】](chapter1/modalbody-biao-qian-3010-lu-3011.md)
+  * [modal\_iframe标签【陆】](chapter1/modaliframe-biao-qian-3010-lu-3011.md)
+  * oper\_button标签【陆】
+  * file\_mult\_upload标签【陆】
+  * search\_tree标签【陆】
 * [扩展表单控件【施、陆】](kuo-zhan-biao-dan-kong-jian.md)
 * [应用工具方法调用【施、陆】](ying-yong-gong-ju-fang-fa-diao-yong-3010-shi-3001-lu-3011.md)
   * [模态弹框【施】](ying-yong-gong-ju-fang-fa-diao-yong-3010-shi-3001-lu-3011/mo-tai-dan-kuang-3010-shi-3011.md)
