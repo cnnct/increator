@@ -1,6 +1,6 @@
 # modal\_body和modal\_foot**标签**
 
-#### modal\_body**标签的属性 :**
+#### modal\_body**标签的属性 :（**modal\_foot标签无属性**）**
 
 > dual\_select\_list标签有6个属性
 >
