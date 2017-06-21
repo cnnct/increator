@@ -30,5 +30,5 @@
 
 #### radio标签显示效果图 :
 
-![](/assets/date_time.png)
+![](/assets/radio.png)
 
