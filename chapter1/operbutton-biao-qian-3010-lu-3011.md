@@ -21,7 +21,7 @@
 #### oper\_button标签的引入方式 :
 
 ```
-<@radio id="bs_city1" name="bs_city1_name" default_val="331081100000" readonly="true" sql_key="bs_city1" show_field="city_name" value_field="city_id" size="12" />
+<@oper_button id="oper_button" name="oper_button_name" size="3" icon="saved" value="提交" url="/tag/searchInput" onclick="test('a')" />
 ```
 
 #### oper\_button标签显示效果图 :
