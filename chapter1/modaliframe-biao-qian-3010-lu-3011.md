@@ -22,11 +22,11 @@
   </button>
 
   <@modal_iframe id="my_modal_lg_edit" modal_title="编辑操作员" class="modal-lg" drag="true" />
-  
+
   <script>
-   function test() {
+    function test() {
       $("#my_modal_lg_edit_iframe").attr("src","${base}/login/userLogin");
-   }
+    }
   </script>
 ```
 
