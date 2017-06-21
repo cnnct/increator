@@ -28,9 +28,9 @@
 > >
 > > **\* value \_field ：** value\_field属性是指cas\_select\_parent标签选项option的value值是由表中哪个字段来赋值；
 > >
-> > **show\_field \* ：** show\_field属性是指cas\_select\_parent标签选项option的text值是用表中哪个字段来赋值；
+> > **\* show\_field ：** show\_field属性是指cas\_select\_parent标签选项option的text值是用表中哪个字段来赋值；
 > >
-> > **child\_info \* ：** child\_info属性是cas\_select\_parent标签记录下一级的信息的属性；
+> > **\* child\_info ：** child\_info属性是cas\_select\_parent标签记录下一级的信息的属性；
 > >
 > > 如child\_info="child;sysfunc3;TITLE;FUNC\_ID",其中第一项为子级的id，第二项为子级加载数据要执行的sql\_key的值，第三
 > >
