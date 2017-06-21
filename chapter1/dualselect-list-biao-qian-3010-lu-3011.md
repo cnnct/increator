@@ -24,7 +24,9 @@
 <@dual_select_list id="dualSelectOrgName" name="dualSelectOrgName_name" show_field="org_name" value_field="org_id" sql_key="org_name2" size="8" />
 ```
 
-#### dual\_select\_list标签显示效果图 :![](/assets/dual_select_list.png)
+#### dual\_select\_list标签显示效果图 :
+
+
 
 
 
