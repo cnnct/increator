@@ -25,7 +25,7 @@
 #### code\_radio标签的引入方式 :
 
 ```
-<@radio id="bs_city1" name="bs_city1_name" default_val="331081100000" readonly="true" sql_key="bs_city1" show_field="city_name" value_field="city_id" size="12" />
+<@code_radio id="code_type1" name="code_type1_name" code_type="ORDER_STATE" default_val="28" readonly="true" no_show="19,71" only_show="09,28,58,18,41,71" size="12" />
 ```
 
 #### code\_radio标签显示效果图 :
