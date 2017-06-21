@@ -28,7 +28,7 @@
   * [modal\_body和modal\_foot标签【陆】](chapter1/modalbody-biao-qian-3010-lu-3011.md)
   * [modal\_iframe标签【陆】](chapter1/modaliframe-biao-qian-3010-lu-3011.md)
   * [oper\_button标签【陆】](chapter1/operbutton-biao-qian-3010-lu-3011.md)
-  * file\_mult\_upload标签【陆】
+  * [file\_mult\_upload标签【陆】](chapter1/filemult-upload-biao-qian-3010-lu-3011.md)
   * search\_tree标签【陆】
 * [扩展表单控件【施、陆】](kuo-zhan-biao-dan-kong-jian.md)
 * [应用工具方法调用【施、陆】](ying-yong-gong-ju-fang-fa-diao-yong-3010-shi-3001-lu-3011.md)
