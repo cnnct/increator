@@ -1,8 +1,8 @@
 # search\_input**标签**
 
-#### code\_checkbox**标签的属性 :**
+#### search\_input**标签的属性 :**
 
-> code\_checkbox标签有8个属性
+> search\_input标签有8个属性
 >
 > **其中必填项加上了\*号，如下所示 :**
 >
@@ -22,13 +22,13 @@
 > >
 > > **size ：** size为尺寸标签,可以填的数值范围为（1-12）,如size="6",button标签的默认size为1
 
-#### code\_checkbox标签的引入方式 :
+#### search\_input标签的引入方式 :
 
 ```
 <@code_checkbox id="code_type2" name="code_type2_name" code_type="ORDER_STATE" default_val="09,28,58" readonly="true" no_show="19,71" only_show="09,28,58,18,41,71" size="12" />
 ```
 
-#### code\_checkbox标签显示效果图 :
+#### search\_input标签显示效果图 :
 
 
 
