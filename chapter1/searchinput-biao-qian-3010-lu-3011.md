@@ -12,7 +12,7 @@
 > >
 > > \***sql\_key：** 从Sys\_Code表查询的字段
 > >
-> > **default\_val：** 默认选中
+> > **show\_item：** 默认选中
 > >
 > > **readonly：** 是否可选
 > >
