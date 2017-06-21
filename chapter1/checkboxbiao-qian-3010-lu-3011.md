@@ -20,7 +20,7 @@
 > >
 > > \***value\_field：** 值对应的字段
 > >
-> > **size ：** size为尺寸标签,可以填的数值范围为（1-12）,如size="6",button标签的默认size为1
+> > **size ：** size为尺寸标签,可以填的数值范围为（1-12）,如size="6",checkbox标签的默认size为12
 
 #### checkbox标签的引入方式 :
 
@@ -31,6 +31,4 @@
 #### checkbox标签显示效果图 :
 
 ![](/assets/checkbox.png)
-
-
 
