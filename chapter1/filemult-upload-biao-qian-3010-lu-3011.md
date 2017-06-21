@@ -2,7 +2,7 @@
 
 #### file\_mult\_upload**标签的属性 :**
 
-> file\_mult\_upload标签有6个属性
+> file\_mult\_upload标签有4个属性
 >
 > **其中必填项加上了\*号，如下所示 :**
 >
@@ -23,6 +23,4 @@
 #### file\_mult\_upload标签显示效果图 :
 
 ![](/assets/file_mult_upload.png)
-
-
 
