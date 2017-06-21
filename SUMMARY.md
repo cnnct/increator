@@ -21,6 +21,7 @@
   * [date\_time标签【陆】](chapter1/datetime-biao-qian-3010-lu-3011.md)
   * [radio标签【陆】](chapter1/radiobiao-qian-3010-lu-3011.md)
   * [checkbox标签【陆】](chapter1/checkboxbiao-qian-3010-lu-3011.md)
+  * [code\_radio标签【陆】](chapter1/coderadio-biao-qian-3010-lu-3011.md)
 * [扩展表单控件【施、陆】](kuo-zhan-biao-dan-kong-jian.md)
 * [应用工具方法调用【施、陆】](ying-yong-gong-ju-fang-fa-diao-yong-3010-shi-3001-lu-3011.md)
   * [模态弹框【施】](ying-yong-gong-ju-fang-fa-diao-yong-3010-shi-3001-lu-3011/mo-tai-dan-kuang-3010-shi-3011.md)
