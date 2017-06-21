@@ -10,15 +10,15 @@
 > >
 > > **name ：** name属性
 > >
-> > \***sql\_key：** 从Sys\_Code表查询的字段
+> > \***sql\_key：** SQL语句对应的key
 > >
-> > **show\_item：** 默认选中
+> > **show\_item：** 显示的内容
 > >
-> > **show\_value：** 是否可选
+> > **show\_value：** 显示的值
 > >
-> > **hidden\_value：** 过滤的选项
+> > **hidden\_value：** 需要的值
 > >
-> > **label：** 只显示的选项
+> > **label：** label标签
 > >
 > > **size ：** size为尺寸标签,可以填的数值范围为（1-12）,如size="6",button标签的默认size为1
 
