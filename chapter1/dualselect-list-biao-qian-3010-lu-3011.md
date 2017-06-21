@@ -2,7 +2,7 @@
 
 #### dual\_select\_list**标签的属性 :**
 
-> dual\_select\_list标签有8个属性
+> dual\_select\_list标签有6个属性
 >
 > **其中必填项加上了\*号，如下所示 :**
 >
@@ -25,6 +25,8 @@
 ```
 
 #### dual\_select\_list标签显示效果图 :
+
+
 
 
 
