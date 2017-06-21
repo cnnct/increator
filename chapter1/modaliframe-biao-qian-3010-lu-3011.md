@@ -22,6 +22,12 @@
   </button>
 
   <@modal_iframe id="my_modal_lg_edit" modal_title="编辑操作员" class="modal-lg" drag="true" />
+  
+  <script>
+   function test() {
+      $("#my_modal_lg_edit_iframe").attr("src","${base}/login/userLogin");
+   }
+  </script>
 ```
 
 #### modal\_iframe标签显示效果图 :
