@@ -2,7 +2,7 @@
 
 #### modal\_iframe**标签的属性 :**
 
-> modal\_body标签有4个属性
+> modal\_iframe标签有4个属性
 >
 > **其中必填项加上了\*号，如下所示 :**
 >
@@ -14,7 +14,7 @@
 > >
 > > \***class：** 样式\(不填：中等模态框;modal-lg：大模态框;modal-sm：小模态框\)
 
-#### modal\_body和modal\_foot标签的引入方式 :
+#### modal\_iframe和modal\_iframe标签的引入方式 :
 
 ```
   <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#my_modal">
@@ -71,7 +71,7 @@
   </@modal_foot>
 ```
 
-#### modal\_body和modal\_foot标签显示效果图 :
+#### modal\_iframe标签显示效果图 :
 
 
 
