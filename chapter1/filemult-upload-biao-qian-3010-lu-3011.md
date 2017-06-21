@@ -12,7 +12,7 @@
 > >
 > > \***url：** 请求的url
 > >
-> > **size ：** size为尺寸标签,可以填的数值范围为（1-12）,如size="6",button标签的默认size为1
+> > **size ：** size为尺寸标签,可以填的数值范围为（1-12）,如size="6",file\_mult\_upload标签的默认size为12
 
 #### file\_mult\_upload标签的引入方式 :
 
