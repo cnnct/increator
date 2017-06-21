@@ -1,6 +1,6 @@
 # modal\_iframe**标签**
 
-#### modal\_body**标签的属性 :（**modal\_foot标签无属性**）**
+#### modal\_iframe**标签的属性 :**
 
 > modal\_body标签有4个属性
 >
