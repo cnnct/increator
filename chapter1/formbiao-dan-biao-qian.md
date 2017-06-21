@@ -70,7 +70,7 @@
 
 
 ![](/assets/validate3.png)
-####form表单的验证显示结果 :
+#### form表单的验证显示结果 :
 ![](/assets/validate5.png)
 
 
