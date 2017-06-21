@@ -26,7 +26,5 @@
 
 #### dual\_select\_list标签显示效果图 :
 
-
-
-
+![](/assets/dual_select_list.png)
 
