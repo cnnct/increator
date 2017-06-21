@@ -11,10 +11,10 @@
 > > **name ：** name属性
 > >
 > > **tree\_id：** 默认选中
-
+> >
 > > \***sql\_key：** SQL语句对应的key
 > >
-> > \***show\_field：** 显示名对应的字段
+> > \***checkbox\_have：** 显示名对应的字段
 > >
 > > \***value\_field：** 值对应的字段
 > >
