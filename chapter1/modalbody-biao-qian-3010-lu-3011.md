@@ -20,14 +20,13 @@
 <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#my_modal">
            编辑
   </button>
-  
+
   <@modal_body id="my_modal" modal_title="在线编辑" drag="true">
-  内容
+    内容
   </@modal_body>
   <@modal_foot>
-  操作按钮
+    操作按钮
   </@modal_foot>
-  
 ```
 
 #### modal\_body和modal\_foot标签显示效果图 :
