@@ -22,5 +22,7 @@
 
 #### file\_mult\_upload标签显示效果图 :
 
+![](/assets/file_mult_upload.png)
+
 
 
