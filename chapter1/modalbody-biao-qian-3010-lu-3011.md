@@ -13,10 +13,6 @@
 > > \***drag：** SQL语句对应的key
 > >
 > > \***class：** 选项显示的名称
-> >
-> > \***value\_field：** 选项的值
-> >
-> > **size ：** size为尺寸标签,可以填的数值范围为（1-12）,如size="6",button标签的默认size为1
 
 #### modal\_body和modal\_foot标签的引入方式 :
 
