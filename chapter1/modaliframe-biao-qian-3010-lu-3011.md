@@ -14,7 +14,7 @@
 > >
 > > \***class：** 样式\(不填：中等模态框;modal-lg：大模态框;modal-sm：小模态框\)
 
-#### modal\_iframe和modal\_iframe标签的引入方式 :
+#### modal\_iframe标签的引入方式 :
 
 ```
   <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#my_modal">
