@@ -30,5 +30,7 @@
 
 #### checkbox标签显示效果图 :
 
+![](/assets/checkbox.png)
+
 
 
