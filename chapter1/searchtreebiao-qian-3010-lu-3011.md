@@ -14,9 +14,9 @@
 > >
 > > \***sql\_key：** SQL语句对应的key
 > >
-> > \***checkbox\_have：** 显示名对应的字段
+> > **checkbox\_have：** 显示名对应的字段
 > >
-> > \***value\_field：** 值对应的字段
+> > **label：** 值对应的字段
 > >
 > > **size ：** size为尺寸标签,可以填的数值范围为（1-12）,如size="6",button标签的默认size为1
 
