@@ -4,7 +4,7 @@
 
 > input\_tree标签有6个属性分别为为id、name、size、checkbox\_have、tree\_id、sql\_key，**其中id、tree\_id、sql\_key为必填项**
 >
-> > **id  \* ：** id属性
+> > **\* id ：** id属性
 > >
 > > **name ：** name属性
 > >
