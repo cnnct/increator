@@ -40,7 +40,7 @@
 > >
 > > **sql\_condition :** sql\_condition属性用于配合sql\_key属性，当对应的后台sql需要传入参数替换“？”占位符时填写，也可以用登录用户的id替换占位符如sql\_condition="ACC\_RECHG\_TYPE;session.operId",其中‘ACC\_RECHG\_TYPE’会用来替换第一个占位符，登录用户的id会用来替换第二个占位符；
 > >
-> > **value \_field \*:** value\_field属性是指select标签选项option的value值是由表中哪个字段来赋值；
+> > **\* value \_field  :** value\_field属性是指select标签选项option的value值是由表中哪个字段来赋值；
 > >
 > > **show\_field \* :** show\_field属性是指select标签选项option的text值是用表中哪个字段来赋值；
 > >
