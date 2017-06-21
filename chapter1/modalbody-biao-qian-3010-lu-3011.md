@@ -8,9 +8,9 @@
 >
 > > \***id ：** id属性
 > >
-> > **name ：** name属性
+> > **modal\_title ：** name属性
 > >
-> > \***sql\_key：** SQL语句对应的key
+> > \***drag：** SQL语句对应的key
 > >
 > > \***show\_field：** 选项显示的名称
 > >
