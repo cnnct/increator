@@ -25,7 +25,7 @@
 #### search\_input标签的引入方式 :
 
 ```
-<@code_checkbox id="code_type2" name="code_type2_name" code_type="ORDER_STATE" default_val="09,28,58" readonly="true" no_show="19,71" only_show="09,28,58,18,41,71" size="12" />
+<@search_input id="searchOrgName" name="searchOrgName_name" sql_key="org_name1" show_item="org_id,org_name" show_value="org_name" hidden_value="org_id" size="3" />
 ```
 
 #### search\_input标签显示效果图 :
