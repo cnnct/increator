@@ -6,7 +6,7 @@
 >
 > search\_have、sql\_condition、sql\_key、value\_field、show\_field、default\_val；**其中id、sql\_key、value\_field、 show\_field为必填项,下面必填项加上了\*号**；
 >
-> > **id \*** **：** id属性
+> > **\* id ：** id属性
 > >
 > > **name ：** name属性
 > >
@@ -36,13 +36,13 @@
 > >
 > > 为"true","false",默认false
 > >
-> > **sql\_key \*  :** sql\_key属性为select标签后台执行的sql的key值，sql可以是完整的，也可以是拥有“？”占位符的sql，配合sql\_condition属性使用；
+> > **\* sql\_key  :** sql\_key属性为select标签后台执行的sql的key值，sql可以是完整的，也可以是拥有“？”占位符的sql，配合sql\_condition属性使用；
 > >
 > > **sql\_condition :** sql\_condition属性用于配合sql\_key属性，当对应的后台sql需要传入参数替换“？”占位符时填写，也可以用登录用户的id替换占位符如sql\_condition="ACC\_RECHG\_TYPE;session.operId",其中‘ACC\_RECHG\_TYPE’会用来替换第一个占位符，登录用户的id会用来替换第二个占位符；
 > >
-> > **value \_field \*:** value\_field属性是指select标签选项option的value值是由表中哪个字段来赋值；
+> > **\* value\_field  :** value\_field属性是指select标签选项option的value值是由表中哪个字段来赋值；
 > >
-> > **show\_field \* :** show\_field属性是指select标签选项option的text值是用表中哪个字段来赋值；
+> > **\* show\_field  :** show\_field属性是指select标签选项option的text值是用表中哪个字段来赋值；
 > >
 > > **default\_val :** default\_val属性是指select标签的默认选中值，该值为option的value值，当select\_more 属性为“true”时，可以多选，
 > >

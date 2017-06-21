@@ -3,7 +3,7 @@
 #### **form标签的属性 :**
 
 > form标签有5个属性分别为id、class、name、action,enctype**其中id属性为必填项**；  
-> >**id \* ：** id属性
+> >**\* id ：** id属性
 >>
 > > **name ：** name属性
 > >

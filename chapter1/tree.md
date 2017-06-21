@@ -4,7 +4,7 @@
 
 > tree标签有6个属性分别为为id、name、size、checkbox\_have、tree\_id、sql\_key，**其中id、tree\_id、sql\_key为必填项**
 >
-> > **id  \* ：** id属性
+> > **\* id ：** id属性
 > >
 > > **name ：** name属性
 > >
@@ -12,9 +12,9 @@
 > >
 > > **checkbox\_have ：** 为是否有复选框，默认false
 > >
-> > **tree\_id \* ：** tree树对象的id
+> > **\* tree\_id ：** tree树对象的id
 > >
-> > **sql\_key \* ：** sql\_key属性为select标签后台执行的sql的key值
+> > **\* sql\_key ：** sql\_key属性为select标签后台执行的sql的key值
 > >
 > > **sql\_condition :** sql\_condition属性用于配合sql\_key属性，当对应的后台sql需要传入参数替换“？”占位符时填写，也可以用登录用户的id替换占位符如sql\_condition="ACC\_RECHG\_TYPE;session.operId",其中‘ACC\_RECHG\_TYPE’会用来替换第一个占位符，登录用户的id会用来替换第二个占位符；
 

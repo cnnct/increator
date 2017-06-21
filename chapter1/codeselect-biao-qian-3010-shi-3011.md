@@ -6,7 +6,7 @@
 >
 > search\_have、default\_val、no\_show、only\_show、code\_type；**其中id、code\_type为必填项,下面必填项加上了\*号**；
 >
-> > **id \*** **：** id属性
+> > **\* id  ：** id属性
 > >
 > > **name ：** name属性
 > >
@@ -46,7 +46,7 @@
 > >
 > > **only\_show ：** 只显示的option项，该值为option的value值，only\_show ="1,2",**分隔符为“，”**，和no\_show属性不能同时使用，如果同时使用，则两属性失效
 > >
-> > **code\_type \* ：** 指定查询sys\_code表中code\_type表字段的值作为数据加载时使用
+> > **\* code\_type ：** 指定查询sys\_code表中code\_type表字段的值作为数据加载时使用
 
 #### code\_select标签的引入方式 :
 
