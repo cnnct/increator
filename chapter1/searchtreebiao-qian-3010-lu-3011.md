@@ -18,6 +18,8 @@
 > >
 > > **label：** 值对应的字段
 > >
+> > **sql\_condition :** sql\_condition属性用于配合sql\_key属性，当对应的后台sql需要传入参数替换“？”占位符时填写，也可以用登录用户的id替换占位符如sql\_condition="ACC\_RECHG\_TYPE;session.operId",其中‘ACC\_RECHG\_TYPE’会用来替换第一个占位符，登录用户的id会用来替换第二个占位符
+> >
 > > **size ：** size为尺寸标签,可以填的数值范围为（1-12）,如size="6",button标签的默认size为1
 
 #### search\_tree标签的引入方式 :
@@ -29,6 +31,4 @@
 #### search\_tree标签显示效果图 :
 
 ![](/assets/search_tree.png)
-
-
 
