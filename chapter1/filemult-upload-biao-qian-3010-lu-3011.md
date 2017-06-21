@@ -17,7 +17,7 @@
 #### file\_mult\_upload标签的引入方式 :
 
 ```
-<@oper_button id="oper_button" name="oper_button_name" size="3" icon="saved" value="提交" url="/tag/searchInput" onclick="test('a')" />
+<@file_mult_upload id="test_upload2" name="test_upload_name2" size="3" url="/tag/uploadMultFile" />
 ```
 
 #### file\_mult\_upload标签显示效果图 :
