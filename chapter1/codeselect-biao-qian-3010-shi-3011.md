@@ -6,7 +6,7 @@
 >
 > search\_have、default\_val、no\_show、only\_show、code\_type；**其中id、code\_type为必填项,下面必填项加上了\*号**；
 >
-> > **id \*** **：** id属性
+> > **\* id  ：** id属性
 > >
 > > **name ：** name属性
 > >
