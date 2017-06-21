@@ -10,13 +10,13 @@
 > >
 > > **name ：** name属性
 > >
-> > \***code\_type：** 是否可选
+> > \***code\_type：** 从Sys\_Code表查询的字段
 > >
 > > **default\_val：** 默认选中
 > >
-> > **readonly：** SQL语句对应的key
+> > **readonly：** 是否可选
 > >
-> > **no\_show：** 显示名对应的字段
+> > **no\_show：** 过滤的选项
 > >
 > > **only\_show：** 只显示的选项
 > >
