@@ -11,9 +11,7 @@
 > > **name ：** name属性
 > >
 > > **tree\_id：** 默认选中
-> >
-> > **readonly：** 是否可选
-> >
+
 > > \***sql\_key：** SQL语句对应的key
 > >
 > > \***show\_field：** 显示名对应的字段
