@@ -8,7 +8,7 @@
 >
 > > \***id ：** id属性
 > >
-> > **modal\_title ：** name属性
+> > **modal\_title ：** 标题
 > >
 > > \***drag：** SQL语句对应的key
 > >
