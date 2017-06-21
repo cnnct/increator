@@ -18,7 +18,7 @@
 
 ```
   <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#my_modal">
-           编辑
+   编辑
   </button>
 
   <@modal_body id="my_modal" modal_title="在线编辑" drag="true">
