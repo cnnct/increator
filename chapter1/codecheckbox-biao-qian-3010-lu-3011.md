@@ -30,7 +30,7 @@
 
 #### code\_checkbox标签显示效果图 :
 
-
+![](/assets/code_checkbox.png)
 
 
 
