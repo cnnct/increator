@@ -17,6 +17,7 @@
 #### modal\_iframe标签的引入方式 :
 
 ```
+  主页面：
   <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#my_modal_lg_edit" onclick="test()">
     编辑(iframe)
   </button>
