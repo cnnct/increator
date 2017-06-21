@@ -12,11 +12,11 @@
 > >
 > > \***sql\_key：** SQL语句对应的key
 > >
-> > **show\_item：** 显示的内容
+> > \***show\_item：** 显示的内容
 > >
-> > **show\_value：** 显示的值
+> > \***show\_value：** 显示的值
 > >
-> > **hidden\_value：** 需要的值
+> > \***hidden\_value：** 需要的值
 > >
 > > **label：** label标签
 > >
