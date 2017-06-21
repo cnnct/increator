@@ -12,9 +12,9 @@
 > >
 > > \***sql\_key：** SQL语句对应的key
 > >
-> > \***show\_item：** 显示的内容
+> > \***show\_field：** 显示的内容
 > >
-> > \***show\_value：** 显示的值
+> > \***value\_field：** 显示的值
 > >
 > > \***hidden\_value：** 需要的值
 > >
