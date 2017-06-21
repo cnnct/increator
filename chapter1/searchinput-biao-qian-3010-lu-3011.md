@@ -16,9 +16,9 @@
 > >
 > > **show\_value：** 是否可选
 > >
-> > **no\_show：** 过滤的选项
+> > **hidden\_value：** 过滤的选项
 > >
-> > **only\_show：** 只显示的选项
+> > **label：** 只显示的选项
 > >
 > > **size ：** size为尺寸标签,可以填的数值范围为（1-12）,如size="6",button标签的默认size为1
 
