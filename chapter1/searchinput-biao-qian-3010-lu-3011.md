@@ -20,7 +20,7 @@
 > >
 > > **label：** label标签
 > >
-> > **size ：** size为尺寸标签,可以填的数值范围为（1-12）,如size="6",button标签的默认size为5
+> > **size ：** size为尺寸标签,可以填的数值范围为（1-12）,如size="6",search\_input标签的默认size为5
 
 #### search\_input标签的引入方式 :
 
