@@ -29,8 +29,8 @@
       $("#my_modal_lg_edit_iframe").attr("src","${base}/login/userLogin");
     }
   </script>
-  
-  模态框中页面：
+
+  模态框中页面通过src后台挑战过去
 ```
 
 #### modal\_iframe标签显示效果图 :
