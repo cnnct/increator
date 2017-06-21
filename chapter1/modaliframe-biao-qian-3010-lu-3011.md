@@ -17,8 +17,8 @@
 #### modal\_iframe标签的引入方式 :
 
 ```
-  <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#my_modal">
-    编辑
+  <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#my_modal_lg_edit" onclick="test()">
+    编辑(iframe)
   </button>
 
   <@modal_body id="my_modal" modal_title="在线编辑" drag="true">
