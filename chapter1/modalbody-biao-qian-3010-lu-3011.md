@@ -18,13 +18,13 @@
 > >
 > > **size ：** size为尺寸标签,可以填的数值范围为（1-12）,如size="6",button标签的默认size为1
 
-#### modal\_body标签的引入方式 :
+#### modal\_body和modal\_foot标签的引入方式 :
 
 ```
 <@dual_select_list id="dualSelectOrgName" name="dualSelectOrgName_name" show_field="org_name" value_field="org_id" sql_key="org_name2" size="8" />
 ```
 
-#### modal\_body标签显示效果图 :
+#### modal\_body和modal\_foot标签显示效果图 :
 
 
 
