@@ -43,6 +43,7 @@
   * [mybatis配置和使用](kuang-jia-she-zhi/mybatis.md)
     * [mybatis逆向生成](kuang-jia-she-zhi/mybatis/mybatisni-xiang-sheng-cheng.md)
     * [mybatis热部署](kuang-jia-she-zhi/mybatis/mybatisre-bu-shu.md)
+  * [Ehcache的使用](kuang-jia-she-zhi/ehcachede-shi-yong.md)
 * [开发规范](kai-fa-gui-fan.md)
   * [前端开发规范](kai-fa-gui-fan/qian-duan-kai-fa-gui-fan.md)
   * [后端开发规范](kai-fa-gui-fan/hou-duan-kai-fa-gui-fan.md)
