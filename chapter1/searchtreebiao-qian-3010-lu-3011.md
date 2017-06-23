@@ -25,7 +25,7 @@
 #### search\_tree标签的引入方式 :
 
 ```
-<@radio id="bs_city1" name="bs_city1_name" default_val="331081100000" readonly="true" sql_key="bs_city1" show_field="city_name" value_field="city_id" size="12" />
+<@search_tree id="search" name="search_name" tree_id="search_tree" sql_key="sysfunc7" checkbox_have="true" size="6" />
 ```
 
 #### search\_tree标签显示效果图 :
