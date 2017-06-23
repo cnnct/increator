@@ -59,37 +59,37 @@
 * 表格操作栏的 '详情' 方法
 * ```js
     /**
-    * 查看详情（js方法名固定写法）
-    * 方法名中的 id 为表格第一列的 id 值
-    */
+     * 查看详情（js方法名固定写法）
+     * 方法名中的 id 为表格第一列的 id 值
+     */
     function viewDetail(id) {
         /**
-        * 详情框和编辑框等需要从后台读取数据回显的情况，一般弹框用 iframe 弹框
-        * 此处 modal_view_iframe 固定写法
-        */
+         * 详情框和编辑框等需要从后台读取数据回显的情况，一般弹框用 iframe 弹框
+         * 此处 modal_view_iframe 固定写法
+         */
         $("#modal_view_iframe").attr("src", "${base}/oper/view?operId=" + id);
     }
   ```
 * 表格操作栏的 '修改' 方法
 * ```js
     /**
-    * 修改操作员信息（js方法名固定写法）
-    * 方法名中的 id 为表格第一列的 id 值
-    */
+     * 修改操作员信息（js方法名固定写法）
+     * 方法名中的 id 为表格第一列的 id 值
+     */
     function editItem(id) {
         /**
-        * 详情框和编辑框等需要从后台读取数据回显的情况，一般弹框用 iframe 弹框
-        * 此处指定iframe的src属性，传递的数据暂时使用url后面跟参数的get方式
-        * 此处 modal_edit_iframe 固定写法
-        */
+         * 详情框和编辑框等需要从后台读取数据回显的情况，一般弹框用 iframe 弹框
+         * 此处指定iframe的src属性，传递的数据暂时使用url后面跟参数的get方式
+         * 此处 modal_edit_iframe 固定写法
+         */
         $("#modal_edit_iframe").attr("src", "${base}/oper/edit?operId=" + id);
     }
   ```
 * 表格操作栏的 '删除' 方法
 * ```js
     /**
-    * 删除操作信息（js方法名固定写法）
-    */
+     * 删除操作信息（js方法名固定写法）
+     */
     function delItem(id) {
         confirm({
             message: "确定删除？",
@@ -134,26 +134,26 @@
   ```
 * 提交方法举例
 * ```js
- /**
- * 新增数据时（此例为新增操作员信息），一般使用普通模态框弹窗（非 iframe）
- * 弹窗等具体控件用法参看 '基本表单控件' 和 '扩展表单控件'
- */
- <#-- 保存操作员信息 -->
- function save() {
- //提交表单
- /**
- * ajax表单提交方法 postform(url, form_name, convert_name)
- * url： 提交地址
- * form_name： 表单id，可为空
- * convert_name： 需转换的name属性，可为空，例子："role1.id,role2.id ..."
- * 当vo类中的成员变量为List类型时就需要转换，否则后台vo类不能自动封装
- * 关于po类，cust类和vo类的说明和使用场景参看ssm框架相关知识
- */
- postform("${base}/oper/save", "add_form", "role.roleId");
- //提示
- alert({message: "保存成功", title: "提示"});
- }
-```
+    /**
+     * 新增数据时（此例为新增操作员信息），一般使用普通模态框弹窗（非 iframe）
+     * 弹窗等具体控件用法参看 '基本表单控件' 和 '扩展表单控件'
+     */
+    <#-- 保存操作员信息 -->
+    function save() {
+        //提交表单
+        /**
+         * ajax表单提交方法 postform(url, form_name, convert_name)
+         * url： 提交地址
+         * form_name： 表单id，可为空
+         * convert_name： 需转换的name属性，可为空，例子："role1.id,role2.id ..."
+         * 当vo类中的成员变量为List类型时就需要转换，否则后台vo类不能自动封装
+         * 关于po类，cust类和vo类的说明和使用场景参看ssm框架相关知识
+         */
+        postform("${base}/oper/save", "add_form", "role.roleId");
+        //提示
+        alert({message: "保存成功", title: "提示"});
+    }
+  ```
 * 其他常用js方法
 * getSelectId() 获取选中的表格行的id值，多个以逗号隔开
 * getSelectIndex() 获取选中的记录数
@@ -164,51 +164,51 @@
 - Controller 的编写
 - 类需继承 BaseCtrl 类
 - ```java
- public class OperCtrl extends BaseCtrl {}
-```
+    public class OperCtrl extends BaseCtrl {}
+  ```
 - 模块首页
 - ```java
- /**
- * 操作员首页
- * @param model
- */
- @RequestMapping("/index")
- public String operIndex(Model model) {
- //统一使用封装后的jsonObject，即ResultData
- ResultData resultData = new ResultData(Result_Code.SUCCESS);
- //跳转的页面路径
- return "/sysmanager/oper/oper_index";
- }
-```
+    /**
+     * 操作员首页
+     * @param model
+     */
+    @RequestMapping("/index")
+    public String operIndex(Model model) {
+        //统一使用封装后的jsonObject，即ResultData
+        ResultData resultData = new ResultData(Result_Code.SUCCESS);
+        //跳转的页面路径
+        return "/sysmanager/oper/oper_index";
+    }
+  ```
 - 获取表格数据
 - ```java
- /**
- * 获取操作员信息
- * @param request 参数固定为 HttpServletRequest
- */
- @RequestMapping("/query")
- @ResponseBody //必须以json格式返回，此注释必须加
- public ResultData queryOperInfo(HttpServletRequest request) {
- ResultData resultData = new ResultData(Result_Code.SUCCESS);
- try {
- //分页参数
- resultData = getPageMap(request);
- //sql条件（用于sql语句中where的筛选条件，若有，则如下写法）
- resultData.put("org_id", getOper().getOrgId());
- //获取操作员列表，返回必须是List<Map>格式
- List<Map> operList = operServ.getOperList(resultData);
- //获取总记录数
- Long recordsTotal = operServ.getRecordCount(resultData);
- //返回数据至页面
- resultData = initPagination(operList, recordsTotal);
- } catch (Exception e) {
- resultData.setResultData(e);
- log.error(e.getMessage());
- e.printStackTrace();
- }
- return resultData;
- }
-```
+    /**
+     * 获取操作员信息
+     * @param request 接受参数为HttpServletRequest
+     */
+    @RequestMapping("/query")
+    @ResponseBody //必须以json格式返回数据，此注解必须加
+    public ResultData queryOperInfo(HttpServletRequest request) {
+        ResultData resultData = new ResultData(Result_Code.SUCCESS);
+        try {
+            //分页参数
+            resultData = getPageMap(request);
+            //sql条件（用于sql语句中where的筛选条件，若有，则如下写法）
+            resultData.put("org_id", getOper().getOrgId());
+            //获取操作员列表
+            List<Map> operList = operServ.getOperList(resultData);
+            //获取总记录数
+            Long recordsTotal = operServ.getRecordCount(resultData);
+            //返回数据至页面
+            resultData = initPagination(operList, recordsTotal);
+        } catch (Exception e) {
+            resultData.setResultData(e);
+            log.error(e.getMessage());
+            e.printStackTrace();
+        }
+        return resultData;
+    }
+  ```
 
 # Mapper编写
 
