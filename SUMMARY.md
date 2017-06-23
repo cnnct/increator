@@ -36,10 +36,10 @@
 * [框架配置【曲】](kuang-jia-she-zhi.md)
   * [spring配置及事务](kuang-jia-she-zhi/springpei-zhi-ji-shi-wu.md)
   * [springmvc配置](kuang-jia-she-zhi/springmvcpei-zhi.md)
-    * 拦截器
-    * 异常处理
-    * 业务、错误日志
-    * springmvc的使用
+    * [拦截器](kuang-jia-she-zhi/springmvcpei-zhi/lan-jie-qi.md)
+    * [异常处理](kuang-jia-she-zhi/springmvcpei-zhi/yi-chang-chu-li.md)
+    * [业务、错误日志](kuang-jia-she-zhi/springmvcpei-zhi/ye-wu-3001-cuo-wu-ri-zhi.md)
+    * [springmvc的使用](kuang-jia-she-zhi/springmvcpei-zhi/springmvcde-shi-yong.md)
   * [mybatis配置和使用](kuang-jia-she-zhi/mybatis.md)
     * [mybatis逆向生成](kuang-jia-she-zhi/mybatis/mybatisni-xiang-sheng-cheng.md)
     * [mybatis热部署](kuang-jia-she-zhi/mybatis/mybatisre-bu-shu.md)
