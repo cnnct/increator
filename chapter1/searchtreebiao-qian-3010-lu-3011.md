@@ -12,7 +12,7 @@
 > >
 > > \***tree\_id：** 树的id
 > >
-> > **checkbox\_have：** 是否可选
+> > **checkbox\_have：** 是否为复选框,默认单选
 > >
 > > \***sql\_key：** SQL语句对应的key
 > >
