@@ -30,5 +30,7 @@
 
 #### search\_tree标签显示效果图 :
 
+![](/assets/search_tree.png)
+
 
 
