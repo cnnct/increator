@@ -8,101 +8,101 @@
   <@init_page title="xxx管理">
  
   </@init_page>
-```
+  ```
 * 一个简单的页面例子，已操作员管理为例，包括查询栏、按钮栏、表格
 * 引入查询栏标签 **query\_bar**
 * ```html
- <@query_bar>
- <table>
- <tr>
- <th>编号</th>
- <td><input type="text" name="operId"></td>
- <tr>
- <tr>
- <th>姓名</th>
- <td><input type="text" name="operName"></td>
- </tr>
- <tr>
- <td><button type="button" class="btn btn-default btn-sm" onclick="queryInfo()">查询</button></td>
- </tr>
- </table>
- </@query_bar>
-```
+  <@query_bar>
+  <table>
+  <tr>
+  <th>编号</th>
+  <td><input type="text" name="operId"></td>
+  <tr>
+  <tr>
+  <th>姓名</th>
+  <td><input type="text" name="operName"></td>
+  </tr>
+  <tr>
+  <td><button type="button" class="btn btn-default btn-sm" onclick="queryInfo()">查询</button></td>
+  </tr>
+  </table>
+  </@query_bar>
+  ```
 * 引入按钮栏 **button\_bar**
 * ```html
- <@button_bar>
- <@button icon="saved" value="保存" onclick="save()"/>
- <@button icon="remove" value="删除" onclick="del()"/>
- </@button_bar>
-```
+  <@button_bar>
+  <@button icon="saved" value="保存" onclick="save()"/>
+  <@button icon="remove" value="删除" onclick="del()"/>
+  </@button_bar>
+  ```
 * 引入表格栏 **table** （其他控件参看**基本表单控件**和**扩展表单控件**），表格控件的使用包含在此例中
 * ```html
- <@table url="${base}/oper/query"
- thead="编号,姓名,机构,部门,状态,级别"
- fields="id,oper_id,oper_name,org_name,brch_name,oper_state,oper_level"/>
- <!-- 所有提交的url地址的前缀都要加上 ${base} -->
- <!-- 表格控件目前需三个参数：-->
- <!-- url： 提交的后台地址 thead： 表头显示的字段名（不包括第一列的id列） fields：sql语句中显示的字段名 -->
- <!-- 首字段 id 固定，mapper 中提供的 sql 语句必须提供 id 字段名（详细见后续 mapper 语句编写）-->
-```
+  <@table url="${base}/oper/query"
+  thead="编号,姓名,机构,部门,状态,级别"
+  fields="id,oper_id,oper_name,org_name,brch_name,oper_state,oper_level"/>
+  <!-- 所有提交的url地址的前缀都要加上 ${base} -->
+  <!-- 表格控件目前需三个参数：-->
+  <!-- url： 提交的后台地址 thead： 表头显示的字段名（不包括第一列的id列） fields：sql语句中显示的字段名 -->
+  <!-- 首字段 id 固定，mapper 中提供的 sql 语句必须提供 id 字段名（详细见后续 mapper 语句编写）-->
+  ```
 * 表格数据显示例子如下图：
 ![](/assets/20170623101159.jpg)
 * 表格相关js方法
 * 查询方法
 * ```js
- function queryInfo() {
- //提交查询栏query_bar的数据，直接调用postform()，不需要参数
- //后台提供对应的实体类或相同名字的参数自动封装
- postform();
- }
-```
+  function queryInfo() {
+  //提交查询栏query_bar的数据，直接调用postform()，不需要参数
+  //后台提供对应的实体类或相同名字的参数自动封装
+  postform();
+  }
+  ```
 * 表格操作栏的 '详情' 方法
 * ```js
- /**
- * 查看详情（js方法名固定写法）
- * 方法名中的 id 为表格第一列的 id 值
- */
- function viewDetail(id) {
- /**
- * 详情框和编辑框等需要从后台读取数据回显的情况，一般弹框用 iframe 弹框
- * 此处 modal_view_iframe 固定写法
- */
- $("#modal_view_iframe").attr("src", "${base}/oper/view?operId=" + id);
- }
-```
+  /**
+  * 查看详情（js方法名固定写法）
+  * 方法名中的 id 为表格第一列的 id 值
+  */
+  function viewDetail(id) {
+  /**
+  * 详情框和编辑框等需要从后台读取数据回显的情况，一般弹框用 iframe 弹框
+  * 此处 modal_view_iframe 固定写法
+  */
+  $("#modal_view_iframe").attr("src", "${base}/oper/view?operId=" + id);
+  }
+  ```
 * 表格操作栏的 '修改' 方法
 * ```js
- /**
- * 修改操作员信息（js方法名固定写法）
- * 方法名中的 id 为表格第一列的 id 值
- */
- function editItem(id) {
- /**
- * 详情框和编辑框等需要从后台读取数据回显的情况，一般弹框用 iframe 弹框
- * 此处指定iframe的src属性，传递的数据暂时使用url后面跟参数的get方式
- * 此处 modal_edit_iframe 固定写法
- */
- $("#modal_edit_iframe").attr("src", "${base}/oper/edit?operId=" + id);
- }
-```
+  /**
+  * 修改操作员信息（js方法名固定写法）
+  * 方法名中的 id 为表格第一列的 id 值
+  */
+  function editItem(id) {
+  /**
+  * 详情框和编辑框等需要从后台读取数据回显的情况，一般弹框用 iframe 弹框
+  * 此处指定iframe的src属性，传递的数据暂时使用url后面跟参数的get方式
+  * 此处 modal_edit_iframe 固定写法
+  */
+  $("#modal_edit_iframe").attr("src", "${base}/oper/edit?operId=" + id);
+  }
+  ```
 * 表格操作栏的 '删除' 方法
 * ```js
- /**
- * 删除操作信息（js方法名固定写法）
- */
- function delItem(id) {
- confirm({
- message: "确定删除？",
- callback: function(result) {
- if (result) {
- //ajax直接提交方法 directpost(url, data) data为json对象
- directpost("${base}/oper/del", {"operId": id});
- alert({message: "删除成功", title: "提示"});
- }
- }
- })
- }
-```
+  /**
+   * 删除操作信息（js方法名固定写法）
+   */
+  function delItem(id) {
+     confirm({
+       message: "确定删除？",
+       callback: function(result) {
+         if (result) {
+           //ajax直接提交方法 directpost(url, data) data为json对象
+           directpost("${base}/oper/del", {"operId": id});
+         alert({message: "删除成功", title: "提示"});
+         }
+       }
+     })
+  }
+  ```
 * 新增数据时的提交方法
 * 表单写法举例（此处以操作员为例）
 * ```html
