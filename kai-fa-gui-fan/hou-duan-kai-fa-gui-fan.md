@@ -212,5 +212,66 @@
 # Mapper编写
 
 ---
+* 获取表格显示的数据
+* ```xml
+    <!-- 查找所有操作员信息（分页显示）-->
+    <!-- 接受参数 parameterType 必须为 Map类型 -->
+    <!-- 返回值 resultType 必须为 Map -->
+    <!-- 表格转义功能还未实现，转义功能直接在sql中实现，后续优化 -->
+    <select id="getOperList" parameterType="Map" resultType="Map">
+        select a.oper_id as id, a.oper_id, a.oper_name, b.org_name, c.brch_name,
+        (select code_name from sys_code where code_type='STATE' and code_value=a.oper_state) oper_state,
+        (select code_name from sys_code where code_type='OPER_LEVEL' and code_value=a.oper_level) oper_level
+        from sys_operator a, sys_organ b, sys_branch c
+        where a.org_id=b.org_id
+        and a.brch_id=c.brch_id
+        and a.org_id=#{org_id}
+        
+        <!-- 查询的字段必须以 search.xxx 形式书写 -->
+        <!-- 上述查询栏内的编号和姓名 name 属性分别为 operId 和 operName，故此调用如下所示 -->
+        <!-- 判断是否有查询内容-start -->
+        <if test="search.operId != null and search.operId != ''">
+            and a.oper_id=#{search.operId}
+        </if>
+        <if test="search.operName != null and search.operName != ''">
+            and a.oper_name LIKE concat(concat('%', #{search.operName}), '%')
+        </if>
+        <!-- 判断是否有查询内容-end -->
+        
+        <!-- 此处固定写法 -->
+        <!-- 没有排序条件，自定义默认排序字段 -->
+        <choose>
+            <when test="order != null and order != ''">
+                order by ${order}
+            </when>
+            <!-- 默认按照用户创建时间倒序 -->
+            <otherwise>order by a.open_date desc</otherwise>
+        </choose>
+        
+        <!-- 分页条件，记录起始start，获取记录长度length -->
+        limit #{start},#{length}
+    </select>
+  ```
+* 获取查询的数据的总数
+* ```xml
+    <!-- 接受参数 parameterType 必须为 Map类型 -->
+    <!-- 返回值 resultType 自定义 -->
+    <!-- 查找所有操作员信息（记录数） -->
+    <select id="getRecordCount" parameterType="Map" resultType="java.lang.String">
+        select count(1)
+        from sys_operator a, sys_organ b, sys_branch c
+        where a.org_id=b.org_id
+        and a.brch_id=c.brch_id
+        and a.org_id=#{org_id}
+        <!-- 判断是否有查询内容-start -->
+        <if test="search.operId != null and search.operId != ''">
+            and a.oper_id=#{search.operId}
+        </if>
+        <if test="search.operName != null and search.operName != ''">
+            and a.oper_name LIKE concat(concat('%', #{search.operName}), '%')
+        </if>
+        <!-- 判断是否有查询内容-end -->
+    </select>
+  ```
 
 
