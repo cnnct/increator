@@ -13,26 +13,26 @@
 * 引入查询栏标签 **query\_bar**
 * ```html
   <@query_bar>
-  <table>
-  <tr>
-  <th>编号</th>
-  <td><input type="text" name="operId"></td>
-  <tr>
-  <tr>
-  <th>姓名</th>
-  <td><input type="text" name="operName"></td>
-  </tr>
-  <tr>
-  <td><button type="button" class="btn btn-default btn-sm" onclick="queryInfo()">查询</button></td>
-  </tr>
-  </table>
+    <table>
+      <tr>
+        <th>编号</th>
+        <td><input type="text" name="operId"></td>
+      <tr>
+      <tr>
+        <th>姓名</th>
+        <td><input type="text" name="operName"></td>
+      </tr>
+      <tr>
+        <td><button type="button" class="btn btn-default btn-sm" onclick="queryInfo()">查询</button></td>
+      </tr>
+    </table>
   </@query_bar>
   ```
 * 引入按钮栏 **button\_bar**
 * ```html
   <@button_bar>
-  <@button icon="saved" value="保存" onclick="save()"/>
-  <@button icon="remove" value="删除" onclick="del()"/>
+    <@button icon="saved" value="保存" onclick="save()"/>
+    <@button icon="remove" value="删除" onclick="del()"/>
   </@button_bar>
   ```
 * 引入表格栏 **table** （其他控件参看**基本表单控件**和**扩展表单控件**），表格控件的使用包含在此例中
