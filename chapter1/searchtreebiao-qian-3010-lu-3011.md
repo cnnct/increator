@@ -10,9 +10,9 @@
 > >
 > > **name ：** name属性
 > >
-> > **default\_val：** 默认选中
+> > **tree\_id：** 默认选中
 > >
-> > **readonly：** 是否可选
+> > **checkbox\_have：** 是否可选
 > >
 > > \***sql\_key：** SQL语句对应的key
 > >
