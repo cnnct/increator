@@ -16,7 +16,7 @@
 > >
 > > \***sql\_key：** SQL语句对应的key
 > >
-> > **label：** 显示名对应的字段
+> > **label：** label标签
 > >
 > > **sql\_condition：** 值对应的字段
 > >
