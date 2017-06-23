@@ -35,7 +35,7 @@
   * [模态弹框【施】](ying-yong-gong-ju-fang-fa-diao-yong-3010-shi-3001-lu-3011/mo-tai-dan-kuang-3010-shi-3011.md)
 * [开发规范](kai-fa-gui-fan.md)
   * [前端开发规范](kai-fa-gui-fan/qian-duan-kai-fa-gui-fan.md)
-  * [后端开发规范【曲】](kai-fa-gui-fan/hou-duan-kai-fa-gui-fan.md)
+  * [后端开发规范](kai-fa-gui-fan/hou-duan-kai-fa-gui-fan.md)
 * [附录](bei-zhu-zhu-yi.md)
   * [lomboz注解使用](lombozzhu-jie-shi-yong.md)
   * [gitbook使用注意事项【废弃】](gitsvn.md)
