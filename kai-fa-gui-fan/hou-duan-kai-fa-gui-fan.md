@@ -106,32 +106,32 @@
 * 新增数据时的提交方法
 * 表单写法举例（此处以操作员为例）
 * ```html
- <@modal_body class="modal-lg" id="modal_add" modal_title="添加操作员">
- <@form id="add_form">
- <@form_group class="row">
- <@input label="编号：;true;2" name="oper.operId" type="text" size="2"/>
- <@input label="姓名：;true;2" name="oper.operName" type="text" size="2"/>
- <@code_select id="add_sex" label="性别：;false;2" name="oper.sex" code_type="SEX" choice_have="true" size="2"/>
- </@form_group>
- <@form_group class="row">
- <@input label="身份证号：;false;2" name="oper.certNo" type="text" size="2"/>
- <@input label="手机号：;false;2" name="oper.teleNo" type="text" size="2"/>
- <@code_select id="add_operlevel" label="用户级别：;true;2" name="oper.operLevel" code_type="OPER_LEVEL" choice_have="true" size="2"/>
- </@form_group>
- <@form_group class="row">
- <@input_tree label="部门；;true;2" name="oper.brchId" size="2" id="brch_id" tree_id="brch_tree" sql_key="sysbrch1" checkbox_have="false"/>
- <@input label="密码：;true;2" name="oper.pwd" type="password" size="2"/>
- </@form_group>
- <@form_group class="row">
- <@label name="角色：" must_star="true" size="2"/>
- <@dual_select_list id="add_roleId" name="role.roleId" show_field="role_desc" value_field="role_id" sql_key="sysoperrole1" sql_condition="'';''" size="6"/>
- </@form_group>
- </@form>
- </@modal_body>
- <@modal_foot>
- <@button icon="saved" value="提交" onclick="save()"/>
- </@modal_foot>
-```
+  <@modal_body class="modal-lg" id="modal_add" modal_title="添加操作员">
+      <@form id="add_form">
+          <@form_group class="row">
+              <@input label="编号：;true;2" name="oper.operId" type="text" size="2"/>
+              <@input label="姓名：;true;2" name="oper.operName" type="text" size="2"/>
+              <@code_select id="add_sex" label="性别：;false;2" name="oper.sex" code_type="SEX" choice_have="true" size="2"/>
+          </@form_group>
+          <@form_group class="row">
+              <@input label="身份证号：;false;2" name="oper.certNo" type="text" size="2"/>
+              <@input label="手机号：;false;2" name="oper.teleNo" type="text" size="2"/>
+              <@code_select id="add_operlevel" label="用户级别：;true;2" name="oper.operLevel" code_type="OPER_LEVEL" choice_have="true" size="2"/>
+          </@form_group>
+          <@form_group class="row">
+              <@input_tree label="部门；;true;2" name="oper.brchId" size="2" id="brch_id" tree_id="brch_tree" sql_key="sysbrch1" checkbox_have="false"/>
+              <@input label="密码：;true;2" name="oper.pwd" type="password" size="2"/>
+          </@form_group>
+          <@form_group class="row">
+              <@label name="角色：" must_star="true" size="2"/>
+              <@dual_select_list id="add_roleId" name="role.roleId" show_field="role_desc" value_field="role_id" sql_key="sysoperrole1" sql_condition="'';''" size="6"/>
+      </@form_group>
+      </@form>
+  </@modal_body>
+  <@modal_foot>
+      <@button icon="saved" value="提交" onclick="save()"/>
+  </@modal_foot>
+  ```
 * 提交方法举例
 * ```js
  /**
