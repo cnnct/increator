@@ -231,10 +231,10 @@
         <!-- 上述查询栏内的编号和姓名 name 属性分别为 operId 和 operName，故此调用如下所示 -->
         <!-- 判断是否有查询内容-start -->
         <if test="search.operId != null and search.operId != ''">
-            AND a.oper_id=#{search.operId}
+            and a.oper_id=#{search.operId}
         </if>
         <if test="search.operName != null and search.operName != ''">
-            AND a.oper_name LIKE concat(concat('%', #{search.operName}), '%')
+            and a.oper_name LIKE concat(concat('%', #{search.operName}), '%')
         </if>
         <!-- 判断是否有查询内容-end -->
         
@@ -242,14 +242,14 @@
         <!-- 没有排序条件，自定义默认排序字段 -->
         <choose>
             <when test="order != null and order != ''">
-                ORDER BY ${order}
+                order by ${order}
             </when>
             <!-- 默认按照用户创建时间倒序 -->
-            <otherwise>ORDER BY a.open_date desc</otherwise>
+            <otherwise>order by a.open_date desc</otherwise>
         </choose>
         
-        <!-- 分页条件，固定写法 -->
-        LIMIT #{start},#{length}
+        <!-- 分页条件，记录起始start，获取记录长度length -->
+        limit #{start},#{length}
     </select>
   ```
 * 获取查询的数据的总数
@@ -265,10 +265,10 @@
         and a.org_id=#{org_id}
         <!-- 判断是否有查询内容-start -->
         <if test="search.operId != null and search.operId != ''">
-            AND a.oper_id=#{search.operId}
+            and a.oper_id=#{search.operId}
         </if>
         <if test="search.operName != null and search.operName != ''">
-            AND a.oper_name LIKE concat(concat('%', #{search.operName}), '%')
+            and a.oper_name LIKE concat(concat('%', #{search.operName}), '%')
         </if>
         <!-- 判断是否有查询内容-end -->
     </select>
