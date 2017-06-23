@@ -10,7 +10,7 @@
 > >
 > > **name ：** name属性
 > >
-> > \***tree\_id：** 默认选中
+> > \***tree\_id：** 树的id
 > >
 > > **checkbox\_have：** 是否可选
 > >
