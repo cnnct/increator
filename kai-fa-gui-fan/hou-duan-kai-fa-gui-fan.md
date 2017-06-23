@@ -38,8 +38,8 @@
 * 引入表格栏 **table** （其他控件参看**基本表单控件**和**扩展表单控件**），表格控件的使用包含在此例中
 * ```html
   <@table url="${base}/oper/query"
-  thead="编号,姓名,机构,部门,状态,级别"
-  fields="id,oper_id,oper_name,org_name,brch_name,oper_state,oper_level"/>
+          thead="编号,姓名,机构,部门,状态,级别"
+          fields="id,oper_id,oper_name,org_name,brch_name,oper_state,oper_level"/>
   <!-- 所有提交的url地址的前缀都要加上 ${base} -->
   <!-- 表格控件目前需三个参数：-->
   <!-- url： 提交的后台地址 thead： 表头显示的字段名（不包括第一列的id列） fields：sql语句中显示的字段名 -->
