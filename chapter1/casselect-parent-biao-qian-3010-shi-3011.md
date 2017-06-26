@@ -6,7 +6,7 @@
 
 #### cas\_select\_parent**标签的属性 :**
 
-> cas\_select\_parent标签有8个属性分别为为id、name、size、label、sql\_key、value\_field、show\_field、child\_info；
+> cas\_select\_parent标签有9个属性分别为为id、name、size、label、sql\_key、value\_field、show\_field、child\_info、default\_val；
 >
 > **其中sql\_key、value\_field、 show\_field、child\_info为必填项,下面必填项加上了\*号**；
 >
@@ -35,6 +35,10 @@
 > > 如child\_info="child;sysfunc3;TITLE;FUNC\_ID",其中第一项为子级的id，第二项为子级加载数据要执行的sql\_key的值，第三
 > >
 > > 项为子级option的text值是用表中哪个字段来赋值，第四项为子级option的value值是由表中哪个字段来赋值，**四项都为必填值**
+> >
+> > **default\_val :** default\_val属性是指code\_select标签的默认选中值，该值为option的value值，当select\_more 属性为“true”时，可以多选，
+> >
+
 
 #### cas\_select\_child**标签的属性 :**
 
