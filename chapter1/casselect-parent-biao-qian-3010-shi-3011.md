@@ -36,7 +36,7 @@
 > >
 > > 项为子级option的text值是用表中哪个字段来赋值，第四项为子级option的value值是由表中哪个字段来赋值，**四项都为必填值**
 > >
-> > **default\_val :** default\_val属性是指code\_select标签的默认选中值，该值为option的value值，当select\_more 属性为“true”时，可以多选，
+> > **default\_val :** default\_val属性是指cas\_select\_parent标签的默认选中值，该值为option的value值
 > >
 
 
