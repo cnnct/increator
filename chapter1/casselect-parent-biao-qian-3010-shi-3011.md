@@ -18,14 +18,14 @@
 > >
 > > **label ：** label为cas\_select\_parent标签的前缀标签属性,如label="name;true;2"；其中label属性中含有三个值，第一个值
 > >
-> > **readonly ：** readonly为只读属性,可以填写的数值为"true","false",默认为false
->>
 > > 为前缀标签的名字；第二个值为前缀标签是否加红色星号,即必填项标志；第三个值为前缀标签的尺寸,
 > >
 > > 可填的数值范围为（1-12）,默认尺寸为1；引入方式：label="name;true;2" ； label="name;true" ；
 > >
 > > label="name" ；label="name;;2" 即三个值都非必填项
-> >
+>>
+> > **readonly ：** readonly为只读属性,可以填写的数值为"true","false",默认为false
+>>
 > > **\* sql\_key  ：** sql\_key属性为cas\_select\_parent标签后台执行的sql的key值；
 > >
 > > **\* value \_field ：** value\_field属性是指cas\_select\_parent标签选项option的value值是由表中哪个字段来赋值；
