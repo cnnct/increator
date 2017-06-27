@@ -38,10 +38,12 @@
 * ```html
   <@table url="${base}/oper/query"
                 thead="编号,姓名,机构,部门,状态,级别"
-                fields="id,oper_id,oper_name,org_name,brch_name,oper_state,oper_level"/>
+                fields="id,oper_id,oper_name,org_name,brch_name,oper_state,oper_level"
+                translate={"oper_state":"STATE", "oper_level":"OPER_LEVEL"}/>
   <!-- 所有提交的url地址的前缀都要加上 ${base} -->
   <!-- 表格控件目前需三个参数：-->
   <!-- url： 提交的后台地址 thead： 表头显示的字段名（不包括第一列的id列） fields：sql语句中显示的字段名 -->
+  <!-- translate：待转义的字段，格式为json格式 -->
   <!-- 首字段 id 固定，mapper 中提供的 sql 语句必须提供 id 字段名（详细见后续 mapper 语句编写）-->
   ```
 * 表格数据显示例子如下图：
@@ -199,7 +201,7 @@
             //获取总记录数
             Long recordsTotal = operServ.getRecordCount(resultData);
             //返回数据至页面
-            resultData = initPagination(operList, recordsTotal);
+            initPagination(resultData, operList, recordsTotal);
         } catch (Exception e) {
             resultData.setResultData(e);
             log.error(e.getMessage());
@@ -219,9 +221,7 @@
     <!-- 返回值 resultType 必须为 Map -->
     <!-- 表格转义功能还未实现，转义功能直接在sql中实现，后续优化 -->
     <select id="getOperList" parameterType="Map" resultType="Map">
-        select a.oper_id as id, a.oper_id, a.oper_name, b.org_name, c.brch_name,
-        (select code_name from sys_code where code_type='STATE' and code_value=a.oper_state) oper_state,
-        (select code_name from sys_code where code_type='OPER_LEVEL' and code_value=a.oper_level) oper_level
+        select a.oper_id as id, a.oper_id, a.oper_name, b.org_name, c.brch_name, a.oper_state, a.oper_level
         from sys_operator a, sys_organ b, sys_branch c
         where a.org_id=b.org_id
         and a.brch_id=c.brch_id
