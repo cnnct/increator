@@ -61,7 +61,9 @@
 > > 可填的数值范围为（1-12）,默认尺寸为1；引入方式：label="name;true;2" ； label="name;true" ；
 > >
 > > label="name" ；label="name;;2" 即三个值都非必填项
-> >
+>>
+> > **readonly ：** readonly为只读属性,可以填写的数值为"true","false",默认为false
+>>
 > > **child\_info  ：** child\_info属性是cas\_select\_child标签记录下一级的信息的属性；
 > >
 > > 如child\_info="child;sysfunc3;TITLE;FUNC\_ID",其中第一项为子级的id，第二项为子级加载数据要执行的sql\_key的值，第三
