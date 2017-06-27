@@ -6,7 +6,7 @@
 
 #### cas\_select\_parent**标签的属性 :**
 
-> cas\_select\_parent标签有10个属性分别为为id、name、size、label、sql\_key、value\_field、show\_field、child\_info、default\_val、sql\_condition；
+> cas\_select\_parent标签有11个属性分别为为id、name、size、label、sql\_key、value\_field、show\_field、child\_info、default\_val、sql\_condition、readonly；
 >
 > **其中sql\_key、value\_field、 show\_field、child\_info为必填项,下面必填项加上了\*号**；
 >
@@ -66,8 +66,8 @@
 > >
 > > 项为子级option的text值是用表中哪个字段来赋值，第四项为子级option的value值是由表中哪个字段来赋值，**四项都为必填值，但是如果该级为最后一级则child\_info属性不必存在**
 >
-> **\* 以下几个属性特别注意，当级联需要默认值时下面sql\_key、value\_field、show\_field为必填项，
->一般情况不需要加入下面几个属性 **
+> **\* 以下几个属性特别注意，当级联需要默认值时下面sql\_key、value\_field、show\_field为必填项，  
+> 一般情况不需要加入下面几个属性 **
 >
 > > ** sql\_key  ：** sql\_key属性为cas\_select\_child标签后台执行的sql的key值；
 > >
