@@ -2,7 +2,7 @@
 
 #### button**标签的属性 :**
 
-> button标签有8个属性分别为为id、name、size、type、class、icon、value、onclick；
+> button标签有9个属性分别为为id、name、size、type、class、icon、value、onclick、data_target；
 >
 > **其中value为必填项,下面必填项加上了\*号**；
 >
@@ -21,6 +21,10 @@
 > > **icon :** icon属性为button中的图标样式，默认为“search”，可填的数值详见bootstrap官网
 > >
 > > **onclick :** onclick属性
+> >
+> > **data_target :** data_target属性为绑定模态框时使用，值为指向的modal框的id值 data_target="add-modal"
+
+
 
 #### button标签的引入方式 :
 
