@@ -10,7 +10,7 @@
 > >
 > > **class ：** class属性
 >>
-> > **size ：** size为尺寸标签,可以填的数值范围为（1-12）,如size="6",select标签的默认size为5
+> > **size ：** size为尺寸标签,可以填的数值范围为（1-12）,如size="6",select标签的默认size为1
 > >
 > > **label :** label为select标签的前缀标签属性,如label="name;true;2"；其中label属性中含有三个值，
 > >
