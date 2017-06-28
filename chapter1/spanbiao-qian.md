@@ -2,7 +2,7 @@
 
 #### span**标签的属性 :**
 
-> span标签有5个属性分别为为id、name、class、size、label
+> span标签有7个属性分别为为id、name、class、size、label、value、translate_code_type
 >
 > > **id ：** id属性
 > >
@@ -20,6 +20,16 @@
 > >
 > > label="name" ；label="name;;2" 即三个值都非必填项
 > >
+> > **value：** value属性，用于存放显示值
+>>
+> > **translate\_code\_type：** translate\_code\_type属性，值为该span值得转义类型，如：
+>>
+>>translate\_code\_type="STATE"
+
+
+
+
+
 
 #### span标签的引入方式 :
 
