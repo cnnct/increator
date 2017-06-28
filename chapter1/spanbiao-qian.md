@@ -36,13 +36,13 @@
 ```
    <@span>属性显示</@span>
     
-   <@span class="text-warning">属性显示1</@span>
+   <@span class="text-warning" value="属性显示1"/>
 
-   <@span class="text-error">属性显示2</@span>
+   <@span class="text-error" value="属性显示2"/>
 
-   <@span class="text-info">属性显示3</@span>
+   <@span class="text-info" value="属性显示3"/>
 
-   <@span class="text-success">属性显示4</@span>
+   <@span class="text-success" value="属性显示4"/>
 ```
 #### span标签的显示结果 :
 
