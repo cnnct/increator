@@ -39,12 +39,17 @@
   <@table url="${base}/oper/query"
                 thead="编号,姓名,机构,部门,状态,级别"
                 fields="id,oper_id,oper_name,org_name,brch_name,oper_state,oper_level"
-                translate={"oper_state":"STATE", "oper_level":"OPER_LEVEL"}/>
+                translate={"oper_state":"STATE", "oper_level":"OPER_LEVEL"}
+                idtype="radio"/>
   <!-- 所有提交的url地址的前缀都要加上 ${base} -->
-  <!-- 表格控件目前需三个参数：-->
+  <!-- 表格控件必须的三个参数：url、thead、fields -->
   <!-- url： 提交的后台地址 thead： 表头显示的字段名（不包括第一列的id列） fields：sql语句中显示的字段名 -->
   <!-- translate：待转义的字段，格式为json格式 -->
-  <!-- 首字段 id 固定，mapper 中提供的 sql 语句必须提供 id 字段名（详细见后续 mapper 语句编写）-->
+  <!-- idtype：id列形式（单选框 radio、复选框 checkbox），默认复选框。
+    表格若不需要id列，fields 中去掉 id 字段，同时后台 sql 也去掉 id 字段：如下
+    fields="oper_id,oper_name,org_name,brch_name,oper_state,oper_level"
+    -->
+  <!-- 备注：存在id列的情况下，首字段 id 固定，mapper 中提供的 sql 语句必须提供 id 字段名（详细见后续 mapper 语句编写）-->
   ```
 * 表格数据显示例子如下图：
 ![](/assets/20170623101159.jpg)
@@ -208,6 +213,31 @@
             e.printStackTrace();
         }
         return resultData;
+    }
+  ```
+- 实现类（Dao层）注意事项
+- ```java
+    /**
+     * 实现类需继承 BaseImpl 基础实现类
+     */
+    @Repository //dao层注解
+    public class OperServImpl extends BaseImpl implements OperServ {
+        /**
+         * 获取操作员列表
+         * @param pageMap 分页排序map
+         */
+        @Override
+        public List<Map> getOperList(Map pageMap) {
+            try {
+                List<Map> operList = operMapper.getOperList(pageMap);
+                //注意：必须调用此方法
+                stuffIdValue(pageMap, operList);
+                
+                return operList;
+            } catch (Exception e) {
+                throw new CustomException(e);
+            }
+        }
     }
   ```
 
