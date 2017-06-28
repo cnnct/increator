@@ -22,7 +22,7 @@
 > >
 > > **value：** value属性，用于存放显示值
 >>
-> > **translate\_code\_type：** translate\_code\_type属性，值为该span值得转义类型，如：
+> > **translate\_code\_type：** translate\_code\_type属性，值为该span值在sys_code表的转义类型，如：
 >>
 >>translate\_code\_type="STATE"
 
