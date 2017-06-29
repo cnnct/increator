@@ -53,10 +53,11 @@
   5. translate：待转义的字段，格式为json格式
   6. idtype：id列形式（单选框 radio、复选框 checkbox），默认复选框。
   7. operate：是否显示操作列，true 显示，false 不显示
-  8. btn：显示的按钮，目前有6个固定的常用按钮：detail 查看详情，edit 修改，delete 删除，active 激活，cancel 注销，显示按钮必须开启操作栏
+  8. btn：显示的按钮，目前有6个固定的常用按钮：
+         detail 查看详情，edit 修改，delete 删除，active 激活，cancel 注销，verify 审核，显示按钮必须开启操作栏
   9. sort：支持排序功能的字段，默认除了id列和操作列外所有字段都支持
   10. 表格若不需要id列，fields 中去掉 id 字段，同时后台 sql 也去掉 id 字段：如下
-     fields="oper_id,oper_name,org_name,brch_name,oper_state,oper_level"
+      fields="oper_id,oper_name,org_name,brch_name,oper_state,oper_level"
   备注：存在id列的情况下，首字段 id 固定，mapper 中提供的 sql 语句必须提供 id 字段名（详细见后续 mapper 语句编写）
   -->
   ```
