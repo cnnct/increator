@@ -50,7 +50,7 @@
   2. url： 提交的后台地址 
   3. thead： 表头显示的字段名（不包括第一列的id列）
   4. fields：sql语句中显示的字段名
-  5. translate：待转义的字段，格式为json格式 -->
+  5. translate：待转义的字段，格式为json格式
   6. idtype：id列形式（单选框 radio、复选框 checkbox），默认复选框。
   7. operate：是否显示操作列，true 显示，false 不显示
   8. btn：显示的按钮，目前有6个固定的常用按钮：detail 查看详情，edit 修改，delete 删除，active 激活，cancel 注销，显示按钮必须开启操作栏
