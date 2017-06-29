@@ -27,12 +27,13 @@
       </table>
   </@query_bar>
   ```
-* 引入按钮栏 **button\_bar**
+* 引入按钮栏 **table_toolbar**
 * ```html
-  <@button_bar>
-      <@button icon="saved" value="保存" onclick="save()"/>
-      <@button icon="remove" value="删除" onclick="del()"/>
-  </@button_bar>
+    <@table_toolbar name="查询结果">
+        <@button value="新增" data_target="modal_add" icon="plus"/>
+        <@button value="批量激活" onclick="activeAndCancel('active')" icon="ok-sign"/>
+        <@button value="批量注销" onclick="activeAndCancel('cancel')" icon="remove-sign"/>
+    </@table_toolbar>
   ```
 * 引入表格栏 **table** （其他控件参看**基本表单控件**和**扩展表单控件**），表格控件的使用包含在此例中
 * ```html
@@ -112,6 +113,38 @@
                     //ajax直接提交方法 directpost(url, data) data为json对象
                     directpost("${base}/oper/del", {"operId": id});
                     alert({message: "删除成功", title: "提示"});
+                }
+            }
+        })
+    }
+  ```
+* 表格操作栏的 '激活' 方法
+* ```js
+    <#-- 激活操作员（操作栏内）（js方法名固定写法） -->
+    function activeItem(id) {
+        //判断是否执行该操作
+        confirm({
+            message: "是否执行操作？",
+            callback: function(result) {
+                if (result) {
+                    //ajax直接提交方法 directpost(url, data) data为json对象
+                    directpost("${base}/oper/activeAndCancel", {"ids": id, "flag": "active"});
+                }
+            }
+        })
+    }
+  ```
+* 表格操作栏的 '注销' 方法
+* ```js
+    <#-- 注销操作员（操作栏内）（js方法名固定写法） -->
+    function cancelItem(id) {
+        //判断是否执行该操作
+        confirm({
+            message: "是否执行操作？",
+            callback: function(result) {
+                if (result) {
+                    //ajax直接提交方法 directpost(url, data) data为json对象
+                    directpost("${base}/oper/activeAndCancel", {"ids": id, "flag": "cancel"});
                 }
             }
         })
