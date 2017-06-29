@@ -2,7 +2,7 @@
 
 #### text\_area**标签的属性 :**
 
-> text\_area标签有5个属性分别为为id、name、size、readonly、label
+> text\_area标签有6个属性分别为为id、name、size、readonly、label、value
 >
 > > **id ：** id属性
 > >
