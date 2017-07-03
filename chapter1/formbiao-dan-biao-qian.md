@@ -2,9 +2,10 @@
 
 #### **form标签的属性 :**
 
-> form标签有5个属性分别为id、class、name、action,enctype**其中id属性为必填项**；  
-> >**\* id ：** id属性
->>
+> form标签有5个属性分别为id、class、name、action,enctype**其中id属性为必填项**；
+>
+> > **\* id ：** id属性
+> >
 > > **name ：** name属性
 > >
 > > **class：** class属性
@@ -61,16 +62,16 @@
 #### ![](/assets/form.png)form表单的引入方式 :
 
 ![](/assets/validate1.png)
+
 #### ![](/assets/form.png)form表单显示结果 :
 
 ![](/assets/validate2.png)
 
 自定义表单正则表达式验证，文件名为custom\_validate.js
 
-
-
 ![](/assets/validate3.png)
-#### form表单的验证显示结果 :
-![](/assets/validate5.png)
 
+#### form表单的验证显示结果 :
+
+![](/assets/validate5.png)
 
