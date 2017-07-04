@@ -46,7 +46,7 @@
     * [mybatis热部署](kuang-jia-she-zhi/mybatis/mybatisre-bu-shu.md)
   * [Ehcache的使用](kuang-jia-she-zhi/ehcachede-shi-yong.md)
 * [开发规范](kai-fa-gui-fan.md)
-  * [前端开发规范](kai-fa-gui-fan/qian-duan-kai-fa-gui-fan.md)
+  * [font icon规范](kai-fa-gui-fan/qian-duan-kai-fa-gui-fan.md)
   * [后端开发规范](kai-fa-gui-fan/hou-duan-kai-fa-gui-fan.md)
   * [基本编码规范](kai-fa-gui-fan/ji-ben-bian-ma-gui-fan.md)
   * [数据库规范](kai-fa-gui-fan/shu-ju-ku-gui-fan.md)
