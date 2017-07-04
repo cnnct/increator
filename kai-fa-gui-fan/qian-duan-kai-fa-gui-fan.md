@@ -1,6 +1,8 @@
-## font字体库用法
+# font字体库用法
 
 ### 字体库网站
+
+---
 
 [www.iconfont.cn](/www.iconfont.com)
 
@@ -9,13 +11,17 @@
 ![](/assets/03.png)  
 ![](/assets/04.png)
 
-###  FontIconCreator
+* ### FontIconCreator
+
+---
 
 这个工具类用来生成已有css图标样式文件，但又缺少demo直接图，可以用这个工具生成一个html预览页，详见下图所示。
 
 ![](/assets/FontIconCreator.png)
 
-###  自定义图标改造
+* ### 自定义图标改造
+
+---
 
 除了框架自带的图标外，可以按照需要加入自定义图标，**但必须按照规范操作**，否则图标会越来越多，越来越乱。
 
@@ -28,8 +34,6 @@
 * 下截完后的压缩包中包含css、字体文件、demo等文件，先对字体文件进行更名为“font-increator”，然后对css文件顶部几行引用文件名的地方相应的进行修改即可。
 
 ![](/assets/myproject.png)![](/assets/myproject_edit.png)
-
-
 
 详见下图![](/assets/fontcss.png)
 
