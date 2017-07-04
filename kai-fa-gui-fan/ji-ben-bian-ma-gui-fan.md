@@ -13,6 +13,9 @@
 > > 功能菜单表sysfunc中菜单规则保持现有递增及上下级编号规则，详见下图所示：![](/assets/sys_func.png)
 > >
 > > 其中菜单图标样式使用，详见**font icon规范章节：**
+[http://codeguide.bootcss.com/\#html-syntax](http://codeguide.bootcss.com/#html-syntax)
+
+
 > >
 > >
 > >
