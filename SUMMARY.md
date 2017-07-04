@@ -49,6 +49,7 @@
   * [前端开发规范](kai-fa-gui-fan/qian-duan-kai-fa-gui-fan.md)
   * [后端开发规范](kai-fa-gui-fan/hou-duan-kai-fa-gui-fan.md)
   * [基本编码规范](kai-fa-gui-fan/ji-ben-bian-ma-gui-fan.md)
+  * [数据库规范](kai-fa-gui-fan/shu-ju-ku-gui-fan.md)
 * [附录](bei-zhu-zhu-yi.md)
   * [lomboz注解使用](lombozzhu-jie-shi-yong.md)
   * [gitbook使用注意事项【废弃】](gitsvn.md)
