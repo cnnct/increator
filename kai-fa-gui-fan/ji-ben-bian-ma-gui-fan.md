@@ -20,7 +20,7 @@
 > >
 > > > to+模块名或者菜单名（首字母大写）+操作页面（Index、Add、Edit），如记名卡发卡： toNamedCardSellIndex
 > >
-> > ctrl业务方法名规则
+> > ctrl类业务方法名规则
 
 3、 系统类方法名命名规则：
 
