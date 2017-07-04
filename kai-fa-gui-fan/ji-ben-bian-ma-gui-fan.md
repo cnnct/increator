@@ -12,7 +12,7 @@
 >
 > > 功能菜单表sysfunc中菜单规则保持现有递增及上下级编号规则，详见下图所示：![](/assets/sys_func.png)
 > >
-> > ![](/assets/sys_func.png)
+> >
 > >
 > > 系统类方法名命名规则
 
