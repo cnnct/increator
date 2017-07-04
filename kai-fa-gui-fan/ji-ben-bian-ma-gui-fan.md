@@ -13,10 +13,14 @@
 > > 功能菜单表sysfunc中菜单规则保持现有递增及上下级编号规则，详见下图所示：![](/assets/sys_func.png)
 > >
 > > 其中菜单图标样式使用，详见"[font icon规范](/kai-fa-gui-fan/qian-duan-kai-fa-gui-fan.md)"章节
+>
+> #### 系统类方法名命名规则
+>
+> > ctrl类跳转目标页面方法命名
 > >
-> > 系统类方法名命名规则
+> > > to+模块名或者菜单名（首字母大写）+操作页面（Index、Add、Edit），如记名卡发卡： toNamedCardSellIndex
 
-2、
+
 
 3、 系统类方法名命名规则：
 
