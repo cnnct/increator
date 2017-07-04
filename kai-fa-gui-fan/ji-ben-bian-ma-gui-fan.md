@@ -20,15 +20,17 @@
 > >
 > > > 业务名+Ctrl，如LoginCtrl.java
 > >
-> > ctrl类跳转目标页面方法命名
+> > controller类跳转目标页面方法命名
 > >
 > > > to+模块名或者菜单名（首字母大写）+操作页面（Index、Add、Edit），如记名卡发卡： toNamedCardSellIndex
 > >
-> > ctrl类业务方法名规则
+> > controller类业务方法名规则
 > >
 > > > 操作动作（例如save、edit、delete、sell）+模块名（首字母大写）或者菜单名，如saveRole、delRole
 > >
-> > serv
+> > service类名命名
+> >
+> > > 业务名+Serv，如LoginServ.java，loginServImpl.java
 > >
 > > 系统页面文件名命名规则，统一小写
 
