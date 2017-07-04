@@ -34,9 +34,7 @@
 > >
 > > 系统页面文件名命名规则，统一小写
 > >
-> > > 根据菜单名就可以知道对应的页面。
-> > >
-> > > 例如：记名卡发卡：namedcard\_sell.ftl，机构管理：organ\_index.ftl   organ\_edit.ftl
+> > > 根据菜单名就可以知道对应的页面。例如：记名卡发卡：namedcard\_sell.ftl，机构管理：organ\_index.ftl   organ\_edit.ftl
 
 3、 系统类方法名命名规则：
 
