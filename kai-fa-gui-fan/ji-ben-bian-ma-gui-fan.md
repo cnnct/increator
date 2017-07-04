@@ -35,28 +35,12 @@
 > > 系统页面文件名命名规则，统一小写
 > >
 > > > 根据菜单名就可以知道对应的页面。例如：记名卡发卡：namedcard\_sell.ftl，机构管理：organ\_index.ftl   organ\_edit.ftl
+>
+> 系统错误码
+>
+> 针对系统代码错误（sys\_code\_err）对应的字段FIELD\_NAME\(类中属性名称\)规范：按目前的全大写，单词间用下划线分隔，如OFFLINE\_ACC\_FREEZE。此规定也适用于sys
 
-3、 系统类方法名命名规则：
 
-（1）、Action直接跳转页面方法名规则：
-
-to+模块名或者菜单名（首字母大写）+操作页面（Index、Add、Edit）。
-
-卡发卡：记名卡发卡、非记名卡发卡 toNamedCardSellIndex
-
-（2）、Action业务方法名规则：
-
-```
-     操作动作（例如save、edit、delete、sell）+模块名（首字母大写）或者菜单名。
-```
-
-4、 系统页面文件名命名规则，统一小写：
-
-根据菜单名就可以知道对应的页面。
-
-例如：记名卡发卡：namedcard\_sell.ftl。
-
-机构管理：organ\_index.ftl   organ\_edit.ftl
 
 5、 系统错误代码：
 
