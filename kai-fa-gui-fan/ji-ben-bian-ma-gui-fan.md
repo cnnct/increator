@@ -18,7 +18,7 @@
 >
 > > ctrl类名命名
 > >
-> > > 业务名+Ctrl，如LoginCtrl
+> > > 业务名+Ctrl，如LoginCtrl.java
 > >
 > > ctrl类跳转目标页面方法命名
 > >
