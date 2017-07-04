@@ -1,9 +1,3 @@
-# 开发页面务必要看
-
-## 1、bootstrap开发规范
-
-[http://codeguide.bootcss.com/\#html-syntax](http://codeguide.bootcss.com/#html-syntax)
-
 ## 2、font字体库用法
 
 ### 2.1 字体库网站
