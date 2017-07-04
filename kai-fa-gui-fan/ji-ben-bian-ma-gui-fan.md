@@ -22,7 +22,7 @@
 > >
 > > ctrl类业务方法名规则
 > >
-> > > 操作动作（例如save、edit、delete、sell）+模块名（首字母大写）或者菜单名
+> > > 操作动作（例如save、edit、delete、sell）+模块名（首字母大写）或者菜单名，如saveRole、delRole
 
 3、 系统类方法名命名规则：
 
