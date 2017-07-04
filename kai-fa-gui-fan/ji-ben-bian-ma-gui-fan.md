@@ -79,6 +79,12 @@
 > > * #### 日志输出
 > >
 > > > 去掉无用的System.out.print的打印输出语句，替换为适当使用log4j的日志输出进调试输出。
+>
+> #### 交易代码、错误码等createcode.java使用规则
+>
+> > 添加完field\_name后，需要重新生成code，对应的类还是tr\_code.java。若增加了code，只需要重新执行一下，再和业务代码一并提交到vs上，保证上传的代码无编译错误即可。同理可一并生成代码字典sys\_code.java。CreateCode.java可根据实际情况修改
+> >
+> > >
 
 
 
