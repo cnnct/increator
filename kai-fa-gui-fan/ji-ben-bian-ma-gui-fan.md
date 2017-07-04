@@ -36,9 +36,9 @@
 > >
 > > > 根据菜单名就可以知道对应的页面。例如：记名卡发卡：namedcard\_sell.ftl，机构管理：organ\_index.ftl   organ\_edit.ftl
 >
-> 系统错误码
+> #### 系统错误码
 >
-> 针对系统代码错误（sys\_code\_err）对应的字段FIELD\_NAME\(类中属性名称\)规范：按目前的全大写，单词间用下划线分隔，如OFFLINE\_ACC\_FREEZE。此规定也适用于sys\_code\_tr表、sys\_code表
+> > 针对系统代码错误（sys\_code\_err）对应的字段FIELD\_NAME\(类中属性名称\)规范：按目前的全大写，单词间用下划线分隔，如OFFLINE\_ACC\_FREEZE。此规定也适用于sys\_code\_tr表、sys\_code表
 
 5、 系统错误代码：
 
