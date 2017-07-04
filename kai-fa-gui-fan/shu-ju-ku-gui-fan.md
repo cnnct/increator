@@ -8,9 +8,7 @@
 
 **错误一：即无归类，也未缩写**
 
-
-
-![](file:///C:\Users\ADMINI~1.USE\AppData\Local\Temp\msohtmlclip1\01\clip_image002.jpg)
+![](file:///D:\用户目录\我的文档\Tencent Files\12452964\Image\C2C\Image2\AN7$N}Z%29C3%285IEXT70U%29I%B.png)
 
 **错误二：未缩写**
 
