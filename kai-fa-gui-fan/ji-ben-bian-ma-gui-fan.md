@@ -74,6 +74,8 @@
 > >
 > > ###### ![](/assets/vsts_comment.png)
 > >
+> > ###### ![](/assets/vsts_comment2.png)
+> >
 > > * #### 日志输出
 > >
 > > > 去掉无用的System.out.print的打印输出语句，替换为适当使用log4j的日志输出进调试输出。
