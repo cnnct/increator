@@ -1,4 +1,4 @@
-* ## 页面开发规范参考
+* ## [font icon规范](/kai-fa-gui-fan/qian-duan-kai-fa-gui-fan.md)页面开发规范参考
 
 > 必看！！！！本处不细述，详见bootstrap开发规范： [http://codeguide.bootcss.com/\#html-syntax](http://codeguide.bootcss.com/#html-syntax)
 
@@ -13,9 +13,7 @@
 > > 功能菜单表sysfunc中菜单规则保持现有递增及上下级编号规则，详见下图所示：![](/assets/sys_func.png)
 > >
 > > 其中菜单图标样式使用，详见**font icon规范章节：**
->
->
->
+> >
 > > 系统类方法名命名规则
 
 2、
