@@ -1,7 +1,6 @@
 # Summary
 
 * [概述](README.md)
-  * [开发环境](kai-fa-huan-jing.md)
 * [基本表单控件【施、陆】](ji-ben-biao-dan-kong-jian.md)
   * [form标签【施】](ji-ben-biao-dan-kong-jian/formbiao-dan-biao-qian.md)
   * [form\_group标签【施】](ji-ben-biao-dan-kong-jian/formgroup-biao-qian.md)
@@ -46,8 +45,9 @@
     * [mybatis热部署](kuang-jia-she-zhi/mybatis/mybatisre-bu-shu.md)
   * [Ehcache的使用](kuang-jia-she-zhi/ehcachede-shi-yong.md)
 * [开发规范](kai-fa-gui-fan.md)
-  * [基本编码规范](kai-fa-gui-fan/ji-ben-bian-ma-gui-fan.md)
+  * [开发环境](kai-fa-huan-jing.md)
   * [数据库规范](kai-fa-gui-fan/shu-ju-ku-gui-fan.md)
+  * [基本编码规范](kai-fa-gui-fan/ji-ben-bian-ma-gui-fan.md)
   * [font icon规范](kai-fa-gui-fan/qian-duan-kai-fa-gui-fan.md)
   * [后端开发规范](kai-fa-gui-fan/hou-duan-kai-fa-gui-fan.md)
 * [附录](bei-zhu-zhu-yi.md)
