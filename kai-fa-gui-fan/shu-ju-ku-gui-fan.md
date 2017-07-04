@@ -8,11 +8,15 @@
 
 **错误一：即无归类，也未缩写**
 
-![](file:///D:\用户目录\我的文档\Tencent Files\12452964\Image\C2C\Image2\AN7$N}Z%29C3%285IEXT70U%29I%B.png)
+![](/assets/err_table_name.png)
+
+
 
 **错误二：未缩写**
 
-![](file:///C:\Users\ADMINI~1.USE\AppData\Local\Temp\msohtmlclip1\01\clip_image004.jpg)
+![](/assets/err_table_name_1.png)
+
+
 
 **常用缩写举例，此缩写也适用于代码变量或类名命名**：
 
