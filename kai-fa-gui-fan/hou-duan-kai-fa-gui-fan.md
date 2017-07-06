@@ -12,11 +12,11 @@
 * 引入查询栏标签 **query\_bar**
 * ```html
     <@query_bar>
-  	<@form_group class="row">
-               <@input label="编号" name="operId"  size="2"  />
-  	     <@input label="姓名" name="operName"  size="2"  />
-    	     <@button  value="查询" onclick="queryInfo()"/>
-  	</@form_group>
+      <@form_group class="row">
+           <@input label="编号" name="operId"  size="2"  />
+           <@input label="姓名" name="operName"  size="2"  />
+           <@button  value="查询" onclick="queryInfo()"/>
+      </@form_group>
      </@query_bar>
   ```
 * 引入按钮栏 **table\_toolbar**
