@@ -5,7 +5,7 @@
 * 所有页面首先引入 **init\_page** 标签，页面内容都放在标签里面
 * ```html
   <@init_page title="xxx管理">
- 
+
   </@init_page>
   ```
 * 一个简单的页面例子，已操作员管理为例，包括查询栏、按钮栏、表格
@@ -27,7 +27,7 @@
       </table>
   </@query_bar>
   ```
-* 引入按钮栏 **table_toolbar**
+* 引入按钮栏 **table\_toolbar**
 * ```html
     <@table_toolbar name="查询结果">
         <@button value="新增" data_target="modal_add" icon="plus"/>
@@ -44,6 +44,7 @@
                 idtype="radio"
                 operate="true"
                 btn=["detail", "edit", "active", "cancel", "delete"]
+                cust_btn=[["test1","doTest('sd')","测试1"],["test2","doTest('sd2')","测试2"]]
                 sort=["oper_id", "oper_name"]/>
   <!-- 所有提交的url地址的前缀都要加上 ${base}
   1. 表格控件必须的三个参数：url、thead、fields
@@ -55,6 +56,8 @@
   7. operate：是否显示操作列，true 显示，false 不显示
   8. btn：显示的按钮，目前有6个固定的常用按钮：
      detail 查看详情，edit 修改，delete 删除，active 激活，cancel 注销，verify 审核，显示按钮必须开启操作栏
+  9. cust_btn:cust_btn属性是除了以上常用按钮的自定义按钮,为数组型数组，所包含的数组如：[["test1","doTest('sd')","测试1"]]
+                其中"test1"为标签name值，"doTest('sd')"为onclick的值，"测试1"为按钮的显示值
   9. sort：支持排序功能的字段，默认除了id列和操作列外所有字段都支持
   10. 表格若不需要id列，fields 中去掉 id 字段，同时后台 sql 也去掉 id 字段：如下
       fields="oper_id,oper_name,org_name,brch_name,oper_state,oper_level"
@@ -62,7 +65,7 @@
   -->
   ```
 * 表格数据显示例子如下图：
-![](/assets/0170629091209.jpg)
+  ![](/assets/0170629091209.jpg)
 * 表格相关js方法
 * 查询方法
 * ```js
@@ -72,7 +75,7 @@
         postform();
     }
   ```
-* 表格操作栏的方法 按钮名_item(id)
+* 表格操作栏的方法 按钮名\_item\(id\)
 * 表格操作栏的 '详情' 方法
 * ```js
     /**
@@ -204,19 +207,20 @@
     }
   ```
 * 其他常用js方法
-* getSelectId() 获取选中的表格行的id值，多个以逗号隔开
-* getSelectIndex() 获取选中的记录数
+* getSelectId\(\) 获取选中的表格行的id值，多个以逗号隔开
+* getSelectIndex\(\) 获取选中的记录数
 
 # 后端程序开发
 
 ---
-- Controller 的编写
-- 类需继承 BaseCtrl 类
-- ```java
+
+* Controller 的编写
+* 类需继承 BaseCtrl 类
+* ```java
     public class OperCtrl extends BaseCtrl {}
   ```
-- 模块首页
-- ```java
+* 模块首页
+* ```java
     /**
      * 操作员首页
      * @param model
@@ -229,8 +233,8 @@
         return "/sysmanager/oper/oper_index";
     }
   ```
-- 获取表格数据
-- ```java
+* 获取表格数据
+* ```java
     /**
      * 获取操作员信息
      * @param request 接受参数为HttpServletRequest
@@ -258,8 +262,8 @@
         return resultData;
     }
   ```
-- 实现类（Dao层）注意事项
-- ```java
+* 实现类（Dao层）注意事项
+* ```java
     /**
      * 实现类需继承 BaseImpl 基础实现类
      */
@@ -275,7 +279,7 @@
                 List<Map> operList = operMapper.getOperList(pageMap);
                 //注意：必须调用此方法
                 stuffIdValue(pageMap, operList);
-                
+
                 return operList;
             } catch (Exception e) {
                 throw new CustomException(e);
@@ -287,6 +291,7 @@
 # Mapper编写
 
 ---
+
 * 获取表格显示的数据
 * ```xml
     <!-- 查找所有操作员信息（分页显示）-->
@@ -299,7 +304,7 @@
         where a.org_id=b.org_id
         and a.brch_id=c.brch_id
         and a.org_id=#{org_id}
-        
+
         <!-- 查询的字段必须以 search.xxx 形式书写 -->
         <!-- 上述查询栏内的编号和姓名 name 属性分别为 operId 和 operName，故此调用如下所示 -->
         <!-- 判断是否有查询内容-start -->
@@ -310,7 +315,7 @@
             and a.oper_name LIKE concat(concat('%', #{search.operName}), '%')
         </if>
         <!-- 判断是否有查询内容-end -->
-        
+
         <!-- 此处固定写法 -->
         <!-- 没有排序条件，自定义默认排序字段 -->
         <choose>
@@ -320,7 +325,7 @@
             <!-- 默认按照用户创建时间倒序 -->
             <otherwise>order by a.open_date desc</otherwise>
         </choose>
-        
+
         <!-- 分页条件，记录起始start，获取记录长度length -->
         limit #{start},#{length}
     </select>
@@ -346,5 +351,6 @@
         <!-- 判断是否有查询内容-end -->
     </select>
   ```
+
 
 
