@@ -48,7 +48,7 @@
   7. operate：是否显示操作列，true 显示，false 不显示
   8. btn：显示的按钮，目前有6个固定的常用按钮：
      detail 查看详情，edit 修改，delete 删除，active 激活，cancel 注销，verify 审核，显示按钮必须开启操作栏
-  9. cust_btn:cust_btn属性是除了以上常用按钮的自定义按钮,为数组型数组，所包含的数组如：[["test1","doTest('sd')","测试1"]]
+  9. cust_btn:cust_btn属性是除了以上常用按钮的自定义按钮,为数组型数组，所包含的数组如：[["name=test1","onclick=doTest('sd')","text=测试1"]]
       其中"test1"为标签name值，"doTest('sd')"为onclick的值，"测试1"为按钮的显示值，三项为必填项，且onclick的值现在只支持
       "doTest('sd')"这种传参方式，不支持'doTest("sd")'方式
   9. sort：支持排序功能的字段，默认除了id列和操作列外所有字段都支持
