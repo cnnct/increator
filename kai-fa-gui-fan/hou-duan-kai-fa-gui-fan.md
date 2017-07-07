@@ -36,7 +36,7 @@
                 idtype="radio"
                 operate="true"
                 btn=["detail", "edit", "active", "cancel", "delete"]
-                cust_btn=[["test1","doTest('sd')","测试1"],["test2","doTest('sd2')","测试2"]]
+                cust_btn=[["name=test1","onclick=doTest('sd')","text=测试1"],["name=test2","onclick=doTest('sd2')","text=测试2"]]
                 sort=["oper_id", "oper_name"]/>
   <!-- 所有提交的url地址的前缀都要加上 ${base}
   1. 表格控件必须的三个参数：url、thead、fields
