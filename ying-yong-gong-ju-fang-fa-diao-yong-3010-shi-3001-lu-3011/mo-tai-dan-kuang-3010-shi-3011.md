@@ -10,6 +10,7 @@
                 message: "Are you sure?", 
             });
 ```
+
 #### alert弹出框显示结果：
 
 ![](/assets/alert1.png)
@@ -29,8 +30,8 @@
                 }
            })
 ```
-#### confirm弹出框显示结果：
 
+#### confirm弹出框显示结果：
 
 ![](/assets/confirm.png)
 
@@ -48,6 +49,7 @@
 ```
 
 #### prompt弹出框显示结果：
+
 ![](/assets/prompt.png)
 
 #### load加载弹出框引入方式：
@@ -59,5 +61,6 @@
 ```
 
 #### load加载弹出框显示结果：
+
 ![](/assets/load.png)
 
