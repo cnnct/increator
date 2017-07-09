@@ -28,7 +28,9 @@
                         if(result){
                             alert("true");
                         }
-                }
+                },
+                okBtnName:"确认",
+                cancelBtnName:"取消",
            })
 ```
 
