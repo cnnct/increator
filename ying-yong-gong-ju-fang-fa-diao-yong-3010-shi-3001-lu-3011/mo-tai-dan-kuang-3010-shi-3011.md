@@ -8,6 +8,7 @@
             alert({ 
                 title: "Destroy planet?",
                 message: "Are you sure?", 
+                okBtnName:"确认",
             });
 ```
 
