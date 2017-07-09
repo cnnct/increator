@@ -34,7 +34,7 @@
 
 #### confirm弹出框显示结果：
 
-![](/assets/confirm.png)
+![](/assets/alert3.png)
 
 #### prompt弹出框引入方式：
 
