@@ -109,7 +109,7 @@
                 if (result) {
                     //ajax直接提交方法 directpost(url, data) data为json对象
                     directpost("${base}/oper/del", {"operId": id});
-                
+
                 }
             }
         })
@@ -147,6 +147,10 @@
         })
     }
   ```
+* 获取表格相关数据
+
+getTable\(\)
+
 * 新增数据时的提交方法
 * 表单写法举例（此处以操作员为例）
 * ```html
