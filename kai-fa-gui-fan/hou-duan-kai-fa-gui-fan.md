@@ -109,7 +109,7 @@
                 if (result) {
                     //ajax直接提交方法 directpost(url, data) data为json对象
                     directpost("${base}/oper/del", {"operId": id});
-                    alert({message: "删除成功", title: "提示"});
+                
                 }
             }
         })
