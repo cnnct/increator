@@ -149,9 +149,10 @@
   ```
 * 获取表格相关数据
 
-  getTable\(\)
+    getTable\(\)
 
 * 新增数据时的提交方法
+
 * 表单写法举例（此处以操作员为例）
 * ```html
     <@modal_body class="modal-lg" id="modal_add" modal_title="添加操作员">
