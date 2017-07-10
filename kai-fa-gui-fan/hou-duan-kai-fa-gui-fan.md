@@ -154,7 +154,7 @@
 
   getTableRows();//获取表格当前页行数据
 
-  getSelectedTableRows();//获取表格当前页选中数据
+  getSelectedTableRows();//获取表格当前页选中行数据
 ```
 * 新增数据时的提交方法
 
