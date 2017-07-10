@@ -151,9 +151,10 @@
 
   getTable\(\);
 
-   getTableRows\(\);
+  getTableRows\(\);
 
-* 
+  getSelectedTableRows\(\);
+
 * 新增数据时的提交方法
 
 * 表单写法举例（此处以操作员为例）
