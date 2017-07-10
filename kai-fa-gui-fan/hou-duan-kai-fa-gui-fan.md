@@ -148,13 +148,14 @@
     }
   ```
 * 获取表格相关数据
+* ```js
 
-  getTable\(\);
+  getTable();//获取表格对象
 
-  getTableRows\(\);
+  getTableRows();//获取表格当前页行数据
 
-  getSelectedTableRows\(\);
-
+  getSelectedTableRows();//获取表格当前页选中数据
+```
 * 新增数据时的提交方法
 
 * 表单写法举例（此处以操作员为例）
