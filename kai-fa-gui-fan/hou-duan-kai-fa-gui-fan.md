@@ -79,7 +79,7 @@
          * 详情框和编辑框等需要从后台读取数据回显的情况，一般弹框用 iframe 弹框
          * 此处 modal_view_iframe 固定写法
          */
-        $("#modal_view_iframe").attr("src", "${base}/oper/view?operId=" + id);
+        $("#modal_view_iframe").attr("src", "${base}/oper/view/" + id);
     }
   ```
 * 表格操作栏的 '修改' 方法
@@ -94,7 +94,7 @@
          * 此处指定iframe的src属性，传递的数据暂时使用url后面跟参数的get方式
          * 此处 modal_edit_iframe 固定写法
          */
-        $("#modal_edit_iframe").attr("src", "${base}/oper/edit?operId=" + id);
+        $("#modal_edit_iframe").attr("src", "${base}/oper/edit/" + id);
     }
   ```
 * 表格操作栏的 '删除' 方法
@@ -149,13 +149,12 @@
   ```
 * 获取表格相关数据
 * ```js
-
   getTable();//获取表格对象
 
   getTableRows();//获取表格当前页行数据
 
   getSelectedTableRows();//获取表格当前页选中行数据
-```
+  ```
 * 新增数据时的提交方法
 
 * 表单写法举例（此处以操作员为例）
