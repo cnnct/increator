@@ -8,10 +8,27 @@
     <@init_page title="xxx管理">
 
     </@init_page>
-
 ```
 
-* 
+* 一个简单的页面例子，已操作员管理为例，包括查询栏、按钮栏、表格
+
+* 引入查询栏标签 **query\_bar**
+
+&lt;
+
+@init\_page title="xxx管理"
+
+&gt;
+
+  
+
+
+&lt;
+
+/@init\_page
+
+&gt;
+
 * 引入表格栏 **table** （其他控件参看**基本表单控件**和**扩展表单控件**），表格控件的使用包含在此例中
 * ```html
   <@table url="${base}/oper/query"
