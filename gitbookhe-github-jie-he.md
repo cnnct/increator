@@ -53,5 +53,5 @@ github仓库地址：[https://github.com/cnnct/increator.git](https://github.com
 
 个人book和组织级的book类似操作，详见下图所示
 
-
+![](/assets/delete_book_01.png)![](/assets/delete_book_02.png)![](/assets/delete_book_03.png)
 
