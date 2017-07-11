@@ -14,6 +14,8 @@
 
 # 相关学习资料
 
+> bootstrap学习教程：
+>
 > springm+mybatis介绍【视频】：[01\_2017-06-28\_springmvc+mybatis\_曲雍杰](http://pan.baidu.com/s/1c1u7Wa)
 >
 > 基础控件介绍【视频】：
