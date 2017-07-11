@@ -18,66 +18,66 @@
 
 ```html
     <@form id="demoform" name="demoform" action="userLogin.do" >
-            <@form_group class="row">
-								 	<@input label="邮编：;true" id="name" name="name"  type="text" size="5"  />
-								    <@input label="邮件：;true" id="email" name="email"  type="email" size="5" />
-							  </@form_group>
-							  <@form_group class="row">
-							       	<@input label="密码：;true" id="inputPassword" name="pwd"  type="password" size="5" />
-							        <@input label="再次输入：;true" id="inputPasswordRepeat" name="pwd1"  type="password" size="5" />
-							  </@form_group >
-							  <@form_group class="row form-group-select">
-								    <@select label="选择框1：;true" id="hjfdh" sql_key="syscode1"  name="sle" show_field="CODE_NAME" value_field="CODE_VALUE"   size="5" select_more="true"/>
-									<@code_select label="选择框2：;true" id="select-11" name="sle1" code_type="AREA_TYPE" default_val="2"  no_show="1"  size="5" choice_have="true" select_more="" />	
-							  </@form_group>
-							  <@form_group class="row">
-						 			<@cas_select_parent  label="级联1：;false" id="parent" name="name1" sql_key="sysfunc1" show_field="TITLE" value_field="FUNC_ID"  size="5" child_info="child;sysfunc3;TITLE;FUNC_ID" default_val="01"/>
-									<@cas_select_child  label="级联2：;false" id="child"   name="name1" size="5"  child_info="grandson;sysfunc5;TITLE;FUNC_ID" sql_key="sysfunc2" show_field="TITLE" value_field="FUNC_ID" default_val="0106" sql_condition="01"/>
-							  </@form_group>
-				 			  <@form_group class="row">
-									<@cas_select_child  label="级联3：;false" id="grandson"  name="name1" size="5" child_info="padson;sysfunc6;TITLE;FUNC_ID"/>
-									<@cas_select_child  label="级联4：;false" id="padson"  name="name1" size="5"/>
-				  			  </@form_group>
-							  <@form_group class="row">
-									 <@input_tree label="input树1：;false" size="5" id="but3" tree_id="tree3" name="valuetree3" sql_key="sysfunc7" checkbox_have="true"/>
-									 <@input_tree label="input树2：;false" size="5" id="but4" tree_id="tree4" name="valuetree4" sql_key="sysfunc7" checkbox_have="false"/>
-							  </@form_group>
-							  <@form_group class="row">
-									 <@date_time label="时间框1：;false" id="date1" name="start_time1" size="5"/>
-									 <@search_input  label="search框1：;false" id="search1" name="searchOrgName" sql_key="org_name1" show_item="item.org_id + ' _ ' + item.org_name" show_value="org_name" hidden_value="org_id" size="5"/>
-				 			  </@form_group>
-							  <@form_group class="row">
-									 <@search_input  label="search框2：;false" id="search2" name="searchOrgName" sql_key="org_name1" show_item="item.org_id + ' _ ' + item.org_name" show_value="org_name" hidden_value="org_id" size="5"/>
-									 <@date_time  label="时间框2：;false" id="date2" name="start_time2" size="5"/>
-				 			  </@form_group>
-							  <@form_group class="row">
-			 						<@search_tree label="search树1;true" id="search32" name="search_name" tree_id="search_tree23" sql_key="sysfunc7" checkbox_have="true"  />
-									<@search_tree label="search树2;true" id="search12" name="search_name" tree_id="search_tree124" sql_key="sysfunc7" checkbox_have="true"  />
-							  </@form_group>
-							  <@form_group class="row">
-									<@file_mult_upload id="test_upload22" name="test_upload_name22" size="3" url="/tag/uploadMultFile" />
-			 						<@file_mult_upload id="test_upload32245" name="test_upload_name234"  url="/tag/uploadMultFile" />
-							  </@form_group>
-							  <@form_group class="row">
-									<@text_area label="文本域1：;false" id="username1" name="ntextame" value="name"  size="5" /> 
-				 			  </@form_group>
-							  <@form_group class="row">
-								 	<@code_radio name="code_type2" code_type="AREA_TYPE" default_val="28" readonly="true"/>
-							  </@form_group>
-							  <@form_group class="row">
-								 	<@code_checkbox name="code_type1" code_type="AREA_TYPE" default_val="09,28,58" readonly="true" />
-							  </@form_group>
-								<@form_group class="row">
-								<@label name="姓名："/>
-								<@span>属性显示</@span>
-								<@label name="姓名："/>
-								<@span>属性显示</@span>
-								</@form_group>
-							  <@form_group >
-								 	<@button id="submit" type="submit"    value="提交" icon="search"/>
-									<@button id="repeat3" type="button"    value="重置" icon="repeat"/>
-							 </@form_group>
-        </@form>
+         <@form_group class="row">
+                <@input label="邮编：;true" id="name" name="name"  type="text" size="5"  />
+               <@input label="邮件：;true" id="email" name="email"  type="email" size="5" />
+         </@form_group>
+         <@form_group class="row">
+                  <@input label="密码：;true" id="inputPassword" name="pwd"  type="password" size="5" />
+               <@input label="再次输入：;true" id="inputPasswordRepeat" name="pwd1"  type="password" size="5" />
+         </@form_group >
+         <@form_group class="row form-group-select">
+               <@select label="选择框1：;true" id="hjfdh" sql_key="syscode1"  name="sle" show_field="CODE_NAME" value_field="CODE_VALUE"   size="5" select_more="true"/>
+               <@code_select label="选择框2：;true" id="select-11" name="sle1" code_type="AREA_TYPE" default_val="2"  no_show="1"  size="5" choice_have="true" select_more="" />    
+         </@form_group>
+         <@form_group class="row">
+                <@cas_select_parent  label="级联1：;false" id="parent" name="name1" sql_key="sysfunc1" show_field="TITLE" value_field="FUNC_ID"  size="5" child_info="child;sysfunc3;TITLE;FUNC_ID" default_val="01"/>
+               <@cas_select_child  label="级联2：;false" id="child"   name="name1" size="5"  child_info="grandson;sysfunc5;TITLE;FUNC_ID" sql_key="sysfunc2" show_field="TITLE" value_field="FUNC_ID" default_val="0106" sql_condition="01"/>
+         </@form_group>
+          <@form_group class="row">
+               <@cas_select_child  label="级联3：;false" id="grandson"  name="name1" size="5" child_info="padson;sysfunc6;TITLE;FUNC_ID"/>
+               <@cas_select_child  label="级联4：;false" id="padson"  name="name1" size="5"/>
+           </@form_group>
+         <@form_group class="row">
+                <@input_tree label="input树1：;false" size="5" id="but3" tree_id="tree3" name="valuetree3" sql_key="sysfunc7" checkbox_have="true"/>
+                <@input_tree label="input树2：;false" size="5" id="but4" tree_id="tree4" name="valuetree4" sql_key="sysfunc7" checkbox_have="false"/>
+         </@form_group>
+         <@form_group class="row">
+                <@date_time label="时间框1：;false" id="date1" name="start_time1" size="5"/>
+                <@search_input  label="search框1：;false" id="search1" name="searchOrgName" sql_key="org_name1" show_item="item.org_id + ' _ ' + item.org_name" show_value="org_name" hidden_value="org_id" size="5"/>
+          </@form_group>
+         <@form_group class="row">
+                <@search_input  label="search框2：;false" id="search2" name="searchOrgName" sql_key="org_name1" show_item="item.org_id + ' _ ' + item.org_name" show_value="org_name" hidden_value="org_id" size="5"/>
+                <@date_time  label="时间框2：;false" id="date2" name="start_time2" size="5"/>
+          </@form_group>
+         <@form_group class="row">
+                <@search_tree label="search树1;true" id="search32" name="search_name" tree_id="search_tree23" sql_key="sysfunc7" checkbox_have="true"  />
+               <@search_tree label="search树2;true" id="search12" name="search_name" tree_id="search_tree124" sql_key="sysfunc7" checkbox_have="true"  />
+         </@form_group>
+         <@form_group class="row">
+               <@file_mult_upload id="test_upload22" name="test_upload_name22" size="3" url="/tag/uploadMultFile" />
+                <@file_mult_upload id="test_upload32245" name="test_upload_name234"  url="/tag/uploadMultFile" />
+         </@form_group>
+         <@form_group class="row">
+               <@text_area label="文本域1：;false" id="username1" name="ntextame" value="name"  size="5" /> 
+          </@form_group>
+         <@form_group class="row">
+                <@code_radio name="code_type2" code_type="AREA_TYPE" default_val="28" readonly="true"/>
+         </@form_group>
+         <@form_group class="row">
+                <@code_checkbox name="code_type1" code_type="AREA_TYPE" default_val="09,28,58" readonly="true" />
+         </@form_group>
+           <@form_group class="row">
+           <@label name="姓名："/>
+           <@span>属性显示</@span>
+           <@label name="姓名："/>
+           <@span>属性显示</@span>
+           </@form_group>
+         <@form_group >
+                <@button id="submit" type="submit"    value="提交" icon="search"/>
+               <@button id="repeat3" type="button"    value="重置" icon="repeat"/>
+        </@form_group>
+ </@form>
 ```
 
 #### ![](/assets/form.png)form表单的引入方式 :
