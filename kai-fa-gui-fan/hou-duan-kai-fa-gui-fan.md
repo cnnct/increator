@@ -1,24 +1,5 @@
-# 前端页面开发
+# table标签
 
----
-
-* 所有页面首先引入 **init\_page** 标签，页面内容都放在标签里面
-* ```html
-  <@init_page title="xxx管理">
-
-  </@init_page>
-  ```
-* 一个简单的页面例子，已操作员管理为例，包括查询栏、按钮栏、表格
-* 引入查询栏标签 **query\_bar**
-* ```html
-    <@query_bar>
-      <@form_group class="row">
-           <@input label="编号" name="operId"  size="2"  />
-           <@input label="姓名" name="operName"  size="2"  />
-           <@button  value="查询" onclick="queryInfo()"/>
-      </@form_group>
-     </@query_bar>
-  ```
 * 引入按钮栏 **table\_toolbar**
 * ```html
     <@table_toolbar name="查询结果">
