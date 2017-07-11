@@ -113,6 +113,8 @@
 > > * ctrl需要继承BaseCtrl，可调用父类中的一些公共方法。
 > >
 > > ![](/assets/ctrl_01.png)
+> >
+> > * ctrl中只需要注入serv对象，尽量不要注入mapper\(即dao\)对象
 >
 > #### serv层管理
 >
