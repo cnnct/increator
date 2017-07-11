@@ -43,7 +43,11 @@ github仓库地址：[https://github.com/cnnct/increator.git](https://github.com
 
 ![](/assets/publish2.png)![](/assets/publish3.png)
 
-# gitbook组织
+# gitbook组织管理
+
+可通过gitbook的组织将手册进行管理，且与github进行关联，详见下图步骤
+
+
 
 
 
