@@ -16,11 +16,11 @@
 
 ```
      <@query_bar>
-		<@form_group class="row">
+        <@form_group class="row">
             <@input label="编号" name="operId"  size="2"  />
-		    <@input label="姓名" name="operName"  size="2"  />
-  			<@button  value="查询" onclick="queryInfo()"/>
-		</@form_group>
+            <@input label="姓名" name="operName"  size="2"  />
+            <@button  value="查询" onclick="queryInfo()"/>
+        </@form_group>
     </@query_bar>
 ```
 
