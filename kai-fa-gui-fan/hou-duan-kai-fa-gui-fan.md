@@ -2,38 +2,6 @@
 
 ---
 
-* 所有页面首先引入 **init\_page** 标签，页面内容都放在标签里面
-
-    <@init_page title="xxx管理"> 
-    </@init_page>
-
-* 一个简单的页面例子，已操作员管理为例，包括查询栏、按钮栏、表格
-* 引入查询栏标签 **query\_bar**
-* ```html
-<@query_bar>
-<table>
-<tr>
-<th>编号</th>
-<td><input type="text" name="operId"></td>
-<tr>
-<tr>
-<th>姓名</th>
-<td><input type="text" name="operName"></td>
-</tr>
-<tr>
-<td><button type="button" class="btn btn-default btn-sm" onclick="queryInfo()">查询</button></td>
-</tr>
-</table>
-</@query_bar>
-
-* 引入按钮栏 ** table_toolbar **
-* html
-    <@table_toolbar name="查询结果">
-        <@button value="新增" data_target="modal_add" icon="plus"/>
-        <@button value="批量激活" onclick="activeAndCancel('active')" icon="ok-sign"/>
-        <@button value="批量注销" onclick="activeAndCancel('cancel')" icon="remove-sign"/>
-    </@table_toolbar>
- ```
 * 引入表格栏 **table** （其他控件参看**基本表单控件**和**扩展表单控件**），表格控件的使用包含在此例中
 * ```html
   <@table url="${base}/oper/query"
