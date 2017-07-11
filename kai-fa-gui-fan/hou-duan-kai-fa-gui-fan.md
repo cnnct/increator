@@ -278,7 +278,7 @@
      * 实现类需继承 BaseImpl 基础实现类
      */
     @Repository //dao层注解
-    public class OperServImpl extends BaseImpl implements OperServ {
+    public class OperServImpl implements OperServ {
         /**
          * 获取操作员列表
          * @param pageMap 分页排序map
@@ -287,8 +287,6 @@
         public List<Map> getOperList(Map pageMap) {
             try {
                 List<Map> operList = operMapper.getOperList(pageMap);
-                
-
                 return operList;
             } catch (Exception e) {
                 throw new CustomException(e);
