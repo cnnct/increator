@@ -55,10 +55,6 @@
                <@search_tree label="search树2;true" id="search12" name="search_name" tree_id="search_tree124" sql_key="sysfunc7" checkbox_have="true"  />
          </@form_group>
          <@form_group class="row">
-               <@file_mult_upload id="test_upload22" name="test_upload_name22" size="3" url="/tag/uploadMultFile" />
-                <@file_mult_upload id="test_upload32245" name="test_upload_name234"  url="/tag/uploadMultFile" />
-         </@form_group>
-         <@form_group class="row">
                <@text_area label="文本域1：;false" id="username1" name="ntextame" value="name"  size="5" /> 
           </@form_group>
          <@form_group class="row">
