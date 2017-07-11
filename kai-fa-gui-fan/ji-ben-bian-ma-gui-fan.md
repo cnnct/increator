@@ -121,6 +121,10 @@
 > * serv层需要extends BaseServImpl  implements  BaseServ，可调用父类中的一些公共方法，如下所示
 >   ![](/assets/serv01.png)
 > * serv层可注入其它serv，也可以注入mapper\(即dao\)
+>
+> #### mapper\(dao\)层管理
+>
+> > *
 
 
 
