@@ -53,7 +53,7 @@
   * [font icon规范](kai-fa-gui-fan/qian-duan-kai-fa-gui-fan.md)
   * [开始coding啦...](kai-fa-gui-fan/hou-duan-kai-fa-gui-fan.md)
 * [附录](bei-zhu-zhu-yi.md)
-  * [lomboz注解使用](lombozzhu-jie-shi-yong.md)
+  * [lomboz注解使用](fu-lu/lombozzhu-jie-shi-yong.md)
   * [gitbook使用注意事项【废弃】](gitsvn.md)
   * [mybatis乱码问题](mybatisshu-ju-lian-jie-chuan-yin-qi-luan-ma-wen-ti.md)
   * [gitbook和github结合](gitbookhe-github-jie-he.md)
