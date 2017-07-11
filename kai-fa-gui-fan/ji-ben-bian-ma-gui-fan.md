@@ -110,7 +110,9 @@
 >
 > #### ctrl层规范
 >
-> > ctrl需要继承BaseCtrl，可调用父类中的一些公共方法。
+> > * ctrl需要继承BaseCtrl，可调用父类中的一些公共方法。
+> >
+> > ![](/assets/ctrl_01.png)
 >
 > #### serv层管理
 >
