@@ -67,12 +67,6 @@
          <@form_group class="row">
                 <@code_checkbox name="code_type1" code_type="AREA_TYPE" default_val="09,28,58" readonly="true" />
          </@form_group>
-           <@form_group class="row">
-           <@label name="姓名："/>
-           <@span>属性显示</@span>
-           <@label name="姓名："/>
-           <@span>属性显示</@span>
-           </@form_group>
          <@form_group >
                 <@button id="submit" type="submit"    value="提交" icon="search"/>
                <@button id="repeat3" type="button"    value="重置" icon="repeat"/>
