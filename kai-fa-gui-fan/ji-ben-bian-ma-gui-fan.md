@@ -115,8 +115,10 @@
 > > ![](/assets/ctrl_01.png)
 > >
 > > * ctrl中只需要注入serv对象，尽量不要注入mapper\(即dao\)对象
-> > * ctrl中配合url时尽量使用rest风格，如下图所示
-> >   ![](/assets/ctrl02.png)
+> >
+> > ctrl中配合url时尽量使用rest风格，如下图所示
+> > ![](/assets/ctrl02.png)
+> > * ctrl正常情况时，不需要捕获异常，所有业务异常由serv层处理，再交给拦截器统一处理。
 >
 > #### serv层规范
 >
