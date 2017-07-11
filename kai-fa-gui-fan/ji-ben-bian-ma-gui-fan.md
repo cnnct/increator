@@ -116,7 +116,8 @@
 >
 > #### serv层管理
 >
-> * serv层需要继承BaseServ，可调用父类中的一些公共方法
+> * serv层需要extends BaseServImpl  implements  BaseServ，可调用父类中的一些公共方法，如下所示
+> *
 
 
 
