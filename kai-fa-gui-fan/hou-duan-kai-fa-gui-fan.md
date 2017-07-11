@@ -28,7 +28,7 @@
 </@query_bar>
 
 * 引入按钮栏 ** table_toolbar **
-* ```html
+* html
     <@table_toolbar name="查询结果">
         <@button value="新增" data_target="modal_add" icon="plus"/>
         <@button value="批量激活" onclick="activeAndCancel('active')" icon="ok-sign"/>
