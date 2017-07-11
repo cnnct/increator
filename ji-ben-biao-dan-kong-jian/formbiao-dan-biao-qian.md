@@ -70,7 +70,7 @@
  </@form>
 ```
 
-#### ![](/assets/form2.png)form表单的引入方式 :
+#### ![](/assets/form1.png)form表单的引入方式 :
 
 ![](/assets/validate1.png)
 
