@@ -51,10 +51,6 @@
                 <@date_time  label="时间框2：;false" id="date2" name="start_time2" size="5"/>
           </@form_group>
          <@form_group class="row">
-                <@search_tree label="search树1;true" id="search32" name="search_name" tree_id="search_tree23" sql_key="sysfunc7" checkbox_have="true"  />
-               <@search_tree label="search树2;true" id="search12" name="search_name" tree_id="search_tree124" sql_key="sysfunc7" checkbox_have="true"  />
-         </@form_group>
-         <@form_group class="row">
                <@text_area label="文本域1：;false" id="username1" name="ntextame" value="name"  size="5" /> 
           </@form_group>
          <@form_group class="row">
