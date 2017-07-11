@@ -27,7 +27,7 @@
 </table>
 </@query_bar>
 
-* 引入按钮栏 **table_toolbar **
+* 引入按钮栏 ** table_toolbar **
 * ```html
     <@table_toolbar name="查询结果">
         <@button value="新增" data_target="modal_add" icon="plus"/>
