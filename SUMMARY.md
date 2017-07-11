@@ -51,6 +51,7 @@
   * [基本编码规范](kai-fa-gui-fan/ji-ben-bian-ma-gui-fan.md)
   * [数据库规范](kai-fa-gui-fan/shu-ju-ku-gui-fan.md)
   * [font icon规范](kai-fa-gui-fan/qian-duan-kai-fa-gui-fan.md)
+  * 单元测试
   * [开始coding啦...](kai-fa-gui-fan/hou-duan-kai-fa-gui-fan.md)
 * [附录](bei-zhu-zhu-yi.md)
   * [lomboz注解使用](fu-lu/lombozzhu-jie-shi-yong.md)
