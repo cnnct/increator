@@ -63,7 +63,7 @@
 
 ![](/assets/validate1.png)
 
-#### ![](/assets/form.png)form表单显示结果 :
+#### form表单显示结果 :
 
 ![](/assets/validate2.png)
 
