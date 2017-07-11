@@ -16,18 +16,9 @@
 
 &lt;
 
-@init\_page title="xxx管理"
-
-&gt;
-
-  
+  @init\_page title="xxx管理"
 
 
-&lt;
-
-/@init\_page
-
-&gt;
 
 * 引入表格栏 **table** （其他控件参看**基本表单控件**和**扩展表单控件**），表格控件的使用包含在此例中
 * ```html
