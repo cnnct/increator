@@ -3,11 +3,10 @@
 ---
 
 * 所有页面首先引入 **init\_page** 标签，页面内容都放在标签里面
-* ```html
-<@init_page title="xxx管理">
 
-</@init_page>
-```
+    <@init_page title="xxx管理"> 
+    </@init_page>
+
 * 一个简单的页面例子，已操作员管理为例，包括查询栏、按钮栏、表格
 * 引入查询栏标签 **query\_bar**
 * ```html
