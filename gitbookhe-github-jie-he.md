@@ -8,7 +8,7 @@ github官网：[https://github.com/](https://github.com/)
 
 github仓库地址：[https://github.com/cnnct/increator.git](https://github.com/iceaugust/increator.git)
 
-gitbook在线手册地址：[https://increator.gitbooks.io/shouce/content](https://increator.gitbooks.io/dev_guide/content)
+gitbook在线手册地址：[https://increator.gitbooks.io/dev\_guide/content](https://increator.gitbooks.io/dev_guide/content)
 
 # 使用方法：
 
@@ -47,7 +47,7 @@ gitbook在线手册地址：[https://increator.gitbooks.io/shouce/content](https
 
 # gitbook的组织管理
 
-可通过gitbook的组织将手册进行管理，且与github进行关联，目的是再发布手册时通过这个组织进行发布即可，在线手册访问地址为：[https://increator.gitbooks.io/shouce/content](https://increator.gitbooks.io/dev_guide/content)
+可通过gitbook的组织将手册进行管理，且与github进行关联，目的是再发布手册时通过这个组织进行发布即可，在线手册访问地址为：[https://increator.gitbooks.io/dev\_guide/content](https://increator.gitbooks.io/dev_guide/content)
 
 详见下图说明![](/assets/gitbook_org01.png)![](/assets/gitbook_members.png)
 
