@@ -49,7 +49,9 @@ github仓库地址：[https://github.com/cnnct/increator.git](https://github.com
 
 详见下图说明![](/assets/gitbook_org01.png)![](/assets/gitbook_members.png)
 
-# gitbook如何删除已存在的book，个人book和组织级的book类似操作
+# gitbook如何删除已存在的book
+
+个人book和组织级的book类似操作，详见下图所示
 
 
 
