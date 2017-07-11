@@ -287,8 +287,7 @@
         public List<Map> getOperList(Map pageMap) {
             try {
                 List<Map> operList = operMapper.getOperList(pageMap);
-                //注意：必须调用此方法
-                stuffIdValue(pageMap, operList);
+                
 
                 return operList;
             } catch (Exception e) {
