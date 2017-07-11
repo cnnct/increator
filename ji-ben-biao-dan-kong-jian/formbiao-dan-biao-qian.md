@@ -23,7 +23,7 @@
                      <@input label="邮箱：;true" id="email1" name="email"  type="email" size="3" />
                      <@input label="邮编：;true" id="name1" name="name"  type="text" size="3"  />
               </@form_group>
-              <@form_group class="row form-group-select">
+              <@form_group class="row">
                      <@select label="选择框1：;true" id="jskd" sql_key="syscode1"  name="sle" show_field="CODE_NAME" value_field="CODE_VALUE" default_val="2" choice_have="true" size="3"/>
                      <@code_select label="选择框2：;true" id="select-11" name="sle" code_type="AREA_TYPE" default_val="2"  no_show="1"  size="3" choice_have="true" select_more="" />
                      <@code_select label="选择框3：;true" id="select-111" name="sle" code_type="AREA_TYPE" default_val="2"  no_show="1"  size="3" choice_have="true" select_more="" />        
