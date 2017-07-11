@@ -45,7 +45,7 @@ github仓库地址：[https://github.com/cnnct/increator.git](https://github.com
 
 # gitbook的组织管理
 
-可通过gitbook的组织将手册进行管理，且与github进行关联，目的是再发布手册时通过这个组织进行发布即可，
+可通过gitbook的组织将手册进行管理，且与github进行关联，目的是再发布手册时通过这个组织进行发布即可，在线手册访问地址为：
 
 详见下图说明![](/assets/gitbook_org01.png)![](/assets/gitbook_members.png)
 
