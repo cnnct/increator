@@ -34,7 +34,7 @@
         <@button value="批量激活" onclick="activeAndCancel('active')" icon="ok-sign"/>
         <@button value="批量注销" onclick="activeAndCancel('cancel')" icon="remove-sign"/>
     </@table_toolbar>
-  ```
+ ```
 * 引入表格栏 **table** （其他控件参看**基本表单控件**和**扩展表单控件**），表格控件的使用包含在此例中
 * ```html
   <@table url="${base}/oper/query"
