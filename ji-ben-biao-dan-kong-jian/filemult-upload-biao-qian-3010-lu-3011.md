@@ -46,6 +46,8 @@ String uuid = request.getParameter\("uuid"\);
 
 ```
 for\(int i=0;i&lt;files.length;i++\){
+    //在FTP上以uuid为名创建文件目录
+    ftpUtils.CreateFolder(uuid);
     MultipartFile file = files\[i\];
     String fileName = file.getOriginalFilename();//获取文件名
     InputStream is = file.getInputStream();//获取文件流
