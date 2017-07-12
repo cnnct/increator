@@ -49,7 +49,7 @@ FtpUtils ftpUtils = new FtpUtils("127.0.0.1","nct","nct",21);//连接FTP
 for (int i=0;i<files.length;i++) {
     //在FTP上以uuid为名创建文件目录
     ftpUtils.CreateFolder(uuid);
-    MultipartFile file = files\[i\];
+    MultipartFile file = files[i];
     String fileName = file.getOriginalFilename();//获取文件名
     InputStream is = file.getInputStream();//获取文件流
     //上传文件到FTP,FTP默认编码为ISO-8859-1
