@@ -37,7 +37,7 @@
 使用file\_mult\_upload标签时，后台需要获取uuid参数，如下：
 
 ```
-String uuid = request.getParameter\("uuid"\);
+String uuid = request.getParameter("uuid");
 ```
 
 此uuid为同一批file\_mult\_upload标签上传的文件唯一标识\(包括继续添加后的上传\)，推荐将uuid作为在FTP上创建的存放同一批上传文件的文件夹名。
