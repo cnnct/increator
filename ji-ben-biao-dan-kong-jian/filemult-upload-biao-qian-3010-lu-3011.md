@@ -46,7 +46,7 @@ String uuid = request.getParameter("uuid");
 
 ```
 FtpUtils ftpUtils = new FtpUtils("127.0.0.1","nct","nct",21);//连接FTP
-for (int i=0;i<=files.length;i++) {
+for (int i=0;i<files.length;i++) {
     //在FTP上以uuid为名创建文件目录
     ftpUtils.CreateFolder(uuid);
     MultipartFile file = files\[i\];
