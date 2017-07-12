@@ -82,5 +82,6 @@
 
 ![](/assets/validate5.png)
 #### form表单清空 :
+可以调用让button调用formReset('formId')方法清空指定form表单，或者在button加入class属性值'form-reset',清空当前表单
 
 
