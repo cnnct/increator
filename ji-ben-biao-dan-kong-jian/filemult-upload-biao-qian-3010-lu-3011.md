@@ -29,7 +29,7 @@
 不管是普通的上传文件，还是file\_mult\_upload标签上传文件，后台controller参数中都需要加：
 
 ```
-@RequestParam\("test\_upload\_name2"\) MultipartFile\[\] files
+@RequestParam("test_upload_name2") MultipartFile[] files
 ```
 
 其中“test\_upload\_name2"为页面input或者file\_mult\_upload标签的name属性。
