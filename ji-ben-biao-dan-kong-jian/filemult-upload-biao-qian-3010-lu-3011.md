@@ -28,27 +28,29 @@
 
 不管是普通的上传文件，还是file\_mult\_upload标签上传文件，后台controller参数中都需要加：
 
-    @RequestParam\("test\_upload\_name2"\) MultipartFile\[\] files
+```
+@RequestParam\("test\_upload\_name2"\) MultipartFile\[\] files
+```
 
 其中“test\_upload\_name2"为页面input或者file\_mult\_upload标签的name属性。
 
 使用file\_mult\_upload标签时，后台需要获取uuid参数，如下：
 
-    String uuid = request.getParameter\("uuid"\);
+```
+String uuid = request.getParameter\("uuid"\);
+```
 
 此uuid为同一批file\_mult\_upload标签上传的文件唯一标识\(包括继续添加后的上传\)
 
 然后通过如下代码遍历获取文件：
 
-    for\(int i=0;i&lt;files.length;i++\){
-
-        MultipartFile file = files\[i\];
-
-    }
-
-
-
-
+```
+for\(int i=0;i&lt;files.length;i++\){
+    MultipartFile file = files\[i\];
+    file.getOriginalFilename();//获取文件名
+    file.getInputStream();//获取文件流
+}
+```
 
 
 
