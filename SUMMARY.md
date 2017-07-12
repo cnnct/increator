@@ -4,7 +4,7 @@
   * [版本更新说明](ban-ben-geng-xin-shuo-ming.md)
     * [V1.0](ban-ben-geng-xin-shuo-ming/v10.md)
     * [V1.1](ban-ben-geng-xin-shuo-ming/v11.md)
-* [基本表单控件【施、陆】](ji-ben-biao-dan-kong-jian.md)
+* [基本标签控件【施、陆】](ji-ben-biao-dan-kong-jian.md)
   * [form标签【施】](ji-ben-biao-dan-kong-jian/formbiao-dan-biao-qian.md)
   * [form\_group标签【施】](ji-ben-biao-dan-kong-jian/formgroup-biao-qian.md)
   * [select标签【施】](ji-ben-biao-dan-kong-jian/selectbiao-qian.md)
@@ -33,6 +33,7 @@
   * [file\_mult\_upload标签【陆】](ji-ben-biao-dan-kong-jian/filemult-upload-biao-qian-3010-lu-3011.md)
   * [search\_tree标签【陆】](ji-ben-biao-dan-kong-jian/searchtreebiao-qian-3010-lu-3011.md)
   * [table\_toolbar标签【施】](ji-ben-biao-dan-kong-jian/tabletoolbar-biao-qian-3010-shi-3011.md)
+* [复杂、组合标签控件【施、陆】](fu-za-2018-zu-he-biao-qian-kong-jian-3010-shi-3001-lu-3011.md)
 * [应用工具方法调用【施、陆】](ying-yong-gong-ju-fang-fa-diao-yong-3010-shi-3001-lu-3011.md)
   * [模态弹框【施】](ying-yong-gong-ju-fang-fa-diao-yong-3010-shi-3001-lu-3011/mo-tai-dan-kuang-3010-shi-3011.md)
 * [后端框架配置【曲】](kuang-jia-she-zhi.md)
@@ -59,4 +60,3 @@
   * [mybatis乱码问题](fu-lu/mybatisshu-ju-lian-jie-chuan-yin-qi-luan-ma-wen-ti.md)
   * [gitbook和github结合](fu-lu/gitbookhe-github-jie-he.md)
 * [笔记](bi-ji.md)
-
