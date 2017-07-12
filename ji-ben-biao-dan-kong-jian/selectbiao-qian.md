@@ -53,7 +53,7 @@
 ```
 <@select sql_key="syscode2"   id="sdf" sql_condition="ACC_RECHG_TYPE" name="name" show_field="CODE_NAME" value_field="CODE_VALUE" default_val="2" choice_have="true" size="6"/>
 
-<@select sql_key="syscode1" name="name" id="hjdf" show_field="CODE_NAME" value_field="CODE_VALUE" default_val="1;2"   size="6" select_more="true" search_have="true"/>
+<@select sql_key="syscode1" name="name" id="hjdf" show_field="CODE_NAME" value_field="CODE_VALUE" default_val="1,2"   size="6" select_more="true" search_have="true"/>
 ```
 
 #### 对应sql语句 :
