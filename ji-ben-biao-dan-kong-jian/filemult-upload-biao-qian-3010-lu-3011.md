@@ -49,6 +49,9 @@ for\(int i=0;i&lt;files.length;i++\){
     MultipartFile file = files\[i\];
     String fileName = file.getOriginalFilename();//获取文件名
     InputStream is = file.getInputStream();//获取文件流
+    //上传文件到FTP
+    boolean flag = ftpUtils.UploadFile(uuid + "/" + new String(file.getOriginalFilename()
+        .getBytes("GBK"),"ISO-8859-1"), file.getInputStream());
 }
 ```
 
