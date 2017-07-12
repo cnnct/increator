@@ -1,4 +1,4 @@
-* ## [font icon规范](/kai-fa-gui-fan/qian-duan-kai-fa-gui-fan.md)font icon规范页面开发规范参考
+* ## 页面开发规范参考
 
 > 必看！！！！本处不细述，详见bootstrap开发规范： [http://codeguide.bootcss.com/\#html-syntax](http://codeguide.bootcss.com/#html-syntax)
 
@@ -107,6 +107,29 @@
 > ctrl层
 >
 > serv层
+>
+> #### ctrl层规范
+>
+> > * ctrl需要继承BaseCtrl，可调用父类中的一些公共方法。
+> >
+> > ![](/assets/ctrl_01.png)
+> >
+> > * ctrl中只需要注入serv对象，尽量不要注入mapper\(即dao\)对象
+> >
+> > ctrl中配合url时尽量使用rest风格，如下图所示  
+> > ![](/assets/ctrl02.png)
+> >
+> > * ctrl正常情况时，不需要捕获异常，所有业务异常由serv层处理，再交给拦截器统一处理。
+>
+> #### serv层规范
+>
+> * serv层需要extends BaseServImpl  implements  BaseServ，可调用父类中的一些公共方法，如下所示
+>   ![](/assets/serv01.png)
+> * serv层可注入其它serv，也可以注入mapper\(即dao\)
+>
+> #### mapper\(dao\)层规范
+>
+> > \*
 
 
 

@@ -12,13 +12,15 @@
 >
 > 2017年7月
 
-# 相关学习视频
+# 相关学习资料
 
-> springm+mybatis介绍：[01\_2017-06-28\_springmvc+mybatis\_曲雍杰](http://pan.baidu.com/s/1c1u7Wa)
+> bootstrap学习教程：[http://www.imooc.com/code/5353](http://www.imooc.com/code/5353)
 >
-> 基础控件介绍：
+> springm+mybatis介绍【视频】：[01\_2017-06-28\_springmvc+mybatis\_曲雍杰](http://pan.baidu.com/s/1c1u7Wa)
 >
-> 基础开发介绍：
+> 基础控件介绍【视频】：
+>
+> 基础开发介绍【视频】：
 
 
 
