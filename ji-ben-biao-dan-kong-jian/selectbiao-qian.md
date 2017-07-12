@@ -46,7 +46,7 @@
 > >
 > > **default\_val :** default\_val属性是指select标签的默认选中值，该值为option的value值，当select\_more 属性为“true”时，可以多选，
 > >
-> > 如default\_val="0;2",注意分隔符；
+> > 如default\_val="0,2",注意分隔符；
 
 #### select标签的引入方式 :
 
