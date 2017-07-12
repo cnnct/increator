@@ -42,7 +42,7 @@ String uuid = request.getParameter("uuid");
 
 此uuid为同一批file\_mult\_upload标签上传的文件唯一标识\(包括继续添加后的上传\)，推荐将uuid作为在FTP上创建的存放同一批上传文件的文件夹名。
 
-然后通过如下代码遍历获取文件：
+然后通过如下代码遍历获取文件并上传：
 
 ```
 FtpUtils ftpUtils = new FtpUtils("127.0.0.1","nct","nct",21);//连接FTP
