@@ -81,4 +81,6 @@
 #### form表单的验证显示结果 :
 
 ![](/assets/validate5.png)
+#### form表单清空 :
+
 
