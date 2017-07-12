@@ -23,8 +23,6 @@
   * [code\_checkbox标签【陆】](ji-ben-biao-dan-kong-jian/codecheckbox-biao-qian-3010-lu-3011.md)
   * [search\_input标签【陆】](ji-ben-biao-dan-kong-jian/searchinput-biao-qian-3010-lu-3011.md)
   * [oper\_button标签【陆】](ji-ben-biao-dan-kong-jian/operbutton-biao-qian-3010-lu-3011.md)
-  * [file\_mult\_upload标签【陆】](ji-ben-biao-dan-kong-jian/filemult-upload-biao-qian-3010-lu-3011.md)
-  * [search\_tree标签【陆】](ji-ben-biao-dan-kong-jian/searchtreebiao-qian-3010-lu-3011.md)
   * [table\_toolbar标签【施】](ji-ben-biao-dan-kong-jian/tabletoolbar-biao-qian-3010-shi-3011.md)
 * [复杂、组合标签控件【施、陆】](fu-za-2018-zu-he-biao-qian-kong-jian-3010-shi-3001-lu-3011.md)
   * [级联标签组【施】](ji-ben-biao-dan-kong-jian/casselect-parent-biao-qian-3010-shi-3011.md)
