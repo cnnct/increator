@@ -22,5 +22,8 @@
 
 #### file\_mult\_upload标签显示效果图 :
 
-![](/assets/file_mult_upload.png)
+![](/assets/file_mult_upload.png)file\_mult\_upload
+#### 后台接收上传的文件时注意事项 :
+
+
 
