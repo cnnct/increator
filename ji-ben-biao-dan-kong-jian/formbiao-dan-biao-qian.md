@@ -89,11 +89,8 @@
 ```
 <@button id="repeat" type="button" value="清空" icon="repeat"  class="form-reset"/>
 
-<@button id="repeat" type="button" value="清空" icon="repeat"  onclick="add_form"/>
-
+<@button id="repeat" type="button" value="清空" icon="repeat"  onclick="formReset('add_form')"/>
 ```
-
-
 
 
 
