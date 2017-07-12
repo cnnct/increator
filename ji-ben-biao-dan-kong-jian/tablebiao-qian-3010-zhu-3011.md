@@ -1,7 +1,18 @@
-#table标签
+#table组合标签
 
 ---
 
+#### **table\_toolbar标签：**
+
+> > table\_toolbar标签有1个属性为name；table\_toolbar配合table标签使用，在table标签前使用，
+> >
+> > 用于包裹操作表格的工具的工具栏
+> >
+> > 必须配合table标签使用
+
+
+
+#### **table标签：**
 * 引入表格栏 **table** （其他控件参看**基本表单控件**和**扩展表单控件**），表格控件的使用包含在此例中
 * ```html
   <@table url="${base}/oper/query"
