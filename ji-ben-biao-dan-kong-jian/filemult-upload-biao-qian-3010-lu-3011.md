@@ -44,6 +44,8 @@ String uuid = request.getParameter\("uuid"\);
 
 然后通过如下代码遍历获取文件：
 
+FtpUtils ftpUtils = new FtpUtils\("127.0.0.1","nct","nct",21\);//连接FTP
+
 ```
 for\(int i=0;i&lt;files.length;i++\){
     //在FTP上以uuid为名创建文件目录
