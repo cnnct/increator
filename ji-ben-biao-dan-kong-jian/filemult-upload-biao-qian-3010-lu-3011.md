@@ -47,8 +47,8 @@ String uuid = request.getParameter\("uuid"\);
 ```
 for\(int i=0;i&lt;files.length;i++\){
     MultipartFile file = files\[i\];
-    file.getOriginalFilename();//获取文件名
-    file.getInputStream();//获取文件流
+    String fileName = file.getOriginalFilename();//获取文件名
+    InputStream is = file.getInputStream();//获取文件流
 }
 ```
 
