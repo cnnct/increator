@@ -40,7 +40,7 @@
 > >
 > > **default\_val :** default\_val属性是指code\_select标签的默认选中值，该值为option的value值，当select\_more 属性为“true”时，可以多选，
 > >
-> > 如default\_val="1;2",注意分隔符；
+> > 如default\_val="1,2",注意分隔符；
 > >
 > > **no\_show ：** 不显示的option项，该值为option的value值，no\_show ="1,2",**分隔符为“，”**，和only\_show属性不能同时使用，如果同时使用，则两属性失效
 > >
@@ -53,7 +53,7 @@
 ```
 <@code_select id="select-1" id="dsf" name="name" code_type="AREA_TYPE" default_val="3"  no_show="1"  size="6" choice_have="true" select_more="" />    
 
-<@code_select id="select-2" id="sdfs" name="name" code_type="AREA_TYPE" default_val="1;2"   size="6"  select_more="true" search_have="true"/>
+<@code_select id="select-2" id="sdfs" name="name" code_type="AREA_TYPE" default_val="1,2"   size="6"  select_more="true" search_have="true"/>
 ```
 
 #### code\_select标签的显示结果 :
