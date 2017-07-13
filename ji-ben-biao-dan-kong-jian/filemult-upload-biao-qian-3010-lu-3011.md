@@ -53,7 +53,7 @@ public Object uploadMultFile (@RequestParam("test_upload_name2") MultipartFile[]
 然后通过如下代码上传：\(注：uploadFile方法为BaseCtrl中的公共上传文件方法\)
 
 ```
-List<String> list = uploadFile(files, uuid);//上传文件并获取上传的文件全路径名集合
+List<String> list = uploadFile(files, uuid);//上传文件并获取已上传的文件全路径名集合
 if (list.size() == files.length && list.size() > 0) {//判断文件是否全部上传成功
     可以在此处将文件全路径名保存到数据库
 }
