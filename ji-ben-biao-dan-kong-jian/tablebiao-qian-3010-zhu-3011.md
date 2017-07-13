@@ -59,6 +59,10 @@
   
   getTableRowById(rowId);//根据rowId获取行数据
   
+  getCodeName(value,type);//获取翻译的name值，从sys_code表中获取
+  
+  getCodeValue(name,type);//获取翻译的value值，从sys_code表中获取
+  
   ```
 
 
