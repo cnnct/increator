@@ -40,7 +40,7 @@
 String uuid = UUID.randomUUID().toString();//文件唯一标识
 ```
 
-   \(2\)使用file\_mult\_upload标签时，后台需要获取uuid参数，由于springmvc特性，如下即可：
+\(2\)使用file\_mult\_upload标签时，后台需要获取uuid参数，由于springmvc特性，如下即可：
 
 ```
 public Object uploadMultFile (@RequestParam("test_upload_name2") MultipartFile[] files, String uuid) {
@@ -48,7 +48,7 @@ public Object uploadMultFile (@RequestParam("test_upload_name2") MultipartFile[]
 }
 ```
 
-此uuid为同一批file\_mult\_upload标签上传的文件唯一标识\(包括继续添加后的上传\)，推荐将uuid作为在FTP上创建的存放同一批上传文件的文件夹名，也可以将此uuid存入数据库作为同一批文件的标识。
+3、此uuid为同一批file\_mult\_upload标签上传的文件唯一标识\(包括继续添加后的上传\)，默认将uuid作为在FTP上创建的存放同一批上传文件的文件夹名，也可以将此uuid存入数据库作为同一批文件的标识。
 
 然后通过如下代码遍历获取文件并上传：
 
