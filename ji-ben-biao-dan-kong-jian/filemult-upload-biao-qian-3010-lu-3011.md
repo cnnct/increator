@@ -40,7 +40,7 @@
 String uuid = UUID.randomUUID().toString();//文件唯一标识
 ```
 
-\(2\)使用file\_mult\_upload标签时，后台需要获取uuid参数，由于springmvc特性，如下即可：
+   \(2\)使用file\_mult\_upload标签时，后台需要获取uuid参数，由于springmvc特性，如下即可：
 
 ```
 public Object uploadMultFile (@RequestParam("test_upload_name2") MultipartFile[] files, String uuid) {
