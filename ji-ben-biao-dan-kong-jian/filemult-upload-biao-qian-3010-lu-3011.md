@@ -34,7 +34,7 @@
 
 其中“test\_upload\_name2"为页面input或者file\_mult\_upload标签的name属性。
 
-2、使用file\_mult\_upload标签时，后台需要获取uuid参数，如下：
+2、使用file\_mult\_upload标签时，后台需要获取uuid参数，由于springmvc特性，如下即可：
 
 ```
 public Object uploadMultFile (@RequestParam("test_upload_name2") MultipartFile[] files, String uuid) {
