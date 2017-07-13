@@ -49,5 +49,16 @@
 * 表格数据显示例子如下图：
   ![](/assets/table1.png)
 
+* 获取表格相关数据
+* ```js
+  getTable();//获取表格对象
+
+  getTableRows();//获取表格当前页行数据
+
+  getSelectedTableRows();//获取表格当前页选中行数据
+  
+  getTableRowById(rowId);//根据rowId获取行数据
+  
+  ```
 
 
