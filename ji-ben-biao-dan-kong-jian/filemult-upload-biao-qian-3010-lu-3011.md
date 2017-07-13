@@ -53,7 +53,7 @@ public Object uploadMultFile (@RequestParam("test_upload_name2") MultipartFile[]
 然后通过如下代码上传：\(注：uploadFile方法为BaseCtrl中的方法\)
 
 ```
-ResultData data = new ResultData();
+ResultData data = new ResultData();//返回页面的对象
 List<String> list = uploadFile(files, uuid);//上传的文件全路径名集合
 if (list.size() == files.length && list.size() > 0) {//判断文件是否全部上传成功
     /*
