@@ -68,6 +68,7 @@ if (list.size() == files.length && list.size() > 0) {//判断文件是否全部�
      data.put("flag", "true");
      data.put("msg", "成功");
 }
+return data;
 ```
 
 
