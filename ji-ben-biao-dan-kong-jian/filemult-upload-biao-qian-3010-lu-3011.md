@@ -53,17 +53,7 @@ public Object uploadMultFile (@RequestParam("test_upload_name2") MultipartFile[]
 然后通过如下代码遍历获取文件并上传：
 
 ```
-FtpUtils ftpUtils = getFtpUtils();//获取FTPUtils对象
-for (int i=0;i<files.length;i++) {
-    //在FTP上以uuid为名创建文件目录
-    ftpUtils.CreateFolder(uuid);
-    MultipartFile file = files[i];
-    //String fileName = file.getOriginalFilename();//获取文件名
-    //InputStream is = file.getInputStream();//获取文件流
-    //上传文件到FTP,FTP默认编码为ISO-8859-1
-    boolean flag = ftpUtils.UploadFile(uuid + "/" + new String(file.getOriginalFilename()
-        .getBytes("GBK"),"ISO-8859-1"), file.getInputStream());
-}
+List<String> list = uploadFile(files, uuid);//上传的文件全路径名集合
 ```
 
 
