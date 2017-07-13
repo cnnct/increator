@@ -26,7 +26,7 @@
 
 #### 后台接收上传的文件时注意事项 :
 
-不管是普通的上传文件，还是file\_mult\_upload标签上传文件，后台controller参数中都需要加：
+1、不管是普通的上传文件，还是file\_mult\_upload标签上传文件，后台controller参数中都需要加：
 
 ```
 @RequestParam("test_upload_name2") MultipartFile[] files
@@ -34,27 +34,28 @@
 
 其中“test\_upload\_name2"为页面input或者file\_mult\_upload标签的name属性。
 
-使用file\_mult\_upload标签时，后台需要获取uuid参数，如下：
+2、\(1\)使用普通input上传文件时，需要随机生成一个唯一标识，可用UUID，如下即可：
 
 ```
-String uuid = request.getParameter("uuid");
+String uuid = UUID.randomUUID().toString();//文件唯一标识
 ```
 
-此uuid为同一批file\_mult\_upload标签上传的文件唯一标识\(包括继续添加后的上传\)，推荐将uuid作为在FTP上创建的存放同一批上传文件的文件夹名。
-
-然后通过如下代码遍历获取文件并上传：
+\(2\)使用file\_mult\_upload标签时，后台需要获取uuid参数，由于springmvc特性，如下即可：
 
 ```
-FtpUtils ftpUtils = new FtpUtils("127.0.0.1","nct","nct",21);//连接FTP
-for (int i=0;i<files.length;i++) {
-    //在FTP上以uuid为名创建文件目录
-    ftpUtils.CreateFolder(uuid);
-    MultipartFile file = files[i];
-    String fileName = file.getOriginalFilename();//获取文件名
-    InputStream is = file.getInputStream();//获取文件流
-    //上传文件到FTP,FTP默认编码为ISO-8859-1
-    boolean flag = ftpUtils.UploadFile(uuid + "/" + new String(file.getOriginalFilename()
-        .getBytes("GBK"),"ISO-8859-1"), file.getInputStream());
+public Object uploadMultFile (@RequestParam("test_upload_name2") MultipartFile[] files, String uuid) {
+    ......
+}
+```
+
+3、此uuid为同一批file\_mult\_upload标签上传的文件唯一标识\(包括继续添加后的上传\)，默认将uuid作为在FTP上创建的存放同一批上传文件的文件夹名，也可以将此uuid存入数据库作为同一批文件的标识。
+
+然后通过如下代码上传：\(注：uploadFile方法为BaseCtrl中的公共上传文件方法\)
+
+```
+List<String> list = uploadFile(files, uuid);//上传文件并获取已上传文件全路径名的集合
+if (list.size() == files.length && list.size() > 0) {//判断文件是否全部上传成功
+    可以在此处将文件全路径名保存到数据库
 }
 ```
 
