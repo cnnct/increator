@@ -46,25 +46,26 @@
   备注：存在id列的情况下，首字段 id 固定，mapper 中提供的 sql 语句必须提供 id 字段名（详细见后续 mapper 语句编写）
   -->
   ```
-* 表格数据显示例子如下图：
-  ![](/assets/table1.png)
+* 表格数据显示例子如下图：  
+  ![](/assets/table.png)
 
 * 获取表格相关数据
+
 * ```js
   getTable();//获取表格对象
 
   getTableRows();//获取表格当前页行数据
 
   getSelectedTableRows();//获取表格当前页选中行数据
-  
-  getTableRowById(rowId);//根据rowId获取行数据,rowId值
-  
-  getCodeName(value,type);//获取翻译的name值，从sys_code表中获取
-  
-  getCodeValue(name,type);//获取翻译的value值，从sys_code表中获取
-  
-  例:getCodeName("0","STATE");//值为"注销"
 
+  getTableRowById(rowId);//根据rowId获取行数据,rowId值
+
+  getCodeName(value,type);//获取翻译的name值，从sys_code表中获取
+
+  getCodeValue(name,type);//获取翻译的value值，从sys_code表中获取
+
+  例:getCodeName("0","STATE");//值为"注销"
   ```
+
 
 
