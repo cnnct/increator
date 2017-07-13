@@ -53,6 +53,7 @@ public Object uploadMultFile (@RequestParam("test_upload_name2") MultipartFile[]
 然后通过如下代码上传：\(注：uploadFile方法为BaseCtrl中的方法\)
 
 ```
+ResultData data = new ResultData();
 List<String> list = uploadFile(files, uuid);//上传的文件全路径名集合
 if (list.size() == files.length && list.size() > 0) {//判断文件是否全部上传成功
     /*
@@ -61,7 +62,7 @@ if (list.size() == files.length && list.size() > 0) {//判断文件是否全部�
      * 
      * 可以在此处将文件全路径名保存到数据库
      */
-                
+
      //返回成功标志、提示信息等(注意：如果data是空)
      data.setResultCode(Result_Code.SUCCESS);
      data.put("flag", "true");
