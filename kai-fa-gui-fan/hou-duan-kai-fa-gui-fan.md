@@ -33,7 +33,7 @@
                 idtype="radio"
                 operate="true"
                 btn=["detail", "edit", "active", "cancel", "delete"]
-                cust_btn=[{"name":"test1","onclick":"doTest('sd')","text":"测试1"},{"name":"test2","onclick":"doTest('sd2')","text":"测试2"]]
+               cust_btn=[{"name":"test1","onclick":"doTest('sd')","text":"自定义","icon":"saved","color":"success"}]
                 sort=["oper_id", "oper_name"]/>
   <!-- 所有提交的url地址的前缀都要加上 ${base}
   1. 表格控件必须的三个参数：url、thead、fields
@@ -54,7 +54,7 @@
   -->
   ```
 * 表格数据显示例子如下图：
-  ![](/assets/table1.png)
+  ![](/assets/table.png)
 * 表格相关js方法
 * 查询方法
 * ```js
@@ -151,6 +151,14 @@
   getTableRows();//获取表格当前页行数据
 
   getSelectedTableRows();//获取表格当前页选中行数据
+
+  getTableRowById(rowId);//根据rowId获取行数据,rowId值
+
+  getCodeName(value,type);//获取翻译的name值，从sys_code表中获取
+
+  getCodeValue(name,type);//获取翻译的value值，从sys_code表中获取
+
+  例:getCodeName("0","STATE");//值为"注销"
   ```
 * 新增数据时的提交方法
 
