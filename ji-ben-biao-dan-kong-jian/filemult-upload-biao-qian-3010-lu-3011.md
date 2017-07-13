@@ -37,6 +37,7 @@
 2、\(1\)使用普通input上传文件时，需要随机生成一个唯一标识，可用UUID，如下即可：
 
 ```
+String uuid = UUID.randomUUID().toString();//文件唯一标识
 ```
 
    \(2\)使用file\_mult\_upload标签时，后台需要获取uuid参数，由于springmvc特性，如下即可：
