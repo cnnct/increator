@@ -10,7 +10,7 @@
 
 # 2集体步行至3游戏场所，约500m
 
-![](file:///C:\Users\ADMINI~1.USE\AppData\Local\Temp\msohtmlclip1\01\clip_image002.jpg)
+![](/assets/road.png)
 
 # 3团队游戏
 
