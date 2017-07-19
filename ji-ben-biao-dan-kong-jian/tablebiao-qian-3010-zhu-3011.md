@@ -50,7 +50,7 @@
   -->
   ```
 * 表格数据显示例子如下图：  
-  ![](/assets/table.png)
+  ![](/assets/table.png)![](/assets/table2.png)
 
 * 获取表格相关数据
 
