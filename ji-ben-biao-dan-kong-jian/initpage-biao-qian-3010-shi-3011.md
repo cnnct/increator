@@ -8,7 +8,7 @@
 > >
 > > **link ：** link 属性为引入css文件的属性
 > >
-> > **script ：** script属性引入js文件的属性hjhj
+> > **script ：** script属性引入js文件的属性
 
 #### init\_page标签的引入方式 :
 
