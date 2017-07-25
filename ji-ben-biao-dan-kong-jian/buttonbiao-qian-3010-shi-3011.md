@@ -2,7 +2,7 @@
 
 #### button**标签的属性 :**
 
-> button标签有9个属性分别为为id、name、size、type、class、icon、value、onclick、data_target；
+> button标签有9个属性分别为为id、name、size、type、class、icon、value、onclick、data\_target；
 >
 > **其中value为必填项,下面必填项加上了\*号**；
 >
@@ -22,9 +22,11 @@
 > >
 > > **onclick :** onclick属性
 > >
-> > **data_target :** data_target属性为绑定模态框时使用，值为指向的modal框的id值 data_target="add-modal"
-
-
+> > **data\_target :** data\_target属性为绑定模态框时使用，值为指向的modal框的id值 data\_target="add-modal"
+> >
+> > **auth_key :** 权限属性，auth_key="brch_add",非必填项，如果没有该属性，则为非权限按钮，如果存在，
+>>
+>>则会根据sys_func表去匹配url字段判断该角色是否存在权限
 
 #### button标签的引入方式 :
 
@@ -35,6 +37,7 @@
 
    <@button id="rr"  size="1" value="重置" icon="repeat"/>
 ```
+
 #### button标签的显示结果 :
 
 ![](/assets/button.png)
