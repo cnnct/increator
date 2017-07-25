@@ -32,9 +32,17 @@
                 translate={"oper_state":"STATE", "oper_level":"OPER_LEVEL"}
                 idtype="radio"
                 operate="true"
-                btn=["detail", "edit", "active", "cancel", "delete"]
-               cust_btn=[{"name":"test1","onclick":"doTest('sd')","text":"自定义","icon":"saved","color":"success"}]
-                sort=["oper_id", "oper_name"]/>
+               btn=[
+                    {"name":"detail"},
+                    {"name":"edit","auth_key":"brch_edit"},
+                    {"name":"active","cust_label":"启用"},
+                    {"name":"cancel","auth_key":"brch_cancel","cust_label":"禁用"},
+                    {"name":"delete"}
+                    ]
+                    cust_btn=[{"name":"test1","onclick":"doTest('sd')","text":"自定义","icon":"saved","color":"success","auth_key":"brch_cust"}]
+                    sort=["oper_id", "oper_name"]
+                    img_fields={"img_wrap":"img"}
+                    />
   <!-- 所有提交的url地址的前缀都要加上 ${base}
   1. 表格控件必须的三个参数：url、thead、fields
   2. url： 提交的后台地址 
