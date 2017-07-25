@@ -24,8 +24,14 @@
                 translate={"oper_state":"STATE", "oper_level":"OPER_LEVEL"}
                 idtype="radio"
                 operate="true"
-                btn=["detail", "edit", "active", "cancel", "delete"]
-                cust_btn=[{"name":"test1","onclick":"doTest('sd')","text":"自定义","icon":"saved","color":"success"}]
+                btn=[
+                        {"name":"detail"},
+                        {"name":"edit","auth_key":"brch_edit"},
+                        {"name":"active","cust_label":"启用"},
+                        {"name":"cancel","auth_key":"brch_cancel","cust_label":"禁用"},
+                        {"name":"delete"}
+                    ]
+                cust_btn=[{"name":"test1","onclick":"doTest('sd')","text":"自定义","icon":"saved","color":"success"，"auth_key":"brch_cust"}]
                 sort=["oper_id", "oper_name"]
                 img_fields={"img_wrap":"img"}
                 />
