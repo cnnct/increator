@@ -28,7 +28,7 @@
 > >
 > > 则会根据sys\_func表去匹配url字段判断该角色是否存在权限
 > >
-> > **position : **按钮position属性,用于相对位置\(居左、居中、居右\)
+> > **position : **按钮position属性,用于相对位置\(left：居左、center：居中、right：居右\)
 
 #### button标签的引入方式 :
 
