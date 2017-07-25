@@ -53,8 +53,11 @@
   7. operate：是否显示操作列，true 显示，false 不显示
   8. btn：显示的按钮，目前有6个固定的常用按钮：
      detail 查看详情，edit 修改，delete 删除，active 激活，cancel 注销，verify 审核，显示按钮必须开启操作栏
-  9. cust_btn:cust_btn属性是除了以上常用按钮的自定义按钮,三项为必填项，且onclick的值现在只支持
-      "doTest('sd')"这种传参方式，不支持'doTest("sd")'方式
+     每个按钮有三个属性，name属性只有以上六种值，auth_key为权限属性，匹配sys_func表中的url，cust_label属性为自定义按钮的名字，存在默认名
+  9. cust_btn:cust_btn属性是除了以上常用按钮的自定义按钮,五项属性中name属性和onclick属性为必填项，且onclick的值现在只支持
+      "doTest('sd')"这种传参方式，不支持'doTest("sd")'方式，text属性为button的显示值，icon属性为图标，默认为搜索图标，
+      color属性为颜色属性，可以填写的值为"success"、"danger"、"info"、"warning"、"primary"，默认为蓝色,auth_key为权限属性，匹配sys_func表中的url
+
   9. sort：支持排序功能的字段，默认除了id列和操作列外所有字段都支持
   10. 表格若不需要id列，fields 中去掉 id 字段，同时后台 sql 也去掉 id 字段：如下
       fields="oper_id,oper_name,org_name,brch_name,oper_state,oper_level"
