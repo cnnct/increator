@@ -15,6 +15,8 @@
 > > **label：** 标签属性，如果为空说明没有
 > >
 > > **value：**input框的value
+> >
+> > **readonly：**是否只读
 
 #### date\_time标签的引入方式 :
 
