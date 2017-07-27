@@ -13,6 +13,8 @@
 > > **size ：** size为尺寸标签,可以填的数值范围为（1-12）,如size="6",date\_time标签的默认size为5
 > >
 > > **label：** 标签属性，如果为空说明没有
+> >
+> > **value：**input框的value
 
 #### date\_time标签的引入方式 :
 
