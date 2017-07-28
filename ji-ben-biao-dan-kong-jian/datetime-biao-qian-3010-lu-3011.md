@@ -18,15 +18,15 @@
 > >
 > > **readonly：**是否只读
 > >
-> > **format：**
+> > **format：**日期时间格式
 > >
-> > **max\_val：**
+> > **max\_val：**最大可选值
 > >
-> > **minVal：**
+> > **min\_val：**最小可选值
 > >
-> > **ctrlMaxId：**
+> > **ctrl\_max\_id：**控制其他日期控件最大值,其他控件id
 > >
-> > **readonly：**
+> > **ctrl\_min\_id：**控制其他日期控件最小值,其他控件id
 
 #### date\_time标签的引入方式 :
 
