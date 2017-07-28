@@ -17,6 +17,16 @@
 > > **value：**input框的value
 > >
 > > **readonly：**是否只读
+> >
+> > **format：**
+> >
+> > **max\_val：**
+> >
+> > **minVal：**
+> >
+> > **ctrlMaxId：**
+> >
+> > **readonly：**
 
 #### date\_time标签的引入方式 :
 
