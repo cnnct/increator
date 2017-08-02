@@ -35,3 +35,7 @@
 
 
 #### ueditor微信图文编辑器使用:
+* 注意微信图文编辑需要注册一个账号或绑定一个账号
+![](/assets/ueditor_weixin.png)
+![](/assets/ueditor_weixin2.png)
+![](/assets/ueditor_weixin3.png)
