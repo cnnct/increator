@@ -37,7 +37,7 @@
                          "text":"自定义",
                          "icon":"saved",
                          "color":"success",
-                         "auth_key":"brch_cust"，
+                         "auth_key":"brch_cust",
                           "dynswitch":{"dynbind_field":"brch_state","show_condition":["0"]}
                          }]
                 sort=["oper_id", "oper_name"]
