@@ -14,11 +14,7 @@
 #### button标签的引入方式 :
 
 ```
-   <@button id="bbs"  size="1" value="查询" icon="search" onclick="ss();"/>
-
-   <@button id="dd"  size="1" value="删除" icon="remove"/>
-
-   <@button id="rr"  size="1" value="重置" icon="repeat"/>
+   <@ueditor id="editor" name="myEditor"/>
 ```
 
 #### button标签的显示结果 :
