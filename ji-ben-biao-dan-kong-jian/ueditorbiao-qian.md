@@ -6,18 +6,17 @@
 >
 > **其中id为必填项,下面必填项加上了\*号**；
 >
-> > ** *id ：** id属性
+> > ** \*id ：** id属性
 > >
 > > **name ：** name属性
 
-
-#### button标签的引入方式 :
+#### ueditor标签的引入方式 :
 
 ```
    <@ueditor id="editor" name="myEditor"/>
 ```
 
-#### button标签的显示结果 :
+#### ueditor标签的显示结果 :
 
-![](/assets/button.png)
+![](/assets/ueditor.png)
 
