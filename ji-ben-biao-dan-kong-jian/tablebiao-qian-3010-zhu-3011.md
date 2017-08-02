@@ -31,7 +31,15 @@
                         {"name":"cancel","auth_key":"brch_cancel","cust_label":"禁用"},
                         {"name":"delete"}
                     ]
-                cust_btn=[{"name":"test1","onclick":"doTest('sd')","text":"自定义","icon":"saved","color":"success","auth_key":"brch_cust"}]
+                cust_btn=[{
+                         "name":"test1",
+                         "onclick":"doTest('sd')",
+                         "text":"自定义",
+                         "icon":"saved",
+                         "color":"success",
+                         "auth_key":"brch_cust"，
+                          "dynswitch":{"dynbind_field":"brch_state","show_condition":["0"]}
+                         }]
                 sort=["oper_id", "oper_name"]
                 img_fields={"img_wrap":"img"}
                 />
