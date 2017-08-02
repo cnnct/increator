@@ -27,5 +27,8 @@
 
 ![](/assets/ueditor_pubpath.png)
 
-* config.json文件配置
+* config.json文件配置：
 
+![](/assets/ueditor_pubpath2.png)
+
+最终上面图片的访问路径为：http://192.168.1.4:8090/manageplat/pubpic/image/当前时间/处理后的文件名
