@@ -23,7 +23,9 @@
 #### ueditor文件上传配置路径的方法:
 
 * 配置文件： config.json,ftp.properties
-* ftp.properties文件：
+* ftp.properties文件配置：
 
 ![](/assets/ueditor_pubpath.png)
+
+* config.json文件配置
 
