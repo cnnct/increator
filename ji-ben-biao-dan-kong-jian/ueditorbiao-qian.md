@@ -20,5 +20,6 @@
 
 ![](/assets/ueditor.png)
 
-#### ueditor文件上传配置文件 :
+#### ueditor文件上传配置路径的方法:
+ * 配置文件
 
