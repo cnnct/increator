@@ -1,4 +1,4 @@
-# ueditor**标签**
+# ueditor**富文本标签**
 
 #### ueditor**标签的属性 :**
 
