@@ -9,6 +9,12 @@
 > > ** \*id ：** id属性
 > >
 > > **name ：** name属性
+> >
+> > **size ：** size属性,默认大小12
+> >
+> > **position ：** position属性，可填值left,right,center,默认居中
+
+
 
 #### ueditor标签的引入方式 :
 
