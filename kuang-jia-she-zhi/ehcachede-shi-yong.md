@@ -1,4 +1,4 @@
-在config下的
+在src下的
 
 ehcache.xml
 
@@ -69,7 +69,7 @@ timeToLiveSeconds="0"    --默认对象只要在使用就永不失效
 
 程序中使用：
 
-在src.com.cnnct.base.cache.factory目录下
+在src.com.cnnct.basic.cache.factory目录下
 
 创建以ehcache.xml配置文件中配置的name 名称开头，CacheFactory结尾的缓存工厂类，实现CacheFactory接口，
 
