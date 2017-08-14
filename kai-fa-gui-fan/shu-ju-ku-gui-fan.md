@@ -80,5 +80,11 @@
 >
 > ## ![](/assets/table_commont.png)
 
+* ## 表注释、字段注释规则
+
+---
+
+> mysql注意：对于时间字段，尽量不要使用默认值current\_timestamp，原因是由于mysql双主机数据同步时，有可能造成两个库的同一个表的这种字段值不同，因为这个值是取当前要器的系统时间，因此需要从代码中赋值![](/assets/timestamp.png)
+
 
 
