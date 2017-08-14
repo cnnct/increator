@@ -80,7 +80,7 @@
 >
 > ## ![](/assets/table_commont.png)
 
-* ## 表注释、字段注释规则
+* ## mysql时间字段使用
 
 ---
 
