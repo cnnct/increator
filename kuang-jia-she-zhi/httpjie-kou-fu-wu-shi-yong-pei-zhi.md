@@ -6,7 +6,8 @@
   > 2.在拦截器中初始化业务需要的数据：  
   > ![](/assets/interceptor.png)
   > 3.在ServerAspet类中配置异常时要处理的业务
-  > 
-
-
+  > ![](/assets/serverAspet.png)
+  > ![](/assets/httpyichangchuli.png)
+  > 4.在InterFinallyServImpl类中配置finally要处理的业务
+  >
 
