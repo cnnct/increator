@@ -24,11 +24,11 @@
 > >
 > > **data\_target :** data\_target属性为绑定模态框时使用，值为指向的modal框的id值 data\_target="add-modal"
 > >
-> > **auth\_key :** 权限属性，auth\_key="brch\_add",非必填项，如果没有该属性，则为非权限按钮，如果存在，
+> > **auth\_key【1.1】:** 权限属性，auth\_key="brch\_add",非必填项，如果没有该属性，则为非权限按钮，如果存在，
 > >
 > > 则会根据sys\_func表去匹配url字段判断该角色是否存在权限
 > >
-> > **position : **按钮position属性,用于相对位置\(left：居左、center：居中、right：居右\)
+> > **position【1.1】: **按钮position属性,用于相对位置\(left：居左、center：居中、right：居右\)
 
 #### button标签的引入方式 :
 
