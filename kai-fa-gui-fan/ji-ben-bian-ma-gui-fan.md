@@ -129,6 +129,10 @@
 >   ![](/assets/serv01.png)
 > * serv层可注入其它serv，也可以注入mapper\(即dao\)
 >
+> #### serv层事务嵌套：事务方法中执行非事务用法
+>
+> > *
+>
 > #### mapper\(dao\)层规范
 >
 > * 开发前先使用生成po和mapper，使用方法详见“[mybitis逆向生成](/kuang-jia-she-zhi/mybatis/mybatisni-xiang-sheng-cheng.md)”章节。
