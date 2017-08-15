@@ -106,9 +106,11 @@
 >
 > CustomExceptionResolver类已实现了系统异常的统一封装存库。编写业务代码时如下使用。
 >
-> ctrl层
+> ctrl层：正常情况不需要处理异常
 >
-> serv层
+> serv层：方法最后需要抛出异常
+>
+> ![](/assets/excp01.png)
 >
 > #### ctrl层规范
 >
@@ -141,8 +143,6 @@
 >  ((AService) AopContext.currentProxy()).b(); 
 > }
 > ```
->
->
 >
 > #### mapper\(dao\)层规范
 >
