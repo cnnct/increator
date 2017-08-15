@@ -11,5 +11,5 @@
   > 4.在InterFinallyServImpl类中配置finally要处理的业务：
   >![](/assets/httpfinallydo.png)
   > 5.实际业务处理：
-  ![](/assets/httpversion.png)
+  >![](/assets/httpversion.png)
 
