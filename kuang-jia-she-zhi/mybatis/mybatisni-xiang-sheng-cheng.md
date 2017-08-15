@@ -10,5 +10,7 @@
 
 在使用时只需要在配置文件中西瓜tableName就可以，如果有大字段（text之类）的，需要添加columnOverride配置。
 
+![](/assets/generator.png)
+
 ![](/assets/generatortable.png)运行GeneratorSqlmap就可以生成了。
 
