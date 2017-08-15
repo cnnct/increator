@@ -100,7 +100,7 @@
 >
 > #### 日志使用【待完善】
 >
-> 任何一个业务、请求、接口，需要有痕迹保留，目前记录所有日志信息合租sys\_action\_log表记录。actionLog对象内容需要在service层中进行补充完善，详见下方章节“serv层规范”
+> 任何一个业务、请求、接口，需要有痕迹保留，目前记录所有日志信息合租sys\_action\_log表记录。actionLog对象内容需要在service层中进行补充完善，如下图所示：
 >
 > #### 异常管理
 >
@@ -116,9 +116,11 @@
 > >
 > > ![](/assets/ctrl03.png)
 > >
+> >
 > > * ctrl中只需要注入serv对象，尽量不要注入mapper\(即dao\)对象
 > >
-> > * ctrl中配合url时尽量使用rest风格，如下图所示 ![](/assets/ctrl02.png)
+> > ctrl中配合url时尽量使用rest风格，如下图所示  
+> > ![](/assets/ctrl02.png)
 > >
 > > * ctrl正常情况时，不需要捕获异常，所有业务异常由serv层处理，再交给拦截器统一处理。
 >
@@ -127,9 +129,6 @@
 > * serv层需要extends BaseServImpl  implements  BaseServ，可调用父类中的一些公共方法，如下所示
 >   ![](/assets/serv01.png)
 > * serv层可注入其它serv，也可以注入mapper\(即dao\)
-> * serv层业务方法入能第一个都传入request，主要用来操作sys\__action_\_log，主要针对于管理界面的功能模块的开发，若仅只是些查询的业务，可以不用此参数 ![](/assets/serv02.png)
->
-> #### 
 >
 > #### mapper\(dao\)层规范
 >
