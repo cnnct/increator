@@ -116,7 +116,6 @@
 > >
 > > ![](/assets/ctrl03.png)
 > >
-> >
 > > * ctrl中只需要注入serv对象，尽量不要注入mapper\(即dao\)对象
 > >
 > > ctrl中配合url时尽量使用rest风格，如下图所示  
