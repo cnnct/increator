@@ -131,7 +131,11 @@
 >
 > #### serv层事务嵌套：事务方法中执行非事务用法
 >
-> > *
+> * 首先定义非事务方法，根据config/spring/applicationContext-transation.xml中的事务配置，以“notran”开头的方法作为非事务管理方法命名。
+> * 调用时，若事务方法和非事务方法不在同一个service里，则正常调用或使用始可。
+> * 调用时，若事务方法和非事务方面同一个service里时，要注意，调用方法如下：
+>
+> \(\(AService\) AopContext.currentProxy\(\)\).b\(\);
 >
 > #### mapper\(dao\)层规范
 >
