@@ -116,7 +116,6 @@
 > >
 > > ![](/assets/ctrl03.png)
 > >
-> >
 > > * ctrl中只需要注入serv对象，尽量不要注入mapper\(即dao\)对象
 > >
 > > ctrl中配合url时尽量使用rest风格，如下图所示  
@@ -129,7 +128,7 @@
 > * serv层需要extends BaseServImpl  implements  BaseServ，可调用父类中的一些公共方法，如下所示
 >   ![](/assets/serv01.png)
 > * serv层可注入其它serv，也可以注入mapper\(即dao\)
->
+> * 
 > #### mapper\(dao\)层规范
 >
 > > \*
