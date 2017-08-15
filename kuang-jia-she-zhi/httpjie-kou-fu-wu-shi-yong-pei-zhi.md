@@ -12,4 +12,5 @@
   >![](/assets/httpfinallydo.png)
   > 5.实际业务处理：
   >![](/assets/httpversion.png)
-
+  > 注意 :接口上需要指定版本号，当请求固定版本号时url中需要加入版本，当请求的url中没有指定版本号，
+  > 则接口默认请求最新版本的接口
