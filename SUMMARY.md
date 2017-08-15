@@ -8,7 +8,7 @@
   * [init\_page标签](ji-ben-biao-dan-kong-jian/initpage-biao-qian-3010-shi-3011.md)
   * [span标签](ji-ben-biao-dan-kong-jian/spanbiao-qian.md)
   * [text\_area标签](ji-ben-biao-dan-kong-jian/textarea-biao-qian-3010-shi-3011.md)
-  * [button标签【1.1】](ji-ben-biao-dan-kong-jian/buttonbiao-qian-3010-shi-3011.md)
+  * [button标签](ji-ben-biao-dan-kong-jian/buttonbiao-qian-3010-shi-3011.md)
   * [label标签](ji-ben-biao-dan-kong-jian/labelbiao-qian-3010-shi-3011.md)
   * [input标签](ji-ben-biao-dan-kong-jian/inputbiao-qian-3010-shi-3011.md)
   * [search\_input标签](ji-ben-biao-dan-kong-jian/searchinput-biao-qian-3010-lu-3011.md)
