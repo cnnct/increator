@@ -128,7 +128,7 @@
 > * serv层需要extends BaseServImpl  implements  BaseServ，可调用父类中的一些公共方法，如下所示
 >   ![](/assets/serv01.png)
 > * serv层可注入其它serv，也可以注入mapper\(即dao\)
-> * serv层业务方法入能第一个都传入request，主要用来操作sys_action\_\_log ![](/assets/serv02.png)
+> * serv层业务方法入能第一个都传入request，主要用来操作sys\__action_\_log，若仅只是些查询的业务，可以不用此参数 ![](/assets/serv02.png)
 >
 > #### 
 >
