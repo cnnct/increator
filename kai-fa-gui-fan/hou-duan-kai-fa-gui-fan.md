@@ -277,7 +277,7 @@
           return resultData;
       }
   ```
-* 实现类（Dao层）注意事项
+* 实现类（Service层）注意事项
 * ```java
     /**
      * 实现类需继承 BaseImpl 基础实现类
