@@ -254,34 +254,30 @@
   ```
 * 获取表格数据
 * ```java
-    /**
-     * 获取操作员信息
-     * @param request 接受参数为HttpServletRequest
-     */
-    @RequestMapping("/query")
-    @ResponseBody //必须以json格式返回数据，此注解必须加
-    public ResultData queryOperInfo(HttpServletRequest request) {
-        ResultData resultData = new ResultData(Result_Code.SUCCESS);
-        try {
-            //分页参数
-            resultData = getPageMap(request);
-            //sql条件（用于sql语句中where的筛选条件，若有，则如下写法）
-            resultData.put("org_id", getOper().getOrgId());
-            //获取操作员列表
-            List<Map> operList = operServ.getOperList(resultData);
-            //获取总记录数
-            Long recordsTotal = operServ.getRecordCount(resultData);
-            //返回数据至页面
-            initPagination(resultData, operList, recordsTotal);
-        } catch (Exception e) {
-            resultData.setResultData(e);
-            log.error(e.getMessage());
-            e.printStackTrace();
-        }
-        return resultData;
-    }
+   /**
+       * 获取操作员信息
+       *
+       * @param request
+       * @return
+       */
+      @RequestMapping("/query")
+      @ResponseBody
+      public ResultData queryOperInfo(HttpServletRequest request)throws Exception  {
+          ResultData resultData = new ResultData(Result_Code.SUCCESS);
+          //分页参数
+          resultData = getPageMap(request);
+          //sql条件（用于sql语句中where的筛选条件，若有，则如下写法）
+          resultData.put("org_id", getOper().getOrgId());
+          //获取操作员列表
+          List<Map> operList = operServ.getOperList(resultData);
+          //获取总记录数
+          Long recordsTotal = operServ.getRecordCount(resultData);
+          //返回数据至页面
+          initPagination(resultData, operList, recordsTotal);
+          return resultData;
+      }
   ```
-* 实现类（Dao层）注意事项
+* 实现类（Service层）注意事项
 * ```java
     /**
      * 实现类需继承 BaseImpl 基础实现类
