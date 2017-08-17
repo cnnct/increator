@@ -61,7 +61,7 @@
                 />
   <!-- 所有提交的url地址的前缀都要加上 ${base}
   1. 表格控件必须的三个参数：url、thead、fields
-  2. url： 提交的后台地址 
+  2. *url： 提交的后台地址 
   3. thead： 表头显示的字段名（不包括第一列的id列）
   4. fields：sql语句中显示的字段名
   5. translate：待转义的字段，格式为json格式
