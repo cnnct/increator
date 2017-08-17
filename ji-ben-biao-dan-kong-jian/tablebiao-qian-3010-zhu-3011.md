@@ -23,8 +23,8 @@
 ```
     <@table_toolbar name="查询结果">
         <@button value="新增" data_target="modal_add" icon="plus"/>
-        <@button value="批量激活" onclick="activeAndCancel('active')" icon="ok-sign"/>
-        <@button value="批量注销" onclick="activeAndCancel('cancel')" icon="remove-sign"/>
+        <@button value="批量激活" onclick="activeAndCancel('active','mytable')" icon="ok-sign"/>
+        <@button value="批量注销" onclick="activeAndCancel('cancel','mytable')" icon="remove-sign"/>
     </@table_toolbar>
 ```
 
