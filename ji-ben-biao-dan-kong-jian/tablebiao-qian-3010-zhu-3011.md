@@ -88,13 +88,13 @@
 * 获取表格相关数据
 
 * ```js
-  getTable();//获取表格对象
+  getTable(tableId);//获取表格对象
 
-  getTableRows();//获取表格当前页行数据
+  getTableRows(tableId);//获取表格当前页行数据
 
-  getSelectedTableRows();//获取表格当前页选中行数据
+  getSelectedTableRows(tableId);//获取表格当前页选中行数据
 
-  getTableRowById(rowId);//根据rowId获取行数据,rowId值
+  getTableRowById(rowId,tableId);//根据rowId获取行数据,rowId值
 
   getCodeName(value,type);//获取翻译的name值，从sys_code表中获取
 
