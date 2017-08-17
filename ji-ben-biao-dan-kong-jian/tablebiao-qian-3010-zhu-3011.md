@@ -100,7 +100,7 @@
 
   getCodeValue(name,type,tableId);//获取翻译的value值，从sys_code表中获取
 
-  例:getCodeName("0","STATE");//值为"注销"
+  例:getCodeName("0","STATE","mytable");//值为"注销"
   ```
 
 
