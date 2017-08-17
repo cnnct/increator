@@ -3,7 +3,7 @@
 #### xml文件配置示例：
 
 ```
-&lt;!-- spring定时任务扫描注解驱动,并设置线程池数量,两个线程池数量\(pool-size\)最好&gt;=定时任务数量 --&gt;
+&lt;!-- 加载spring定时任务扫描注解驱动,并设置线程池数量,这两个线程池数量\(pool-size\)最好&gt;=定时任务数量 --&gt;
 
 &lt;task:annotation-driven executor="myExecutor" scheduler="myScheduler"/&gt;
 
