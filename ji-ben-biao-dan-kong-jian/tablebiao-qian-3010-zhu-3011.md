@@ -3,7 +3,7 @@
 ---
 #### **query_bar标签：**
 
-* query_bar标签有1个属性为id；query_bar配合table标签使用，在table标签前使用，用于包裹操作表格的工具的工具栏必须配合table标签使用，在引用table标签之前引用
+* query_bar标签有1个属性为id；query_bar配合table标签使用，类似于form标签
 
 ```
     <@table_toolbar name="查询结果">
