@@ -105,7 +105,7 @@
   例:getCodeName("0","STATE","mytable");//值为"注销"
   
   /**
- * ajax表单提交
+ * ajax表单提交，只针对表格
  * obj参数中可以传的参数有如下
  * @param url 提交地址
  * @param formId 表单id，可为空
@@ -114,8 +114,7 @@
  * @param tableSearchDataJson 表格查询所需的过滤数据，表格查询时不能为空
  * @param tableId 表格Id值，必须传
  */
-//function postform(url, formId, convertName, modalId,tableSearchDataJson,tableId) {
-function postform(obj)
+    postform(obj)
   ```
 
 
