@@ -1,6 +1,18 @@
 # table组合标签
 
 ---
+#### **query_bar标签：**
+
+* query_bar标签有1个属性为id；table\\_toolbar配合table标签使用，在table标签前使用，用于包裹操作表格的工具的工具栏必须配合table标签使用，在引用table标签之前引用
+
+```
+    <@table_toolbar name="查询结果">
+        <@button value="新增" data_target="modal_add" icon="plus"/>
+        <@button value="批量激活" onclick="activeAndCancel('active')" icon="ok-sign"/>
+        <@button value="批量注销" onclick="activeAndCancel('cancel')" icon="remove-sign"/>
+    </@table_toolbar>
+```
+
 
 #### **table\_toolbar标签：**
 
