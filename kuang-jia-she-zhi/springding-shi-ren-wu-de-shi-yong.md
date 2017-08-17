@@ -28,19 +28,15 @@ public class TestTask {
 ```
 
 ```
-
 \*/
 
-@Scheduled\(cron = "0/5 \* \* \* \* ?"\)
+    @Scheduled\(cron = "0/5 \* \* \* \* ?"\)
 
-public void execute\(\) {
+    public void execute\(\) {
 
     // do something
 
-    }
-```
-
-```
+    }    
 }
 ```
 
