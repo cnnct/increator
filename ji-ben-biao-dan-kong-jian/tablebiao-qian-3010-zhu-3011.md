@@ -6,11 +6,13 @@
 * query_bar标签有1个属性为id；query_bar配合table标签使用，类似于form标签
 
 ```
-    <@table_toolbar name="查询结果">
-        <@button value="新增" data_target="modal_add" icon="plus"/>
-        <@button value="批量激活" onclick="activeAndCancel('active')" icon="ok-sign"/>
-        <@button value="批量注销" onclick="activeAndCancel('cancel')" icon="remove-sign"/>
-    </@table_toolbar>
+    <@query_bar id="queryForm">
+		<@form_group class="row">
+                   <@input label="部门编号" name="brchId"  size="2"  />
+		    <@input label="部门名称" name="brchName"  size="2"  />
+  		    <@button  value="查询" onclick="queryInfo()" auth_key="brch_query"/>
+		</@form_group>
+    </@query_bar>
 ```
 
 
