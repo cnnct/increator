@@ -18,14 +18,16 @@
 
 #### 定时任务类示例：
 
-    @Component
+```
+@Component
 
-    public class TestTask {
+public class TestTask {
 
-    /\*\*
+/\*\*
+\*  定时任务demo,每隔5秒执行一次
+```
 
 ```
-\*  定时任务demo,每隔5秒执行一次
 
 \*/
 
@@ -38,5 +40,9 @@ public void execute\(\) {
     }
 ```
 
-    }
+```
+}
+```
+
+
 
