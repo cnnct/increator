@@ -103,6 +103,19 @@
   getCodeValue(name,type,tableId);//获取翻译的value值，从sys_code表中获取
 
   例:getCodeName("0","STATE","mytable");//值为"注销"
+  
+  /**
+ * ajax表单提交
+ * obj参数中可以传的参数有如下
+ * @param url 提交地址
+ * @param formId 表单id，可为空
+ * @param convertName 需转换的name属性，可为空，例子："role1.id,role2.id ..."
+ * @param modalId form表单提交时的modalId
+ * @param tableSearchDataJson 表格查询所需的过滤数据，表格查询时不能为空
+ * @param tableId 表格Id值，必须传
+ */
+//function postform(url, formId, convertName, modalId,tableSearchDataJson,tableId) {
+function postform(obj)
   ```
 
 
