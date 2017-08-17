@@ -40,12 +40,13 @@
                 operate="true"
                 btn=[
                        {"name":"detail","onclick":"viewDetail(this)"},
-	                {"name":"edit","auth_key":"brch","onclick":"editItem(this,'mytable')"},
-	                {"name":"active","cust_label":"启    用","onclick":"activeItem(this,'mytable')"},
-	                {"name":"cancel","auth_key":"brch_cancel","cust_label":"禁用","onclick":"cancelItem(this,'mytable')"},
-	                {"name":"delete","onclick":"delItem(this,'mytable')"}
+                       {"name":"edit","auth_key":"brch","onclick":"editItem(this,'mytable')"},
+                       {"name":"active","cust_label":"启    用","onclick":"activeItem(this,'mytable')"},
+                       {"name":"cancel","auth_key":"brch_cancel","cust_label":"禁用","onclick":"cancelItem(this,'mytable')"},
+                       {"name":"delete","onclick":"delItem(this,'mytable')"}
                     ]
-                cust_btn=[{
+                cust_btn=[
+                        {
                          "name":"test1",
                          "onclick":"doTest('sd')",
                          "text":"自定义",
