@@ -30,9 +30,9 @@
 
 > spring源码下载：[https://github.com/spring-projects/spring-framework/tags](https://github.com/spring-projects/spring-framework/tags)
 >
-> ireport工具下载：
+> ireport工具下载：https://community.jaspersoft.com/project/ireport-designer/releases
 >
-> jsperreport下载：https://community.jaspersoft.com/project/jasperreports-library/releases
+> jsperreport下载：[https://community.jaspersoft.com/project/jasperreports-library/releases](https://community.jaspersoft.com/project/jasperreports-library/releases)
 
 
 
