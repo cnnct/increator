@@ -32,6 +32,8 @@
 >
 > spring源码下载：[https://github.com/spring-projects/spring-framework/tags](https://github.com/spring-projects/spring-framework/tags)
 >
+> > 注意：下载的源代码导入到eclipse，4.0.6版本配套的jdk需要1.8
+>
 > spring源码\(可用svn签出\)：[https://github.com/SpringSource/spring-framework/tags](https://github.com/SpringSource/spring-framework/tags)
 >
 > ireport工具下载：[https://community.jaspersoft.com/project/ireport-designer/releases](https://community.jaspersoft.com/project/ireport-designer/releases)
@@ -42,7 +44,7 @@
 >
 > gradle下载：[http://www.gradle.org/downloads](http://www.gradle.org/downloads)
 >
-> spring tool suite 插件：http://spring.io/tools/sts/all/
+> spring tool suite 插件：[http://spring.io/tools/sts/all/](http://spring.io/tools/sts/all/)
 
 
 
