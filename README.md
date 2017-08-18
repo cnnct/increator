@@ -26,11 +26,9 @@
 
 > 由于视频的时效性，无法实时更新或重录，因此视频是作为框架学习的辅助，若遇到视频与手册有不一致之处，以手册为准，手册是会不定期调整更新。
 
+# 其它资源
 
-
-# 重要说明
-
-https://github.com/spring-projects/spring-framework/tags
+> spring源码下载：[https://github.com/spring-projects/spring-framework/tags](https://github.com/spring-projects/spring-framework/tags)
 
 
 
