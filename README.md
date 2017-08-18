@@ -35,6 +35,8 @@
 > jsperreport下载：[https://community.jaspersoft.com/project/jasperreports-library/releases](https://community.jaspersoft.com/project/jasperreports-library/releases)
 >
 > apache tites下载：[http://tiles.apache.org/download.html](http://tiles.apache.org/download.html)
+>
+> gradle下载：[http://www.gradle.org/downloads](http://www.gradle.org/downloads)
 
 
 
