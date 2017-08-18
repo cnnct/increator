@@ -30,7 +30,7 @@
 
 > spring源码下载：[https://github.com/spring-projects/spring-framework/tags](https://github.com/spring-projects/spring-framework/tags)
 >
-> spring源码\(可用svn签出\)https://github.com/SpringSource/spring-framework/tags
+> spring源码\(可用svn签出\)：[https://github.com/SpringSource/spring-framework/tags](https://github.com/SpringSource/spring-framework/tags)
 >
 > ireport工具下载：[https://community.jaspersoft.com/project/ireport-designer/releases](https://community.jaspersoft.com/project/ireport-designer/releases)
 >
