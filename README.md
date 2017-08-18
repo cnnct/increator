@@ -42,7 +42,7 @@
 >
 > gradle下载：[http://www.gradle.org/downloads](http://www.gradle.org/downloads)
 >
-> spring tool suite 插件：
+> spring tool suite 插件：http://spring.io/tools/sts/all/
 
 
 
