@@ -8,5 +8,9 @@
 > >
 > > 必须配合table标签使用
 
+>> * table_toolbar属性:
+
+>>   name: name属性
+
 
 
