@@ -10,7 +10,7 @@
 > >
 > > **name ：** name属性
 > >
-> > \***sql\_key：** SQL语句对应的key
+> > \***sql\_key：** SQL语句对应的key,这里支持多条sql语句以“；”分隔
 > >
 > > \***show\_item：** 显示的内容
 > >
@@ -29,7 +29,7 @@
 <@search_input 
     id="searchOrgName" 
     name="searchOrgName_name" 
-    sql_key="org_name1" 
+    sql_key="org_name3" 
     show_item="org_id,org_name" 
     show_value="org_name" 
     hidden_value="org_id" 
