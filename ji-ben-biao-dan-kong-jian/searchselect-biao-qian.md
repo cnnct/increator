@@ -22,6 +22,7 @@
 > >
 > > **size ：** size为尺寸标签,可以填的数值范围为（1-12）,如size="6",search\_input标签的默认size为5
 
+>> **select_item :**"栏目1,栏目2"
 #### search\_select标签的引入方式 :
 
 ```
