@@ -24,7 +24,7 @@
 
 >> **select_item ：**select的option选项
 
-#### search\_select标签的引入方式 :
+#### search\_select标签的引入方式示例 :
 
 ```
 <@search_input 
@@ -37,6 +37,8 @@
     size="3" 
     select_item="栏目1,栏目2"/>
 ```
+#### search\_select标签的引入方式 :
+
 
 #### search\_select标签显示效果图 :
 
