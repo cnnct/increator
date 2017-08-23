@@ -35,7 +35,7 @@
   * [file\_mult\_upload标签](ji-ben-biao-dan-kong-jian/filemult-upload-biao-qian-3010-lu-3011.md)
   * [table\_toolbar标签](ji-ben-biao-dan-kong-jian/tabletoolbar-biao-qian-3010-shi-3011.md)
   * [table标签](ji-ben-biao-dan-kong-jian/tablebiao-qian-3010-zhu-3011.md)
-  * [search\_select标签](ji-ben-biao-dan-kong-jian/searchselect-biao-qian.md)
+  * [search\_select标签【1.2】](ji-ben-biao-dan-kong-jian/searchselect-biao-qian.md)
 * [应用工具方法调用](ying-yong-gong-ju-fang-fa-diao-yong-3010-shi-3001-lu-3011.md)
   * [模态弹框](ying-yong-gong-ju-fang-fa-diao-yong-3010-shi-3001-lu-3011/mo-tai-dan-kuang-3010-shi-3011.md)
 * [后端框架配置](kuang-jia-she-zhi.md)
