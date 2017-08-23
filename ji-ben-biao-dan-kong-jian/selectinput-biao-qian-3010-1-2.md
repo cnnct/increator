@@ -37,5 +37,5 @@
 
 #### input标签的显示结果:
 
-![](/assets/input.png)
+
 
