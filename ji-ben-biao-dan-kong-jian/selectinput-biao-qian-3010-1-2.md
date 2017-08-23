@@ -36,6 +36,6 @@
 ```
 
 #### select_input标签的显示结果:
-
+![](/assets/select_input.png)
 
 
