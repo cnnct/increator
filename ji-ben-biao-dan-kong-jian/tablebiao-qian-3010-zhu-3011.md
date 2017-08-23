@@ -33,7 +33,15 @@
 * 引入表格栏 **table** （其他控件参看**基本表单控件**和**扩展表单控件**），表格控件的使用包含在此例中
 * ```html
   <@table url="${base}/oper/query"
-                thead="编号,姓名,机构,部门,状态,级别"
+                 thead=[
+            	[
+	            	{"name":"编号"},
+	            	{"name":"名称"},
+	            	{"name":"机构"},
+	            	{"name":"状态"},
+	            	{"name":"级别"}
+            	]
+            ]
                 fields="id,oper_id,oper_name,org_name,brch_name,oper_state,oper_level"
                 translate={"oper_state":"STATE", "oper_level":"OPER_LEVEL"}
                 idtype="radio"
