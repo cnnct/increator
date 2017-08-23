@@ -44,7 +44,9 @@
 
 ![](/assets/button.png)
 
-#### button图标使用，icon="xxxxxx"
+#### button图标使用，icon="xxxxxx"，值取样式表名称的“-”横线后的字符串
 
 [http://v3.bootcss.com/components/](http://v3.bootcss.com/components/)
+
+![](/assets/icon-font.png)
 
