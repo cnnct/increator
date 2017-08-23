@@ -71,6 +71,10 @@
                 sort=["oper_id", "oper_name"]
                 img_fields={"img_wrap":"img"}
                 id="mytable"
+                 merge_cells=[
+            	{"coordinate":"3,1","rowspan":"6","colspan":"2"},
+            	{"coordinate":"4,7","rowspan":"3"}
+            ]
                 />
   <!-- 所有提交的url地址的前缀都要加上 ${base}
   1. 表格控件必须的三个参数：url、thead、fields
@@ -92,6 +96,7 @@
   10. sort：支持排序功能的字段，默认除了id列和操作列外所有字段都支持
   11.img_fields【1.1】:支持缩略图功能，img_fields={"img_wrap":"img"},"img_wrap"为缩略图字段，"img"为原图字段,点击缩略图弹出原图
   12.*id【1.2】:指定表格id
+  13.
   13. 表格若不需要id列，fields 中去掉 id 字段，同时后台 sql 也去掉 id 字段：如下
       fields="oper_id,oper_name,org_name,brch_name,oper_state,oper_level"
   备注：存在id列的情况下，首字段 id 固定，mapper 中提供的 sql 语句必须提供 id 字段名（详细见后续 mapper 语句编写）
