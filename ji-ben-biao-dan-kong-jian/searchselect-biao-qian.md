@@ -28,7 +28,7 @@
 <@search_input id="searchOrgName" name="searchOrgName_name" sql_key="org_name1" show_item="org_id,org_name" show_value="org_name" hidden_value="org_id" size="3" />
 ```
 
-#### search\_input标签显示效果图 :
+#### search\_select标签显示效果图 :
 
 ![](/assets/search_input.png)
 
