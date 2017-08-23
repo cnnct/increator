@@ -11,6 +11,7 @@
 >> * table_toolbar属性:
 
 >>   name: name属性
+>>   size: size属性
 
 
 
