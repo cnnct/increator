@@ -10,7 +10,7 @@
 > >
 > > **name ：** name属性
 > >
-> > \***sql\_key：** SQL语句对应的key,这里支持多条sql语句以“；”分隔，对应select_item属性的option项
+> > \***sql\_key：** SQL语句对应的key,这里支持多条sql语句以“；”分隔，对应select\_item属性的option项
 > >
 > > \***show\_item：** 显示的内容
 > >
@@ -21,8 +21,8 @@
 > > **label：** label标签
 > >
 > > **size ：** size为尺寸标签,可以填的数值范围为（1-12）,如size="6",search\_input标签的默认size为5
-
->> **select_item ：**select的option选项，对应sql_key对应的语句
+> >
+> > **select\_item ：**select的option选项，对应sql\_key对应的语句
 
 #### search\_select标签的引入方式示例 :
 
@@ -37,8 +37,10 @@
     size="3" 
     select_item="栏目1,栏目2"/>
 ```
+
 #### search\_select标签sql示例:
 
+![](/assets/search_select2.png)
 
 #### search\_select标签显示效果图 :
 
