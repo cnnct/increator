@@ -10,7 +10,7 @@
 > >
 > > **name ：** name属性
 > >
-> > \***sql\_key：** SQL语句对应的key,这里支持多条sql语句以“；”分隔
+> > \***sql\_key：** SQL语句对应的key,这里支持多条sql语句以“；”分隔，对应select_item属性的option项
 > >
 > > \***show\_item：** 显示的内容
 > >
