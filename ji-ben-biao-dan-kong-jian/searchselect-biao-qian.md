@@ -44,5 +44,5 @@
 
 #### search\_select标签显示效果图 :
 
-![](/assets/search_select3.png)
+![](/assets/search_select4.png)
 
