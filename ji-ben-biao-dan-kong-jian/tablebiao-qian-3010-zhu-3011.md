@@ -72,9 +72,9 @@
                 img_fields={"img_wrap":"img"}
                 id="mytable"
                  merge_cells=[
-            	{"coordinate":"3,1","rowspan":"6","colspan":"2"},
-            	{"coordinate":"4,7","rowspan":"3"}
-            ]
+                	{"coordinate":"3,1","rowspan":"6","colspan":"2"},
+                	{"coordinate":"4,7","rowspan":"3"}
+                ]
                 />
   <!-- 所有提交的url地址的前缀都要加上 ${base}
   1. 表格控件必须的三个参数：url、thead、fields
