@@ -44,11 +44,11 @@
 
 ![](/assets/button.png)
 
-#### button图标使用，icon="xxxxxx"，值取样式表名称的“-”横线后的字符串
+#### button图标使用，icon="xxxxxx"，值取样式表名称的“-”横线后的字符串，如下图所示
 
 [http://v3.bootcss.com/components/](http://v3.bootcss.com/components/)
 
-![](/assets/icon-font01.png)
+![](/assets/icon-font03.png)
 
 
 
