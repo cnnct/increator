@@ -81,7 +81,7 @@
   2. *url： 提交的后台地址 
   3. *thead【1.2】： 表头显示的字段名（不包括第一列的id列），thead在【1.2】以后支持多级表头，每一列标题头支持3个属性，name属性指定列名，rowspan属性支持指定标题头占用的行数，默认值为1，colspan属性支持指定标题头占用的列数，默认值为1
   4. *fields：sql语句中显示的字段名
-  5. translate：待转义的字段，格式为json格式
+  5. translate：待转义的字段，格式为json格式![](/assets/table3.png)
   6. idtype：id列形式（单选框 radio、复选框 checkbox），默认复选框。
   7. operate：是否显示操作列，true 显示，false 不显示
   8. btn【1.1】：显示的按钮，目前有5个固定的常用按钮：
@@ -105,9 +105,8 @@
 * 表格数据显示例子如下图：  
   ![](/assets/table.png)![](/assets/table2.png)
 * 表格多级表头和合并单元格示例图：
-
+![](/assets/table3.png)
 * 获取表格相关数据
-
 * ```js
   getTable(tableId);//获取表格对象
 
