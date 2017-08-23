@@ -37,7 +37,7 @@
     size="3" 
     select_item="栏目1,栏目2"/>
 ```
-#### search\_select标签sql 示例:
+#### search\_select标签sql示例:
 
 
 #### search\_select标签显示效果图 :
