@@ -30,7 +30,7 @@
 #### select_input标签的引入方式 :
 
 ```
-    <@input label="邮编:,true,2" id="name" name="name"   size="4"  select_item="栏目1,栏目2"/>
+    <@select_input label="邮编:,true,2" id="name" name="name"   size="4"  select_item="栏目1,栏目2"/>
 
    
 ```
