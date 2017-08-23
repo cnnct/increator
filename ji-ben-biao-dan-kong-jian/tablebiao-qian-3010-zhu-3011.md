@@ -34,14 +34,14 @@
 * ```html
   <@table url="${base}/oper/query"
                  thead=[
-            	[
-	            	{"name":"编号"},
-	            	{"name":"名称"},
-	            	{"name":"机构"},
-	            	{"name":"状态"},
-	            	{"name":"级别"}
-            	]
-            ]
+                	[
+    	            	{"name":"编号"},
+    	            	{"name":"名称"},
+    	            	{"name":"机构"},
+    	            	{"name":"状态"},
+    	            	{"name":"级别"}
+                	]
+                ]
                 fields="id,oper_id,oper_name,org_name,brch_name,oper_state,oper_level"
                 translate={"oper_state":"STATE", "oper_level":"OPER_LEVEL"}
                 idtype="radio"
