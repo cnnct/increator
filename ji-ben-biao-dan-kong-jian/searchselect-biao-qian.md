@@ -22,7 +22,7 @@
 > >
 > > **size ：** size为尺寸标签,可以填的数值范围为（1-12）,如size="6",search\_input标签的默认size为5
 
->> **select_item ：**select的option选项
+>> **select_item ：**select的option选项，对应sql_key对应的语句
 
 #### search\_select标签的引入方式示例 :
 
