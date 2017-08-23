@@ -27,7 +27,7 @@
 >>  **select\_item ：**select的option选项
 
 
-#### input标签的引入方式 :
+#### select_input标签的引入方式 :
 
 ```
     <@input label="邮编:,true,2" id="name" name="name"  type="text" size="4"  />
@@ -35,7 +35,7 @@
     <@input label="邮件:,true,2" id="email" name="email"  type="email" size="4" />
 ```
 
-#### input标签的显示结果:
+#### select_input标签的显示结果:
 
 
 
