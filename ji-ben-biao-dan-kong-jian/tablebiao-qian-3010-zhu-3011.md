@@ -71,9 +71,9 @@
                 sort=["oper_id", "oper_name"]
                 img_fields={"img_wrap":"img"}
                 id="mytable"
-                 merge_cells=[
-                	{"coordinate":"3,1","rowspan":"6","colspan":"2"},
-                	{"coordinate":"4,7","rowspan":"3"}
+                merge_cells=[
+                	{"coordinate":"3,0","rowspan":"10"},
+                	{"coordinate":"4,0","rowspan":"10"}
                 ]
                 />
   <!-- 所有提交的url地址的前缀都要加上 ${base}
