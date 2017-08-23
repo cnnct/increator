@@ -26,7 +26,15 @@
 #### search\_select标签的引入方式 :
 
 ```
-<@search_input id="searchOrgName" name="searchOrgName_name" sql_key="org_name1" show_item="org_id,org_name" show_value="org_name" hidden_value="org_id" size="3" select_item="栏目1,栏目2"/>
+<@search_input 
+    id="searchOrgName" 
+    name="searchOrgName_name" 
+    sql_key="org_name1" 
+    show_item="org_id,org_name" 
+    show_value="org_name" 
+    hidden_value="org_id" 
+    size="3" 
+    select_item="栏目1,栏目2"/>
 ```
 
 #### search\_select标签显示效果图 :
