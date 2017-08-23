@@ -34,6 +34,11 @@
 * ```html
   <@table url="${base}/oper/query"
                  thead=[
+                     [
+                		{"name":"一级标题"},
+    	            	{"name":"二级标题","colspan":"2"},
+    	            	{"name":"三级标题","colspan":"2"}
+                	],
                 	[
     	            	{"name":"编号"},
     	            	{"name":"名称"},
