@@ -23,6 +23,9 @@
 > > **value  ：** value属性
 > >
 > > **readonly ：** readonly为只读属性,可以填写的数值为"true","false",默认为false
+> >
+>>> > **select\_item ：**select的option选项，对应sql\_key对应的语句
+
 
 #### input标签的引入方式 :
 
