@@ -44,7 +44,7 @@
 
 ![](/assets/button.png)
 
-#### button图标使用
+#### button图标使用，icon="xxxxxx"
 
 [http://v3.bootcss.com/components/](http://v3.bootcss.com/components/)
 
