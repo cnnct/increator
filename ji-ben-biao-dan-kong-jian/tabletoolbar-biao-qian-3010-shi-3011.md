@@ -11,7 +11,7 @@
 >> * table_toolbar属性:
 
 >>   name: name属性
->>   size【1.2】: size属性
+>>   size【1.2】: size属性，在【1.2】版本后加入size属性
 
 
 
