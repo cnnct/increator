@@ -10,7 +10,7 @@
 > >
 > > **name ：** name属性
 > >
-> > \***sql\_key：** SQL语句对应的key , 比如：select org\_id,org\_name from bs\_pay\_org;select org\_id,org\_name from bs\_pay\_org where state is not null
+> > \***sql\_key：** SQL语句对应的key , 前一句查询所有记录 , 后一句查询已选择记录 , 比如：select org\_id,org\_name from bs\_pay\_org;select org\_id,org\_name from bs\_pay\_org where state is not null
 > >
 > > \***show\_field：** 选项显示的名称
 > >
