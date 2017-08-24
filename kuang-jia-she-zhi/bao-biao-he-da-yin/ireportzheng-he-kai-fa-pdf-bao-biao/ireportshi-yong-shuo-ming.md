@@ -9,7 +9,7 @@
 >
 > 样式表主要用来对text控件、field控件设置样式，如边框表格线、字体、字体大小，位置等，也可以根据这个规则创建自己个性化的样式，但这原始的样式保留不要删除。
 >
-> No\_Left、No\_Left\_Top，主要用于表格线处理，用在不同的单元格上，重点注意！！！！！
+> No\_Left、No\_Left\_Top，主要用于表格线处理，用在不同位置的单元格上，重点注意！！！！！
 >
 > ![](file:///C:\Users\Administrator.USER-20170419MQ\AppData\Roaming\Tencent\Users\12452964\QQ\WinTemp\RichOle\29O6[MJJ`M30L2@~@%28~YIO7.png)
 
