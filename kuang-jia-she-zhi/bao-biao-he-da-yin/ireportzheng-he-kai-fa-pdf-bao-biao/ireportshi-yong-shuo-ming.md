@@ -7,7 +7,7 @@
 
 > ##### 样式表使用style，详见下图
 >
->
+> 样式表主要用来对text控件、field控件设置样式，如边框、字体、字体大小，位置等
 >
 > ![](file:///C:\Users\Administrator.USER-20170419MQ\AppData\Roaming\Tencent\Users\12452964\QQ\WinTemp\RichOle\29O6[MJJ`M30L2@~@%28~YIO7.png)
 
