@@ -19,7 +19,7 @@
 > </@table_toolbar>
 > ```
 
->
+> 效果如下图所示![](/assets/report01.png)
 
 * #### 
 * #### ctrl代码实现
