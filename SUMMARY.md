@@ -53,6 +53,7 @@
   * [http接口服务使用配置【1.1】](kuang-jia-she-zhi/httpjie-kou-fu-wu-shi-yong-pei-zhi.md)
   * [spring定时任务的使用](kuang-jia-she-zhi/springding-shi-ren-wu-de-shi-yong.md)
   * [报表和打印](kuang-jia-she-zhi/bao-biao-he-da-yin.md)
+    * [ireport整合开发pdf报表](kuang-jia-she-zhi/bao-biao-he-da-yin/ireportzheng-he-kai-fa-pdf-bao-biao.md)
 * [开发规范](kai-fa-gui-fan.md)
   * [开发环境](kai-fa-huan-jing.md)
   * [基本编码规范](kai-fa-gui-fan/ji-ben-bian-ma-gui-fan.md)
