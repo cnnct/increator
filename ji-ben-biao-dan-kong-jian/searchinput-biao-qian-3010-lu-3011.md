@@ -10,7 +10,7 @@
 > >
 > > **name ：** name属性
 > >
-> > \***sql\_key：** SQL语句对应的key
+> > \***sql\_key：** SQL语句对应的key , 比如：select org_id,org_name from bs_pay_org where 1=1 and org_id like ? or org_name like ?
 > >
 > > \***show\_item：** 显示的内容
 > >
