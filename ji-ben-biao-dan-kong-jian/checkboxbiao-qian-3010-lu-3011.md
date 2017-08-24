@@ -14,7 +14,7 @@
 > >
 > > **readonly：** 是否可选
 > >
-> > \***sql\_key：** SQL语句对应的key
+> > \***sql\_key：** SQL语句对应的key , 比如：select city\_id,city\_name from bs\_city where city\_type='4' and city\_id not in \('331081002000','331081103000'\) 
 > >
 > > \***show\_field：** 显示名对应的字段
 > >
