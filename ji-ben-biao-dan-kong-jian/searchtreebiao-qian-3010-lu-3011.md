@@ -14,7 +14,7 @@
 > >
 > > **checkbox\_have：** 是否为复选框,默认单选
 > >
-> > \***sql\_key：** SQL语句对应的key
+> > \***sql\_key：** SQL语句对应的key , 比如：select func\_id as id,parent\_id as pId,title as name,\(case when title='角色新增' then 'true' else 'false' end\) as checked from sys\_func 
 > >
 > > **label：** label标签
 > >
