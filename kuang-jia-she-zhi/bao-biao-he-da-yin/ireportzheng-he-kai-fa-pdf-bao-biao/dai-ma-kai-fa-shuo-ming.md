@@ -6,7 +6,20 @@
 
 以下以网点报表为例
 
-页面代码实现
+* #### 页面代码实现
 
-ctrl代码实现
+> 根据业务需要增加打印按钮，注意按钮图标使用
+>
+> ```
+> <@table_toolbar name="查询结果" size="8" >
+>     <@button  value="新增" data_target="modal_add" icon="plus"/>
+>     <@button  value="批量激活" onclick="activeAndCancel('active','mytable')" icon="ok-sign"/>
+>     <@button  value="批量注销" onclick="activeAndCancel('cancel','mytable')" icon="remove-sign"/>
+>     <@button  value="打印" onclick="showReport()" icon="print"/>
+> </@table_toolbar>
+> ```
+
+* #### ctrl代码实现
+
+
 
