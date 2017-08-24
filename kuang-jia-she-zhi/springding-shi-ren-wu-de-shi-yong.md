@@ -3,17 +3,17 @@
 #### xml文件配置示例：
 
 ```
-&lt;!-- 加载spring定时任务扫描注解驱动,并设置线程池数量,这两个线程池数量\(pool-size\)最好&gt;=定时任务数量 --&gt;
+<!-- 加载spring定时任务扫描注解驱动,并设置线程池数量,这两个线程池数量\(pool-size\)最好>=定时任务数量 -->
 
-&lt;task:annotation-driven executor="myExecutor" scheduler="myScheduler"/&gt;
+<task:annotation-driven executor="myExecutor" scheduler="myScheduler"/>
 
-&lt;task:executor id="myExecutor" pool-size="2"/&gt;
+<task:executor id="myExecutor" pool-size="2"/>
 
-&lt;task:scheduler id="myScheduler" pool-size="2"/&gt;
+<task:scheduler id="myScheduler" pool-size="2"/>
 
-&lt;!-- 指定spring定时任务类所在包 --&gt;
+<!-- 指定spring定时任务类所在包 -->
 
-&lt;context:component-scan base-package="com.cnnct.task"/&gt;
+<context:component-scan base-package="com.cnnct.task"/>
 ```
 
 #### 定时任务类示例：
