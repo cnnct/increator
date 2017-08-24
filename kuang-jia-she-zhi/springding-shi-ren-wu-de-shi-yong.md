@@ -27,9 +27,9 @@ public class TestTask {
 *  定时任务demo,每隔5秒执行一次
 */
 
-    @Scheduled\(cron = "0/5 \* \* \* \* ?"\)
+    @Scheduled(cron = "0/5 * * * * ?")
 
-    public void execute\(\) {
+    public void execute() {
 
         // do something
 
