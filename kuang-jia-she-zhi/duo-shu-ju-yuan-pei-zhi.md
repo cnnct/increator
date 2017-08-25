@@ -135,7 +135,7 @@ suffix=oracle
 
 
 <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
-<property name="dataSource2" ref="dataSource"></property>
+<property name="dataSource" ref="dataSource2"></property>
 </bean>
 
 
