@@ -22,7 +22,7 @@ jdbc.password2=123456
 
 suffix=oracle
 
-\#\#\#\# 2.applicationContext-dao.xml文件配置，有几个数据源就配置几个DruidDataSource、SqlSessionFactoryBean、MapperScannerConfigurer，示例如下：
+#### 2.applicationContext-dao.xml文件配置，有几个数据源就配置几个DruidDataSource、SqlSessionFactoryBean、MapperScannerConfigurer，示例如下：
 
 \\(1\\)DataSource，多个DataSource配置时只需将id、driverClassName、url、username、password修改即可。
 
@@ -182,7 +182,7 @@ suffix=oracle
 
 &lt;/bean&gt;
 
-\#\#\#\# 3.如果需要用到事务，还需配置applicationContext-transation.xml文件，有几个数据源就配置几个DataSourceTransactionManager、txAdvice、aop:config，示例如下：
+#### 3.如果需要用到事务，还需配置applicationContext-transation.xml文件，有几个数据源就配置几个DataSourceTransactionManager、txAdvice、aop:config，示例如下：
 
 \\(1\\)DataSourceTransactionManager
 
@@ -242,9 +242,9 @@ suffix=oracle
 
 &lt;/aop:config&gt;
 
-\#\#\#\# 二、多数据源逆向工程
+#### 二、多数据源逆向工程
 
-\#\#\#\# 1.generatorConfig.xml文件配置，有几个数据源就配置几个DruidDataSource、SqlSessionFactoryBean、MapperScannerConfigurer，示例如下：
+#### 1.generatorConfig.xml文件配置，有几个数据源就配置几个DruidDataSource、SqlSessionFactoryBean、MapperScannerConfigurer，示例如下：
 
 \#\#\#\# 注：每次使用逆向工程为一个数据源生成文件后，就修改一下driverClass、connectionURL、userId、password以及3个targetPackage的值，然后再执行逆向工程程序。
 
