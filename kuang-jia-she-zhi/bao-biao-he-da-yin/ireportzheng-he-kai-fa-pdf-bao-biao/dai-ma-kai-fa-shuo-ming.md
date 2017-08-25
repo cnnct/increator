@@ -10,15 +10,21 @@
 
 * #### 页面代码实现
 
-> 根据业务需要增加打印按钮，注意按钮图标使用：icon="print"
+> 根据业务需要增加打印按钮，注意按钮图标使用：icon="print"，
+>
+> 增加相的弹出iframe窗口，注意参数report\_window="true"
 >
 > ```
 > <@table_toolbar name="查询结果" size="8" >
 >     <@button  value="新增" data_target="modal_add" icon="plus"/>
 >     <@button  value="批量激活" onclick="activeAndCancel('active','mytable')" icon="ok-sign"/>
 >     <@button  value="批量注销" onclick="activeAndCancel('cancel','mytable')" icon="remove-sign"/>
+>     <@button  value="打印" onclick="showReport()" icon="print"/>
 >     <@modal_iframe id="modal_print" report_window="true" modal_title="打印" class="modal-lg"/>
 > </@table_toolbar>
+>
+> <@modal_iframe id="modal_print" report_window="true" modal_title="打印" class="modal-lg"/>
+>
 > ```
 >
 > 其中showRepor方法的代码如下所示，目的就是为会收集当前列表的查询参数，传递到ctrl中进行组装查询结果集
