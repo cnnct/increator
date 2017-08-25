@@ -93,8 +93,7 @@ suffix=oracle
 <property name="mapperLocations">
 <list>
 <value>classpath:com.cnnct.mapperoracle
-/*MapperOracle
-.xml</value>
+/*MapperOracle.xml</value>
 </list>
 </property>
 </bean>
