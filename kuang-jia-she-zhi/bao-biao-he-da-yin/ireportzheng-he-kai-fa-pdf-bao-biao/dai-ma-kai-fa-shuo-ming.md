@@ -17,7 +17,7 @@
 >     <@button  value="新增" data_target="modal_add" icon="plus"/>
 >     <@button  value="批量激活" onclick="activeAndCancel('active','mytable')" icon="ok-sign"/>
 >     <@button  value="批量注销" onclick="activeAndCancel('cancel','mytable')" icon="remove-sign"/>
->     <@button  value="打印" onclick="showReport()" icon="print"/>
+>     <@modal_iframe id="modal_print" report_window="true" modal_title="打印" class="modal-lg"/>
 > </@table_toolbar>
 > ```
 >
