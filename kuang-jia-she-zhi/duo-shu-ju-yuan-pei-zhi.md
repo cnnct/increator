@@ -12,6 +12,8 @@ jdbc.username=root
 
 jdbc.password=123456
 
+
+
 jdbc.driver2=oracle.jdbc.driver.OracleDriver
 
 jdbc.url2=jdbc:oracle:thin:@localhost:1521:manageplat
