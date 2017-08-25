@@ -121,3 +121,8 @@ suffix=oracle
 <!-- 使用sqlSessionFactoryBeanName -->
 <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory2"/>
 </bean>
+
+
+
+#### 3.applicationContext-dao.xml文件配置，有几个数据源就配置几个DruidDataSource、SqlSessionFactoryBean、MapperScannerConfigurer，示例如下：
+
