@@ -76,7 +76,7 @@ suffix=oracle
 
 
 
-(2)sqlSessionFactory，多个sqlSessionFactory配置时只需将id、dataSource、mapperLocations修改即可，其中mapperLocations的value是将xml文件以及所在目录加了后缀suffix后生成的，第一个数据源目录是mapper、xml文件名类似*Mapper.xml，加了后缀suffix后，变成了mapperoracle、*MapperOralce.xml,由于xml文件名对应了java接口名，所有逆向工程生成时用了驼峰命名。
+(2)SqlSessionFactory，多个SqlSessionFactory配置时只需将id、dataSource、mapperLocations修改即可，其中mapperLocations的value是将xml文件以及所在目录加了后缀suffix后生成的，第一个数据源目录是mapper、xml文件名类似*Mapper.xml，加了后缀suffix后，变成了mapperoracle、*MapperOralce.xml,由于xml文件名对应了java接口名，所有逆向工程生成时用了驼峰命名。
 
 <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
 <property name="dataSource" ref="dataSource"></property>
@@ -104,7 +104,7 @@ suffix=oracle
 
 
 
-(3)sqlSessionFactory，多个sqlSessionFactory配置时只需将id、dataSource、mapperLocations修改即可，其中mapperLocations的value是将xml文件以及所在目录加了后缀suffix后生成的，第一个数据源目录是mapper、xml文件名类似*Mapper.xml，加了后缀suffix后，变成了mapperoracle、*MapperOralce.xml,由于xml文件名对应了java接口名，所有逆向工程生成时用了驼峰命名。
+(3)MapperScannerConfigurer，多个sqlSessionFactory配置时只需将id、dataSource、mapperLocations修改即可，其中mapperLocations的value是将xml文件以及所在目录加了后缀suffix后生成的，第一个数据源目录是mapper、xml文件名类似*Mapper.xml，加了后缀suffix后，变成了mapperoracle、*MapperOralce.xml,由于xml文件名对应了java接口名，所有逆向工程生成时用了驼峰命名。
 
 <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
 <!-- 配置扫描包的路径，如果要扫描多个包，中间使用半角逗号分隔，要求mapper.xml和mapper.java同名且在同一个目录-->
