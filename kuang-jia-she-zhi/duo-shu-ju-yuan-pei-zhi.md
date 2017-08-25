@@ -1,5 +1,6 @@
 # 多数据源的使用
 
+#### 一、多数据源配置
 #### 1.db.properties文件配置，有几个数据源就配置几个driver、url、username、password，并配置suffix，此suffix用于逆向工程生成包和文件时使用。示例如下：
 
 jdbc.driver=com.mysql.jdbc.Driver
@@ -176,5 +177,6 @@ suffix=oracle
 
 
 
+#### 二、多数据源逆向工程
 #### 4.generatorConfig.xml文件配置，有几个数据源就配置几个DruidDataSource、SqlSessionFactoryBean、MapperScannerConfigurer，示例如下：
 
