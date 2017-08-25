@@ -22,7 +22,7 @@ jdbc.password2=123456
 
 suffix=oracle
 
-\#\#\#\#  2.applicationContext-dao.xml文件配置，有几个数据源就配置几个DruidDataSource、SqlSessionFactoryBean、MapperScannerConfigurer，示例如下：
+#### 2.applicationContext-dao.xml文件配置，有几个数据源就配置几个DruidDataSource、SqlSessionFactoryBean、MapperScannerConfigurer，示例如下：
 
 \(1\)DataSource，多个DataSource配置时只需将id、driverClassName、url、username、password修改即可。
 
