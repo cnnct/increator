@@ -244,5 +244,7 @@ suffix=oracle
 
 #### 二、多数据源逆向工程
 
-\#\#\#\#  1.generatorConfig.xml文件配置，有几个数据源就配置几个DruidDataSource、SqlSessionFactoryBean、MapperScannerConfigurer，示例如下：
+#### 1.generatorConfig.xml文件配置，有几个数据源就配置几个DruidDataSource、SqlSessionFactoryBean、MapperScannerConfigurer，示例如下：
+
+
 
