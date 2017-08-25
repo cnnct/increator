@@ -250,9 +250,8 @@ suffix=oracle
 
 #### 注：每次使用逆向工程为一个数据源生成文件后，就修改一下driverClass、connectionURL、userId、password以及3个targetPackage的值，然后再执行逆向工程程序。
 
-&lt;generatorConfiguration&gt;
+<generatorConfiguration>
 
-```
 <properties resource="config/parameter/db.properties"/&gt;
 
 &lt;context id="testTables" targetRuntime="MyBatis3" defaultModelType="flat"&gt;
@@ -428,7 +427,7 @@ suffix=oracle
 
 
 &lt;/context&gt;
-```
+
 
 &lt;/generatorConfiguration&gt;
 
