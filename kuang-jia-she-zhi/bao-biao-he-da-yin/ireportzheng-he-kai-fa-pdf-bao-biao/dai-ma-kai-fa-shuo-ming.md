@@ -28,7 +28,11 @@
 > <@modal_iframe id="modal_print" report_window="true" modal_title="打印" class="modal-lg"/>
 >
 > <!--脚本区域-->
->
+> function showReport() {
+>  	var data=getTableSearchData();//需要用于表格查询的数据
+>  	$("#modal_print_iframe").attr("src", base+"/sys/auth/brch/showReport?data="+data);
+>     $("#modal_print").modal("show");
+> }
 > ```
 
 
