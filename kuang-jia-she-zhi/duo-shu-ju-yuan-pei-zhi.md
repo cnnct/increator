@@ -246,5 +246,185 @@ suffix=oracle
 
 #### 1.generatorConfig.xml文件配置，有几个数据源就配置几个DruidDataSource、SqlSessionFactoryBean、MapperScannerConfigurer，示例如下：
 
+#### 注：每次使用逆向工程为一个数据源生成文件后，就修改一下driverClass、connectionURL、userId、password以及
 
+&lt;generatorConfiguration&gt;
+
+	&lt;properties resource="config/parameter/db.properties"/&gt;
+
+	&lt;context id="testTables" targetRuntime="MyBatis3" defaultModelType="flat"&gt;
+
+	    &lt;!-- 生成PO类时序列化 --&gt;
+
+	    &lt;plugin type="org.mybatis.generator.plugins.SerializablePlugin" /&gt;
+
+		&lt;commentGenerator&gt;
+
+			&lt;!-- 是否去除自动生成的注释 true：是 ： false:否 --&gt;
+
+			&lt;property name="suppressAllComments" value="true" /&gt;
+
+		&lt;/commentGenerator&gt;
+
+		&lt;!--数据库连接的信息：驱动类、连接地址、用户名、密码 --&gt;
+
+		&lt;jdbcConnection driverClass="${jdbc.driver}"
+
+			connectionURL="${jdbc.url}" userId="${jdbc.username}"
+
+			password="${jdbc.password}"&gt;
+
+		&lt;/jdbcConnection&gt;
+
+
+
+		&lt;!-- 默认false，把JDBC DECIMAL 和 NUMERIC 类型解析为 Integer，为 true时把JDBC DECIMAL 和
+
+			NUMERIC 类型解析为java.math.BigDecimal --&gt;
+
+		&lt;javaTypeResolver&gt;
+
+			&lt;property name="forceBigDecimals" value="false" /&gt;
+
+		&lt;/javaTypeResolver&gt;
+
+
+
+		&lt;!-- targetProject:生成PO类的位置 --&gt;
+
+		&lt;javaModelGenerator targetPackage="com.cnnct.po"
+
+			targetProject=".\src"&gt;
+
+			&lt;!-- enableSubPackages:是否让schema作为包的后缀 --&gt;
+
+			&lt;property name="enableSubPackages" value="false" /&gt;
+
+			&lt;!-- 从数据库返回的值被清理前后的空格 --&gt;
+
+			&lt;property name="trimStrings" value="true" /&gt;
+
+		&lt;/javaModelGenerator&gt;
+
+        &lt;!-- targetProject:mapper映射文件生成的位置 --&gt;
+
+		&lt;sqlMapGenerator targetPackage="com.cnnct.mapper"
+
+			targetProject=".\src"&gt;
+
+			&lt;!-- enableSubPackages:是否让schema作为包的后缀 --&gt;
+
+			&lt;property name="enableSubPackages" value="false" /&gt;
+
+		&lt;/sqlMapGenerator&gt;
+
+		&lt;!-- targetPackage：mapper接口生成的位置 --&gt;
+
+		&lt;javaClientGenerator type="XMLMAPPER"
+
+			targetPackage="com.cnnct.mapper"
+
+			targetProject=".\src"&gt;
+
+			&lt;!-- enableSubPackages:是否让schema作为包的后缀 --&gt;
+
+			&lt;property name="enableSubPackages" value="false" /&gt;
+
+		&lt;/javaClientGenerator&gt;
+
+ 		&lt;!-- 
+
+ 		&lt;table tableName="bs\_city" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"&gt;&lt;/table&gt;
+
+ 		&lt;table tableName="bs\_pay\_org" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"&gt;&lt;/table&gt;
+
+ 		
+
+ 		&lt;table tableName="sys\_action\_log" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"&gt;
+
+             &lt;columnOverride column="message" javaType="java.lang.String" jdbcType="VARCHAR"/&gt;
+
+             &lt;columnOverride column="in\_data" javaType="java.lang.String" jdbcType="VARCHAR"/&gt;
+
+             &lt;columnOverride column="out\_data" javaType="java.lang.String" jdbcType="VARCHAR"/&gt;
+
+ 		&lt;/table&gt;
+
+ 		&lt;table tableName="sys\_branch" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"&gt;&lt;/table&gt;
+
+ 		&lt;table tableName="sys\_code" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"&gt;&lt;/table&gt;
+
+ 		&lt;table tableName="sys\_code\_err" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"&gt;&lt;/table&gt;
+
+ 		&lt;table tableName="sys\_code\_err\_channel" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"&gt;&lt;/table&gt;
+
+ 		&lt;table tableName="sys\_code\_err\_mapping" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"&gt;&lt;/table&gt;
+
+ 		&lt;table tableName="sys\_code\_mapping" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"&gt;&lt;/table&gt;
+
+ 		&lt;table tableName="sys\_code\_tr" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"&gt;&lt;/table&gt;
+
+ 		&lt;table tableName="sys\_err\_log" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"&gt;&lt;/table&gt;
+
+ 		&lt;table tableName="sys\_func" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"&gt;
+
+ 			&lt;columnOverride column="url" javaType="java.lang.String" jdbcType="VARCHAR"/&gt;
+
+ 			&lt;columnOverride column="note" javaType="java.lang.String" jdbcType="VARCHAR"/&gt;
+
+ 		&lt;/table&gt;
+
+ 		&lt;table tableName="sys\_interface\_log" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"&gt;
+
+ 			&lt;columnOverride column="in\_para" javaType="java.lang.String" jdbcType="VARCHAR"/&gt;
+
+ 			&lt;columnOverride column="out\_para" javaType="java.lang.String" jdbcType="VARCHAR"/&gt;
+
+ 			&lt;columnOverride column="err\_msg" javaType="java.lang.String" jdbcType="VARCHAR"/&gt;
+
+ 		&lt;/table&gt;
+
+ 		&lt;table tableName="sys\_interface\_reqcode" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"&gt;&lt;/table&gt;
+
+ 		&lt;table tableName="sys\_login\_log" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"&gt;&lt;/table&gt;
+
+ 		&lt;table tableName="sys\_note" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"&gt;&lt;/table&gt;
+
+ 		&lt;table tableName="sys\_notice\_tpl" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"&gt;&lt;/table&gt;
+
+ 		&lt;table tableName="sys\_notice\_tpl\_field" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"&gt;&lt;/table&gt;
+
+ 		&lt;table tableName="sys\_oper\_role" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"&gt;&lt;/table&gt;
+
+ 		&lt;table tableName="sys\_operator" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"&gt;&lt;/table&gt;
+
+ 		&lt;table tableName="sys\_organ" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"&gt;&lt;/table&gt;
+
+ 		&lt;table tableName="sys\_para" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"&gt;&lt;/table&gt;
+
+ 		&lt;table tableName="sys\_report" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"&gt;&lt;/table&gt;
+
+ 		&lt;table tableName="sys\_role" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"&gt;&lt;/table&gt;
+
+ 		&lt;table tableName="sys\_role\_func" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"&gt;&lt;/table&gt;
+
+ 		&lt;table tableName="sys\_sms\_contact" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"&gt;&lt;/table&gt;
+
+ 		&lt;table tableName="sys\_task\_log" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"&gt;&lt;/table&gt;
+
+ 		&lt;table tableName="sys\_attachment" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"&gt;&lt;/table&gt;
+
+	--&gt;
+
+&lt;!-- 	&lt;table tableName="tr\_order\_state\_chinese" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"&gt;&lt;/table&gt; --&gt;
+
+	
+
+	&lt;table tableName="sys\_operator" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"&gt;&lt;/table&gt;
+
+	
+
+	&lt;/context&gt;
+
+&lt;/generatorConfiguration&gt;
 
