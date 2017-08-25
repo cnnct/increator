@@ -12,6 +12,8 @@
 
 > 根据业务需要增加打印按钮，注意按钮图标使用：icon="print"
 >
+> 增加报表页的iframe，注意属性：report\_window="true"
+>
 > ```
 > <@table_toolbar name="查询结果" size="8" >
 >     <@button  value="新增" data_target="modal_add" icon="plus"/>
@@ -32,7 +34,7 @@
 > 其中showRepor方法的代码如下所示，目的就是为会收集当前列表的查询参数，传递到ctrl中进行组装查询结果集
 >
 > ```
-> ddfsf
+>
 > ```
 >
 > 效果如下图所示![](/assets/report_02.png)
