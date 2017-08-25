@@ -12,7 +12,7 @@
 
 > 根据业务需要增加打印按钮，注意按钮图标使用：icon="print"，
 >
-> 增加相的弹出iframe窗口，注意参数report\_window="true"
+> 增加相的弹出iframe窗口，注意参数：report\_window="true"
 >
 > 增加调用打印方法的脚本，注意获取页面参数方法的使用：var data=getTableSearchData\(\)
 >
