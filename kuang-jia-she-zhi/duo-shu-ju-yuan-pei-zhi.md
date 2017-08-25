@@ -417,7 +417,7 @@ suffix=oracle
      &lt;table tableName="sys\_attachment" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"&gt;&lt;/table&gt;
 
 --&gt;
-```
+
 
 &lt;!--     &lt;table tableName="tr\_order\_state\_chinese" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"&gt;&lt;/table&gt; --&gt;
 
