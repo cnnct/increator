@@ -19,6 +19,11 @@
 >     <@button  value="批量注销" onclick="activeAndCancel('cancel','mytable')" icon="remove-sign"/>
 >     <@button  value="打印" onclick="showReport()" icon="print"/>
 > </@table_toolbar>
+>
+> <!-- ===================== 打印框 ===================== -->
+> <@modal_iframe id="modal_print" report_window="true" modal_title="打印" class="modal-lg"/>
+>
+>
 > ```
 >
 > 其中showRepor方法的代码如下所示，目的就是为会收集当前列表的查询参数，传递到ctrl中进行组装查询结果集
