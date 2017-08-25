@@ -160,6 +160,14 @@ suffix=oracle
 
 
 
+(3)aop:config
+
+<aop:config expose-proxy="true">
+<!-- 切入包下面的所有类的所有方法 不管返回值是什么，不管输入参数是什么 -->
+<aop:advisor advice-ref="txAdvice" pointcut="execution(* com.cnnct..*ServImpl.*(..))"/>
+</aop:config>
+
+
 
 #### 4.generatorConfig.xml文件配置，有几个数据源就配置几个DruidDataSource、SqlSessionFactoryBean、MapperScannerConfigurer，示例如下：
 
