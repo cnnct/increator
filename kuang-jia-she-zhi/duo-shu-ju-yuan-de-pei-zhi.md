@@ -100,29 +100,31 @@ suffix=oracle
 
 ```
 <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-	<!-- 配置扫描包的路径，如果要扫描多个包，中间使用半角逗号分隔，要求mapper.xml和mapper.java同名且在同一个目录-->
-	<property name="basePackage" value="com.cnnct.mapper"/>
-	<!-- 使用sqlSessionFactoryBeanName -->
-	<property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
+    <!-- 配置扫描包的路径，如果要扫描多个包，中间使用半角逗号分隔，要求mapper.xml和mapper.java同名且在同一个目录-->
+    <property name="basePackage" value="com.cnnct.mapper"/>
+    <!-- 使用sqlSessionFactoryBeanName -->
+    <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
 </bean>
 
 <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-	<!-- 配置扫描包的路径，如果要扫描多个包，中间使用半角逗号分隔，要求mapper.xml和mapper.java同名且在同一个目录-->
-	<property name="basePackage" value="com.cnnct.mapperoracle"/>
-	<!-- 使用sqlSessionFactoryBeanName -->
-	<property name="sqlSessionFactoryBeanName" value="sqlSessionFactory2"/>
+    <!-- 配置扫描包的路径，如果要扫描多个包，中间使用半角逗号分隔，要求mapper.xml和mapper.java同名且在同一个目录-->
+    <property name="basePackage" value="com.cnnct.mapperoracle"/>
+    <!-- 使用sqlSessionFactoryBeanName -->
+    <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory2"/>
 </bean>
 ```
 
 #### 3.如果需要用到事务，还需配置applicationContext-transation.xml文件，有几个数据源就配置几个DataSourceTransactionManager、txAdvice、aop:config，示例如下：
 
+\(1\)DataSourceTransactionManager
+
 ```
-(1)DataSourceTransactionManager
 <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
-<property name="dataSource" ref="dataSource"></property>
+	property name="dataSource" ref="dataSource"></property>
 </bean>
-<bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
-<property name="dataSource" ref="dataSource2"></property>
+
+<bean id="transactionManager2" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+	<property name="dataSource" ref="dataSource2"></property>
 </bean>
 ```
 
@@ -130,16 +132,17 @@ suffix=oracle
 
 ```
 <tx:advice id="txAdvice" transaction-manager="transactionManager">
-<tx:attributes>
-<tx:method name="*" propagation="REQUIRED"/>
-<tx:method name="notran*" propagation="NOT_SUPPORTED" />
-</tx:attributes>
+	<tx:attributes>
+		<tx:method name="*" propagation="REQUIRED"/>
+		<tx:method name="notran*" propagation="NOT_SUPPORTED" />
+	</tx:attributes>
 </tx:advice>
+
 <tx:advice id="txAdvice2" transaction-manager="transactionManager2">
-<tx:attributes>
-<tx:method name="*" propagation="REQUIRED"/>
-<tx:method name="notran*" propagation="NOT_SUPPORTED" />
-</tx:attributes>
+	<tx:attributes>
+		<tx:method name="*" propagation="REQUIRED"/>
+		<tx:method name="notran*" propagation="NOT_SUPPORTED" />
+	</tx:attributes>
 </tx:advice>
 ```
 
