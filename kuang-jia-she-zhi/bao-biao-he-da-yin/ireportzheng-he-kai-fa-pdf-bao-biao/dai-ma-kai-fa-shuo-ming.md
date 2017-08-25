@@ -39,6 +39,10 @@
 
 > 1、改造原来的列表查询方法，重点注意getPageMap方法与其它不需要报表的方法有所不同
 >
+> 2、增加报表显示的方法代码，大体步骤
+>
+> > ①
+>
 > ```
 >     /**
 >      * 获取部门信息列表
@@ -65,6 +69,31 @@
 >     }
 >     
 >     
+>     /**
+>      * 测试报表用
+>      * @param request
+>      * @return
+>      * @throws Exception
+>      */
+> 	@RequestMapping("/showReport")
+> 	public String showReport(HttpServletRequest request, Model model) throws Exception {
+> 		// 动态指定报表模板url
+> 		model.addAttribute("url", "demo/brch_list.jasper");
+> //		model.addAttribute("format", "pdf"); // 若不设置此属性，则默认pdf,报表格式,html,xls,pdf，pdf效果最好
+> 		
+> 		//数据源查询条件，可从缓存中获取，也可重新赋值
+> 		Map reportMap=super.getTableSearchData("/sys/auth/brch/query");
+> 		//数据源
+> 		model.addAttribute("jrMainDataSource", brchServ.getBrchList(reportMap));
+> 		
+> 		//其它参数
+> 		reportMap.put("p_Title", "我是网点报表");
+> 		reportMap.put("p_Auditor",super.getOperId());
+> 		reportMap.put("p_Creator",super.getOperId());//从session中取当前操作员
+> 		model.addAllAttributes(reportMap); // 其它参数
+>
+> 		return "reportView"; // 对应jasper-views.xml中的bean id
+> 	}
 > ```
 
 
