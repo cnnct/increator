@@ -10,11 +10,11 @@
 
 * #### 页面代码实现
 
-> 根据业务需要增加打印按钮，注意按钮图标使用：icon="print"
+> 1、根据业务需要增加打印按钮，注意按钮图标使用：icon="print"
 >
-> 增加报表页的iframe，注意属性：report\_window="true"
+> 2、增加报表页的iframe，注意属性：report\_window="true"
 >
-> 增加弹出报表页的脚本，同其它打开窗口页脚本类似
+> 3、增加弹出报表页的脚本，同其它打开窗口页脚本类似
 >
 > ```
 > <@table_toolbar name="查询结果" size="8" >
@@ -37,7 +37,33 @@
 
 * #### ctrl代码实现
 
-> 重点注意getPageMap方法与其它不需要报表的方法有所不同
+> 1、改造原来的列表查询方法，重点注意getPageMap方法与其它不需要报表的方法有所不同
+>
+> ```
+> /**
+>      * 获取部门信息列表
+>      * @param request
+>      * @return
+>      * @throws Exception 
+>      */
+>     @RequestMapping("/query")
+>     @ResponseBody //必须以json格式返回
+>     public ResultData queryBrchInfo(HttpServletRequest request) throws Exception {
+> 		ResultData resultData = new ResultData(Result_Code.SUCCESS);
+> 		// sql条件（用于sql语句中where的筛选条件，若有，则如下写法）
+> 		resultData.put("org_id", getOper().getOrgId());
+> 		//①分页参数
+> 		//②并将参数放入缓存中，供报表使用
+> 		resultData = getPageMap(request,resultData,"/sys/auth/brch/query");
+> 		//获取部门列表		
+> 		List<Map> brchList = brchServ.getBrchList(resultData);
+> 		// 获取总记录数
+> 		Long recordsTotal = brchServ.getBrchCount(resultData);
+> 		// 返回数据，调用此方法
+> 		initPagination(resultData, brchList, recordsTotal);
+> 		return resultData;
+>     }
+> ```
 
 
 
