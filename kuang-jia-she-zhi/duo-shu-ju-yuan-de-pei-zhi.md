@@ -246,7 +246,7 @@ suffix=oracle
 
 #### 1.generatorConfig.xml文件配置，有几个数据源就配置几个DruidDataSource、SqlSessionFactoryBean、MapperScannerConfigurer，示例如下：
 
-#### 注：每次使用逆向工程为一个数据源生成文件后，就修改一下driverClass、connectionURL、userId、password以及3个targetPackage的值，还有&lt;table&gt;的tableName，配置上需要逆向工程生成文件的表，然后再执行逆向工程。
+#### 注：每次使用逆向工程为一个数据源生成文件后，就修改一下driverClass、connectionURL、userId、password以及3个targetPackage的值，还有&lt;table&gt;的tableName，配置上需要逆向工程生成文件的表，然后再执行逆向工程GeneratorSqlmap.java。
 
 &lt;generatorConfiguration&gt;
 
