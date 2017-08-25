@@ -15,7 +15,7 @@ jdbc.password2=123456
 suffix=oracle
 
 #### 2.applicationContext-dao.xml文件配置，有几个数据源就配置几个DruidDataSource、SqlSessionFactoryBean、MapperScannerConfigurer，示例如下：
-(1)数据源，多个数据源配置时只需将driverClassName、url、username、password修改即可。
+(1)dataSource，多个dataSource配置时只需将driverClassName、url、username、password修改即可。
 <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource" init-method="init" destroy-method="close">
 <property name="driverClassName" value="${jdbc.driver}" />         <property name="url" value="${jdbc.url}" />
 <property name="username" value="${jdbc.username}" />
@@ -74,6 +74,7 @@ suffix=oracle
 
 
 
+(1)sqlSessionFactory，
 <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
 <property name="dataSource" ref="dataSource"></property>
 <property name="configLocation" value="classpath:config/mybatis/SqlMapConfig.xml" />
