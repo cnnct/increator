@@ -175,6 +175,8 @@ suffix=oracle
 <aop:advisor advice-ref="txAdvice2" pointcut="execution(* com.cnnct..*ServImpl.*(..))"/>
 </aop:config>
 
+
+
 #### 二、多数据源逆向工程
 #### 4.generatorConfig.xml文件配置，有几个数据源就配置几个DruidDataSource、SqlSessionFactoryBean、MapperScannerConfigurer，示例如下：
 
