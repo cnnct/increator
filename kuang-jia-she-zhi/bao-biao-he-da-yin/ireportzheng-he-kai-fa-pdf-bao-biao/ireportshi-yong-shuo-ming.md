@@ -24,6 +24,8 @@
 > ![](/assets/ireport_04.png)
 >
 > #### 2、编译报表
+>
+> 编译后，会在当前目录下生成同名的.jasper文件![](/assets/ireport_05.png)
 
 
 
