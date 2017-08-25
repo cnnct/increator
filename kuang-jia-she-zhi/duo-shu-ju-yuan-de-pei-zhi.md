@@ -4,23 +4,19 @@
 
 #### 1.db.properties文件配置，有几个数据源就配置几个driver、url、username、password，并配置suffix，此suffix用于逆向工程生成包和文件时使用。示例如下：
 
+```
 jdbc.driver=com.mysql.jdbc.Driver
-
 jdbc.url=jdbc:mysql://172.16.200.200:3306/manageplat?useUnicode=true&characterEncoding=utf-8
-
 jdbc.username=root
-
 jdbc.password=123456
 
 jdbc.driver2=oracle.jdbc.driver.OracleDriver
-
 jdbc.url2=jdbc:oracle:thin:@localhost:1521:manageplat
-
 jdbc.username2=root
-
 jdbc.password2=123456
 
 suffix=oracle
+```
 
 #### 2.applicationContext-dao.xml文件配置，有几个数据源就配置几个DruidDataSource、SqlSessionFactoryBean、MapperScannerConfigurer，示例如下：
 
