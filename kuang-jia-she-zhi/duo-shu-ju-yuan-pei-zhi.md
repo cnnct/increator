@@ -150,5 +150,16 @@ suffix=oracle
 </tx:advice>
 
 
+
+<tx:advice id="txAdvice2" transaction-manager="transactionManager2">
+<tx:attributes>
+<tx:method name="*" propagation="REQUIRED"/>
+<tx:method name="notran*" propagation="NOT_SUPPORTED" />
+</tx:attributes>
+</tx:advice>
+
+
+
+
 #### 4.generatorConfig.xml文件配置，有几个数据源就配置几个DruidDataSource、SqlSessionFactoryBean、MapperScannerConfigurer，示例如下：
 
