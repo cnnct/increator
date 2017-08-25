@@ -74,25 +74,25 @@ suffix=oracle
 
 ```
 <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
-	<property name="dataSource" ref="dataSource"></property>
-	<property name="configLocation" value="classpath:config/mybatis/SqlMapConfig.xml" />
-	<property name="databaseIdProvider" ref="databaseIdProvider"/>
-	<property name="mapperLocations">
-		<list>
-			<value>classpath:com.cnnct.mapper/*Mapper.xml</value>
-		</list>
-	</property>
+    <property name="dataSource" ref="dataSource"></property>
+    <property name="configLocation" value="classpath:config/mybatis/SqlMapConfig.xml" />
+    <property name="databaseIdProvider" ref="databaseIdProvider"/>
+    <property name="mapperLocations">
+        <list>
+            <value>classpath:com.cnnct.mapper/*Mapper.xml</value>
+        </list>
+    </property>
 </bean>
 
 <bean id="sqlSessionFactory2" class="org.mybatis.spring.SqlSessionFactoryBean">
-	<property name="dataSource" ref="dataSource2"></property>
-	<property name="configLocation" value="classpath:config/mybatis/SqlMapConfig.xml" />
-	<property name="databaseIdProvider" ref="databaseIdProvider"/>
-	<property name="mapperLocations">
-		<list>
-			<value>classpath:com.cnnct.mapperoracle/*MapperOracle.xml</value>
-		</list>
-	</property>
+    <property name="dataSource" ref="dataSource2"></property>
+    <property name="configLocation" value="classpath:config/mybatis/SqlMapConfig.xml" />
+    <property name="databaseIdProvider" ref="databaseIdProvider"/>
+    <property name="mapperLocations">
+        <list>
+            <value>classpath:com.cnnct.mapperoracle/*MapperOracle.xml</value>
+        </list>
+    </property>
 </bean>
 ```
 
@@ -100,16 +100,17 @@ suffix=oracle
 
 ```
 <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-<!-- 配置扫描包的路径，如果要扫描多个包，中间使用半角逗号分隔，要求mapper.xml和mapper.java同名且在同一个目录-->
-<property name="basePackage" value="com.cnnct.mapper"/>
-<!-- 使用sqlSessionFactoryBeanName -->
-<property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
+	<!-- 配置扫描包的路径，如果要扫描多个包，中间使用半角逗号分隔，要求mapper.xml和mapper.java同名且在同一个目录-->
+	<property name="basePackage" value="com.cnnct.mapper"/>
+	<!-- 使用sqlSessionFactoryBeanName -->
+	<property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
 </bean>
+
 <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-<!-- 配置扫描包的路径，如果要扫描多个包，中间使用半角逗号分隔，要求mapper.xml和mapper.java同名且在同一个目录-->
-<property name="basePackage" value="com.cnnct.mapperoracle"/>
-<!-- 使用sqlSessionFactoryBeanName -->
-<property name="sqlSessionFactoryBeanName" value="sqlSessionFactory2"/>
+	<!-- 配置扫描包的路径，如果要扫描多个包，中间使用半角逗号分隔，要求mapper.xml和mapper.java同名且在同一个目录-->
+	<property name="basePackage" value="com.cnnct.mapperoracle"/>
+	<!-- 使用sqlSessionFactoryBeanName -->
+	<property name="sqlSessionFactoryBeanName" value="sqlSessionFactory2"/>
 </bean>
 ```
 
