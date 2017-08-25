@@ -14,6 +14,8 @@
 >
 > 增加报表页的iframe，注意属性：report\_window="true"
 >
+> 增加弹出报表页的脚本，同其它打开窗口页脚本类似
+>
 > ```
 > <@table_toolbar name="查询结果" size="8" >
 >     <@button  value="新增" data_target="modal_add" icon="plus"/>
