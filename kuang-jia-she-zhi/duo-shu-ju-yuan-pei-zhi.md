@@ -1,8 +1,6 @@
 # 多数据源的使用
 
-\#\#\#\# 
-
-一、多数据源配置
+\#\#\#\#一、多数据源配置
 
 \#\#\#\#  1.db.properties文件配置，有几个数据源就配置几个driver、url、username、password，并配置suffix，此suffix用于逆向工程生成包和文件时使用。示例如下：
 
