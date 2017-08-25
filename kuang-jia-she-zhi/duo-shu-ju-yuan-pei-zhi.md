@@ -112,3 +112,12 @@ suffix=oracle
 <!-- 使用sqlSessionFactoryBeanName -->
 <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
 </bean>
+
+
+
+<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+<!-- 配置扫描包的路径，如果要扫描多个包，中间使用半角逗号分隔，要求mapper.xml和mapper.java同名且在同一个目录-->
+<property name="basePackage" value="com.cnnct.mapperoracle"/>
+<!-- 使用sqlSessionFactoryBeanName -->
+<property name="sqlSessionFactoryBeanName" value="sqlSessionFactory2"/>
+</bean>
