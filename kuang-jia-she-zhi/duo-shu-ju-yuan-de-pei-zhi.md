@@ -120,11 +120,11 @@ suffix=oracle
 
 ```
 <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
-	property name="dataSource" ref="dataSource"></property>
+    property name="dataSource" ref="dataSource"></property>
 </bean>
 
 <bean id="transactionManager2" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
-	<property name="dataSource" ref="dataSource2"></property>
+    <property name="dataSource" ref="dataSource2"></property>
 </bean>
 ```
 
@@ -132,17 +132,17 @@ suffix=oracle
 
 ```
 <tx:advice id="txAdvice" transaction-manager="transactionManager">
-	<tx:attributes>
-		<tx:method name="*" propagation="REQUIRED"/>
-		<tx:method name="notran*" propagation="NOT_SUPPORTED" />
-	</tx:attributes>
+    <tx:attributes>
+        <tx:method name="*" propagation="REQUIRED"/>
+        <tx:method name="notran*" propagation="NOT_SUPPORTED" />
+    </tx:attributes>
 </tx:advice>
 
 <tx:advice id="txAdvice2" transaction-manager="transactionManager2">
-	<tx:attributes>
-		<tx:method name="*" propagation="REQUIRED"/>
-		<tx:method name="notran*" propagation="NOT_SUPPORTED" />
-	</tx:attributes>
+    <tx:attributes>
+        <tx:method name="*" propagation="REQUIRED"/>
+        <tx:method name="notran*" propagation="NOT_SUPPORTED" />
+    </tx:attributes>
 </tx:advice>
 ```
 
@@ -150,12 +150,13 @@ suffix=oracle
 
 ```
 <aop:config expose-proxy="true">
-<!-- 切入包下面的所有类的所有方法 不管返回值是什么，不管输入参数是什么 -->
-<aop:advisor advice-ref="txAdvice" pointcut="execution(* com.cnnct.._ServImpl.*(..))"/>
+	<!-- 切入包下面的所有类的所有方法 不管返回值是什么，不管输入参数是什么 -->
+	<aop:advisor advice-ref="txAdvice" pointcut="execution(* com.cnnct.._ServImpl.*(..))"/>
 </aop:config>
+
 <aop:config expose-proxy="true">
-<!-- 切入包下面的所有类的所有方法 不管返回值是什么，不管输入参数是什么 -->
-<aop:advisor advice-ref="txAdvice2" pointcut="execution(* com.cnnct.._ServImpl.*(..))"/>
+	<!-- 切入包下面的所有类的所有方法 不管返回值是什么，不管输入参数是什么 -->
+	<aop:advisor advice-ref="txAdvice2" pointcut="execution(* com.cnnct.._ServImpl.*(..))"/>
 </aop:config>
 ```
 
