@@ -92,8 +92,7 @@ suffix=oracle
 <property name="databaseIdProvider" ref="databaseIdProvider"/>
 <property name="mapperLocations">
 <list>
-<value>classpath:com.cnnct.mapperoracle
-/*MapperOracle.xml</value>
+<value>classpath:com.cnnct.mapperoracle/*MapperOracle.xml</value>
 </list>
 </property>
 </bean>
