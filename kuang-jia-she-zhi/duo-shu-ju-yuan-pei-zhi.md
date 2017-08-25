@@ -182,7 +182,7 @@ suffix=oracle
 
 &lt;/bean&gt;
 
-####  3.如果需要用到事务，还需配置applicationContext-transation.xml文件，有几个数据源就配置几个DataSourceTransactionManager、txAdvice、aop:config，示例如下：
+#### 3.如果需要用到事务，还需配置applicationContext-transation.xml文件，有几个数据源就配置几个DataSourceTransactionManager、txAdvice、aop:config，示例如下：
 
 \(1\)DataSourceTransactionManager
 
@@ -242,7 +242,7 @@ suffix=oracle
 
 &lt;/aop:config&gt;
 
-####  二、多数据源逆向工程
+#### 二、多数据源逆向工程
 
 \#\#\#\#  1.generatorConfig.xml文件配置，有几个数据源就配置几个DruidDataSource、SqlSessionFactoryBean、MapperScannerConfigurer，示例如下：
 
