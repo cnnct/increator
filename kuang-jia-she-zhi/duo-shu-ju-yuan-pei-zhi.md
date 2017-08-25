@@ -134,5 +134,11 @@ suffix=oracle
 
 
 
+<bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+<property name="dataSource2" ref="dataSource"></property>
+</bean>
+
+
+
 #### 4.generatorConfig.xml文件配置，有几个数据源就配置几个DruidDataSource、SqlSessionFactoryBean、MapperScannerConfigurer，示例如下：
 
