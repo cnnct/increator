@@ -14,6 +14,8 @@
 >
 > 增加相的弹出iframe窗口，注意参数report\_window="true"
 >
+> 增加调用打印方法的脚本，注意获取页面参数方法的使用：
+>
 > ```
 > <!--按钮区域-->
 > <@table_toolbar name="查询结果" size="8" >
@@ -29,8 +31,8 @@
 >
 > <!--脚本区域-->
 > function showReport() {
->  	var data=getTableSearchData();//需要用于表格查询的数据
->  	$("#modal_print_iframe").attr("src", base+"/sys/auth/brch/showReport?data="+data);
+>      var data=getTableSearchData();//需要用于表格查询的数据
+>      $("#modal_print_iframe").attr("src", base+"/sys/auth/brch/showReport?data="+data);
 >     $("#modal_print").modal("show");
 > }
 > ```
