@@ -43,15 +43,15 @@
 > >
 > > ![](/assets/ireport_09.png)
 >
-> 6、字段为或参数无值，或未赋值时，报表显示为null问题
+> #### 6、字段为或参数无值，或未赋值时，报表显示为null问题
 >
 > > 参照下图设置。此属性在样式表中都已设置好，一般不需要再特殊处理。![](/assets/ireport_10.png)
+>
+> #### 7、单元格文字超长时自动换行
+>
+> > 1、  选中要自动换行的text框，勾选中属性面板中的“StretchWith Overflow”属性
 > >
-> > #### 6、单元格文字超长时自动换行
-> >
-> > 1、  选中要自动换行的text框，勾选中属性面板中的“StretchWith Overflow”属性
-> >
-> > 2、  选中该字段所在行的所有字段（包括行头），在“属性”面板中将“Stretch Type”设置为“Relative to Tallest Object”
+> > 2、  选中该字段所在行的所有字段（包括行头），在“属性”面板中将“Stretch Type”设置为“Relative to Tallest Object”
 
 
 
