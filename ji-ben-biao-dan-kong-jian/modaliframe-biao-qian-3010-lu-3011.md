@@ -13,6 +13,8 @@
 > > **drag：** 是否可拖动，默认不可拖动
 > >
 > > **class：** 样式\(不填：中等模态框;modal-lg：大模态框;modal-sm：小模态框\)
+> >
+> > report\_window：true/flase，默认为false，用于区别报表窗口（ireport）和普通页面
 
 #### modal\_iframe标签的引入方式 :
 
