@@ -35,17 +35,17 @@
   <@table url="${base}/oper/query"
                  thead=[
                      [
-                		{"name":"一级标题"},
-    	            	{"name":"二级标题","colspan":"2"},
-    	            	{"name":"三级标题","colspan":"2"}
-                	],
-                	[
-    	            	{"name":"编号"},
-    	            	{"name":"名称"},
-    	            	{"name":"机构"},
-    	            	{"name":"状态"},
-    	            	{"name":"级别"}
-                	]
+                        {"name":"一级标题"},
+                        {"name":"二级标题","colspan":"2"},
+                        {"name":"三级标题","colspan":"2"}
+                    ],
+                    [
+                        {"name":"编号"},
+                        {"name":"名称"},
+                        {"name":"机构"},
+                        {"name":"状态"},
+                        {"name":"级别"}
+                    ]
                 ]
                 fields="id,oper_id,oper_name,org_name,brch_name,oper_state,oper_level"
                 translate={"oper_state":"STATE", "oper_level":"OPER_LEVEL"}
@@ -72,8 +72,8 @@
                 img_fields={"img_wrap":"img"}
                 id="mytable"
                 merge_cells=[
-                	{"coordinate":"3,0","rowspan":"10"},
-                	{"coordinate":"4,0","rowspan":"10"}
+                    {"coordinate":"3,0","rowspan":"10"},
+                    {"coordinate":"4,0","rowspan":"10"}
                 ]
                 />
   <!-- 所有提交的url地址的前缀都要加上 ${base}
@@ -95,7 +95,7 @@
       show_condition和noshow_condition属性不能同时使用，同时存在时遵循show_condition属性
   10. sort：支持排序功能的字段，默认除了id列和操作列外所有字段都支持
   11.img_fields【1.1】:支持缩略图功能，img_fields={"img_wrap":"img"},"img_wrap"为缩略图字段，"img"为原图字段,点击缩略图弹出原图
-  12.*id【1.2】:指定表格id，【1.2】以后页面支持多表格
+  12.id【1.2】:指定表格id，【1.2】以后页面支持多表格
   13.merge_cells【1.2】：合并单元格属性，【1.2】以后表格支持单元格合并属性，单元格合并有3个属性，coordinate属性指定操作合并的单元格坐标（x,y），rowspan指定合并的行数，默认值为1，colspan属性指定合并的列数，默认值为1，注意已经被合并占用的单元格不可以重复合并
   14. 表格若不需要id列，fields 中去掉 id 字段，同时后台 sql 也去掉 id 字段：如下
       fields="oper_id,oper_name,org_name,brch_name,oper_state,oper_level"
@@ -105,7 +105,7 @@
 * 表格数据显示例子如下图：  
   ![](/assets/table.png)![](/assets/table2.png)
 * 表格多级表头和合并单元格示例图：
-![](/assets/table3.png)
+  ![](/assets/table3.png)
 * 获取表格相关数据
 * ```js
   getTable(tableId);//获取表格对象
@@ -121,17 +121,17 @@
   getCodeValue(name,type,tableId);//获取翻译的value值，从sys_code表中获取
 
   例:getCodeName("0","STATE","mytable");//值为"注销"
-  
+
   /**
- * ajax表单提交，只针对表格
- * obj参数中可以传的参数有如下
- * @param url 提交地址
- * @param formId 表单id，可为空
- * @param convertName 需转换的name属性，可为空，例子："role1.id,role2.id ..."
- * @param modalId form表单提交时的modalId
- * @param tableSearchDataJson 表格查询所需的过滤数据，表格查询时不能为空
- * @param tableId 表格Id值，必须传
- */
+  * ajax表单提交，只针对表格
+  * obj参数中可以传的参数有如下
+  * @param url 提交地址
+  * @param formId 表单id，可为空
+  * @param convertName 需转换的name属性，可为空，例子："role1.id,role2.id ..."
+  * @param modalId form表单提交时的modalId
+  * @param tableSearchDataJson 表格查询所需的过滤数据，表格查询时不能为空
+  * @param tableId 表格Id值，必须传
+  */
     postform(obj)
   ```
 
