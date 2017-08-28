@@ -59,6 +59,7 @@
     * [echars图表开发](kuang-jia-she-zhi/bao-biao-he-da-yin/echarstu-biao-kai-fa.md)
     * [单页凭证报表打印开发](kuang-jia-she-zhi/bao-biao-he-da-yin/dan-ye-ping-zheng-bao-biao-da-yin-kai-fa.md)
   * [多数据源及逆向工程配置【1.2】](kuang-jia-she-zhi/duo-shu-ju-yuan-de-pei-zhi.md)
+  * [HttpClient的使用](kuang-jia-she-zhi/httpclientde-shi-yong.md)
 * [开发规范](kai-fa-gui-fan.md)
   * [开发环境](kai-fa-huan-jing.md)
   * [基本编码规范](kai-fa-gui-fan/ji-ben-bian-ma-gui-fan.md)
