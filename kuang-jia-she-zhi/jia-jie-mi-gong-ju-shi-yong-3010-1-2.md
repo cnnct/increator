@@ -60,7 +60,7 @@ public static void main(String[] args) throws Exception {
         byte[] str6 = des3DecodeCBC(key, keyiv, str5);
         System.out.println(new String(str6, "UTF-8"));
     }
-    
+  RSA加解密使用示例：RSAUtils 
   public static void main(String[] args) throws Exception {  
         HashMap<String, Object> map = RSAUtils.getKeys();  
         //生成公钥和私钥  
