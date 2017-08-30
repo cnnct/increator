@@ -31,7 +31,7 @@
     service调用：
             @Override
          	public String exportExcelTest(HttpServletRequest request, HttpServletResponse response) {
-         		List<SysBranchCust> brchs = brchMapper.getBrchInfo(brchId);
+         		List<SysBranchCust> brchs = brchMapper.getBrchInfo();
          		List<SysBranchModul> moduls = new ArrayList<>();
          		for(SysBranchCust brchCust:brchs){
          			//将需导出的数据转换为模型
