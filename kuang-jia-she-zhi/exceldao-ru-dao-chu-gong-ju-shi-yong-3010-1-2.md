@@ -29,6 +29,13 @@
             
             
     service调用：
+            /**
+             * 测试导出
+             * @param request
+             * @param response
+             * @return
+             * @throws Exception
+             */
             @Override
          	public String exportExcelTest(HttpServletRequest request, HttpServletResponse response) {
          		List<SysBranchCust> brchs = brchMapper.getBrchInfo();
