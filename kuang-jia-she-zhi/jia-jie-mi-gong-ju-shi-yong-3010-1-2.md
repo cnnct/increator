@@ -28,7 +28,7 @@ public static void main(String[] args) throws Exception {
         System.out.println(SHA1Utils.encryptSHA(key));  
  }  
  
-BASE64编码图片示例：Base64Image
+BASE64编码图片示例：详见Base64Image
 public static void main(String[] args) {
 	    String imgStr = Base64Image.imageToBase64("G:\\img.jpg");
 	    System.out.println(imgStr);
@@ -36,7 +36,7 @@ public static void main(String[] args) {
 	}
 	
 	
-DES加解密使用示例: DESUtils
+DES加解密使用示例: 详见DESUtils
 public static void main(String[] args) throws Exception {
         String source = "amigoxie";
         System.out.println("原文: " + source);
@@ -47,7 +47,7 @@ public static void main(String[] args) throws Exception {
         System.out.println("解密后: " + decryptData);
     }
     
- DES3加解密使用示例: DES3Utils
+ DES3加解密使用示例: 详见DES3Utils
  public static void main(String[] args) throws Exception {
         byte[] key = "6C4E60E55552386C759569836DC0F83869836DC0F838C0F7".getBytes();
         byte[] keyiv = { 1, 2, 3, 4, 5, 6, 7, 8 };
@@ -60,7 +60,7 @@ public static void main(String[] args) throws Exception {
         byte[] str6 = des3DecodeCBC(key, keyiv, str5);
         System.out.println(new String(str6, "UTF-8"));
     }
-  RSA加解密使用示例：RSAUtils 
+  RSA加解密使用示例：详见RSAUtils 
   public static void main(String[] args) throws Exception {  
         HashMap<String, Object> map = RSAUtils.getKeys();  
         //生成公钥和私钥  
