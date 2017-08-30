@@ -128,5 +128,26 @@
                     return resultData;
                     
                 }
+        
+                        
     service调用：
-    
+                public ResultData importExcelTest(HttpServletRequest request) {
+            		//获取excel中的数据包含title和错误信息msg
+            		ResultData resultData=ImportUtil.getDataList(request, SysBranchModul.class);
+            		//excel数据
+            		List<Map<String,Object>> excelDataList=(List<Map<String,Object>>)resultData.get("excelDataList");
+            		//错误数据
+            		List<SImportErrorMessage> msg=(List<SImportErrorMessage>)resultData.get("importErrorMsg");
+            		for(int i=1;i<excelDataList.size();i++){
+            			//获取数据
+            			Map<String,Object> map=excelDataList.get(i);
+            			SysBranchCust brch=new SysBranchCust();
+            			brch.setBrchId(map.get("brchId").toString());
+            			brch.setBrchName(map.get("brchName").toString());
+            			brchMapper.insert(brch);
+            		}
+            		if(msg!=null && msg.size()>0){
+            			resultData.setResultCode(Result_Code.BRCH_ADD_ERR);
+            		}
+            		return resultData;
+            	}
