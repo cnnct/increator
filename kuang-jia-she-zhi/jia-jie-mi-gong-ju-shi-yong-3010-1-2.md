@@ -22,7 +22,7 @@ public static void main(String args[]) {
 	}
 	
 
-SHA1使用：
+SHA1使用示例：
 
 
 @Test
