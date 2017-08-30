@@ -111,7 +111,7 @@
     }
     </script>
 
-![](/assets/sxcel6.png)
+![](/assets/sxc![](/assets/excel6.png)el6.png)
 ####(2).后台调用 ：
 
      controller调用：
@@ -151,10 +151,8 @@
             		}
             		return resultData;
             	}
-####(3).模板存放位置： 
-![](/assets/excel1.png)
-![](/assets/excel5.png)
+####(3).模板： 
+
 ####(4).模型存放位置： 
-![](/assets/excel2.png)
-![](/assets/excel3.png)
+
 
