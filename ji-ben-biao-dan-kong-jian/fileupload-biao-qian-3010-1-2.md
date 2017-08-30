@@ -29,5 +29,4 @@
 
 #### input标签的显示结果:
 
-![](/assets/input.png)
-
+![](/assets/file_upload.png)
