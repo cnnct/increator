@@ -5,7 +5,7 @@
 ```
 MD5使用示例：
 public static void main(String args[]) {
-		MD5Utils m = new MD5Utils();
+		MD5 m = new MD5();
 		System.out.println(m.getMD5ofStr(m.getMD5ofStr("a")));
 		if (Array.getLength(args) == 0) { // 如果没有参数，执行标准的Test Suite
 			System.out.println("MD5 Test suite:");
