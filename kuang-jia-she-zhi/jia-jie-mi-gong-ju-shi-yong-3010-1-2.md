@@ -37,7 +37,7 @@ public static void main(String[] args) {
 	
 	
 DES加解密使用示例: DESUtils
- public static void main(String[] args) throws Exception {
+public static void main(String[] args) throws Exception {
         String source = "amigoxie";
         System.out.println("原文: " + source);
         String key = "A1B2C3D4E5F60708";
@@ -48,7 +48,7 @@ DES加解密使用示例: DESUtils
     }
     
  DES3加解密使用示例: DES3Utils
-  public static void main(String[] args) throws Exception {
+ public static void main(String[] args) throws Exception {
         byte[] key = "6C4E60E55552386C759569836DC0F83869836DC0F838C0F7".getBytes();
         byte[] keyiv = { 1, 2, 3, 4, 5, 6, 7, 8 };
         byte[] data = "amigoxie".getBytes("UTF-8");
@@ -60,5 +60,31 @@ DES加解密使用示例: DESUtils
         byte[] str6 = des3DecodeCBC(key, keyiv, str5);
         System.out.println(new String(str6, "UTF-8"));
     }
+    
+  public static void main(String[] args) throws Exception {  
+        HashMap<String, Object> map = RSAUtils.getKeys();  
+        //生成公钥和私钥  
+        RSAPublicKey publicKey = (RSAPublicKey) map.get("public");  
+        RSAPrivateKey privateKey = (RSAPrivateKey) map.get("private");  
+          
+        //模  
+        String modulus = publicKey.getModulus().toString();  
+        //公钥指数  
+        String public_exponent = publicKey.getPublicExponent().toString();  
+        //私钥指数  
+        String private_exponent = privateKey.getPrivateExponent().toString();  
+        //明文  
+        String ming = "123456789";  
+        //使用模和指数生成公钥和私钥  
+        RSAPublicKey pubKey = RSAUtils.getPublicKey(modulus, public_exponent);  
+        RSAPrivateKey priKey = RSAUtils.getPrivateKey(modulus, private_exponent);
+        System.out.println("加密前的明文:"+ming);
+        //加密后的密文  
+        String mi = RSAUtils.encryptByPublicKey(ming, pubKey);  
+        System.out.println("加密后的密文:"+mi);  
+        //解密后的明文  
+        ming = RSAUtils.decryptByPrivateKey(mi, priKey);  
+        System.out.println("解密后的明文:"+ming);  
+    }  
 ```
 
