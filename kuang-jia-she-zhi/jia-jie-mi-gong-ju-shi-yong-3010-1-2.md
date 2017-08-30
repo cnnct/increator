@@ -23,7 +23,10 @@ public static void main(String args[]) {
 	
 
 SHA1使用示例：
-
+public static void main(String[] args) throws Exception {  
+        String key = "123";  
+        System.out.println(encryptSHA(key));  
+ }  
 
 @Test
 public void testHttpClientFile() { // 文本文件格式参数.json.xml等
