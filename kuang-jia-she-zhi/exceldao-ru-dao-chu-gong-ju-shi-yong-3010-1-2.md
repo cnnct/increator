@@ -115,18 +115,18 @@
 ####(2).后台调用 ：
 
      controller调用：
-     /**
-	 * 导入excel数据
-	 * @param model
-	 * @param funcId
-	 * @return
-	 */
-	@RequestMapping("/importExcel")
-	@ResponseBody
-    public ResultData importExcel(HttpServletRequest request) {
-		ResultData resultData=brchServ.importExcelTest(request);
-        return resultData;
-        
-    }
+                 /**
+            	 * 导入excel数据
+            	 * @param model
+            	 * @param funcId
+            	 * @return
+            	 */
+            	@RequestMapping("/importExcel")
+            	@ResponseBody
+                public ResultData importExcel(HttpServletRequest request) {
+            		ResultData resultData=brchServ.importExcelTest(request);
+                    return resultData;
+                    
+                }
     service调用：
     
