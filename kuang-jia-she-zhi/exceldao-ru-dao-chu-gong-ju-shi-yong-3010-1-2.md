@@ -35,7 +35,7 @@
          		List<SysBranchCust> brchs = brchMapper.getBrchInfoForDel(brchId);
          		List<SysBranchModul> moduls = new ArrayList<>();
          		for(SysBranchCust brchCust:brchs){
-         			//将需导出的数据转换为公共模型
+         			//将需导出的数据转换为模型
          			SysBranchModul m = (SysBranchModul)ExportExcelUtil.ToParentClass(brchCust, SysBranchModul.class);
          			moduls.add(m);
          		}
