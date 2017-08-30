@@ -30,7 +30,7 @@ public static void main(String[] args) throws Exception {
  
 BASE64编码图片示例：
 public static void main(String[] args) {
-	    String imgStr = imageToBase64("G:\\img.jpg");
+	    String imgStr = Base64Image.imageToBase64("G:\\img.jpg");
 	    System.out.println(imgStr);
 	    base64ToImage(imgStr, "G:\\img1.jpg");
 	}
