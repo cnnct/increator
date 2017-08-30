@@ -77,7 +77,7 @@
     <@button size="2" icon="saved" value="提交" onclick="fileImport()"/>
     </@modal_foot>
     <script>
-    <#-- 保存操作员信息 -->
+    <#-- 获取excelSheet -->
     function getExcelSheets() {
         //表单验证
        // if (!$("#add_form").valid()) return;
