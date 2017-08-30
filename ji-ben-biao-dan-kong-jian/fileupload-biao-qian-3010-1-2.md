@@ -1,6 +1,6 @@
-# file_upload**标签**
+# file_upload**单文件标签**
 
-#### file_upload**标签的属性 :**
+#### file_upload**单文件上传标签的属性 :**
 
 > file_upload标签有4个属性分别为为id、name、size、label
 >
@@ -19,7 +19,7 @@
 > > label="name" ；label="name,,2" 即三个值都非必填项
 > >
 
-#### input标签的引入方式 :
+#### file_upload标签的引入方式 :
 
 ```
     <@file_upload label="待上传文件,,2" id="myfile" name="myfile" size="8"/>
@@ -27,6 +27,6 @@
    
 ```
 
-#### input标签的显示结果:
+#### file_upload标签的显示结果:
 
 ![](/assets/file_upload.png)
