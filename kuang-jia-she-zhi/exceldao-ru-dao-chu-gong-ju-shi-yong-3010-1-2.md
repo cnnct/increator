@@ -41,7 +41,7 @@
          		List<SysBranchCust> brchs = brchMapper.getBrchInfo();
          		List<SysBranchModul> moduls = new ArrayList<>();
          		for(SysBranchCust brchCust:brchs){
-         			//将需导出的数据转换为模型
+         			//将需导出的数据转换为相应的模型
          			SysBranchModul m = (SysBranchModul)ExportExcelUtil.ToParentClass(brchCust, SysBranchModul.class);
          			moduls.add(m);
          		}
