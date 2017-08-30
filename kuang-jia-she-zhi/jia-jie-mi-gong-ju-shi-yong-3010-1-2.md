@@ -37,7 +37,7 @@ public static void main(String[] args) {
 	
 	
 DES加解密使用示例:
-	 public static void main(String[] args) throws Exception {
+ public static void main(String[] args) throws Exception {
         String source = "amigoxie";
         System.out.println("原文: " + source);
         String key = "A1B2C3D4E5F60708";
