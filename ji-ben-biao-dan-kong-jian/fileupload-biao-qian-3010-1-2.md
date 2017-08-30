@@ -4,7 +4,7 @@
 
 > file_upload标签有4个属性分别为为id、name、size、label
 >
-> > **id ：** id属性
+> > ** *id ：** id属性
 > >
 > > **name ：** name属性
 > >
