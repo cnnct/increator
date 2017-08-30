@@ -28,7 +28,7 @@ public static void main(String[] args) throws Exception {
         System.out.println(SHA1Utils.encryptSHA(key));  
  }  
  
-BASE64编码图片示例：
+BASE64编码图片示例：Base64Image
 public static void main(String[] args) {
 	    String imgStr = Base64Image.imageToBase64("G:\\img.jpg");
 	    System.out.println(imgStr);
