@@ -111,3 +111,4 @@
     }
     </script>
 
+![](/assets/sxcel6.png)
