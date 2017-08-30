@@ -26,3 +26,7 @@
             	resultData.put("fileName", fileName);
                 return resultData;
             }  
+            
+            
+    service调用：
+    
