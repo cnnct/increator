@@ -31,7 +31,7 @@
     service调用：
             @Override
          	public String exportExcelTest(HttpServletRequest request, HttpServletResponse response) {
-         		String brchId=request.getParameter("brchId").toString();
+         		
          		List<SysBranchCust> brchs = brchMapper.getBrchInfo(brchId);
          		List<SysBranchModul> moduls = new ArrayList<>();
          		for(SysBranchCust brchCust:brchs){
