@@ -67,7 +67,7 @@
             <@button icon="saved" value="获取sheet" onclick="getExcelSheets()"/>
         </@form_group>
     </@form>
- 	<@form id="sheet_form">
+ 	 <@form id="sheet_form">
         <@form_group class="row">
             <@select  label="sheet列表,,2" id="sheet_list"  name="index"  choice_have="true" size="10"/>
         </@form_group>
