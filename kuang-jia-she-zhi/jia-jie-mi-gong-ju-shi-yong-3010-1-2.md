@@ -25,7 +25,7 @@ public static void main(String args[]) {
 SHA1使用示例：
 public static void main(String[] args) throws Exception {  
         String key = "123";  
-        System.out.println(encryptSHA(key));  
+        System.out.println(SHA1Utils.encryptSHA(key));  
  }  
  
 BASE64编码图片示例：
