@@ -39,7 +39,7 @@
          			SysBranchModul m = (SysBranchModul)ExportExcelUtil.ToParentClass(brchCust, SysBranchModul.class);
          			moduls.add(m);
          		}
-         		//模板文件名
+         		//获取模板文件名
          		String templateFileName="branch.xlsx";
          		//导出文件
          		String fileName=ExportExcelUtil.exportExcel(response,moduls,templateFileName);
