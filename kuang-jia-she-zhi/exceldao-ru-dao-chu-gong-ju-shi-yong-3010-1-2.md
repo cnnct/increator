@@ -32,7 +32,7 @@
             @Override
          	public String exportExcelTest(HttpServletRequest request, HttpServletResponse response) {
          		String brchId=request.getParameter("brchId").toString();
-         		List<SysBranchCust> brchs = brchMapper.getBrchInfoForDel(brchId);
+         		List<SysBranchCust> brchs = brchMapper.getBrchInfo(brchId);
          		List<SysBranchModul> moduls = new ArrayList<>();
          		for(SysBranchCust brchCust:brchs){
          			//将需导出的数据转换为模型
