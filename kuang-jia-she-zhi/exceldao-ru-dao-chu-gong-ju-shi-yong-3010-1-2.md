@@ -19,7 +19,7 @@
      */
     @RequestMapping("/exportExcelTest")
     @ResponseBody 
-    public ResultData exportExcelTest(HttpServletRequest request,HttpServletResponse response) throws Exception {
+    public ResultData exportExcelTest(HttpServletRequest request,HttpServletResponse response) {
     	String fileName=brchServ.exportExcelTest(request, response);
     	ResultData resultData = new ResultData(Result_Code.SUCCESS);
     	resultData.put("fileName", fileName);
