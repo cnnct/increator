@@ -24,6 +24,7 @@
   * [form\_group标签](ji-ben-biao-dan-kong-jian/formgroup-biao-qian.md)
   * [ueditor标签【1.1】](ji-ben-biao-dan-kong-jian/ueditorbiao-qian.md)
   * [select\_input标签【1.2】](ji-ben-biao-dan-kong-jian/selectinput-biao-qian-3010-1-2.md)
+  * [file\_upload标签【1.2】](ji-ben-biao-dan-kong-jian/fileupload-biao-qian-3010-1-2.md)
 * [复杂、组合标签控件](fu-za-2018-zu-he-biao-qian-kong-jian-3010-shi-3001-lu-3011.md)
   * [级联标签组](ji-ben-biao-dan-kong-jian/casselect-parent-biao-qian-3010-shi-3011.md)
   * [子tab标签组](ji-ben-biao-dan-kong-jian/zi-tab-biao-qian-zu-3010-shi-3011.md)
