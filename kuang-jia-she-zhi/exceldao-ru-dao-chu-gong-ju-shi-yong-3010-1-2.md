@@ -58,4 +58,4 @@
 ![](/assets/excel2.png)
 ![](/assets/excel3.png)
 
-### 2.导入工具使用示例：
+### 2.导入工具的使用示例：
