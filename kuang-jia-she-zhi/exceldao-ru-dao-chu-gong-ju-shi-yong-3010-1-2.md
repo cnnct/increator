@@ -18,7 +18,7 @@
      * @throws Exception
      */
     @RequestMapping("/exportExcelTest")
-    @ResponseBody //必须以json格式返回
+    @ResponseBody 
     public ResultData exportExcelTest(HttpServletRequest request,HttpServletResponse response) throws Exception {
     	String fileName=brchServ.exportExcelTest(request, response);
     	ResultData resultData = new ResultData(Result_Code.SUCCESS);
