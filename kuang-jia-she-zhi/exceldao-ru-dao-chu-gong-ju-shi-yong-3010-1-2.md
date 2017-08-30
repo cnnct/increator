@@ -4,7 +4,7 @@
 #### (1).前台调用：
 
     function doTest(obj){
-    	window.location.href ='${base}/sys/auth/brch/exportExcelTest?brchId='+getFirstInputId(obj);
+    	window.location.href ='${base}/sys/auth/brch/exportExcelTest;
     	
     }
     注意这里不能使用ajax请求，必须用普通请求
