@@ -61,17 +61,17 @@
 ### 2.导入工具的使用示例：
 #### (1).前台页面及调用：
     <@modal_body id="modal_import" modal_title="导入部门">
-    <@form id="import_form">
-        <@form_group class="row">
-            <@file_upload label="待上传文件,,2" id="myfile" name="myfile" size="8"/>
-            <@button icon="saved" value="获取sheet" onclick="getExcelSheets()"/>
-        </@form_group>
-    </@form>
- 	 <@form id="sheet_form">
-        <@form_group class="row">
-            <@select  label="sheet列表,,2" id="sheet_list"  name="index"  choice_have="true" size="10"/>
-        </@form_group>
-    </@form>
+        <@form id="import_form">
+            <@form_group class="row">
+                <@file_upload label="待上传文件,,2" id="myfile" name="myfile" size="8"/>
+                <@button icon="saved" value="获取sheet" onclick="getExcelSheets()"/>
+            </@form_group>
+        </@form>
+     	 <@form id="sheet_form">
+            <@form_group class="row">
+                <@select  label="sheet列表,,2" id="sheet_list"  name="index"  choice_have="true" size="10"/>
+            </@form_group>
+        </@form>
     </@modal_body>
     <@modal_foot>
     <@button size="2" icon="saved" value="提交" onclick="fileImport()"/>
