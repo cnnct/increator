@@ -36,7 +36,7 @@ public static void main(String[] args) {
 	}
 	
 	
-DES加解密使用示例:
+DES加解密使用示例: DESUtils
  public static void main(String[] args) throws Exception {
         String source = "amigoxie";
         System.out.println("原文: " + source);
@@ -47,7 +47,7 @@ DES加解密使用示例:
         System.out.println("解密后: " + decryptData);
     }
     
- DES3加解密使用示例:
+ DES3加解密使用示例: DES3Utils
   public static void main(String[] args) throws Exception {
         byte[] key = "6C4E60E55552386C759569836DC0F83869836DC0F838C0F7".getBytes();
         byte[] keyiv = { 1, 2, 3, 4, 5, 6, 7, 8 };
