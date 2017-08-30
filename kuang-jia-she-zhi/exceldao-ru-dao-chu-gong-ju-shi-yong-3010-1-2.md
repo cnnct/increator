@@ -10,19 +10,19 @@
     注意这里不能使用ajax请求，必须用普通请求
 
  ####(2).后台调用 ：
-     controller
-     /**
-     * 测试导出
-     * @param request
-     * @param response
-     * @return
-     * @throws Exception
-     */
-    @RequestMapping("/exportExcelTest")
-    @ResponseBody 
-    public ResultData exportExcelTest(HttpServletRequest request,HttpServletResponse response) {
-    	String fileName=brchServ.exportExcelTest(request, response);
-    	ResultData resultData = new ResultData(Result_Code.SUCCESS);
-    	resultData.put("fileName", fileName);
-        return resultData;
-    }  
+     controller调用：
+             /**
+             * 测试导出
+             * @param request
+             * @param response
+             * @return
+             * @throws Exception
+             */
+            @RequestMapping("/exportExcelTest")
+            @ResponseBody 
+            public ResultData exportExcelTest(HttpServletRequest request,HttpServletResponse response) {
+            	String fileName=brchServ.exportExcelTest(request, response);
+            	ResultData resultData = new ResultData(Result_Code.SUCCESS);
+            	resultData.put("fileName", fileName);
+                return resultData;
+            }  
