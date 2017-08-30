@@ -27,12 +27,12 @@ public static void main(String[] args) throws Exception {
         String key = "123";  
         System.out.println(encryptSHA(key));  
  }  
-
-@Test
-public void testHttpClientFile() { // 文本文件格式参数.json.xml等
-    File file = new File("D:\\test.xml");
-    String ret = HttpClientUtil.doPost("http://localhost:8080/manageplat/HttpClient", file);
-    System.out.println(ret);
-}
+ 
+BASE64编码图片示例：
+public static void main(String[] args) {
+	    String imgStr = imageToBase64("G:\\img.jpg");
+	    System.out.println(imgStr);
+	    base64ToImage(imgStr, "G:\\img1.jpg");
+	}
 ```
 
