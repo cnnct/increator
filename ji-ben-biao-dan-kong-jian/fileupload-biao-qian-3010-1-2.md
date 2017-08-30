@@ -22,9 +22,9 @@
 #### input标签的引入方式 :
 
 ```
-    <@input label="邮编:,true,2" id="name" name="name"  type="text" size="4"  />
+    <@file_upload label="待上传文件,,2" id="myfile" name="myfile" size="8"/>
 
-    <@input label="邮件:,true,2" id="email" name="email"  type="email" size="4" />
+   
 ```
 
 #### input标签的显示结果:
