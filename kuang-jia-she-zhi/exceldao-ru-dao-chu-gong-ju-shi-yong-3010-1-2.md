@@ -112,3 +112,17 @@
     </script>
 
 ![](/assets/sxcel6.png)
+####(2).后台调用 ：
+     /**
+	 * 导入excel数据
+	 * @param model
+	 * @param funcId
+	 * @return
+	 */
+	@RequestMapping("/importExcel")
+	@ResponseBody
+    public ResultData importExcel(HttpServletRequest request) {
+		ResultData resultData=brchServ.importExcelTest(request);
+        return resultData;
+        
+    }
