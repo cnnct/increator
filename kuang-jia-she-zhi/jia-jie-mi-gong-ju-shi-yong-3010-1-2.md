@@ -3,7 +3,7 @@
 #### 1.调用HttpClientUtil代码示例：
 
 ```
-MD5使用：
+MD5使用示例：
 public static void main(String args[]) {
 		MD5Utils m = new MD5Utils();
 		System.out.println(m.getMD5ofStr(m.getMD5ofStr("a")));
