@@ -34,5 +34,17 @@ public static void main(String[] args) {
 	    System.out.println(imgStr);
 	    base64ToImage(imgStr, "G:\\img1.jpg");
 	}
+	
+	
+DES加解密使用示例:
+	 public static void main(String[] args) throws Exception {
+        String source = "amigoxie";
+        System.out.println("原文: " + source);
+        String key = "A1B2C3D4E5F60708";
+        String encryptData = encrypt(source, key);
+        System.out.println("加密后: " + encryptData);
+        String decryptData = decrypt(encryptData, key);
+        System.out.println("解密后: " + decryptData);
+    }
 ```
 
