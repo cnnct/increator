@@ -2,7 +2,7 @@
 
 #### init\_load**标签的属性 :**
 
-> init\_page标签为初始化加载标签，有1个属性分别为title、link、script
+> init\_page标签为初始化加载标签，有1个属性分别为type
 >
 > > **title  ：** title属性
 > >
