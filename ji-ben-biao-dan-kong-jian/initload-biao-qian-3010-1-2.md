@@ -5,11 +5,6 @@
 > init\_page标签为初始化加载标签，有1个属性分别为type
 >
 > > **type：** title属性
-> >
-> > **link ：** link 属性为引入css文件的属性
-> >
-> > **script ：** script属性引入js文件的属性
-
 #### init\_load标签的引入方式 :
 
 ```
