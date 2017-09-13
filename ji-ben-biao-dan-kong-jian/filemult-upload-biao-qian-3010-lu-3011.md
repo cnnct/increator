@@ -2,6 +2,8 @@
 
 #### file\_mult\_upload**标签的属性 :**
 
+#### 注：此标签在modal\_body,modal\_foot中存在问题,可以使用modal\_iframe代替。
+
 > file\_mult\_upload标签有5个属性
 >
 > **其中必填项加上了\*号，如下所示 :**
@@ -14,7 +16,7 @@
 > >
 > > **size ：** size为尺寸标签,可以填的数值范围为（1-12）,如size="6",file\_mult\_upload标签的默认size为12
 > >
-> > **wrap_have ：** 是否同时上传缩略图，可以填写的值为“false”和“true”
+> > **wrap\_have ：** 是否同时上传缩略图，可以填写的值为“false”和“true”
 
 #### file\_mult\_upload标签的引入方式 :
 
