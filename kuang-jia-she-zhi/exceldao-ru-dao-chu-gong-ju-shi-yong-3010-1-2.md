@@ -37,7 +37,8 @@
              * @throws Exception
              */
             @Override
-         	public String exportExcelTest(HttpServletRequest request, HttpServletResponse response) {
+         	public String exportExcelTest(HttpServletRequest request, HttpServletResponse response,Map exportMap,) {
+                 List<Map> list = brchMapper.getBrchList(exportMap);
          		List<SysBranchCust> brchs = brchMapper.getBrchInfo();
          		List<SysBranchModul> moduls = new ArrayList<>();
          		for(SysBranchCust brchCust:brchs){
