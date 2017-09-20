@@ -21,8 +21,10 @@
             @RequestMapping("/exportExcelTest")
             @ResponseBody 
             public ResultData exportExcelTest(HttpServletRequest request,HttpServletResponse response) {
-            	String fileName=brchServ.exportExcelTest(request, response);
-            	ResultData resultData = new ResultData(Result_Code.SUCCESS);
+                Map<String,Object> exportMap = FormaterUtils.getParameterMap(request);
+		        ResultData resultData = new ResultData(Result_Code.SUCCESS);
+		        resultData.put("search", exportMap);
+            	String fileName=brchServ.exportExcelTest(request, response,resultData);
             	resultData.put("fileName", fileName);
                 return resultData;
             }  
