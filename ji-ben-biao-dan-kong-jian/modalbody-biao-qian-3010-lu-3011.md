@@ -1,5 +1,7 @@
 # modal\_body和modal\_foot**标签**
 
+#### 注：使用modal\_body就必须加上modal\_foot，modal\_foot内允许不填内容
+
 #### modal\_body**标签的属性 :（**modal\_foot标签无属性**）**
 
 > modal\_body标签有4个属性

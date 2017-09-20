@@ -66,6 +66,7 @@
   * [工具使用【1.2】](kuang-jia-she-zhi/gong-ju-shi-yong.md)
     * [加解密工具使用【1.2】](kuang-jia-she-zhi/jia-jie-mi-gong-ju-shi-yong-3010-1-2.md)
     * [excel导入导出工具使用【1.2】](kuang-jia-she-zhi/exceldao-ru-dao-chu-gong-ju-shi-yong-3010-1-2.md)
+  * [Redis的使用](kuang-jia-she-zhi/redisde-shi-yong.md)
 * [开发规范](kai-fa-gui-fan.md)
   * [开发环境](kai-fa-huan-jing.md)
   * [基本编码规范](kai-fa-gui-fan/ji-ben-bian-ma-gui-fan.md)
