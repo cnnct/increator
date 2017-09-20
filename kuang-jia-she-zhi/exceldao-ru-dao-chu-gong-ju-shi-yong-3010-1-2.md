@@ -39,13 +39,11 @@
             @Override
          	public String exportExcelTest(HttpServletRequest request, HttpServletResponse response,Map exportMap,) {
                  List<Map> list = brchMapper.getBrchList(exportMap);
-         		List<SysBranchCust> brchs = brchMapper.getBrchInfo();
+         		
          		List<SysBranchModul> moduls = new ArrayList<>();
-         		for(SysBranchCust brchCust:brchs){
-         			//将需导出的数据转换为相应的模型
-         			SysBranchModul m = (SysBranchModul)ExportExcelUtil.ToParentClass(brchCust, SysBranchModul.class);
-         			moduls.add(m);
-         		}
+                 //获取导出模型list
+    		     moduls=ExportExcelUtil.getFormaterModuls(SysBranchModul.class,list,"number");
+         		
          		//获取模板文件名
          		String templateFileName="branch.xlsx";
          		//导出文件
