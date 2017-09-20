@@ -3,10 +3,12 @@
 ### 1.导出工具使用示例：
 #### (1).前台调用：
 
-    function doTest(obj){
-    	window.location.href ='${base}/sys/auth/brch/exportExcelTest;
-    	
-    }
+    
+    function exportExcel() {
+        $("#queryForm").attr("action","${base}/sys/auth/brch/exportExcelTest");
+        $("#queryForm").submit();
+        $("#queryForm").attr("action","");
+	}
     注意这里不能使用ajax请求，必须用普通请求
 
  ####(2).后台调用 ：
