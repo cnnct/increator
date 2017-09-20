@@ -33,11 +33,12 @@
              * 测试导出
              * @param request
              * @param response
+             * @param exportMap 用于查询数据的map
              * @return
              * @throws Exception
              */
             @Override
-         	public String exportExcelTest(HttpServletRequest request, HttpServletResponse response,Map exportMap,) {
+         	public String exportExcelTest(HttpServletRequest request, HttpServletResponse response,Map exportMap) {
                  List<Map> list = brchMapper.getBrchList(exportMap);
          		
          		List<SysBranchModul> moduls = new ArrayList<>();
