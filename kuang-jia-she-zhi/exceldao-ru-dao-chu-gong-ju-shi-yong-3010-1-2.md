@@ -5,7 +5,9 @@
 
     
     function exportExcel() {
-        $("#queryForm").attr("action","${base}/sys/auth/brch/exportExcelTest");
+        //排序信息获取，id为表格的id加‘_info’
+        var order=$("#mytable_info").data("order");
+        $("#queryForm").attr("action","${base}/sys/auth/brch/exportExcelTest?order="+order);
         $("#queryForm").submit();
         $("#queryForm").attr("action","");
 	}
