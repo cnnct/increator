@@ -64,8 +64,7 @@
 ![](/assets/export8.png)
 ####(4).模型存放位置： 
 ![](/assets/excel2.png)
-![](/assets/excel3.png)
-
+![](/assets/export9.png)
 ### 2.导入工具的使用示例：
 #### (1).前台页面及调用：
     <@modal_body id="modal_import" modal_title="导入部门">
