@@ -60,6 +60,8 @@
 ####(3).模板存放位置： 
 ![](/assets/excel1.png)
 ![](/assets/excel5.png)
+* 【1.3】版本后支持复杂模板导出，如下图示例
+![](/assets/export8.png)
 ####(4).模型存放位置： 
 ![](/assets/excel2.png)
 ![](/assets/excel3.png)
