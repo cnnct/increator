@@ -67,7 +67,9 @@
 ![](/assets/export9.png)
 ### 2.导入工具的使用示例：
 #### (1).前台页面及调用：
-    <@modal_body id="modal_import" modal_title="导入部门">
+
+   
+     <@modal_body id="modal_import" modal_title="导入部门">
         <@form id="import_form">
             <@form_group class="row">
                 <@file_upload label="待上传文件,,2" id="myfile" name="myfile" size="8"/>
