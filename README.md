@@ -28,7 +28,7 @@
 
 # 其它资源
 
-> jdk下载：[http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html](http://www.oracle.com/technetwork/java/javase/downloads/java-archive-downloads-javase7-521261.html)
+> jdk下载：
 >
 > spring源码下载：[https://github.com/spring-projects/spring-framework/tags](https://github.com/spring-projects/spring-framework/tags)
 >
