@@ -32,7 +32,7 @@
 >
 > spring源码下载：[https://github.com/spring-projects/spring-framework/tags](https://github.com/spring-projects/spring-framework/tags)
 >
-> > 注意：下载的源代码导入到eclipse，4.0.6版本配套的jdk需要1.8
+> > 注意：下载的源代码导入到eclipse，4.0.6版本配套的jdk需要1.7
 >
 > spring源码\(可用svn签出\)：[https://github.com/SpringSource/spring-framework/tags](https://github.com/SpringSource/spring-framework/tags)
 >
