@@ -17,6 +17,8 @@
 > > **size ：** size为尺寸标签,可以填的数值范围为（1-12）,如size="6",file\_mult\_upload标签的默认size为12
 > >
 > > **wrap\_have ：** 是否同时上传缩略图，可以填写的值为“false”和“true”
+> >
+> > **file\_num\_limit ：**上传文件数量限制
 
 #### file\_mult\_upload标签的引入方式 :
 
