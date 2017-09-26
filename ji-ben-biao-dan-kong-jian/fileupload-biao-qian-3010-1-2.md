@@ -1,10 +1,12 @@
-# file_upload**单文件上传标签**
+# file\_upload**单文件上传标签**
 
-#### file_upload**单文件上传标签的属性 :**
+#### file\_upload**单文件上传标签的属性 :**
 
-> file_upload标签有4个属性分别为为id、name、size、label
+#### 注：使用文件上传（哪怕是普通的input type="file"）时，form表单最好加上enctype="multipart/form-data"属性，否则可能出现不选择文件提交到后台报错的问题。
+
+> file\_upload标签有4个属性分别为为id、name、size、label
 >
-> > ** *id ：** id属性
+> > ** \*id ：** id属性
 > >
 > > **name ：** name属性
 > >
@@ -17,16 +19,14 @@
 > > 可填的数值范围为（1-12）,默认尺寸为1；引入方式：label="name,true,2" ； label="name,true" ；
 > >
 > > label="name" ；label="name,,2" 即三个值都非必填项
-> >
 
-#### file_upload标签的引入方式 :
+#### file\_upload标签的引入方式 :
 
 ```
     <@file_upload label="待上传文件,,2" id="myfile" name="myfile" size="8"/>
-
-   
 ```
 
-#### file_upload标签的显示结果:
+#### file\_upload标签的显示结果:
 
 ![](/assets/file_upload.png)
+
