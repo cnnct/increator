@@ -3,10 +3,14 @@
 ### 1.导出工具使用示例：
 #### (1).前台调用：
 
-    function doTest(obj){
-    	window.location.href ='${base}/sys/auth/brch/exportExcelTest;
-    	
-    }
+    
+    function exportExcel() {
+        //排序信息获取，id为表格的id加‘_info’
+        var order=$("#mytable_info").data("order");
+        $("#queryForm").attr("action","${base}/sys/auth/brch/exportExcelTest?order="+order);
+        $("#queryForm").submit();
+        $("#queryForm").attr("action","");
+	}
     注意这里不能使用ajax请求，必须用普通请求
 
  ####(2).后台调用 ：
@@ -21,8 +25,10 @@
             @RequestMapping("/exportExcelTest")
             @ResponseBody 
             public ResultData exportExcelTest(HttpServletRequest request,HttpServletResponse response) {
-            	String fileName=brchServ.exportExcelTest(request, response);
-            	ResultData resultData = new ResultData(Result_Code.SUCCESS);
+                Map<String,Object> exportMap = FormaterUtils.getParameterMap(request);
+		        ResultData resultData = new ResultData(Result_Code.SUCCESS);
+		        resultData.put("search", exportMap);
+            	String fileName=brchServ.exportExcelTest(request, response,resultData);
             	resultData.put("fileName", fileName);
                 return resultData;
             }  
@@ -33,18 +39,18 @@
              * 测试导出
              * @param request
              * @param response
+             * @param exportMap 用于查询数据的map
              * @return
              * @throws Exception
              */
             @Override
-         	public String exportExcelTest(HttpServletRequest request, HttpServletResponse response) {
-         		List<SysBranchCust> brchs = brchMapper.getBrchInfo();
+         	public String exportExcelTest(HttpServletRequest request, HttpServletResponse response,Map exportMap) {
+                 List<Map> list = brchMapper.getBrchList(exportMap);
+         		
          		List<SysBranchModul> moduls = new ArrayList<>();
-         		for(SysBranchCust brchCust:brchs){
-         			//将需导出的数据转换为相应的模型
-         			SysBranchModul m = (SysBranchModul)ExportExcelUtil.ToParentClass(brchCust, SysBranchModul.class);
-         			moduls.add(m);
-         		}
+                 //获取导出模型list
+    		     moduls=ExportExcelUtil.getFormaterModuls(SysBranchModul.class,list,"number");
+         		
          		//获取模板文件名
          		String templateFileName="branch.xlsx";
          		//导出文件
@@ -54,13 +60,16 @@
 ####(3).模板存放位置： 
 ![](/assets/excel1.png)
 ![](/assets/excel5.png)
+* 【1.3】版本后支持复杂模板导出，如下图示例
+![](/assets/export8.png)
 ####(4).模型存放位置： 
 ![](/assets/excel2.png)
-![](/assets/excel3.png)
-
+![](/assets/export9.png)
 ### 2.导入工具的使用示例：
 #### (1).前台页面及调用：
-    <@modal_body id="modal_import" modal_title="导入部门">
+
+   
+     <@modal_body id="modal_import" modal_title="导入部门">
         <@form id="import_form">
             <@form_group class="row">
                 <@file_upload label="待上传文件,,2" id="myfile" name="myfile" size="8"/>

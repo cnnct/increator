@@ -84,12 +84,12 @@
 
 #### form表单清空 :
 
-可以调用让button调用formReset\('formId'\)方法清空指定form表单，或者在button加入class属性值'form-reset',清空当前表单
-
+可以调用让button调用formReset\('formId'\)方法清空指定form表单，或者在button加入class属性值'form-reset',清空当前表单（该清空为非使用modal框情况）；或者在button加入class属性'modal-form-reset'(【1.3】针对被modal包裹的清空)
 ```
 <@button id="repeat" type="button" value="清空" icon="repeat"  class="form-reset"/>
-
 <@button id="repeat" type="button" value="清空" icon="repeat"  onclick="formReset('add_form')"/>
+【1.3】<@button id="repeat" type="button" value="清空" icon="repeat"  class="modal-form-reset"/>
+
 ```
 
 
