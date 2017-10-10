@@ -2,7 +2,11 @@ svn：[https://183.129.148.83:8843/svn/IPM/互联网产品部/项目/管理平�
 
 用户名密码：manageplat2/manageplat2
 
+db目录：基础数据库脚本，包含oracle版本和mysql版本
 
+war目录：增量更新代码目录，适用于已在用的系统，后期升级。更新覆盖前先仔细核对或咨询再更新。
+
+zip目录：全量框架代码目录，适用于新项目开始使用。
 
 ![](/assets/code_download.png)
 
