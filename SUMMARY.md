@@ -5,6 +5,7 @@
     * [V1.0](ban-ben-geng-xin-shuo-ming/v10.md)
     * [V1.1](ban-ben-geng-xin-shuo-ming/v11.md)
     * [V1.2](ban-ben-geng-xin-shuo-ming/v12.md)
+  * [框架代码获取](kuang-jia-dai-ma-huo-qu.md)
 * [基本标签控件](ji-ben-biao-dan-kong-jian.md)
   * [init\_page标签](ji-ben-biao-dan-kong-jian/initpage-biao-qian-3010-shi-3011.md)
   * [span标签](ji-ben-biao-dan-kong-jian/spanbiao-qian.md)
