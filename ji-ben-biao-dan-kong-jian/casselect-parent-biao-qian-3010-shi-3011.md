@@ -77,7 +77,6 @@ child_info=[
 child_info=[
 									{"child_id":"parent_brch_id","sql_key":"sysbrch3","show_field":"brch_name","value_field":"brch_id"}
 
->
 > **\* 以下几个属性特别注意，当级联需要默认值时下面sql\_key、value\_field、show\_field为必填项，  
 > 一般情况不需要加入下面几个属性 **
 >
