@@ -2,7 +2,10 @@ mybatis热部署是为了方便开发调试。
 
 increator.base包下的MybatisMapperRefresher.java实现了此功能，需要在applicationContxt-dao.xml配置
 
-![](/assets/mybatis-refresher.png)
+```
+    <!-- 用于Mybatis热部署,开发环境时使用,生产环境禁用,注释掉 -->
+    <bean id="mybatisMapperRefresh" class="increator.base.MybatisMapperRefresher" />
+```
 
 这样在项目启动的时候，会自动去加载这个类，这个类就启动了一个线程定时去读取xml配置文件，获取文件的大小和修改时间。如果下次读取的时候发现大小或者最后修改时间和之前不一致那么就重新加载配置文件。
 
