@@ -1,6 +1,6 @@
 mybatis热部署是为了方便开发调试。
 
-com.cnnct.utils包下的MybatisMapperRefresher.java实现了此功能，需要在applicationContxt-service.xml配置
+increator.base包下的MybatisMapperRefresher.java实现了此功能，需要在applicationContxt-service.xml配置
 
 ![](/assets/mybatis-refresher.png)
 
