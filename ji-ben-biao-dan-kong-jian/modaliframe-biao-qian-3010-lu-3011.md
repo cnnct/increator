@@ -29,6 +29,7 @@
   <script>
     function test() {
       $("#my_modal_lg_edit_iframe").attr("src","${base}/login/userLogin");
+      $("#my_modal_lg_edit").modal("show");
     }
   </script>
 
