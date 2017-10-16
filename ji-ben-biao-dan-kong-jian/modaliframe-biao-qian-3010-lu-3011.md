@@ -1,5 +1,7 @@
 # modal\_iframe**标签**
 
+#### 注：可参考角色管理、部门管理等功能模块。
+
 #### modal\_iframe**标签的属性 :**
 
 > modal\_iframe标签有4个属性
