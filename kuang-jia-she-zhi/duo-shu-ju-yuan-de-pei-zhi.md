@@ -77,22 +77,12 @@ suffix=oracle
     <property name="dataSource" ref="dataSource"></property>
     <property name="configLocation" value="classpath:config/mybatis/SqlMapConfig.xml" />
     <property name="databaseIdProvider" ref="databaseIdProvider"/>
-    <property name="mapperLocations">
-        <list>
-            <value>classpath:com.cnnct.mapper/*Mapper.xml</value>
-        </list>
-    </property>
 </bean>
 
 <bean id="sqlSessionFactory2" class="org.mybatis.spring.SqlSessionFactoryBean">
     <property name="dataSource" ref="dataSource2"></property>
     <property name="configLocation" value="classpath:config/mybatis/SqlMapConfig.xml" />
     <property name="databaseIdProvider" ref="databaseIdProvider"/>
-    <property name="mapperLocations">
-        <list>
-            <value>classpath:com.cnnct.mapperoracle/*MapperOracle.xml</value>
-        </list>
-    </property>
 </bean>
 ```
 
