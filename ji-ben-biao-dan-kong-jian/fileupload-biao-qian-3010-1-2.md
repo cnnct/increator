@@ -2,7 +2,23 @@
 
 #### file\_upload**单文件上传标签的属性 :**
 
-#### 注：使用文件上传（哪怕是普通的input type="file"）时，form表单最好加上enctype="multipart/form-data"属性，否则可能出现不选择文件提交到后台报错的问题。
+#### 注1：使用文件上传（哪怕是普通的input type="file"）时，form表单最好加上enctype="multipart/form-data"属性，否则可能出现不选择文件提交到后台报错的问题。
+
+#### 注2：后台接收含有此控件的表单提交时，controller方法的@RequestMapping中加上produces = "text/html; charset=UTF-8"，且该方法的返回值必须为String类型，否则会出现IE8和IE9下提交表单弹出下载提示的问题。示例如下：
+
+```
+    @RequestMapping(value="/save/{mark}", produces = "text/html; charset=UTF-8")
+    @ResponseBody
+    public String saveMerchantInfo(HttpServletRequest request, BsCardMerchantCust merchant, @PathVariable("mark") String mark,
+            @RequestParam(value="file1",required=false) MultipartFile file1, @RequestParam(value="file2",required=false) MultipartFile file2) {
+        ResultData resultData = new ResultData(Result_Code.SUCCESS);
+        //获取当前操作员信息
+        SysOperatorCust oper = getOper();
+        //执行保存
+        merchantServ.saveMerchantInfo(request, merchant, mark, oper, file1, file2);
+        return resultData.toString();
+    }
+```
 
 > file\_upload标签有4个属性分别为为id、name、size、label
 >
