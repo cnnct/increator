@@ -17,7 +17,7 @@
 
 > 这个工具类用来生成已有css图标样式文件，但又缺少demo直接图，可以用这个工具生成一个html预览页，详见下图所示。
 >
-> ![](/assets/FontIconCreator.png)
+> ![](/assets/fonticoncreator.png)
 
 * ### 自定义图标改造
 
