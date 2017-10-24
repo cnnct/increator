@@ -78,7 +78,7 @@
   * [单元测试](kai-fa-gui-fan/dan-yuan-ce-shi.md)
   * [开始coding啦...](kai-fa-gui-fan/hou-duan-kai-fa-gui-fan.md)
 * [附录](bei-zhu-zhu-yi.md)
-  * [lombok注解使用](fu-lu/lombozzhu-jie-shi-yong.md)
+  * [lomboz注解使用](fu-lu/lombozzhu-jie-shi-yong.md)
   * [gitbook使用注意事项【废弃】](fu-lu/gitsvn.md)
   * [mybatis乱码问题](fu-lu/mybatisshu-ju-lian-jie-chuan-yin-qi-luan-ma-wen-ti.md)
   * [gitbook和github结合](fu-lu/gitbookhe-github-jie-he.md)
