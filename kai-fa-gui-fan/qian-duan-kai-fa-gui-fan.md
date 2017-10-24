@@ -25,7 +25,7 @@
 
 > 除了框架自带的图标外，可以按照需要加入自定义图标，**但必须按照规范操作**，否则图标会越来越多，越来越乱。
 >
-> 自定义图标目录：![](/assets/font_increator_dir.png)
+> 自定义图标目录：![](file:///C:\Users\Administrator.USER-20170419MQ\AppData\Roaming\Tencent\Users\12452964\QQ\WinTemp\RichOle\VE`C69V09P1DR1}N2WRLNKA.png)
 >
 > 操作方法如下：
 >
