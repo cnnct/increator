@@ -76,23 +76,11 @@ suffix=oracle
 <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
     <property name="dataSource" ref="dataSource"></property>
     <property name="configLocation" value="classpath:config/mybatis/SqlMapConfig.xml" />
-    <property name="databaseIdProvider" ref="databaseIdProvider"/>
-    <property name="mapperLocations">
-        <list>
-            <value>classpath:com.cnnct.mapper/*Mapper.xml</value>
-        </list>
-    </property>
 </bean>
 
 <bean id="sqlSessionFactory2" class="org.mybatis.spring.SqlSessionFactoryBean">
     <property name="dataSource" ref="dataSource2"></property>
     <property name="configLocation" value="classpath:config/mybatis/SqlMapConfig.xml" />
-    <property name="databaseIdProvider" ref="databaseIdProvider"/>
-    <property name="mapperLocations">
-        <list>
-            <value>classpath:com.cnnct.mapperoracle/*MapperOracle.xml</value>
-        </list>
-    </property>
 </bean>
 ```
 
@@ -162,63 +150,63 @@ suffix=oracle
 
 #### 二、多数据源逆向工程
 
-#### 1.generatorConfig.xml文件配置，有几个数据源就配置几个DruidDataSource、SqlSessionFactoryBean、MapperScannerConfigurer，示例如下：
+#### 1.generatorConfig.xml文件配置
 
 #### 注：每次使用逆向工程为一个数据源生成文件后，就修改一下driverClass、connectionURL、userId、password以及3个targetPackage的值，还有&lt;table&gt;的tableName，配置上需要逆向工程生成文件的表，然后再执行逆向工程GeneratorSqlmap.java。
 
 ```
 <generatorConfiguration>
-	<properties resource="config/parameter/db.properties"/>
-	<context id="testTables" targetRuntime="MyBatis3" defaultModelType="flat">
-	    <!-- 生成PO类时序列化 -->
-	    <plugin type="org.mybatis.generator.plugins.SerializablePlugin" />
-		<commentGenerator>
-			<!-- 是否去除自动生成的注释 true：是 ： false:否 -->
-			<property name="suppressAllComments" value="true" />
-		</commentGenerator>
-		<!--数据库连接的信息：驱动类、连接地址、用户名、密码 -->
-		<jdbcConnection driverClass="${jdbc.driver}"
-			connectionURL="${jdbc.url}" userId="${jdbc.username}"
-			password="${jdbc.password}">
-		</jdbcConnection>
+    <properties resource="config/parameter/db.properties"/>
+    <context id="testTables" targetRuntime="MyBatis3" defaultModelType="flat">
+        <!-- 生成PO类时序列化 -->
+        <plugin type="org.mybatis.generator.plugins.SerializablePlugin" />
+        <commentGenerator>
+            <!-- 是否去除自动生成的注释 true：是 ： false:否 -->
+            <property name="suppressAllComments" value="true" />
+        </commentGenerator>
+        <!--数据库连接的信息：驱动类、连接地址、用户名、密码 -->
+        <jdbcConnection driverClass="${jdbc.driver}"
+            connectionURL="${jdbc.url}" userId="${jdbc.username}"
+            password="${jdbc.password}">
+        </jdbcConnection>
 
-		<!-- 默认false，把JDBC DECIMAL 和 NUMERIC 类型解析为 Integer，为 true时把JDBC DECIMAL 和
-			NUMERIC 类型解析为java.math.BigDecimal -->
-		<javaTypeResolver>
-			<property name="forceBigDecimals" value="false" />
-		</javaTypeResolver>
+        <!-- 默认false，把JDBC DECIMAL 和 NUMERIC 类型解析为 Integer，为 true时把JDBC DECIMAL 和
+            NUMERIC 类型解析为java.math.BigDecimal -->
+        <javaTypeResolver>
+            <property name="forceBigDecimals" value="false" />
+        </javaTypeResolver>
 
-		<!-- targetProject:生成PO类的位置 -->
-		<javaModelGenerator targetPackage="com.cnnct.po"
-			targetProject=".\src">
-			<!-- enableSubPackages:是否让schema作为包的后缀 -->
-			<property name="enableSubPackages" value="false" />
-			<!-- 从数据库返回的值被清理前后的空格 -->
-			<property name="trimStrings" value="true" />
-		</javaModelGenerator>
+        <!-- targetProject:生成PO类的位置 -->
+        <javaModelGenerator targetPackage="com.cnnct.po"
+            targetProject=".\src">
+            <!-- enableSubPackages:是否让schema作为包的后缀 -->
+            <property name="enableSubPackages" value="false" />
+            <!-- 从数据库返回的值被清理前后的空格 -->
+            <property name="trimStrings" value="true" />
+        </javaModelGenerator>
         <!-- targetProject:mapper映射文件生成的位置 -->
-		<sqlMapGenerator targetPackage="com.cnnct.mapper"
-			targetProject=".\src">
-			<!-- enableSubPackages:是否让schema作为包的后缀 -->
-			<property name="enableSubPackages" value="false" />
-		</sqlMapGenerator>
-		<!-- targetPackage：mapper接口生成的位置 -->
-		<javaClientGenerator type="XMLMAPPER"
-			targetPackage="com.cnnct.mapper"
-			targetProject=".\src">
-			<!-- enableSubPackages:是否让schema作为包的后缀 -->
-			<property name="enableSubPackages" value="false" />
-		</javaClientGenerator>
- 		<!-- 
- 		<table tableName="bs_city" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"></table>
- 		<table tableName="bs_pay_org" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"></table>
- 		
- 		<table tableName="sys_action_log" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false">
+        <sqlMapGenerator targetPackage="com.cnnct.mapper"
+            targetProject=".\src">
+            <!-- enableSubPackages:是否让schema作为包的后缀 -->
+            <property name="enableSubPackages" value="false" />
+        </sqlMapGenerator>
+        <!-- targetPackage：mapper接口生成的位置 -->
+        <javaClientGenerator type="XMLMAPPER"
+            targetPackage="com.cnnct.mapper"
+            targetProject=".\src">
+            <!-- enableSubPackages:是否让schema作为包的后缀 -->
+            <property name="enableSubPackages" value="false" />
+        </javaClientGenerator>
+         <!-- 
+         <table tableName="bs_city" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"></table>
+         <table tableName="bs_pay_org" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"></table>
+
+         <table tableName="sys_action_log" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false">
              <columnOverride column="message" javaType="java.lang.String" jdbcType="VARCHAR"/>
              <columnOverride column="in_data" javaType="java.lang.String" jdbcType="VARCHAR"/>
              <columnOverride column="out_data" javaType="java.lang.String" jdbcType="VARCHAR"/>
- 		</table>
-	</context>
+         </table>
+    </context>
 </generatorConfiguration>
 ```
 

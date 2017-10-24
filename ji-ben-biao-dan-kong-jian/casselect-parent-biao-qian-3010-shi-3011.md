@@ -32,11 +32,15 @@
 > >
 > > **\* show\_field ：** show\_field属性是指cas\_select\_parent标签选项option的text值是用表中哪个字段来赋值；
 > >
-> > **\* child\_info ：** child\_info属性是cas\_select\_parent标签记录下一级的信息的属性；
+> > **\* child\_info【1.3】 ：** child\_info属性是cas\_select\_parent标签记录下一级的信息的属性；
 > >
-> > 如child\_info="child,sysfunc3,TITLE,FUNC\_ID",其中第一项为子级的id，第二项为子级加载数据要执行的sql\_key的值，第三
+> >（ 如child\_info="child,sysfunc3,TITLE,FUNC\_ID",其中第一项为子级的id，第二项为子级加载数据要执行的sql\_key的值，第三
 > >
-> > 项为子级option的text值是用表中哪个字段来赋值，第四项为子级option的value值是由表中哪个字段来赋值，**四项都为必填值**
+> > 项为子级option的text值是用表中哪个字段来赋值，第四项为子级option的value值是由表中哪个字段来赋值，**四项都为必填值**）
+【1.3】版本后忽略上面括号部分采用如下形式：
+child_info=[
+									{"child_id":"parent_brch_id","sql_key":"sysbrch3","show_field":"brch_name","value_field":"brch_id"}
+								]  
 > >
 > > **default\_val :** default\_val属性是指cas\_select\_parent标签的默认选中值，该值为option的value值
 > >
@@ -64,12 +68,15 @@
 > >
 > > **readonly ：** readonly为只读属性,可以填写的数值为"true","false",默认为false
 > >
-> > **child\_info  ：** child\_info属性是cas\_select\_child标签记录下一级的信息的属性；
+> > **child\_info 【1.3】 ：** child\_info属性是cas\_select\_child标签记录下一级的信息的属性；
 > >
-> > 如child\_info="child,sysfunc3,TITLE,FUNC\_ID",其中第一项为子级的id，第二项为子级加载数据要执行的sql\_key的值，第三
+> > （如child\_info="child,sysfunc3,TITLE,FUNC\_ID",其中第一项为子级的id，第二项为子级加载数据要执行的sql\_key的值，第三
 > >
-> > 项为子级option的text值是用表中哪个字段来赋值，第四项为子级option的value值是由表中哪个字段来赋值，**四项都为必填值，但是如果该级为最后一级则child\_info属性不必存在**
->
+> > 项为子级option的text值是用表中哪个字段来赋值，第四项为子级option的value值是由表中哪个字段来赋值，**四项都为必填值，但是如果该级为最后一级则child\_info属性不必存在**）
+【1.3】版本后忽略上面括号部分采用如下形式：
+child_info=[
+									{"child_id":"parent_brch_id","sql_key":"sysbrch3","show_field":"brch_name","value_field":"brch_id"}
+
 > **\* 以下几个属性特别注意，当级联需要默认值时下面sql\_key、value\_field、show\_field为必填项，  
 > 一般情况不需要加入下面几个属性 **
 >

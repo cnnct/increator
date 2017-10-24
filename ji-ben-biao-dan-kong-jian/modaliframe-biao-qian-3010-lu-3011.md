@@ -1,5 +1,7 @@
 # modal\_iframe**标签**
 
+#### 注：可参考角色管理、部门管理等功能模块。
+
 #### modal\_iframe**标签的属性 :**
 
 > modal\_iframe标签有4个属性
@@ -29,6 +31,7 @@
   <script>
     function test() {
       $("#my_modal_lg_edit_iframe").attr("src","${base}/login/userLogin");
+      $("#my_modal_lg_edit").modal("show");
     }
   </script>
 
