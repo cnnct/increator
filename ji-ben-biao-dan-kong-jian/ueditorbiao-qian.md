@@ -1,5 +1,6 @@
 # ueditor**富文本标签**
 
+####注意：ueditor标签只能引入到独立页面中，如iframe，不要在单独的modal模态框中使用，不然会在ie9以下出现问题
 #### ueditor**标签的属性 :**
 
 > ueditor标签有2个属性分别为为id、name；
