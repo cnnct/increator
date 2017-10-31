@@ -131,7 +131,7 @@
   * @param modalId form表单提交时的modalId
   * @param tableSearchDataJson 表格查询所需的过滤数据，表格查询时不能为空
   * @param tableId 表格Id值，必须传
-  * @param buttonId 控制重复提交的按钮，可以不填
+  * @param buttonId 控制重复提交的按钮，可以不填【1.3】
   */
     postform(obj)
   ```
