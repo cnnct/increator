@@ -1,17 +1,17 @@
 mybatis热部署是为了方便开发调试。
 
-需要在para.properties中配置
+需要在para.properties中配置：
+
+mybatis\_refresh为true时启用，false时禁用。
+
+mybatis\_refresh\_info使用Json格式，key为SqlSessionFactoryBean的beanName，value为\*Mapper\*.xml的目录。
 
 ```
-    <!-- 用于Mybatis热部署,开发环境时使用,生产环境禁用,注释掉 -->
-    <bean id="mybatisMapperRefresh" class="increator.base.MybatisMapperRefresher" />
+#mybatis_refresh: true or false
+mybatis_refresh=true
+#mybatis_refresh_info: use json: key is SqlSessionFactoryBean's Name; value is *Mapper*.xml's directory
+mybatis_refresh_info={"sqlSessionFactory":"com/cnnct/mapper"}
 ```
 
-这样在项目启动的时候，会自动去加载这个类，这个类就启动了一个线程定时去读取xml配置文件，获取文件的大小和修改时间。如果下次读取的时候发现大小或者最后修改时间和之前不一致那么就重新加载配置文件。
 
-![](/assets/mybatis-refresher-path.png)这里是读取的xml配置文件路径。
-
-注意：
-
-intellij 需要增修改xml配置文件之后，切换到xml文件编译后目录才能实现文件的自动编译刷新。
 
