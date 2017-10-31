@@ -4,7 +4,7 @@ mybatis热部署是为了方便开发调试。
 
 mybatis\_refresh为true时启用，false时禁用。
 
-mybatis\_refresh\_info使用Json格式，key为SqlSessionFactoryBean的beanName，value为\*Mapper\*.xml的目录。
+mybatis\_refresh\_info使用Json格式，key为SqlSessionFactoryBean的beanName，value为\*Mapper\*.xml文件所在的目录。
 
 ```
 #mybatis_refresh: true or false
