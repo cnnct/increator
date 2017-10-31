@@ -1,6 +1,6 @@
 mybatis热部署是为了方便开发调试。
 
-increator.base包下的MybatisMapperRefresher.java实现了此功能，需要在applicationContxt-dao.xml配置
+需要在para.properties中配置
 
 ```
     <!-- 用于Mybatis热部署,开发环境时使用,生产环境禁用,注释掉 -->
