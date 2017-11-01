@@ -70,6 +70,7 @@
 
 ![](/assets/validate1.png)
 ![](/assets/form8.png)
+注意：哪些标签使用remote需要上图同步验证将会在标签中提醒
 #### form表单显示结果 :
 
 ![](/assets/validate2.png)
