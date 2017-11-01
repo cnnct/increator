@@ -69,7 +69,7 @@
 #### ![](/assets/form1.png)form表单的引入方式 :
 
 ![](/assets/validate1.png)
-
+![](/assets/form8.png)
 #### form表单显示结果 :
 
 ![](/assets/validate2.png)
