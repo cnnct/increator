@@ -1,7 +1,7 @@
 # search\_input**标签**
 
 #### search\_input**标签的属性 :**
-
+注意：remote验证需要开启同步验证属性，详细见form标签
 > search\_input标签有8个属性
 >
 > **其中必填项加上了\*号，如下所示 :**
