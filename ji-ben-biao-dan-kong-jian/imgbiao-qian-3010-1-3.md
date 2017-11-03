@@ -16,7 +16,7 @@
 > >
 > > label="name" ；label="name,,2" 即三个值都非必填项
 >>
-> > **size ：** size为尺寸标签,可以填的数值范围为（1-12）,如size="6",button标签的默认size为1
+> > **size ：** size为尺寸标签,可以填的数值范围为（1-12）,如size="6",img标签的默认size为1
 > >
 > > ** \*src：** src属性为指向图片指向的ftp地址
 #### img标签的引入方式 :
