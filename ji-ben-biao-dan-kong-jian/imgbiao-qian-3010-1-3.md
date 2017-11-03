@@ -2,7 +2,7 @@
 
 #### img**标签的属性 :**
 
-> button标签有4个属性分别为为id、size、label、src；
+> img标签有4个属性分别为为id、size、label、src，显示原图的缩略图，点击时显示原图；
 >
 > **其中id、src为必填项,下面必填项加上了\*号**；
 >
@@ -21,13 +21,8 @@
 
 #### button标签的显示结果 :
 
-![](/assets/button.png)
+![](/assets/img1.png)
 
-#### button图标使用，icon="xxxxxx"，值取样式表名称的“-”横线后的字符串，如下图所示
-
-[http://v3.bootcss.com/components/](http://v3.bootcss.com/components/)
-
-![](/assets/icon-font03.png)
 
 
 
