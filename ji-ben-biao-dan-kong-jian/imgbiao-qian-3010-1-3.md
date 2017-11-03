@@ -6,7 +6,7 @@
 >
 > **其中id、src为必填项,下面必填项加上了\*号**；
 >
-> > **id ：** id属性
+> > ** \*id ：** id属性
 > >
 > > **label :** label为select标签的前缀标签属性,如label="name,true,2"；其中label属性中含有三个值，
 > >
@@ -18,7 +18,7 @@
 >>
 > > **size ：** size为尺寸标签,可以填的数值范围为（1-12）,如size="6",button标签的默认size为1
 > >
-> > **src：** class属性
+> > ** \*src：** class属性
 #### img标签的引入方式 :
 
 ```
