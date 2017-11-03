@@ -13,13 +13,13 @@
 > > **size ：** size为尺寸标签,可以填的数值范围为（1-12）,如size="6",button标签的默认size为1
 > >
 > > **src：** class属性
-#### button标签的引入方式 :
+#### img标签的引入方式 :
 
 ```
    <@img label="示例图" size="6" id="testimg" src="http://192.168.153.1:8090/img.jpg"/>
 ```
 
-#### button标签的显示结果 :
+#### img标签的显示结果 :
 
 ![](/assets/img1.png)
 
