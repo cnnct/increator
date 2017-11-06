@@ -22,9 +22,9 @@
 </script>
 ```
 
-#### 相关配置：
+#### 相关配置及关联文件：
 
-> /config/parameter/para.properties
+> * /config/parameter/para.properties
 >
 > ```
 > #读卡控件相关配置
