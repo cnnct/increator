@@ -24,7 +24,7 @@
 
 #### 相关配置：
 
-
+> /config/parameter/para.properties
 
 #### 效果示例图：
 
