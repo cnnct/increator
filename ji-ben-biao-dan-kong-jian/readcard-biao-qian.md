@@ -32,6 +32,8 @@
 > readcard_ocx_version=1.0.0.1
 > readcard_ocx_clsid=00A78B01-6080-4769-AD98-4D66A35B2D0E
 > ```
+>
+> * /ocx/readcard/read\_card.js：封装所在读写卡相关的js方法api。
 
 #### 效果示例图：
 
