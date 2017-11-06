@@ -26,3 +26,7 @@
 
 ![](/assets/readcard1.png)
 
+#### 效果示例图：
+
+
+
