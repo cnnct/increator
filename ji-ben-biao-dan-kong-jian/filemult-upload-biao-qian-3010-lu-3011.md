@@ -4,8 +4,6 @@
 
 #### 注1：此标签在modal\_body,modal\_foot中存在问题,可以使用modal\_iframe代替。
 
-#### 注2：使用文件上传（哪怕是普通的input type="file"）时，form表单最好加上enctype="multipart/form-data"属性，否则可能出现不选择文件提交到后台报错的问题。
-
 > file\_mult\_upload标签有5个属性
 >
 > **其中必填项加上了\*号，如下所示 :**
