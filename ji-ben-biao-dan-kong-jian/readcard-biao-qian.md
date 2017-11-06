@@ -15,5 +15,7 @@
 </@init_page>
 ```
 
+例子：
 
+![](/assets/readcard.png)
 
