@@ -1,6 +1,6 @@
 # read\_card标签
 
-## 代码示例
+#### 代码示例
 
 ```
 <@init_page title="部门管理">
