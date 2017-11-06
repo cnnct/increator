@@ -126,7 +126,6 @@
 
   /**
   * ajax表单提交，只针对表格
-  * obj参数中可以传的参数有如下
   * @param url 提交地址
   * @param formId 表单id，可为空
   * @param convertName 需转换的name属性，可为空，例子："role1.id,role2.id ..."
@@ -135,7 +134,6 @@
   * @param tableId 表格Id值，必须传
   * @param updateTableUrl 【1.3】如果要修改表格加载数据的url地址加入这一项
   */
-    postform(obj)
     postform({
         	"tableId":"mytable",
         	"url":"${base}/sys/auth/brch/save/add",
