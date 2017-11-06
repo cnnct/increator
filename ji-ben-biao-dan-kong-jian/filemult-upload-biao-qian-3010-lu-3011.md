@@ -32,7 +32,12 @@
 
 #### 后台接收上传的文件时注意事项 :
 
-1、不管是普通的上传文件，还是file\_mult\_upload标签上传文件，方法返回值必须为String，于此同时，@RequestMapping中加入produces = "text/html; charset=UTF-8"解决乱码问题。
+1、不管是普通的上传文件，还是file\_mult\_upload标签上传文件，方法返回值必须为String  
+，于此同时，@RequestMapping中加入produces = "text/html; charset=UTF-8"解决乱码问题。如下：
+
+```
+@RequestMapping(value="/uploadMultFile", produces = "text/html; charset=UTF-8")
+```
 
 2、不管是普通的上传文件，还是file\_mult\_upload标签上传文件，推荐使用后台controller参数中加如下参数获取文件的方式：
 
