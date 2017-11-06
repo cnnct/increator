@@ -46,7 +46,9 @@
 >
 > ECharts整合插件：  [https://github.com/abel533/ECharts](https://github.com/abel533/ECharts)
 >
-> web端打印插件JQuery.print：
+> web端打印插件JQuery.print：![](file:///C:\Users\Administrator.USER-20170419MQ\AppData\Roaming\Tencent\TIM\Temp\%W@GJ$ACOF%28TYDYECOKVDYB.png)
+>
+> https://github.com/posabsolute/jQuery-printPage-plugin
 
 
 
