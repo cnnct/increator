@@ -43,6 +43,8 @@
 > gradle下载：[http://www.gradle.org/downloads](http://www.gradle.org/downloads)
 >
 > spring tool suite 插件：[http://spring.io/tools/sts/all/](http://spring.io/tools/sts/all/)
+>
+> ECharts整合插件：   https://github.com/abel533/ECharts
 
 
 
