@@ -9,7 +9,7 @@
     <#-- ===================== 查询栏 ===================== -->
     <@query_bar id="queryForm">
         <@form_group class="row">
-            
+            <@input label="卡号" id="cardNo" name="cardNo"  size="2"  />
             <@button  value="读卡" onclick="readcard()" icon="credit-card"  />
         </@form_group>
     </@query_bar>
