@@ -9,13 +9,11 @@
         <@form_group class="row">
               <@button  value="查询" onclick="queryInfo()" auth_key="brch_query"/>
         </@form_group>
-    </@query_bar>    
+    </@query_bar>
 </@init_page>
 ```
 
 例子：
 
 ![](/assets/readcard1.png)
-
-
 
