@@ -22,7 +22,7 @@
 </script>
 ```
 
-例子：
+效果例子：
 
 ![](/assets/readcard1.png)
 
