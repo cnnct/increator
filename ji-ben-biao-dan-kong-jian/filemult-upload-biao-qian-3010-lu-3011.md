@@ -23,7 +23,7 @@
 #### file\_mult\_upload标签的引入方式 :
 
 ```
-<@file_mult_upload id="test_upload2" name="test_upload_name2" size="3" url="/tag/uploadMultFile" />
+<@file_mult_upload id="test_upload2" name="test_upload_name2" size="3" url="${base}/tag/uploadMultFile" />
 ```
 
 #### file\_mult\_upload标签显示效果图 :
