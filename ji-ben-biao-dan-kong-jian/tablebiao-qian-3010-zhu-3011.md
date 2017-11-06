@@ -136,6 +136,12 @@
   * @param updateTableUrl 【1.3】如果要修改表格加载数据的url地址加入这一项
   */
     postform(obj)
+    postform({
+        	"tableId":"mytable",
+        	"url":"${base}/sys/auth/brch/save/add",
+        	"formId":"add_form",
+        	"modalId":"modal_add"
+        });
   ```
 
 
