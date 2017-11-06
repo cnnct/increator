@@ -25,6 +25,13 @@
 #### 相关配置：
 
 > /config/parameter/para.properties
+>
+> ```
+> #读卡控件相关配置
+> readcard_ocx_codebase=ICCInterActiveXT.CAB
+> readcard_ocx_version=1.0.0.1
+> readcard_ocx_clsid=00A78B01-6080-4769-AD98-4D66A35B2D0E
+> ```
 
 #### 效果示例图：
 
