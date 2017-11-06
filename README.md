@@ -48,7 +48,7 @@
 >
 > web端打印插件JQuery.print源代码：[https://github.com/posabsolute/jQuery-printPage-plugin](https://github.com/posabsolute/jQuery-printPage-plugin)
 >
-> 测试页面：[http://www.position-absolute.com/creation/print/](http://www.position-absolute.com/creation/print/)
+> web端打印插件JQuery.print测试页面：[http://www.position-absolute.com/creation/print/](http://www.position-absolute.com/creation/print/)
 
 
 
