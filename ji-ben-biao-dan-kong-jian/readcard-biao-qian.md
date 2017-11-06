@@ -8,22 +8,21 @@
     <@query_bar id="queryForm">
         <@form_group class="row">
               <@button  value="读卡" onclick="readcard()" icon="credit-card"  />
-
         </@form_group>
     </@query_bar>
 </@init_page>
 <@read_card />
-		<@form_group class="row">
-	        <@input label="卡号" id="cardNo" name="cardNo"  size="2"  />
-			<@button  value="读卡" onclick="readcard()" icon="credit-card"  />
-		</@form_group>
-		<script>
-			<#-- 读卡 -->
-			function readcard() {
-				//getCardInfo方法位于/ocx/readcard/read_card.js中
-		    	getCardInfo("cardNo");
-		    }
-		</script>
+        <@form_group class="row">
+            <@input label="卡号" id="cardNo" name="cardNo"  size="2"  />
+            <@button  value="读卡" onclick="readcard()" icon="credit-card"  />
+        </@form_group>
+        <script>
+            <#-- 读卡 -->
+            function readcard() {
+                //getCardInfo方法位于/ocx/readcard/read_card.js中
+                getCardInfo("cardNo");
+            }
+        </script>
 ```
 
 例子：
