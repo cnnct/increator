@@ -47,6 +47,8 @@
 > ECharts整合插件：  [https://github.com/abel533/ECharts](https://github.com/abel533/ECharts)
 >
 > web端打印插件JQuery.print：[https://github.com/posabsolute/jQuery-printPage-plugin](https://github.com/posabsolute/jQuery-printPage-plugin)
+>
+> 测试页面http://www.position-absolute.com/creation/print/
 
 
 
