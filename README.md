@@ -44,7 +44,7 @@
 >
 > spring tool suite 插件：[http://spring.io/tools/sts/all/](http://spring.io/tools/sts/all/)
 >
-> ECharts整合插件：   https://github.com/abel533/ECharts
+> ECharts整合插件：  [https://github.com/abel533/ECharts](https://github.com/abel533/ECharts)
 
 
 
