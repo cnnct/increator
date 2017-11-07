@@ -163,7 +163,7 @@ suffix=oracle
 >
 > /src/com/cnnct/mapper/表名Mapper.java"
 >
-> src/com/cnnct/mapper/"+s+"Mapper.xml
+> src/com/cnnct/mapper/表名Mapper.xml
 
 ```
 <generatorConfiguration>
