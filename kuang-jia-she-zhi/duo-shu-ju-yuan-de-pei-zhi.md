@@ -156,8 +156,7 @@ suffix=oracle
 
 > * #### 每次使用逆向工程为一个数据源生成文件后，就修改一下driverClass、connectionURL、userId、password以及3个targetPackage的值，还有&lt;table&gt;的tableName，配置上需要逆向工程生成文件的表，然后再执行逆向工程GeneratorSqlmap.java。
 > * #### 每次运行GeneratorSqlmap.java生成文件时，会自动删除原来前一次自动生成的同名文件，因此使用前一定注意是否这三个文件有做过个性化修改
-
-
+> * #### 基础实体类和基础的mapper尽量不要去修改，若要修改或增加功能，在custom中进行处理
 
 ```
 <generatorConfiguration>
