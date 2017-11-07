@@ -14,7 +14,7 @@
 
 # 相关学习视频
 
-> springm+mybatis介绍：[01\_2017-06-28\_springmvc+mybatis\_曲雍杰](http://pan.baidu.com/s/1c1u7Wa)
+> springm+mybatis介绍：[01\_2017-06-28\_springmvc+mybatis\_曲雍杰](http://pan.baidu.com/s/1nvj25BF)
 >
 > 基础控件介绍：[02\_2017-07-11\_前端页面标签\_施世勇](http://pan.baidu.com/s/1cElUs2)
 >
