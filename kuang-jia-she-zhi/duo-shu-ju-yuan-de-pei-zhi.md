@@ -159,7 +159,7 @@ suffix=oracle
 > * #### 因此，鉴于前一事项，建议基础实体类和基础的mapper尽量不要去修改，若要修改或增加功能，在custom中进行处理。
 > * #### 以上提到的三个基础文件为别为：
 >
-> /src/com/cnnct/po/表名.java
+> /src/com/cnnct/po/表名.java，对应的custom文件：/src/com/cnnct/po/custom/表名.java
 >
 > /src/com/cnnct/mapper/表名Mapper.java
 >
