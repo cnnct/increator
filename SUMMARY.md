@@ -74,6 +74,7 @@
     * [日期工具类DateUtil使用](kuang-jia-she-zhi/dateutilshi-yong.md)
     * [excel导入导出工具使用【1.2】](kuang-jia-she-zhi/exceldao-ru-dao-chu-gong-ju-shi-yong-3010-1-2.md)
     * 字符串工具类Tools使用
+    * [mybatis逆向生成工具类GeneratorSqlmap](kuang-jia-she-zhi/mybatisni-xiangsheng-cheng-gong-ju-lei-generatorsqlmap.md)
   * [Redis的使用](kuang-jia-she-zhi/redisde-shi-yong.md)
   * [动态sql的使用](kuang-jia-she-zhi/dong-tai-sql-de-shi-yong.md)
 * [开发规范](kai-fa-gui-fan.md)
