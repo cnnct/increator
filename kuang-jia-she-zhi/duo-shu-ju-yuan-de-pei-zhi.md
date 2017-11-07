@@ -161,7 +161,7 @@ suffix=oracle
 >
 > /src/com/cnnct/po/表名.java"
 >
-> /src/com/cnnct/mapper/表Mapper.java"
+> /src/com/cnnct/mapper/表名Mapper.java"
 >
 > src/com/cnnct/mapper/"+s+"Mapper.xml
 
