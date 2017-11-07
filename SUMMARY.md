@@ -71,7 +71,9 @@
   * [HttpClient的使用](kuang-jia-she-zhi/httpclientde-shi-yong.md)
   * [工具类使用【1.2】](kuang-jia-she-zhi/gong-ju-shi-yong.md)
     * [加解密工具使用【1.2】](kuang-jia-she-zhi/jia-jie-mi-gong-ju-shi-yong-3010-1-2.md)
+    * [日期工具类DateUtil使用](kuang-jia-she-zhi/dateutilshi-yong.md)
     * [excel导入导出工具使用【1.2】](kuang-jia-she-zhi/exceldao-ru-dao-chu-gong-ju-shi-yong-3010-1-2.md)
+    * 字符串工具类Tools使用
   * [Redis的使用](kuang-jia-she-zhi/redisde-shi-yong.md)
   * [动态sql的使用](kuang-jia-she-zhi/dong-tai-sql-de-shi-yong.md)
 * [开发规范](kai-fa-gui-fan.md)
