@@ -161,9 +161,9 @@ suffix=oracle
 >
 > /src/com/cnnct/po/表名.java，对应的custom文件：/src/com/cnnct/po/custom/表名.java
 >
-> /src/com/cnnct/mapper/表名Mapper.java
+> /src/com/cnnct/mapper/表名Mapper.java，对应的custom文件：
 >
-> src/com/cnnct/mapper/表名Mapper.xml
+> /src/com/cnnct/mapper/表名Mapper.xml，对应的custom文件：
 
 ```
 <generatorConfiguration>
