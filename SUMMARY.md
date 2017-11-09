@@ -7,6 +7,7 @@
     * [V1.2](ban-ben-geng-xin-shuo-ming/v12.md)
     * [V1.2.1](ban-ben-geng-xin-shuo-ming/v121.md)
     * [V1.2.2](ban-ben-geng-xin-shuo-ming/v122.md)
+    * [V1.3](ban-ben-geng-xin-shuo-ming/v13.md)
   * [框架代码获取](kuang-jia-dai-ma-huo-qu.md)
   * [框架key管理](kuang-jia-key-guan-li.md)
   * [团队介绍](zuo-zhe-jie-shao.md)
