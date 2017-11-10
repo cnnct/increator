@@ -68,7 +68,9 @@
 >         // sql条件（用于sql语句中where的筛选条件，若有，则如下写法）
 >         resultData.put("org_id", getOper().getOrgId());
 >         //①分页参数
->         //②并将参数放入缓存中，供报表使用，其中第三个入参url是用于jasper打印，需要额外增加的入参
+>         // ②并将参数放入缓存中，供报表使用，
+> 	//	其中第三个入参是用于jasper打印，需要额外增加的入参，实际就是一个map的key
+> 	//      可以是任意不重复的值（需要pdf打印的功能不能重复），一般就用当前url比较好理解
 >         resultData = getPageMap(request,resultData,"/sys/auth/brch/query");
 >         //获取部门列表        
 >         List<Map> brchList = brchServ.getBrchList(resultData);
@@ -95,7 +97,7 @@
 > //        model.addAttribute("format", "pdf"); // 若不设置此属性，则默认pdf,报表格式,html,xls,pdf，pdf效果最好
 >         
 >         //③数据源，先查询条件，可从缓存中获取，也可重新赋值
-> 		//入参即为对应在的查询功能缓存的查询条件的map的key，其key值与queryBrchInfo方法中指定key为同一个
+>         //入参即为对应在的查询功能缓存的查询条件的map的key，其key值与queryBrchInfo方法中指定key为同一个
 >         Map reportMap=super.getTableSearchData("/sys/auth/brch/query");
 >         model.addAttribute("jrMainDataSource", brchServ.getBrchList(reportMap));
 >         
