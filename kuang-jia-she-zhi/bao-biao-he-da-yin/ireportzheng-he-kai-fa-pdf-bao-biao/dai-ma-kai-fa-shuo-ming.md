@@ -1,4 +1,4 @@
-# 
+# 注意：ireport报表打印应用于对一些有查询结果集的报表的打印。若仅只是凭证页或单张报表打印，可详见“[单面凭证报表打印开发](/kuang-jia-she-zhi/bao-biao-he-da-yin/dan-ye-ping-zheng-bao-biao-da-yin-kai-fa.md)”章节。
 
 # 
 
