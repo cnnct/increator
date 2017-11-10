@@ -3,10 +3,6 @@
 > * ###### ireport报表打印应用于对一些有查询结果集的报表的打印。若仅只是凭证页或单张报表打印，可详见“[单面凭证报表打印开发](/kuang-jia-she-zhi/bao-biao-he-da-yin/dan-ye-ping-zheng-bao-biao-da-yin-kai-fa.md)”章节。
 > * ###### 由于是结结果集的打印，一般数据量会有些大，因此本功能未插入sys\_report表保存历史打印数据，不会在凭证重打功能中显示查询。
 
-# 
-
-# 
-
 # 第一步，使用ireport工具绘制报表
 
 > ireport使用说明详见“[ireport使用说明](/kuang-jia-she-zhi/bao-biao-he-da-yin/ireportzheng-he-kai-fa-pdf-bao-biao/ireportshi-yong-shuo-ming.md)”，绘制完成的报表文件后缀名为jrxml，并同步编译成二进制报表文件，后缀名为jasper，两个文件一并拷贝到web目录中的reportfiles中，文件命名规则同普通页面命名相同，英文小写+下划线组合，能根据文件名就能看出是什么报表。
