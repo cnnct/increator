@@ -13,8 +13,6 @@
     private BaseMapper baseMapper;
 ```
 
-2.使用示例
-
 ```
 List<Map<String, Object>> list = baseMapper.selectList("select * from sys_func");
 ```
