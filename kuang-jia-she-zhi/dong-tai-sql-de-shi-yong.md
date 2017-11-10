@@ -6,8 +6,6 @@
 
 示例如下：
 
-1.自动注入BaseMapper
-
 ```
     @Autowired
     private BaseMapper baseMapper;
