@@ -41,5 +41,6 @@
 
 #### echarts标签后台加载option数据：
 ![](/assets/echarts2.png)
+后台写法参照https://oss.sonatype.org/content/repositories/releases/com/github/abel533/ECharts/2.2.7/
 
 
