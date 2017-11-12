@@ -1,0 +1,49 @@
+# echarts**标签**
+
+#### echarts**标签的属性 :**
+
+> echarts标签有8个属性分别为为id,size,name,class,position,option_url,interval_time,style；
+>
+> **其中id,option_url为必填项,下面必填项加上了\*号**；
+>
+> > **\*id ：** id属性
+> >
+> > **name ：** name属性
+> >
+> > **size ：** size为尺寸标签,可以填的数值范围为（1-12）,如size="6",button标签的默认size为4
+> >
+> > **class：** class属性
+> >
+> > **style:** style属性
+> >
+> > **\*option_url:** 为后台发送ajax去加载echarts的option数据
+> >
+> > **position:** 为位置，可以填写的值为left，center，right，默认left
+> >
+> > **interval_time:** 为定时器刷新时间，单位毫秒，如果有值则实时刷新图表
+
+
+#### button标签的引入方式 :
+
+```
+  <@echarts 
+		id="echarts_post" 
+		size="6" 
+		option_url="${base}/tag/echarts" 
+		position="center"
+		interval_time="10000"		
+		/>
+```
+
+#### button标签的显示结果 :
+
+![](/assets/button.png)
+
+#### button图标使用，icon="xxxxxx"，值取样式表名称的“-”横线后的字符串，如下图所示
+
+[http://v3.bootcss.com/components/](http://v3.bootcss.com/components/)
+
+![](/assets/icon-font03.png)
+
+
+
