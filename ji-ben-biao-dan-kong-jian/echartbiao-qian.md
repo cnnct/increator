@@ -23,7 +23,7 @@
 > > **interval_time:** 为定时器刷新时间，单位毫秒，如果有值则实时刷新图表
 
 
-#### button标签的引入方式 :
+#### echarts标签的引入方式 :
 
 ```
   <@echarts 
@@ -35,15 +35,10 @@
 		/>
 ```
 
-#### button标签的显示结果 :
+#### echarts标签的显示结果 :
 
 ![](/assets/button.png)
 
-#### button图标使用，icon="xxxxxx"，值取样式表名称的“-”横线后的字符串，如下图所示
-
-[http://v3.bootcss.com/components/](http://v3.bootcss.com/components/)
-
-![](/assets/icon-font03.png)
 
 
 
