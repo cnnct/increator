@@ -40,6 +40,6 @@
 ![](/assets/echarts1.png)
 
 #### echarts标签后台加载option数据：
-
+![](/assets/echarts2.png)
 
 
