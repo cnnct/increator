@@ -37,8 +37,9 @@
 
 #### echarts标签的显示结果 :
 
-![](/assets/button.png)
+![](/assets/echarts1.png)
 
+#### echarts标签后台加载option数据：
 
 
 
