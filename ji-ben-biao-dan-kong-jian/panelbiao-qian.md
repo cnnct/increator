@@ -8,7 +8,7 @@
 >
 > > **id ：** id属性
 > >
-> > **size ：** size为尺寸标签,可以填的数值范围为（1-12）,如size="6",button标签的默认size为4
+> > **size ：** size为尺寸标签,可以填的数值范围为（1-12）,如size="6",默认size为4
 > >
 > > **class：** class属性
 > >
