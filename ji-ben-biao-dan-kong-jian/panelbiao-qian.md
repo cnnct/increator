@@ -12,7 +12,7 @@
 > >
 > > **title:** title属性为标题属性
 >>
-> > **position: **按钮position属性,用于相对位置\(left：居左、center：居中、right：居右\)
+> > **position: **按钮position属性,用于相对位置\(left：居左、center：居中、right：居右\),默认left
 
 
 #### button标签的引入方式 :
@@ -29,8 +29,7 @@
 
 #### button标签的显示结果 :
 
-![](/assets/button.png)
-
+![](/assets/panel1.png)
 #### button图标使用，icon="xxxxxx"，值取样式表名称的“-”横线后的字符串，如下图所示
 
 [http://v3.bootcss.com/components/](http://v3.bootcss.com/components/)
