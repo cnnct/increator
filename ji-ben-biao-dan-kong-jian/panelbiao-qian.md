@@ -27,14 +27,10 @@
     </@panel>
 ```
 
-#### button标签的显示结果 :
+#### panel标签的显示结果 :
 
 ![](/assets/panel1.png)
-#### button图标使用，icon="xxxxxx"，值取样式表名称的“-”横线后的字符串，如下图所示
 
-[http://v3.bootcss.com/components/](http://v3.bootcss.com/components/)
-
-![](/assets/icon-font03.png)
 
 
 
