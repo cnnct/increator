@@ -15,7 +15,7 @@
 > > **position: **按钮position属性,用于相对位置\(left：居左、center：居中、right：居右\),默认left
 
 
-#### button标签的引入方式 :
+#### panel标签的引入方式 :
 
 ```
    <@panel id="testPanel" title="标题" position="center">
