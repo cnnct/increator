@@ -75,6 +75,7 @@
                     {"coordinate":"3,0","rowspan":"10"},
                     {"coordinate":"4,0","rowspan":"10"}
                 ]
+                callback="setPanelData"
                 />
   <!-- 所有提交的url地址的前缀都要加上 ${base}
   1. 表格控件必须的三个参数：url、thead、fields
