@@ -164,6 +164,7 @@
 > #### mapper\(dao\)层规范
 >
 > * 开发前先使用生成po和mapper，使用方法详见“[多数据源及逆向工程配置](/kuang-jia-she-zhi/duo-shu-ju-yuan-de-pei-zhi.md)”章节。
+> * mapper.xml中的sql语句，要求先在sql开发客户端工具中，编写调整格式化后，再粘贴到xml文件中，避免出现sql可读性很差的语句格式出现。
 
 
 
