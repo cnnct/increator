@@ -163,7 +163,7 @@
 >
 > #### mapper\(dao\)层规范
 >
-> * 开发前先使用生成po和mapper，使用方法详见“[mybitis逆向生成](/kuang-jia-she-zhi/mybatis/mybatisni-xiang-sheng-cheng.md)”章节。
+> * 开发前先使用生成po和mapper，使用方法详见“[多数据源及逆向工程配置](/kuang-jia-she-zhi/duo-shu-ju-yuan-de-pei-zhi.md)”章节。
 
 
 
