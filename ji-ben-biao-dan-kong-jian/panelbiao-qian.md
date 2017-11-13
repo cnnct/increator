@@ -19,12 +19,12 @@
 
 ```
    <@panel id="testPanel" title="标题" position="center">
-		<@form id="view_form">
-		<@form_group class="row">
-			<@span label="部门联系方式,,2"  value="15706796005"/>
-        </@form_group>
-    </@form>
-	</@panel>
+	<@form id="view_form">
+	    <@form_group class="row">
+		<@span label="部门联系方式,,2"  value="15706796005"/>
+            </@form_group>
+        </@form>
+    </@panel>
 ```
 
 #### button标签的显示结果 :
