@@ -1,6 +1,6 @@
 # Panel**标签**
 
-#### button**标签的属性 :**
+#### Panel**标签的属性 :**
 
 > button标签有9个属性分别为为id、name、size、type、class、icon、value、onclick、data\_target；
 >
