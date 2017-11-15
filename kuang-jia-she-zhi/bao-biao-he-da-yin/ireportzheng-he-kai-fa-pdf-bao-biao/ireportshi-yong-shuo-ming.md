@@ -55,7 +55,7 @@
 >
 > > 1、  选中要自动换行的text框，勾选中属性面板中的“StretchWith Overflow”属性
 > >
-> > 2、  选中该字段所在行的所有字段（包括行头），在“属性”面板中将“Stretch Type”设置为“Relative to Tallest Object”
+> > 2、  选中该字段所在行的所有字段（包括列头），在“属性”面板中将“Stretch Type”设置为“Relative to Tallest Object”
 
 
 
