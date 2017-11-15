@@ -17,3 +17,7 @@ List<Map<String, Object>> list = baseMapper.selectList("select * from sys_func")
 
 可以使用增删改查等方法。
 
+## 注意：除字段名不确定，表名不确定等这类特殊情况时之外，不要使用动态sql。
+
+
+
