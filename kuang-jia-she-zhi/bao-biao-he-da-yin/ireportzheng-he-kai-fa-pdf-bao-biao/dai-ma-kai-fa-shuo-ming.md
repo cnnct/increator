@@ -50,9 +50,13 @@
 > >
 > > ③指定数据源，默认使用原始查询列表的条件进行重新查询
 > >
-> > ④设置报表中其它所需要的自定义参数，一般是指p\_开头的变量
+> > ④获取计算报表所需要的合计行等数据
 > >
-> > ⑤返回视图页，一般固定为“reportView”
+> > ⑤设置报表中其它所需要的自定义参数，包括合计行数据，一**般是指p\_开头的变量**
+> >
+> > ⑥返回视图页，一般固定为“reportView”
+>
+> 3、ctrl代码示例
 >
 > ```
 >     /**
@@ -94,22 +98,109 @@
 >         model.addAttribute("url", "demo/brch_list.jasper");
 >         
 >         //②指定报表格式
-> //        model.addAttribute("format", "pdf"); // 若不设置此属性，则默认pdf,报表格式,html,xls,pdf，pdf效果最好
+>         //model.addAttribute("format", "pdf"); // 若不设置此属性，则默认pdf,报表格式,html,xls,pdf，pdf效果最好
 >         
 >         //③数据源，先查询条件，可从缓存中获取，也可重新赋值
 >         //入参即为对应在的查询功能缓存的查询条件的map的key，其key值与queryBrchInfo方法中指定key为同一个
 >         Map reportMap=super.getTableSearchData("/sys/auth/brch/query");
 >         model.addAttribute("jrMainDataSource", brchServ.getBrchList(reportMap));
 >         
->         //④其它参数
+>         //④取合计行，可举一反三，可计算多个合计数
+>         List<Map> list=brchServ.getBrchSum(reportMap);
+>         Map map=list.get(0);
+>         
+>         //⑤组装参数
+>         reportMap.put("p_TotAmt", map.get("level_sum"));//金额合计行，从上面的查询结果中获取（举例）
 >         reportMap.put("p_Title", "我是网点报表");
 >         reportMap.put("p_Auditor",super.getOperId());
 >         reportMap.put("p_Creator",super.getOperId());//从session中取当前操作员
 >         model.addAllAttributes(reportMap); // 其它参数
 >
->         //⑤返回视图页
+>         //⑥返回视图页
 >         return "reportView"; // 对应jasper-views.xml中的bean id
 >     }
+> ```
+>
+> 4、sqlmapper.xml代码示例，注意mysql和oracle的语法不同，详见下方代码注释说明：
+>
+> ```
+>     <!-- 获取部门列表，mysql语法 -->
+>     <!-- 其中 (@rownum:=@rownum+1)as rn 表示行号，注意oracle写法不一样-->
+>     <select id="getBrchList" parameterType="Map" resultType="Map" databaseId="mysql">
+>         select (@rownum:=@rownum+1)as rn, a.brch_id as id, a.brch_id, a.brch_name,a.img_wrap,a.img,
+>         case when a.parent_brch_id = '' then '-'
+>         else (select brch_name from sys_branch where brch_id=a.parent_brch_id)
+>         end parent_brch_id, a.open_oper_id,a.brch_state,
+>         o.img organ_img,
+>         <!-- 测试报表的格式化字符串，格式化2位小数，若空值则为0 -->
+>         CAST(IFNULL(a.BRCH_LEVEL,0) AS DECIMAL(10,2)) AS level
+>         from sys_branch a,sys_organ o,
+>         (select (@rownum :=0) ) b
+>         where  a.org_id=o.org_id
+>         and a.org_id=#{org_id}
+>         <!-- 判断是否有查询内容-start -->
+>         <if test="search.brchId != null and search.brchId != ''">
+>             AND a.brch_id=#{search.brchId}
+>         </if>
+>         <if test="search.brchName != null and search.brchName != ''">
+>             AND a.brch_name LIKE concat(concat('%', #{search.brchName}), '%')
+>         </if>
+>         <!-- 判断是否有查询内容-end -->
+>         <!-- 没有排序条件，自定义默认排序字段 -->
+>         <choose>
+>             <when test="order != null and order != ''">
+>                 ORDER BY ${order}
+>             </when>
+>             <!-- 默认按照用户创建时间倒序 -->
+>             <otherwise>ORDER BY a.brch_name asc</otherwise>
+>         </choose>
+>         <!-- 分页条件 -->
+>         <if test="start!=null and length>=0 ">
+>             limit #{start},#{length}
+>         </if>
+>     </select>
+>     
+>     <!-- 部门合计行，mysql语法此语句仅作为pdf报表打印测试用，忽略复杂业务逻辑，注意【先聚合计算再格式化】的先后顺序 -->
+>     <select id="getBrchSum" parameterType="Map" resultType="Map" databaseId="mysql">
+>        select CAST(sum(IFNULL(BRCH_LEVEL,0)) AS DECIMAL(10,2)) AS level_sum from sys_branch;
+>     </select>
+>     
+>     <!-- 部门列表，oracle语法 -->
+>     <select id="getBrchList" parameterType="Map" resultType="Map" databaseId="oracle">
+>     select * from (
+>         select rownum as rn, a.brch_id as id, a.brch_id, a.brch_name,a.img_wrap,a.img,
+>         case when a.parent_brch_id = '' then '-'
+>         else (select brch_name from sys_branch where brch_id=a.parent_brch_id)
+>         end parent_brch_id, a.open_oper_id,a.brch_state,
+>         o.img organ_img,
+>         to_char(nvl(a.BRCH_LEVEL,0),'fm999990.00') as level
+>         from sys_branch a,sys_organ o
+>         where  a.org_id=o.org_id
+>         and a.org_id=#{org_id}
+>         <!-- 判断是否有查询内容-start -->
+>         <if test="search.brchId != null and search.brchId != ''">
+>             AND a.brch_id=#{search.brchId}
+>         </if>
+>         <if test="search.brchName != null and search.brchName != ''">
+>             AND a.brch_name LIKE concat(concat('%', #{search.brchName}), '%')
+>         </if>
+>         <!-- 判断是否有查询内容-end -->
+>         <!-- 没有排序条件，自定义默认排序字段 -->
+>         <choose>
+>             <when test="order != null and order != ''">
+>                 ORDER BY ${order}
+>             </when>
+>             <!-- 默认按照用户创建时间倒序 -->
+>             <otherwise>ORDER BY a.brch_name asc</otherwise>
+>         </choose>
+>       )
+>       <!-- 分页条件 -->
+>             where rn &lt;= (#{start} + #{length}) and rn &gt; #{start}
+>     </select>
+>     <!-- 部门合计行，oracle语法 -->
+>     <select id="getBrchSum" parameterType="Map" resultType="Map" databaseId="oracle">
+>        select to_char(sum(nvl(BRCH_LEVEL,0)),'fm999990.00') AS level_sum from sys_branch
+>     </select>
 > ```
 
 
