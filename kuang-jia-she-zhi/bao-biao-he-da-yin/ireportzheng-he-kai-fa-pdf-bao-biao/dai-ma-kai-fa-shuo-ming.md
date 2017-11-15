@@ -93,29 +93,29 @@
 >     @RequestMapping("/showReport")
 >     public String showReport(HttpServletRequest request, Model model) throws Exception {
 >         //①动态指定报表模板url
-> 		model.addAttribute("url", "demo/brch_list.jasper");
-> 		
-> 		//②指定报表格式
-> //		model.addAttribute("format", "pdf"); // 若不设置此属性，则默认pdf,报表格式,html,xls,pdf，pdf效果最好
-> 		
-> 		//③数据源，先查询条件，可从缓存中获取，也可重新赋值
-> 		//入参即为对应在的查询功能缓存的查询条件的map的key，其key值与queryBrchInfo方法中指定key为同一个
-> 		Map reportMap=super.getTableSearchData("/sys/auth/brch/query");
-> 		model.addAttribute("jrMainDataSource", brchServ.getBrchList(reportMap));
-> 		
-> 		//④取合计行，可举一反三，可计算多个合计数
-> 		List<Map> list=brchServ.getBrchSum(reportMap);
-> 		Map map=list.get(0);
-> 		
-> 		//⑤组装参数
-> 		reportMap.put("p_TotAmt", map.get("level_sum"));//金额合计行，从上面的查询结果中获取（举例）
-> 		reportMap.put("p_Title", "我是网点报表");
-> 		reportMap.put("p_Auditor",super.getOperId());
-> 		reportMap.put("p_Creator",super.getOperId());//从session中取当前操作员
-> 		model.addAllAttributes(reportMap); // 其它参数
+>         model.addAttribute("url", "demo/brch_list.jasper");
+>         
+>         //②指定报表格式
+>         //model.addAttribute("format", "pdf"); // 若不设置此属性，则默认pdf,报表格式,html,xls,pdf，pdf效果最好
+>         
+>         //③数据源，先查询条件，可从缓存中获取，也可重新赋值
+>         //入参即为对应在的查询功能缓存的查询条件的map的key，其key值与queryBrchInfo方法中指定key为同一个
+>         Map reportMap=super.getTableSearchData("/sys/auth/brch/query");
+>         model.addAttribute("jrMainDataSource", brchServ.getBrchList(reportMap));
+>         
+>         //④取合计行，可举一反三，可计算多个合计数
+>         List<Map> list=brchServ.getBrchSum(reportMap);
+>         Map map=list.get(0);
+>         
+>         //⑤组装参数
+>         reportMap.put("p_TotAmt", map.get("level_sum"));//金额合计行，从上面的查询结果中获取（举例）
+>         reportMap.put("p_Title", "我是网点报表");
+>         reportMap.put("p_Auditor",super.getOperId());
+>         reportMap.put("p_Creator",super.getOperId());//从session中取当前操作员
+>         model.addAllAttributes(reportMap); // 其它参数
 >
-> 		//⑥返回视图页
-> 		return "reportView"; // 对应jasper-views.xml中的bean id
+>         //⑥返回视图页
+>         return "reportView"; // 对应jasper-views.xml中的bean id
 >     }
 > ```
 
