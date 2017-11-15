@@ -56,6 +56,8 @@
 > >
 > > ⑥返回视图页，一般固定为“reportView”
 >
+> 3、ctrl代码示例
+>
 > ```
 >     /**
 >      * 获取部门信息列表
@@ -118,6 +120,8 @@
 >         return "reportView"; // 对应jasper-views.xml中的bean id
 >     }
 > ```
+>
+> sqlmapper代码示例：
 
 
 
