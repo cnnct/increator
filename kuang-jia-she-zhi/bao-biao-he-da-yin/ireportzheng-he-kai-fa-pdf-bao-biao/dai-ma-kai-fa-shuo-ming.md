@@ -121,7 +121,87 @@
 >     }
 > ```
 >
-> 4、sqlmapper.xml代码示例：
+> 4、sqlmapper.xml代码示例,，注意看代码注释说明：
+>
+> ```
+>     <!-- 获取部门列表，mysql语法 -->
+>     <!-- 其中 (@rownum:=@rownum+1)as rn 表示行号，注意oracle写法不一样-->
+>     <select id="getBrchList" parameterType="Map" resultType="Map" databaseId="mysql">
+>         select (@rownum:=@rownum+1)as rn, a.brch_id as id, a.brch_id, a.brch_name,a.img_wrap,a.img,
+>         case when a.parent_brch_id = '' then '-'
+>         else (select brch_name from sys_branch where brch_id=a.parent_brch_id)
+>         end parent_brch_id, a.open_oper_id,a.brch_state,
+>         o.img organ_img,
+>         <!-- 测试报表的格式化字符串，格式化2位小数，若空值则为0 -->
+>         CAST(IFNULL(a.BRCH_LEVEL,0) AS DECIMAL(10,2)) AS level
+>         from sys_branch a,sys_organ o,
+>         (select (@rownum :=0) ) b
+>         where  a.org_id=o.org_id
+>         and a.org_id=#{org_id}
+>         <!-- 判断是否有查询内容-start -->
+>         <if test="search.brchId != null and search.brchId != ''">
+>             AND a.brch_id=#{search.brchId}
+>         </if>
+>         <if test="search.brchName != null and search.brchName != ''">
+>             AND a.brch_name LIKE concat(concat('%', #{search.brchName}), '%')
+>         </if>
+>         <!-- 判断是否有查询内容-end -->
+>         <!-- 没有排序条件，自定义默认排序字段 -->
+>         <choose>
+>             <when test="order != null and order != ''">
+>                 ORDER BY ${order}
+>             </when>
+>             <!-- 默认按照用户创建时间倒序 -->
+>             <otherwise>ORDER BY a.brch_name asc</otherwise>
+>         </choose>
+>         <!-- 分页条件 -->
+>         <if test="start!=null and length>=0 ">
+>         	limit #{start},#{length}
+>         </if>
+>     </select>
+>     
+>     <!-- 部门合计行，mysql语法此语句仅作为pdf报表打印测试用，忽略复杂业务逻辑，注意【先聚合计算再格式化】的先后顺序 -->
+>     <select id="getBrchSum" parameterType="Map" resultType="Map" databaseId="mysql">
+>        select CAST(sum(IFNULL(BRCH_LEVEL,0)) AS DECIMAL(10,2)) AS level_sum from sys_branch;
+>     </select>
+>     
+>     <!-- 部门列表，oracle语法 -->
+>     <select id="getBrchList" parameterType="Map" resultType="Map" databaseId="oracle">
+>     select * from (
+>         select rownum as rn, a.brch_id as id, a.brch_id, a.brch_name,a.img_wrap,a.img,
+>         case when a.parent_brch_id = '' then '-'
+>         else (select brch_name from sys_branch where brch_id=a.parent_brch_id)
+>         end parent_brch_id, a.open_oper_id,a.brch_state,
+>         o.img organ_img,
+>         to_char(nvl(a.BRCH_LEVEL,0),'fm999990.00') as level
+>         from sys_branch a,sys_organ o
+>         where  a.org_id=o.org_id
+>         and a.org_id=#{org_id}
+>         <!-- 判断是否有查询内容-start -->
+>         <if test="search.brchId != null and search.brchId != ''">
+>             AND a.brch_id=#{search.brchId}
+>         </if>
+>         <if test="search.brchName != null and search.brchName != ''">
+>             AND a.brch_name LIKE concat(concat('%', #{search.brchName}), '%')
+>         </if>
+>         <!-- 判断是否有查询内容-end -->
+>         <!-- 没有排序条件，自定义默认排序字段 -->
+>         <choose>
+>             <when test="order != null and order != ''">
+>                 ORDER BY ${order}
+>             </when>
+>             <!-- 默认按照用户创建时间倒序 -->
+>             <otherwise>ORDER BY a.brch_name asc</otherwise>
+>         </choose>
+>       )
+>       <!-- 分页条件 -->
+>             where rn &lt;= (#{start} + #{length}) and rn &gt; #{start}
+>     </select>
+>     <!-- 部门合计行，oracle语法 -->
+>     <select id="getBrchSum" parameterType="Map" resultType="Map" databaseId="oracle">
+>        select to_char(sum(nvl(BRCH_LEVEL,0)),'fm999990.00') AS level_sum from sys_branch;
+>     </select>
+> ```
 
 
 
