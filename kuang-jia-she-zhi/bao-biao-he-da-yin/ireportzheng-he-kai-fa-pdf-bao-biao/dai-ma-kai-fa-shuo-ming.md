@@ -156,7 +156,7 @@
 >         </choose>
 >         <!-- 分页条件 -->
 >         <if test="start!=null and length>=0 ">
->         	limit #{start},#{length}
+>             limit #{start},#{length}
 >         </if>
 >     </select>
 >     
@@ -199,7 +199,7 @@
 >     </select>
 >     <!-- 部门合计行，oracle语法 -->
 >     <select id="getBrchSum" parameterType="Map" resultType="Map" databaseId="oracle">
->        select to_char(sum(nvl(BRCH_LEVEL,0)),'fm999990.00') AS level_sum from sys_branch;
+>        select to_char(sum(nvl(BRCH_LEVEL,0)),'fm999990.00') AS level_sum from sys_branch
 >     </select>
 > ```
 
