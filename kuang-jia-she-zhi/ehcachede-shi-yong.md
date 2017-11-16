@@ -1,6 +1,6 @@
 在src下的
 
-ehcache.xml
+src/ehcache.xml配置说明
 
 该配置文件是对Ehcache缓存的配置，具体用法如下
 
@@ -53,8 +53,8 @@ ehcache.xml
        clearOnFlush：内存数量最大时是否清除。  
     -->  
     <!-- syspara缓存  ,暂定永不失效  -->
-   	<cache name="sysPara"
-		   maxElementsInMemory="10000"
+       <cache name="sysPara"
+           maxElementsInMemory="10000"
            overflowToDisk="false"
            eternal="true"
            timeToIdleSeconds="0"
@@ -62,17 +62,15 @@ ehcache.xml
            memoryStoreEvictionPolicy="LRU"
            transactionalMode="off"
     >
-    	<searchable keys="true"/> <!--可以根据Key进行查询，查询的Attribute就是keys-->
-    	<!-- 负载配置③：配置RMI，非负载配置可注释 -->
-<!--     	<cacheEventListenerFactory class="net.sf.ehcache.distribution.RMICacheReplicatorFactory"/> -->
+        <searchable keys="true"/> <!--可以根据Key进行查询，查询的Attribute就是keys-->
+        <!-- 负载配置③：配置RMI，非负载配置可注释 -->
+<!--         <cacheEventListenerFactory class="net.sf.ehcache.distribution.RMICacheReplicatorFactory"/> -->
     </cache>
-
-
 ```
 
 例：
 
-![](/assets/ehcache.png)
+
 
 name不能重复，用于Ehcache的缓存名称。一般memoryStoreEvictionPolicy都设置为LRU（最少使用），以session为例
 
