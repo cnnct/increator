@@ -1,6 +1,4 @@
-在src下的
-
-src/ehcache.xml配置说明
+# src/ehcache.xml配置说明
 
 该配置文件是对Ehcache缓存的配置，具体用法如下
 
@@ -69,8 +67,6 @@ src/ehcache.xml配置说明
 ```
 
 例：
-
-
 
 name不能重复，用于Ehcache的缓存名称。一般memoryStoreEvictionPolicy都设置为LRU（最少使用），以session为例
 
