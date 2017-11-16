@@ -73,7 +73,7 @@ timeToIdleSeconds="1800" --闲置30分钟失效
 timeToLiveSeconds="0"    --默认对象只要在使用就永不失效
 ```
 
-程序中使用：
+# 程序中使用：
 
 在src.com.cnnct.basic.cache.factory目录下
 
