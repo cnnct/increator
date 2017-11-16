@@ -66,8 +66,6 @@
     </cache>
 ```
 
-例：
-
 name不能重复，用于Ehcache的缓存名称。一般memoryStoreEvictionPolicy都设置为LRU（最少使用），以session为例
 
 ```
