@@ -12,7 +12,15 @@
 
 ### 框架开发库地址（内网）
 
-
+> mysql：
+>
+> > jdbc.url=jdbc:mysql://172.16.200.200:3306/manageplat?useUnicode=true&characterEncoding=utf-8
+> >
+> > jdbc.username=root
+> >
+> > jdbc.password=123456
+>
+> oralce：
 
 ### 更新升级必读！！！！
 
