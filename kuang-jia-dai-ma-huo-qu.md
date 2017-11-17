@@ -21,6 +21,12 @@
 > > jdbc.password=123456
 >
 > oralce：
+>
+> > jdbc.url2=jdbc:oracle:thin:@172.16.200.117:1521:ORCL
+> >
+> > jdbc.username2=manageplat
+> >
+> > jdbc.password2=nct
 
 ### 更新升级必读！！！！
 
