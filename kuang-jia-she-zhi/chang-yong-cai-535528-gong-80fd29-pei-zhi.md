@@ -17,7 +17,7 @@
 > ```
 > #左侧树菜单是否展示常用菜单，默认为true
 > often_func_show=true
-> #左侧树菜单常用菜单的基本数据配置，可自行修改，用于拼接树菜单json串使用，
+> #左侧树菜单常用菜单的基本数据配置，可自行修改，用于拼接树菜单json串使用
 > #！！！！注意，id:“99”可以按现在的一级菜单规则指定，但不能和已有的sys_func表中的值重复冲突
 > often_func_conf={id:"99",text:"常用菜单",parent_id:"",url:"",icon:"increator-shizhong"}
 > ```
