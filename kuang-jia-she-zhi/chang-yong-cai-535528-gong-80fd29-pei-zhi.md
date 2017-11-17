@@ -10,13 +10,11 @@
 > index_page_style=card
 > ```
 
-
-
 ### 常用菜单配置
 
 > ①para.properties中修改配置项
 >
-> ②数据库中增加常用菜单数量配置：sys\_para表的OFTEN\_FUNC\_NUM 
+> ②数据库中增加常用菜单数量配置：sys\_para表的OFTEN\_FUNC\_NUM的值，若未设置此参数，默认显示最近10个常用菜单。
 
 
 
