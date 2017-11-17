@@ -12,3 +12,11 @@
 
 
 
+### 常用菜单配置
+
+> ①para.properties中修改配置项
+>
+> ②数据库中增加常用菜单数量配置：sys\_para表的OFTEN\_FUNC\_NUM 
+
+
+
