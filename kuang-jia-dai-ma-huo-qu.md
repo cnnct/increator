@@ -22,11 +22,11 @@
 >
 > oralce：
 >
-> > jdbc.url2=jdbc:oracle:thin:@172.16.200.117:1521:ORCL
+> > jdbc.url=jdbc:oracle:thin:@172.16.200.117:1521:ORCL
 > >
-> > jdbc.username2=manageplat
+> > jdbc.username=manageplat
 > >
-> > jdbc.password2=nct
+> > jdbc.password=nct
 
 ### 更新升级必读！！！！
 
