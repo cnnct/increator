@@ -81,7 +81,7 @@
   * [Redis的使用](kuang-jia-she-zhi/redisde-shi-yong.md)
   * [动态sql的使用](kuang-jia-she-zhi/dong-tai-sql-de-shi-yong.md)
   * [form表单提交防止重复提交](kuang-jia-she-zhi/formbiao-dan-ti-jiao-fang-zhi-zhong-fu-ti-jiao.md)
-  * 常用菜单\(功能\)配置
+  * [常用菜单\(功能\)配置](kuang-jia-she-zhi/chang-yong-cai-535528-gong-80fd29-pei-zhi.md)
 * [开发规范](kai-fa-gui-fan.md)
   * [开发环境](kai-fa-huan-jing.md)
   * [基本编码规范](kai-fa-gui-fan/ji-ben-bian-ma-gui-fan.md)
