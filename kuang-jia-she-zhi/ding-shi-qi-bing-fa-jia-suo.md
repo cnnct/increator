@@ -4,7 +4,7 @@
 
 > sys\_para表的TASK\_LOCK\_TIMEOUT参数，默认为1440分，及24小时。
 >
-> sys\_tasklock表，定时器加锁表
+> sys\_task\_lock表，定时器加锁表
 
 
 
