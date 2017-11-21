@@ -34,7 +34,7 @@
 > > **child\_info 【1.3】:** 该属性是为了使input_tree拥有级联功能，使用方式类似级联组件，可以参考级联组件，如：child_info=[
 				{"child_id":"name34","sql_key":"sysfunc6","show_field":"title","value_field":"func_id","sql_condition":"1","num_for_selected":"1"}]  
 > >其中sql_condition为sql执行时需要加入的条件，num_for_selected属性为父级选中项的值加入占位符的位置
-配合input_tree的级联的标签**只有cas\_select\_child**
+注意：配合input_tree的级联的标签**只有cas\_select\_child**
 
 #### input\_tree标签的引入方式 :
 
