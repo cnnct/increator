@@ -57,7 +57,7 @@
 ![](/assets/input_tree2.png)
 
 #### 级联的引入方式 :
-
+、、、
  <@input_tree label="input树1,false,2" size="4" id="but3354" tree_id="tree3434" name="valuetree34" sql_key="sysfunc7" checkbox_have="true" 
  	child_info=[
 				{"child_id":"name34","sql_key":"sysfunc6","show_field":"title","value_field":"func_id"}
