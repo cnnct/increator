@@ -30,6 +30,8 @@
 > > 可填的数值范围为（1-12）,默认尺寸为1；引入方式：label="name,true,2" ； label="name,true" ；
 > >
 > > label="name" ；label="name,,2" 即三个值都非必填项
+> >
+> > **child\_info :**
 
 #### input\_tree标签的引入方式 :
 
