@@ -6,7 +6,7 @@
 
 #### cas\_select\_parent**标签的属性 :**
 
-> cas\_select\_parent标签有11个属性分别为为id、name、size、label、sql\_key、value\_field、show\_field、child\_info、default\_val、sql\_condition、readonly；
+> cas\_select\_parent标签有属性分别为为id、name、size、label、sql\_key、value\_field、show\_field、child\_info、default\_val、sql\_condition、readonly，search_have；
 >
 > **其中sql\_key、value\_field、 show\_field、child\_info为必填项,下面必填项加上了\*号**；
 >
