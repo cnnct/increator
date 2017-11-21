@@ -45,6 +45,7 @@ child_info=[
 > > **default\_val :** default\_val属性是指cas\_select\_parent标签的默认选中值，该值为option的value值
 > >
 > > **sql\_condition :** sql\_condition属性用于配合sql\_key属性，当对应的后台sql需要传入参数替换“？”占位符时填写，也可以用登录用户的id替换占位符如sql\_condition="ACC\_RECHG\_TYPE,session.operId",其中‘ACC\_RECHG\_TYPE’会用来替换第一个占位符，登录用户的id会用来替换第二个占位符；
+> >
 > > **search\_have 【1.3】:** search\_have为是否需要搜索框，可以填写的值为"true","false",默认false
 
 
