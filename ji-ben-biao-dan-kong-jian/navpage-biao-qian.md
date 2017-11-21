@@ -23,13 +23,6 @@
 3.导航页代码：
 
 
-```
-   <@button id="bbs"  size="1" value="查询" icon="search" onclick="ss();"/>
-
-   <@button id="dd"  size="1" value="删除" icon="remove"/>
-
-   <@button id="rr"  size="1" value="重置" icon="repeat"/>
-```
 
 #### nav_page标签的显示结果 :
 
