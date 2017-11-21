@@ -14,7 +14,9 @@
 > >
 
 #### nav_page标签的引入方式 :
-这里例举从一个主页面跳转到需要的导航页面
+这里例举从一个模块的主页面跳转到需要的导航页面：
+1.某一主模块的前端代码：
+![](/assets/nav_page1.png)
 
 ```
    <@button id="bbs"  size="1" value="查询" icon="search" onclick="ss();"/>
