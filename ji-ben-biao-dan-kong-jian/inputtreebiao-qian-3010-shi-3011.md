@@ -59,12 +59,12 @@
 #### 级联的引入方式 :
 ```
 
- <@input_tree label="input树1,false,2" size="4" id="but3354" tree_id="tree3434" name="valuetree34" sql_key="sysfunc7" checkbox_have="true" 
+ <@input_tree label="inputTree,false,2" size="4" id="but3354" tree_id="tree3434" name="valuetree34" sql_key="sysfunc7" checkbox_have="true" 
  	child_info=[
 				{"child_id":"name34","sql_key":"sysfunc6","show_field":"title","value_field":"func_id"}
 			]  
  />
-<@cas_select_child label="上级部门,,2" id="name34"   name="name43" search_have="true"/>
+<@cas_select_child label="测试级联,,2" id="name34"   name="name43" search_have="true"/>
 ```
 
 #### input\_tree的数据重新加载方法 :
