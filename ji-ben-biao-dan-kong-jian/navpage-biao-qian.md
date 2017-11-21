@@ -2,7 +2,7 @@
 
 #### nav_page**标签的属性 :**
 
-> nav_page标签的属性分别为为id、size、type，title；
+> nav_page标签的属性分别为为id、size、title；
 >
 > **其中value为必填项,下面必填项加上了\*号**；
 >
