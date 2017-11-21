@@ -67,7 +67,6 @@
 <@cas_select_child label="上级部门,,2" id="name34"   name="name43" search_have="true"/>
 ```
 
-
 #### input\_tree的数据重新加载方法 :
 
 ```
