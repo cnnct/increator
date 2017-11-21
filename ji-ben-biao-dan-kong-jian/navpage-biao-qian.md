@@ -17,6 +17,10 @@
 这里例举从一个模块的主页面跳转到需要的导航页面：
 1.某一主模块的前端代码：
 ![](/assets/nav_page1.png)
+![](/assets/nav_page3.png)
+2.后台跳转页面的代码：
+![](/assets/nav_page4.png)
+
 
 ```
    <@button id="bbs"  size="1" value="查询" icon="search" onclick="ss();"/>
