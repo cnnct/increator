@@ -22,12 +22,12 @@
 ![](/assets/nav_page4.png)
 3.导航页代码：
 ![](/assets/nav_page5.png)
-
+![](/assets/nav_page6.png)
 
 
 #### nav_page标签的显示结果 :
 
-![](/assets/button.png)
+![](/assets/nav_page7.png)
 
 
 
