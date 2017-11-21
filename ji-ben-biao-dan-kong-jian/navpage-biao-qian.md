@@ -2,7 +2,7 @@
 
 #### nav_page**标签的属性 :**
 
-> nav_page标签的属性分别为为id、size、title；
+> nav_page标签为含有左侧导航页面的标签，属性分别为id、size、title；
 >
 > **其中id，title为必填项,下面必填项加上了\*号**；
 >
@@ -14,6 +14,7 @@
 > >
 
 #### nav_page标签的引入方式 :
+这里例举从一个主页面跳转到需要的导航页面
 
 ```
    <@button id="bbs"  size="1" value="查询" icon="search" onclick="ss();"/>
