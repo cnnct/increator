@@ -21,6 +21,7 @@
 2.后台跳转页面的代码：
 ![](/assets/nav_page4.png)
 3.导航页代码：
+![](/assets/nav_page5.png)
 
 
 
