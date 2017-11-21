@@ -1,8 +1,10 @@
 # input\_tree**标签**
 
 #### input\_tree**标签的属性 :**
+
 注意：remote验证需要开启同步验证属性，详细见form标签
-> input\_tree标签有7个属性分别为为id、name、size、checkbox\_have、tree\_id、sql\_key、readonly，**其中id、tree\_id、sql\_key为必填项**
+
+> input\_tree标签有属性分别为id、name、size、checkbox\_have、tree\_id、sql\_key、readonly，**其中id、tree\_id、sql\_key为必填项**
 >
 > > **\* id ：** id属性
 > >
@@ -28,6 +30,11 @@
 > > 可填的数值范围为（1-12）,默认尺寸为1；引入方式：label="name,true,2" ； label="name,true" ；
 > >
 > > label="name" ；label="name,,2" 即三个值都非必填项
+> >
+> > **child\_info 【1.3】:** 该属性是为了使input_tree拥有级联功能，使用方式类似级联组件，可以参考级联组件，如：child_info=[
+				{"child_id":"name34","sql_key":"sysfunc6","show_field":"title","value_field":"func_id","sql_condition":"1","num_for_selected":"1"}]  
+> >其中sql_condition为sql执行时需要加入的条件，num_for_selected属性为父级选中项的值加入占位符的位置，
+注意：配合input_tree的级联的标签**只有cas\_select\_child**
 
 #### input\_tree标签的引入方式 :
 
@@ -49,7 +56,16 @@
 
 ![](/assets/input_tree2.png)
 
-#### 
+#### 级联的引入方式 :
+```
+
+ <@input_tree label="测试树,false,2" size="4" id="but3354" tree_id="tree3434" name="valuetree34" sql_key="sysfunc7" checkbox_have="true" 
+ 	child_info=[
+				{"child_id":"name34","sql_key":"sysfunc6","show_field":"title","value_field":"func_id"}
+			]  
+ />
+<@cas_select_child label="测试级联,,2" id="name34"   name="name43" search_have="true"/>
+```
 
 #### input\_tree的数据重新加载方法 :
 

@@ -101,11 +101,10 @@
   14. paginate【1.3】：paginate属性为是否分页属性，默认为true（开启分页）
   15. load_data_init【1.3】：load_data_init属性为是否初始化加载数据开关属性，默认为true（首次进页面加载数据）
   16. callback【1.3】：该属性为表格的附加回调方法，在加载完表格后，会调用指定的方法，如：callback="setPanelData"
-，注意：该方法必须在表格加载前被定义
+  ，注意：该方法必须在表格加载前被定义
   16. 表格若不需要id列，fields 中去掉 id 字段，同时后台 sql 也去掉 id 字段：如下
       fields="oper_id,oper_name,org_name,brch_name,oper_state,oper_level"
   备注：存在id列的情况下，首字段 id 固定，mapper 中提供的 sql 语句必须提供 id 字段名（详细见后续 mapper 语句编写）
-  
   ```
 * 表格数据显示例子如下图：  
   ![](/assets/table.png)![](/assets/table2.png)
@@ -136,12 +135,14 @@
   * @param tableSearchDataJson 表格查询所需的过滤数据，表格查询时不能为空
   * @param tableId 表格Id值，必须传
   * @param updateTableUrl 【1.3】如果要修改表格加载数据的url地址加入这一项
+  * @param closeModal 【1.3】是否在操作成功后关闭窗口，默认true
   */
     postform({
-        	"tableId":"mytable",
-        	"url":"${base}/sys/auth/brch/save/add",
-        	"formId":"add_form",
-        	"modalId":"modal_add"
+            "tableId":"mytable",
+            "url":"${base}/sys/auth/brch/save/add",
+            "formId":"add_form",
+            "modalId":"modal_add",
+            "closeModal":"false"
         });
   ```
 
