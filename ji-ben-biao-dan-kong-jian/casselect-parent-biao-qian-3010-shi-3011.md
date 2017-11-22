@@ -6,7 +6,7 @@
 
 #### cas\_select\_parent**标签的属性 :**
 
-> cas\_select\_parent标签有11个属性分别为为id、name、size、label、sql\_key、value\_field、show\_field、child\_info、default\_val、sql\_condition、readonly；
+> cas\_select\_parent标签有属性分别为为id、name、size、label、sql\_key、value\_field、show\_field、child\_info、default\_val、sql\_condition、readonly，search_have；
 >
 > **其中sql\_key、value\_field、 show\_field、child\_info为必填项,下面必填项加上了\*号**；
 >
@@ -42,9 +42,13 @@ child_info=[
 									{"child_id":"parent_brch_id","sql_key":"sysbrch3","show_field":"brch_name","value_field":"brch_id","sql_condition":"1","num_for_selected":"1"}
 					]  
 > >其中sql_condition为sql执行时需要加入的条件，num_for_selected属性为父级选中项的值加入占位符的位置
+> >
 > > **default\_val :** default\_val属性是指cas\_select\_parent标签的默认选中值，该值为option的value值
 > >
 > > **sql\_condition :** sql\_condition属性用于配合sql\_key属性，当对应的后台sql需要传入参数替换“？”占位符时填写，也可以用登录用户的id替换占位符如sql\_condition="ACC\_RECHG\_TYPE,session.operId",其中‘ACC\_RECHG\_TYPE’会用来替换第一个占位符，登录用户的id会用来替换第二个占位符；
+> >
+> > **search\_have 【1.3】:** search\_have为是否需要搜索框，可以填写的值为"true","false",默认false
+
 
 #### cas\_select\_child**标签的属性 :**
 
@@ -89,6 +93,8 @@ child_info=[
 > > **default\_val :** default\_val属性是指cas\_select\_child标签的默认选中值，该值为option的value值
 > >
 > > **sql\_condition :** sql\_condition属性用于配合sql\_key属性，当对应的后台sql需要传入参数替换“？”占位符时填写，也可以用登录用户的id替换占位符如sql\_condition="ACC\_RECHG\_TYPE,session.operId",其中‘ACC\_RECHG\_TYPE’会用来替换第一个占位符，登录用户的id会用来替换第二个占位符；
+> >
+> > **search\_have 【1.3】:** search\_have为是否需要搜索框，可以填写的值为"true","false",默认false
 
 #### 级联标签的引入方式 :
 
