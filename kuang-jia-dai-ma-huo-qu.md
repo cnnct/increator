@@ -16,8 +16,8 @@
 > >db【数据库脚本目录】
 > >-----mysql_x.y.z【mysql数据库脚本目录】
 > >--------all【全量数据库脚本目录】
-> >
-> >
+> >------------oracle_structure_Vx.y.z.sql【oralce全量库结构脚本】
+> >------------oracle_data_Vx.y.z.sql【oralce全量库数据脚本】
 > >--------increment【增量数据库脚本目录】
 > >----oracle_x.y.z【oracle数据库脚本目录】
 > >--------all【全量数据库脚本目录】
