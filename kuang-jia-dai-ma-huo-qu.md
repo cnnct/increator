@@ -19,6 +19,7 @@
 > >------------mysql_structure_Vx.y.z.sql【mysql全量库结构脚本】
 > >------------mysqle_data_Vx.y.z.sql【mysql全量库数据脚本】
 > >--------increment【增量数据库脚本目录】
+> >------------oracle_increment__Vx.y.z.sql【oracle增量库数脚本（相对前一版本全量库基础之上）】
 > >----oracle_x.y.z【oracle数据库脚本目录】
 > >--------all【全量数据库脚本目录】
 > >------------oracle_structure_Vx.y.z.sql【oralce全量库结构脚本】
