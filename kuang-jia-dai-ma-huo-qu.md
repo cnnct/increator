@@ -21,7 +21,7 @@
 > >        all【全量数据库脚本目录】
 > >            oracle_structure_V1.2.3.sql【oralce全量库结构脚本】
 > >            oracle_data_V1.2.3.sql【oralce全量库数据脚本】
-
+> >
 > >        increment【增量数据库脚本目录】
 > >code
 > > ```
