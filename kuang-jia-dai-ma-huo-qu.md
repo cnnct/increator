@@ -19,7 +19,7 @@
 > >        increment【增量数据库脚本目录】
 > >    oracle_x.y.z【oracle数据库脚本目录】
 > >        all【全量数据库脚本目录】
-> >               oracle_
+> >            oracle_
 > >        increment【增量数据库脚本目录】
 > >code
 > > ```
