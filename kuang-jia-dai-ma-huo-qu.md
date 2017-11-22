@@ -11,23 +11,22 @@
 > * zip目录：全量框架代码目录，适用于新项目开始使用。
 > * 从V1.2.3版本开始，版本发布目录结构作了调整，调整后的目录层次示例如下：
 >
-> > 
-> > ``` 
-> >----1.2【版本分支目录】
-> >--------db【数据库脚本目录】
-> >------------mysql_x.y.z【mysql数据库脚本目录】
-> >----------------all【mysql全量数据库脚本目录】
-> >--------------------mysql_structure_Vx.y.z.sql【mysql全量库结构脚本】
-> >--------------------mysqle_data_Vx.y.z.sql【mysql全量库数据脚本】
-> >----------------increment【mysql增量数据库脚本目录】
-> >--------------------mysql_increment__Vx.y.z.sql【oracle增量库数脚本（相对前一版本全量库基础之上）】
-> >-----------oracle_x.y.z【oracle数据库脚本目录】
-> >----------------all【oracle全量数据库脚本目录】
-> >--------------------oracle_structure_Vx.y.z.sql【oralce全量库结构脚本】
-> >--------------------oracle_data_Vx.y.z.sql【oralce全量库数据脚本】
-> >----------------increment【oracle增量数据库脚本目录】
-> >--------------------oracle_increment__Vx.y.z.sql【oracle增量库数脚本（相对前一版本全量库基础之上）】
-> >---code
+> > ```
+> > ----1.2【版本分支目录】
+> > --------db【数据库脚本目录】
+> > ------------mysql_x.y.z【mysql数据库脚本目录】
+> > ----------------all【mysql全量数据库脚本目录】
+> > --------------------mysql_structure_Vx.y.z.sql【mysql全量库结构脚本】
+> > --------------------mysqle_data_Vx.y.z.sql【mysql全量库数据脚本】
+> > ----------------increment【mysql增量数据库脚本目录】
+> > --------------------mysql_increment__Vx.y.z.sql【oracle增量库数脚本（相对前一版本全量库基础之上）】
+> > -----------oracle_x.y.z【oracle数据库脚本目录】
+> > ----------------all【oracle全量数据库脚本目录】
+> > --------------------oracle_structure_Vx.y.z.sql【oralce全量库结构脚本】
+> > --------------------oracle_data_Vx.y.z.sql【oralce全量库数据脚本】
+> > ----------------increment【oracle增量数据库脚本目录】
+> > --------------------oracle_increment__Vx.y.z.sql【oracle增量库数脚本（相对前一版本全量库基础之上）】
+> > ---code
 > > ```
 
 ### 框架开发库地址（内网）
