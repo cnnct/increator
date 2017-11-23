@@ -97,7 +97,7 @@
       show_condition和noshow_condition属性不能同时使用，同时存在时遵循show_condition属性
   10. sort：支持排序功能的字段，默认除了id列和操作列外所有字段都支持
   11. img_fields【1.1】:支持缩略图功能，img_fields={"img_wrap":"img"},"img_wrap"为缩略图字段，"img"为原图字段,点击缩略图弹出原图
-  12.id【1.2】:指定表格id，【1.2】以后页面支持多表格，若未指定id属性时，id默认值为"mytable"，因此在多表格并存时，只能有一个表格可以不指定id。
+  12. id【1.2】:指定表格id，【1.2】以后页面支持多表格，若未指定id属性时，id默认值为"mytable"，因此在多表格并存时，只能有一个表格可以不指定id。
   13. merge_cells【1.2】：合并单元格属性，【1.2】以后表格支持单元格合并属性，单元格合并有3个属性，coordinate属性指定操作合并的单元格坐标（x,y），rowspan指定合并的行数，默认值为1，colspan属性指定合并的列数，默认值为1，注意已经被合并占用的单元格不可以重复合并
   14. paginate【1.2.3】：paginate属性为是否分页属性，默认为true（开启分页）
   15. load_data_init【1.2.3】：load_data_init属性为是否初始化加载数据开关属性，默认为true（首次进页面加载数据）
