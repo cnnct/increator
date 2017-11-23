@@ -136,8 +136,8 @@
   * @param modalId form表单提交时的modalId
   * @param tableSearchDataJson 表格查询所需的过滤数据，表格查询时不能为空
   * @param tableId 表格Id值，必须传
-  * @param updateTableUrl 【1.3】如果要修改表格加载数据的url地址加入这一项
-  * @param closeModal 【1.3】是否在操作成功后关闭窗口，默认true
+  * @param updateTableUrl 【1.2.3】如果要修改表格加载数据的url地址加入这一项
+  * @param closeModal 【1.2.3】是否在操作成功后关闭窗口，默认true
   */
     postform({
             "tableId":"mytable",
