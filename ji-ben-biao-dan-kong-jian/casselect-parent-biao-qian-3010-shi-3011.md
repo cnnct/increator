@@ -32,7 +32,7 @@
 > >
 > > **\* show\_field ：** show\_field属性是指cas\_select\_parent标签选项option的text值是用表中哪个字段来赋值；
 > >
-> > **\* child\_info【1.3】 ：** child\_info属性是cas\_select\_parent标签记录下一级的信息的属性；
+> > **\* child\_info【1.2.2】 ：** child\_info属性是cas\_select\_parent标签记录下一级的信息的属性；
 > >
 > >（ 如child\_info="child,sysfunc3,TITLE,FUNC\_ID",其中第一项为子级的id，第二项为子级加载数据要执行的sql\_key的值，第三
 > >
@@ -47,7 +47,7 @@ child_info=[
 > >
 > > **sql\_condition :** sql\_condition属性用于配合sql\_key属性，当对应的后台sql需要传入参数替换“？”占位符时填写，也可以用登录用户的id替换占位符如sql\_condition="ACC\_RECHG\_TYPE,session.operId",其中‘ACC\_RECHG\_TYPE’会用来替换第一个占位符，登录用户的id会用来替换第二个占位符；
 > >
-> > **search\_have 【1.3】:** search\_have为是否需要搜索框，可以填写的值为"true","false",默认false
+> > **search\_have 【1.2.3】:** search\_have为是否需要搜索框，可以填写的值为"true","false",默认false
 
 
 #### cas\_select\_child**标签的属性 :**
@@ -72,7 +72,7 @@ child_info=[
 > >
 > > **readonly ：** readonly为只读属性,可以填写的数值为"true","false",默认为false
 > >
-> > **child\_info 【1.3】 ：** child\_info属性是cas\_select\_child标签记录下一级的信息的属性；
+> > **child\_info 【1.2.2】 ：** child\_info属性是cas\_select\_child标签记录下一级的信息的属性；
 > >
 > > （如child\_info="child,sysfunc3,TITLE,FUNC\_ID",其中第一项为子级的id，第二项为子级加载数据要执行的sql\_key的值，第三
 > >
@@ -94,7 +94,7 @@ child_info=[
 > >
 > > **sql\_condition :** sql\_condition属性用于配合sql\_key属性，当对应的后台sql需要传入参数替换“？”占位符时填写，也可以用登录用户的id替换占位符如sql\_condition="ACC\_RECHG\_TYPE,session.operId",其中‘ACC\_RECHG\_TYPE’会用来替换第一个占位符，登录用户的id会用来替换第二个占位符；
 > >
-> > **search\_have 【1.3】:** search\_have为是否需要搜索框，可以填写的值为"true","false",默认false
+> > **search\_have 【1.2.3】:** search\_have为是否需要搜索框，可以填写的值为"true","false",默认false
 
 #### 级联标签的引入方式 :
 

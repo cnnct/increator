@@ -34,7 +34,7 @@
 > >
 > > **search\_have :** search\_have为是否需要搜索框，该属性在select\_more属性为true时可用，可以填写的值
 > >
-> > 为"true","false",默认false，在【1.3】版本后，不需要select\_more属性配合为true时也可以使用
+> > 为"true","false",默认false，在【1.2.3】版本后，不需要select\_more属性配合为true时也可以使用
 > >
 > > **show\_field  :** show\_field属性是指code\_select标签选项option的text值是用表中哪个字段来赋值；
 > >
