@@ -34,7 +34,7 @@
 > >
 > > **search\_have :** search\_have为是否需要搜索框，该属性在select\_more属性为true时可用，可以填写的值
 > >
-> > 为"true","false",默认false，在【1.3】版本后，不需要select\_more属性配合为true时也可以使用
+> > 为"true","false",默认false，在【1.2.3】版本后，不需要select\_more属性配合为true时也可以使用
 > >
 > > **\* sql\_key  :** sql\_key属性为select标签后台执行的sql的key值，sql可以是完整的，也可以是拥有“？”占位符的sql，配合sql\_condition属性使用；
 > >
