@@ -1,5 +1,5 @@
 > > ### 首页布局风格目前实现了两种
-
+>
 > * 一种是默认风格default，一级菜单在顶部banner区域
 > * 另一种是新版本风格，新卡管使用，暂定名称为card，所有菜单通过左边树菜单展示布局。
 >
@@ -34,6 +34,8 @@
 > ```
 
 ### 首页左侧树菜单默认图标配置
+
+> 两种风格的首页面，分别位于resource/js/index.js，resource/card/js/card.js的顶部全局变量声明区域
 
 > ```
 > var default_icon="increator-wenbenbianji";//2017-11-28,pengm add,增加默认菜单图标，可自行修改
