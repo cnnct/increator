@@ -11,11 +11,6 @@
 >   > 	<!-- 定时任务加锁 -->
 >   > 	<bean id="sysTaskLockServ" class="com.cnnct.module.sysmanager.systasklock.SysTaskLockServImpl"/>
 >   > ```
->
-> ```
->
->     <bean id="sysTaskLockServ" class="com.cnnct.module.sysmanager.systasklock.SysTaskLockServImpl"/>
-> ```
 
 
 
