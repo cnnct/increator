@@ -2,5 +2,7 @@
 
 相关配置及参数如下：
 
-sys\_para表的TASK\_LOCK\_TIMEOUT，默认配置24小时，超出24小时锁定的记录，自动解锁，一般肯定是程序异常停止，未正常解锁。
+sys\_para表的TASK\_LOCK\_TIMEOUT：默认配置24小时，超出24小时锁定的记录，自动解锁，一般肯定是程序异常停止，未正常解锁。
+
+src\config\spring\applicationContext-service.xm中：
 
