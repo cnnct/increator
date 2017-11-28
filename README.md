@@ -1,6 +1,6 @@
 # 手册介绍
 
-> 本手册已作为git资源上传到gitbub资源库中，使用说明详见章节：[gitbook和github结合](/gitbookhe-github-jie-he.md)
+> 本手册已作为git资源上传到gitbub资源库中，使用说明详见章节：[gitbook和github](/fu-lu/gitbookhe-github-jie-he.md)结合
 >
 > 手册中的章节内容无特殊标注说明时，默认为版本【1.0】，其它若是后续升级版本会标明版本号如【1.1】【1.2】等
 
