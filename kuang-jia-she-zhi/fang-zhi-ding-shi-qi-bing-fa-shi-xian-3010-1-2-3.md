@@ -6,7 +6,12 @@ sys\_para表的TASK\_LOCK\_TIMEOUT：默认配置24小时，超出24小时锁定
 
 src\config\spring\applicationContext-service.xm中，在原来的baseServ下方增加定时器加锁相应的业务service配置：
 
-&lt;!-- 定时任务加锁 --&gt;
+```
+	<!-- 定时任务加锁 -->
 
-	&lt;bean id="sysTaskLockServ" class="com.cnnct.module.sysmanager.systasklock.SysTaskLockServImpl"/&gt;
+	<bean id="sysTaskLockServ" class="com.cnnct.module.sysmanager.systasklock.SysTaskLockServImpl"/>
+```
+
+
+
 
