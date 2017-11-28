@@ -52,7 +52,7 @@
 >
 > web端打印插件JQuery.print测试页面：[http://www.position-absolute.com/creation/print/](http://www.position-absolute.com/creation/print/)
 >
-> gitbook editor编辑器下载地址：https://www.gitbook.com/editor/releases/stable
+> gitbook editor编辑器下载地址：[https://www.gitbook.com/editor/releases/stable](https://www.gitbook.com/editor/releases/stable)
 
 
 
