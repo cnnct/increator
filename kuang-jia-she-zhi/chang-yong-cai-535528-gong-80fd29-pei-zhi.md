@@ -36,8 +36,10 @@
 ### 首页左侧树菜单默认图标配置
 
 > 两种风格的首页面，分别位于resource/js/index.js，resource/card/js/card.js的顶部全局变量声明区域
-
+>
 > ```
+> var _oper_ = {};//当前登录的用户
+> var pre_icon = "iconfont_cnnct ";//菜单图标系统，可根据实际使用的图标系列进行修改
 > var default_icon="increator-wenbenbianji";//2017-11-28,pengm add,增加默认菜单图标，可自行修改
 > ```
 
