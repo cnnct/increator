@@ -81,6 +81,7 @@
     * [excel导入导出工具使用【1.2】](kuang-jia-she-zhi/exceldao-ru-dao-chu-gong-ju-shi-yong-3010-1-2.md)
     * [字符串工具类Tools使用](kuang-jia-she-zhi/zi-fu-chuan-gong-ju-lei-tools-shi-yong.md)
     * [mybatis逆向生成工具类GeneratorSqlmap](kuang-jia-she-zhi/mybatisni-xiangsheng-cheng-gong-ju-lei-generatorsqlmap.md)
+    * [缓存CacheUtil](kuang-jia-she-zhi/huan-cun-cacheutil.md)
   * [Redis的使用](kuang-jia-she-zhi/redisde-shi-yong.md)
   * [动态sql的使用](kuang-jia-she-zhi/dong-tai-sql-de-shi-yong.md)
   * [form表单提交防止重复提交【1.2.2】](kuang-jia-she-zhi/formbiao-dan-ti-jiao-fang-zhi-zhong-fu-ti-jiao.md)
