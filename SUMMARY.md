@@ -37,7 +37,7 @@
   * [img标签【1.2.2】](ji-ben-biao-dan-kong-jian/imgbiao-qian-3010-1-3.md)
   * [read\_card标签【1.2.2】](ji-ben-biao-dan-kong-jian/readcard-biao-qian.md)
   * [panel标签【1.2.3】](ji-ben-biao-dan-kong-jian/panelbiao-qian.md)
-  * [download标签](ji-ben-biao-dan-kong-jian/downloadbiao-qian.md)
+  * [download标签【1.3】](ji-ben-biao-dan-kong-jian/downloadbiao-qian.md)
 * [复杂、组合标签控件](fu-za-2018-zu-he-biao-qian-kong-jian-3010-shi-3001-lu-3011.md)
   * [级联标签组](ji-ben-biao-dan-kong-jian/casselect-parent-biao-qian-3010-shi-3011.md)
   * [子tab标签组](ji-ben-biao-dan-kong-jian/zi-tab-biao-qian-zu-3010-shi-3011.md)
