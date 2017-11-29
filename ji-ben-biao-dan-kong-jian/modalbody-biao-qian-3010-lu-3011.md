@@ -15,6 +15,7 @@
 > > **drag：** 是否可拖动，默认不可拖动
 > >
 > > **class：** 样式\(不填：中等模态框;modal-lg：大模态框;modal-sm：小模态框\)
+>>
 > > **is_full_screen:** 为打开时是否全屏的属性，默认“false”,可填值"true","false"
 
 #### modal\_body和modal\_foot标签的引入方式 :
