@@ -1,20 +1,6 @@
-
-Type to search
-Home
-Ç°ÑÔ
-1. °²×°
-2. ÃüÁî
-3. ÅäÖÃ
-4. ²å¼ş
-5. bookjson
-±¾ÊéÊ¹ÓÃ GitBook ·¢²¼
- EDIT THIS PAGE
-Gibook Use
-book.jsonÅäÖÃÎÄ¼ş
-
 {
     "title" : "Gibook Use",
-    "description" : "¼ÇÂ¼GitbookµÄÅäÖÃºÍÒ»Ğ©²å¼şµÄÊ¹ÓÃ",
+    "description" : "è®°å½•Gitbookçš„é…ç½®å’Œä¸€äº›æ’ä»¶çš„ä½¿ç”¨",
     "author" : "zhangjikai",
     "generator": "site",
     "language" : "zh-hans",
@@ -76,7 +62,7 @@ book.jsonÅäÖÃÎÄ¼ş
 
         "tbfed-pagefooter": {
             "copyright":"Copyright &copy zhangjikai.com 2017",
-            "modify_label": "¸ÃÎÄ¼şĞŞ¶©Ê±¼ä£º",
+            "modify_label": "è¯¥æ–‡ä»¶ä¿®è®¢æ—¶é—´ï¼š",
             "modify_format": "YYYY-MM-DD HH:mm:ss"
         },
 
@@ -91,9 +77,9 @@ book.jsonÅäÖÃÎÄ¼ş
           "wechat": "https://zhangjikai.com/resource/weixin.png",
           "alipay": "https://zhangjikai.com/resource/alipay.png",
           "title": "",
-          "button": "ÉÍ",
-          "alipayText": "Ö§¸¶±¦´òÉÍ",
-          "wechatText": "Î¢ĞÅ´òÉÍ"
+          "button": "èµ",
+          "alipayText": "æ”¯ä»˜å®æ‰“èµ",
+          "wechatText": "å¾®ä¿¡æ‰“èµ"
         },
 
          "edit-link": {
@@ -103,4 +89,3 @@ book.jsonÅäÖÃÎÄ¼ş
 
     }
 }
-
