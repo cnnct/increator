@@ -139,6 +139,8 @@
   * @param tableId 表格Id值，必须传
   * @param updateTableUrl 【1.2.3】如果要修改表格加载数据的url地址加入这一项
   * @param closeModal 【1.2.3】是否在操作成功后关闭窗口，默认true
+  * @param isFnDrawCurrentTable 这里为了支持子modal框可以加入表格的功能，需要指定是否处理完数据后刷新的是当前表格还是父级表格，默认：先去找父级表格刷新，true：刷新当前表格
+ * @param isFnDrawParentTable 这里为了支持子modal框可以加入表格的功能，需要指定是否处理完数据后刷新的是当前表格还是父级表格，默认：先去找父级表格刷新，true：刷新父级表格
   */
     postform({
             "tableId":"mytable",
