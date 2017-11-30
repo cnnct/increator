@@ -75,9 +75,9 @@
 
         "donate": {
           "wechat": "https://zhangjikai.com/resource/weixin.png",
-          "alipay": "https://zhangjikai.com/resource/alipay.png",
+          "alipay": "https://increator.gitbooks.io/dev_guide/content/assets/new_logo.png",
           "title": "浙江创建科技有限公司",
-          "button": "赏",
+          "button": "",
           "alipayText": "支付宝打赏",
           "wechatText": "微信打赏"
         },
