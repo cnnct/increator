@@ -62,7 +62,7 @@
         },
 
         "tbfed-pagefooter": {
-            "copyright":"Copyright &copy increator.cn 2017",
+            "copyright":"Copyright &copy increator.cn 2017 浙江创建科技有限公司",
             "modify_label": "该文件修订时间：",
             "modify_format": "YYYY-MM-DD HH:mm:ss"
         },
@@ -73,18 +73,6 @@
         "sitemap": {
             "hostname": "http://gitbook.pengm.com"
         },
-
-        "donate": {
-          "alipay": "https://increator.gitbooks.io/dev_guide/content/assets/new_logo.png",
-          "title": "浙江创建科技有限公司",
-          
-          "alipayText": "浙江创建科技有限公司"
-        },
-
-         "edit-link": {
-                "base": "https://github.com/zhangjikai/gitbook-use/edit/master",
-                "label": "Edit This Page"
-         }
-
-    }
+      
+            }
 }
