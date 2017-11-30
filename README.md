@@ -1,6 +1,6 @@
 # ![](/assets/new_logo.png)
 
-This text is {% em %}highlighted !{% endem %}
+This text is 
 
 # 手册介绍 {#test}
 
