@@ -11,11 +11,8 @@
         }
     },
     "plugins": [
-        "splitter",
-        "emphasize",
-        "tbfed-pagefooter",
-        "sitemap-general",
-        "expandable-chapters-small",
+        "splitter",        
+        "tbfed-pagefooter", 
         "anchor-navigation-ex"
     ],
     "pluginsConfig": {
