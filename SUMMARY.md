@@ -85,6 +85,7 @@
     * HttpClient工具类
     * IP操作工具类
     * 配置文件读取工具ReadConfig
+    * 格式化字符串FormaterUtils
   * [Redis的使用](kuang-jia-she-zhi/redisde-shi-yong.md)
   * [动态sql的使用](kuang-jia-she-zhi/dong-tai-sql-de-shi-yong.md)
   * [form表单提交防止重复提交【1.2.2】](kuang-jia-she-zhi/formbiao-dan-ti-jiao-fang-zhi-zhong-fu-ti-jiao.md)
