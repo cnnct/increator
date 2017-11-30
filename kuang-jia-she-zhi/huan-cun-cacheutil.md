@@ -23,7 +23,7 @@ com.cnnct.utils
   |  |  |
   | :--- | :--- |
   | 限定符和类型 | 字段和说明 |
-  | `static net.sf.ehcache.Cache` | `actio`[`actionLogCache`](#actionlogcache)`nLogCache` |
+  | `static net.sf.ehcache.Cache` | [`actionLogCache`](#actionlogcache) |
   | `static net.sf.ehcache.Cache` | [`errCodeCache`](../../../com/cnnct/utils/CacheUtil.html#errCodeCache) |
   | `static net.sf.ehcache.Cache` | [`mapValueCache`](../../../com/cnnct/utils/CacheUtil.html#mapValueCache) |
   | `static net.sf.ehcache.Cache` | [`operSesCache`](../../../com/cnnct/utils/CacheUtil.html#operSesCache) |
