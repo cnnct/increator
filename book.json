@@ -11,7 +11,8 @@
         }
     },
    "plugins": [
-        "splitter"
+        "splitter",
+        "github-buttons",
         "disqus",
         "-search",
         "search-pro@1.0.7",
