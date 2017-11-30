@@ -78,6 +78,7 @@
   * [工具类使用【1.2】](kuang-jia-she-zhi/gong-ju-shi-yong.md)
     * [加解密工具使用【1.2】](kuang-jia-she-zhi/jia-jie-mi-gong-ju-shi-yong-3010-1-2.md)
     * Service基类BaseServImpl
+    * 控制器基类BaseCtrl
     * [日期工具类DateUtil使用](kuang-jia-she-zhi/dateutilshi-yong.md)
     * [excel导入导出工具使用【1.2】](kuang-jia-she-zhi/exceldao-ru-dao-chu-gong-ju-shi-yong-3010-1-2.md)
     * [字符串工具类Tools使用](kuang-jia-she-zhi/zi-fu-chuan-gong-ju-lei-tools-shi-yong.md)
@@ -87,7 +88,6 @@
     * IP操作工具类
     * 配置文件读取工具ReadConfig
     * 格式化字符串FormaterUtils
-    * Service基类BaseServImpl
     * 控制器基类BaseCtrl
   * [Redis的使用](kuang-jia-she-zhi/redisde-shi-yong.md)
   * [动态sql的使用](kuang-jia-she-zhi/dong-tai-sql-de-shi-yong.md)
@@ -108,6 +108,4 @@
   * [gitbook和github结合](fu-lu/gitbookhe-github-jie-he.md)
   * [测试](plugins.md)
   * [java doc](fu-lu/java-doc.md)
-
-
 
