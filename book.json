@@ -48,19 +48,6 @@
             "defineWord": ["gitbook-use"]
          },
 
-        "sharing": {
-            "weibo": true,
-            "facebook": true,
-            "twitter": true,
-            "google": false,
-            "instapaper": false,
-             "vk": false,
-            "all": [
-                "facebook", "google", "twitter",
-                "weibo", "instapaper"
-            ]
-        },
-
         "tbfed-pagefooter": {
             "copyright":"Copyright &copy increator.cn 2017 浙江创建科技有限公司",
             "modify_label": "该文件修订时间：",
