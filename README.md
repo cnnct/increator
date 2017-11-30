@@ -55,6 +55,8 @@
 > gitbook editor编辑器下载地址：[https://www.gitbook.com/editor/releases/stable](https://www.gitbook.com/editor/releases/stable)
 >
 > mybatis-generator-core下载：[http://mvnrepository.com/artifact/org.mybatis.generator/mybatis-generator-core](http://mvnrepository.com/artifact/org.mybatis.generator/mybatis-generator-core)
+>
+> gitbook的高级使用手册：http://gitbook.zhangjikai.com/
 
 ![](/assets/new_logo.png)
 
