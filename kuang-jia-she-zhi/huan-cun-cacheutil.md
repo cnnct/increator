@@ -1,8 +1,5 @@
 # com.cnnct.utils.CacheUtil    缓存管理工具类
 
-| `static java.lang.Boolean` |
-| :--- |
-
 
 | `static java.lang.Boolean` | [`checkReqCode`](../../../com/cnnct/utils/CacheUtil.html#checkReqCode-java.lang.Object-)`(java.lang.Object reqCode)`判断reqCode对象是否存在 |
 | :--- | :--- |
