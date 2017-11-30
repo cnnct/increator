@@ -88,6 +88,7 @@
     * 格式化字符串FormaterUtils
     * FTP工具类
     * 控制器基类BaseCtrl
+    * Service基类BaseServImpl
   * [Redis的使用](kuang-jia-she-zhi/redisde-shi-yong.md)
   * [动态sql的使用](kuang-jia-she-zhi/dong-tai-sql-de-shi-yong.md)
   * [form表单提交防止重复提交【1.2.2】](kuang-jia-she-zhi/formbiao-dan-ti-jiao-fang-zhi-zhong-fu-ti-jiao.md)
