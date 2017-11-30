@@ -1,3 +1,5 @@
+#  {#test}
+
 # 手册介绍 {#test}
 
 > 本手册已作为git资源上传到gitbub资源库中，使用说明详见章节：[gitbook和github](/fu-lu/gitbookhe-github-jie-he.md)结合
@@ -56,7 +58,7 @@
 >
 > mybatis-generator-core下载：[http://mvnrepository.com/artifact/org.mybatis.generator/mybatis-generator-core](http://mvnrepository.com/artifact/org.mybatis.generator/mybatis-generator-core)
 >
-> gitbook的高级使用手册：http://gitbook.zhangjikai.com/
+> gitbook的高级使用手册：[http://gitbook.zhangjikai.com/](http://gitbook.zhangjikai.com/)
 
 ![](/assets/new_logo.png)
 
