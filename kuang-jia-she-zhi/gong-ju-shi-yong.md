@@ -9,7 +9,6 @@ CacheUtil
       key
       sessionId
       返回:
-
       ```
 
       通过sessionId得到operId  
@@ -18,7 +17,6 @@ CacheUtil
 
       * sessionId
         返回:
-
 * #### removeOperSes
 
   ```
