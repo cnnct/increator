@@ -2,7 +2,7 @@
 
 | `static java.lang.Boolean` | [`checkReqCode`](#checkReqCode)`(java.lang.Object reqCode)`判断reqCode对象是否存在 |
 | :--- | :--- |
-| `static com.cnnct.po.custom.SysActionLogCust` | [`getActionLog`](../../../com/cnnct/utils/CacheUtil.html#getActionLog-javax.servlet.http.HttpServletRequest-)`(javax.servlet.http.HttpServletRequest request)`取出actionLog缓存 |
+| `static com.cnnct.po.custom.SysActionLogCust` | [`getActionLog`](#getActionLog)`(javax.servlet.http.HttpServletRequest request)`取出actionLog缓存 |
 | `static java.lang.Object` | [`getActionLog`](../../../com/cnnct/utils/CacheUtil.html#getActionLog-java.lang.Object-)`(java.lang.Object key)`取出actionLog缓存 |
 | `static java.lang.String` | [`getChineseByTypeDetailState`](../../../com/cnnct/utils/CacheUtil.html#getChineseByTypeDetailState-java.lang.Object-java.lang.Object-java.lang.Object-)`(java.lang.Object orderType, java.lang.Object orderTypeDetail, java.lang.Object orderState)`根据orderType+orderTypeDetail+orderState返回orderStateChinese |
 | `static java.lang.String` | [`getCodeNameBySysCode`](../../../com/cnnct/utils/CacheUtil.html#getCodeNameBySysCode-java.lang.String-java.lang.String-)`(java.lang.String codeType, java.lang.String codeValue)`根据SYS\_CODE表的code\_Type和code\_Value字段,获得code\_Name的值，否则返回空字符串 |
