@@ -11,6 +11,7 @@
         }
     },
    "plugins": [
+        "splitter"
         "disqus",
         "-search",
         "search-pro@1.0.7",
