@@ -87,8 +87,8 @@
     * HttpClient工具类
     * [IP操作工具类](kuang-jia-she-zhi/ipcao-zuo-gong-ju-lei.md)
     * [配置文件读取工具ReadConfig](kuang-jia-she-zhi/pei-zhi-wen-jian-du-qu-gong-ju-readconfig.md)
-    * 格式化字符串FormaterUtils
-    * 控制器基类BaseCtrl
+    * [格式化字符串FormaterUtils](kuang-jia-she-zhi/ge-shi-hua-zi-fu-chuan-formaterutils.md)
+    * [控制器基类BaseCtrl](kuang-jia-she-zhi/kong-zhi-qi-ji-lei-basectrl.md)
   * [Redis的使用](kuang-jia-she-zhi/redisde-shi-yong.md)
   * [动态sql的使用](kuang-jia-she-zhi/dong-tai-sql-de-shi-yong.md)
   * [form表单提交防止重复提交【1.2.2】](kuang-jia-she-zhi/formbiao-dan-ti-jiao-fang-zhi-zhong-fu-ti-jiao.md)
