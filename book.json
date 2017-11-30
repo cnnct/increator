@@ -14,7 +14,9 @@
         "splitter",
         "emphasize",       
         "tbfed-pagefooter",
-        "sitemap-general"
+        "sitemap-general",
+        "expandable-chapters-small",
+        "anchor-navigation-ex"
     ],
     "pluginsConfig": { 
         "tbfed-pagefooter": {
