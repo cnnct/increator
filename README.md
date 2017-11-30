@@ -59,6 +59,8 @@
 > mybatis-generator-core下载：[http://mvnrepository.com/artifact/org.mybatis.generator/mybatis-generator-core](http://mvnrepository.com/artifact/org.mybatis.generator/mybatis-generator-core)
 >
 > gitbook的高级使用手册：[http://gitbook.zhangjikai.com/](http://gitbook.zhangjikai.com/)
+>
+> javadoc转markdown：https://delight-im.github.io/Javadoc-to-Markdown/?utm\_source=next.36kr.com
 
 
 
