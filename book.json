@@ -11,6 +11,7 @@
         }
     },
     "plugins": [
+        "favicon@^0.0.2",
         "splitter",        
         "tbfed-pagefooter", 
         "anchor-navigation-ex"
