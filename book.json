@@ -11,7 +11,7 @@
         }
     },
     "plugins": [
-        "favicon@^0.0.2" 
+        "favicon@^0.0.2" ,
         "tbfed-pagefooter"
     ],
     "pluginsConfig": {
