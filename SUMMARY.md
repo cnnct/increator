@@ -76,7 +76,7 @@
     * [单页凭证报表打印开发](kuang-jia-she-zhi/bao-biao-he-da-yin/dan-ye-ping-zheng-bao-biao-da-yin-kai-fa.md)
   * [HttpClient的使用](kuang-jia-she-zhi/httpclientde-shi-yong.md)
   * [工具类使用【1.2】](kuang-jia-she-zhi/gong-ju-shi-yong.md)
-    * [加解密工具使用【1.2】](kuang-jia-she-zhi/jia-jie-mi-gong-ju-shi-yong-3010-1-2.md)
+    * [加解密工具使用【1.2】【施】](kuang-jia-she-zhi/jia-jie-mi-gong-ju-shi-yong-3010-1-2.md)
     * [Service基类BaseServImpl](kuang-jia-she-zhi/serviceji-lei-baseservimpl.md)
     * [控制器基类BaseCtrl](kuang-jia-she-zhi/kong-zhi-qi-ji-lei-basectrl.md)
     * [excel导入导出工具使用【1.2】](kuang-jia-she-zhi/exceldao-ru-dao-chu-gong-ju-shi-yong-3010-1-2.md)
