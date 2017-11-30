@@ -1,4 +1,4 @@
-# ![](/assets/new_logo.png)![](/assets/new_logo_icon.png) {#test}
+# ![](/assets/new_logo.png) {#test}
 
 # 手册介绍 {#test}
 
