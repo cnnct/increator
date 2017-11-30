@@ -11,10 +11,8 @@
         }
     },
     "plugins": [
-        "favicon@^0.0.2",
-        "splitter",        
-        "tbfed-pagefooter", 
-        "anchor-navigation-ex@0.1.8"
+        "favicon@^0.0.2" 
+        "tbfed-pagefooter"
     ],
     "pluginsConfig": {
         "tbfed-pagefooter": {
