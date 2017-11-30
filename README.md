@@ -56,9 +56,5 @@
 >
 > mybatis-generator-core下载：[http://mvnrepository.com/artifact/org.mybatis.generator/mybatis-generator-core](http://mvnrepository.com/artifact/org.mybatis.generator/mybatis-generator-core)
 
-
-
-
-
 ![](/assets/new_logo.png)
 
