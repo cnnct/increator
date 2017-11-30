@@ -60,5 +60,5 @@
 >
 > gitbook的高级使用手册：[http://gitbook.zhangjikai.com/](http://gitbook.zhangjikai.com/)
 
-![](/assets/new_logo.png)
+
 
