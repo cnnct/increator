@@ -13,6 +13,7 @@
    "plugins": [
         "splitter",
         "github-buttons",
+        "emphasize",
         "disqus",
         "-search",
         "search-pro@1.0.7",
