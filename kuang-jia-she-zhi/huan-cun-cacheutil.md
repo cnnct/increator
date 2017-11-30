@@ -1,6 +1,6 @@
 # com.cnnct.utils.CacheUtil    缓存管理工具类
 
-| `static java.lang.Boolean` | [`checkReqCode`](#checkReqCode-java.lang.Object-)`(java.lang.Object reqCode)`判断reqCode对象是否存在 |
+| `static java.lang.Boolean` | [`checkReqCode`](#checkReqCode)`(java.lang.Object reqCode)`判断reqCode对象是否存在 |
 | :--- | :--- |
 | `static com.cnnct.po.custom.SysActionLogCust` | [`getActionLog`](../../../com/cnnct/utils/CacheUtil.html#getActionLog-javax.servlet.http.HttpServletRequest-)`(javax.servlet.http.HttpServletRequest request)`取出actionLog缓存 |
 | `static java.lang.Object` | [`getActionLog`](../../../com/cnnct/utils/CacheUtil.html#getActionLog-java.lang.Object-)`(java.lang.Object key)`取出actionLog缓存 |
