@@ -9,17 +9,16 @@ com.cnnct.utils
 
 * ---
 
- 
-  ```
+```
   public class 
   CacheUtil
 
   extends java.lang.Object
-  ```
+```
 
-  缓存管理工具类
+缓存管理工具类
 
-*  ### 字段概要
+* ### 字段概要
 
   |  |  |
   | :--- | :--- |
@@ -35,7 +34,7 @@ com.cnnct.utils
   | `static net.sf.ehcache.Cache` | [`trCodeCache`](../../../com/cnnct/utils/CacheUtil.html#trCodeCache) |
   | `static net.sf.ehcache.Cache` | [`trOrderCache`](../../../com/cnnct/utils/CacheUtil.html#trOrderCache) |
 
-  *  ### 方法概要
+  * ### 方法概要
 
     |  |  |
     | :--- | :--- |
@@ -74,553 +73,541 @@ com.cnnct.utils
     | `static void` | [`removeOperSes`](../../../com/cnnct/utils/CacheUtil.html#removeOperSes-java.lang.Object-)`(java.lang.Object key)`通过sessionId删除OperId |
     | `static void` | [`removeSession`](../../../com/cnnct/utils/CacheUtil.html#removeSession-java.lang.Object-)`(java.lang.Object key)`根据operId移除用户session相关数据map，支持redis和ehcache |
 
-    *  ### 从类继承的方法 java.lang.Object
+    * ### 从类继承的方法 java.lang.Object
 
-      `equals, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait`
+    `equals, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait`
+* * ### 字段详细资料
 
-* *  ### 字段详细资料
+* #### sessionCache
 
+  ```
+  public static net.sf.ehcache.Cache sessionCache
+  ```
 
-    * #### sessionCache
+* #### errCodeCache
 
-      ```
-      public static net.sf.ehcache.Cache sessionCache
-      ```
+  ```
+  public static net.sf.ehcache.Cache errCodeCache
+  ```
 
+* #### actionLogCache
 
-    * #### errCodeCache
+  ```
+  public static net.sf.ehcache.Cache actionLogCache
+  ```
 
-      ```
-      public static net.sf.ehcache.Cache errCodeCache
-      ```
+* #### operSesCache
 
+  ```
+  public static net.sf.ehcache.Cache operSesCache
+  ```
 
-    * #### actionLogCache
+* #### sysCodeCache
 
-      ```
-      public static net.sf.ehcache.Cache actionLogCache
-      ```
+  ```
+  public static net.sf.ehcache.Cache sysCodeCache
+  ```
 
+* #### sysParaCache
 
-    * #### operSesCache
+  ```
+  public static net.sf.ehcache.Cache sysParaCache
+  ```
 
-      ```
-      public static net.sf.ehcache.Cache operSesCache
-      ```
+* #### trCodeCache
 
+  ```
+  public static net.sf.ehcache.Cache trCodeCache
+  ```
 
-    * #### sysCodeCache
+* #### mapValueCache
 
-      ```
-      public static net.sf.ehcache.Cache sysCodeCache
-      ```
+  ```
+  public static net.sf.ehcache.Cache mapValueCache
+  ```
 
+* #### reqCodeCache
 
-    * #### sysParaCache
+  ```
+  public static net.sf.ehcache.Cache reqCodeCache
+  ```
 
-      ```
-      public static net.sf.ehcache.Cache sysParaCache
-      ```
+* #### trOrderCache
 
+  ```
+  public static net.sf.ehcache.Cache trOrderCache
+  ```
 
-    * #### trCodeCache
+  * ### 方法详细资料
 
-      ```
-      public static net.sf.ehcache.Cache trCodeCache
-      ```
+* #### putOperSes
 
+  ```
+  public static void putOperSes(java.lang.Object key,
+                                java.lang.Object value)
+  ```
 
-    * #### mapValueCache
+  用户session放入缓存  
+  参数:  
+  `key`
 
-      ```
-      public static net.sf.ehcache.Cache mapValueCache
-      ```
+  * 当前sessionId
+    `value`
+  * 当前用户operId
 
+* #### getOperSes
 
-    * #### reqCodeCache
+  ```
+  public static java.lang.Object getOperSes(java.lang.Object key)
+  ```
 
-      ```
-      public static net.sf.ehcache.Cache reqCodeCache
-      ```
+  通过sessionId得到operId  
+  参数:  
+  `key`
 
+  * sessionId
+    返回:
 
-    * #### trOrderCache
+* #### removeOperSes
 
-      ```
-      public static net.sf.ehcache.Cache trOrderCache
-      ```
+  ```
+  public static void removeOperSes(java.lang.Object key)
+  ```
 
-  *  ### 方法详细资料
+  通过sessionId删除OperId  
+  参数:  
+  `key`
 
+  * sessionId
 
-    * #### putOperSes
+* #### putSession
 
-      ```
-      public static void putOperSes(java.lang.Object key,
-                                    java.lang.Object value)
-      ```
+  ```
+  public static void putSession(java.lang.Object key,
+                                java.util.Map value)
+  ```
 
-      用户session放入缓存
-      参数:
-      `key`
-       - 当前sessionId
-      `value`
-       - 当前用户operId
+  根据operId存放用户session相关数据map，支持redis和ehcache  
+  参数:  
+  `key`
 
+  * operId
+    `value`
+  * session相关的数据map
 
-    * #### getOperSes
+* #### removeSession
 
-      ```
-      public static java.lang.Object getOperSes(java.lang.Object key)
-      ```
+  ```
+  public static void removeSession(java.lang.Object key)
+  ```
 
-      通过sessionId得到operId
-      参数:
-      `key`
-       - sessionId
-      返回:
+  根据operId移除用户session相关数据map，支持redis和ehcache  
+  参数:  
+  `key`
 
+  * operId
 
-    * #### removeOperSes
+* #### getSession
 
-      ```
-      public static void removeOperSes(java.lang.Object key)
-      ```
+  ```
+  public static java.util.Map getSession(java.lang.Object key)
+  ```
 
-      通过sessionId删除OperId
-      参数:
-      `key`
-       - sessionId
+  根据operId获取用户session相关数据map，支持redis和ehcache  
+  参数:  
+  `key`
 
+  * operId
 
-    * #### putSession
+* #### putErrCode
 
-      ```
-      public static void putSession(java.lang.Object key,
-                                    java.util.Map value)
-      ```
+  ```
+  public static void putErrCode(java.lang.Object key,
+                                java.lang.Object value)
+  ```
 
-      根据operId存放用户session相关数据map，支持redis和ehcache
-      参数:
-      `key`
-       - operId
-      `value`
-       - session相关的数据map
+  errCode存放单个对象  
+  参数:  
+  `key`
 
+  * errCode错误码
+    `value`
+  * Sys\_Code\_Err对象
 
-    * #### removeSession
+* #### getErrCode
 
-      ```
-      public static void removeSession(java.lang.Object key)
-      ```
+  ```
+  public static java.lang.Object getErrCode(java.lang.Object key)
+  ```
 
-      根据operId移除用户session相关数据map，支持redis和ehcache
-      参数:
-      `key`
-       - operId
+  根据errCode值  
+  参数:  
+  `key`
 
+  * errCode错误码
+    返回:
+    Sys\_Code\_Err对象
 
-    * #### getSession
+* #### getErrMsgByErrCode
 
-      ```
-      public static java.util.Map getSession(java.lang.Object key)
-      ```
+  ```
+  public static java.lang.String getErrMsgByErrCode(java.lang.Object key)
+  ```
 
-      根据operId获取用户session相关数据map，支持redis和ehcache
-      参数:
-      `key`
-       - operId
+  根据错误码获取错误描述  
+  参数:  
+  `key`
 
+  * errCode错误码
+    返回:
+    错误码对应的描述
 
-    * #### putErrCode
+* #### putMapValue
 
-      ```
-      public static void putErrCode(java.lang.Object key,
-                                    java.lang.Object value)
-      ```
+  ```
+  public static void putMapValue(javax.servlet.http.HttpServletRequest request,
+                                 java.util.Map
+  <
+  java.lang.String,java.lang.Object
+  >
+   map)
+  ```
 
-      errCode存放单个对象
-      参数:
-      `key`
-       - errCode错误码
-      `value`
-       - Sys\_Code\_Err对象
+  已过时。  
+  暂未使用 将map放入缓存  
+  参数:  
+  `key`
 
+  * 当前请求url等信息拼接作为key
+    `value`
+  * 存放对象
 
-    * #### getErrCode
+* #### getMapValue
 
-      ```
-      public static java.lang.Object getErrCode(java.lang.Object key)
-      ```
+  ```
+  public static java.lang.Object getMapValue(java.lang.Object key)
+  ```
 
-      根据errCode值
-      参数:
-      `key`
-       - errCode错误码
-      返回:
-      Sys\_Code\_Err对象
+  取出map缓存  
+  参数:  
+  `key`
 
+  * 当前请求url等信息拼接作为key
+    返回:
+    返回map对象
 
-    * #### getErrMsgByErrCode
+* #### getMapValue
 
-      ```
-      public static java.lang.String getErrMsgByErrCode(java.lang.Object key)
-      ```
+  ```
+  public static java.util.Map
+  <
+  java.lang.String,java.lang.Object
+  >
+   getMapValue(javax.servlet.http.HttpServletRequest request)
+  ```
 
-      根据错误码获取错误描述
-      参数:
-      `key`
-       - errCode错误码
-      返回:
-      错误码对应的描述
+  取出map缓存  
+  参数:  
+  `key`
 
+  * 当前请求url等信息拼接作为key
+    返回:
+    返回map对象
 
-    * #### putMapValue
+* #### removeMapValue
 
-      ```
-      public static void putMapValue(javax.servlet.http.HttpServletRequest request,
+  ```
+  public static void removeMapValue(javax.servlet.http.HttpServletRequest request)
+  ```
+
+  移除map缓存  
+  参数:  
+  `request`
+
+  * 当前请求request
+
+* #### putActionLog
+
+  ```
+  public static void putActionLog(java.lang.Object key,
+                                  java.lang.Object value)
+  ```
+
+  将actionLog放入缓存  
+  参数:  
+  `key`
+
+  * 当前请求url等信息拼接作为key
+    `value`
+  * SysActionLogCust对象
+
+* #### putActionLog
+
+  ```
+  public static void putActionLog(javax.servlet.http.HttpServletRequest request,
+                                  com.cnnct.po.custom.SysActionLogCust value)
+  ```
+
+  将actionLog放入缓存  
+  参数:  
+  `request`
+
+  * 当前请求request
+    `value`
+  * SysActionLogCust对象
+
+* #### getActionLog
+
+  ```
+  public static java.lang.Object getActionLog(java.lang.Object key)
+  ```
+
+  取出actionLog缓存  
+  参数:  
+  `key`
+
+  * 当前请求url等信息拼接作为key
+    返回:
+    SysActionLogCust对象
+
+* #### getActionLog
+
+  ```
+  public static com.cnnct.po.custom.SysActionLogCust getActionLog(javax.servlet.http.HttpServletRequest request)
+  ```
+
+  取出actionLog缓存  
+  参数:  
+  `key`
+
+  * 当前请求url等信息拼接作为key
+    返回:
+    SysActionLogCust对象
+
+* #### removeActionLog
+
+  ```
+  public static void removeActionLog(javax.servlet.http.HttpServletRequest request)
+  ```
+
+  移除actionLog缓存  
+  参数:  
+  `key`
+
+  * 当前请求url等信息拼接作为key
+
+* #### putInterfaceLog
+
+  ```
+  public static void putInterfaceLog(javax.servlet.http.HttpServletRequest request,
                                      java.util.Map
-      <
-      java.lang.String,java.lang.Object
-      >
-       map)
-      ```
-
-      已过时。
-      暂未使用 将map放入缓存
-      参数:
-      `key`
-       - 当前请求url等信息拼接作为key
-      `value`
-       - 存放对象
-
-
-    * #### getMapValue
-
-      ```
-      public static java.lang.Object getMapValue(java.lang.Object key)
-      ```
-
-      取出map缓存
-      参数:
-      `key`
-       - 当前请求url等信息拼接作为key
-      返回:
-      返回map对象
-
-
-    * #### getMapValue
-
-      ```
-      public static java.util.Map
-      <
-      java.lang.String,java.lang.Object
-      >
-       getMapValue(javax.servlet.http.HttpServletRequest request)
-      ```
-
-      取出map缓存
-      参数:
-      `key`
-       - 当前请求url等信息拼接作为key
-      返回:
-      返回map对象
-
-
-    * #### removeMapValue
-
-      ```
-      public static void removeMapValue(javax.servlet.http.HttpServletRequest request)
-      ```
-
-      移除map缓存
-      参数:
-      `request`
-       - 当前请求request
-
-
-    * #### putActionLog
-
-      ```
-      public static void putActionLog(java.lang.Object key,
-                                      java.lang.Object value)
-      ```
-
-      将actionLog放入缓存
-      参数:
-      `key`
-       - 当前请求url等信息拼接作为key
-      `value`
-       - SysActionLogCust对象
-
-
-    * #### putActionLog
-
-      ```
-      public static void putActionLog(javax.servlet.http.HttpServletRequest request,
-                                      com.cnnct.po.custom.SysActionLogCust value)
-      ```
-
-      将actionLog放入缓存
-      参数:
-      `request`
-       - 当前请求request
-      `value`
-       - SysActionLogCust对象
-
-
-    * #### getActionLog
-
-      ```
-      public static java.lang.Object getActionLog(java.lang.Object key)
-      ```
-
-      取出actionLog缓存
-      参数:
-      `key`
-       - 当前请求url等信息拼接作为key
-      返回:
-      SysActionLogCust对象
-
-
-    * #### getActionLog
-
-      ```
-      public static com.cnnct.po.custom.SysActionLogCust getActionLog(javax.servlet.http.HttpServletRequest request)
-      ```
-
-      取出actionLog缓存
-      参数:
-      `key`
-       - 当前请求url等信息拼接作为key
-      返回:
-      SysActionLogCust对象
-
-
-    * #### removeActionLog
-
-      ```
-      public static void removeActionLog(javax.servlet.http.HttpServletRequest request)
-      ```
-
-      移除actionLog缓存
-      参数:
-      `key`
-       - 当前请求url等信息拼接作为key
-
-
-    * #### putInterfaceLog
-
-      ```
-      public static void putInterfaceLog(javax.servlet.http.HttpServletRequest request,
-                                         java.util.Map
-      <
-      java.lang.String,java.lang.Object
-      >
-       map)
-      ```
-
-      已过时。
-      暂未使用 将interfaceLog放入缓存
-      参数:
-      `key`
-       - 当前请求url等信息拼接作为key
-      `value`
-       - Sys\_Interface\_log
-
-
-    * #### getCodeNameBySysCode
-
-      ```
-      public static java.lang.String getCodeNameBySysCode(java.lang.String codeType,
-                                                          java.lang.String codeValue)
-                                                   throws increator.base.exception.CustomException
-      ```
-
-      根据SYS\_CODE表的code\_Type和code\_Value字段,获得code\_Name的值，否则返回空字符串
-      参数:
-      `codeType`
-       - code\_Type名称，如SEX
-      `codeValue`
-       - code\_Value值
-      返回:
-      code\_Name值
-      抛出:
-      `increator.base.exception.CustomException`
-
-
-    * #### getFieldNameBySysCode
-
-      ```
-      public static java.lang.String getFieldNameBySysCode(java.lang.String codeType,
-                                                           java.lang.String codeValue)
-                                                    throws increator.base.exception.CustomException
-      ```
-
-      根据SYS\_CODE表的code\_Type和code\_Value字段,获得field\_Name的值，否则返回空字符串
-      参数:
-      `codeType`
-       - code\_Type名称，如SEX
-      `codeValue`
-       - code\_Value值
-      返回:
-      field\_Name值
-      抛出:
-      `increator.base.exception.CustomException`
-
-
-    * #### getCodeValueBySysCode
-
-      ```
-      public static java.lang.String getCodeValueBySysCode(java.lang.String codeType,
-                                                           java.lang.String codeName)
-                                                    throws increator.base.exception.CustomException
-      ```
-
-      根据SYS\_CODE表的code\_Type和code\_Name字段,获得code\_Value的值，否则返回空字符串
-      参数:
-      `codeType`
-       - code\_Type名称，如SEX
-      `codeName`
-       - code\_Name名称，如男
-      返回:
-      code\_Value值
-      抛出:
-      `increator.base.exception.CustomException`
-
-
-    * #### getSysParaByCode
-
-      ```
-      public static com.cnnct.po.custom.SysParaCust getSysParaByCode(java.lang.String paraCode)
-                                                              throws increator.base.exception.CustomException
-      ```
-
-      根据para\_Code返回SysParaCust对象
-      参数:
-      `paraCode`
-       - para\_Code名称，如LOGIN\_TIME\_OUT
-      返回:
-      SysParaCust对象
-      抛出:
-      `increator.base.exception.CustomException`
-
-
-    * #### getParaValueByCode
-
-      ```
-      public static java.lang.String getParaValueByCode(java.lang.String paraCode)
-                                                 throws increator.base.exception.CustomException
-      ```
-
-      根据para\_Code返回Sys\_Para.para\_Value值
-      参数:
-      `paraCode`
-       - para\_Code名称，如LOGIN\_TIME\_OUT
-      返回:
-      Sys\_Para.para\_Value值，如30
-      抛出:
-      `increator.base.exception.CustomException`
-
-
-    * #### getSysCodeTrByTrCode
-
-      ```
-      public static com.cnnct.po.custom.SysCodeTrCust getSysCodeTrByTrCode(java.lang.Object trCode)
-                                                                    throws increator.base.exception.CustomException
-      ```
-
-      根据tr\_Code返回SysCodeTrCust对象
-      参数:
-      `trCode`
-       - 交易代码，如110013
-      返回:
-      SysCodeTrCust交易代码对象
-      抛出:
-      `increator.base.exception.CustomException`
-
-
-    * #### getTrCodeNameByTrCode
-
-      ```
-      public static java.lang.String getTrCodeNameByTrCode(java.lang.Object trCode)
-                                                    throws increator.base.exception.CustomException
-      ```
-
-      根据交易代码tr\_Code返回Sys\_Code\_Tr.code\_Name值
-      参数:
-      `trCode`
-       - 交易代码，如110013
-      返回:
-      Sys\_Code\_Tr.code\_Name值
-      抛出:
-      `increator.base.exception.CustomException`
-
-
-    * #### getChineseByTypeDetailState
-
-      ```
-      public static java.lang.String getChineseByTypeDetailState(java.lang.Object orderType,
-                                                                 java.lang.Object orderTypeDetail,
-                                                                 java.lang.Object orderState)
+  <
+  java.lang.String,java.lang.Object
+  >
+   map)
+  ```
+
+  已过时。  
+  暂未使用 将interfaceLog放入缓存  
+  参数:  
+  `key`
+
+  * 当前请求url等信息拼接作为key
+    `value`
+  * Sys\_Interface\_log
+
+* #### getCodeNameBySysCode
+
+  ```
+  public static java.lang.String getCodeNameBySysCode(java.lang.String codeType,
+                                                      java.lang.String codeValue)
+                                               throws increator.base.exception.CustomException
+  ```
+
+  根据SYS\_CODE表的code\_Type和code\_Value字段,获得code\_Name的值，否则返回空字符串  
+  参数:  
+  `codeType`
+
+  * code\_Type名称，如SEX
+    `codeValue`
+  * code\_Value值
+    返回:
+    code\_Name值
+    抛出:
+    `increator.base.exception.CustomException`
+
+* #### getFieldNameBySysCode
+
+  ```
+  public static java.lang.String getFieldNameBySysCode(java.lang.String codeType,
+                                                       java.lang.String codeValue)
+                                                throws increator.base.exception.CustomException
+  ```
+
+  根据SYS\_CODE表的code\_Type和code\_Value字段,获得field\_Name的值，否则返回空字符串  
+  参数:  
+  `codeType`
+
+  * code\_Type名称，如SEX
+    `codeValue`
+  * code\_Value值
+    返回:
+    field\_Name值
+    抛出:
+    `increator.base.exception.CustomException`
+
+* #### getCodeValueBySysCode
+
+  ```
+  public static java.lang.String getCodeValueBySysCode(java.lang.String codeType,
+                                                       java.lang.String codeName)
+                                                throws increator.base.exception.CustomException
+  ```
+
+  根据SYS\_CODE表的code\_Type和code\_Name字段,获得code\_Value的值，否则返回空字符串  
+  参数:  
+  `codeType`
+
+  * code\_Type名称，如SEX
+    `codeName`
+  * code\_Name名称，如男
+    返回:
+    code\_Value值
+    抛出:
+    `increator.base.exception.CustomException`
+
+* #### getSysParaByCode
+
+  ```
+  public static com.cnnct.po.custom.SysParaCust getSysParaByCode(java.lang.String paraCode)
                                                           throws increator.base.exception.CustomException
-      ```
+  ```
 
-      根据orderType+orderTypeDetail+orderState返回orderStateChinese
-      参数:
-      `orderType`
-       - 订单类型
-      `orderTypeDetail`
-       - 订单子类型
-      `orderState`
-       - 订单状态值
-      返回:
-      Sys\_Code\_Tr.code\_Name值
-      抛出:
-      `increator.base.exception.CustomException`
+  根据para\_Code返回SysParaCust对象  
+  参数:  
+  `paraCode`
 
+  * para\_Code名称，如LOGIN\_TIME\_OUT
+    返回:
+    SysParaCust对象
+    抛出:
+    `increator.base.exception.CustomException`
 
-    * #### getRedisFlag
+* #### getParaValueByCode
 
-      ```
-      public static boolean getRedisFlag()
-      ```
+  ```
+  public static java.lang.String getParaValueByCode(java.lang.String paraCode)
+                                             throws increator.base.exception.CustomException
+  ```
 
-      判断是否启用了redis
+  根据para\_Code返回Sys\_Para.para\_Value值  
+  参数:  
+  `paraCode`
 
+  * para\_Code名称，如LOGIN\_TIME\_OUT
+    返回:
+    Sys\_Para.para\_Value值，如30
+    抛出:
+    `increator.base.exception.CustomException`
 
-    * #### getReqCodeTrByReqCode
+* #### getSysCodeTrByTrCode
 
-      ```
-      public static com.cnnct.po.custom.SysInterfaceReqcodeCust getReqCodeTrByReqCode(java.lang.Object reqCode)
-                                                                               throws increator.base.exception.CustomException
-      ```
+  ```
+  public static com.cnnct.po.custom.SysCodeTrCust getSysCodeTrByTrCode(java.lang.Object trCode)
+                                                                throws increator.base.exception.CustomException
+  ```
 
-      根据reqCode返回SysInterfaceReqcodeCust对象
-      参数:
-      `reqCode`
-       - 接口请求码，如U001
-      返回:
-      SysInterfaceReqcodeCust对象
-      抛出:
-      `increator.base.exception.CustomException`
+  根据tr\_Code返回SysCodeTrCust对象  
+  参数:  
+  `trCode`
 
+  * 交易代码，如110013
+    返回:
+    SysCodeTrCust交易代码对象
+    抛出:
+    `increator.base.exception.CustomException`
 
-    * #### checkReqCode
+* #### getTrCodeNameByTrCode
 
-      ```
-      public static java.lang.Boolean checkReqCode(java.lang.Object reqCode)
-                                            throws increator.base.exception.CustomException
-      ```
+  ```
+  public static java.lang.String getTrCodeNameByTrCode(java.lang.Object trCode)
+                                                throws increator.base.exception.CustomException
+  ```
 
-      判断reqCode对象是否存在
-      参数:
-      `reqCode`
-       - 接口请求码，如U001
-      返回:
-      是否存在
-      抛出:
-      `increator.base.exception.CustomException`
+  根据交易代码tr\_Code返回Sys\_Code\_Tr.code\_Name值  
+  参数:  
+  `trCode`
+
+  * 交易代码，如110013
+    返回:
+    Sys\_Code\_Tr.code\_Name值
+    抛出:
+    `increator.base.exception.CustomException`
+
+* #### getChineseByTypeDetailState
+
+  ```
+  public static java.lang.String getChineseByTypeDetailState(java.lang.Object orderType,
+                                                             java.lang.Object orderTypeDetail,
+                                                             java.lang.Object orderState)
+                                                      throws increator.base.exception.CustomException
+  ```
+
+  根据orderType+orderTypeDetail+orderState返回orderStateChinese  
+  参数:  
+  `orderType`
+
+  * 订单类型
+    `orderTypeDetail`
+  * 订单子类型
+    `orderState`
+  * 订单状态值
+    返回:
+    Sys\_Code\_Tr.code\_Name值
+    抛出:
+    `increator.base.exception.CustomException`
+
+* #### getRedisFlag
+
+  ```
+  public static boolean getRedisFlag()
+  ```
+
+  判断是否启用了redis
+
+* #### getReqCodeTrByReqCode
+
+  ```
+  public static com.cnnct.po.custom.SysInterfaceReqcodeCust getReqCodeTrByReqCode(java.lang.Object reqCode)
+                                                                           throws increator.base.exception.CustomException
+  ```
+
+  根据reqCode返回SysInterfaceReqcodeCust对象  
+  参数:  
+  `reqCode`
+
+  * 接口请求码，如U001
+    返回:
+    SysInterfaceReqcodeCust对象
+    抛出:
+    `increator.base.exception.CustomException`
+
+* #### checkReqCode
+
+  ```
+  public static java.lang.Boolean checkReqCode(java.lang.Object reqCode)
+                                        throws increator.base.exception.CustomException
+  ```
+
+  判断reqCode对象是否存在  
+  参数:  
+  `reqCode`
+
+  * 接口请求码，如U001
+    返回:
+    是否存在
+    抛出:
+    `increator.base.exception.CustomException`
 
 
 
