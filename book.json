@@ -45,7 +45,7 @@
         },
         "search-pro": {
             "cutWordLib": "nodejieba",
-            "defineWord": ["gitbook-use"]
+            "defineWord": ["dev_guide"]
          },
 
         "tbfed-pagefooter": {
