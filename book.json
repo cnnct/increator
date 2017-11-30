@@ -12,36 +12,13 @@
     },
    "plugins": [
         "splitter",
-        "github-buttons",
-        "emphasize",
-        "disqus",
-        "search-pro@1.0.7",
-        "advanced-emoji@0.1.5",
-        "github",
-        "ace",
-        "katex",
-        "anchors",
-        "include-codeblock",
-        "mermaid",
+        "emphasize",       
         "tbfed-pagefooter",
         "sectionx",
-        "expandable-chapters",
-        "codeblock-filename",
-        "baidu",
-        "sitemap@1.0.2",
-        "back-to-top-button@0.1.0"
+        "expandable-chapters",       
+        "sitemap@1.0.2"
     ],
-    "pluginsConfig": {
-        "disqus": {
-            "shortName": "gitbookuse"
-        },
-        "github": {
-            "url": "https://github.com/zhangjikai/gitbook-use"
-        },
-        "search-pro": {
-            "cutWordLib": "nodejieba",
-            "defineWord": ["dev_guide"]
-         },
+    "pluginsConfig": {       
 
         "tbfed-pagefooter": {
             "copyright":"Copyright &copy increator.cn 2017 浙江创建科技有限公司",
