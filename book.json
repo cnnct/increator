@@ -14,7 +14,7 @@
         "favicon@^0.0.2",
         "splitter",        
         "tbfed-pagefooter", 
-        "anchor-navigation-ex"
+        "anchor-navigation-ex@0.1.8"
     ],
     "pluginsConfig": {
         "tbfed-pagefooter": {
