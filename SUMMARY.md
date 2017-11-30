@@ -77,6 +77,7 @@
   * [HttpClient的使用](kuang-jia-she-zhi/httpclientde-shi-yong.md)
   * [工具类使用【1.2】](kuang-jia-she-zhi/gong-ju-shi-yong.md)
     * [加解密工具使用【1.2】](kuang-jia-she-zhi/jia-jie-mi-gong-ju-shi-yong-3010-1-2.md)
+    * Service基类BaseServImpl
     * [日期工具类DateUtil使用](kuang-jia-she-zhi/dateutilshi-yong.md)
     * [excel导入导出工具使用【1.2】](kuang-jia-she-zhi/exceldao-ru-dao-chu-gong-ju-shi-yong-3010-1-2.md)
     * [字符串工具类Tools使用](kuang-jia-she-zhi/zi-fu-chuan-gong-ju-lei-tools-shi-yong.md)
@@ -86,9 +87,8 @@
     * IP操作工具类
     * 配置文件读取工具ReadConfig
     * 格式化字符串FormaterUtils
-    * FTP工具类
-    * 控制器基类BaseCtrl
     * Service基类BaseServImpl
+  * 控制器基类BaseCtrl
   * [Redis的使用](kuang-jia-she-zhi/redisde-shi-yong.md)
   * [动态sql的使用](kuang-jia-she-zhi/dong-tai-sql-de-shi-yong.md)
   * [form表单提交防止重复提交【1.2.2】](kuang-jia-she-zhi/formbiao-dan-ti-jiao-fang-zhi-zhong-fu-ti-jiao.md)
