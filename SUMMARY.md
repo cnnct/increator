@@ -88,7 +88,7 @@
     * 配置文件读取工具ReadConfig
     * 格式化字符串FormaterUtils
     * Service基类BaseServImpl
-  * 控制器基类BaseCtrl
+    * 控制器基类BaseCtrl
   * [Redis的使用](kuang-jia-she-zhi/redisde-shi-yong.md)
   * [动态sql的使用](kuang-jia-she-zhi/dong-tai-sql-de-shi-yong.md)
   * [form表单提交防止重复提交【1.2.2】](kuang-jia-she-zhi/formbiao-dan-ti-jiao-fang-zhi-zhong-fu-ti-jiao.md)
@@ -108,4 +108,6 @@
   * [gitbook和github结合](fu-lu/gitbookhe-github-jie-he.md)
   * [测试](plugins.md)
   * [java doc](fu-lu/java-doc.md)
+
+
 
