@@ -1,6 +1,6 @@
 {
-    "title" : "Gibook Use",
-    "description" : "记录Gitbook的配置和一些插件的使用",
+    "title" : "dev_guide",
+    "description" : "框架开发手册",
     "author" : "pengm",
     "generator": "site",
     "language" : "zh-hans",
