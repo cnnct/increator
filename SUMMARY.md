@@ -77,16 +77,16 @@
   * [HttpClient的使用](kuang-jia-she-zhi/httpclientde-shi-yong.md)
   * [工具类使用【1.2】](kuang-jia-she-zhi/gong-ju-shi-yong.md)
     * [加解密工具使用【1.2】](kuang-jia-she-zhi/jia-jie-mi-gong-ju-shi-yong-3010-1-2.md)
-    * Service基类BaseServImpl
-    * 控制器基类BaseCtrl
-    * [日期工具类DateUtil使用](kuang-jia-she-zhi/dateutilshi-yong.md)
+    * [Service基类BaseServImpl](kuang-jia-she-zhi/serviceji-lei-baseservimpl.md)
+    * [控制器基类BaseCtrl](kuang-jia-she-zhi/kong-zhi-qi-ji-lei-basectrl.md)
     * [excel导入导出工具使用【1.2】](kuang-jia-she-zhi/exceldao-ru-dao-chu-gong-ju-shi-yong-3010-1-2.md)
     * [字符串工具类Tools使用](kuang-jia-she-zhi/zi-fu-chuan-gong-ju-lei-tools-shi-yong.md)
+    * [日期工具类DateUtil使用【陆】](kuang-jia-she-zhi/dateutilshi-yong.md)
     * [mybatis逆向生成工具类GeneratorSqlmap](kuang-jia-she-zhi/mybatisni-xiangsheng-cheng-gong-ju-lei-generatorsqlmap.md)
     * [缓存CacheUtil](kuang-jia-she-zhi/huan-cun-cacheutil.md)
     * HttpClient工具类
-    * IP操作工具类
-    * 配置文件读取工具ReadConfig
+    * [IP操作工具类](kuang-jia-she-zhi/ipcao-zuo-gong-ju-lei.md)
+    * [配置文件读取工具ReadConfig](kuang-jia-she-zhi/pei-zhi-wen-jian-du-qu-gong-ju-readconfig.md)
     * 格式化字符串FormaterUtils
     * 控制器基类BaseCtrl
   * [Redis的使用](kuang-jia-she-zhi/redisde-shi-yong.md)
