@@ -1,13 +1,31 @@
 {
-    "title" : "dev_guide",
-    "description" : "框架开发手册",
-    "author" : "pengm",
+    "title": "框架开发手册",
+    "description": "框架开发手册",
+    "author": "pengm",
     "generator": "site",
-    "language" : "zh-hans",
-    "gitbook" : "2.6.4",
-    "links" : {
-        "sidebar" : {
-            "Home" : "http://www.increator.cn"
+    "language": "zh-hans",
+    "gitbook": "2.6.4",
+    "links": {
+        "sidebar": {
+            "Home": "http://www.increator.cn"
+        }
+    },
+    "plugins": [
+        "splitter",
+        "emphasize",
+        "tbfed-pagefooter",
+        "sitemap-general",
+        "expandable-chapters-small",
+        "anchor-navigation-ex"
+    ],
+    "pluginsConfig": {
+        "tbfed-pagefooter": {
+            "copyright": "Copyright &copy increator.cn 2017 浙江创建科技有限公司",
+            "modify_label": "该文件修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "sitemap-general": {
+            "prefix": "http://gitbook.zhangjikai.com"
         }
     }
 }
