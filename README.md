@@ -1,4 +1,4 @@
-# 手册介绍
+# 手册介绍 {#test}
 
 > 本手册已作为git资源上传到gitbub资源库中，使用说明详见章节：[gitbook和github](/fu-lu/gitbookhe-github-jie-he.md)结合
 >
