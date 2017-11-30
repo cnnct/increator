@@ -58,3 +58,7 @@
 
 
 
+
+
+![](/assets/new_logo.png)
+
