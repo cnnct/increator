@@ -1,6 +1,6 @@
 # ![](/assets/new_logo.png)
 
-我去好了
+# 我去好了
 
 # 手册介绍 {#test}
 
