@@ -99,4 +99,7 @@
   * [gitbook使用注意事项【废弃】](fu-lu/gitsvn.md)
   * [mybatis乱码问题](fu-lu/mybatisshu-ju-lian-jie-chuan-yin-qi-luan-ma-wen-ti.md)
   * [gitbook和github结合](fu-lu/gitbookhe-github-jie-he.md)
+  * [测试](plugins.md)
+
+
 
