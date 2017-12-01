@@ -79,7 +79,10 @@
 
 ![](/assets/validate3.png)
 【1.3】版本后支持自定义方法验证，注意自定的方法返回值只支持true和false
+![](/assets/form_validation5.png)
 
+对于自定义的正则表达式验证和自定义的方法验证都采用如下形式使用：
+![](/assets/form_validation6.png)
 #### form表单的验证显示结果 :
 
 ![](/assets/validate5.png)
