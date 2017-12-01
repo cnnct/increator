@@ -60,7 +60,9 @@
 >
 > gitbook的高级使用手册：[http://gitbook.zhangjikai.com/](http://gitbook.zhangjikai.com/)
 >
-> javadoc转markdown：https://delight-im.github.io/Javadoc-to-Markdown/?utm\_source=next.36kr.com
+> javadoc转markdown：[https://delight-im.github.io/Javadoc-to-Markdown/?utm\_source=next.36kr.com](https://delight-im.github.io/Javadoc-to-Markdown/?utm_source=next.36kr.com)
+>
+> 阿里代码规范检测：http://mp.weixin.qq.com/s/GjrbDp6ZF\_vPDoHyhImShw
 
 
 
