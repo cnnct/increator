@@ -163,4 +163,4 @@
 ![](/assets/table8.png)
 ![](/assets/table9.png)
 
-注意：加载静态的表格需要is_static,fields,id,thead等**必要**属性，使用静态表格后url,translate,idtype,load_data_init,callback等属性不可使用
+**注意**：加载静态的表格需要is_static,fields,id,thead等**必要**属性，使用静态表格后url,translate,idtype,load_data_init,callback等属性不可使用
