@@ -133,7 +133,7 @@
 
   removeTableRow(obj,tableId);//删除当前行数据，只适用于静态表格,obj为当前tr标签包含的元素
   
-  addTableRow(obj,tableId)
+  addTableRow(obj,tableId);//
   例:getCodeName("0","STATE","mytable");//值为"注销"
 
   /**
