@@ -211,11 +211,11 @@ function getTableData(){
 }
 
 
-<#--测试删除表格数据-->
+    <#--测试删除表格数据-->
 function removeRow(obj,tableId){
 	removeTableRow(obj,tableId);
 }
-<#--测试删除选中的行数据-->
+    <#--测试删除选中的行数据-->
 function removeSelectedRow(){
 	removeSelectedTableRows('example');
 }
