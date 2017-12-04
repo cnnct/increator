@@ -161,7 +161,7 @@
 
 * 加载静态表格示例：
 ```html
-<@init_page>
+   <@init_page>
 	<#--加载静态表格-->
 	<@table_toolbar name="查询结果" size="4" >
 			<@button id="addRow" value="测试给表格添加行" size="2" onclick="addRow()"/>
