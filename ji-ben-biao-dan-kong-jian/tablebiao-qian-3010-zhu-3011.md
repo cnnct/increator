@@ -115,7 +115,7 @@
   ![](/assets/table.png)![](/assets/table2.png)
 * 表格多级表头和合并单元格示例图：
   ![](/assets/table3.png)
-* 获取表格相关数据
+* 获取表格相关数据：
 * ```js
   getTable(tableId);//获取表格对象
 
