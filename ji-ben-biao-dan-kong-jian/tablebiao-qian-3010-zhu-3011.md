@@ -131,7 +131,7 @@
   
   removeSelectedTableRows(tableId);//删除当前表格所有勾选的行数据，只适用于静态表格
 
-  removeTableRow(obj,tableId);//删除当前行数据，只适用于静态表格
+  removeTableRow(obj,tableId);//删除当前行数据，只适用于静态表格,obj为当前tr标签包含的元素
   例:getCodeName("0","STATE","mytable");//值为"注销"
 
   /**
