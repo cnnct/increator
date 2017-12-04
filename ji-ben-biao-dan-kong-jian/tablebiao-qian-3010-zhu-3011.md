@@ -220,5 +220,4 @@ function removeSelectedRow(){
 	removeSelectedTableRows('example');
 }
 </script>
-
 ```
