@@ -163,7 +163,7 @@
 ```html
        <@init_page>
 	<#--加载静态表格-->
-	<@table_toolbar name="查询结果" size="4" >
+	    <@table_toolbar name="查询结果" size="4" >
 			<@button id="addRow" value="测试给表格添加行" size="2" onclick="addRow()"/>
 			<@button id="removeTableRow" value="删除选中的表格数据" size="2" onclick="removeSelectedRow()"/>
 			<@button id="getRowData" value="测试获取表格选中行的数据" size="2" onclick="getTableData()"/>
