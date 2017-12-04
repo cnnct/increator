@@ -107,7 +107,8 @@
   17. width【1.2.3】:该属性为表格的宽度属性，默认为100
   18. 表格若不需要id列，fields 中去掉 id 字段，同时后台 sql 也去掉 id 字段：如下
       fields="oper_id,oper_name,org_name,brch_name,oper_state,oper_level"
-  19.no_search_sm【1.3】，查询无记录时，提示区域大小:true/false，默认false正常大图显示。可用于表格下方还有组合用的面板场景使用。
+  19. no_search_sm【1.3】，查询无记录时，提示区域大小:true/false，默认false正常大图显示。可用于表格下方还有组合用的面板场景使用。
+  20. is_static【1.4】，设置是否为静态表格，静态表格为不与后台数据动态交互的表格，可以手动新增数据和删除数据
   备注：存在id列的情况下，首字段 id 固定，mapper 中提供的 sql 语句必须提供 id 字段名（详细见后续 mapper 语句编写）
   ```
 * 表格数据显示例子如下图：  
