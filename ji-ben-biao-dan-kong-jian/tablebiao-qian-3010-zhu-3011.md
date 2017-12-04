@@ -160,6 +160,65 @@
   ```
 
 * 加载静态表格示例：
+```html
+<@init_page>
+	<#--加载静态表格-->
+	<@table_toolbar name="查询结果" size="4" >
+			<@button id="addRow" value="测试给表格添加行" size="2" onclick="addRow()"/>
+			<@button id="removeTableRow" value="删除选中的表格数据" size="2" onclick="removeSelectedRow()"/>
+			<@button id="getRowData" value="测试获取表格选中行的数据" size="2" onclick="getTableData()"/>
+	</@table_toolbar>
+	<@table 
+            thead=[
+            	[
+	            	{"name":"编号"},
+	            	{"name":"名称"},
+	            	{"name":"上级部门"},
+	            	{"name":"创建人"},
+	            	{"name":"状态"}
+            	]
+            ]
+            operate="true"
+            fields="id"
+            btn=[
+	            {"name":"delete","onclick":"removeRow(this,'example')","auth_key":"brchDelete"}
+            ]
+			id="example"
+			is_static="true"
+            />
+</@init_page>
+<script>
+<#--测试给静态表格加行-->
+function addRow() {
+	var counter=1;
+ 	var addRow=[
+			'10010101',//复选框id
+			counter +'.2',
+			counter +'.3',
+			counter +'.4',
+			counter +'.5',
+			counter +'.6'
+		];
+	addTableRow(addRow,"example");
 
+} ;
+<#--测试获取表格行数据-->
+function getTableData(){
+	var sdk=getSelectedTableRows("example");
+	var sdf=getTableRows("example");
+	console.log(sdf);
+	console.log(sdk);
+}
+
+
+<#--测试删除表格数据-->
+function removeRow(obj,tableId){
+	removeTableRow(obj,tableId);
+}
+<#--测试删除选中的行数据-->
+function removeSelectedRow(){
+	removeSelectedTableRows('example');
+}
+</script>
 
 
