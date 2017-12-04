@@ -186,7 +186,7 @@
 			id="example"
 			is_static="true"
             />
-</@init_page>
+    </@init_page>
 <script>
 <#--测试给静态表格加行-->
 function addRow() {
