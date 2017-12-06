@@ -84,7 +84,8 @@
 ![](/assets/form_validation6.png)
 
 * 动态删除，新增验证规则，示例：
-
+![](/assets/validate9.png)
+![](/assets/validate8.png)
 #### form表单的验证显示结果 :
 
 ![](/assets/validate5.png)
