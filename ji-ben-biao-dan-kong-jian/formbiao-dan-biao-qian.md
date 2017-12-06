@@ -71,7 +71,6 @@
 ![](/assets/validate1.png)
 ![](/assets/form8.png)
 注意：哪些标签使用remote需要上图同步验证将会在标签中提醒
-#### form表单显示结果 :
 
 ![](/assets/validate2.png)
 
@@ -83,6 +82,9 @@
 
 对于自定义的正则表达式验证和自定义的方法验证都采用如下形式使用：
 ![](/assets/form_validation6.png)
+
+* 动态删除，新增验证规则，示例：
+
 #### form表单的验证显示结果 :
 
 ![](/assets/validate5.png)
