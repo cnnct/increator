@@ -10,8 +10,16 @@
                 message: "Are you sure?", 
                 okBtnName:"确认",
             });
-```
+            
+            【1.4】alert({ 
+                title: "Destroy planet?",
+                message: "Are you sure?", 
+                okBtnName:"确认",
+                callback：function(){console.log("ok")}
+            });
 
+```
+【1.4】版本后alert支持加入回调函数
 #### alert弹出框显示结果：
 
 ![](/assets/alert1.png)
