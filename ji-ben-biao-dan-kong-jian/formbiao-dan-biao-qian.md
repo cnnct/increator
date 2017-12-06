@@ -83,7 +83,7 @@
 对于自定义的正则表达式验证和自定义的方法验证都采用如下形式使用：
 ![](/assets/form_validation6.png)
 
-* 动态删除，新增验证规则，示例：
+* 动态删除，新增验证规则，示例【1.4】：
 ![](/assets/validate9.png)
 ![](/assets/validate8.png)
 #### form表单的验证显示结果 :
