@@ -160,7 +160,7 @@
         });
   ```
 
-* 加载静态表格示例：
+* 加载静态表格示例【1.4】：
 ![](/assets/table8.png)
 ![](/assets/table9.png)
 ![](/assets/table10.png)
