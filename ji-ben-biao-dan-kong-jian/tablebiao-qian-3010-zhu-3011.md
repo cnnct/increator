@@ -164,4 +164,4 @@
 ![](/assets/table8.png)
 ![](/assets/table11.png)
 ![](/assets/table10.png)
-**注意**：加载静态的表格需要is_static,fields,id,thead等**必要**属性，使用静态表格后url,translate,load_data_init,callback等属性不可使用，详细代码见全量包
+**注意**：加载静态的表格需要is_static,fields,id,thead等**必要**属性，使用静态表格后url,translate,load_data_init,callback等属性不可使用，详细代码见全量包，静态表格支持首列是否有勾选列，也支持单选，复选
