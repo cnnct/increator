@@ -17,29 +17,25 @@
 > > **class：** 样式\(不填：中等模态框;modal-lg：大模态框;modal-sm：小模态框\)
 > >
 > > **report\_window**【1.2】：true/flase，默认为false，用于区别报表窗口（ireport）和普通页面。
->>
-> > **is_full_screen:** 为打开时是否全屏的属性，默认“false”,可填值"true","false"
-
-
+> >
+> > **is\_full\_screen:** 为打开时是否全屏的属性，默认“false”,可填值"true","false"
 
 #### modal\_iframe标签的引入方式 :
 
 ```
   主页面：
-  <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#my_modal_lg_edit" onclick="test()">
-    编辑(iframe)
-  </button>
+  设置一个onclick="test()"事件,比如按钮：
 
-  <@modal_iframe id="my_modal_lg_edit" modal_title="编辑操作员" class="modal-lg" drag="true" />
+  引入modal_iframe：
+  <@modal_iframe id="modal_edit" modal_title="编辑角色" class="modal-lg"/>
 
+  写一个onclick触发的方法：
   <script>
     function test() {
-      $("#my_modal_lg_edit_iframe").attr("src","${base}/login/userLogin");
-      $("#my_modal_lg_edit").modal("show");
+      通过modal_iframe的id获取此对象再调用modalShow(url)方法,此url为后台controller中方法的url：
+      $("#modal_edit").modalShow("/sys/auth/role/edit/" + id);
     }
   </script>
-
-  模态框中页面通过src请求后台跳转过去
 ```
 
 #### modal\_iframe标签显示效果图 :
