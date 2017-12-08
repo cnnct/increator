@@ -1,5 +1,7 @@
 # table组合标签
 
+#### 注：表格后台查询返回到页面的List&lt;Map&gt;中所有Map的key都已经转为纯小写了。
+
 ---
 
 #### **query\_bar标签：**
@@ -128,13 +130,13 @@
   getCodeName(value,type,tableId);//获取翻译的name值，从sys_code表中获取
 
   getCodeValue(name,type,tableId);//获取翻译的value值，从sys_code表中获取
-  
+
   removeSelectedTableRows(tableId);//删除当前表格所有勾选的行数据，只适用于静态表格
 
   removeTableRow(obj,tableId);//删除当前行数据，只适用于静态表格,obj为当前tr标签包含的元素
-  
+
   addTableRow(obj,tableId,idType);//新增表格行数据，只适用于静态表格,obj为传入新增的行数据，idType为首列勾选的样式，可填三个值：none，radio，checkbox，默认none
-  
+
   例:getCodeName("0","STATE","mytable");//值为"注销"
 
   /**
@@ -148,8 +150,8 @@
   * @param updateTableUrl 【1.2.3】如果要修改表格加载数据的url地址加入这一项
   * @param closeModal 【1.2.3】是否在操作成功后关闭窗口，默认true
   * @param isFnDrawCurrentTable【1.3】 这里为了支持子modal框可以加入表格的功能，需要指定是否处理完数据后刷新的是当前表格还是父级表格，默认：先去找父级表格刷新，true：刷新当前表格
- * @param isFnDrawParentTable 【1.3】这里为了支持子modal框可以加入表格的功能，需要指定是否处理完数据后刷新的是当前表格还是父级表格，默认：先去找父级表格刷新，true：刷新父级表格
- * @param redirectPageNum 【1.4】指定操作后指向的页码，注意页码从0开始，当该选项不传入时，默认刷新整个表格，即回到首页
+  * @param isFnDrawParentTable 【1.3】这里为了支持子modal框可以加入表格的功能，需要指定是否处理完数据后刷新的是当前表格还是父级表格，默认：先去找父级表格刷新，true：刷新父级表格
+  * @param redirectPageNum 【1.4】指定操作后指向的页码，注意页码从0开始，当该选项不传入时，默认刷新整个表格，即回到首页
   */
     postform({
             "tableId":"mytable",
@@ -159,9 +161,11 @@
             "closeModal":"false"
         });
   ```
+* 加载静态表格示例【1.4】：  
+  ![](/assets/table8.png)  
+  ![](/assets/table11.png)  
+  ![](/assets/table10.png)  
+  **注意**：加载静态的表格需要is\_static,fields,id,thead等**必要**属性，使用静态表格后url,translate,load\_data\_init,callback等属性不可使用，详细代码见全量包，静态表格支持首列是否有勾选列，也支持单选，复选
 
-* 加载静态表格示例【1.4】：
-![](/assets/table8.png)
-![](/assets/table11.png)
-![](/assets/table10.png)
-**注意**：加载静态的表格需要is_static,fields,id,thead等**必要**属性，使用静态表格后url,translate,load_data_init,callback等属性不可使用，详细代码见全量包，静态表格支持首列是否有勾选列，也支持单选，复选
+
+
