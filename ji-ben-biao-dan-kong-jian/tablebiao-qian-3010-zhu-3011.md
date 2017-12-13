@@ -83,6 +83,7 @@
                 width="120"
                 is_static="false"
                 data_auth="{operId:admin}"
+             
                 />
   <!-- 所有提交的url地址的前缀都要加上 ${base}
   1. 表格控件必须的三个参数：url、thead、fields
@@ -106,7 +107,7 @@
   12. id【1.2】:指定表格id，【1.2】以后页面支持多表格，若未指定id属性时，id默认值为"mytable"，因此在多表格并存时，只能有一个表格可以不指定id。
   13. merge_cells【1.2】：合并单元格属性，【1.2】以后表格支持单元格合并属性，单元格合并有3个属性，coordinate属性指定操作合并的单元格坐标（x,y），rowspan指定合并的行数，默认值为1，colspan属性指定合并的列数，默认值为1，注意已经被合并占用的单元格不可以重复合并
   14. paginate【1.2.3】：paginate属性为是否分页属性，默认为true（开启分页）
-  15. load_data_init【1.2.3】：load_data_init属性为是否初始化加载数据开关属性，默认为true（首次进页面加载数据）
+  15. load_data_init【1.2.3】：load_data_init属性为是否初始化加载数据开关属性，默认为true（首次进页面加载数据）,【1.4】版本后，支持传入的值为“true”，“false”，或指定查询条件的formId，当值为“true”或不填该属性时，默认不带查询条件初始化加载数据，为“false”时不加载数据，为formId时，会带查询条件加载数据,如load_data_init="queryForm"
   16. callback【1.2.3】：该属性为表格的附加回调方法，在加载完表格后，会调用指定的方法，如：callback="setPanelData"
   ，注意：该方法必须在表格加载前被定义
   17. width【1.2.3】:该属性为表格的宽度属性，默认为100
