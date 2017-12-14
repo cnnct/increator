@@ -42,14 +42,17 @@ child_info=[
 									{"child_id":"parent_brch_id","sql_key":"sysbrch3","show_field":"brch_name","value_field":"brch_id","sql_condition":"1","num_for_selected":"1"}
 					]  
 > >其中sql_condition为sql执行时需要加入的条件，num_for_selected属性为父级选中项的值加入占位符的位置
+> >注意：【1.4】版本后分隔符由“，”替换成为“&&&”
 > >
 > > **default\_val :** default\_val属性是指cas\_select\_parent标签的默认选中值，该值为option的value值
 > >
 > > **sql\_condition :** sql\_condition属性用于配合sql\_key属性，当对应的后台sql需要传入参数替换“？”占位符时填写，也可以用登录用户的id替换占位符如sql\_condition="ACC\_RECHG\_TYPE,session.operId",其中‘ACC\_RECHG\_TYPE’会用来替换第一个占位符，登录用户的id会用来替换第二个占位符；
+注意：【1.4】版本后分隔符由“，”替换成为“&&&”
 > >
 > > **search\_have 【1.2.3】:** search\_have为是否需要搜索框，可以填写的值为"true","false",默认false
 
-> > **child_sql_condition【1.3】：**该属性是为了解决el表达式在ftl数组属性中解析不了的问题，即child_info属性中的sql_condition属性被该属性替换，引入方式：child_sql_condition="${operVo.brch.brchId},2;4"，child_info属性中不同不同元素的sql_condition属性需要的值用‘；’分割
+> > **child_sql_condition【1.3】：**该属性是为了解决el表达式在ftl数组属性中解析不了的问题，即child_info属性中的sql_condition属性被该属性替换，引入方式：child_sql_condition="${operVo.brch.brchId},2;4"，child_info属性中不同元素的sql_condition属性需要的值用‘；’分割,
+注意：【1.4】版本后分隔符由“，”替换成为“&&&”,如child_sql_condition="${operVo.brch.brchId}&&&2;4"
 
 
 #### cas\_select\_child**标签的属性 :**
