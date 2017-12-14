@@ -85,7 +85,8 @@ child_info=[
 【1.3】版本后忽略上面括号部分采用如下形式：
 child_info=[
 									{"child_id":"parent_brch_id","sql_key":"sysbrch3","show_field":"brch_name","value_field":"brch_id","sql_condition":"1","num_for_selected":"1"}]
-其中sql_condition为sql执行时需要加入的条件，num_for_selected属性为父级选中项的值加入占位符的位置
+其中sql_condition为sql执行时需要加入的条件，注意：【1.4】版本后分隔符由“，”替换成为“&&&”
+，num_for_selected属性为父级选中项的值加入占位符的位置
 > **\* 以下几个属性特别注意，当级联需要默认值时下面sql\_key、value\_field、show\_field为必填项，  
 > 一般情况不需要加入下面几个属性 **
 >
