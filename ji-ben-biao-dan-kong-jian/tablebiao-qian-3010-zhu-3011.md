@@ -83,7 +83,7 @@
                 width="120"
                 is_static="false"
                 data_auth="{operId:admin}"
-             
+                default_page_length="10"
                 />
   <!-- 所有提交的url地址的前缀都要加上 ${base}
   1. 表格控件必须的三个参数：url、thead、fields
@@ -117,6 +117,7 @@
   20. is_static【1.4】，设置是否为静态表格，静态表格为不与后台数据动态交互的表格，可以手动新增数据和删除数据，详细例子见如下小章节说明。
   21 data_auth【1.4】，用于加载表格时提供的json数据串，主要用于控制权限，规定json串格式，如
   data_auth="{operId:admin}"
+  22. default_page_length【1.4】，用于设置表格加载时默认每页的记录条数，不填默认为10条记录，如     default_page_length="20"
   备注：存在id列的情况下，首字段 id 固定，mapper 中提供的 sql 语句必须提供 id 字段名（详细见后续 mapper 语句编写）
   ```
 * 表格数据显示例子如下图：  
