@@ -33,9 +33,16 @@
       show_field="file_orig_name" value_field="file_id" size="6" width="200" height="300" />
 ```
 
+然后再写一个对应的onclick方法：
+
+```
+function addOption(){
+  //此方法名为：select_list标签id+AddOption,传入select框option的value,text
+  demoIdAddOption(1,"测试");
+}
+```
+
 #### select\_list标签显示效果图 :
 
 ![](/assets/select_list.png)
-
-
 
