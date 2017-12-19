@@ -25,11 +25,11 @@
 #### related\_function标签的引入方式 :
 
 ```
-  <@related_function id="010602" title="测试1" close="true" url="/manageplat/sys/auth/role/index" parent_id="0106" onclick="newTab(this)" active="true"/>
-  <@related_function id="010603" title="测试2" close="true" url="/manageplat/sys/auth/role/index" parent_id="0106" onclick="newTab(this)" active="false"/>
-  <@related_function id="010606" title="测试3" close="true" url="/manageplat/sys/auth/role/index" parent_id="0106" onclick="newTab(this)" active="true"/>
-  <@related_function id="010602" title="测试4" close="true" url="/manageplat/sys/auth/role/index" parent_id="0106" onclick="newTab(this)" active="false"/>
-  <@related_function id="010603" title="测试5" close="true" url="/manageplat/sys/auth/role/index" parent_id="0106" onclick="newTab(this)" active="true" end="true"/>
+  <@related_function id="010601" title="测试1" close="true" url="/manageplat/sys/auth/role/index" parent_id="0106" onclick="newTab(this)" active="true"/>
+  <@related_function id="010602" title="测试2" close="true" url="/manageplat/sys/auth/role/index" parent_id="0106" onclick="newTab(this)" active="false"/>
+  <@related_function id="010603" title="测试3" close="true" url="/manageplat/sys/auth/role/index" parent_id="0106" onclick="newTab(this)" active="true"/>
+  <@related_function id="010605" title="测试4" close="true" url="/manageplat/sys/auth/role/index" parent_id="0106" onclick="newTab(this)" active="false"/>
+  <@related_function id="010606" title="测试5" close="true" url="/manageplat/sys/auth/role/index" parent_id="0106" onclick="newTab(this)" active="true" end="true"/>
 ```
 
 然后再写一个对应的onclick方法：
