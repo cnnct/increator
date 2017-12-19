@@ -36,8 +36,12 @@
 
 ```
 function newTab(obj){
+    var close=$(obj).attr("close");
+    var url=$(obj).attr("url");
+    var parent_id=$(obj).attr("parent_id");
+    var para={ id:obj.id, title:obj.title, close:close, url:url, parent_id:parent_id };
     // 例如，打开一个新tab页：
-    parent.addTabs({id:obj.id,title: obj.title,close: obj.close,url:obj.url,parent_id: obj.parentId});
+    // parent.addTabs(para);
 }
 ```
 
