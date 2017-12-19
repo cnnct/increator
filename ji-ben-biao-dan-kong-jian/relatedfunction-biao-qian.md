@@ -16,6 +16,8 @@
 > >
 > > **parent\_id：** 父func_id
 > >
+> > **onclick：** onclick事件
+> >
 > > **active：** 是否激活
 > >
 > > **end：** 是否最后一个
