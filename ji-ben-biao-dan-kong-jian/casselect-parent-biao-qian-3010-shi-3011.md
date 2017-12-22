@@ -57,7 +57,7 @@ child_info=[
 
 #### cas\_select\_child**标签的属性 :**
 
-> cas\_select\_child标签有11个属性分别为为id、name、size、label、sql\_key、value\_field、show\_field、child\_info、default\_val、sql\_condition、readonly；
+> cas\_select\_child标签属性分别如下：
 >
 > **其中id为必填项,下面必填项加上了\*号**；
 >
