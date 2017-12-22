@@ -117,7 +117,7 @@ child_info=[
 
        <@cas_select_child  label="级联2：,false" id="child"   name="child"  child_info=[{"child_id":"grandson","sql_key":"sysfunc5","show_field":"TITLE","value_field":"FUNC_ID"}]/>
 
-       <@cas_select_child  label="级联3：,false" id="grandson"  name="grandson"  child_info="padson,sysfunc6,TITLE,FUNC_ID"/>
+       <@cas_select_child  label="级联3：,false" id="grandson"  name="grandson"  child_info=[{"child_id":"padson","sql_key":"sysfunc6","show_field":"TITLE","value_field":"FUNC_ID"}]/>
 
        <@cas_select_child  label="级联4：,false" id="padson"  name="padson"/>
 ```
