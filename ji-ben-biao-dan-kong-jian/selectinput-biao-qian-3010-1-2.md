@@ -2,7 +2,7 @@
 
 #### select_input**标签的属性 :**
 
-> select_input标签有8个属性分别为为id、name、size、type、label、value、readonly,select_item
+> select_input标签属性分别如下：
 >
 > > **id ：** id属性
 > >
