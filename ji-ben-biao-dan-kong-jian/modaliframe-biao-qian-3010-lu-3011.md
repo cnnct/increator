@@ -4,7 +4,7 @@
 
 #### modal\_iframe**标签的属性 :**
 
-> modal\_iframe标签有4个属性
+> modal\_iframe标签属性如下：
 >
 > **其中必填项加上了\*号，如下所示 :**
 >
