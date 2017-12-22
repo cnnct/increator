@@ -2,7 +2,7 @@
 
 #### button**标签的属性 :**
 
-> button标签有9个属性分别为为id、name、size、type、class、icon、value、onclick、data\_target；
+> button标签属性分别如下：
 >
 > **其中value为必填项,下面必填项加上了\*号**；
 >
