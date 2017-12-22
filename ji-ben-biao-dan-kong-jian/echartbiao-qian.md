@@ -2,7 +2,7 @@
 
 #### echarts**标签的属性 :**
 
-> echarts标签有8个属性分别为为id,size,name,class,position,option_url,interval_time,style；
+> echarts标签属性如下：
 >
 > **其中id,option_url为必填项,下面必填项加上了\*号**；
 >
