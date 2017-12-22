@@ -113,7 +113,7 @@ child_info=[
 #### 级联标签的引入方式 :
 
 ```
-       <@cas_select_parent  label="级联1：,false" id="parent" name="parent" sql_key="sysfunc1" show_field="TITLE" value_field="FUNC_ID"  child_info="child,sysfunc3,TITLE,FUNC_ID"/>
+       <@cas_select_parent  label="级联1：,false" id="parent" name="parent" sql_key="sysfunc1" show_field="TITLE" value_field="FUNC_ID"  child_info=[{"child_id":"child","sql_key":"sysbrch3","show_field":"TITLE","value_field":"FUNC_ID"}]/>
 
        <@cas_select_child  label="级联2：,false" id="child"   name="child"  child_info="grandson,sysfunc5,TITLE,FUNC_ID"/>
 
