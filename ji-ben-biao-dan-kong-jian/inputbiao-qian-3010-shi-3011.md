@@ -2,7 +2,7 @@
 
 #### input**标签的属性 :**
 
-> input标签有7个属性分别为为id、name、size、type、label、value、readonly
+> input标签属性分别为如下：
 >
 > > **id ：** id属性
 > >
