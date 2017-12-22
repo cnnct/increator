@@ -28,7 +28,7 @@
 #### search\_select标签的引入方式示例 :
 
 ```
-<@search_input 
+<@search_select 
     id="searchOrgName" 
     name="searchOrgName_name" 
     sql_key="org_name3" 
