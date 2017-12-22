@@ -4,7 +4,7 @@
 
 #### 注1：此标签在modal\_body,modal\_foot中存在问题,可以使用modal\_iframe代替。
 
-> file\_mult\_upload标签有5个属性
+> file\_mult\_upload标签属性如下：
 >
 > **其中必填项加上了\*号，如下所示 :**
 >
