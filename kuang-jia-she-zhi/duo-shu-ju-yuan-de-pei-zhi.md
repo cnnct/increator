@@ -2,7 +2,7 @@
 
 #### 一、多数据源配置
 
-#### publicKey生成：
+#### publicKey、password生成：
 
 \(1\)cmd打开druid-1.0.18.jar所在文件目录。  
 \(2\)执行命令：java -cp druid-1.0.18.jar com.alibaba.druid.filter.config.ConfigTools 数据库密码。  
