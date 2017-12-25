@@ -10,7 +10,25 @@
 
 db.properties 文件在config文件夹下
 
-![](/assets/db-config.png)
+```
+#datasource1
+jdbc.driver=com.mysql.jdbc.Driver
+#jdbc.url=jdbc:mysql://172.16.200.200:3306/manageplat?useUnicode=true&characterEncoding=utf-8
+jdbc.url=jdbc:mysql://183.129.148.83:3307/manageplat?useUnicode=true&characterEncoding=utf-8
+jdbc.username=root
+jdbc.password=CFIe1ASc5Kb1retmG068HgjTMPPrpgxLBzvQSBXES5EbA4NLmamb45NXPFSyuzP1ApFBQ1fjmWeKrTHwqpqXDw==
+publicKey=MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAJRxH4KqChe8kyA2HaEBlM/vOraezJQhw43Ya8WfCQhu6LHXfyWiZqHDMUsLSQaFeYVSWFyINePnuc5IVlil5mUCAwEAAQ==
+
+#datasource2
+#jdbc.driver2=oracle.jdbc.driver.OracleDriver
+#jdbc.url2=jdbc:oracle:thin:@172.16.200.117:1521:ORCL
+#jdbc.username2=manageplat
+#jdbc.password2=eyhj9Gg+/9ETYwX2MhDgsH+5HGTd8mhFPZ11Wv9z3UixP+eBiS7Sex49V0KqsYosA09UgrfLNDRz7a5M9tIWwQ==
+#publicKey2=MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAJQ7ES+yG/PHawLgQWbjBOpQnrTaQPjtM/cu2FQUt9mKNgJtiHMKkkquFAD6h/ffHAGHznDMN//HPj83YOTfYnsCAwEAAQ==
+
+#package's and filename's suffix
+#suffix=oracle
+```
 
 mapper扫描器，要求mapper.xml和mapper.java同名且在一个目录。
 
