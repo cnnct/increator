@@ -5,17 +5,23 @@
 #### 1.db.properties文件配置，有几个数据源就配置几个driver、url、username、password，并配置suffix，此suffix用于逆向工程生成包和文件时使用。示例如下：
 
 ```
+#datasource1
 jdbc.driver=com.mysql.jdbc.Driver
-jdbc.url=jdbc:mysql://172.16.200.200:3306/manageplat?useUnicode=true&characterEncoding=utf-8
+#jdbc.url=jdbc:mysql://172.16.200.200:3306/manageplat?useUnicode=true&characterEncoding=utf-8
+jdbc.url=jdbc:mysql://183.129.148.83:3307/manageplat?useUnicode=true&characterEncoding=utf-8
 jdbc.username=root
-jdbc.password=123456
+jdbc.password=CFIe1ASc5Kb1retmG068HgjTMPPrpgxLBzvQSBXES5EbA4NLmamb45NXPFSyuzP1ApFBQ1fjmWeKrTHwqpqXDw==
+publicKey=MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAJRxH4KqChe8kyA2HaEBlM/vOraezJQhw43Ya8WfCQhu6LHXfyWiZqHDMUsLSQaFeYVSWFyINePnuc5IVlil5mUCAwEAAQ==
 
-jdbc.driver2=oracle.jdbc.driver.OracleDriver
-jdbc.url2=jdbc:oracle:thin:@localhost:1521:manageplat
-jdbc.username2=root
-jdbc.password2=123456
+#datasource2
+#jdbc.driver2=oracle.jdbc.driver.OracleDriver
+#jdbc.url2=jdbc:oracle:thin:@172.16.200.117:1521:ORCL
+#jdbc.username2=manageplat
+#jdbc.password2=eyhj9Gg+/9ETYwX2MhDgsH+5HGTd8mhFPZ11Wv9z3UixP+eBiS7Sex49V0KqsYosA09UgrfLNDRz7a5M9tIWwQ==
+#publicKey=MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAJQ7ES+yG/PHawLgQWbjBOpQnrTaQPjtM/cu2FQUt9mKNgJtiHMKkkquFAD6h/ffHAGHznDMN//HPj83YOTfYnsCAwEAAQ==
 
-suffix=oracle
+#package's and filename's suffix
+#suffix=oracle
 ```
 
 #### 2.applicationContext-dao.xml文件配置，有几个数据源就配置几个DruidDataSource、SqlSessionFactoryBean、MapperScannerConfigurer，示例如下：
@@ -44,6 +50,8 @@ suffix=oracle
     <!-- 打开PSCache，并且指定每个连接上PSCache的大小 -->
     <property name="poolPreparedStatements" value="true" />
     <property name="maxPoolPreparedStatementPerConnectionSize" value="20" />
+    <property name="filters" value="config,stat" />
+    <property name="connectionProperties" value="config.decrypt=true;config.decrypt.key=${publicKey}" />
 </bean>
 
 <bean id="dataSource2" class="com.alibaba.druid.pool.DruidDataSource" init-method="init" destroy-method="close">
@@ -67,6 +75,8 @@ suffix=oracle
     <!-- 打开PSCache，并且指定每个连接上PSCache的大小 -->
     <property name="poolPreparedStatements" value="true" />
     <property name="maxPoolPreparedStatementPerConnectionSize" value="20" />
+    <property name="filters" value="config,stat" />
+    <property name="connectionProperties" value="config.decrypt=true;config.decrypt.key=${publicKey2}" />
 </bean>
 ```
 
