@@ -245,3 +245,5 @@ publicKey=MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAJRxH4KqChe8kyA2HaEBlM/vOraezJQhw43Ya8
 
 或 com.cnnct.pooracle、com.cnnct.mapperoracle、com.cnnct.mapperoracle等。
 
+而这里的后两个目录\(相同，即同一个目录\)，对应applicationContext-dao.xml文件中basePackage。
+
