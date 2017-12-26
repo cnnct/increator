@@ -247,5 +247,41 @@ publicKey=MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAJRxH4KqChe8kyA2HaEBlM/vOraezJQhw43Ya8
 
 ###### 而这里的后两个目录\(相同，即同一个目录\)，对应applicationContext-dao.xml文件中basePackage，通过数据源一一对应。
 
+#### 注：如果使用的不是3个默认目录，那么，注入基础Mapper\(非custom中的\)时，需要使用别名，别名在基础Mapper中有。
+
+#### 示例：
+
+基础Mapper
+
+```
+package com.cnnct.mapper;
+
+import org.springframework.stereotype.Component;
+
+import com.cnnct.po.SysRole;
+
+@Component("sysRoleMapperOracle")
+public interface SysRoleMapper {
+    int deleteByPrimaryKey(Long roleId);
+
+    int insert(SysRole record);
+
+    int insertSelective(SysRole record);
+
+    SysRole selectByPrimaryKey(Long roleId);
+
+    int updateByPrimaryKeySelective(SysRole record);
+
+    int updateByPrimaryKey(SysRole record);
+}
+```
+
+注入代码，此处为sysRoleMapperOracle对应基础Mapper中的别名，而不能随意起名
+
+```
+@Autowired
+private SysRoleMapper sysRoleMapperOracle;
+```
+
 
 
