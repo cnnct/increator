@@ -82,7 +82,7 @@ publicKey=MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAJRxH4KqChe8kyA2HaEBlM/vOraezJQhw43Ya8
 </bean>
 ```
 
-\(2\)SqlSessionFactory，多个SqlSessionFactory配置时只需将id、dataSource、mapperLocations修改即可，其中mapperLocations的value是将xml文件以及所在目录加了后缀suffix后生成的，第一个数据源目录是mapper、xml文件名类似\_Mapper.xml，加了后缀suffix后，变成了mapperoracle、\_MapperOralce.xml,由于xml文件名对应了java接口名，所有逆向工程生成时用了驼峰命名。
+\(2\)SqlSessionFactory，多个SqlSessionFactory配置时只需将id、dataSource修改即可。
 
 ```
 <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
