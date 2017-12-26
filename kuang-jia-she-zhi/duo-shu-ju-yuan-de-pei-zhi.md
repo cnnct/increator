@@ -28,7 +28,7 @@ publicKey=MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAJRxH4KqChe8kyA2HaEBlM/vOraezJQhw43Ya8
 
 #### 2.applicationContext-dao.xml文件配置，有几个数据源就配置几个DruidDataSource、SqlSessionFactoryBean、MapperScannerConfigurer，示例如下：
 
-\(1\)DataSource，多个DataSource配置时只需将id、driverClassName、url、username、password修改即可。
+\(1\)DataSource，多个DataSource配置时一般只需将id、driverClassName、url、username、password修改即可。
 
 ```
 <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource" init-method="init" destroy-method="close">
