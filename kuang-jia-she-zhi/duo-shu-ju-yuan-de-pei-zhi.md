@@ -98,7 +98,7 @@ publicKey=MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAJRxH4KqChe8kyA2HaEBlM/vOraezJQhw43Ya8
 </bean>
 ```
 
-\(3\)MapperScannerConfigurer，多个MapperScannerConfigurer配置时只需将basePackage、sqlSessionFactoryBeanName修改即可，其中basePackage的value对应SqlSessionFactory中配置的mapperLocations目录。
+\(3\)MapperScannerConfigurer，多个MapperScannerConfigurer配置时只需将basePackage、sqlSessionFactoryBeanName修改即可，其中basePackage的value对应逆向工程生成文件时generatorConfig.xml中配置的目录。
 
 ```
 <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
