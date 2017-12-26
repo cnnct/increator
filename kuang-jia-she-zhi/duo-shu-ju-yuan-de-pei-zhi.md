@@ -5,7 +5,7 @@
 #### publicKey、password生成：
 
 \(1\)cmd打开druid-1.0.18.jar所在文件目录。  
-\(2\)执行命令：java -cp druid-1.0.18.jar com.alibaba.druid.filter.config.ConfigTools 数据库密码。  
+\(2\)执行命令：`java -cp druid-1.0.18.jar com.alibaba.druid.filter.config.ConfigTools 数据库密码`  
 \(3\)将得到的publickey、password复制过来即可。
 
 #### 1.db.properties文件配置，有几个数据源就配置几个driver、url、username、password、publicKey，示例如下：
