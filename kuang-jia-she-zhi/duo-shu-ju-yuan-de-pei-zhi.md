@@ -237,13 +237,15 @@ publicKey=MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAJRxH4KqChe8kyA2HaEBlM/vOraezJQhw43Ya8
 
 #### 2.关于generatorConfig.xml文件中的三个targetPackage目录配置说明
 
-初始单数据源或多数据源的第一个数据源时，三个targetPackage分别默认为：com.cnnct.po、com.cnnct.mapper、com.cnnct.mapper。
+###### 初始单数据源或多数据源的第一个数据源时，三个targetPackage分别默认为：com.cnnct.po、com.cnnct.mapper、com.cnnct.mapper。
 
-如果配置多个数据源或不想用这3个默认目录，修改规则为：在此3个目录的基础上补上一个后缀，后两个目录必须相同。
+###### 如果配置多个数据源或不想用这3个默认目录，修改规则为：在此3个目录的基础上补上一个后缀，后两个目录必须相同。
 
-如：com.cnnct.po2、com.cnnct.mapper2、com.cnnct.mapper2
+###### 如：com.cnnct.po2、com.cnnct.mapper2、com.cnnct.mapper2
 
-或 com.cnnct.pooracle、com.cnnct.mapperoracle、com.cnnct.mapperoracle等。
+###### 或 com.cnnct.pooracle、com.cnnct.mapperoracle、com.cnnct.mapperoracle等。
 
-而这里的后两个目录\(相同，即同一个目录\)，对应applicationContext-dao.xml文件中basePackage，通过数据源一一对应。
+###### 而这里的后两个目录\(相同，即同一个目录\)，对应applicationContext-dao.xml文件中basePackage，通过数据源一一对应。
+
+
 
