@@ -8,12 +8,11 @@
 \(2\)执行命令：java -cp druid-1.0.18.jar com.alibaba.druid.filter.config.ConfigTools 数据库密码。  
 \(3\)将得到的publickey、password复制过来即可。
 
-#### 1.db.properties文件配置，有几个数据源就配置几个driver、url、username、password、publicKey，并配置suffix，此suffix用于逆向工程生成包和文件时使用。示例如下：
+#### 1.db.properties文件配置，有几个数据源就配置几个driver、url、username、password、publicKey，示例如下：
 
 ```
 #datasource1
 jdbc.driver=com.mysql.jdbc.Driver
-#jdbc.url=jdbc:mysql://172.16.200.200:3306/manageplat?useUnicode=true&characterEncoding=utf-8
 jdbc.url=jdbc:mysql://183.129.148.83:3307/manageplat?useUnicode=true&characterEncoding=utf-8
 jdbc.username=root
 jdbc.password=CFIe1ASc5Kb1retmG068HgjTMPPrpgxLBzvQSBXES5EbA4NLmamb45NXPFSyuzP1ApFBQ1fjmWeKrTHwqpqXDw==
@@ -25,9 +24,6 @@ publicKey=MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAJRxH4KqChe8kyA2HaEBlM/vOraezJQhw43Ya8
 #jdbc.username2=manageplat
 #jdbc.password2=eyhj9Gg+/9ETYwX2MhDgsH+5HGTd8mhFPZ11Wv9z3UixP+eBiS7Sex49V0KqsYosA09UgrfLNDRz7a5M9tIWwQ==
 #publicKey2=MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAJQ7ES+yG/PHawLgQWbjBOpQnrTaQPjtM/cu2FQUt9mKNgJtiHMKkkquFAD6h/ffHAGHznDMN//HPj83YOTfYnsCAwEAAQ==
-
-#package's and filename's suffix
-#suffix=oracle
 ```
 
 #### 2.applicationContext-dao.xml文件配置，有几个数据源就配置几个DruidDataSource、SqlSessionFactoryBean、MapperScannerConfigurer，示例如下：
