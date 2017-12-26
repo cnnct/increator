@@ -235,7 +235,9 @@ publicKey=MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAJRxH4KqChe8kyA2HaEBlM/vOraezJQhw43Ya8
 </generatorConfiguration>
 ```
 
-#### 2.关于generatorConfig.xml文件配置中的三个
+#### 2.关于generatorConfig.xml文件中的三个targetPackage目录配置说明
+
+
 
 
 
