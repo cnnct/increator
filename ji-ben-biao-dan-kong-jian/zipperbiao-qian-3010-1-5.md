@@ -53,5 +53,4 @@
 
 #### zipper标签的显示结果 :
 
-![](/assets/button.png)
-
+![](/assets/zipper1.png)
