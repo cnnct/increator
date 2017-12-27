@@ -15,5 +15,15 @@
 > > **position ：** position属性，可填值left,right,center,默认居中
 
 
+#### map标签的引入方式 :
+
+```
+   <@map id="testmap" xpoint="106.645246" ypoint="29.56598" size="6"/>
+```
+
+#### button标签的显示结果 :
+
+![](/assets/button.png)
+
 
 
