@@ -64,7 +64,7 @@
 >
 > 阿里代码规范检测插件：[http://mp.weixin.qq.com/s/GjrbDp6ZF\_vPDoHyhImShw](http://mp.weixin.qq.com/s/GjrbDp6ZF_vPDoHyhImShw)
 >
-> 临时域名平台（）：https://natapp.cn/
+> 临时域名平台（微信测试时可以用）：[https://natapp.cn/](https://natapp.cn/)
 
 
 
