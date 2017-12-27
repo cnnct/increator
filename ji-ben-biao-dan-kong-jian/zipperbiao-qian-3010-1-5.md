@@ -24,9 +24,6 @@
 							size="6" 
 							option_url="${base}/tag/echarts" 
 							position="center"
-							<#--
-							interval_time="1000000"
-							-->
 							/>
 					</@panel>
 			    </div>
