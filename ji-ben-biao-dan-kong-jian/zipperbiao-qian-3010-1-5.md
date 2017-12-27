@@ -14,6 +14,7 @@
 #### button标签的引入方式 :
 
 ```
+	<#--zipper标签控制下面的多个面板标签的显示和隐藏-->
    <@zipper id="layout_controller" items={"box1":"标题1","box2":"标题2","box3":"标题3","box4":"标题4","box5":"标题5"}/>
 	 <#-- 首页右侧功能模块 -->
 	<div class="index-contain" id="main-widget-container">
