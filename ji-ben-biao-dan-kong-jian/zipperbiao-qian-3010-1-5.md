@@ -50,7 +50,7 @@
 		</div>
 ```
 
-#### button标签的显示结果 :
+#### zipper标签的显示结果 :
 
 ![](/assets/button.png)
 
