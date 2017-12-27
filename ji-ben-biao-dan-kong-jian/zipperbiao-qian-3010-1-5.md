@@ -6,7 +6,7 @@
 >
 > > ***id ：** id属性
 > >
-> > **items ：** name属性
+> > ***items ：** name属性
 > >
 
 #### button标签的引入方式 :
