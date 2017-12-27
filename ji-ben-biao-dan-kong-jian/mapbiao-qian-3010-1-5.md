@@ -18,7 +18,7 @@
 #### map标签的引入方式 :
 
 ```
-   <@map id="testmap" xpoint="106.645246" ypoint="29.56598" size="6"/>
+   <@map id="testmap" xpoint="106.645246" ypoint="29.56598" size="6" position="left"/>
 ```
 
 #### button标签的显示结果 :
