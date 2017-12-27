@@ -48,6 +48,7 @@
 		    </div>
 			
 		</div>
+	<@init_load type="index_foot" load_layout="true" />
 ```
 
 #### zipper标签的显示结果 :
