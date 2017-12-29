@@ -26,6 +26,8 @@
   > #### ![](/assets/httpversion3.png)
   >
   > #### 7、跨域访问，特殊处理
+  >
+  > com.cnnct.interf.interceptor.FrontEndInterceptor.preHandle方法中，在处理入参前增加header配置，如下：
 
 
 
