@@ -48,7 +48,7 @@
   >         caller.ses_id="admin";
   >
   >         $j.ajax({
-  >             crossDomain:true,//此参数必须
+  >             crossDomain:true,//此参数不加也可以
   >             url: 'http://localhost:8080/manageplat/interf/frontEnd/N002', //访问路径
   >             data: JSON.stringify(caller), //需要验证的参数，此处只能是字符串类型，不能是json对象类型
   >             type: 'POST', //传值的方式，只用POST，因为GET对入参长度有限制
