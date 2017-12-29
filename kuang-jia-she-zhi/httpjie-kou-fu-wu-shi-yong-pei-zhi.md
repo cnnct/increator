@@ -33,35 +33,35 @@
   >
   > ```
   > function loginx(){
-  > 		//入参
-  > 		var caller=new Object();
-  > 		caller.trcode="N001";
-  > 		caller.sign="123";
-  > 		caller.channel="10";
-  > 		caller.key="11111";
-  > 		
-  > 		caller.verifyMode="0";
-  > 		caller.verifyNo="13067816796";
-  > 		caller.handleType="20";
-  > 		caller.token="123";
-  > 		caller.login_name="admin";
-  > 		caller.ses_id="admin";
+  >         //入参
+  >         var caller=new Object();
+  >         caller.trcode="N001";
+  >         caller.sign="123";
+  >         caller.channel="10";
+  >         caller.key="11111";
+  >         
+  >         caller.verifyMode="0";
+  >         caller.verifyNo="13067816796";
+  >         caller.handleType="20";
+  >         caller.token="123";
+  >         caller.login_name="admin";
+  >         caller.ses_id="admin";
   >
-  > 		$j.ajax({
-  > 			crossDomain:true,
-  > 	        url: 'http://localhost:8080/manageplat/interf/frontEnd/N002', //访问路径
-  > 	        data: JSON.stringify(caller), //需要验证的参数，此处只能是字符串类型，不能是json对象类型
-  > 	        type: 'POST', //传值的方式，只用POST，因为GET对入参长度有限制
-  > 	        dataType :'json',
-  > 			contentType :"text/plain",//已测试，只能用此类型application/json请求时报错
-  > 	        error: function() {//访问失败时调用的函数
-  > 	        	alert("服务器错误！");
-  > 	        },
-  > 	        success: function(result) {
-  > 				alert(JSON.stringify(result));	        	
-  >         	}
-  > 		});
-  >    	}
+  >         $j.ajax({
+  >             crossDomain:true,//此参数必须
+  >             url: 'http://localhost:8080/manageplat/interf/frontEnd/N002', //访问路径
+  >             data: JSON.stringify(caller), //需要验证的参数，此处只能是字符串类型，不能是json对象类型
+  >             type: 'POST', //传值的方式，只用POST，因为GET对入参长度有限制
+  >             dataType :'json',
+  >             contentType :"text/plain",//已测试，只能用此类型application/json请求时报错
+  >             error: function() {//访问失败时调用的函数
+  >                 alert("服务器错误！");
+  >             },
+  >             success: function(result) {
+  >                 alert(JSON.stringify(result));                
+  >             }
+  >         });
+  >        }
   > ```
 
 
