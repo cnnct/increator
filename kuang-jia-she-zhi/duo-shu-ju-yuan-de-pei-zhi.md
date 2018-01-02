@@ -24,6 +24,9 @@ publicKey=MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAJRxH4KqChe8kyA2HaEBlM/vOraezJQhw43Ya8
 #jdbc.username2=manageplat
 #jdbc.password2=eyhj9Gg+/9ETYwX2MhDgsH+5HGTd8mhFPZ11Wv9z3UixP+eBiS7Sex49V0KqsYosA09UgrfLNDRz7a5M9tIWwQ==
 #publicKey2=MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAJQ7ES+yG/PHawLgQWbjBOpQnrTaQPjtM/cu2FQUt9mKNgJtiHMKkkquFAD6h/ffHAGHznDMN//HPj83YOTfYnsCAwEAAQ==
+
+#decrypt:Does the password need to be decrypted?true--need,else--don't need
+decrypt=true
 ```
 
 #### 2.applicationContext-dao.xml文件配置，有几个数据源就配置几个DruidDataSource、SqlSessionFactoryBean、MapperScannerConfigurer，示例如下：
