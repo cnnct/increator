@@ -56,7 +56,7 @@ decrypt=true
     <property name="poolPreparedStatements" value="true" />
     <property name="maxPoolPreparedStatementPerConnectionSize" value="20" />
     <property name="filters" value="config,stat" />
-    <property name="connectionProperties" value="config.decrypt=true;config.decrypt.key=${publicKey}" />
+    <property name="connectionProperties" value="config.decrypt=${decrypt};config.decrypt.key=${publicKey}" />
 </bean>
 
 <bean id="dataSource2" class="com.alibaba.druid.pool.DruidDataSource" init-method="init" destroy-method="close">
@@ -81,7 +81,7 @@ decrypt=true
     <property name="poolPreparedStatements" value="true" />
     <property name="maxPoolPreparedStatementPerConnectionSize" value="20" />
     <property name="filters" value="config,stat" />
-    <property name="connectionProperties" value="config.decrypt=true;config.decrypt.key=${publicKey2}" />
+    <property name="connectionProperties" value="config.decrypt=${decrypt};config.decrypt.key=${publicKey2}" />
 </bean>
 ```
 
