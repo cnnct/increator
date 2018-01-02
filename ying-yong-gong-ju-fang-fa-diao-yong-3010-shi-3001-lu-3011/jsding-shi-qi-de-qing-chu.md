@@ -1,6 +1,6 @@
 #### JS定时器的清除
 
-如果页面导入了global.js，执行：
+如果页面导入了global.js , 执行：
 
 ```
 putTimerToCookie(定时器返回值);
