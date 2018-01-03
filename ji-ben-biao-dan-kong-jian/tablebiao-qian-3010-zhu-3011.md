@@ -84,6 +84,18 @@
                 is_static="false"
                 data_auth="{operId:admin}"
                 default_page_length="10"
+                 <#--脱敏开关，为true时执行脱敏操作，fields_sec属性生效，默认false-->
+                fields_sec_open="true"
+                fields_sec=[
+    				 {
+    				 <#--表示对指定字段处理，同理可配置多个字段 -->
+    				  "name":"brch_name",
+    				 <#--mobile或name或fixphone等，指定默认脱敏类型-->
+    				  "sec_type":"name",
+    				  <#--other_rule为其他规则，不按照默认脱敏类型，自定义脱敏->
+    				  "other_rule":"left,1"
+				 }
+			 ]
                 />
   <!-- 所有提交的url地址的前缀都要加上 ${base}
   1. 表格控件必须的三个参数：url、thead、fields
