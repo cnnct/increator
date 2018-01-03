@@ -131,7 +131,7 @@
   data_auth="{operId:admin}"
   22. default_page_length【1.4】：用于设置表格加载时默认每页的记录条数，不填默认为10条记录，如     default_page_length="20"
   23. fields_sec_open【1.6】：是否开启脱敏功能，如：fields_sec_open="true",默认false，为true时fields_sec属性功能才有效
-  24. fields_sec【1.6】：脱敏的规则数据，fields_sec=[{"name":"brch_name","sec_type":"name","other_rule":"left,1"}]，其中name属性指定需要脱敏的字段且必填，sec_type为指定默认脱敏类型且必填，可以填的值有：name（姓名），idCard（身份证），fixedPhone（固定电话），mobile（手机），email（邮件），bankCard（银行卡号）
+  24. fields_sec【1.6】：脱敏的规则数据，fields_sec=[{"name":"brch_name","sec_type":"name","other_rule":"left,1"}]，其中name属性指定需要脱敏的字段且必填，sec_type为指定默认脱敏类型且必填，可以填的值有：name（姓名），idCard（身份证），fixedPhone（固定电话），mobile（手机），email（邮件），bankCard（银行卡号），other_rule属性为其他规则脱敏，该属性会屏蔽默认的脱敏规则有两个值，第一个为位置，可以填left，center，right，第二个值为脱敏长度，将换成“*”
 
   备注：存在id列的情况下，首字段 id 固定，mapper 中提供的 sql 语句必须提供 id 字段名（详细见后续 mapper 语句编写）
   ```
