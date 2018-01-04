@@ -14,5 +14,5 @@ getSequenceByName\(String sequenceName\)：根据序列名称获取序列\(用�
 
 各种入参的uploadFile方法：上传文件到FTP。
 
-zipUploadFile\(Map&lt;String, Object&gt; map, String zipPath\)：压缩多个文件并上传到FTP
+zipUploadFile\(Map&lt;String, Object&gt; map, String zipPath\)：压缩多个文件并上传到FTP。
 
