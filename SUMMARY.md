@@ -11,6 +11,7 @@
     * [V1.3](ban-ben-geng-xin-shuo-ming/v13.md)
     * [V1.4](ban-ben-geng-xin-shuo-ming/v14.md)
     * [V1.5](ban-ben-geng-xin-shuo-ming/v15.md)
+    * [V1.6](ban-ben-geng-xin-shuo-ming/v16.md)
   * [框架代码获取](kuang-jia-dai-ma-huo-qu.md)
   * [框架key管理](kuang-jia-key-guan-li.md)
   * [团队介绍](zuo-zhe-jie-shao.md)
