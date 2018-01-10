@@ -2,11 +2,17 @@
 
 #### 一、多数据源配置
 
-#### publicKey、password生成：
+#### publicKey、password生成\(即加密\)：
 
 \(1\)cmd打开druid-1.0.18.jar所在文件目录。  
 \(2\)执行命令：`java -cp druid-1.0.18.jar com.alibaba.druid.filter.config.ConfigTools 数据库密码`  
 \(3\)将得到的publickey、password复制过来即可。
+
+#### 解密：
+
+```
+执行com.alibaba.druid.filter.config.ConfigTools.decrypt(publicKey, password)得到密码明文
+```
 
 #### 1.db.properties文件配置，有几个数据源就配置几个driver、url、username、password、publicKey，同时还有一个decrypt，指的是数据库密码是否需要解密，示例如下：
 
