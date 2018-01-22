@@ -36,7 +36,7 @@
 > >其中sql_condition为sql执行时需要加入的条件，num_for_selected属性为父级选中项的值加入占位符的位置，
 注意：配合input_tree的级联的标签**只有cas\_select\_child**
 > > **child_sql_condition【1.3】：**该属性是为了解决el表达式在ftl数组属性中解析不了的问题，即child_info属性中的sql_condition属性被该属性替换，引入方式：child_sql_condition="${operVo.brch.brchId},2;4"，child_info属性中不同不同元素的sql_condition属性需要的值用‘；’分割
-
+**注意：**该标签在【1.7】后，复选框树点击文字项，只会选中本节点和关联的父节点，不会勾选子节点，而勾选复选框时和原先的功能一致，单选框和原先的不变
 
 
 #### input\_tree标签的引入方式 :
