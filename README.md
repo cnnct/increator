@@ -66,7 +66,7 @@
 >
 > 临时域名平台（微信测试时可以用）：[https://natapp.cn/](https://natapp.cn/)
 >
-> 微信公众号官方开发手册：https://mp.weixin.qq.com/wiki?t=resource/res\_main&id=mp1421140842
+> 微信公众号官方开发手册：[https://mp.weixin.qq.com/wiki?t=resource/res\_main&id=mp1421140842](https://mp.weixin.qq.com/wiki?t=resource/res_main&id=mp1421140842)
 
 
 
