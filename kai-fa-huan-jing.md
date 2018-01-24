@@ -7,7 +7,7 @@
 >
 > ##### 阿里代码规范检测：[http://mp.weixin.qq.com/s/GjrbDp6ZF\_vPDoHyhImShw](http://mp.weixin.qq.com/s/GjrbDp6ZF_vPDoHyhImShw)
 
-* ##### 使用技术框架：spring mvc（4.0.6）、mybatis（3.3.0）、jquery（1.11.3）、bootstrap（3.3.6）、freemarker（2.3.22）及自定义标签库
+* ##### 使用技术框架：spring mvc（4.0.6）、mybatis（3.3.0）、netty（4.1.19）、jquery（1.11.3）、bootstrap（3.3.6）、freemarker（2.3.22）及自定义标签库
 * ##### 数据库：oracle 10G以上、mysql 5.6以上
 
 
