@@ -26,11 +26,9 @@
 >
 > 开发完整示例流程【实用】：[05\_2017-11-09\_新框架后端开发教程-陆翠刚](http://pan.baidu.com/s/1eRIEtBs)
 
-
-
 # demo示例页，发布本地应用后访问下方连接
 
-http://localhost:8080/opm/demo/tag/tagExample
+> [http://ip:端口/manageplat/demo/tag/tagExample](http://localhost:8080/opm/demo/tag/tagExample)
 
 # 重要说明
 
