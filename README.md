@@ -1,6 +1,6 @@
 # ![](/assets/new_logo.png)
 
-# 手册介绍 
+# 手册介绍
 
 > 本手册已作为git资源上传到gitbub资源库中，使用说明详见章节：[gitbook和github](/fu-lu/gitbookhe-github-jie-he.md)结合
 >
@@ -65,6 +65,8 @@
 > 阿里代码规范检测插件：[http://mp.weixin.qq.com/s/GjrbDp6ZF\_vPDoHyhImShw](http://mp.weixin.qq.com/s/GjrbDp6ZF_vPDoHyhImShw)
 >
 > 临时域名平台（微信测试时可以用）：[https://natapp.cn/](https://natapp.cn/)
+>
+> 微信公众号官方开发手册：https://mp.weixin.qq.com/wiki?t=resource/res\_main&id=mp1421140842
 
 
 
