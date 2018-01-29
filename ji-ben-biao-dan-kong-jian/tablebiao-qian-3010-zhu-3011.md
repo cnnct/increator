@@ -192,4 +192,6 @@
 * 自定义默认脱敏方法：
 1.需要配置table_default_sensitive_custom_class参数：
 ![](/assets/table12.png)
-2.
+2.自定义方法：
+![](/assets/table13.png)
+注意：只加载获取方法名为chineseName（脱敏姓名），idCardNum（脱敏身份证），fixedPhone（固定电话），mobilePhone（手机），email（邮箱），bankCard（银行卡号）
