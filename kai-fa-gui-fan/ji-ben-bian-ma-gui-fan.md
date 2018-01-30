@@ -42,6 +42,12 @@
 >
 > > 针对系统代码错误（sys\_code\_err）对应的字段FIELD\_NAME\(类中属性名称\)规范：按目前的全大写，单词间用下划线分隔，如OFFLINE\_ACC\_FREEZE。此规定也适用于sys\_code\_tr表、sys\_code表
 >
+> #### 系统错误码
+>
+> > > 针对系统代码错误（sys\_code\_err）对应的字段FIELD\_NAME\(类中属性名称\)规范：按目前的全大写，单词间用下划线分隔，如OFFLINE\_ACC\_FREEZE。此规定也适用于sys\_code\_tr表、sys\_code表
+> >
+> > ####
+>
 > #### 代码字典等常量使用
 >
 > > 代码中使用到code字典变量的地方，都要使用变量方式，不要写成’4’,’2010’这样的，要统一写成Sys\_Code.STATE\_ZX这样的方式。如：
