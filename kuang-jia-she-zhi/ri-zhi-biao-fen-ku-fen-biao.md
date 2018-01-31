@@ -6,12 +6,16 @@
 
 > ### 入口配置
 >
-> > config/paramter/para.properties：
+> > ##### config/paramter/para.properties：
 > >
 > > ```
 > > #接口是否记日志，默认true，性能测试时可以不记日志
 > > interface_log_control=true
 > > ```
+>
+> ### 数据库配置
+>
+> > sys\_para表中LOG开头的4个参数
 
 
 
