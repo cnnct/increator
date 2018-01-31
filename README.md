@@ -28,9 +28,9 @@
 
 # demo示例页，发布本地应用后访问下方连接
 
-> [http://ip:端口/manageplat/demo/tag/tagExample](http://localhost:8080/opm/demo/tag/tagExample) 【1.7版本以前】
+> [http://ip:端口/manageplat/demo/tag/tagExample](http://localhost:8080/opm/demo/tag/tagExample) 【1.7及以有版本】
 >
-> [http://ip:端口/manageplat/demo](#)  【1.8版本以后】
+> [http://ip:端口/manageplat/demo](#)  【1.8及以后版本】
 
 # 重要说明
 
