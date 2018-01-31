@@ -15,7 +15,14 @@
 >
 > ### 数据库配置
 >
-> > sys\_para表中LOG开头的4个参数
+> > sys\_para表中LOG开头的4个参数，最终解释以数据库实际注释为准
+> >
+> > ```
+> > LOG_SPLIT_TABLE：日志分库分表开关，true为分库分表，false为不分
+> > LOG_DB_NAME：日志分表库名，默认值为空，表示日志表存当前主库中
+> > LOG_TABLE_GEN_NUMBER：日志分表向后生成数量，与分表规则频次对应，x年，x月，x天
+> > LOG_TABLE_NAME_SUFF：日志表分表规则，拼接表名，默认值为空，表示不分表，配置值为：日-yyyyMMdd、月-yyyyMM、年-yyyy
+> > ```
 
 
 
