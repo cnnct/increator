@@ -28,6 +28,7 @@
 > >
 > > ```
 > > oracle：pk_create_object.p_create_split_logtable
+> > mysql：p_create_split_logtable
 > > ```
 
 
