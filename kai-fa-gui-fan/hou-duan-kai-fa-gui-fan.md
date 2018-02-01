@@ -293,7 +293,7 @@
 > ##### ！！！！通常查询列表页的分页查询，需要写2个sql，一个查询明细，一个查询总数，但当业务及关联表、关联条件这复杂时，需要重复代码，且若业务条件有调整，就需要两个查询语句一起修改，且容易忘记或漏掉，因此可以将两个的公共条件部分提取成【sql片段】，片段内容自己组合把握，相当于include的作用
 >
 > ```
-> <!-- ！！！！！！！！定义sql片段！！！！！！！！ -->
+> <!-- #############定义sql片段############# -->
 > <sql id="Base_Column_List" >
 >     BRCH_ID, BRCH_LEVEL, PARENT_BRCH_ID, ORG_ID, BRCH_NAME, BRCH_TYPE, TEL_NO, FAX_NO, 
 >     ADDRESS, POST_CODE, MGR_OPER_ID, MGR_NAME, MGR_TEL_NO, PROV_CODE, CITY_CODE, EQP_ID, 
@@ -303,7 +303,7 @@
 >
 > <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.String" >
 >     select 
->     <!-- ！！！！！！！！使用sql片段！！！！！！！！ -->
+>     <!-- #############使用sql片段############# -->
 >     <include refid="Base_Column_List" />
 >     from sys_branch
 >     where BRCH_ID = #{brchId,jdbcType=VARCHAR}
