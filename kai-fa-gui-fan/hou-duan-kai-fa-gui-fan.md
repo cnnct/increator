@@ -278,11 +278,7 @@
 
 # 小技巧Tips
 
-> ### 新增页@modal\_body、编辑页
-
-
-
-
+> ### 新增页@modal\_body【与列表页在同一页面】、编辑页@modal\_iframe【新打开iframe页面】
 
 
 
