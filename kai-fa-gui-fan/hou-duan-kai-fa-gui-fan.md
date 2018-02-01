@@ -280,9 +280,9 @@
 
 > ### 新增页和编辑页使用技巧
 >
-> `新增页@modal_body：与列表页在同一页面，该页面数据
+> `新增页@modal_body：与列表页在同一页面，该页面数据编辑页`
 >
-> 编辑页@modal_iframe【新打开iframe页面】`
+> `@modal_iframe【新打开iframe页面】`
 
 
 
