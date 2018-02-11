@@ -16,13 +16,13 @@
 
 #### table_second标签的引入方式 :
 * 1.首先加入标签，引入必要方法：
-![](/assets/nav_page_second2.png)
-![](/assets/nav_page_second3.png)
+![](/assets/table_second1.png)
+![](/assets/table_second2.png)
+![](/assets/table_second3.png)
 * 2.加载sql：
 ![](/assets/nav_page_second4.png)
 #### table_second标签的显示结果 :
-![](/assets/nav_page_second5.png)
-![](/assets/nav_page_second6.png)
+
 
 
 
