@@ -16,7 +16,7 @@
 > >
 
 #### nav_page标签的引入方式 :
-* 1.首先加入标签：
+* 1.首先加入标签，引入必要方法：
 ![](/assets/nav_page_second2.png)
 ![](/assets/nav_page_second3.png)
 
