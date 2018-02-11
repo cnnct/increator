@@ -14,6 +14,7 @@
     * [V1.6](ban-ben-geng-xin-shuo-ming/v16.md)
     * [V1.7](ban-ben-geng-xin-shuo-ming/v17.md)
     * [V1.8](ban-ben-geng-xin-shuo-ming/v18.md)
+    * V1.9
   * [框架代码获取](kuang-jia-dai-ma-huo-qu.md)
   * [框架key管理](kuang-jia-key-guan-li.md)
   * [团队介绍](zuo-zhe-jie-shao.md)
@@ -141,6 +142,6 @@
     * [配置文件](tong-yi-zhi-fu/wei-xin/pei-zhi-wen-jian.md)
     * 接口
     * 异步通知
-  * 银联
-  * 翼支付
+  * [银联](tong-yi-zhi-fu/yin-lian.md)
+  * [翼支付](tong-yi-zhi-fu/yi-zhi-fu.md)
 
