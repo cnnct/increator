@@ -139,7 +139,14 @@
   * [微信](tong-yi-zhi-fu/wei-xin.md)
     * [接口类名](tong-yi-zhi-fu/wei-xin/jie-kou-lei-ming.md)
     * [配置文件](tong-yi-zhi-fu/wei-xin/pei-zhi-wen-jian.md)
-    * 接口
+    * [接口](tong-yi-zhi-fu/wei-xin/jie-kou.md)
+      * [App支付](tong-yi-zhi-fu/wei-xin/jie-kou/appzhi-fu.md)
+      * 公众号支付
+      * 扫码支付
+      * 查询订单
+      * 退款
+      * 查询退款结果
+      * 下载账单
     * 异步通知
   * 银联
   * 翼支付
