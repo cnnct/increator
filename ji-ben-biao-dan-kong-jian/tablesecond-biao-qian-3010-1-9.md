@@ -22,7 +22,7 @@
 * 2.加载sql：
 ![](/assets/nav_page_second4.png)
 #### table_second标签的显示结果 :
-
+![](/assets/table_second4.png)
 
 
 
