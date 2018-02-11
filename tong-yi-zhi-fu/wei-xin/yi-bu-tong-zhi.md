@@ -1,26 +1,19 @@
-1、新建类继承com.increator.pay.tenpay.TenpayNotify，重写handingAfterPaid方法
+> # **1、新建类继承com.increator.pay.tenpay.TenpayNotify，重写handingAfterPaid方法**
 
-/\*\*
+```
+/**
+*支付成功后的业务处理
+* @param object
+*/
+public void handingAfterPaid(JSONObject object){
+String out_trade_no = object.getString("out_trade_no");//商户订单号
+String tradeno = object.getString("tradeno");//微信交易流水号
+Date sendpaydate = object.getDate("sendpaydate ");//支付成功时间
+//根据out_trade_no处理订单
+}
+```
 
-\*支付成功后的业务处理
-
-\* @param object
-
-\*/
-
- public void handingAfterPaid\(JSONObject object\){
-
- String out\_trade\_no = object.getString\("out\_trade\_no"\);//商户订单号
-
- String tradeno = object.getString\("tradeno"\);//微信交易流水号
-
- Date sendpaydate = object.getDate\("sendpaydate "\);//支付成功时间
-
- //根据out\_trade\_no处理订单
-
- }
-
-2、在web.xml中配置这个servlet
+> # **2、在web.xml中配置这个servlet**
 
 类以com.cnnct.json.TenpayNotify为例，web.xml中增加下面这段
 
@@ -44,13 +37,9 @@
 
 &lt;/servlet-mapping&gt;
 
-
-
-3、在tenpay.properties中配置异步通知地址
+> # **3、在tenpay.properties中配置异步通知地址**
 
 \#微信支付异步通知地址
 
-NOTIFY\_URL=http://ip:port/tenpayNotify
-
-
+NOTIFY\_URL=[http://ip:port/tenpayNotify](http://ip:port/tenpayNotify)
 
