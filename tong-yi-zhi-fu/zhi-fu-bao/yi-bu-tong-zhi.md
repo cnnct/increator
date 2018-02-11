@@ -19,25 +19,18 @@ Date sendpaydate = object.getDate("sendpaydate ");//支付成功时间
 
 类以com.cnnct.json.AlipayNotify为例，web.xml中增加下面这段
 
-&lt;servlet&gt;
-
-&lt;servlet-name&gt;alipayNotify&lt;/servlet-name&gt;
-
-&lt;display-name&gt;json servlet&lt;/display-name&gt;
-
-&lt;servlet-class&gt;com.cnnct.json.AlipayNotify&lt;/servlet-class&gt;
-
-&lt;load-on-startup&gt;1&lt;/load-on-startup&gt;
-
-&lt;/servlet&gt;
-
-&lt;servlet-mapping&gt;
-
-&lt;servlet-name&gt;alipayNotify&lt;/servlet-name&gt;
-
-&lt;url-pattern&gt;/alipayNotify&lt;/url-pattern&gt;
-
-&lt;/servlet-mapping&gt;
+```
+<servlet>
+<servlet-name>alipayNotify</servlet-name>
+<display-name>json servlet</display-name>
+<servlet-class>com.cnnct.json.AlipayNotify</servlet-class>
+<load-on-startup>1</load-on-startup>
+</servlet>
+<servlet-mapping>
+<servlet-name>alipayNotify</servlet-name>
+<url-pattern>/alipayNotify</url-pattern>
+</servlet-mapping>
+```
 
 3、在alipay.properties中配置异步通知地址
 
