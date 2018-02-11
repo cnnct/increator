@@ -118,47 +118,47 @@ getCheckedNodesText(treeId);//js代码，返回字符串，以","分割
                 }
                 />
 * 2.在edit_flag和nav_flag开启时需要实现的配套js方法：
-/**
-*删除节点的方法，方法名为treeId+"OnRemove",参数为对象object,
-*含有属性id,parentId,name,需要使用者返回后台删除对应的数据记录
-*/
-function tree2OnRemove(obj){
-alert("删除成功:"+obj.id+";"+obj.parentId+";"+obj.name);
-}
-/**
-*修改节点名的方法，方法名为treeId+"OnRename",参数为对象object,
-*含有属性id,parentId,name,需要使用者返回后台修改对应的数据记录
-*/
-function tree2OnRename(obj){
-alert("修改成功:"+obj.id+";"+obj.parentId+";"+obj.name);
-}
-/**
-*移动节点的方法，方法名为treeId+"OnMove",参数为对象object,
-*含有属性treeNodeArray为对象数组,需要使用者返回后台修改对应的数据记录
-*/
-function tree2OnMove(obj){
-var arr=obj.treeNodeArray;
-//alert("移动成功:"+obj.id+";"+obj.parentId+";"+obj.name);
-}
-/**
-*移动节点的方法，方法名为treeId+"BeforeAdd",参数为对象object,
-*含有属性parentId,需要使用者返回后台新增数据记录，返回必要参数id,name,url(对应该节点绑定跳转的url)
-*/
-function tree2BeforeAdd(obj){
-obj.id="1001001005";
-obj.name="测试ssy";
-obj.url="sys/auth/role/index";
-return obj;
-}
-/**
-*右侧内容切换调用方法，该项方法在nav_flag开启时，需要实现，其他上面的方法，在edit_fag开启时必须实现
-*参数obj包含属性：节点的id,name,url
-*/
-function tree2GetNavContext(obj){
-var context='<iframe src="' + '${base}/'+obj.url + '" width="100%" height="500px" frameborder="no" border="0" marginwidth="0" marginheight="0" scrolling="yes" allowtransparency="yes"></iframe>'
-$(".maincontent").html(context);
-}
-
+                                /**
+                                *删除节点的方法，方法名为treeId+"OnRemove",参数为对象object,
+                                *含有属性id,parentId,name,需要使用者返回后台删除对应的数据记录
+                                */
+                                function tree2OnRemove(obj){
+                                alert("删除成功:"+obj.id+";"+obj.parentId+";"+obj.name);
+                                }
+                                /**
+                                *修改节点名的方法，方法名为treeId+"OnRename",参数为对象object,
+                                *含有属性id,parentId,name,需要使用者返回后台修改对应的数据记录
+                                */
+                                function tree2OnRename(obj){
+                                alert("修改成功:"+obj.id+";"+obj.parentId+";"+obj.name);
+                                }
+                                /**
+                                *移动节点的方法，方法名为treeId+"OnMove",参数为对象object,
+                                *含有属性treeNodeArray为对象数组,需要使用者返回后台修改对应的数据记录
+                                */
+                                function tree2OnMove(obj){
+                                var arr=obj.treeNodeArray;
+                                //alert("移动成功:"+obj.id+";"+obj.parentId+";"+obj.name);
+                                }
+                                /**
+                                *移动节点的方法，方法名为treeId+"BeforeAdd",参数为对象object,
+                                *含有属性parentId,需要使用者返回后台新增数据记录，返回必要参数id,name,url(对应该节点绑定跳转的url)
+                                */
+                                function tree2BeforeAdd(obj){
+                                obj.id="1001001005";
+                                obj.name="测试ssy";
+                                obj.url="sys/auth/role/index";
+                                return obj;
+                                }
+                                /**
+                                *右侧内容切换调用方法，该项方法在nav_flag开启时，需要实现，其他上面的方法，在edit_fag开启时必须实现
+                                *参数obj包含属性：节点的id,name,url
+                                */
+                                function tree2GetNavContext(obj){
+                                var context='<iframe src="' + '${base}/'+obj.url + '" width="100%" height="500px" frameborder="no" border="0" marginwidth="0" marginheight="0" scrolling="yes" allowtransparency="yes"></iframe>'
+                                $(".maincontent").html(context);
+                                }
+                                
 * 3.后台自定义加载数据的方法：
 ![](/assets/tree_3.png)
 
