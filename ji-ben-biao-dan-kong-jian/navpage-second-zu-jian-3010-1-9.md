@@ -19,6 +19,7 @@
 * 1.首先加入标签，引入必要方法：
 ![](/assets/nav_page_second2.png)
 ![](/assets/nav_page_second3.png)
+* 2.加载sql：
 
 #### nav_page标签的显示结果 :
 
