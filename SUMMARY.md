@@ -134,8 +134,8 @@
       * [查询支付结果](tong-yi-zhi-fu/zhi-fu-bao/jie-kou/cha-xun-zhi-fu-jie-guo.md)
       * [退款](tong-yi-zhi-fu/zhi-fu-bao/jie-kou/tui-kuan.md)
       * [查询退款结果](tong-yi-zhi-fu/zhi-fu-bao/jie-kou/cha-xun-tui-kuan-jie-guo.md)
-      * 查询账单地址
-    * 异步通知
+      * [查询账单地址](tong-yi-zhi-fu/zhi-fu-bao/jie-kou/cha-xun-zhang-dan-di-zhi.md)
+    * [异步通知](tong-yi-zhi-fu/zhi-fu-bao/yi-bu-tong-zhi.md)
   * 微信
   * 银联
   * 翼支付
