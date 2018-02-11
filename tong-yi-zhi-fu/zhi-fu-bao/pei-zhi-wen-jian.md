@@ -1,4 +1,4 @@
-# 路径：
+# 路径：conf/parameter或config/parameter
 
 # 文件名：**alipay.properties**
 
