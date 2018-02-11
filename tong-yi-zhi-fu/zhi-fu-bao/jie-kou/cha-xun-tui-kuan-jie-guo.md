@@ -1,32 +1,27 @@
-/\*\*
+# 接口：
 
+```
+/**
 查询订单退款
-
-**@param**json
-
-\*  out\_trade\_no 订单号
-
-\* refund\_order\_id退卡订单号
-
-**@return**JSONObject
-
-\*  issuccess成功true,失败false
-
-\*  tradeno支付宝交易流水号
-
-\*/
-
-**publicstatic**JSONObject sendOrderRefundQuery\(JSONObject json\);
+@paramjson
+*  out_trade_no 订单号
+* refund_order_id退卡订单号
+@returnJSONObject
+*  issuccess成功true,失败false
+*  tradeno支付宝交易流水号
+*/
+publicstaticJSONObject sendOrderRefundQuery(JSONObject json);
+```
 
 # **调用示例：**
 
-JSONObject json = new JSONObject\(\);
+```
+JSONObject json = new JSONObject();
+json.put("out_trade_no", "123");
+json.put("refund_order_id", "1");
+JSONObject ret = AlipayService.sendOrderRefundQuery (json);
+System.out.println(ret);
+```
 
-json.put\("out\_trade\_no", "123"\);
 
-json.put\("refund\_order\_id", "1"\);
-
-JSONObject ret = AlipayService.sendOrderRefundQuery \(json\);
-
-System.out.println\(ret\);
 
