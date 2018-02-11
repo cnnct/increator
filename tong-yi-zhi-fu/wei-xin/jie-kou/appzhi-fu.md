@@ -1,4 +1,4 @@
-```
+```java
 /**
 *公共方法：微信预支付
 * @param request
@@ -12,8 +12,6 @@
 */
 publicstaticString sendPrepay(HttpServletRequest request,HttpServletResponse response,JSONObject json)throwsException;
 ```
-
-
 
 
 
