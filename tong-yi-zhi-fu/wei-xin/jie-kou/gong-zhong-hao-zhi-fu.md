@@ -1,7 +1,7 @@
 ```java
 /**
 *公共方法：微信公众号支付
-@paramrequest
+*@paramrequest
 *@paramresponse
 *@paramjson
 *  body 商品描述
