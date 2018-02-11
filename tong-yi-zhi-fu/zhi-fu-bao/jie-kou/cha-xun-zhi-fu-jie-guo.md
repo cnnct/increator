@@ -15,7 +15,10 @@ publicstatic JSONObject sendOrderQuery(String pay_Id);
 
 # **调用示例：**
 
-JSONObject ret = AlipayService.sendOrderQuery\("1"\);
+```
+JSONObject ret = AlipayService.sendOrderQuery("1");
+System.out.println(ret);
+```
 
-System.out.println\(ret\);
+
 
