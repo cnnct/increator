@@ -1,8 +1,10 @@
-# **alipay.properties**
+# 路径：conf/parameter或config/parameter
+
+# 文件名：**alipay.properties**
 
 \#支付宝接口地址
 
-open\_api\_domain=https://openapi.alipay.com/gateway.do
+open\_api\_domain=[https://openapi.alipay.com/gateway.do](https://openapi.alipay.com/gateway.do)
 
 \#支付宝账户名
 

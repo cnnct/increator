@@ -1,4 +1,6 @@
-# **tenpay.properties**
+# 路径：conf/parameter或config/parameter
+
+# 文件名：**tenpay.properties**
 
 \#\#微信开发平台应用id
 
@@ -32,8 +34,6 @@ SSLCERT\_PATH=
 
 NOTIFY\_URL=
 
-
-
 \#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#
 
 \#WEB微信特约商户
@@ -51,8 +51,6 @@ WEB\_SUB\_MCH\_ID=
 WEB\_SIGN\_KEY=
 
 WEB\_SECRET=
-
-
 
 \#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#
 
