@@ -32,9 +32,14 @@ Date sendpaydate = object.getDate("sendpaydate ");//支付成功时间
 </servlet-mapping>
 ```
 
-3、在alipay.properties中配置异步通知地址
+### 3、在alipay.properties中配置异步通知地址
 
-\#异步通知地址
+```
+#异步通知地址
+notify_url=
+http://ip:port/alipayNotify
 
-notify\_url=[http://ip:port/alipayNotify](http://ip:port/alipayNotify)
+```
+
+
 
