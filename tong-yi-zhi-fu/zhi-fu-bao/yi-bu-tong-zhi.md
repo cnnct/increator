@@ -1,4 +1,6 @@
-### 1、新建类继承com.increator.pay.alipay.AlipayNotify，重写handingAfterPaid方法
+```
+1、新建类继承com.increator.pay.alipay.AlipayNotify，重写handingAfterPaid方法
+```
 
 ```
 /**
@@ -13,7 +15,7 @@ Date sendpaydate = object.getDate("sendpaydate ");//支付成功时间
 }
 ```
 
-### `2、在web.xml中配置这个servlet`
+### 2、在web.xml中配置这个servlet
 
 类以com.cnnct.json.AlipayNotify为例，web.xml中增加下面这段
 
