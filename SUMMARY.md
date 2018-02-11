@@ -110,6 +110,7 @@
   * [防止定时器并发实现【1.2.3】](kuang-jia-she-zhi/fang-zhi-ding-shi-qi-bing-fa-shi-xian-3010-1-2-3.md)
   * [SQL查询返回结果大小写问题](kuang-jia-she-zhi/sqlcha-xun-fan-hui-jie-guo-da-xiao-xie-wen-ti.md)
   * [日志表分库分表](kuang-jia-she-zhi/ri-zhi-biao-fen-ku-fen-biao.md)
+  * [数据源druid监控](kuang-jia-she-zhi/shu-juyuan-druid-jian-kong.md)
 * [微信公众号开发](kuang-jia-she-zhi/wei-xin-kai-fa.md)
   * [授权](kuang-jia-she-zhi/wei-xin-kai-fa/shou-quan.md)
   * [分享](kuang-jia-she-zhi/wei-xin-kai-fa/fen-xiang.md)
