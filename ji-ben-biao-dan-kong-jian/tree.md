@@ -160,8 +160,8 @@ getCheckedNodesText(treeId);//js代码，返回字符串，以","分割
                                 }
                                 
 * 3.后台自定义加载数据的方法：
+![](/assets/tree_2.png)
 ![](/assets/tree_3.png)
-
 * 4.sql数据，当然cust_get_data_list属性存在时，sql执行被屏蔽：
 
 ![](/assets/tree_4.png)
