@@ -1,5 +1,3 @@
-
-
 # 接口名称
 
 ```
@@ -20,17 +18,15 @@ publicstaticJSONObject sendWebPay(JSONObject json)throwsException;
 
 # **调用示例：**
 
-JSONObject json =**new**JSONObject\(\);
+```
+JSONObject json =newJSONObject();
+json.put("body","充值");
+json.put("out_trade_no ","123");
+json.put("tr_amt","1");
+json.put("enable_paymethod", "directPay^bankPay^debitCardExpress^cash");
+JSONObject ret = AlipayService.sendWebPay(json);
+System.out.println(ret);
+```
 
-json.put\("body","充值"\);
 
-json.put\("out\_trade\_no ","123"\);
-
-json.put\("tr\_amt","1"\);
-
-json.put\("enable\_paymethod", "directPay^bankPay^debitCardExpress^cash"\);
-
-JSONObject ret = AlipayService.sendWebPay\(json\);
-
-System.out.println\(ret\);
 
