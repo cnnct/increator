@@ -141,7 +141,7 @@
     * [配置文件](tong-yi-zhi-fu/wei-xin/pei-zhi-wen-jian.md)
     * [接口](tong-yi-zhi-fu/wei-xin/jie-kou.md)
       * [App支付](tong-yi-zhi-fu/wei-xin/jie-kou/appzhi-fu.md)
-      * 公众号支付
+      * [公众号支付](tong-yi-zhi-fu/wei-xin/jie-kou/gong-zhong-hao-zhi-fu.md)
       * 扫码支付
       * 查询订单
       * 退款
