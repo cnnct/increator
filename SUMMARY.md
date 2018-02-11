@@ -131,7 +131,7 @@
       * [App支付](tong-yi-zhi-fu/zhi-fu-bao/jie-kou/appzhi-fu.md)
       * [扫码支付](tong-yi-zhi-fu/zhi-fu-bao/jie-kou/sao-ma-zhi-fu.md)
       * [电脑网站支付](tong-yi-zhi-fu/zhi-fu-bao/jie-kou/dian-nao-wang-zhan-zhi-fu.md)
-      * 查询支付结果
+      * [查询支付结果](tong-yi-zhi-fu/zhi-fu-bao/jie-kou/cha-xun-zhi-fu-jie-guo.md)
       * 退款
       * 查询退款结果
       * 查询账单地址
