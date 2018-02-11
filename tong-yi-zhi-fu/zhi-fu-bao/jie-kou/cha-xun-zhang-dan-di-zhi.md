@@ -14,5 +14,3 @@
 
 System.out.println\(AlipayService.sendOrderQueryBillUrl\("2016-11-24"\)\);
 
-
-
