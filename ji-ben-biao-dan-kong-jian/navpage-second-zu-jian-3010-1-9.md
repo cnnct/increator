@@ -12,7 +12,7 @@
 > >
 > > ***name:** 左侧导航树的name属性
 > >
-> > ***edit_flag:** 左侧导航树的edit_flag属性，即开启可编辑属性
+> > ***edit_flag:** 左侧导航树的edit_flag属性，即开启可编辑节点属性
 > >
 
 #### nav_page标签的引入方式 :
