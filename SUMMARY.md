@@ -63,6 +63,7 @@
   * [select\_list标签【1.5】](ji-ben-biao-dan-kong-jian/selectlist-biao-qian.md)
   * [related\_function标签【1.5】](ji-ben-biao-dan-kong-jian/relatedfunction-biao-qian.md)
   * [map标签【1.5】](ji-ben-biao-dan-kong-jian/mapbiao-qian-3010-1-5.md)
+  * [nav\_page\_second组件【1.9】](ji-ben-biao-dan-kong-jian/navpage-second-zu-jian-3010-1-9.md)
 * [应用工具方法调用](ying-yong-gong-ju-fang-fa-diao-yong-3010-shi-3001-lu-3011.md)
   * [模态弹框](ying-yong-gong-ju-fang-fa-diao-yong-3010-shi-3001-lu-3011/mo-tai-dan-kuang-3010-shi-3011.md)
   * [form表单验证【1.3】](ying-yong-gong-ju-fang-fa-diao-yong-3010-shi-3001-lu-3011/formbiao-dan-yan-zheng-3010-1-3.md)
