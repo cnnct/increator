@@ -36,9 +36,7 @@ Date sendpaydate = object.getDate("sendpaydate ");//支付成功时间
 
 ```
 #异步通知地址
-notify_url=
-http://ip:port/alipayNotify
-
+notify_url=http://ip:port/alipayNotify
 ```
 
 
