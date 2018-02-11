@@ -142,8 +142,8 @@
     * [接口](tong-yi-zhi-fu/wei-xin/jie-kou.md)
       * [App支付](tong-yi-zhi-fu/wei-xin/jie-kou/appzhi-fu.md)
       * [公众号支付](tong-yi-zhi-fu/wei-xin/jie-kou/gong-zhong-hao-zhi-fu.md)
-      * 扫码支付
-      * 查询订单
+      * [扫码支付](tong-yi-zhi-fu/wei-xin/jie-kou/sao-ma-zhi-fu.md)
+      * [查询订单](tong-yi-zhi-fu/wei-xin/jie-kou/cha-xun-ding-dan.md)
       * 退款
       * 查询退款结果
       * 下载账单
