@@ -22,8 +22,8 @@
 * 2.加载sql：
 ![](/assets/nav_page_second4.png)
 #### nav_page_second标签的显示结果 :
-
-
+![](/assets/nav_page_second5.png)
+![](/assets/nav_page_second6.png)
 
 
 
