@@ -21,8 +21,6 @@
 ![](/assets/nav_page_second3.png)
 #### nav_page标签的显示结果 :
 
-![](/assets/nav_page7.png)
-
 
 
 
