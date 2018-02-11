@@ -1,24 +1,17 @@
-1、新建类继承com.increator.pay.alipay.AlipayNotify，重写handingAfterPaid方法
+### 1、新建类继承com.increator.pay.alipay.AlipayNotify，重写handingAfterPaid方法
 
-/\*\*
-
-\*支付成功后的业务处理
-
-\* @param object
-
-\*/
-
- public void handingAfterPaid\(JSONObject object\){
-
- String out\_trade\_no = object.getString\("out\_trade\_no"\);//商户订单号
-
- String tradeno = object.getString\("tradeno"\);//支付宝交易流水号
-
- Date sendpaydate = object.getDate\("sendpaydate "\);//支付成功时间
-
- //根据out\_trade\_no处理订单
-
- }
+```
+/**
+*支付成功后的业务处理
+* @param object
+*/
+public void handingAfterPaid(JSONObject object){
+String out_trade_no = object.getString("out_trade_no");//商户订单号
+String tradeno = object.getString("tradeno");//支付宝交易流水号
+Date sendpaydate = object.getDate("sendpaydate ");//支付成功时间
+//根据out_trade_no处理订单
+}
+```
 
 2、在web.xml中配置这个servlet
 
@@ -44,11 +37,9 @@
 
 &lt;/servlet-mapping&gt;
 
-
-
 3、在alipay.properties中配置异步通知地址
 
 \#异步通知地址
 
-notify\_url=http://ip:port/alipayNotify
+notify\_url=[http://ip:port/alipayNotify](http://ip:port/alipayNotify)
 
