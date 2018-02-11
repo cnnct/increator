@@ -2,7 +2,7 @@
 
 #### nav_page_second**标签的属性 :**
 
-> nav_page_second标签为含有左侧导航页面的标签，属性分别为id、size、title；
+> nav_page_second标签为含有左侧导航的页面标签，含有的属性如下：
 >
 > > ***id ：** id属性
 > >
