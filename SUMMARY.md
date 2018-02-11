@@ -148,6 +148,6 @@
       * [查询退款结果](tong-yi-zhi-fu/wei-xin/jie-kou/cha-xun-tui-kuan-jie-guo.md)
       * [下载账单](tong-yi-zhi-fu/wei-xin/jie-kou/xia-zai-zhang-dan.md)
     * [异步通知](tong-yi-zhi-fu/wei-xin/yi-bu-tong-zhi.md)
-  * 银联
-  * 翼支付
+  * [银联](tong-yi-zhi-fu/yin-lian.md)
+  * [翼支付](tong-yi-zhi-fu/yi-zhi-fu.md)
 
