@@ -123,7 +123,7 @@
   * [gitbook使用注意事项【废弃】](fu-lu/gitsvn.md)
   * [mybatis乱码问题](fu-lu/mybatisshu-ju-lian-jie-chuan-yin-qi-luan-ma-wen-ti.md)
   * [gitbook和github结合](fu-lu/gitbookhe-github-jie-he.md)
-* [统一支付](tong-yi-zhi-fu.md)
+* [统一支付接口](tong-yi-zhi-fu.md)
   * [支付宝](tong-yi-zhi-fu/zhi-fu-bao.md)
     * [接口类名](tong-yi-zhi-fu/zhi-fu-bao/jie-kou-lei-ming.md)
     * [配置文件](tong-yi-zhi-fu/zhi-fu-bao/pei-zhi-wen-jian.md)
