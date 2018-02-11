@@ -131,8 +131,8 @@
   * [微信](tong-yi-zhi-fu/wei-xin.md)
     * [接口类名](tong-yi-zhi-fu/wei-xin/jie-kou-lei-ming.md)
     * [配置文件](tong-yi-zhi-fu/wei-xin/pei-zhi-wen-jian.md)
-    * 接口
-    * 异步通知
+    * [接口](tong-yi-zhi-fu/wei-xin/jie-kou.md)
+    * [异步通知](tong-yi-zhi-fu/wei-xin/yi-bu-tong-zhi.md)
   * [银联](tong-yi-zhi-fu/yin-lian.md)
   * [翼支付](tong-yi-zhi-fu/yi-zhi-fu.md)
 * [开发规范](kai-fa-gui-fan.md)
