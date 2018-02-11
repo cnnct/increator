@@ -20,7 +20,7 @@
 ![](/assets/nav_page_second2.png)
 ![](/assets/nav_page_second3.png)
 * 2.加载sql：
-
+![](/assets/nav_page_second4.png)
 #### nav_page标签的显示结果 :
 
 
