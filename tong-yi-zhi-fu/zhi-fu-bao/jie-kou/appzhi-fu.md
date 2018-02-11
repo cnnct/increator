@@ -21,17 +21,15 @@ publicstaticJSONObject sendPrepay(JSONObject json)throwsException;
 
 # **调用示例：**
 
-JSONObject json =**new**JSONObject\(\);
+```
+JSONObject json =newJSONObject();
+json.put("body","充值");
+json.put("out_trade_no","123");
+json.put("tr_amt","1");
+json.put("disable_pay_channels", "pcredit,creditCard");
+JSONObject ret = AlipayService.sendPrepay(json);
+System.out.println(ret);
+```
 
-json.put\("body","充值"\);
 
-json.put\("out\_trade\_no","123"\);
-
-json.put\("tr\_amt","1"\);
-
-json.put\("disable\_pay\_channels", "pcredit,creditCard"\);
-
-JSONObject ret = AlipayService.sendPrepay\(json\);
-
-System.out.println\(ret\);
 
