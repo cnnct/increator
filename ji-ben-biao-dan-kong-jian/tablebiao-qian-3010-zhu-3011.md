@@ -95,6 +95,8 @@
                       <#--other_rule为其他规则，不按照默认脱敏类型，自定义脱敏->
                       "other_rule":"left,1"
                  }
+                 editor_flag="true"
+		 editor_url="${base}/demo/tag/testTable"
              ]
                 />
   <!-- 所有提交的url地址的前缀都要加上 ${base}
