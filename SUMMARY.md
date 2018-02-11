@@ -127,7 +127,14 @@
   * [支付宝](tong-yi-zhi-fu/zhi-fu-bao.md)
     * [接口类名](tong-yi-zhi-fu/zhi-fu-bao/jie-kou-lei-ming.md)
     * [配置文件](tong-yi-zhi-fu/zhi-fu-bao/pei-zhi-wen-jian.md)
-    * 接口
+    * [接口](tong-yi-zhi-fu/zhi-fu-bao/jie-kou.md)
+      * [App支付](tong-yi-zhi-fu/zhi-fu-bao/jie-kou/appzhi-fu.md)
+      * 扫码支付
+      * 电脑网站支付
+      * 查询支付结果
+      * 退款
+      * 查询退款结果
+      * 查询账单地址
     * 异步通知
   * 微信
   * 银联
