@@ -144,7 +144,7 @@
       * [公众号支付](tong-yi-zhi-fu/wei-xin/jie-kou/gong-zhong-hao-zhi-fu.md)
       * [扫码支付](tong-yi-zhi-fu/wei-xin/jie-kou/sao-ma-zhi-fu.md)
       * [查询订单](tong-yi-zhi-fu/wei-xin/jie-kou/cha-xun-ding-dan.md)
-      * 退款
+      * [退款](tong-yi-zhi-fu/wei-xin/jie-kou/tui-kuan.md)
       * 查询退款结果
       * 下载账单
     * 异步通知
