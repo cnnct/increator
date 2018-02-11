@@ -24,7 +24,7 @@
 > > LOG_TABLE_NAME_SUFF：日志表分表规则，拼接表名，默认值为空，表示不分表，配置值为：日-yyyyMMdd、月-yyyyMM、年-yyyy
 > > ```
 > >
-> > ##### 存储过程+定时器，放在当前主库中，但需要给当前主库用户分配相应的权限
+> > ##### 存储过程+定时器，放在当前主库中，但需要给当前主库用户分配相应的权限，特别是oracle，权限语句在存储过程的顶部注释中
 > >
 > > ```
 > > oracle：pk_create_object.p_create_split_logtable
