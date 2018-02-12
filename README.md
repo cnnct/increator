@@ -54,6 +54,8 @@
 >
 > spring tool suite 插件：[http://spring.io/tools/sts/all/](http://spring.io/tools/sts/all/)
 >
+> bootstrap学习教程：http://www.imooc.com/course/list?c=bootstrap
+>
 > ECharts整合插件：  [https://github.com/abel533/ECharts](https://github.com/abel533/ECharts)
 >
 > web端打印插件JQuery.print源代码：[https://github.com/posabsolute/jQuery-printPage-plugin](https://github.com/posabsolute/jQuery-printPage-plugin)
