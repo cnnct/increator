@@ -4,7 +4,7 @@
 
 > 本手册已作为git资源上传到gitbub资源库中，使用说明详见章节：[gitbook和github](/fu-lu/gitbookhe-github-jie-he.md)结合
 >
-> 手册中的章节内容无特殊标注说明时，默认为版本【1.0】，其它若是后续升级版本会标明版本号如【1.1】【1.2】等
+> 手册中的章节内容无特殊标注说明时，默认为版本【1.0】，其它若是后续升级版本会标明版本号如【1.1】【1.2】等。
 
 # 版权说明
 
@@ -54,7 +54,7 @@
 >
 > spring tool suite 插件：[http://spring.io/tools/sts/all/](http://spring.io/tools/sts/all/)
 >
-> bootstrap学习教程：http://www.imooc.com/course/list?c=bootstrap
+> bootstrap学习教程：[http://www.imooc.com/course/list?c=bootstrap](http://www.imooc.com/course/list?c=bootstrap)
 >
 > ECharts整合插件：  [https://github.com/abel533/ECharts](https://github.com/abel533/ECharts)
 >
