@@ -112,10 +112,8 @@ getCheckedNodesText(treeId);//js代码，返回字符串，以","分割
                 sql_condition="session.operId&&&010602"
                 nav_flag="true"
                 edit_flag="true"
-                cust_get_data_list={
-                "clazz":"com.cnnct.utils.CustRepSysTagDataUtils[getTreeDataList]",
-                "param":"123"
-                }
+                cust_get_data_clazz="com.cnnct.utils.CustRepSysTagDataUtils[getTreeDataList]"
+		 cust_get_data_param="${base}"
                 />
 * 2.在edit_flag和nav_flag开启时需要实现的配套js方法：
                                 /**
