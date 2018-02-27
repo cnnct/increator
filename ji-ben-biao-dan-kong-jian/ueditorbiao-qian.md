@@ -14,7 +14,7 @@
 > > **size ：** size属性,默认大小12
 > >
 > > **position ：** position属性，可填值left,right,center,默认居中
->>** 注意：上传的文件名不能含有中文
+>> ** 注意：上传的文件名不能含有中文
 
 
 #### ueditor标签的引入方式 :
