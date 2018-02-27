@@ -12,7 +12,7 @@
 > >
 > > **height【1.9】：** 高度属性，默认全部展示，可填数值
 > >
-> > ***fields:** 表格的加载字段属性，为数组对象，单个字段对象包含属性：name(加载的字段名)，title(字段标题),type(编辑时的类型，现支持text,textarea,select,MyDateField),width(宽度，默认100)
+> > ***fields:** 表格的加载字段属性，为数组对象，单个字段对象包含属性：name(加载的字段名)，title(字段标题),type(编辑时的类型，现支持text,textarea,select,MyDateField(时间)，注意当为select类型时必必须指定code_type),width(宽度，默认100)
 > >
 > > ***editor_flag:【1.9】** 编辑功能开关，默认false，即编辑功能冻结，当为true时可以新增行，修改行，删除行，移动行
 > >
