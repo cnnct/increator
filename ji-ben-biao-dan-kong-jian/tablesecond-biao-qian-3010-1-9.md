@@ -26,7 +26,8 @@
 ![](/assets/table_second2.png)
 ![](/assets/table_second3.png)
 #### table_second标签的显示结果 :
-![](/assets/table_second4.png)
+
+![](/assets/table_second7.png)
 #### 后台加载数据写法：
 ![](/assets/table_second5.png)
 
