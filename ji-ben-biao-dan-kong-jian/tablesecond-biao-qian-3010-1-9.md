@@ -22,7 +22,7 @@
 
 #### table_second标签的引入方式 :
 * 1.首先加入标签，引入必要方法：
-![](/assets/table_second1.png)
+![](/assets/table_second6.png)
 ![](/assets/table_second2.png)
 ![](/assets/table_second3.png)
 #### table_second标签的显示结果 :
