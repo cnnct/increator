@@ -25,7 +25,6 @@
 ![](/assets/table_second6.png)
 ![](/assets/table_second2.png)
 ![](/assets/table_second3.png)
-**注意：**需要实现的方法不能return，否则会阻断数据异步刷新，调用$("#mytable").jsGrid("loadData")异步刷新表格数据;
 #### table_second标签的显示结果 :
 
 ![](/assets/table_second7.png)
