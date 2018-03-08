@@ -51,7 +51,7 @@
 [http://v3.bootcss.com/components/](http://v3.bootcss.com/components/)
 * bootstrap默认图标
 ![](/assets/icon-font03.png)
-* font-increator中的扩展图标，【2.0】后可用
+* font-increator中的扩展图标，【2.0】版本后可用
 ![](/assets/button1.png)
 ![](/assets/button2.png)
 
