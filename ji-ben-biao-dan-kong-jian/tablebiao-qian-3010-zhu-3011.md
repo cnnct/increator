@@ -67,7 +67,7 @@
                          "name":"test1",
                          "onclick":"doTest('sd')",
                          "text":"自定义",
-                         "icon":"saved",
+                         "icon":"ext_assessedbadge",
                          "color":"success",
                          "auth_key":"brch_cust",
                           "dynswitch":{"dynbind_field":"brch_state","show_condition":["0",“1”]}
