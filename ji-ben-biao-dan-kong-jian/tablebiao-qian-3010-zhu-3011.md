@@ -96,7 +96,7 @@
                       "other_rule":"left,1"
                  }
                  editor_flag="true"
-		 editor_url="${base}/demo/tag/testTable"
+		  editor_url="${base}/demo/tag/testTable"
              ]
                 />
   <!-- 所有提交的url地址的前缀都要加上 ${base}
