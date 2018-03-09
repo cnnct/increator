@@ -34,8 +34,11 @@
     function test() {
       通过modal_iframe的id获取此对象再调用modalShow(url)方法,此url为后台controller中方法的url：
       $("#modal_edit").modalShow("/sys/auth/role/edit/" + id);
+      注意：【2.0】版本后modalShow方法有所调整，采用 $("#modal_edit").modalShow("${base}/sys/auth/role/edit/" + id);
+
     }
   </script>
+  
 ```
 
 #### modal\_iframe标签显示效果图 :
