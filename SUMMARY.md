@@ -15,6 +15,7 @@
     * [V1.7](ban-ben-geng-xin-shuo-ming/v17.md)
     * [V1.8](ban-ben-geng-xin-shuo-ming/v18.md)
     * [V1.9](ban-ben-geng-xin-shuo-ming/v19.md)
+    * [V2.0](ban-ben-geng-xin-shuo-ming/v20.md)
   * [框架代码获取](kuang-jia-dai-ma-huo-qu.md)
   * [框架key管理](kuang-jia-key-guan-li.md)
   * [团队介绍](zuo-zhe-jie-shao.md)
