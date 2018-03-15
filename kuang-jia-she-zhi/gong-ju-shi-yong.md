@@ -1,3 +1,5 @@
+### **注：尽量不要再用原来zt包里的工具类**
+
 CacheUtil
 
 * * * #### getOperSes
