@@ -34,7 +34,7 @@
 > >
 > > **active：** active属性为是否处于选中状态，可以填写的值为“true”，“false”，默认为false
 > >
-> > **src【2.1】: ** 
+> > **src【2.1】: **【2.1】版本后引入tab引入iframe页面，即每一个tab子项被嵌入一个iframe，各自独立页面，不在标签里写入内容
 
 ```
  <@child_tab  id="myTab2" tab_content_ids="home,profile,dropdown,ddd" tab_content_titles="home2,profile2,dropdown12,ddd3">
