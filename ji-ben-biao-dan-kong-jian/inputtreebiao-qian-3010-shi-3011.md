@@ -35,11 +35,12 @@
 				{"child_id":"name34","sql_key":"sysfunc6","show_field":"title","value_field":"func_id","sql_condition":"1","num_for_selected":"1"}]  
 > >其中sql_condition为sql执行时需要加入的条件，num_for_selected属性为父级选中项的值加入占位符的位置，
 注意：配合input_tree的级联的标签**只有cas\_select\_child**
+
 > > **child_sql_condition【1.3】：**该属性是为了解决el表达式在ftl数组属性中解析不了的问题，即child_info属性中的sql_condition属性被该属性替换，引入方式：child_sql_condition="${operVo.brch.brchId},2;4"，child_info属性中不同不同元素的sql_condition属性需要的值用‘；’分割
+
 >>** select_click_node_only【1.7】：**该属性主要是为了控制input_tree组件解除父子级节点的关联，即点击节点文字时只获取点击节点的值，父节点和子节点的值不获取
 **注意：**该标签在【1.7】后，复选框树点击文字项，只会选中本节点和关联的父节点，不会勾选子节点，而勾选复选框时和原先的功能一致，单选框功能和原先的不变
 
-> >
 > > **cust_get_data_clazz【2.1】：** 该功能用于支持自定义加载tree的初始化数据，如果该项存在，则将屏蔽sql_key的加载数据功能，指定加载类和静态方法,规则示例将在下面展示，具体示例见2.0平台基础项目demo页
 > >
 > > **cust_get_data_param【2.1】：** 该功能用于支持自定义加载tree的初始化数据，如果该项存在，则将屏蔽sql_key的加载数据功能，指定加载类和静态方法的参数（现阶段只支持单个参数且为string类型）,规则示例将在下面展示，具体示例见2.0平台基础项目demo页
