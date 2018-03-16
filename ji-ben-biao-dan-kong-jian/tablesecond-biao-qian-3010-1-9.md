@@ -48,8 +48,10 @@
 #### table_second标签的引入方式 :
 * 1.首先加入标签，引入必要方法：
 ![](/assets/table_second8.png)
+![](/assets/table_second10.png)
 ![](/assets/table_second2.png)
 ![](/assets/table_second3.png)
+
 #### table_second标签的显示结果 :
 
 ![](/assets/table_second7.png)
