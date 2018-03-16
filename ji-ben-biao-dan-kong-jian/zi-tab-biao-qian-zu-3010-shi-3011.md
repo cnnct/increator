@@ -54,7 +54,7 @@
 </@child_tab>
 
 【2.1】版本后写法示例：
- <@child_tab  id="myTab2" tab_content_ids="home,profile" tab_content_titles="home2,profile2,dropdown12,ddd3">
+ <@child_tab  id="myTab2" tab_content_ids="home,profile,dropdown12,ddd3" tab_content_titles="home2,profile2,dropdown12,ddd3">
 	        <@child_tab_content id="home" active="true" src="${base}/demo/tag/tabContent1"> 
 	        </@child_tab_content>
 	        <@child_tab_content id="profile"  src="${base}/demo/tag/tabContent2"> 
