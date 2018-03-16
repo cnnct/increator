@@ -46,6 +46,12 @@
 > > **default\_val :** default\_val属性是指select标签的默认选中值，该值为option的value值，当select\_more 属性为“true”时，可以多选，
 > >
 > > 如default\_val="0,2",注意分隔符；
+> >
+> > **cust_get_data_clazz【2.1】：** 该功能用于支持自定义加载tree的初始化数据，如果该项存在，则将屏蔽sql_key的加载数据功能，指定加载类和静态方法,规则示例将在下面展示，具体示例见2.0平台基础项目demo页
+> >
+> > **cust_get_data_param【2.1】：** 该功能用于支持自定义加载tree的初始化数据，如果该项存在，则将屏蔽sql_key的加载数据功能，指定加载类和静态方法的参数（现阶段只支持单个参数且为string类型）,规则示例将在下面展示，具体示例见2.0平台基础项目demo页
+> >
+
 
 #### select标签的引入方式 :
 
