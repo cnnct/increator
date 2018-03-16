@@ -59,6 +59,11 @@
 	        </@child_tab_content>
 	        <@child_tab_content id="profile"  src="${base}/demo/tag/tabContent2"> 
 	        </@child_tab_content>
+        	<@child_tab_content id="dropdown" src="${base}/demo/tag/tabContent3"> 
+                </@child_tab_content>
+                <@child_tab_content id="ddd" > 
+                </@child_tab_content>
+
  </@child_tab>
 ```
 
