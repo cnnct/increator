@@ -77,7 +77,7 @@
     * [异常处理](kuang-jia-she-zhi/springmvcpei-zhi/yi-chang-chu-li.md)
     * [业务、错误日志](kuang-jia-she-zhi/springmvcpei-zhi/ye-wu-3001-cuo-wu-ri-zhi.md)
     * [springmvc的使用](kuang-jia-she-zhi/springmvcpei-zhi/springmvcde-shi-yong.md)
-  * [mybatis配置和使用](kuang-jia-she-zhi/mybatis.md)
+  * [mybatis及数据源的配置和使用](kuang-jia-she-zhi/mybatis.md)
     * [多数据源及逆向工程配置【1.2】](kuang-jia-she-zhi/duo-shu-ju-yuan-de-pei-zhi.md)
     * [mybatis热部署](kuang-jia-she-zhi/mybatis/mybatisre-bu-shu.md)
   * [Ehcache的使用](kuang-jia-she-zhi/ehcachede-shi-yong.md)
