@@ -33,6 +33,8 @@
 > > **name ：** name属性
 > >
 > > **active：** active属性为是否处于选中状态，可以填写的值为“true”，“false”，默认为false
+> >
+> > **src【2.1】: ** 
 
 ```
  <@child_tab  id="myTab2" tab_content_ids="home,profile,dropdown,ddd" tab_content_titles="home2,profile2,dropdown12,ddd3">
