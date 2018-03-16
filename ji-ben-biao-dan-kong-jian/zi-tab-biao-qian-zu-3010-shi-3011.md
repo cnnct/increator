@@ -37,6 +37,7 @@
 > > **src【2.1】: **【2.1】版本后引入tab引入iframe页面，即每一个tab子项被嵌入一个iframe，各自独立页面，不在标签里写入内容
 
 ```
+【2.1】版本之前示例：
  <@child_tab  id="myTab2" tab_content_ids="home,profile,dropdown,ddd" tab_content_titles="home2,profile2,dropdown12,ddd3">
         <@child_tab_content id="home" active="true"> 
             <p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid.</p>
@@ -51,6 +52,8 @@
             <p>hfieiiejjlkfjdsfl.</p>
         </@child_tab_content>
 </@child_tab>
+
+【2.1】版本后写法示例
 ```
 
 #### 显示结果 :
