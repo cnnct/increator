@@ -235,7 +235,7 @@ decrypt=true
          <!-- 表配置,如果数据库为oracle,那么，还需要加上schema属性,值为oracle用户名 -->
          <table tableName="bs_city" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"></table>
          <table tableName="bs_city" schema="manageplat" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"></table>
-
+         <!-- 自定义数据库中的字段映射的实体类属性 -->
          <table tableName="sys_action_log" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false">
              <columnOverride column="message" javaType="java.lang.String" jdbcType="VARCHAR"/>
              <columnOverride column="in_data" javaType="java.lang.String" jdbcType="VARCHAR"/>
