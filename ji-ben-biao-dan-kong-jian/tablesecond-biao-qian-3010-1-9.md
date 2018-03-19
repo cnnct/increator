@@ -16,7 +16,7 @@
 > >
 > > ***fields:** 表格的加载字段属性，为数组对象，单个字段对象包含属性：name(加载的字段名)，title(字段标题),type(编辑时的类型，现支持text,textarea,code_select,myDateField(时间)，注意当为code_select类型时必须指定code_type,当type为空且不存在时，将冻结列),width(宽度，默认100)，position为列的位置，默认center，可填值center，left，right,【2.0】版本后调整type有select，code_select项，code_select需要指定code_type,如果是select需要指定sql_key（配套sql_condition），value_field，show_field
 > >
-> > ***editor_flag:【2.0】** 编辑功能开关，默认false，即编辑功能冻结，当为true时可以新增行，修改行，删除行，移动行
+> > **editor_flag:【2.0】** 编辑功能开关，默认false，即编辑功能冻结，当为true时可以新增行，修改行，删除行，移动行
 > >
 > > **format:【2.0】** 表格的时间匹配格式，默认为yyyy-MM-dd HH:mm:ss
 > > * p：子午线（“am”或“pm”） - 根据区域设置文件
