@@ -232,9 +232,8 @@ decrypt=true
             <property name="enableSubPackages" value="false" />
         </javaClientGenerator>
 
-         <!-- 配置表格 -->
+         <!-- 表配置,如果数据库为oracle,那么，还需要加上schema属性,值为oracle用户名 -->
          <table tableName="bs_city" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"></table>
-         <!-- 如果数据库为oracle,那么，还需要加上schema属性,值为用户名 -->
          <table tableName="bs_city" schema="manageplat" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"></table>
 
          <table tableName="sys_action_log" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false">
