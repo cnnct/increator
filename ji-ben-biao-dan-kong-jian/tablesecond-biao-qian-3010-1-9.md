@@ -40,7 +40,7 @@
 >>
 >> ** search_have:【2.0】** 是否拥有搜索功能，默认false
 >>
->> ** search_have:【2.0】** 是否拥有搜索功能，默认false
+>> ** delete_message:【2.1】** 是否拥有搜索功能，默认false
 
 
 
