@@ -1,4 +1,4 @@
-# search\_tree**标签**
+# search\_tree**标签【2.1版本后废弃】**
 
 #### search\_tree**标签的属性 :**
 注意：remote验证需要开启同步验证属性，详细见form标签
