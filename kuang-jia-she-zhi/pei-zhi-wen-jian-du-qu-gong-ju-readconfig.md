@@ -1,6 +1,6 @@
 #### ReadConfig公共方法
 
-##### ReadConfig中公共方法有4个，外部可使用的是3个：
+##### ReadConfig中公共方法有2个，外部可使用的是3个：
 
 public static String getValue(String fileName,String key)：根据file文件名称和key值获取对应的值
 
