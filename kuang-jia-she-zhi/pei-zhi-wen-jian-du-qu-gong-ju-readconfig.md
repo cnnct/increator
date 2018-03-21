@@ -4,9 +4,8 @@
 
 public static String getValue(String fileName,String key)：根据file文件名称和key值获取对应的值
 
-public static String getLocalIP\(\) throws UnknownHostException, SocketException：获取本地IP地址
+public static String getValue(String key)：从para.properties文件中取key值获取对应的值
 
-public static boolean isWindowsOS\(\)：判断操作系统是否是Windows
 
 
 
