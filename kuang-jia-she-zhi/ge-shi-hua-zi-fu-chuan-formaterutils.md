@@ -3,7 +3,7 @@
 
 #####可供调用的方法：
 
-camelToUnderline(String)
+camelToUnderline(String)： 驼峰转下划线 
 
 
 
