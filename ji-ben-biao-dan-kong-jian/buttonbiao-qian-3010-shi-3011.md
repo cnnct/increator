@@ -31,9 +31,9 @@
 > > **position【1.1】: **按钮position属性,用于相对位置\(left：居左、center：居中、right：居右\)
 >>
 > > **check_resubmit【1.2.2】: ** 按钮防止重复提交属性，默认false，为true时检查重复提交
+>>
+>> **color【1.2.2】: ** 按钮防止重复提交属性，默认false，为true时检查重复提交
 
->>
->>
 
 #### button标签的引入方式 :
 
