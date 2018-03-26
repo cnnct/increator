@@ -32,7 +32,7 @@
 >>
 > > **check_resubmit【1.2.2】: ** 按钮防止重复提交属性，默认false，为true时检查重复提交
 >>
->> **color【2.1】: ** 颜色属性
+>> **color【2.1】: ** 颜色属性，可以填的值为"success"、"danger"、"info"、"warning"、"primary"
 
 
 #### button标签的引入方式 :
