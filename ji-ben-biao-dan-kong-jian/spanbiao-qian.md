@@ -39,7 +39,7 @@
 
    <@span class="text-success" value="属性显示4"/>
    
-   <@span class="text-success" value="属性显示5"/>红色
+   <@span class="text-danger" value="属性显示5"/>红色
 ```
 
 #### span标签的显示结果 :
