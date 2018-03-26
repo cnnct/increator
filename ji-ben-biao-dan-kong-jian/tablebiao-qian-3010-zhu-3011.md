@@ -115,7 +115,8 @@
       color属性为颜色属性，可以填写的值为"success"、"danger"、"info"、"warning"、"primary"，默认为蓝色,auth_key为权限属性，匹配sys_func表中的url,
       dynswitch为动态切换自定义属性，其中还包含三个属性，分别为dynbind_field指定绑定字段，对应table标签中fields中的值，show_condition属性为指定显示按钮的情况，
       值为数组，如上"show_condition":["0","1"],指当在sys_code表中valuecode为“0”或“1”时显示，对应的还存在noshow_condition属性为不显示的情况，
-      show_condition和noshow_condition属性不能同时使用，同时存在时遵循show_condition属性
+      show_condition和noshow_condition属性不能同时使用，同时存在时遵循show_condition属性，
+      【2.1】版本后加入提示title属性，
   10. sort：支持排序功能的字段，默认除了id列和操作列外所有字段都支持
   11. img_fields【1.1】:支持缩略图功能，img_fields={"img_wrap":"img"},"img_wrap"为缩略图字段，"img"为原图字段,点击缩略图弹出原图
   12. id【1.2】:指定表格id，【1.2】以后页面支持多表格，若未指定id属性时，id默认值为"mytable"，因此在多表格并存时，只能有一个表格可以不指定id。
