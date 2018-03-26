@@ -70,6 +70,7 @@
                          "icon":"ext_assessedbadge",
                          "color":"success",
                          "auth_key":"brch_cust",
+                         "title":"提示"
                           "dynswitch":{"dynbind_field":"brch_state","show_condition":["0",“1”]}
                          }]
                 sort=["oper_id", "oper_name"]
