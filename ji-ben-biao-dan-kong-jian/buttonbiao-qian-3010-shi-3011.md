@@ -42,7 +42,7 @@
 #### button标签的引入方式 :
 
 ```
-   <@button id="bbs"  size="1" value="查询" icon="search" onclick="ss();"/>
+   <@button id="bbs"  size="1" value="查询" icon="search" onclick="ss();" title="提示"/>
 
    <@button id="dd"  size="1" value="删除" icon="remove"/>
 
