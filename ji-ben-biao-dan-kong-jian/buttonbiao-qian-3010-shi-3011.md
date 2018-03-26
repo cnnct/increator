@@ -34,7 +34,7 @@
 >>
 >> **color【2.1】: ** 颜色属性，可以填的值为"success"、"danger"、"info"、"warning"、"primary"
 >>
->> **title【2.0】: ** 颜色属性，可以填的值为"success"、"danger"、"info"、"warning"、"primary"
+>> **title【2.0】: ** 按钮提示
 
 
 
