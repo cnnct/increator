@@ -128,7 +128,7 @@ getCheckedNodesText(treeId);//js代码，返回字符串，以","分割
                                 alert("修改成功:"+obj.id+";"+obj.parentId+";"+obj.name);
                                 }
                                 /**
-                                *移动节点的方法，方法名为treeId+"OnMove",参数为对象object,
+                                *移动节点的方法，必要方法，方法名为treeId+"OnMove",参数为对象object,
                                 *含有属性treeNodeArray为对象数组,需要使用者返回后台修改对应的数据记录
                                 */
                                 function tree2OnMove(obj){
