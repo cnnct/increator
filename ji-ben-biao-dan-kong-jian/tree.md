@@ -159,7 +159,8 @@ getCheckedNodesText(treeId);//js代码，返回字符串，以","分割
                                 function tree2GetNavContext(obj){
                                 var context='<iframe src="' + '${base}/'+obj.url + '" width="100%" height="500px" frameborder="no" border="0" marginwidth="0" marginheight="0" scrolling="yes" allowtransparency="yes"></iframe>'
                                 $(".maincontent").html(context);
-                                }                           
+                                }  
+                                【2.1】版本后                         
                                 /**
                                 	 *复制节点的方法，必要方法，方法名为treeId+"BeforeCopy",参数为对象object,
                                 	 *含有属性parentId,id（被复制节点的id）需要使用者返回后台新增数据记录，返回必要参数id,name,url(对应该节点绑定跳转的url),resultCode(当值为0时，表示后台新增成功)
