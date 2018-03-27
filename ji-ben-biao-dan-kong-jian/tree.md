@@ -113,11 +113,12 @@ getCheckedNodesText(treeId);//js代码，返回字符串，以","分割
 		        cust_get_data_param="${base}"
                 />
 * 2.在edit_flag和nav_flag开启时需要实现的配套js方法：
+                                
                                 /**
-                                *删除节点前的方法，非必要方法，方法名为treeId+"BeforeRemove",参数为对象object,
+                                *【2.1】版本后加入删除节点前的方法，非必要方法，方法名为treeId+"BeforeRemove",参数为对象object,
                                 *含有属性id,parentId,name,需要返回标志位true(通过，继续执行)和false(阻止通过)
                                 */
-                                function tree2OnRemove(obj){
+                                function tree2BeforeRemove(obj){
                                 alert("删除成功:"+obj.id+";"+obj.parentId+";"+obj.name);
                                 }
                                 /**
