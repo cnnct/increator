@@ -121,7 +121,7 @@ getCheckedNodesText(treeId);//js代码，返回字符串，以","分割
                                 alert("删除成功:"+obj.id+";"+obj.parentId+";"+obj.name);
                                 }
                                 /**
-                                *修改节点名的方法，方法名为treeId+"OnRename",参数为对象object,
+                                *修改节点名的方法，必要方法，方法名为treeId+"OnRename",参数为对象object,
                                 *含有属性id,parentId,name,需要使用者返回后台修改对应的数据记录
                                 */
                                 function tree2OnRename(obj){
