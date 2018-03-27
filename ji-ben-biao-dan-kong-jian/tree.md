@@ -136,7 +136,7 @@ getCheckedNodesText(treeId);//js代码，返回字符串，以","分割
                                 //alert("移动成功:"+obj.id+";"+obj.parentId+";"+obj.name);
                                 }
                                 /**
-                                *移动节点的方法，方法名为treeId+"BeforeAdd",参数为对象object,
+                                *移动节点的方法，必要方法，方法名为treeId+"BeforeAdd",参数为对象object,
                                 *含有属性parentId,需要使用者返回后台新增数据记录，返回必要参数id,name,url(对应该节点绑定跳转的url),【2.1】版本后加入resultCode(当值为0时，表示后台新增成功)，新增时不可调用refreshTreeNodes(treeId)刷新节点方法
                                 */
                                 function tree2BeforeAdd(obj){
