@@ -8,7 +8,7 @@ table\_toolbar标签属性如下：table\_toolbar配合table标签使用，在ta
 
 >>   size【1.2】: size属性，在【1.2】版本后加入size属性
 
->>   page——change【1.2】: size属性，在【1.2】版本后加入size属性
+>>   page_change【2.1】: page_change属性为加载分页器属性
 
 
 
