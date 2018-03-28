@@ -133,7 +133,7 @@
   20. is_static【1.4】：设置是否为静态表格，静态表格为不与后台数据动态交互的表格，可以手动新增数据和删除数据，详细例子见如下小章节说明。
   21 data_auth【1.4】：用于加载表格时提供的json数据串，主要用于控制权限，规定json串格式，如
   data_auth="{operId:admin}"
-  22. default_page_length【1.4】：用于设置表格加载时默认每页的记录条数，不填默认为10条记录，如     default_page_length="20"
+  22. default_page_length【1.4】：用于设置表格加载时默认每页的记录条数，不填默认为10条记录，如     default_page_length="20"，【2.1】版本后以table_toolbar组件的分页器page_change为主，分页器存在时，该属性屏蔽
   23. fields_sec_open【1.6】：是否开启脱敏功能，如：fields_sec_open="true",默认false，为true时fields_sec属性功能才有效，注意【1.9】版本后总开关属性转为由后台配置文件para.propertity获取,属性名相同，
   ；另外该属性在前台标签中改为针对操作员是否开启脱敏功能，默认true脱敏功能开启，可以对一些操作员不显示脱敏
   24. fields_sec【1.6】：脱敏的规则数据，fields_sec=[{"name":"brch_name","sec_type":"name","other_rule":"left,1"}]，其中name属性指定需要脱敏的字段且必填，sec_type为指定默认脱敏类型且必填，可以填的值有：name（姓名），idCard（身份证），fixedPhone（固定电话），mobile（手机），email（邮件），bankCard（银行卡号），other_rule属性为其他规则脱敏，该属性会屏蔽默认的脱敏规则有两个值，第一个为位置，可以填left，center，right，第二个值为脱敏长度，将换成“*”
