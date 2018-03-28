@@ -23,6 +23,7 @@ table\_toolbar标签属性如下：table\_toolbar配合table标签使用，在ta
 			<@button  value="批量注销" onclick="activeAndCancel('cancel','mytable')" icon="remove-sign"  size="7"/>
 		</@table_toolbar>
 
+* 显示结果：
 
 
 
