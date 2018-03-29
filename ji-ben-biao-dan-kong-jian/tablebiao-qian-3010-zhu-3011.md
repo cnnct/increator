@@ -125,7 +125,7 @@
   14. paginate【1.2.3】：paginate属性为是否分页属性，默认为true（开启分页）
   15. load_data_init【1.2.3】：load_data_init属性为是否初始化加载数据开关属性，默认为true（首次进页面加载数据）,【1.4】版本后，支持传入的值为“true”，“false”，或指定查询条件的formId，当值为“true”或不填该属性时，默认不带查询条件初始化加载数据，为“false”时不加载数据，为formId时，会带查询条件加载数据,如load_data_init="queryForm"
   16. callback【1.2.3】：该属性为表格的附加回调方法，**在表格数据加载完后表格渲染前**，会调用指定的方法，如：callback="setPanelData"
-  ，注意：该方法必须在表格加载前被定义
+  ，**注意：该方法必须在表格加载前被定义**
   17. width【1.2.3】:该属性为表格的宽度属性，默认为100
   18. 表格若不需要id列，fields 中去掉 id 字段，同时后台 sql 也去掉 id 字段：如下
       fields="oper_id,oper_name,org_name,brch_name,oper_state,oper_level"
@@ -140,7 +140,7 @@
 ，在【1.8】版本后，表格的脱敏支持自定义六种脱敏类型的默认脱敏方法，具体内容见下面的自定义默认脱敏
   备注：存在id列的情况下，首字段 id 固定，mapper 中提供的 sql 语句必须提供 id 字段名（详细见后续 mapper 语句编写）
   25. drawCallback【2.1】：该属性为表格的附加回调方法，**在表格渲染后**，会调用指定的方法，如：drawCallback="setPanelData"
-，注意：该方法必须在表格加载前被定义
+，**注意：该方法必须在表格加载前被定义**
   ```
 * 表格数据显示例子如下图：  
   ![](/assets/table.png)![](/assets/table2.png)
