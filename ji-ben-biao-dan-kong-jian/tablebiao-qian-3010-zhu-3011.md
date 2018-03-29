@@ -103,7 +103,7 @@
   <!-- 所有提交的url地址的前缀都要加上 ${base}
   1. 表格控件必须的三个参数：url、thead、fields
   2. *url： 提交的后台地址 
-  3. *thead【1.2】： 表头显示的字段名（不包括第一列的id列），thead在【1.2】以后支持多级表头，每一列标题头支持3个属性，name属性指定列名，rowspan属性支持指定标题头占用的行数，默认值为1，colspan属性支持指定标题头占用的列数，默认值为1,【2.0】版本后有size属性，如果不填，默认自适应
+  3. *thead【1.2】： 表头显示的字段名（不包括第一列的id列），thead在【1.2】以后支持多级表头，每一列标题头支持3个属性，name属性指定列名，rowspan属性支持指定标题头占用的行数，默认值为1，colspan属性支持指定标题头占用的列数，默认值为1,【2.0】版本后有size属性，如果不填，默认自适应,【2.1版本】后支持position属性，支持left，center，right属性
   4. *fields：sql语句中显示的字段名，【1.4】版本后fields属性可以不填id项，如果不填id项则认为表格不需要首列勾选，则idtype属性无效，当id列存在时，idtype属性的单选框和复选框才有效
   5. translate：待转义的字段，格式为json格式![](/assets/table3.png)
   6. idtype：id列形式（单选框 radio、复选框 checkbox），默认复选框。
@@ -142,6 +142,7 @@
   25. draw_callback【2.1】：该属性为表格的附加回调方法，**在表格渲染后**，会调用指定的方法，如：draw_callback={"name":"setPanelData","params":{'test':'test'}},name时调用的方法名，params为方法的参数，必须为对象类型
 ，**注意：该方法必须在表格加载前被定义**
   ```
+  
 * 表格数据显示例子如下图：  
   ![](/assets/table.png)![](/assets/table2.png)
 * 表格多级表头和合并单元格示例图：
