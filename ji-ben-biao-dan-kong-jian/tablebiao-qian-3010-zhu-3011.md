@@ -44,7 +44,7 @@
                         {"name":"三级标题","colspan":"2"}
                     ],
                     [
-                        {"name":"编号"，"size":"2"},
+                        {"name":"编号"，"size":"2"，"position":"center"},
                         {"name":"名称", "size":"2"},
                         {"name":"机构","size":"2"},
                         {"name":"状态"},
