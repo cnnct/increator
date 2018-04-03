@@ -14,7 +14,7 @@
 >>
 > > **position: **按钮position属性,用于相对位置\(left：居左、center：居中、right：居右\),默认left
 >>
-> > **header_have【2.2】: **按钮position属性,用于相对位置\(left：居左、center：居中、right：居右\),默认left
+> > **header_have【2.2】: **header_have属性用来控制是否含有标题头，默认"true"
 >>
 > > **position: **按钮position属性,用于相对位置\(left：居左、center：居中、right：居右\),默认left
 
