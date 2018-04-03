@@ -13,7 +13,12 @@
 > > **title:** title属性为标题属性
 >>
 > > **position: **按钮position属性,用于相对位置\(left：居左、center：居中、right：居右\),默认left
+>>
+> > **header_have【2.2】: **按钮position属性,用于相对位置\(left：居左、center：居中、right：居右\),默认left
+>>
+> > **position: **按钮position属性,用于相对位置\(left：居左、center：居中、right：居右\),默认left
 
+header_have="true" style_type="classical"
 
 #### panel标签的引入方式 :
 
