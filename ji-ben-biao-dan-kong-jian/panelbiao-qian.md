@@ -16,7 +16,7 @@
 >>
 > > **header_have【2.2】: **header_have属性用来控制是否含有标题头，默认"true"
 >>
-> > **position: **按钮position属性,用于相对位置\(left：居左、center：居中、right：居右\),默认left
+> > **style_type【2.2】: **style_type属性是用来控制panel的风格样式，暂时提供"default"（默认样式），"classical"（经典样式）
 
 header_have="true" style_type="classical"
 
