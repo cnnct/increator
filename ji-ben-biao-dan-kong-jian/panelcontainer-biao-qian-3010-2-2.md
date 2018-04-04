@@ -2,9 +2,9 @@
 
 #### panel_container**标签的属性 :**
 
-> panel_container按钮组标签属性分别如下：
+> panel_container标签，主要用来布局card主页的panel面板，可以对多个panel面板进行布局，属性分别如下：
 
-> > **layout：** size为尺寸标签,可以填的数值范围为（1-12）,如size="6",button标签的默认size为1
+> > **layout：** 布局属性，该属性有内置属性：colspan(布局占用的列数，总共支持12列，默认1列)，rowspan(行属性，默认1行)
 >>
 
 
