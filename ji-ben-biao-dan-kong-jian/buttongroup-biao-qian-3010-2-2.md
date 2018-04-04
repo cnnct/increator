@@ -13,14 +13,14 @@
 
 
 
-#### button标签的引入方式 :
+#### button_group标签的引入方式 :
 
 ```
-   <@button id="bbs"  size="1" value="查询" icon="search" onclick="ss();" title="提示"/>
-
-   <@button id="dd"  size="1" value="删除" icon="remove" title="提示"/>
-
-   <@button id="rr"  size="1" value="重置" icon="repeat"/>
+   <@button_group size="2"
+	          group=[
+				    {"id":"btn1","value":"查询" ,"icon":"repeat","onclick":"doTest('123')","title":"提示","name":"btn1","auth_key":"btn1"},
+				    {"id":"btn2","value":"查询1" ,"icon":"repeat","onclick":"doTest('123')","title":"提示1","name":"btn2","auth_key":"btn2"}
+				]/>
 ```
 
 #### button标签的显示结果 :
