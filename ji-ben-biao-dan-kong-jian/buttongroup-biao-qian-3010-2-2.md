@@ -18,14 +18,14 @@
 ```
    <@button_group size="2"
 	          group=[
-				    {"id":"btn1","value":"查询" ,"icon":"repeat","onclick":"doTest('123')","title":"提示","name":"btn1","auth_key":"btn1"},
-				    {"id":"btn2","value":"查询1" ,"icon":"repeat","onclick":"doTest('123')","title":"提示1","name":"btn2","auth_key":"btn2"}
+				    {"id":"btn1","value":"查询" ,"icon":"search","onclick":"doTest('123')","title":"提示","name":"btn1","auth_key":"btn1"},
+				    {"id":"btn2","value":"查询1" ,"icon":"search","onclick":"doTest('123')","title":"提示1","name":"btn2","auth_key":"btn2"}
 				]/>
 ```
 
 #### button标签的显示结果 :
 
-![](/assets/button.png)
+![](/assets/button_group1.png)
 
 #### button图标使用，icon="xxxxxx"，值取样式表名称的“-”横线后的字符串，如下图所示
 
