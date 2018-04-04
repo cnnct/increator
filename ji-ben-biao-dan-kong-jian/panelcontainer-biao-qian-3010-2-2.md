@@ -13,23 +13,39 @@
 #### panel_container标签的引入方式 :
 
 ```
-   <@button_group size="2"
-	          group=[
-				    {"id":"btn1","value":"查询" ,"icon":"search","onclick":"doTest('123')","title":"提示","name":"btn1","auth_key":"btn1"},
-				    {"id":"btn2","value":"查询1" ,"icon":"search","onclick":"doTest('123')","title":"提示1","name":"btn2","auth_key":"btn2"}
-				]/>
+   <@panel_container layout=[
+									[
+										{"colspan":"5","rowspan":"2"},
+										{"colspan":"4","rowspan":"1"},
+										{"colspan":"3","rowspan":"1"}
+									],
+									[
+										{"colspan":"7","rowspan":"1"}
+									],
+									[
+										{"colspan":"12","rowspan":"1"}
+									]
+								]>
+								<@panel id="box1" title="标题1" position="left"  style_type="classical">
+													<@echarts 
+														id="echarts_post" 
+														size="6" 
+														option_url="${base}/demo/tag/echarts" 
+														position="left"
+														/>
+												</@panel>
+
+								<@panel id="box2" title="标题2" position="left" ></@panel>
+								<@panel id="box3" title="标题3" position="left" ></@panel>
+								<@panel id="box4" title="标题4" position="left" ></@panel>
+								<@panel id="box5" title="标题5" position="left" >
+
+								</@panel>
+
+							</@panel_container>
 ```
 
 #### button标签的显示结果 :
 
 ![](/assets/button_group1.png)
-
-#### button图标使用，icon="xxxxxx"，值取样式表名称的“-”横线后的字符串，如下图所示
-
-[http://v3.bootcss.com/components/](http://v3.bootcss.com/components/)
-* bootstrap默认图标
-![](/assets/icon-font03.png)
-* font-increator中的扩展图标，【2.0】版本后可用
-![](/assets/button1.png)
-![](/assets/button2.png)
 
