@@ -10,7 +10,7 @@
 
 
 
-#### button_group标签的引入方式 :
+#### panel_container标签的引入方式 :
 
 ```
    <@button_group size="2"
