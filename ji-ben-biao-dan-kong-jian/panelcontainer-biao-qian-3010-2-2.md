@@ -47,5 +47,5 @@
 
 #### panel_container标签的显示结果 :
 
-![](/assets/button_group1.png)
+![](/assets/panel_container.png)
 
