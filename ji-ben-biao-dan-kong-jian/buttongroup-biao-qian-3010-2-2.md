@@ -8,7 +8,7 @@
 >>
 > > **position: **按钮组的position属性,用于相对位置\(left：居左、center：居中、right：居右\)
 >>
->> ** group: ** 按钮组标签的按钮组数据，拥有属性：id,name,size,type,class,position,onclick,data_target,auth_key,color,icon,check_resubmit,title,value等,属性可以参照button标签
+>> ** group: ** 按钮组标签的按钮组数据，拥有属性：id,name,size,type,class,position,onclick,data_target,auth_key,color,icon,check_resubmit,title,value,style_type等,属性可以参照button标签
 
 
 
