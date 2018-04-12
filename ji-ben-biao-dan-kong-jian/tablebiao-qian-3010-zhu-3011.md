@@ -141,6 +141,7 @@
 ，在【1.8】版本后，表格的脱敏支持自定义六种脱敏类型的默认脱敏方法，具体内容见下面的自定义默认脱敏
   备注：存在id列的情况下，首字段 id 固定，mapper 中提供的 sql 语句必须提供 id 字段名（详细见后续 mapper 语句编写）
   25. draw_callback【2.1】：该属性为表格的附加回调方法，**在表格渲染后**，会调用指定的方法，如：draw_callback={"name":"setPanelData","params":{'test':'test'}},name时调用的方法名，params为方法的参数，必须为对象类型
+  25. dynhide_td_content【2.2】：该属性为表格的附加回调方法，**在表格渲染后**，会调用指定的方法，如：draw_callback={"name":"setPanelData","params":{'test':'test'}},name时调用的方法名，params为方法的参数，必须为对象类型
 ，**注意：该方法必须在表格加载前被定义**
   ```
   
