@@ -24,7 +24,7 @@
 #### panel标签的引入方式 :
 
 ```
-   <@panel id="testPanel" title="标题" position="center">
+   <@panel id="testPanel" title="标题" position="center" move_flag="true">
 	<@form id="view_form">
 	    <@form_group class="row">
 		<@span label="部门联系方式,,2"  value="15706796005"/>
