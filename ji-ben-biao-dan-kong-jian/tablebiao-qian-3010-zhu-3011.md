@@ -96,6 +96,8 @@
                       <#--other_rule为其他规则，不按照默认脱敏类型，自定义脱敏->
                       "other_rule":"left,1"
                  }
+                 <#--控制td内容的隐藏，默认开启，超过某一个length长度就会隐藏多余部分-->
+                 hide_beyond_content={"flag":"true","beyond_num":"5"}
                  editor_flag="true"
 		  editor_url="${base}/demo/tag/testTable"
              ]
