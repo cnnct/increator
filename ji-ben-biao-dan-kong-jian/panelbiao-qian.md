@@ -19,6 +19,7 @@
 > > **style_type【2.2】: **style_type属性是用来控制panel的风格样式，暂时提供"default"（默认样式），"classical"（经典样式）
 
 > > **icon【2.2】: **icon属性是用来控制panel的标题头的图标，默认没有图标，图标设置参考button标签
+> > **move_flag【2.2】: **icon属性是用来控制panel的标题头的图标，默认没有图标，图标设置参考button标签
 
 #### panel标签的引入方式 :
 
