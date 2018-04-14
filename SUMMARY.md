@@ -139,7 +139,7 @@
   * [银联](tong-yi-zhi-fu/yin-lian.md)
   * [翼支付](tong-yi-zhi-fu/yi-zhi-fu.md)
 * [工作流云平台整合开发](gong-zuo-liu-yun-ping-tai-zheng-he-kai-fa.md)
-* [流程图绘制规范](liu-cheng-tu-hui-zhi-gui-fan.md)
+  * [流程图绘制规范](liu-cheng-tu-hui-zhi-gui-fan.md)
 * [开发规范](kai-fa-gui-fan.md)
   * [开发环境](kai-fa-huan-jing.md)
   * [基本编码规范](kai-fa-gui-fan/ji-ben-bian-ma-gui-fan.md)
@@ -147,6 +147,11 @@
   * [font icon规范](kai-fa-gui-fan/qian-duan-kai-fa-gui-fan.md)
   * [单元测试](kai-fa-gui-fan/dan-yuan-ce-shi.md)
   * [开始coding啦...](kai-fa-gui-fan/hou-duan-kai-fa-gui-fan.md)
-* [工作流云平台整合开发](gong-zuo-liu-yun-ping-tai-zheng-he-kai-fa.md)
-* 工作流云平台介绍
+* [附录](https://github.com/cnnct/increator/blob/fdd4c9cd77ae428b9bd0f7d551ebf7cce6d48164/bei-zhu-zhu-yi.md)
+  * [lombok注解使用](https://github.com/cnnct/increator/blob/fdd4c9cd77ae428b9bd0f7d551ebf7cce6d48164/fu-lu/lombozzhu-jie-shi-yong.md)
+  * [gitbook使用注意事项【废弃】](https://github.com/cnnct/increator/blob/fdd4c9cd77ae428b9bd0f7d551ebf7cce6d48164/fu-lu/gitsvn.md)
+  * [mybatis乱码问题](https://github.com/cnnct/increator/blob/fdd4c9cd77ae428b9bd0f7d551ebf7cce6d48164/fu-lu/mybatisshu-ju-lian-jie-chuan-yin-qi-luan-ma-wen-ti.md)
+  * [gitbook和github结合](https://github.com/cnnct/increator/blob/fdd4c9cd77ae428b9bd0f7d551ebf7cce6d48164/fu-lu/gitbookhe-github-jie-he.md)
+
+
 
