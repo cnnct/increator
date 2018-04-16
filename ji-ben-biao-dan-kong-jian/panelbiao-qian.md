@@ -16,14 +16,16 @@
 >>
 > > **header_have【2.2】: **header_have属性用来控制是否含有标题头，默认"true"
 >>
-> > **style_type【2.2】: **style_type属性是用来控制panel的风格样式，暂时提供"default"（默认样式），"classical"（经典样式）
+> > **style_type【2.2】: **style_type属性是用来控制panel的风格样式，暂时提供"default"（默认样式），"classical"（经典样式）,"simple"(简约样式)
 
 > > **icon【2.2】: **icon属性是用来控制panel的标题头的图标，默认没有图标，图标设置参考button标签
+>>
+> > **move_flag【2.2】: **move_flag用来控制是否可以拖拽的功能，默认“true”
 
 #### panel标签的引入方式 :
 
 ```
-   <@panel id="testPanel" title="标题" position="center">
+   <@panel id="testPanel" title="标题" position="center" move_flag="true">
 	<@form id="view_form">
 	    <@form_group class="row">
 		<@span label="部门联系方式,,2"  value="15706796005"/>
