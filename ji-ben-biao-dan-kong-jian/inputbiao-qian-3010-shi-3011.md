@@ -25,6 +25,10 @@
 > > **readonly ：** readonly为只读属性,可以填写的数值为"true","false",默认为false
 > >
 > > **placeholder：** placeholder为input框内提示属性
+> >
+> > **placeholder：** placeholder为input框内提示属性
+
+
 
 
 
