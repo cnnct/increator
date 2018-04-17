@@ -8,7 +8,9 @@
 
 #### **query\_bar标签：**
 
-* query\_bar标签有1个属性为id；query\_bar配合table标签使用，类似于form标签
+* query\_bar标签有属性：id，icon【2.2】，title【2.2】，style_type【2.2】
+
+；query\_bar配合table标签使用，类似于form标签
 
 ```
     <@query_bar id="queryForm">
