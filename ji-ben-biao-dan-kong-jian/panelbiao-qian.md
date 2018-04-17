@@ -16,7 +16,7 @@
 >>
 > > **header_have【2.2】: **header_have属性用来控制是否含有标题头，默认"true"
 >>
-> > **style_type【2.2】: **style_type属性是用来控制panel的风格样式，暂时提供"default"（默认样式），"classical"（经典样式）,"simple"(简约样式)
+> > **style_type【2.2】: **style_type属性是用来控制panel的风格样式，暂时提供"default"（默认样式），"classical"（经典样式）,"simple"(简约样式)，“simple2”(简约样式2，头部无边框)
 
 > > **icon【2.2】: **icon属性是用来控制panel的标题头的图标，默认没有图标，图标设置参考button标签
 >>
