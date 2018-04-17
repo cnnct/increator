@@ -9,8 +9,11 @@
 #### **query\_bar标签：**
 
 * query\_bar标签有属性：id，icon【2.2】，title【2.2】，style_type【2.2】
+> > **style_type【2.2】: **style_type属性是用来控制query_bar的风格样式，暂时提供"default"（默认样式），"classical"（经典样式）,"simple"(简约样式)
+> > **icon【2.2】: **icon属性是用来控制panel的标题头的图标，默认没有图标，图标设置参考button标签
+>>
 
-；query\_bar配合table标签使用，类似于form标签
+query\_bar配合table标签使用，类似于form标签
 
 ```
     <@query_bar id="queryForm">
