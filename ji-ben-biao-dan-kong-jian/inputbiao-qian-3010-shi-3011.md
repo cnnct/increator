@@ -26,7 +26,8 @@
 > >
 > > **placeholder：** placeholder为input框内提示属性
 > >
-> > **placeholder：** placeholder为input框内提示属性
+> > **dyn_tooltip【2.2】：** dyn_tooltip属性为input框控制动态格式化提示的属性，如：
+dyn_tooltip={"flag":"true","type":"card","cust_type":"### ### ##"}，其中flag属性为开启该属性的开关，默认false，type为格式化类型(可以填的值为default，card,idcard,phone,tunion(交通部规范),chinaunion(住建部规范))
 
 
 
