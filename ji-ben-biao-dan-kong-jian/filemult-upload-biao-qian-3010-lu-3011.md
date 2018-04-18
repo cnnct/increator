@@ -22,7 +22,7 @@
 > >
 > > **orig\_upload\_batch**【2.2】**：**之前上传的文件批次号--用于编辑时，即附件表中的文件批次号
 > >
-> > **use\_opt**【2.2】**：**是否启用操作按钮--页面上的旋转和删除
+> > **use\_opt**【2.2】**：**是否启用操作按钮--页面上的旋转和删除，注：如果值为true，则后台上传方法必须使用新版，即返回Map&lt;String, Object&gt;的那两个上传方法，同时业务controller中必须返回上传文件返回页面的ResultData中必须put进去fileId，此fileId从上传方法返回的Map&lt;String, Object&gt;中取出，示例请看TagDemoCtrl中的代码。
 
 #### file\_mult\_upload标签的引入方式 :
 
