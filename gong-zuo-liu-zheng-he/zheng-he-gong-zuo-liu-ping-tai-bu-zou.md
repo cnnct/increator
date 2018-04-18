@@ -86,7 +86,7 @@
 }
 ```
 
-##### 3、基于新框架的平台调用工作流云平台示例
+##### 3、基于新框架的业务平台调用工作流云平台示例
 
 ```
 /** 
@@ -96,6 +96,7 @@ JSONObject caller = new JSONObject();
 //公共参数
 caller.put("trcode", "R001");
 caller.put("sign", "xxx");
+//系统编号，此编号为业务平台与工作流云平台共同设定
 caller.put("syscode", "union");
 caller.put("key", "xxx");
 //R001接口特定参数
