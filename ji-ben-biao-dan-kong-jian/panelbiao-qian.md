@@ -21,7 +21,9 @@
 > > **icon【2.2】: **icon属性是用来控制panel的标题头的图标，默认没有图标，图标设置参考button标签
 >>
 > > **move_flag【2.2】: **move_flag用来控制是否可以拖拽的功能，默认“true”
+
 >> **def_tools【2.2】:** 属性用于控制右侧工具是否需要，可填值reload，collapse，fullscreen，collapse一定会加载，如def_tools=["reload","collapse","fullscreen"]
+
 >> ** cust_tools【2.2】：** cust_tools属性用于自定义右侧tools，有属性icon图标和onclick绑定的方法，如：cust_tools=[{"icon":"search","onclick":"doTest()"},{"icon":"search","onclick":"doTest()"}
 #### panel标签的引入方式 :
 
