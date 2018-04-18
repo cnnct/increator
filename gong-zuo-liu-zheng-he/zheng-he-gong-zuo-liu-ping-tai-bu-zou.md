@@ -86,5 +86,30 @@
 }
 ```
 
+##### 3、基于新框架平台调用工作流云平台示例
+
+```
+// 启动流程
+JSONObject caller = new JSONObject();
+//公共参数
+caller.put("trcode", "R001");
+caller.put("sign", "xxx");
+caller.put("syscode", "union");
+caller.put("key", "xxx");
+//R001接口特定参数
+caller.put("user_id", "lucg");
+caller.put("process_key", "TRIP-SkillOrdLiwf");
+caller.put("business_key", "1");
+JSONArray variables = new JSONArray();
+JSONObject obj = new JSONObject();
+obj.put("branch_id","10011009");
+variables.add(obj);
+caller.put("variables", variables);
+//设置地址
+FastJsonClient.setJSONSERVERURL("http://soeasycn.com/icwf/interf/workflow/R/R001");
+//调用接口并返回参数
+String returnStr = Tools.processNull(FastJsonClient.doPost(caller));
+```
+
 
 
