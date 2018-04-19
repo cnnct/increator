@@ -8,11 +8,11 @@
 
 #### **query\_bar标签：**
 
-* query\_bar标签有属性：id，icon【2.2】，title【2.2】，style_type【2.2】
-> > **style_type【2.2】: **style_type属性是用来控制query_bar的风格样式，暂时提供"default"（默认样式），"classical"（经典样式）,"simple"(简约样式)
-> > **icon【2.2】: **icon属性是用来控制query_bar的标题头的图标，默认没有图标，图标设置参考button标签
->>
-> > **title【2.2】:** title属性为标题属性
+* query\_bar标签有属性：id，icon【2.2】，title【2.2】，style\_type【2.2】
+  > > **style\_type【2.2】: **style\_type属性是用来控制query\_bar的风格样式，暂时提供"default"（默认样式），"classical"（经典样式）,"simple"\(简约样式\)  
+  > > **icon【2.2】: **icon属性是用来控制query\_bar的标题头的图标，默认没有图标，图标设置参考button标签
+  > >
+  > > **title【2.2】:** title属性为标题属性
 
 query\_bar配合table标签使用，类似于form标签
 
@@ -144,15 +144,15 @@ query\_bar配合table标签使用，类似于form标签
   23. fields_sec_open【1.6】：是否开启脱敏功能，如：fields_sec_open="true",默认false，为true时fields_sec属性功能才有效，注意【1.9】版本后总开关属性转为由后台配置文件para.propertity获取,属性名相同，
   ；另外该属性在前台标签中改为针对操作员是否开启脱敏功能，默认true脱敏功能开启，可以对一些操作员不显示脱敏
   24. fields_sec【1.6】：脱敏的规则数据，fields_sec=[{"name":"brch_name","sec_type":"name","other_rule":"left,1"}]，其中name属性指定需要脱敏的字段且必填，sec_type为指定默认脱敏类型且必填，可以填的值有：name（姓名），idCard（身份证），fixedPhone（固定电话），mobile（手机），email（邮件），bankCard（银行卡号），other_rule属性为其他规则脱敏，该属性会屏蔽默认的脱敏规则有两个值，第一个为位置，可以填left，center，right，第二个值为脱敏长度，将换成“*”
-，在【1.8】版本后，表格的脱敏支持自定义六种脱敏类型的默认脱敏方法，具体内容见下面的自定义默认脱敏
+  ，在【1.8】版本后，表格的脱敏支持自定义六种脱敏类型的默认脱敏方法，具体内容见下面的自定义默认脱敏
   备注：存在id列的情况下，首字段 id 固定，mapper 中提供的 sql 语句必须提供 id 字段名（详细见后续 mapper 语句编写）
   25. draw_callback【2.1】：该属性为表格的附加回调方法，**在表格渲染后**，会调用指定的方法，如：draw_callback={"name":"setPanelData","params":{'test':'test'}},name时调用的方法名，params为方法的参数，必须为对象类型
   26. hide_beyond_content【2.2】：该属性为表格控制隐藏td中多余的内容，将多余的内容转成省略号，鼠标移到上面会显示具体内容，含有属性如hide_beyond_content={"flag":"true","beyond_num":"5"}，flag属性为开关，默认为“false”，beyond_num为控制的length长度，默认为“5”，**注意**hide_beyond_content属性处理会在脱敏功能处理以后执行
-，**注意：该方法必须在表格加载前被定义**
+  ，**注意：该方法必须在表格加载前被定义**
   ```
-  
 * 表格数据显示例子如下图：  
   ![](/assets/table.png)![](/assets/table2.png)
+
 * 表格多级表头和合并单元格示例图：
   ![](/assets/table3.png)
 * 获取表格相关数据：
@@ -205,9 +205,12 @@ query\_bar配合table标签使用，类似于form标签
   ![](/assets/table10.png)  
   **注意**：加载静态的表格需要is\_static,fields,id,thead等**必要**属性，使用静态表格后url,translate,load\_data\_init,callback等属性不可使用，详细代码见全量包，静态表格支持首列是否有勾选列，也支持单选，复选
 
-* 自定义默认脱敏方法：
-1.需要配置table_default_sensitive_custom_class参数：
-![](/assets/table12.png)
-2.自定义方法：
-![](/assets/table13.png)
-注意：只加载获取方法名为chineseName（脱敏姓名），idCardNum（脱敏身份证），fixedPhone（固定电话），mobilePhone（手机），email（邮箱），bankCard（银行卡号）的方法
+* 自定义默认脱敏方法：  
+  1.需要配置table\_default\_sensitive\_custom\_class参数：  
+  ![](/assets/table12.png)  
+  2.自定义方法：  
+  ![](/assets/table13.png)  
+  注意：只加载获取方法名为chineseName（脱敏姓名），idCardNum（脱敏身份证），fixedPhone（固定电话），mobilePhone（手机），email（邮箱），bankCard（银行卡号）的方法
+
+
+
