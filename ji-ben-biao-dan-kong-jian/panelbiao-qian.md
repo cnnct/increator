@@ -27,7 +27,7 @@
 >> **def_tools【2.2】:** 属性用于控制右侧工具是否需要，可填值reload，collapse，fullscreen，collapse一定会加载，如def_tools=["reload","collapse","fullscreen"]
 
 >> ** cust_tools【2.2】：** cust_tools属性用于自定义右侧tools，有属性icon图标和onclick绑定的方法，如：cust_tools=[{"icon":"search","onclick":"doTest()"},{"icon":"search","onclick":"doTest()"}
-#### panel标签的引入方式 :
+
 >> ** padding【2.2】：** padding属性用于控制panel的间距，可填值none，small，large或不填，默认none（无边距处理）如：padding="small,large,large,small"，padding="small,large,,small"padding="small,large,large"，对应的位置分别为上右下左
 #### panel标签的引入方式 :
 
