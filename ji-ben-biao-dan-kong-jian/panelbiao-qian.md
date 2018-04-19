@@ -43,7 +43,7 @@
 
 ![](/assets/panel1.png)
 #### 【2.2】后显示效果：
-![](/assets/panel2.png)
+
 
 
 
