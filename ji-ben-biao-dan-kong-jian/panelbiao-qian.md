@@ -44,7 +44,7 @@
 ![](/assets/panel1.png)
 
 #### panel标签【2.2】版本后显示结果 :
-
+![](/assets/panel2.png)
 
 
 
