@@ -119,7 +119,7 @@
 * [微信公众号开发](kuang-jia-she-zhi/wei-xin-kai-fa.md)
   * [授权](kuang-jia-she-zhi/wei-xin-kai-fa/shou-quan.md)
   * [分享](kuang-jia-she-zhi/wei-xin-kai-fa/fen-xiang.md)
-  * [支付](kuang-jia-she-zhi/wei-xin-kai-fa/zhi-fu.md)
+  * [支付【2.2】](kuang-jia-she-zhi/wei-xin-kai-fa/zhi-fu.md)
 * [统一支付接口](tong-yi-zhi-fu.md)
   * [支付宝](tong-yi-zhi-fu/zhi-fu-bao.md)
     * [接口类名](tong-yi-zhi-fu/zhi-fu-bao/jie-kou-lei-ming.md)
