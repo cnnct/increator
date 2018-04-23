@@ -25,7 +25,7 @@
 
 
 > > **\* tabs 【2.3】：**在【2.3】版本后tabs属性引入将替代tab_content_ids和tab_content_titles属性
-引入方式如：tabs=[{"id":"home","title":"home2","icon":"user","color":"success","position":"right"},{"id":"profile","title":"profile2","icon":"search","color":"success"}]，
+引入方式如：tabs=[{"id":"home","title":"home2","icon":"user","color":"success","icon_position":"right"},{"id":"profile","title":"profile2","icon":"search","color":"success"}]，
 其中 id为tab项的 id，title为标题名，icon为 tab的图标，color为图标的颜色，icon_position为图标的位置
 
 
