@@ -214,7 +214,8 @@ query\_bar配合table标签使用，类似于form标签
   ![](/assets/table13.png)  
   注意：只加载获取方法名为chineseName（脱敏姓名），idCardNum（脱敏身份证），fixedPhone（固定电话），mobilePhone（手机），email（邮箱），bankCard（银行卡号）的方法
 
-* 表格组件脱敏支持后台表数据配置脱敏：
-
+* 表格组件脱敏支持后台表数据配置脱敏【2.2】：
+ 1. 后台配置脱敏的对应的表为
+ 
 
 
