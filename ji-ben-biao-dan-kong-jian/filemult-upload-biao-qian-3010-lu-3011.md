@@ -69,7 +69,19 @@ public Object uploadMultFile (@RequestParam("test_upload_name2") MultipartFile[]
 
 然后通过BaseCtrl中的公共上传文件方法上传，详细可见com.cnnct.module.demo.TagDemoCtrl中的uploadMultFile方法。
 
+然后包含多文件上传标签的表单提交后，后台获取上传文件批次号的代码如下：
 
+```
+@RequestParam("demo_val") String demo
+
+// 上传文件批次号
+String uploadBatch = null;
+if (demo!= null && !"".equals(demo)) {
+    JSONObject obj = JSONObject.parseObject(demo);
+    // 这个对应sys_attachment表中UPLOAD_BATCH字段的值,可以用这个查出文件信息
+    uploadBatch = obj.getString("fileKey");
+}
+```
 
 
 
