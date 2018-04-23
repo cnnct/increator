@@ -79,4 +79,4 @@
 ![](/assets/tab.png)
 
 #### 【2.3】版本后显示效果图：
-
+![](/assets/tab1.png)
