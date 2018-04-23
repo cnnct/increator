@@ -67,14 +67,9 @@ public Object uploadMultFile (@RequestParam("test_upload_name2") MultipartFile[]
 
 4、此uuid为同一批file\_mult\_upload标签上传的文件唯一标识\(包括继续添加后的上传\)，默认将uuid作为在FTP上创建的存放同一批上传文件的文件夹名，也可以将此uuid存入数据库作为同一批文件的标识。
 
-然后通过如下代码上传：\(注：uploadFile方法为BaseCtrl中的公共上传文件方法\)
+然后通过BaseCtrl中的公共上传文件方法上传，详细可见com.cnnct.module.demo.TagDemoCtrl中的uploadMultFile方法。
 
-```
-List<String> list = uploadFile(files, uuid);//上传文件并获取已上传文件全路径名的集合
-if (list.size() == files.length && list.size() > 0) {//判断文件是否全部上传成功
-    可以在此处将文件全路径名保存到数据库
-}
-```
+
 
 
 
