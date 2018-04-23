@@ -205,12 +205,16 @@ query\_bar配合table标签使用，类似于form标签
   ![](/assets/table10.png)  
   **注意**：加载静态的表格需要is\_static,fields,id,thead等**必要**属性，使用静态表格后url,translate,load\_data\_init,callback等属性不可使用，详细代码见全量包，静态表格支持首列是否有勾选列，也支持单选，复选
 
+
+
 * 自定义默认脱敏方法：  
   1.需要配置table\_default\_sensitive\_custom\_class参数：  
   ![](/assets/table12.png)  
   2.自定义方法：  
   ![](/assets/table13.png)  
   注意：只加载获取方法名为chineseName（脱敏姓名），idCardNum（脱敏身份证），fixedPhone（固定电话），mobilePhone（手机），email（邮箱），bankCard（银行卡号）的方法
+
+* 表格组件脱敏支持后台表数据配置脱敏：
 
 
 
