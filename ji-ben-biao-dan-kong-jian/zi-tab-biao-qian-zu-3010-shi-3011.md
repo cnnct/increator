@@ -20,11 +20,13 @@
 > >
 > > ** tab\_content\_titles ：** tab\_content\_titles属性是child\_tab标签记录包含tab页的title值
 > >
-> > 如title="home2,profile2,dropdown12,ddd3"；包含多少tab页，就填写几个title值，注意分隔符
+> > 如title="home2,profile2,dropdown12,ddd3"；包含多少tab页，就填写几个title值，注意分隔符，【2.3】
+版本后该属性取消，全部由tabs属性来加载
 
-> > **\* tabs ：** tab\_content\_titles属性是child\_tab标签记录包含tab页的title值
-> >
-> > 如title="home2,profile2,dropdown12,ddd3"；包含多少tab页，就填写几个title值，注意分隔符
+
+> > **\* tabs 【2.3】：**在【2.3】版本后tabs属性引入将替代tab_content_ids和tab_content_titles属性
+引入方式如：tabs=[{"id":"home","title":"home2","icon":"user","color":"success","position":"right"},{"id":"profile","title":"profile2","icon":"search","color":"success"}]，
+其中 
 
 
 #### child\_tab\_content**标签的属性 :**
