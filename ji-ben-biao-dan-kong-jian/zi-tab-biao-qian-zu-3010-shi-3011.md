@@ -22,6 +22,11 @@
 > >
 > > 如title="home2,profile2,dropdown12,ddd3"；包含多少tab页，就填写几个title值，注意分隔符
 
+> > **\* tab\_content\_titles ：** tab\_content\_titles属性是child\_tab标签记录包含tab页的title值
+> >
+> > 如title="home2,profile2,dropdown12,ddd3"；包含多少tab页，就填写几个title值，注意分隔符
+
+
 #### child\_tab\_content**标签的属性 :**
 
 > child\_tab\_content标签有3个属性分别为为id、name、active；
