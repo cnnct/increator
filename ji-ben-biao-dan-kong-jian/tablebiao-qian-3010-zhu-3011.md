@@ -153,8 +153,9 @@ query\_bar配合table标签使用，类似于form标签
 * 表格数据显示例子如下图：  
   ![](/assets/table.png)![](/assets/table2.png)
 
-* 表格多级表头和合并单元格示例图：
+* 表格多级表头和合并单元格示例图：  
   ![](/assets/table3.png)
+
 * 获取表格相关数据：
 * ```js
   getTable(tableId);//获取表格对象
@@ -205,8 +206,6 @@ query\_bar配合table标签使用，类似于form标签
   ![](/assets/table10.png)  
   **注意**：加载静态的表格需要is\_static,fields,id,thead等**必要**属性，使用静态表格后url,translate,load\_data\_init,callback等属性不可使用，详细代码见全量包，静态表格支持首列是否有勾选列，也支持单选，复选
 
-
-
 * 自定义默认脱敏方法：  
   1.需要配置table\_default\_sensitive\_custom\_class参数：  
   ![](/assets/table12.png)  
@@ -214,9 +213,11 @@ query\_bar配合table标签使用，类似于form标签
   ![](/assets/table13.png)  
   注意：只加载获取方法名为chineseName（脱敏姓名），idCardNum（脱敏身份证），fixedPhone（固定电话），mobilePhone（手机），email（邮箱），bankCard（银行卡号）的方法
 
-* 表格组件脱敏支持后台表数据配置脱敏【2.2】：
- 1. 后台配置脱敏的对应的表为sys_data_des：
-     ![](/assets/table14.png)
- 2. 后台需要支持脱敏功能，在进入页面的时候，后台需要加入一句如下语句：
-注意：上面表中加入数据的规则和表格中的fields_sec属性中的数据形式一致，且脱敏的优先级为前台脱敏>后台脱敏，即如果前台已经对该字段进行脱敏，后台对相同字段的脱敏将失效，如前后台都对brch_name字段脱敏，则前台的脱敏规则生效，后台的脱敏规则失效
+* 表格组件脱敏支持后台表数据配置脱敏【2.2】：  
+  1. 后台配置脱敏的对应的表为sys\_data\_des：  
+     ![](/assets/table14.png)  
+  2. 后台需要支持脱敏功能，在进入页面的时候，后台需要加入一句如下语句：  
+  注意：上面表中加入数据的规则和表格中的fields\_sec属性中的数据形式一致，且脱敏的优先级为前台脱敏&gt;后台脱敏，即如果前台已经对该字段进行脱敏，后台对相同字段的脱敏将失效，如前后台都对brch\_name字段脱敏，则前台的脱敏规则生效，后台的脱敏规则失效
+
+
 
