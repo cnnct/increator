@@ -2,7 +2,7 @@
 
 #### label**标签的属性 :**
 
-> label标签有3个属性分别为为size、name、must\_star
+> label标签属性分别为：
 >
 > > **size ：** size为尺寸标签,可以填的数值范围为（1-12）,如size="6",label标签的默认size为1
 > >
