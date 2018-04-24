@@ -10,24 +10,24 @@
 > >
 > > **size ：** size为尺寸标签,可以填的数值范围为（1-12）,如size="6",date\_time标签的默认size为12
 
-#### date\_time标签的引入方式 :
+#### hr标签的引入方式 :
 
 ```
-			<div class="row">单实线</div>
-			<@hr />
-			<div class="row">单虚线</div>
-			<@hr type="dashed"/>
-			<div class="row">双实线</div>
-			<@hr type="doubleLine"/>
-			<div class="row">双虚线</div>
-			<@hr type="doubleDashed"/>
-			<div class="row">上实下虚线</div>
-			<@hr type="doubleLineTd"/>
-			<div class="row">上虚下实线</div>
-			<@hr type="doubleLineBd"/>
+            <div class="row">单实线</div>
+            <@hr />
+            <div class="row">单虚线</div>
+            <@hr type="dashed"/>
+            <div class="row">双实线</div>
+            <@hr type="doubleLine"/>
+            <div class="row">双虚线</div>
+            <@hr type="doubleDashed"/>
+            <div class="row">上实下虚线</div>
+            <@hr type="doubleLineTd"/>
+            <div class="row">上虚下实线</div>
+            <@hr type="doubleLineBd"/>
 ```
 
-#### date\_time标签显示效果图 :
+#### hr标签显示效果图 :
 
 ![](/assets/hr.png)
 
