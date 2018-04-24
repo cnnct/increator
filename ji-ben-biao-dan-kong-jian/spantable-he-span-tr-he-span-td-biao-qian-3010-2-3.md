@@ -45,8 +45,6 @@
         </@span_table>
 ```
 
-
-
 #### step和step\_element标签显示效果图 :
 
 ![](/assets/span_table.png)
