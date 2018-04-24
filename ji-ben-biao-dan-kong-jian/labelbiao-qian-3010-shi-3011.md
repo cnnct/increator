@@ -10,7 +10,7 @@
 > >
 > > **must\_star ：** must\_star 属性为是否加必填标志“\*”，可以填写的值为“true”，“false”，默认为false
 > >
->> ** cust_style:**cust_style={"icon":"search","color":"success","cust_size":"lg","style":[{"position_site":"left","arrowed":"left"}]}
+>> ** cust_style : **cust_style={"icon":"search","color":"success","cust_size":"lg","style":[{"position_site":"left","arrowed":"left"}]}
 #### 
 
 
