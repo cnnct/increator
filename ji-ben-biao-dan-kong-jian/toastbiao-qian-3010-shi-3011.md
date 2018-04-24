@@ -9,7 +9,8 @@
 ```
   <@toast delay_time="5000"/>
 
-  Toast.show('Custom class alert shown');//js代码
+  Toast.show('Custom class alert shown',color);//js代码
+  其中color可填的值为danger，info，warning，default，success，默认info
 ```
 
 #### toast标签的显示结果 :
