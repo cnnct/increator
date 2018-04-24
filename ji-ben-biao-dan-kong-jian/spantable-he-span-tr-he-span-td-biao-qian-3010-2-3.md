@@ -33,40 +33,21 @@
 #### step和step\_element标签的引入方式 :
 
 ```
-    <@step title="步骤表单示例" id="add_step" form_id="add_form" count="3">
-        <@step_element step="1">
-            <@input label="名称,true,2" name="roleDesc" type="text" size="4" />
-        </@step_element>
-        <@step_element step="2">
-            <@code_select label="机构,true,2" id="orgId"  name="orgId" code_type="org_id" size="4" choice_have="true" />
-        </@step_element>
-        <@step_element step="3">
-            <@text_area label="备注信息,false,2" id="remarks" name="remarks" size="10" />
-        </@step_element>
-    </@step>
+        <@span_table label_color="true">
+            <@span_tr>
+                <@span_td type="label">姓名</@span_td>
+                <@span_td type="value">张三</@span_td>
+            </@span_tr>
+            <@span_tr>
+                <@span_td type="label">姓名</@span_td>
+                <@span_td type="value">张三</@span_td>
+            </@span_tr>
+        </@span_table>
 ```
 
-```
-// 点击上一步、下一步、完成时
-$(function() {
-    $('#add_step').ace_wizard()
-    .on('actionclicked.fu.wizard' , function(e, info){ // 点击上一步和下一步时
-        if (info.step == 2) {
-            if ("previous" == info.direction) {
-                //上一步
-            }
-            if ("next" == info.direction) {
-                //下一步
-            }
-        }
-    })
-    .on('finished.fu.wizard', function(e) { // 点击完成时
-        //dosomthing...接交表单等
-    });
-})
-```
+
 
 #### step和step\_element标签显示效果图 :
 
-![](/assets/step.png)
+![](/assets/span_table.png)
 
