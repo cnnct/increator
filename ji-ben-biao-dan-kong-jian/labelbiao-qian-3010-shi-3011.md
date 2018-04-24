@@ -19,5 +19,5 @@
 	</@label>
 #### 【2.3】版本后自定义样式显示风格：
 
-![](/assets/label1.png)
+![](/assets/label2.png)
 
