@@ -9,7 +9,7 @@ table\_toolbar标签属性如下：table\_toolbar配合table标签使用，在ta
 >>   size【1.2】: size属性，在【1.2】版本后加入size属性
 
 >>   page_change【2.1】: page_change属性为加载分页选择器属性，有lable属性和default_val属性，
->>   引入方式如：page_change={"label":"每页显示","default_val":"20" }，default默认10
+>>   引入方式如：page_change={"label":"每页显示","default_val":"20" }，default默认10，【2.3】版本后label属性失效
 
 * 标签引入方式：
 		<@table_toolbar name="查询结果" size="2" page_change={"label":"每页显示","default_val":"20" }>
