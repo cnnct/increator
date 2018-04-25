@@ -8,17 +8,19 @@
 >
 > **其中必填项加上了\*号，如下所示 :**
 >
-> > \***id ：** id属性
+> > \***id：**id属性
 > >
-> > **modal\_title ：** 标题
+> > **modal\_title：**标题
 > >
-> > **drag：** 是否可拖动，默认不可拖动
+> > **drag：**是否可拖动，默认不可拖动
 > >
-> > **class：** 样式\(不填：中等模态框;modal-lg：大模态框;modal-sm：小模态框\)
+> > **class：**样式\(不填：中等模态框;modal-lg：大模态框;modal-sm：小模态框\)
 > >
-> > **report\_window**【1.2】：true/flase，默认为false，用于区别报表窗口（ireport）和普通页面。
+> > **report\_window**【1.2】**：**true/flase，默认为false，用于区别报表窗口（ireport）和普通页面。
 > >
-> > **is\_full\_screen:** 为打开时是否全屏的属性，默认“false”,可填值"true","false"
+> > **is\_full\_screen：**为打开时是否全屏的属性，默认“false”,可填值"true","false"
+> >
+> > **foot\_content\_position【2.3】：**模态框脚中内容的位置\(默认right\)：left\(左\)、right\(右\)、center\(居中\)
 
 #### modal\_iframe标签的引入方式 :
 
