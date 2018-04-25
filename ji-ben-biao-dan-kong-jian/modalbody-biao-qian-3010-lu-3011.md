@@ -8,15 +8,17 @@
 >
 > **其中必填项加上了\*号，如下所示 :**
 >
-> > \***id ：** id属性
+> > \***id ：**id属性
 > >
-> > **modal\_title ：** 标题
+> > **modal\_title ：**标题
 > >
-> > **drag：** 是否可拖动，默认不可拖动
+> > **drag：**是否可拖动，默认不可拖动
 > >
-> > **class：** 样式\(不填：中等模态框;modal-lg：大模态框;modal-sm：小模态框\)
->>
-> > **is_full_screen:** 为打开时是否全屏的属性，默认“false”,可填值"true","false"
+> > **class：**样式\(不填：中等模态框;modal-lg：大模态框;modal-sm：小模态框\)
+> >
+> > **is\_full\_screen：**为打开时是否全屏的属性，默认“false”,可填值"true","false"
+> >
+> > **foot\_content\_position：**模态框脚中内容的位置\(默认right\)：left\(左\)、right\(右\)、center\(居中\)
 
 #### modal\_body和modal\_foot标签的引入方式 :
 
