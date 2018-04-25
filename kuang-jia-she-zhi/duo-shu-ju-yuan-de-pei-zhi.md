@@ -293,5 +293,17 @@ public interface SysRoleMapper {
 private SysRoleMapper sysRoleMapperOracle;
 ```
 
+#### 3.由于oralce中number类型长度的变化，导致生成的实体类的类型变化问题
+
+可以通过修改generatorConfig.xml中的如下配置固定类型：
+
+```
+<!-- 默认false，根据数据库中字段类型长度把JDBC DECIMAL 和 NUMERIC 类型解析为对应的类型；为 true时把JDBC DECIMAL 和
+	NUMERIC 类型解析为java.math.BigDecimal -->
+<javaTypeResolver>
+	<property name="forceBigDecimals" value="false" />
+</javaTypeResolver>
+```
+
 
 
