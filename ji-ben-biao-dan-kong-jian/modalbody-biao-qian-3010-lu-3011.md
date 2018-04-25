@@ -18,7 +18,7 @@
 > >
 > > **is\_full\_screen：**为打开时是否全屏的属性，默认“false”,可填值"true","false"
 > >
-> > **foot\_content\_position【2.3】：**模态框脚中内容的位置\(默认right\)：left\(左\)、right\(右\)、center\(居中\)，如果为center，那么模态框脚中内容的一些属性可能会失效，比如button的size、position。
+> > **foot\_content\_position【2.3】：**模态框脚中内容的位置\(默认right\)：left\(左\)、right\(右\)、center\(居中\)，如果为center，那么模态框脚中标签的一些属性可能会失效，比如button的size、position。
 
 #### modal\_body和modal\_foot标签的引入方式 :
 
