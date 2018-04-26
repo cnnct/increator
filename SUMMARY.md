@@ -77,7 +77,7 @@
   * [模态弹框](ying-yong-gong-ju-fang-fa-diao-yong-3010-shi-3001-lu-3011/mo-tai-dan-kuang-3010-shi-3011.md)
   * [form表单验证【1.3】](ying-yong-gong-ju-fang-fa-diao-yong-3010-shi-3001-lu-3011/formbiao-dan-yan-zheng-3010-1-3.md)
   * [JS定时器的清除](ying-yong-gong-ju-fang-fa-diao-yong-3010-shi-3001-lu-3011/jsding-shi-qi-de-qing-chu.md)
-  * [addTabs方法](ying-yong-gong-ju-fang-fa-diao-yong-3010-shi-3001-lu-3011/addtabsfang-fa.md)
+  * [openNewMenuTab方法](ying-yong-gong-ju-fang-fa-diao-yong-3010-shi-3001-lu-3011/addtabsfang-fa.md)
 * [后端框架使用](kuang-jia-she-zhi.md)
   * [spring配置及事务](kuang-jia-she-zhi/springpei-zhi-ji-shi-wu.md)
   * [springmvc配置](kuang-jia-she-zhi/springmvcpei-zhi.md)
