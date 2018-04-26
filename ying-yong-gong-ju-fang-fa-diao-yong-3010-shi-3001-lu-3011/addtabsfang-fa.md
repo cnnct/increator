@@ -1,4 +1,4 @@
-# addTabs方法
+# openNewMenuTab方法
 
 js方法addTabs\(options\)由于用在首页，所以之前子页面调用时比较麻烦，且传参到后台很麻烦，所以封装了一个addTabs方法，在init\_page加载过的页面都可直接调用。
 
