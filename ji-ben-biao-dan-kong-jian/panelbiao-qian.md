@@ -30,7 +30,9 @@
 
 >> ** padding【2.2】：** padding属性用于控制panel的间距，可填值none，small，large或不填，默认none（无边距处理）如：padding="small,large,large,small"，padding="small,large,,small"padding="small,large,large"，对应的位置分别为上右下左
 
+>> ** background【2.3】：** background属性支持内容的背景定义，可填值success，danger,warning,default,info参照button组件的颜色，该功能在classical风格下存在，如background="success"
 >> ** background【2.3】：** background属性支持内容的背景定义，可填值success，danger,warning,default,info参照button组件的颜色，该功能在classical风格下存在
+
 
 #### panel标签的引入方式 :
 
