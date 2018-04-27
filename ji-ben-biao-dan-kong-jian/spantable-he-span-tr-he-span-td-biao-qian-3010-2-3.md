@@ -26,7 +26,7 @@
 >
 > **其中必填项加上了\*号，如下所示 :**
 >
-> > **size ：** size为尺寸标签,可以填的数值范围为（1-12）,如size="6",当type为label时，默认size为2，当type为value时，默认为10
+> > **size ：** size为尺寸标签,可以填的数值范围为（1-12）,如size="6",当type为label时，默认size为2，当type为value时，默认为10，实际宽度以所在列的最大宽度为准，然后算label和value各占宽度比例，比如label的size为1，value的size为2，那么label占总宽度的1/3，value占总宽度的2/3
 > >
 > > **type ：** 文本类型：分为label和value，默认value
 
