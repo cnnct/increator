@@ -26,7 +26,7 @@
 >
 > **其中必填项加上了\*号，如下所示 :**
 >
-> > **size ：** size为尺寸标签,可以填的数值范围为（1-12）,如size="6",当type为label时，默认size为2，当type为value时，默认为10，实际宽度以所在列的最大宽度为准，然后算label和value各占宽度比例，比如label的size为1，value的size为2，那么label占总宽度的1/3，value占总宽度的2/3
+> > **size ：** size为尺寸标签,可以填的数值范围为（1-12）,如size="6",当type为label时，默认size为2，当type为value时，默认为10，文本实际宽度计算方式： 1、获取所在列的最大宽度 2、算出label和value各占总宽度的比例 3、以算出的比例得出实际宽度。注意：如果\(label的size最大值a + value的size最大值b\)大于12，那么label的size为a，而value的size为\(12 - a\)。比如：label的size最大值为5，value的size最大值为10，那么label的size为5，value的size为7，最后label占总宽度的5/12，value占总宽度的7/12。
 > >
 > > **type ：** 文本类型：分为label和value，默认value
 
