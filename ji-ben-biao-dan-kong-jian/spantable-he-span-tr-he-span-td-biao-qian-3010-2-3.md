@@ -30,7 +30,7 @@
 > >
 > > **type ：** 文本类型：分为label和value，默认value
 
-#### step和step\_element标签的引入方式 :
+#### span\_table和span\_tr和span\_td标签的引入方式 :
 
 ```
         <@span_table label_color="true">
@@ -45,7 +45,7 @@
         </@span_table>
 ```
 
-#### step和step\_element标签显示效果图 :
+#### span\_table和span\_tr和span\_td标签显示效果图 :
 
 ![](/assets/span_table.png)
 
