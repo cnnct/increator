@@ -25,7 +25,7 @@
 #### step和step\_element标签的引入方式 :
 
 ```
-    <@step id="add_step" title="步骤表单示例" form_id="add_form" has_button="true" step_info=[{"label":"标题1","active":"true"},{"label":"标题2"},{"label":"标题3"}]>
+    <@step id="add_step" title="步骤表单示例" form_id="add_form" has_button="true" step_info=[{"label":"第1步","active":"true"},{"label":"第2步"},{"label":"第3步"}]>
         <@step_element step="1">
             <@input label="名称,true,2" name="roleDesc" type="text" size="4" />
         </@step_element>
