@@ -30,7 +30,7 @@
 
 ```
     <@step title="步骤表单示例" id="add_step" form_id="add_form" count="3">
-        <@step_element step="1">
+        <@step_element step="1" active="true">
             <@input label="名称,true,2" name="roleDesc" type="text" size="4" />
         </@step_element>
         <@step_element step="2">
