@@ -18,12 +18,10 @@
 
 #### step\_element**标签的属性 :**
 
-> step\_element标签有2个属性
+> step\_element标签有1个属性
 >
 > **其中必填项加上了\*号，如下所示 :**
 >
-> > **active ：** 是否激活当前步骤，值为true时激活，否则不激活
-> >
 > > \***step ：** 此内容第几步
 
 #### step和step\_element标签的引入方式 :
