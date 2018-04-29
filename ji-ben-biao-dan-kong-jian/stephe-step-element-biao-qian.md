@@ -9,12 +9,10 @@
 > **其中必填项加上了\*号，如下所示 :**
 >
 > > \***id ：** id属性
-> >
 > > **title ：** 标题
-> >
-> > \***count：** 总步骤数
-> >
 > > **form\_id：** 表单id属性
+> > **has\_button：** 是否有按钮，默认有
+> > \***step\_info：** json数组，label为圆形图标下的文字，active表示是否激活，见如下示例。
 
 #### step\_element**标签的属性 :**
 
@@ -22,13 +20,13 @@
 >
 > **其中必填项加上了\*号，如下所示 :**
 >
-> > \***step ：** 此内容第几步
+> > \***step ：** 此为第几步
 
 #### step和step\_element标签的引入方式 :
 
 ```
-    <@step title="步骤表单示例" id="add_step" form_id="add_form" count="3">
-        <@step_element step="1" active="true">
+    <@step id="add_step" title="步骤表单示例" form_id="add_form" has_button="true" step_info=[{"label":"标题1","active":"true"},{"label":"标题2"},{"label":"标题3"}]>
+        <@step_element step="1">
             <@input label="名称,true,2" name="roleDesc" type="text" size="4" />
         </@step_element>
         <@step_element step="2">
