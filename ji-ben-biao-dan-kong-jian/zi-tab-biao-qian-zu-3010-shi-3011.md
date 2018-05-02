@@ -20,14 +20,12 @@
 > >
 > > ** tab\_content\_titles ：** tab\_content\_titles属性是child\_tab标签记录包含tab页的title值
 > >
-> > 如title="home2,profile2,dropdown12,ddd3"；包含多少tab页，就填写几个title值，注意分隔符，【2.3】
-版本后该属性取消，全部由tabs属性来加载
-
-
-> > **\* tabs 【2.3】：**在【2.3】版本后tabs属性引入将替代tab_content_ids和tab_content_titles属性
-引入方式如：tabs=[{"id":"home","title":"home2","icon":"user","color":"success","icon_position":"right"},{"id":"profile","title":"profile2","icon":"search","color":"success"}]，
-其中 id为tab项的 id，title为标题名，icon为 tab的图标，color为图标的颜色可填值参照button组件，icon_position为图标的位置,默认left
-
+> > 如title="home2,profile2,dropdown12,ddd3"；包含多少tab页，就填写几个title值，注意分隔符，【2.3】  
+> > 版本后该属性取消，全部由tabs属性来加载
+> >
+> > **\* tabs 【2.3】：**在【2.3】版本后tabs属性引入将替代tab\_content\_ids和tab\_content\_titles属性  
+> > 引入方式如：tabs=\[{"id":"home","title":"home2","icon":"user","color":"success","icon\_position":"right","label\_num":"3","label\_num\_color":"danger"},{"id":"profile","title":"profile2","icon":"search","color":"success","label\_num":"1"}\]，  
+> > 其中 id为tab项的 id，title为标题名，icon为 tab的图标，color为图标的颜色可填值参照button组件，icon\_position为图标的位置,默认left，label\_num为tab页右上角的文字，label\_num\_color为tab页右上角的文字的颜色，同参照button组件。
 
 #### child\_tab\_content**标签的属性 :**
 
@@ -62,11 +60,11 @@
 
 【2.1】版本后写法示例：
  <@child_tab  id="myTab2" tab_content_ids="home,profile,dropdown12,ddd3" tab_content_titles="home2,profile2,dropdown12,ddd3">
-	        <@child_tab_content id="home" active="true" src="${base}/demo/tag/tabContent1"> 
-	        </@child_tab_content>
-	        <@child_tab_content id="profile"  src="${base}/demo/tag/tabContent2"> 
-	        </@child_tab_content>
-        	<@child_tab_content id="dropdown" src="${base}/demo/tag/tabContent3"> 
+            <@child_tab_content id="home" active="true" src="${base}/demo/tag/tabContent1"> 
+            </@child_tab_content>
+            <@child_tab_content id="profile"  src="${base}/demo/tag/tabContent2"> 
+            </@child_tab_content>
+            <@child_tab_content id="dropdown" src="${base}/demo/tag/tabContent3"> 
                 </@child_tab_content>
                 <@child_tab_content id="ddd" src="${base}/demo/tag/tabContent4"> 
                 </@child_tab_content>
@@ -79,4 +77,6 @@
 ![](/assets/tab.png)
 
 #### 【2.3】版本后显示效果图：
+
 ![](/assets/tab1.png)
+
