@@ -47,6 +47,12 @@
 > >
 > > **search_have【2.1】:** search_have属性为是否开启搜索功能，默认false，当为true时搜索功能可用
 > >
+> >
+> > **panrent_multiselect_child_single【2.4】:** panrent_multiselect_child_single属性为是否开启子级解除关联，且只能单选
+> >
+
+
+
 
 
 
