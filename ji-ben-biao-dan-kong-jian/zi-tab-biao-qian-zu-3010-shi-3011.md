@@ -24,8 +24,8 @@
 > > 版本后该属性取消，全部由tabs属性来加载
 > >
 > > **\* tabs 【2.3】：**在【2.3】版本后tabs属性引入将替代tab\_content\_ids和tab\_content\_titles属性  
-> > 引入方式如：tabs=\[{"id":"home","title":"home2","icon":"user","color":"success","icon\_position":"right","label\_num":"3","label\_num\_color":"danger"},{"id":"profile","title":"profile2","icon":"search","color":"success","label\_num":"1"}\]，  
-> > 其中 id为tab项的 id，title为标题名，icon为 tab的图标，color为图标的颜色可填值参照button组件，icon\_position为图标的位置,默认left，label\_num为tab页右上角的文字，label\_num\_color为tab页右上角的文字的颜色，同参照button组件。
+> > 引入方式如：tabs=\[{"id":"home","title":"home2","icon":"user","color":"success","icon\_position":"right","superior":"3","superior":"13","superior\_bold\_flag":"true","superior\_bg\_color":"danger","superior\_bg\_shape":"badger-square"},{"id":"profile","title":"profile2","icon":"search","color":"success"}\]，  
+> > 其中 id为tab项的 id，title为标题名，icon为 tab的图标，color为图标的颜色可填值参照button组件，icon\_position为图标的位置,默认left，superior为tab页右上角的文字，superior\_bold\_flag为tab页右上角的文字是否加粗--可选：true false，superior\_bg\_color为tab页右上角的文字背景颜色--可选：info warn primary danger default，同参照button组件，superior\_bg\_shape为tab页右上角的文字背景形状--可选：badger-square\(方形\)或不设置这个属性使用默认\(圆角方形\)
 
 #### child\_tab\_content**标签的属性 :**
 
