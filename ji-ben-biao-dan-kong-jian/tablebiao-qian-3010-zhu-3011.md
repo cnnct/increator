@@ -104,6 +104,8 @@ query\_bar配合table标签使用，类似于form标签
                  }
                  <#--控制td内容的隐藏，默认开启，超过某一个length长度就会隐藏多余部分-->
                  hide_beyond_content={"flag":"true","beyond_num":"5"}
+                 <#--关闭横向滚动条-->
+                 scrollx_flag=“false”
              ]
                 />
   <!-- 所有提交的url地址的前缀都要加上 ${base}
