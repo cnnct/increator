@@ -1,6 +1,6 @@
 ## table\_second**标签**
 
-【注意：此控件不兼容IE8】
+### 【!！！！注意：此控件不兼容IE8】
 
 #### table\_second**标签的属性 :**
 
@@ -66,7 +66,7 @@
 
 #### 提供的可供调用的js方法：
 
-/_\*      
+/_\*        
 _修改表格处于编辑状态行的行数据,obj为对象类型，其中包含两个固定属性tableId和data，且data为对象类型 ，包含需要修改的值：如：obj={“tableId”：“mytable”，“data”：{“id”:"123456","name":"zhangsan"}}  
 \*/  
 1.updateJsGridEditRow\(obj\);
