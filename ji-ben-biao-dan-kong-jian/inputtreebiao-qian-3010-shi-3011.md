@@ -50,8 +50,8 @@
 > >
 > > **parent_multiselect_child_single【2.4】:** parent_multiselect_child_single属性为是否开启子级解除关联，且只能单选
 > >
-
-
+> > **cust_relation【2.4】:** cust_relation属性用于控制上下级关系的解除与否，如cust_relation={"cancel_parent_relation":"false","cancel_children_relation":"true","select_more":"false"}
+其中cancel_parent_relation为是否解除父级关联，默认false，cancel_children_relation为是否解除子级关联，默认false
 
 
 
