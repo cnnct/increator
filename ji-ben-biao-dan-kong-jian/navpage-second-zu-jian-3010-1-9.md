@@ -28,5 +28,6 @@
 ![](/assets/nav_page_second5.png)
 ![](/assets/nav_page_second6.png)
 
-
+#### 可以调用的js方法：
+可以调用的js方法请参考ztree官网
 
