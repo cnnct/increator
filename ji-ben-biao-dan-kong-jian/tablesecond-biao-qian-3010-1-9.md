@@ -62,5 +62,8 @@
 ![](/assets/table_second5.png)
 
 #### 提供的可供调用的js方法：
-
+/**
+*修改表格处于编辑状态行的行数据,obj为对象类型，如：obj={“id”：“123456”，“name”：“zhangsan”}
+*/
+1.updateJsGridEditRow(obj);
 
