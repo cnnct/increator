@@ -181,7 +181,9 @@ query\_bar配合table标签使用，类似于form标签
 
   addTableRow(obj,tableId,idType);//新增表格行数据，只适用于静态表格,obj为传入新增的行数据，idType为首列勾选的样式，可填三个值：none，radio，checkbox，默认none
 
-  tableBandClick(obj)【2.4】
+  tableBandClick(obj)【2.4】;//为表格指定的td位置绑定自定义的方法，如果表格中没有数据就不绑定
+  其中包含tdPosition(数组类型[{}]包含需要绑定事件的td标签的坐标位置，其中子对象包含数rowIndex(行下标，   从0开始)和colIndex(列下标，从0开始)，如果不指定行，则绑定整列)和bandFunction绑定的自定义的方法名和 tableId
+ */
   例:getCodeName("0","STATE","mytable");//值为"注销"
 
   /**
