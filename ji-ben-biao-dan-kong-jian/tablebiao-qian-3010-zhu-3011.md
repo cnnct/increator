@@ -181,6 +181,7 @@ query\_bar配合table标签使用，类似于form标签
 
   addTableRow(obj,tableId,idType);//新增表格行数据，只适用于静态表格,obj为传入新增的行数据，idType为首列勾选的样式，可填三个值：none，radio，checkbox，默认none
 
+  tableBandClick(obj)【2.4】
   例:getCodeName("0","STATE","mytable");//值为"注销"
 
   /**
