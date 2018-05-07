@@ -67,7 +67,7 @@
 #### 【2.4】后的前台变动
 ![](/assets/table_second.png)
 ![](/assets/table_second12.png)
-
+![](/assets/table_sconde15.png)
 
 #### 提供的可供调用的js方法：
 
