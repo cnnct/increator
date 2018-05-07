@@ -69,5 +69,5 @@
 /_\*        
 _修改表格处于编辑状态行的行数据,obj为对象类型，其中包含两个固定属性tableId和data，且data为对象类型 ，包含需要修改的值：如：obj={“tableId”：“mytable”，“data”：{“id”:"123456","name":"zhangsan"}}  
 \*/  
-1.updateJsGridEditRow\(obj\);
+1.updateJsGridEditRow\(obj\)【2.4】;
 
