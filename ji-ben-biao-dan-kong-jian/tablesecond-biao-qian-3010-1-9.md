@@ -19,7 +19,7 @@
 > >
 > > **height【2.0】：** 高度属性，默认全部展示，可填数值
 > >
-> > **\*fields:** 表格的加载字段属性，为数组对象，单个字段对象包含属性：name\(加载的字段名\)，title\(字段标题\),type\(编辑时的类型，现支持text,textarea,checkbox,code\_select,myDateField\(时间\)【2.4】版本后该属性名替换为date，【2.4版本】支持multiselect类型（多选类型），注意当为code\_select类型时必须指定code\_type,当type为空且不存在时，将冻结列\),width\(宽度，默认100\)，position为列的位置，默认center，可填值center，left，right,【2.0】版本后调整type有select，code\_select项，code\_select需要指定code\_type,如果是select和multiselect类型，需要指定sql\_key（配套sql\_condition），value\_field，show\_field,checkbox类型只支持传入的值为boolean类型
+> > **\*fields:** 表格的加载字段属性，为数组对象，单个字段对象包含属性：name\(加载的字段名\)，title\(字段标题\),type\(编辑时的类型，现支持text,textarea,checkbox,code\_select,myDateField\(日期\)【2.4】版本后该属性名替换为date，【2.4版本】支持multiselect类型（多选类型）和time时间类型（仅时分），注意当为code\_select类型时必须指定code\_type,当type为空且不存在时，将冻结列\),width\(宽度，默认100\)，position为列的位置，默认center，可填值center，left，right,【2.0】版本后调整type有select，code\_select项，code\_select需要指定code\_type,如果是select和multiselect类型，需要指定sql\_key（配套sql\_condition），value\_field，show\_field,checkbox类型只支持传入的值为boolean类型，需要指出的是【2.4】版本后日期类型
 > >
 > > **editor\_flag:【2.0】** 编辑功能开关，默认false，即编辑功能冻结，当为true时可以新增行，修改行，删除行，移动行
 > >
