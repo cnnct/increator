@@ -19,10 +19,12 @@
 //清空日历所在div
 $('#demo_calendar').html('');
 //创建日历
-var calendar = createCalendar({id:'demo_calendar','2018-05-06',end:'2018-08-13',selected:['2018-05-07','2018-06-17']});
+var calendar = createCalendar({id:'demo_calendar','2018-05-07',end:'2018-08-23',selected:['2018-05-07','2018-08-23']});
 ```
 
 #### calendar标签显示效果图 :
+
+![](/assets/calendar.png)
 
 
 
