@@ -52,6 +52,12 @@
 > >
 > > **cust_relation【2.4】:** cust_relation属性用于控制上下级关系的解除与否，如cust_relation={"cancel_parent_relation":"false","cancel_children_relation":"true","select_more":"false"}
 其中cancel_parent_relation为是否解除父级关联，默认false，cancel_children_relation为是否解除子级关联，默认false，select_more为被点击的节点是否可以多选，默认true
+> >
+> > **expand_tree【2.4】：** 该属性为控制初始化是否展开树节点，默认true
+> >
+
+
+
 
 
 
