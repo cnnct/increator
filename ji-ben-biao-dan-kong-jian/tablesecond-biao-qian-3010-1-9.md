@@ -64,7 +64,7 @@
 
 ![](/assets/table_second5.png)
 
-#### 【2.4】后的前后台展示
+#### 【2.4】后的前台变动
 ![](/assets/table_second.png)
 ![](/assets/table_second12.png)
 
