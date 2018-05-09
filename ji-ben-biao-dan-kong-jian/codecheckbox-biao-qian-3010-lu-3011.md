@@ -29,6 +29,9 @@
 > > **only\_show：** 只显示的选项
 > >
 > > **size ：** size为尺寸标签,可以填的数值范围为（1-12）,如size="6",code\_checkbox标签的默认size为12
+> > **switch_style【2.4】：** 该属性用于控制switch风格样式，现有六种样式，如switch_style="1",可填值1到6，默认无switch样式
+> >
+
 
 #### code\_checkbox标签的引入方式 :
 
