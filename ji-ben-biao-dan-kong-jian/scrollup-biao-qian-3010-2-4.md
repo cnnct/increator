@@ -12,5 +12,5 @@
     <@scroll_up id="test"/>
 #### slider标签的显示结果 :
 
-![](/assets/slider1.png)
+![](/assets/srcoll_up1.png)
 
