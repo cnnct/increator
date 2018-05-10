@@ -37,6 +37,5 @@
 			    <@slider id="slider6" value="20" body_size="large" color="green" style_type="round" size="12"/>
 #### slider标签的显示结果 :
 
-![](/assets/button.png)
-
+![](/assets/slider1.png)
 
