@@ -12,9 +12,7 @@
 > >
 > > **size ：** size为尺寸标签,可以填的数值范围为（1-12）,如size="6",默认size为12
 > >
-> > **class：** class属性
-> >
-> > **type :** type属性，默认为“button”
+> > **body_size:** body_size属性为控制尺寸大小，可填值small、large默认small
 > >
 > > **\* value :** value属性主要为button显示的名字
 > >
