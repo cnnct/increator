@@ -22,7 +22,7 @@
 
 
 
-#### button标签的显示结果 :
+#### slider标签的显示结果 :
 
 ![](/assets/button.png)
 
