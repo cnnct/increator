@@ -26,12 +26,4 @@
 
 ![](/assets/button.png)
 
-#### button图标使用，icon="xxxxxx"，值取样式表名称的“-”横线后的字符串，如下图所示
-
-[http://v3.bootcss.com/components/](http://v3.bootcss.com/components/)
-* bootstrap默认图标
-![](/assets/icon-font03.png)
-* font-increator中的扩展图标，【2.0】版本后可用
-![](/assets/button1.png)
-![](/assets/button2.png)
 
