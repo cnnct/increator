@@ -1,8 +1,8 @@
 # time\_range**标签**
 
-#### date\_time\_range**标签的属性 :**
+#### time\_range**标签的属性 :**
 
-> date\_time\_range标签属性如下：
+> time\_range标签属性如下：
 >
 > **其中必填项加上了\*号，如下所示 :**
 >
@@ -40,13 +40,13 @@
 > >
 > > **show\_time：**是否显示时间
 
-#### date\_time\_range标签的引入方式 :
+#### time\_range标签的引入方式 :
 
 ```
    <@date_time_range label="范围,,2" size="5" id="demo_date_time_range" format="YYYY-MM-DD HH:mm:ss" start="2018-05-03 03:03:03" end="2018-08-03 05:06:07" min_val="2018-05-06 03:03:03" max_val="2018-08-13 05:06:07" show_time="true"/>
 ```
 
-#### date\_time\_range标签显示效果图 :
+#### time\_range标签显示效果图 :
 
-![](/assets/date_time_range.png)
+
 
