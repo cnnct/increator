@@ -36,7 +36,8 @@
 > >
 > > **switch_style【2.4】：** 该属性用于控制switch风格样式，现有六种样式，如switch_style="1",可填值1到6，默认无switch样式
 > >
-> > **body_size【2.4】 ：** body_size为尺寸属性，用于控制大小，可填值small和large,默认small
+> > **body_size【2.4】 ：** body_size为尺寸属性，用于控制大小，可填值small和large,默认small，和switch_style属性不可同时使用
+
 > >
 
 
