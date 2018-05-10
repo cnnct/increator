@@ -17,6 +17,13 @@
 >> **color: ** 颜色属性，可以填的值为"success"、"danger"、"info"、"warning"、"primary",默认info
 >>
 >>**style_type:**style_type属性为控制进度条类型，可填值round（圆形进度条），如果不填默认横向进度条样式
+>>
+>>**data_max:**data_max属性在style_type值为round类型的时候可以填写最大值，即进度条的最大值，默认100
+>>
+>>**data_step:**data_step属性在style_type值为round类型的时候可以填写步长，默认1
+
+
+
 
 #### slider标签的引入方式 :
 
