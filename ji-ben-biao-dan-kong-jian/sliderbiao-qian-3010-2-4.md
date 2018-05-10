@@ -33,7 +33,7 @@
 				<@slider id="slider5" value="60" body_size="large" color="primary" size="12"/>
 				
 				 <@slider id="slider6" value="20" body_size="small" color="green" style_type="round" size="12" />
-							<@slider id="slider6" value="20" body_size="large" color="green" style_type="round" size="12"/>
+			    <@slider id="slider6" value="20" body_size="large" color="green" style_type="round" size="12"/>
 #### slider标签的显示结果 :
 
 ![](/assets/button.png)
