@@ -9,7 +9,7 @@
 
 
 #### slider标签的引入方式 :
-<@scroll_up id="test">
+    <@scroll_up id="test"/>
 #### slider标签的显示结果 :
 
 ![](/assets/slider1.png)
