@@ -16,7 +16,7 @@
 > >
 > > **readonly：**是否只读
 > >
-> > **format：**日期时间格式，参数如下，理论上任意组合，详情可见[http://www.bootcss.com/p/bootstrap-datetimepicker/](http://www.bootcss.com/p/bootstrap-datetimepicker/)
+> > **format：**日期时间格式，参数如下，理论上任意组合
 > >
 > > * ss：秒，带前导零的2位数字
 > >
