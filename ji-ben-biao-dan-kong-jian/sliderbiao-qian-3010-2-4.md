@@ -26,7 +26,7 @@
 
 
 #### slider标签的引入方式 :
-				<@slider id="slider1" value="20" body_size="small" color="success"  size="12"/>
+								<@slider id="slider1" value="20" body_size="small" color="success"  size="12"/>
 								<@slider id="slider2" value="30" body_size="large" color="warning" size="12"/>
 								<@slider id="slider3" value="40" body_size="large" color="danger" size="12"/>
 								<@slider id="slider4" value="50" body_size="large" color="info" size="12"/>
