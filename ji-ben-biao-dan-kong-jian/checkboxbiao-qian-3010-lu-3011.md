@@ -34,7 +34,8 @@
 > >
 > > **cust_get_data_param【2.1】：** 该功能用于支持自定义加载tree的初始化数据，如果该项存在，则将屏蔽sql_key的加载数据功能，指定加载类和方法的参数（现阶段只支持单个参数且为Map类型）,规则示例将在下面展示，具体示例见2.0平台基础项目demo页
 > >
-> > **switch_style【2.4】：** 该属性用于控制switch风格样式，现有六种样式，如switch_style="1",可填值1到6，默认无switch样式
+> > **switch_style【2.4】：** 该属性用于控制switch风格样式，现有六种样式，如switch_style="1",可填值1到6，默认无switch样式，和body_size属性不可同时使用
+
 > >
 > > **body_size【2.4】 ：** body_size为尺寸属性，用于控制大小，可填值small和large,默认small，和switch_style属性不可同时使用
 
