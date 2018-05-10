@@ -16,10 +16,7 @@
 >>
 >> **color: ** 颜色属性，可以填的值为"success"、"danger"、"info"、"warning"、"primary",默认info
 >>
->> **title【2.0】: ** 按钮提示
-
->>**style_type【2.2】:**style_type属性，可填值“icon”,按钮变成图标风格，不填为默认风格
-
+>>**style_type:**style_type属性为控制进度条类型，可填值round（圆形进度条），如果不填默认横向进度条
 
 #### button标签的引入方式 :
 
