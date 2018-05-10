@@ -18,15 +18,9 @@
 >>
 >>**style_type:**style_type属性为控制进度条类型，可填值round（圆形进度条），如果不填默认横向进度条
 
-#### button标签的引入方式 :
+#### slider标签的引入方式 :
 
-```
-   <@button id="bbs"  size="1" value="查询" icon="search" onclick="ss();" title="提示"/>
 
-   <@button id="dd"  size="1" value="删除" icon="remove" title="提示"/>
-
-   <@button id="rr"  size="1" value="重置" icon="repeat"/>
-```
 
 #### button标签的显示结果 :
 
