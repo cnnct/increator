@@ -29,6 +29,11 @@
 > > **only\_show：** 只显示的选项
 > >
 > > **size ：** size为尺寸标签,可以填的数值范围为（1-12）,如size="6",code\_radio标签的默认size为12
+> >
+> > **body_size【2.4】 ：** body_size为尺寸属性，用于控制大小，可填值small和large,默认small
+> >
+
+
 
 #### code\_radio标签的引入方式 :
 
