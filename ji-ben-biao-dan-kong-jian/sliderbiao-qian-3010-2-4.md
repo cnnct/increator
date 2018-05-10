@@ -14,8 +14,6 @@
 > >
 > > **body_size:** body_size属性为控制尺寸大小，可填值small、large默认small
 > >
-> > **\* value :** value属性主要为button显示的名字
-> >
 > > **icon :** icon属性为button中的图标样式，默认为“search”，可填的数值详见bootstrap官网,【2.0】版本后可以使用图标扩展，即可以使用font-increator下的图标，前缀需要加"ext_",如“ext_assessedbadge”
 > >
 > > **onclick :** onclick属性
