@@ -26,8 +26,14 @@
 > >
 > > translate\_code\_type="STATE"
 >>
-> > **value：** value属性，用于存放显示值
+> > **color：** color属性，用于控制颜色，可填值success,info,warning,danger,primary
 > >
+> > **body_size【2.4】：** body_size属性，用于控制尺寸大小，可填值small，middle,large,默认small
+> >
+> > **font_strong【2.4】：** font_strong属性，用于控制是否加粗，可填值true，false默认false
+> >
+
+
 
 #### span标签的引入方式 :
 
