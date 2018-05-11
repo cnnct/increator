@@ -56,5 +56,4 @@
 
 #### spinner标签的显示结果:
 
-![](/assets/input.png)
-
+![](/assets/spinner1.png)
