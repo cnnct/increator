@@ -33,9 +33,25 @@
 #### spinner标签的引入方式 :
 
 ```
-    <@input label="邮编:,true,2" id="name" name="name"  type="text" size="4"  />
-
-    <@input label="邮件:,true,2" id="email" name="email"  type="email" size="4" />
+   <@spinner label="测试4:,true,2" 
+				  id="spinner" 
+				  name="spinner"
+				  size="4" 
+				  value="4"
+				  data_min="0"
+				  data_max="10"
+				  data_step="2"  
+					  />
+		<@spinner label="测试5:,true,2" 
+				  id="spinner1" 
+				  name="spinner1"
+				  size="4" 
+				  body_size="large"
+				  value="4"
+				  data_min="0"
+				  data_max="10"
+				  data_step="2"  
+					  />
 ```
 
 #### spinner标签的显示结果:
