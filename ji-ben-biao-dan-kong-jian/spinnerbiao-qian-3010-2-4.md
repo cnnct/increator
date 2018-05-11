@@ -33,7 +33,7 @@
 #### spinner标签的引入方式 :
 
 ```
-   <@spinner label="测试4:,true,2" 
+  	 <@spinner label="测试4:,true,2" 
 				  id="spinner" 
 				  name="spinner"
 				  size="4" 
