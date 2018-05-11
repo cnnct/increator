@@ -1,16 +1,14 @@
 # spinner**标签**
 
-#### input**标签的属性 :**
+#### spinner**标签的属性 :**
 
-> input标签属性分别为如下：
+> spinner标签属性分别为如下：
 >
 > > **id ：** id属性
 > >
 > > **name ：** name属性
 > >
-> > **size ：** size为尺寸标签,可以填的数值范围为（1-12）,如size="6",input标签的默认size为5
-> >
-> > **type ：** type属性，默认为“text”
+> > **size ：** size为尺寸标签,可以填的数值范围为（1-12）,如size="6",input标签的默认size为4
 > >
 > > **label ：** label为input标签的前缀标签属性,如label="name,true,2"；其中label属性中含有三个值，第一个值
 > >
@@ -22,17 +20,30 @@
 > >
 > > **value  ：** value属性
 > >
-> > **readonly ：** readonly为只读属性,可以填写的数值为"true","false",默认为false
+> > **body_size：** 控制大小尺寸，可填值small和large，默认small
 > >
-> > **placeholder：** placeholder为input框内提示属性
+> > **data_min：** 为最小值属性，默认0
 > >
-> > **dyn_tooltip【2.2】：** dyn_tooltip属性为input框控制动态格式化提示的属性，id属性必须存在，如：
-dyn_tooltip={"flag":"true","type":"card","cust_type":"### ### ##"}，其中flag属性为开启该属性的开关，默认false，type为格式化类型(可以填的值为default，card,idcard,phone,tunion(交通部规范),chinaunion(住建部规范))该规范的格式可以自行修改，文件为tag_dyntooltip_type.json，cust_type的类型为自定义格式，“#”号为替换输入的内容的占位符，如果自定义格式存在时，已自定义格式为主
+> > **data_max：** 为最大值属性，默认100
 > >
-> > **color【2.4】：** 控制icon图标颜色
+> > **data_step：** 为步长属性，默认1
 > >
-> > **icon【2.4】：** 为图标属性，参照button组件，默认没有图标
-> >
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
