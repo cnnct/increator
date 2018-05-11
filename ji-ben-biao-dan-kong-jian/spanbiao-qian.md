@@ -25,6 +25,9 @@
 > > **translate\_code\_type：** translate\_code\_type属性，值为该span值在sys\_code表的转义类型，如：
 > >
 > > translate\_code\_type="STATE"
+>>
+> > **value：** value属性，用于存放显示值
+> >
 
 #### span标签的引入方式 :
 
