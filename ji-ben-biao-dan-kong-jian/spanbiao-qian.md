@@ -30,7 +30,7 @@
 > >
 > > **body_size【2.4】：** body_size属性，用于控制尺寸大小，可填值small，middle,large,默认small
 > >
-> > **font_strong【2.4】：** font_strong属性，用于控制是否加粗，可填值true，false默认false
+> > **font_strong【2.4】：** font_strong属性，用于控制是否加粗，可填值true，false，默认false
 > >
 
 
