@@ -26,7 +26,7 @@
 > >
 > > translate\_code\_type="STATE"
 >>
-> > **color：** color属性，用于控制颜色，可填值success,info,warning,danger,primary
+> > **color【2.4】：** color属性，用于控制颜色，可填值success,info,warning,danger,primary
 > >
 > > **body_size【2.4】：** body_size属性，用于控制尺寸大小，可填值small，middle,large,默认small
 > >
