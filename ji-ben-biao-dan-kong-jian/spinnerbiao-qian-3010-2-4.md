@@ -30,7 +30,7 @@
 > >
 
 
-#### input标签的引入方式 :
+#### spinner标签的引入方式 :
 
 ```
     <@input label="邮编:,true,2" id="name" name="name"  type="text" size="4"  />
@@ -38,7 +38,7 @@
     <@input label="邮件:,true,2" id="email" name="email"  type="email" size="4" />
 ```
 
-#### input标签的显示结果:
+#### spinner标签的显示结果:
 
 ![](/assets/input.png)
 
