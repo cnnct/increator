@@ -58,5 +58,7 @@ actListQuery(formId, blockTableId);
 
 #### block\_table标签显示效果图 :
 
+![](/assets/block_table.png)
+
 
 
