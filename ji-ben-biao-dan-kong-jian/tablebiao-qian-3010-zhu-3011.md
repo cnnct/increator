@@ -152,7 +152,7 @@ query\_bar配合table标签使用，类似于form标签
   26. hide_beyond_content【2.2】：该属性为表格控制隐藏td中多余的内容，将多余的内容转成省略号，鼠标移到上面会显示具体内容，含有属性如hide_beyond_content={"flag":"true","beyond_num":"5"}，flag属性为开关，默认为“false”，beyond_num为控制的length长度，默认为“5”，**注意**hide_beyond_content属性处理会在脱敏功能处理以后执行
   27. scrollx_flag【2.4】：该属性为控制表格是否需要滚动条功能，在表格列数据比较多的时候开启，可填值为true和false，默认true
   28. banner_have【2.4】：该属性为控制是否给全局的文字加底纹旗帜，可填值为true和false，默认false
-  
+  29. total_row【2.4】：该属性用于控制合计行，合计行可以合并，在开启该功能时后台必须自行加一行对应的数据，前台可以进行合并total_row=[{"x_coordinate":"2","colspan":"3"}]，其他不合并的都默认占一列
   ，**注意：该方法必须在表格加载前被定义**
   ```
 * 表格数据显示例子如下图：  
