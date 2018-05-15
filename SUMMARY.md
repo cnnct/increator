@@ -100,13 +100,13 @@
   * [Ehcache的使用](kuang-jia-she-zhi/ehcachede-shi-yong.md)
   * [http接口服务使用配置【1.1】](kuang-jia-she-zhi/httpjie-kou-fu-wu-shi-yong-pei-zhi.md)
   * [spring定时任务的使用](kuang-jia-she-zhi/springding-shi-ren-wu-de-shi-yong.md)
+  * [HttpClient的使用](kuang-jia-she-zhi/httpclientde-shi-yong.md)
   * [报表和打印](kuang-jia-she-zhi/bao-biao-he-da-yin.md)
     * [ireport整合开发pdf报表【1.2】](kuang-jia-she-zhi/bao-biao-he-da-yin/ireportzheng-he-kai-fa-pdf-bao-biao.md)
       * [代码开发说明](kuang-jia-she-zhi/bao-biao-he-da-yin/ireportzheng-he-kai-fa-pdf-bao-biao/dai-ma-kai-fa-shuo-ming.md)
       * [ireport使用说明](kuang-jia-she-zhi/bao-biao-he-da-yin/ireportzheng-he-kai-fa-pdf-bao-biao/ireportshi-yong-shuo-ming.md)
     * [echars图表开发【1.2.2】](kuang-jia-she-zhi/bao-biao-he-da-yin/echarstu-biao-kai-fa.md)
     * [单页凭证报表打印开发](kuang-jia-she-zhi/bao-biao-he-da-yin/dan-ye-ping-zheng-bao-biao-da-yin-kai-fa.md)
-  * [HttpClient的使用](kuang-jia-she-zhi/httpclientde-shi-yong.md)
   * [工具类使用【1.2】](kuang-jia-she-zhi/gong-ju-shi-yong.md)
     * [加解密工具使用【1.2】【施】](kuang-jia-she-zhi/jia-jie-mi-gong-ju-shi-yong-3010-1-2.md)
     * [Service基类BaseServImpl【陆】](kuang-jia-she-zhi/serviceji-lei-baseservimpl.md)
@@ -149,7 +149,7 @@
   * [微信](tong-yi-zhi-fu/wei-xin.md)
     * [接口类名](tong-yi-zhi-fu/wei-xin/jie-kou-lei-ming.md)
     * [配置文件](tong-yi-zhi-fu/wei-xin/pei-zhi-wen-jian.md)
-    * 接口
+    * [接口](tong-yi-zhi-fu/wei-xin/jie-kou.md)
     * 异步通知
   * [银联](tong-yi-zhi-fu/yin-lian.md)
   * [翼支付](tong-yi-zhi-fu/yi-zhi-fu.md)
