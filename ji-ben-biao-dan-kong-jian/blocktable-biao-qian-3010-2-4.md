@@ -2,7 +2,7 @@
 
 #### block\_table**标签的属性 :**
 
-> caleblock\_tablendar标签属性如下：
+> block\_table标签属性如下：
 >
 > **其中必填项加上了\*号，如下所示 :**
 >
