@@ -7,11 +7,11 @@
 > **其中必填项加上了\*号，如下所示 :**
 >
 > > \***id ：** id属性  
-> > \***url：** 后台url
-> > **col：**总并排列数
-> > **first\_field：**第一个字段，是一个类似合并行的div
-> > **btn：**右上角的操作按钮，同table中的cust_btn，只是没有转义和切换显示隐藏功能。
-> > \***rows：**每行的字段属性：name--字段名，type--字段显示类型：图片、超链接、文本，color--颜色，同button，size_type--大小类型：大、中、小，bold--是否加粗，icon--图标，同button，i_color--图标颜色，同button。
+> > \***url：** 后台url  
+> > **col：**总并排列数  
+> > **first\_field：**第一个字段，是一个类似合并行的div  
+> > **btn：**右上角的操作按钮，同table中的cust\_btn，只是没有转义和切换显示隐藏功能。  
+> > \***rows：**每行的字段属性：name--字段名，type--字段显示类型：图片、超链接、文本，color--颜色，同button，size\_type--大小类型：大、中、小，bold--是否加粗，icon--图标，同button，i\_color--图标颜色，同button。
 
 #### block\_table标签的引入方式 :
 
@@ -52,10 +52,8 @@
 ```
 
 ```
-//清空日历所在div
-$('#demo_calendar').html('');
-//创建日历
-var calendar = createCalendar({id:'demo_calendar','2018-05-07',end:'2018-08-23',selected:['2018-05-07','2018-08-23']});
+如果需要修改内容，调用如下方法：
+actListQuery(formId, blockTableId);
 ```
 
 #### block\_table标签显示效果图 :
