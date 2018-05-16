@@ -6,7 +6,8 @@
 >
 > **其中必填项加上了\*号，如下所示 :**
 >
-> > \***id ：** id属性  
+> > \***id：** id属性
+> > **size：** 大小，同其它标签
 > > \***url：** 后台url  
 > > **col：**总并排列数  
 > > **first\_field：**第一个字段，是一个类似合并行的div。name--字段名，type--字段显示类型：图片、超链接、文本，color--颜色，同button，size\_type--大小类型：大、中、小，bold--是否加粗，icon--图标，同button，i\_color--图标颜色，同button。  
