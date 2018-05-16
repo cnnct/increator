@@ -40,7 +40,7 @@
     btn=[
           {
            "name":"test1",
-           "onclick":"doTest('sd')",
+           "onclick":"doTest(this)",
            "text":"自定义",
            "icon":"ext_assessedbadge",
            "color":"success",
@@ -53,7 +53,13 @@
 
 ```
 如果需要修改内容，调用如下方法：
-actListQuery(formId, blockTableId);
+actListQuery(blockTableId, formId);
+每一块中都可存放一个值在一个隐藏input中，可点击按钮取值：
+<#--获取id-->
+function doTest(obj) {
+    console.log($(obj).next('input').val());
+}
+</script>
 ```
 
 #### block\_table标签显示效果图 :
