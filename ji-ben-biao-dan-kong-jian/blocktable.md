@@ -57,7 +57,7 @@ actListQuery(blockTableId, formId);
 每一块中都可存放一个值在一个隐藏input中，可点击按钮取值：
 <#--获取id-->
 function doTest(obj) {
-    console.log($(obj).parent().find('input').val());
+    console.log($(obj).parent().find('input').val()); 
 }
 </script>
 ```
