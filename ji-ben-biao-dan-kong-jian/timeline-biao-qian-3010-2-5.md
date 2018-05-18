@@ -54,7 +54,7 @@
 
 ```
 如果需要修改内容，调用如下方法：
-actListQuery(blockTableId, formId);
+timeLineQuery('demo_time_line', 'queryForm');
 每一块中都可存放一个值在一个隐藏input中，可点击按钮取值：
 <#--获取id-->
 function doTest(obj) {
