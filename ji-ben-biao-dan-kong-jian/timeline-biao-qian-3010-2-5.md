@@ -17,38 +17,44 @@
 #### time\_line标签的引入方式 :
 
 ```
-<@block_table id="demo_act_list" url="${base}/demo/tag/actList" col="2" first_field={'name':'field1','type':'img'}
-    rows=[
-           [
-             {'name':'field2','type':'a','color':'success','size_type':'large','bold':'true'},
-             {'name':'field3','type':'text','color':'danger','size_type':'middle','bold':'true'},
-             {'name':'field4','type':'text','color':'danger','size_type':'middle','bold':'true'},
-             {'name':'field5','type':'a','color':'success','size_type':'small','bold':'true'}
-           ],
-           [
+<@time_line id="demo_time_line" size="12" url="${base}/demo/tag/timeLine"
+    group_name={'group_name':'groupName','flag_color':'flagColor'} group_image="groupImage"
+    panel={
+        row_icon : {'icon':'icon','i_color':'iColor'},
+        row_label : "rowLabel",
+        head_have : "headHave",
+        head : "head",
+        sub_head : "subHead",
+        panel_collapse : "panelCollapse",
+        right_top_icon : {'right_top_icon':'rightTopIcon','right_top_i_color':'rightTopIColor'},
+        right_top_info : "rightTopInfo",
+        row_id : "rowId",
+        rows : [
+          [
             {'name':'field2','type':'a','color':'success','size_type':'large','bold':'true'},
             {'name':'field3','type':'text','color':'danger','size_type':'middle','bold':'true'},
             {'name':'field4','type':'text','color':'danger','size_type':'middle','bold':'true'},
             {'name':'field5','type':'a','color':'success','size_type':'small','bold':'true'}
-           ],
-           [
-             {'name':'field6','type':'a','color':'success','size_type':'large','bold':'true','icon':'saved','i_color':'info'},
-             {'name':'field7','type':'text','color':'danger','size_type':'middle','bold':'true','icon':'saved','i_color':'success'},
-             {'name':'field8','type':'text','color':'danger','size_type':'middle','bold':'true','icon':'saved','i_color':'warn'},
-             {'name':'field9','type':'a','color':'success','size_type':'small','bold':'true','icon':'saved','i_color':'danger'}
-           ]
-         ]
-    btn=[
-          {
-           "name":"test1",
-           "onclick":"doTest(this)",
-           "text":"自定义",
-           "icon":"ext_assessedbadge",
-           "color":"success",
-           "auth_key":"brch_cust",
-           "title":"提示"
-           }
-        ]
+          ],
+          [
+            {'name':'field6','type':'a','color':'success','size_type':'large','bold':'true','icon':'saved','i_color':'info'},
+            {'name':'field7','type':'text','color':'danger','size_type':'middle','bold':'true','icon':'saved','i_color':'success'},
+            {'name':'field8','type':'text','color':'danger','size_type':'middle','bold':'true','icon':'saved','i_color':'warn'},
+            {'name':'field9','type':'a','color':'success','size_type':'small','bold':'true','icon':'saved','i_color':'danger'}
+          ]
+        ],
+        btn : [
+         {
+          "name":"test1",
+          "onclick":"doTest(this)",
+          "text":"自定义",
+          "icon":"ext_assessedbadge",
+          "color":"success",
+          "auth_key":"brch_cust",
+          "title":"提示"
+          }
+       ]
+    } 
 />
 ```
 
