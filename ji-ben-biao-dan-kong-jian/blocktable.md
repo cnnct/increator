@@ -54,6 +54,8 @@
 
 ```
 如果需要修改内容，调用如下方法：
+actListQuery(blockTableId);
+或传一个表单id，自动将表单中的参数提交到后台
 actListQuery(blockTableId, formId);
 每一块中都可存放一个值在一个隐藏input中，可点击按钮取值：
 <#--获取id-->
