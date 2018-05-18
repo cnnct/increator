@@ -1,7 +1,7 @@
 ## edit_table*标签**
 
 ### 【！！！注意：此控件不兼容IE8】
-
+###【2.5版本后从table_second改名为edit_table,table_second不再维护】
 ####edit_table**标签的属性 :**
 
 **注意：该属性组件不支持ie8，ie9等浏览器**
