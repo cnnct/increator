@@ -18,7 +18,7 @@
 > >
 > > 可填的数值范围为（1-12）,默认尺寸为1；引入方式：label="name,true,2" ； label="name,true" ；
 > >
-> > label="name" ；label="name,,2" 即三个值都非必填项
+> > label="name" ；label="name,,2" 即三个值都非必填项，【2.5】版本后在view_para文件里的must_star_position属性可以控制must_star的加载左右位置，默认left
 > >
 > > **value：** value属性，用于存放显示值
 > >
