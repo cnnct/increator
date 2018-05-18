@@ -11,7 +11,7 @@
 > > \***url：** 后台url  
 > > **group\_name：**每组顶部的旗帜。group\_name：文字，flag\_color：背景颜色，同button  
 > > **group\_image：**每组最左边的图片的url。  
-> > **panel：**每组的内容。row\_icon：每行最左边的图标（icon：图标，同button，i\_color：图标颜色，同button），row\_label：每行最左边的图标下的文字，head\_have：是否有头部，head：头部主文字，sub\_head：头部子文字，panel_collapse：是否有收起按钮，right\_top\_icon：收起按钮右边的内容中的图标，同row\_icon，right\_top\_info：right\_top\_icon右边的文字，row\_id：每行的主键，rows：每行的字段属性（name：字段名，type：字段显示类型：超链接、文本，color：颜色，同button，size\_type：大小类型：大、中、小，bold：是否加粗，icon：图标，同button，i\_color：图标颜色，同button），btn：右上角的操作按钮，同table中的cust\_btn，只是没有转义和切换显示隐藏功能。
+> > **panel：**每组的内容。row\_icon：每行最左边的图标（icon：图标，同button，i\_color：图标颜色，同button），row\_label：每行最左边的图标下的文字，head\_have：是否有头部，head：头部主文字，sub\_head：头部子文字，panel\_collapse：是否有收起按钮，right\_top\_icon：收起按钮右边的内容中的图标，同row\_icon，right\_top\_info：right\_top\_icon右边的文字，row\_id：每行的主键，rows：每行的字段属性（name：字段名，type：字段显示类型：超链接、文本，color：颜色，同button，size\_type：大小类型：大、中、小，bold：是否加粗，icon：图标，同button，i\_color：图标颜色，同button），btn：右上角的操作按钮，同table中的cust\_btn，只是没有转义和切换显示隐藏功能。
 
 #### time\_line标签的引入方式 :
 
@@ -72,5 +72,5 @@ function doTest(obj) {
 
 #### time\_line标签显示效果图 :
 
-
+![](/assets/time_line.png)
 
