@@ -77,7 +77,7 @@
   * [related\_function标签【1.5】](ji-ben-biao-dan-kong-jian/relatedfunction-biao-qian.md)
   * [map标签【1.5】](ji-ben-biao-dan-kong-jian/mapbiao-qian-3010-1-5.md)
   * [nav\_page\_second标签【1.9】](ji-ben-biao-dan-kong-jian/navpage-second-zu-jian-3010-1-9.md)
-  * [table\_second标签【1.9】](ji-ben-biao-dan-kong-jian/tablesecond-biao-qian-3010-1-9.md)
+  * [edit\_table标签【2.5】由table\_second改名](ji-ben-biao-dan-kong-jian/tablesecond-biao-qian-3010-1-9.md)
   * [step和step\_element标签【2.2】](ji-ben-biao-dan-kong-jian/stephe-step-element-biao-qian.md)
   * [span\_table和span\_tr和span\_td标签【2.3】](ji-ben-biao-dan-kong-jian/spantable-he-span-tr-he-span-td-biao-qian-3010-2-3.md)
   * [calendar标签【2.4】](ji-ben-biao-dan-kong-jian/calendarbiao-qian.md)
