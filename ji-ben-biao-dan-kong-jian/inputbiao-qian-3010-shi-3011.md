@@ -34,8 +34,7 @@ dyn_tooltip={"flag":"true","type":"card","cust_type":"### ### ##"}，其中flag�
 
 > > **mask【2.5】：**为控制格式化输入功能，如“999-aaa”,其中9代表0-9，代表a-z和A-Z，详情参照masked input
 
-> > **email_tootip【2.5】：** 为图标属性，如icon={"type":"search","color":"success","position":"right"}
-> > type为图标，默认search，color为图标的颜色，position为图标在input框的位置，可填值left和right，默认left
+> > **email_tootip【2.5】：** 该属性是为了控制是否开启邮箱输入提示，默认false，可填值true和false
 
 
 
