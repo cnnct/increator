@@ -26,7 +26,7 @@
     /**
      * 截取图片控件
      * 
-     * @param demoCropperName
+     * @param cropperSrc
      * @return
      */
     @RequestMapping("/cropper")
