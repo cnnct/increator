@@ -2,7 +2,7 @@
 
 调用方式：
 
-iframeAutoFit(iframeObj)
+iframeAutoFit(iframeObj);
 
 options为json对象，属性有：
 
