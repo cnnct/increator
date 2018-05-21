@@ -10,6 +10,7 @@ iframeObj:为iframe jquery对象
 
 ```
 var iframeObj=$("#iframeId");
+
 iframeAutoFit(iframeObj);
 ```
 
