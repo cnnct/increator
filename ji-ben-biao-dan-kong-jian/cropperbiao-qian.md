@@ -20,7 +20,7 @@
     url="${base}/demo/tag/cropper" file_max_size="10"/>
 ```
 
-传到后台的是Base64字符串，使用如下：
+传到后台的是Base64字符串，参数固定为：cropperSrc，使用如下：
 
 ```
     /**
