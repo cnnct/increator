@@ -13,11 +13,7 @@ var iframeObj=$("#iframeId");
 iframeAutoFit(iframeObj);
 ```
 
-注：由于对url进行了编码处理，所以后台需要对url中包含的参数进行解码，如下所示：
 
-```
-funcId = URLDecoder.decode(funcId, "utf-8");
-```
 
 
 
