@@ -4,22 +4,8 @@
 
 iframeAutoFit(iframeObj);
 
-options为json对象，属性有：
-
-id：tab唯一标识
-
-title：tab标题
-
-close：是否有关闭按钮
-
-url：后台地址
-
-parent\_id：父tab唯一标识
-
-page\_refresh\(非必填\)：tab已打开情况下，再次调用此方法，是否刷新页面
-
-para\(非必填\)：需要传到后台的参数json对象
-
+参数：
+iframeObj:为iframe jquery对象
 调用示例：
 
 ```
