@@ -9,15 +9,7 @@ iframeObj:为iframe jquery对象
 调用示例：
 
 ```
-var options = {
-    id:'010602',
-    title: '部门管理',
-    close: true,
-    url: '/manageplat/sys/auth/brch/index',
-    parent_id: '0106',
-    page_refresh: 'true',
-    para:{para1:'123',para2:'abc'}
-}
+var iframeObj=$("#iframeId");
 openNewMenuTab(options);
 ```
 
