@@ -60,7 +60,7 @@ query\_bar配合image_table标签使用，类似于form标签
  ![](/assets/image_table1.png)
 
 
-* 获取表格相关数据：
+* 表格相关js方法：
 * ```js
   getTable(tableId);//获取表格对象
 
