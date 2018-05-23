@@ -34,16 +34,18 @@ query\_bar配合image_table标签使用，类似于form标签
   <@table id="mytable" 
 	      url="${base}/demo/tag/query  
 	      btn=[
-		       {"name":"edit","onclick":"editItem()"},
+		        {"name":"edit","onclick":"editItem()"},
 	            {"name":"delete","onclick":"delItem()"}
-		]
-				  cust_btn=[
-			            {"name":"test1",
-			             "onclick":"doTest()",
-			            "icon":"saved",
-			            "title":"提示"
-			            }
-		            ]
+		    ]
+		  cust_btn=[
+			    {
+			     "name":"test1",
+			     "onclick":"doTest()",
+			     "icon":"saved",
+			     "title":"提示"
+		        }
+		    ]
+		load_data_init="queryForm"
                 />
   <!-- 所有提交的url地址的前缀都要加上 ${base}
   1. 表格控件必须的三个参数：url、thead、fields
