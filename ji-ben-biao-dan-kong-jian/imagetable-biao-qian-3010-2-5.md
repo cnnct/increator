@@ -63,7 +63,7 @@ query\_bar配合image_table标签使用，类似于form标签
 * 表格相关js方法：
   imageTableChangePageNum(tableId,pageNum);//跳转页码
 
-  getTableRows(tableId);//获取表格当前页行数据
+  postformByImageTable(obj);//查询更新列表方法，obj包含属性tableId,tableSearchDataJson（详细查看demo示例）
 
   getSelectedTableRows(tableId);//获取表格当前页选中行数据
 
