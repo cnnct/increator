@@ -14,7 +14,7 @@
   > >
   > > **title【2.2】:** title属性为标题属性
 
-query\_bar配合table标签使用，类似于form标签
+query\_bar配合image_table标签使用，类似于form标签
 
 ```
     <@query_bar id="queryForm">
