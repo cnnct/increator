@@ -25,21 +25,11 @@ query\_bar配合image_table标签使用，类似于form标签
     </@query_bar>
 ```
 
-#### **table\_toolbar标签：**
 
-* table\_toolbar标签有1个属性为name；table\\_toolbar配合table标签使用，在table标签前使用，用于包裹操作表格的工具的工具栏必须配合table标签使用，在引用table标签之前引用
 
-```
-    <@table_toolbar name="查询结果">
-        <@button value="新增" data_target="modal_add" icon="plus"/>
-        <@button value="批量激活" onclick="activeAndCancel('active','mytable')" icon="ok-sign"/>
-        <@button value="批量注销" onclick="activeAndCancel('cancel','mytable')" icon="remove-sign"/>
-    </@table_toolbar>
-```
+#### **image_table标签：**
 
-#### **table标签：**
-
-* 引入表格栏 **table** （其他控件参看**基本表单控件**和**扩展表单控件**），表格控件的使用包含在此例中
+* 引入表格栏 **image_table** （其他控件参看**基本表单控件**和**扩展表单控件**），表格控件的使用包含在此例中
 * ```html
   <@table url="${base}/oper/query"
                  thead=[
