@@ -64,6 +64,119 @@ query\_bar配合image_table标签使用，类似于form标签
   imageTableChangePageNum(tableId,pageNum);//跳转页码
 
   postformByImageTable(obj);//查询更新列表方法，obj包含属性tableId,tableSearchDataJson（详细查看demo示例）
+  
+* 后台写法参照demo示例，例如：
 
-
-
+        /** 测试查询image_table表格
+             * 
+             * @param request
+             * @return
+             * @throws Exception
+             */
+            @RequestMapping("/query")
+            @ResponseBody // 必须以json格式返回
+            public ResultData queryBrchInfo(HttpServletRequest request, Model model) throws Exception {
+                ResultData resultData = new ResultData(Result_Code.SUCCESS);
+                // sql条件（用于sql语句中where的筛选条件，若有，则如下写法）
+                if (getOper().getOrgId() != null) {
+                    resultData.put("org_id", getOper().getOrgId());
+                } else {
+                    resultData.put("org_id", "1001");
+                }
+                //获取imgTable的分页
+                resultData = getPageMapByImageTable(request, resultData);
+                // 获取部门列表
+                List<Map> tableList = new ArrayList<>();
+                Map map=new HashMap<>();
+                Map map1=new HashMap<>();
+                Map map2=new HashMap<>();
+                Map map3=new HashMap<>();
+                Map map4=new HashMap<>();
+                Map map5=new HashMap<>();
+                Map map6=new HashMap<>();
+                Map map7=new HashMap<>();
+                Map map8=new HashMap<>();
+                Map map9=new HashMap<>();
+                Map map10=new HashMap<>();
+                Map map11=new HashMap<>();
+                Map map12=new HashMap<>();
+                Map json=(Map)resultData.get("search");
+                Long recordsTotal = 0l;
+                if("pic".equals(json.get("title"))){
+                	 map.put("src", "http://pic.sc.chinaz.com/files/pic/pic9/201401/apic3188.jpg");
+                     map.put("id", 1 );
+                     map.put("title", "标题1" );
+                     map1.put("src", "https://www.baidu.com/img/bd_logo1.png");
+                     map1.put("id", 2 );
+                     map1.put("title", "标题2" );
+                     tableList.add(map);
+                 	 tableList.add(map1);
+                 	 recordsTotal = 2l;
+                }else{
+                	
+                	map.put("src", "http://pic.sc.chinaz.com/files/pic/pic9/201401/apic3188.jpg");
+                	map.put("id", 1 );
+                	map.put("title", "标题1" );
+                	map1.put("src", "https://www.baidu.com/img/bd_logo1.png");
+                	map1.put("id", 2 );
+                	map1.put("title", "标题2" );
+                	map2.put("src", "https://www.baidu.com/img/bd_logo1.png");
+                	map2.put("id", 3 );
+                	map2.put("title", "标题1" );
+                	map3.put("src", "http://pic.sc.chinaz.com/files/pic/pic9/201401/apic3188.jpg");
+                	map3.put("id", 4 );
+                	map3.put("title", "标题1" );
+                	map4.put("src", "http://pic.sc.chinaz.com/files/pic/pic9/201401/apic3188.jpg");
+                	map4.put("id", 5 );
+                	map4.put("title", "标题1" );
+                	map5.put("src", "https://www.baidu.com/img/bd_logo1.png");
+                	map5.put("id", 6 );
+                	map5.put("title", "标题1" );
+                	map6.put("src", "http://pic.sc.chinaz.com/files/pic/pic9/201401/apic3188.jpg");
+                	map6.put("id", 7 );
+                	map6.put("title", "标题1" );
+                	map7.put("src", "https://www.baidu.com/img/bd_logo1.png");
+                	map7.put("id", 8 );
+                	map7.put("title", "标题1" );
+                	map8.put("src", "http://pic.sc.chinaz.com/files/pic/pic9/201401/apic3188.jpg");
+                	map8.put("id", 9 );
+                	map8.put("title", "标题1" );
+                	map9.put("src", "https://www.baidu.com/img/bd_logo1.png");
+                	map9.put("id", 10 );
+                	map9.put("title", "标题1" );
+                	map10.put("src", "http://pic.sc.chinaz.com/files/pic/pic9/201401/apic3188.jpg");
+                	map10.put("id", 11 );
+                	map10.put("title", "标题1" );
+                	map11.put("src", "https://www.baidu.com/img/bd_logo1.png");
+                	map11.put("id", 12 );
+                	map11.put("title", "标题1" );
+                	map12.put("src", "http://pic.sc.chinaz.com/files/pic/pic9/201401/apic3188.jpg");
+                	map12.put("id", 13 );
+                	map12.put("title", "标题1" );
+                	tableList.add(map);
+                	tableList.add(map1);
+                	tableList.add(map2);
+                	tableList.add(map3);
+                	tableList.add(map4);
+                	tableList.add(map5);
+                	tableList.add(map6);
+                	tableList.add(map7);
+                	tableList.add(map8);
+                	tableList.add(map9);
+                	int start=Integer.parseInt(resultData.get("start").toString());
+                	if(start>1){
+                		tableList.clear();
+                		tableList.add(map10);
+                		tableList.add(map11);
+                		tableList.add(map12);
+                		
+                	}
+                	// 获取总记录数
+                	recordsTotal = 13l;
+                }
+                //返回分页数据
+                initPaginationByImageTable(resultData, tableList, recordsTotal);
+                return resultData;
+            }
+    
+    **注意**：返回的list<Map>中map必须包含id，src，title属性
