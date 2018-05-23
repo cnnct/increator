@@ -31,71 +31,19 @@ query\_bar配合image_table标签使用，类似于form标签
 
 * 引入表格栏 **image_table** （其他控件参看**基本表单控件**和**扩展表单控件**），表格控件的使用包含在此例中
 * ```html
-  <@table url="${base}/oper/query"
-                 thead=[
-                     [
-                        {"name":"一级标题"},
-                        {"name":"二级标题","colspan":"2"},
-                        {"name":"三级标题","colspan":"2"}
-                    ],
-                    [
-                        {"name":"编号"，"size":"2"，"position":"center"},
-                        {"name":"名称", "size":"2"},
-                        {"name":"机构","size":"2"},
-                        {"name":"状态"},
-                        {"name":"级别"}
-                    ]
-                ]
-                fields="id,oper_id,oper_name,org_name,brch_name,oper_state,oper_level"
-                translate={"oper_state":"STATE", "oper_level":"OPER_LEVEL"}
-                idtype="radio"
-                operate="true"
-                btn=[
-                       {"name":"detail","onclick":"viewDetail(this)","title":"提示"},
-                       {"name":"edit","auth_key":"brch","onclick":"editItem(this,'mytable')"},
-                       {"name":"active","cust_label":"启    用","onclick":"activeItem(this,'mytable')"},
-                       {"name":"cancel","auth_key":"brch_cancel","cust_label":"禁用","onclick":"cancelItem(this,'mytable')"},
-                       {"name":"delete","onclick":"delItem(this,'mytable')"}
-                    ]
-                cust_btn=[
-                        {
-                         "name":"test1",
-                         "onclick":"doTest('sd')",
-                         "text":"自定义",
-                         "icon":"ext_assessedbadge",
-                         "color":"success",
-                         "auth_key":"brch_cust",
-                         "title":"提示"
-                          "dynswitch":{"dynbind_field":"brch_state","show_condition":["0",“1”]}
-                         }]
-                sort=["oper_id", "oper_name"]
-                img_fields={"img_wrap":"img"}
-                id="mytable"
-                merge_cells=[
-                    {"coordinate":"3,0","rowspan":"10"},
-                    {"coordinate":"4,0","rowspan":"10"}
-                ]
-                callback="setPanelData"
-                width="120"
-                is_static="false"
-                data_auth="{operId:admin}"
-                default_page_length="10"
-                 <#--脱敏开关，为true时执行脱敏操作，fields_sec属性生效，默认false-->
-                fields_sec_open="true"
-                fields_sec=[
-                     {
-                     <#--表示对指定字段处理，同理可配置多个字段 -->
-                      "name":"brch_name",
-                     <#--mobile或name或fixphone等，指定默认脱敏类型-->
-                      "sec_type":"name",
-                      <#--other_rule为其他规则，不按照默认脱敏类型，自定义脱敏->
-                      "other_rule":"left,1"
-                 }
-                 <#--控制td内容的隐藏，默认开启，超过某一个length长度就会隐藏多余部分-->
-                 hide_beyond_content={"flag":"true","beyond_num":"5"}
-                 <#--关闭横向滚动条-->
-                 scrollx_flag=“false”
-             ]
+  <@table id="mytable" 
+	      url="${base}/demo/tag/query  
+	      btn=[
+		       {"name":"edit","onclick":"editItem()"},
+	            {"name":"delete","onclick":"delItem()"}
+		]
+				  cust_btn=[
+			            {"name":"test1",
+			             "onclick":"doTest()",
+			            "icon":"saved",
+			            "title":"提示"
+			            }
+		            ]
                 />
   <!-- 所有提交的url地址的前缀都要加上 ${base}
   1. 表格控件必须的三个参数：url、thead、fields
