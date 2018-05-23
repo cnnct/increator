@@ -20,6 +20,7 @@
     * [V2.2](ban-ben-geng-xin-shuo-ming/v22.md)
     * [V2.3](ban-ben-geng-xin-shuo-ming/v23.md)
     * [V2.4](ban-ben-geng-xin-shuo-ming/v24.md)
+    * [V2.5](ban-ben-geng-xin-shuo-ming/v25.md)
   * [框架代码获取](kuang-jia-dai-ma-huo-qu.md)
   * [框架key管理](kuang-jia-key-guan-li.md)
   * [团队介绍](zuo-zhe-jie-shao.md)
