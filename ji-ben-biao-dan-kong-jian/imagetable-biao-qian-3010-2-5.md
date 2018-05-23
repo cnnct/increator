@@ -37,16 +37,15 @@ query\_bar配合image_table标签使用，类似于form标签
                         		        {"name":"edit","onclick":"editItem()"},
                         	            {"name":"delete","onclick":"delItem()"}
                         		    ]
-                        		 cust_btn=[
-                        			    {
-                        			     "name":"test1",
-                        			     "onclick":"doTest()",
-                        			     "icon":"saved",
-                        			     "title":"提示"
-                        		        }
-                        		    ]
-                        		load_data_init="queryForm"
-/>
+            		             cust_btn=[
+                			        {
+                    			     "name":"test1",
+                    			     "onclick":"doTest()",
+                    			     "icon":"saved",
+                    			     "title":"提示"
+                    		        }
+            		    ]
+            		load_data_init="queryForm"/>
   <!-- 所有提交的url地址的前缀都要加上 ${base}  
   1. *id:table的id属性
   2. *url： 提交的后台地址 
