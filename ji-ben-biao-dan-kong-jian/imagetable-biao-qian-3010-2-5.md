@@ -30,22 +30,21 @@ query\_bar配合image_table标签使用，类似于form标签
 #### **image_table标签：**
 
 * 引入表格栏 **image_table** （其他控件参看**基本表单控件**和**扩展表单控件**），表格控件的使用包含在此例中
-*                 
-                        <@table id="mytable" 
-            	                url="${base}/demo/tag/query  
-                        	    btn=[
-                        		        {"name":"edit","onclick":"editItem()"},
-                        	            {"name":"delete","onclick":"delItem()"}
-                        		    ]
-            		             cust_btn=[
-                			        {
-                    			     "name":"test1",
-                    			     "onclick":"doTest()",
-                    			     "icon":"saved",
-                    			     "title":"提示"
-                    		        }
-            		    ]
-            		load_data_init="queryForm"/>
+<@table id="mytable" 
+	                url="${base}/demo/tag/query  
+	    btn=[
+		        {"name":"edit","onclick":"editItem()"},
+	            {"name":"delete","onclick":"delItem()"}
+		    ]
+		             cust_btn=[
+			        {
+			     "name":"test1",
+			     "onclick":"doTest()",
+			     "icon":"saved",
+			     "title":"提示"
+		        }
+		    ]
+		load_data_init="queryForm"/>
   <!-- 所有提交的url地址的前缀都要加上 ${base}  
   1. *id:table的id属性
   2. *url： 提交的后台地址 
@@ -55,6 +54,7 @@ query\_bar配合image_table标签使用，类似于form标签
       "doTest('sd')"这种传参方式，不支持'doTest("sd")'方式，icon属性为图标，默认为搜索图标，支持图标扩展可以使用font-increator下的图标，前缀"ext_"加图标样式名即可以使用，如"ext_assessedbadge"，详细可以参考button标签，auth_key为权限属性，匹配sys_func表中的url，提示title属性
   5. load_data_init【1.2.3】：load_data_init属性为是否初始化加载数据开关属性，默认为true（首次进页面加载数据）,【1.4】版本后，支持传入的值为“true”，“false”，或指定查询条件的formId，当值为“true”或不填该属性时，默认不带查询条件初始化加载数据，为“false”时不加载数据，为formId时，会带查询条件加载数据
 
+                                                                                                                                 
 * 表格数据显示例子如下图： （详情参考标签示例页） 
  ![](/assets/image_table1.png)
 
