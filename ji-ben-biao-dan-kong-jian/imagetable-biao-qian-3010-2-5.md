@@ -30,24 +30,26 @@ query\_bar配合image_table标签使用，类似于form标签
 #### **image_table标签：**
 
 * 引入表格栏 **image_table** （其他控件参看**基本表单控件**和**扩展表单控件**），表格控件的使用包含在此例中
-* 
-          <@table id="mytable" 
-        	      url="${base}/demo/tag/query  
-        	      btn=[
-        		        {"name":"edit","onclick":"editItem()"},
-        	            {"name":"delete","onclick":"delItem()"}
-        		    ]
-        		  cust_btn=[
-        			    {
-        			     "name":"test1",
-        			     "onclick":"doTest()",
-        			     "icon":"saved",
-        			     "title":"提示"
-        		        }
-        		    ]
-        		load_data_init="queryForm"
-                        />
+* 调用方法
+        <@table id="mytable" 
+    	      url="${base}/demo/tag/query  
+    	      btn=[
+    		        {"name":"edit","onclick":"editItem()"},
+    	            {"name":"delete","onclick":"delItem()"}
+    		    ]
+    		  cust_btn=[
+    			    {
+    			     "name":"test1",
+    			     "onclick":"doTest()",
+    			     "icon":"saved",
+    			     "title":"提示"
+    		        }
+    		    ]
+    		load_data_init="queryForm"
+            />
+            
   <!-- 所有提交的url地址的前缀都要加上 ${base}
+  
   1. *id:table的id属性
   2. *url： 提交的后台地址 
   3. btn：显示的按钮，目前有2个固定的常用按钮：
