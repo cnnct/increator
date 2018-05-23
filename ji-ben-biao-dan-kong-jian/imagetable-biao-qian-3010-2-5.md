@@ -19,8 +19,7 @@ query\_bar配合image_table标签使用，类似于form标签
 ```
     <@query_bar id="queryForm">
         <@form_group class="row">
-               <@input label="部门编号" name="brchId"  size="2"  />
-               <@input label="部门名称" name="brchName"  size="2"  />
+               <@input label="标题" name="title"  size="2"  />
                <@button  value="查询" onclick="queryInfo()" auth_key="brch_query"/>
         </@form_group>
     </@query_bar>
