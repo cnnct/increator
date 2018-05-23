@@ -65,47 +65,5 @@ query\_bar配合image_table标签使用，类似于form标签
 
   postformByImageTable(obj);//查询更新列表方法，obj包含属性tableId,tableSearchDataJson（详细查看demo示例）
 
-  getSelectedTableRows(tableId);//获取表格当前页选中行数据
-
-  getTableRowById(rowId,tableId);//根据rowId获取行数据,rowId值
-
-  getCodeName(value,type,tableId);//获取翻译的name值，从sys_code表中获取
-
-  getCodeValue(name,type,tableId);//获取翻译的value值，从sys_code表中获取
-
-  removeSelectedTableRows(tableId);//删除当前表格所有勾选的行数据，只适用于静态表格
-
-  removeTableRow(obj,tableId);//删除当前行数据，只适用于静态表格,obj为当前tr标签包含的元素
-
-  addTableRow(obj,tableId,idType);//新增表格行数据，只适用于静态表格,obj为传入新增的行数据，idType为首列勾选的样式，可填三个值：none，radio，checkbox，默认none
-
-  tableBandClick(obj)【2.4】;//为表格指定的td位置绑定自定义的方法，如果表格中没有数据就不绑定
-  其中包含tdPosition(数组类型[{}]包含需要绑定事件的td标签的坐标位置，其中子对象包含数rowIndex(行下标，   从0开始)和colIndex(列下标，从0开始)，如果不指定行，则绑定整列)和bandFunction绑定的自定义的方法名和 tableId
-  调用如：  tableBandClick({"tdPosition[{"colIndex":"2"}],"tableId":"mytable","bandFunction":"daTest1"});
- */
-  例:getCodeName("0","STATE","mytable");//值为"注销"
-
-  /**
-  * ajax表单提交，只针对表格
-  * @param url 提交地址
-  * @param formId 表单id，可为空
-  * @param convertName 需转换的name属性，可为空，例子："role1.id,role2.id ..."
-  * @param modalId form表单提交时的modalId
-  * @param tableSearchDataJson 表格查询所需的过滤数据，表格查询时不能为空
-  * @param tableId 表格Id值，必须传
-  * @param updateTableUrl 【1.2.3】如果要修改表格加载数据的url地址加入这一项
-  * @param closeModal 【1.2.3】是否在操作成功后关闭窗口，默认true
-  * @param isFnDrawCurrentTable【1.3】 这里为了支持子modal框可以加入表格的功能，需要指定是否处理完数据后刷新的是当前表格还是父级表格，默认：先去找父级表格刷新，true：刷新当前表格
-  * @param isFnDrawParentTable 【1.3】这里为了支持子modal框可以加入表格的功能，需要指定是否处理完数据后刷新的是当前表格还是父级表格，默认：先去找父级表格刷新，true：刷新父级表格
-  * @param redirectPageNum 【1.4】指定操作后指向的页码，注意页码从0开始，当该选项不传入时，默认刷新整个表格，即回到首页
-  */
-    postform({
-            "tableId":"mytable",
-            "url":"${base}/sys/auth/brch/save/add",
-            "formId":"add_form",
-            "modalId":"modal_add",
-            "closeModal":"false"
-        });
-  ```
 
 
