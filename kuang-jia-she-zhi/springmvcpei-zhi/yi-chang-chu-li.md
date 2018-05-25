@@ -1,7 +1,5 @@
 异常处理这块是在springmvc里定义的异常处理器，代码中只需要抛出，不用谢try、catch，类上经过实验也不用写throws new Exception方法。
 
-注：controller中无效，无法捕获处理，推荐在servImpl中抛出。
-
 具体例子如下：
 
 例如在登录系统时候抛异常
