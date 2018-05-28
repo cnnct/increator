@@ -1,5 +1,5 @@
 # image_table组合标签
-
+#### 注：ie11以下不兼容
 #### 注：表格后台查询返回到页面的List&lt;Map&gt;，由于都经过initPaginationByImageTable\(a,b,c\)方法处理，所以Map中的key都已经转为纯小写了。
 
 #### 由此，&lt;table&gt;标签中fields等属性也应该全部小写。
