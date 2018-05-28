@@ -13,7 +13,8 @@
 > > **first\_field：**第一个字段，是一个类似合并行的div。name--字段名，type--字段显示类型：图片、超链接、文本，color--颜色，同button，size\_type--大小类型：大、中、小，bold--是否加粗，icon--图标，同button，i\_color--图标颜色，同button。  
 > > **btn：**右上角的操作按钮，同table中的cust\_btn，只是没有转义和切换显示隐藏功能。  
 > > \***rows：**每行的字段属性：name--字段名，type--字段显示类型：超链接、文本，color--颜色，同button，size\_type--大小类型：大、中、小，bold--是否加粗，icon--图标，同button，i\_color--图标颜色，同button。
-
+> > ***row_id：**指定每列的id项
+> >**load_data_init:**="queryForm"
 #### block\_table标签的引入方式 :
 
 ```
