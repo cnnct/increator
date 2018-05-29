@@ -1,5 +1,7 @@
 # block\_table标签
 
+注：不兼容IE8及以下版本浏览器。
+
 #### block\_table**标签的属性 :**
 
 > block\_table标签属性如下：
