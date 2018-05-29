@@ -1,5 +1,7 @@
 # date\_time\_range**标签**
 
+注：不兼容IE8及以下版本浏览器。
+
 #### date\_time\_range**标签的属性 :**
 
 > date\_time\_range标签属性如下：
