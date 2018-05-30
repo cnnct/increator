@@ -27,7 +27,7 @@
 ```
 #### ueditor相关js：
 获取ueditor对象：var ueditor=UE.getEditor("ueditorId");
-初始化页面设置ueditor的内容ueditor.ready(function(){
+初始化页面设置ueditor的内容：ueditor.ready(function(){
 	 	ueditor.setContent("123");
 	 })
 
