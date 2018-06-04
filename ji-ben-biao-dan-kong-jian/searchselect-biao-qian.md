@@ -12,7 +12,7 @@
 > >
 > > **name ：** name属性
 > >
-> > \***sql\_key：** SQL语句对应的key
+> > **sql\_key：** SQL语句对应的key , 问号是搜索条件占位符 , 代表输入框的输入内容 , 双问号是sql\_condition点位符【2.6】
 > >
 > > **sql\_condition【2.6】：** sql\_condition属性用于配合sql\_key属性，当对应的后台sql需要传入参数替换“??”占位符时填写，也可以用登录用户的id替换占位符如sql\_condition="ACC\_RECHG\_TYPE&&&session.operId",其中‘ACC\_RECHG\_TYPE’会用来替换第一个占位符，登录用户的id会用来替换第二个占位符；
 > >
