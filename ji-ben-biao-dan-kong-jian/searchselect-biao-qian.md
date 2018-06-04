@@ -1,6 +1,7 @@
 # search\_select**标签**
 
 #### search\_select**标签的属性 :**
+
 注意：remote验证需要开启同步验证属性，详细见form标签
 
 > search\_select标签属性如下：
@@ -12,6 +13,8 @@
 > > **name ：** name属性
 > >
 > > \***sql\_key：** SQL语句对应的key,这里支持多条sql语句以“；”分隔，对应select\_item属性的option项
+> >
+> > **sql\_condition【2.6】：** sql\_condition属性用于配合sql\_key属性，当对应的后台sql需要传入参数替换“??”占位符时填写，也可以用登录用户的id替换占位符如sql\_condition="ACC\_RECHG\_TYPE&&&session.operId",其中‘ACC\_RECHG\_TYPE’会用来替换第一个占位符，登录用户的id会用来替换第二个占位符；
 > >
 > > \***show\_item：** 显示的内容
 > >
@@ -25,11 +28,9 @@
 > >
 > > \***select\_item ：**select的option选项，对应sql\_key对应的语句
 > >
-> > **cust_get_data_clazz【2.1】：** 该功能用于支持自定义加载tree的初始化数据，如果该项存在，则将屏蔽sql_key的加载数据功能，指定加载类和方法,规则示例将在下面展示，具体示例见2.0平台基础项目demo页
+> > **cust\_get\_data\_clazz【2.1】：** 该功能用于支持自定义加载tree的初始化数据，如果该项存在，则将屏蔽sql\_key的加载数据功能，指定加载类和方法,规则示例将在下面展示，具体示例见2.0平台基础项目demo页
 > >
-> > **cust_get_data_param【2.1】：** 该功能用于支持自定义加载tree的初始化数据，如果该项存在，则将屏蔽sql_key的加载数据功能，指定加载类和方法的参数（现阶段只支持单个参数且为Map类型）,规则示例将在下面展示，具体示例见2.0平台基础项目demo页
-> >
-
+> > **cust\_get\_data\_param【2.1】：** 该功能用于支持自定义加载tree的初始化数据，如果该项存在，则将屏蔽sql\_key的加载数据功能，指定加载类和方法的参数（现阶段只支持单个参数且为Map类型）,规则示例将在下面展示，具体示例见2.0平台基础项目demo页
 
 #### search\_select标签的引入方式示例 :
 
