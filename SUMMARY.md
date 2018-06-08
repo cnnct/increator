@@ -26,7 +26,7 @@
   * [团队介绍](zuo-zhe-jie-shao.md)
 * [基本标签控件](ji-ben-biao-dan-kong-jian.md)
   * [init\_page标签\(页面加载相关\)](ji-ben-biao-dan-kong-jian/initpage-biao-qian-3010-shi-3011.md)
-  * [span标签\(文本块\)](ji-ben-biao-dan-kong-jian/spanbiao-qian.md)
+  * [span标签文本块](ji-ben-biao-dan-kong-jian/spanbiao-qian.md)
   * [text\_area标签\(文本域\)](ji-ben-biao-dan-kong-jian/textarea-biao-qian-3010-shi-3011.md)
   * [button标签\(按钮\)](ji-ben-biao-dan-kong-jian/buttonbiao-qian-3010-shi-3011.md)
   * [label标签\(标签、标记\)](ji-ben-biao-dan-kong-jian/labelbiao-qian-3010-shi-3011.md)
