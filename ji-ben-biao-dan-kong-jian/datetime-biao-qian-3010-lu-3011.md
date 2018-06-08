@@ -47,9 +47,9 @@
 > >
 > > **ctrl\_min\_id：**其他日期控件id：用于限制其他日期控件的最小可选值,当前日期控件选完时间后触发效果。当前日期控件所选值即为被控制日期控件的最小值。
 > >
-> > **start\_view：**开始视图，可选值：0\(分视图\)、1\(时视图\)、2\(日视图\)、3\(月视图\)、4\(年视图\)，可参考[http://www.bootcss.com/p/bootstrap-datetimepicker/](http://www.bootcss.com/p/bootstrap-datetimepicker/)。
+> > **start\_view【2.6】：**开始视图，可选值：0\(分视图\)、1\(时视图\)、2\(日视图\)、3\(月视图\)、4\(年视图\)，可参考[http://www.bootcss.com/p/bootstrap-datetimepicker/](http://www.bootcss.com/p/bootstrap-datetimepicker/)。
 > >
-> > **end\_view：**结束视图，可选值：0\(分视图\)、1\(时视图\)、2\(日视图\)、3\(月视图\)、4\(年视图\)，可参考[http://www.bootcss.com/p/bootstrap-datetimepicker/](http://www.bootcss.com/p/bootstrap-datetimepicker/)。注：当大于start\_view时，值等于start\_view。
+> > **end\_view【2.6】：**结束视图，可选值：0\(分视图\)、1\(时视图\)、2\(日视图\)、3\(月视图\)、4\(年视图\)，可参考[http://www.bootcss.com/p/bootstrap-datetimepicker/](http://www.bootcss.com/p/bootstrap-datetimepicker/)。注：当大于start\_view时，值等于start\_view。
 
 #### date\_time标签的引入方式 :
 
