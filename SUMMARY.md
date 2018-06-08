@@ -39,7 +39,7 @@
   * [code\_checkbox标签\(sys\_code表复选\)](ji-ben-biao-dan-kong-jian/codecheckbox-biao-qian-3010-lu-3011.md)
   * [select标签\(下拉选择\)](ji-ben-biao-dan-kong-jian/selectbiao-qian.md)
   * [code\_select标签\(sys\_code表下拉选择\)](ji-ben-biao-dan-kong-jian/codeselect-biao-qian-3010-shi-3011.md)
-  * [date\_time标签\(日期时间\)](ji-ben-biao-dan-kong-jian/datetime-biao-qian-3010-lu-3011.md)
+  * [date\_time标签\(日期时间选择\)](ji-ben-biao-dan-kong-jian/datetime-biao-qian-3010-lu-3011.md)
   * [form标签\(表单\)](ji-ben-biao-dan-kong-jian/formbiao-dan-biao-qian.md)
   * [form\_group标签\(表单内格式化特定内容\)](ji-ben-biao-dan-kong-jian/formgroup-biao-qian.md)
   * [ueditor标签\(富文本编辑器\)【1.1】](ji-ben-biao-dan-kong-jian/ueditorbiao-qian.md)
