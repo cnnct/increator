@@ -31,7 +31,7 @@ var options = {
     close: true,
     url: '/manageplat/sys/auth/brch/index',
     parent_id: '0106',
-    page_refresh: 'true',
+    page_refresh: true,
     para:{para1:'123',para2:'abc'}
 }
 openNewMenuTab(options);
