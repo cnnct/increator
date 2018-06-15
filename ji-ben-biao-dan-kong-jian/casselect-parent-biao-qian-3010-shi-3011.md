@@ -140,7 +140,7 @@ child_info=[
 #### 实用方法：
 * 1.动态自定义加载顶级父节点的数据项：
 
-		var postValue = $("#test_input").val();
+		
 		var custGetDataParam={"test":"test"};
 		var custGetDataParamStr=JSON.stringify(custGetDataParam);
 		/**
