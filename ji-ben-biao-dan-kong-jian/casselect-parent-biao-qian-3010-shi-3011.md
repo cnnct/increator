@@ -137,7 +137,7 @@ child_info=[
 ![](/assets/casSelect.png)
 
 
-#### 实用方法：
+#### 实用方法【2。6】：
 * 1.动态自定义加载顶级父节点的数据项：
 
 		var custGetDataParam={"test":"test"};
