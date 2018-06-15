@@ -108,10 +108,11 @@ child_info=[
 > > **search\_have 【1.2.3】:** search\_have为是否需要搜索框，可以填写的值为"true","false",默认false
 > > **child_sql_condition【1.3】：**该属性是为了解决el表达式在ftl数组属性中解析不了的问题，
 > >即child_info属性中的sql_condition属性被该属性替换，引入方式：child_sql_condition="${operVo.brch.brchId},2;4"，child_info属性中不同不同元素的sql_condition属性需要的值用‘；’分割，注意：【1.4】版本后分隔符由“，”替换成为“&&&”,如child_sql_condition="${operVo.brch.brchId}&&&2;4"
-
-
-
-
+>>
+> > **cust_get_data_clazz【2.6】：** 该功能用于支持自定义加载的初始化数据，如果该项存在，则将屏蔽sql_key的加载数据功能，指定加载类和方法,规则示例将在下面展示，具体示例见2.0平台基础项目demo页
+> >
+> > **cust_get_data_param【2.6】：** 该功能用于支持自定义加载的初始化数据，如果该项存在，则将屏蔽sql_key的加载数据功能，指定加载类和方法的参数（现阶段只支持单个参数且为Map类型）,规则示例将在下面展示，具体示例见2.0平台基础项目demo页
+> >
 
 
 
