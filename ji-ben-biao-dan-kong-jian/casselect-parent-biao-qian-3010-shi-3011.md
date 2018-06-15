@@ -136,3 +136,27 @@ child_info=[
 
 ![](/assets/casSelect.png)
 
+
+#### 实用方法：
+* 1.动态自定义加载顶级父节点的数据项：
+
+		var postValue = $("#test_input").val();
+		var custGetDataParam={"test":"test"};
+		var custGetDataParamStr=JSON.stringify(custGetDataParam);
+		/**
+		 * 动态初始化级联顶级父节点的加载数据
+		 * obj包括:
+		 *  	showField:指定加载级联节点时显示的字段
+		 *  	valueField:指定加载级联节点时value字段
+		 *  	casNodeId:指定需要动态初始化数据的节点id
+		 *  	custGetDataClazz:指定后台加载数据的class类
+		 *  	custGetDataParam:指定后台加载数据的class类的入参，map类型
+		 */
+		initCasSelectNode({
+			showField: "org_name", 
+			valueField:"org_id",
+			casNodeId:"org_id",
+			custGetDataClazz:"com.cnnct.utils.CustRepSysTagDataUtils[getCasSelectList]",
+			custGetDataParam:custGetDataParamStr
+		});
+
