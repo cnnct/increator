@@ -50,7 +50,7 @@ query\_bar配合table标签使用，类似于form标签
                         {"name":"三级标题","colspan":"2"}
                     ],
                     [
-                        {"name":"编号"，"size":"2"，"position":"center"},
+                        {"field_col":"oper_id","name":"编号"，"size":"2"，"position":"center","hide_beyond_content":"5"},
                         {"name":"名称", "size":"2"},
                         {"name":"机构","size":"2"},
                         {"name":"状态"},
