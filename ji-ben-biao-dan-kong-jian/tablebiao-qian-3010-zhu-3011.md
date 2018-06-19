@@ -111,7 +111,7 @@ query\_bar配合table标签使用，类似于form标签
   <!-- 所有提交的url地址的前缀都要加上 ${base}
   1. 表格控件必须的三个参数：url、thead、fields
   2. *url： 提交的后台地址 
-  3. *thead【1.2】： 表头显示的字段名（不包括第一列的id列），thead在【1.2】以后支持多级表头，每一列标题头支持3个属性，name属性指定列名，rowspan属性支持指定标题头占用的行数，默认值为1，colspan属性支持指定标题头占用的列数，默认值为1,【2.0】版本后有size属性，如果不填，默认自适应,【2.1版本】后支持position属性，支持left，center，right属性，控制数据列的位置，【2.6】版本后加入field_col属性和hide_beyond_content，该属性用于绑定fields属性的对应字段，只对有效列（即多级表头时有效对应加载数据列的独立列，对于单级标题，每一列都是有效列）有作用，如果要支持自定义隐藏属性hide_beyond_content和位置控制position属性就需要加列绑定属性field_col,指定对应列，如"field_col":"oper_name"
+  3. *thead【1.2】： 表头显示的字段名（不包括第一列的id列），thead在【1.2】以后支持多级表头，每一列标题头支持3个属性，name属性指定列名，rowspan属性支持指定标题头占用的行数，默认值为1，colspan属性支持指定标题头占用的列数，默认值为1,【2.0】版本后有size属性，如果不填，默认自适应,【2.1版本】后支持position属性，支持left，center，right属性，控制数据列的位置，【2.6】版本后加入field_col属性和hide_beyond_content，该属性用于绑定fields属性的对应字段，只对有效列（即多级表头时有效对应加载数据列的独立列，对于单级标题，每一列都是有效列）有作用，如果要支持自定义隐藏属性hide_beyond_content和位置控制position属性就需要加列绑定属性field_col,指定对应列，如"field_col":"oper_name",【2.6】后加入hide_beyond_content属性，用于自定义控制隐藏多余内容，该局部属性优先级高于全局属性的hide_beyond_content属性，如"hide_beyond_content":"4"
   4. *fields：sql语句中显示的字段名，【1.4】版本后fields属性可以不填id项，如果不填id项则认为表格不需要首列勾选，则idtype属性无效，当id列存在时，idtype属性的单选框和复选框才有效
   5. translate：待转义的字段，格式为json格式![](/assets/table3.png)
   6. idtype：id列形式（单选框 radio、复选框 checkbox），默认复选框。
