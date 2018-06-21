@@ -106,6 +106,13 @@
 ```
         getCheckedNodesText(treeId);//js代码，返回字符串，以","分割
 ```
-
+#### input_tree绑定oncheck事件方法：
+        /**
+	 *绑定input_tree 绑定oncheck方法
+	 *tree1为treeId
+	 */
+	function tree1OnCheck(){
+		console.log("ok");
+	}
 
 
