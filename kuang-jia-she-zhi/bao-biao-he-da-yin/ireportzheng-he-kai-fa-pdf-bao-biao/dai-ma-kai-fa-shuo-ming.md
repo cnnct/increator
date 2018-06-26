@@ -223,7 +223,7 @@
 >         // ②并将参数放入缓存中，供报表使用，
 >         //    其中第三个入参是用于jasper打印，需要额外增加的入参，实际就是一个map的key
 >         //    可以是任意不重复的值（需要pdf打印的功能不能重复），一般就用当前url比较好理解
->         resultData = getPageMap(request,resultData);
+>         resultData = getPageMap(request,resultData,"/sys/auth/brch/query");
 >         //获取部门列表        
 >         List<Map> brchList = brchServ.getBrchList(resultData);
 >         // 获取总记录数
