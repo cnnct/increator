@@ -207,37 +207,67 @@
 >其他前台代码与上面的类似，主要是后端代码有所变动：
 >1.ctrl层：
 > ```  
-     /**
-     * 获取部门信息列表
-     * @param request
-     * @return
-     * @throws Exception 
-     */
-    @RequestMapping("/query")
-    @ResponseBody //必须以json格式返回
-    public ResultData queryBrchInfo(HttpServletRequest request) throws Exception {
-        ResultData resultData = new ResultData(Result_Code.SUCCESS);
-        // sql条件（用于sql语句中where的筛选条件，若有，则如下写法）
-        resultData.put("org_id", getOper().getOrgId());
-        //①分页参数
-        // ②并将参数放入缓存中，供报表使用，
-        //    其中第三个入参是用于jasper打印，需要额外增加的入参，实际就是一个map的key
-        //    可以是任意不重复的值（需要pdf打印的功能不能重复），一般就用当前url比较好理解
-        resultData = getPageMap(request,resultData);
-        //获取部门列表        
-        List<Map> brchList = brchServ.getBrchList(resultData);       
-        // 获取总记录数
-        Long recordsTotal = brchServ.getBrchCount(resultData);      
-        //模拟将数据插入sys_report表打印备份
-        SysActionLogCust actionLog = baseServ.setActionLog(request, Tr_Code.QUERY_LOTTERY);
-        JSONObject json=new JSONObject();
-        json.put("actionNo", actionLog.getActionNo());
-        json.put("data", brchList);
-        baseServ.saveSysReport(actionLog, json, "/ftl/table_demo.ftl", Sys_Code.REPORT_HTML, 1L, "/demo/tag/tagExample");
-        // 返回数据，调用此方法
-        initPagination(resultData, brchList, recordsTotal);
-        return resultData;
-    }
+>     /**
+>      * 获取部门信息列表
+>      * @param request
+>      * @return
+>      * @throws Exception 
+>      */
+>     @RequestMapping("/query")
+>     @ResponseBody //必须以json格式返回
+>     public ResultData queryBrchInfo(HttpServletRequest request) throws Exception {
+>         ResultData resultData = new ResultData(Result_Code.SUCCESS);
+>         // sql条件（用于sql语句中where的筛选条件，若有，则如下写法）
+>         resultData.put("org_id", getOper().getOrgId());
+>         //①分页参数
+>         // ②并将参数放入缓存中，供报表使用，
+>         //    其中第三个入参是用于jasper打印，需要额外增加的入参，实际就是一个map的key
+>         //    可以是任意不重复的值（需要pdf打印的功能不能重复），一般就用当前url比较好理解
+>         resultData = getPageMap(request,resultData,"/sys/auth/brch/query");
+>         //获取部门列表        
+>         List<Map> brchList = brchServ.getBrchList(resultData);
+>         // 获取总记录数
+>         Long recordsTotal = brchServ.getBrchCount(resultData);
+>         // 返回数据，调用此方法
+>         initPagination(resultData, brchList, recordsTotal);
+>         return resultData;
+>     }
+>     
+>     
+>     /**
+>      * 测试报表用
+>      * @param request
+>      * @return
+>      * @throws Exception
+>      */
+>     @RequestMapping("/showReport")
+>     public String showReport(HttpServletRequest request, Model model) throws Exception {
+>         //①动态指定报表模板url
+>         model.addAttribute("url", "demo/brch_list.jasper");
+>         
+>         //②指定报表格式
+>         //model.addAttribute("format", "pdf"); // 若不设置此属性，则默认pdf,报表格式,html,xls,pdf，pdf效果最好
+>         
+>         //③数据源，先查询条件，可从缓存中获取，也可重新赋值
+>         //入参即为对应在的查询功能缓存的查询条件的map的key，其key值与queryBrchInfo方法中指定key为同一个
+>         Map reportMap=super.getTableSearchData("/sys/auth/brch/query");
+>         model.addAttribute("jrMainDataSource", brchServ.getBrchList(reportMap));
+>         
+>         //④取合计行，可举一反三，可计算多个合计数
+>         List<Map> list=brchServ.getBrchSum(reportMap);
+>         Map map=list.get(0);
+>         
+>         //⑤组装参数
+>         reportMap.put("p_TotAmt", map.get("level_sum"));//金额合计行，从上面的查询结果中获取（举例）
+>         reportMap.put("p_Title", "我是网点报表");
+>         reportMap.put("p_Auditor",super.getOperId());
+>         reportMap.put("p_Creator",super.getOperId());//从session中取当前操作员
+>         model.addAllAttributes(reportMap); // 其它参数
+>
+>         //⑥返回视图页
+>         return "reportView"; // 对应jasper-views.xml中的bean id
+>     }
+
 > ```
 
 
