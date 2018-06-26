@@ -258,8 +258,11 @@
 >         //③数据源，先查询条件，可从缓存中获取，也可重新赋值
 >         //入参即为对应在的查询功能缓存的查询条件的map的key，其key值与queryBrchInfo方法中指定key为同一个
 >         Map reportMap=super.getTableSearchData("/sys/auth/brch/query");
->         model.addAttribute("jrMainDataSource", brchServ.getBrchList(reportMap));
->         
+        //模拟一个已知的actionNo
+>         JSONObject content=baseServ.getSysReportContent("4cf55d6f-3bae-47bc-a4db-28cf2db853ea");
+>        List<Map> dataList=(List<Map>)content.get("data");
+>         model.addAttribute("jrMainDataSource", dataList);
+
 >         //④取合计行，可举一反三，可计算多个合计数
 >         List<Map> list=brchServ.getBrchSum(reportMap);
 >         Map map=list.get(0);
