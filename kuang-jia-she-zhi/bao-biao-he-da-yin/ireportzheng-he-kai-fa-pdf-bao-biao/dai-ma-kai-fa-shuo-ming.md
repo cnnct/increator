@@ -202,6 +202,36 @@
 >        select to_char(sum(nvl(BRCH_LEVEL,0)),'fm999990.00') AS level_sum from sys_branch
 >     </select>
 > ```
+***注意：** 【2.6】版本后加入功能，可以将需要打印的报表数据记录在sys_report表中，可以根据actionNo流水号随时取出要打印的内容，相关代码如下：
 
+>其他前台代码与上面的类似，主要是后端代码有所变动：
+>1.ctrl层：
+> ```  
+     /**
+     * 获取部门信息列表
+     * @param request
+     * @return
+     * @throws Exception 
+     */
+    @RequestMapping("/query")
+    @ResponseBody //必须以json格式返回
+    public ResultData queryBrchInfo(HttpServletRequest request) throws Exception {
+        ResultData resultData = new ResultData(Result_Code.SUCCESS);
+        // sql条件（用于sql语句中where的筛选条件，若有，则如下写法）
+        resultData.put("org_id", getOper().getOrgId());
+        //①分页参数
+        // ②并将参数放入缓存中，供报表使用，
+        //    其中第三个入参是用于jasper打印，需要额外增加的入参，实际就是一个map的key
+        //    可以是任意不重复的值（需要pdf打印的功能不能重复），一般就用当前url比较好理解
+        resultData = getPageMap(request,resultData,"/sys/auth/brch/query");
+        //获取部门列表        
+        List<Map> brchList = brchServ.getBrchList(resultData);
+        // 获取总记录数
+        Long recordsTotal = brchServ.getBrchCount(resultData);
+        // 返回数据，调用此方法
+        initPagination(resultData, brchList, recordsTotal);
+        return resultData;
+    }
+> ```
 
 
