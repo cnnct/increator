@@ -228,6 +228,13 @@
 >         List<Map> brchList = brchServ.getBrchList(resultData);
 >         // 获取总记录数
 >         Long recordsTotal = brchServ.getBrchCount(resultData);
+>        //模拟将数据插入sys_report表打印备份
+>       SysActionLogCust actionLog = baseServ.setActionLog(request, Tr_Code.QUERY_LOTTERY);
+>        JSONObject json=new JSONObject();
+>       json.put("actionNo", actionLog.getActionNo());
+>        json.put("data", brchList);
+>        baseServ.saveSysReport(actionLog, json, "/ftl/table_demo.ftl", Sys_Code.REPORT_HTML, ?>1L, "/demo/tag/tagExample");
+        
 >         // 返回数据，调用此方法
 >         initPagination(resultData, brchList, recordsTotal);
 >         return resultData;
