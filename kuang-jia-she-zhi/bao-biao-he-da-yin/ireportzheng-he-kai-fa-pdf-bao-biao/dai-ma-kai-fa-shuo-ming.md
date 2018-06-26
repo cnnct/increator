@@ -223,11 +223,17 @@
         // ②并将参数放入缓存中，供报表使用，
         //    其中第三个入参是用于jasper打印，需要额外增加的入参，实际就是一个map的key
         //    可以是任意不重复的值（需要pdf打印的功能不能重复），一般就用当前url比较好理解
-        resultData = getPageMap(request,resultData,"/sys/auth/brch/query");
+        resultData = getPageMap(request,resultData);
         //获取部门列表        
-        List<Map> brchList = brchServ.getBrchList(resultData);
+        List<Map> brchList = brchServ.getBrchList(resultData);       
         // 获取总记录数
-        Long recordsTotal = brchServ.getBrchCount(resultData);
+        Long recordsTotal = brchServ.getBrchCount(resultData);      
+        //模拟将数据插入sys_report表打印备份
+        SysActionLogCust actionLog = baseServ.setActionLog(request, Tr_Code.QUERY_LOTTERY);
+        JSONObject json=new JSONObject();
+        json.put("actionNo", actionLog.getActionNo());
+        json.put("data", brchList);
+        baseServ.saveSysReport(actionLog, json, "/ftl/table_demo.ftl", Sys_Code.REPORT_HTML, 1L, "/demo/tag/tagExample");
         // 返回数据，调用此方法
         initPagination(resultData, brchList, recordsTotal);
         return resultData;
