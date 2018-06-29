@@ -27,7 +27,7 @@
     <@button id="edit_btn" icon="saved" value="提交" onclick="save()" check_resubmit="true"/>
     <@button id="repeat" type="button" value="清空" icon="repeat" onclick="formReset('edit_form')"/>
 </@modal>
-注：如果模态框的脚部没有内容，可以不写，如详情页：
+（注：如果模态框的脚部没有内容，可以不写，如详情页：）
 <#-- ===================== 详情框 ===================== -->
 <@modal id="modal_view" modal_title="详情" class="modal-lg"/>
 主页面按钮：
