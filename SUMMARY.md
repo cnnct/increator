@@ -86,6 +86,7 @@
   * [time\_line标签\(时间进程\)【2.5】](ji-ben-biao-dan-kong-jian/timeline-biao-qian-3010-2-5.md)
   * [cropper标签\(图片裁剪\)【2.5】](ji-ben-biao-dan-kong-jian/cropperbiao-qian.md)
   * [image\_table标签\(图片表格\)【2.5】](ji-ben-biao-dan-kong-jian/imagetable-biao-qian-3010-2-5.md)
+  * modal标签\(新型模态框\)【2.6】
 * [应用工具方法调用](ying-yong-gong-ju-fang-fa-diao-yong-3010-shi-3001-lu-3011.md)
   * [模态弹框](ying-yong-gong-ju-fang-fa-diao-yong-3010-shi-3001-lu-3011/mo-tai-dan-kuang-3010-shi-3011.md)
   * [form表单验证【1.3】](ying-yong-gong-ju-fang-fa-diao-yong-3010-shi-3001-lu-3011/formbiao-dan-yan-zheng-3010-1-3.md)
