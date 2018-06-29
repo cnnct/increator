@@ -1,8 +1,8 @@
-# modal\_body**标签**
+# modal**标签**
 
 #### 注：此新型模态框意在替换modal\_iframe，推荐使用此标签。
 
-#### modal\_body**标签的属性 :**
+#### modal**标签的属性 :**
 
 > **其中必填项加上了\*号，如下所示 :**
 >
@@ -18,7 +18,7 @@
 > >
 > > **foot\_content\_position【2.3】：**模态框脚中内容的位置\(默认right\)：left\(左\)、right\(右\)、center\(居中\)，如果为center，那么模态框脚中标签的一些属性可能会失效，比如button的size、position。
 
-#### modal\_body标签的引入方式 :
+#### modal标签的引入方式 :
 
 ```
 主页面引入：
@@ -36,16 +36,16 @@
 <script>
     <#-- 修改 -->
     function toEdit(obj,tableId) {
-    	//获取列id
-    	var id=getFirstInputId(obj);
-    	var row=getTableRowById(id,tableId);
-    	var codeName=getCodeName("1","STATE",tableId);
-    	if(row.del_flag==codeName){
-    		alert("已经注销的不能修改");
-    		return;
-    	}else{
-	        $("#modal_edit").modal({remote:"${base}/sys/auth/role/toEdit/" + id});
-    	}
+        //获取列id
+        var id=getFirstInputId(obj);
+        var row=getTableRowById(id,tableId);
+        var codeName=getCodeName("1","STATE",tableId);
+        if(row.del_flag==codeName){
+            alert("已经注销的不能修改");
+            return;
+        }else{
+            $("#modal_edit").modal({remote:"${base}/sys/auth/role/toEdit/" + id});
+        }
     }
 </script>
 
@@ -73,10 +73,10 @@
         }
         //提交表单
         postform({
-        	"tableId":"mytable",
-        	"url":"${base}/sys/auth/role/save/edit",
-        	"formId":"edit_form",
-        	"modalId":"modal_edit"
+            "tableId":"mytable",
+            "url":"${base}/sys/auth/role/save/edit",
+            "formId":"edit_form",
+            "modalId":"modal_edit"
         });
     }
     <#-- 表单验证 -->
@@ -108,15 +108,15 @@
             }
         },
         messages:{
-	        "roleDesc": {
-	                remote:"该用户名已经存在"
-	           }
+            "roleDesc": {
+                    remote:"该用户名已经存在"
+               }
         }
     })
 </script>
 ```
 
-#### modal\_body标签显示效果图 :
+#### modal标签显示效果图 :
 
 
 
