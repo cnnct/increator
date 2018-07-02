@@ -28,8 +28,10 @@
     <@button id="repeat" type="button" value="清空" icon="repeat" onclick="formReset('edit_form')"/>
 </@modal>
 （注：如果模态框的脚部没有内容，可以不写，如：<@modal class="modal-lg" id="modal_edit" modal_title="修改"/>）
+
 主页面按钮：
 <@button value="修改" onclick="toEdit(this,'mytable')" icon="edit"/>
+
 主页面js部分：
 <script>
     <#-- 修改 -->
