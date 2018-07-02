@@ -31,7 +31,7 @@
 <#-- ===================== 详情框 ===================== -->
 <@modal id="modal_view" modal_title="详情" class="modal-lg"/>
 主页面按钮：
-<@button value="批量激活" onclick="activeAndCancel('active')" icon="ok-sign"/>
+<@button value="修改" onclick="toEdit(this,'mytable')" icon="edit"/>
 主页面js部分：
 <script>
     <#-- 修改 -->
