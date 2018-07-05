@@ -136,6 +136,7 @@
   * [SQL查询返回结果大小写问题](kuang-jia-she-zhi/sqlcha-xun-fan-hui-jie-guo-da-xiao-xie-wen-ti.md)
   * [日志表分库分表](kuang-jia-she-zhi/ri-zhi-biao-fen-ku-fen-biao.md)
   * [存储过程和函数的使用](kuang-jia-she-zhi/cun-chu-guo-cheng-he-han-shu-de-shi-yong.md)
+  * [验证码配置【2.6】](kuang-jia-she-zhi/yan-zheng-ma-pei-zhi-3010-2-6.md)
 * [微信公众号开发](kuang-jia-she-zhi/wei-xin-kai-fa.md)
   * [授权【2.2】](kuang-jia-she-zhi/wei-xin-kai-fa/shou-quan.md)
   * [分享【2.2】](kuang-jia-she-zhi/wei-xin-kai-fa/fen-xiang.md)
