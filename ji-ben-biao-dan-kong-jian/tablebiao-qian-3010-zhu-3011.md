@@ -234,4 +234,4 @@ query\_bar配合table标签使用，类似于form标签
   ![](/assets/table_treegrid1.png)
   2. 后台中必须回传的数据带children数据：（示例图如下）
   ![](/assets/table_treegrid2.png)
-    
+  3.
