@@ -1,8 +1,8 @@
-# echarts**标签**
+# echarts3**标签**
 
-#### echarts**标签的属性 :**
+#### echarts3**标签的属性 :**
 
-> echarts标签属性如下：
+> echarts3标签属性如下：
 >
 > **其中id,option_url为必填项,下面必填项加上了\*号**；
 >
@@ -26,7 +26,7 @@
 #### echarts标签的引入方式 :
 
 ```
-  <@echarts 
+  <@echarts3 
 		id="echarts_post" 
 		size="6" 
 		option_url="${base}/tag/echarts" 
