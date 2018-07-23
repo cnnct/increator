@@ -1,7 +1,7 @@
 # echarts3**标签**
 
 #### echarts3**标签的属性 :**
-#### 注意echarts3标签是在echarts的基础上升级到的3.0版本，标签的属性功能和echarts标签一致，但图表的渲染效果和后台封装的属性api有所差别
+#### 注意echarts3标签是在echarts的基础上升级到的3.0版本，标签的属性功能和echarts标签一致，但图表的渲染效果和后台封装的属性api有所差别，且引用echarts3时必须切换ECharts-3.0.0.3.jar的包，前台init_page配套属性需要调整，注意两个 版本不可以混用
 > echarts3标签属性如下：
 >
 > **其中id,option_url为必填项,下面必填项加上了\*号**；
