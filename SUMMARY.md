@@ -88,6 +88,7 @@
   * [cropper标签\(图片裁剪\)【2.5】](ji-ben-biao-dan-kong-jian/cropperbiao-qian.md)
   * [image\_table标签\(图片表格\)【2.5】](ji-ben-biao-dan-kong-jian/imagetable-biao-qian-3010-2-5.md)
   * [modal标签\(新型模态框\)【2.6】](ji-ben-biao-dan-kong-jian/modalbiao-7b7e28-xin-xing-mo-tai-684629-3010-2-6.md)
+  * [echarts3标签（图表）【2.7】](ji-ben-biao-dan-kong-jian/echarts3biao-qian-ff08-tu-biao-ff09-3010-2-7.md)
 * [应用工具方法调用](ying-yong-gong-ju-fang-fa-diao-yong-3010-shi-3001-lu-3011.md)
   * [模态弹框](ying-yong-gong-ju-fang-fa-diao-yong-3010-shi-3001-lu-3011/mo-tai-dan-kuang-3010-shi-3011.md)
   * [form表单验证【1.3】](ying-yong-gong-ju-fang-fa-diao-yong-3010-shi-3001-lu-3011/formbiao-dan-yan-zheng-3010-1-3.md)
