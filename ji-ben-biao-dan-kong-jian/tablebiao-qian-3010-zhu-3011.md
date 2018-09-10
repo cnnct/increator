@@ -106,6 +106,7 @@ query\_bar配合table标签使用，类似于form标签
                  hide_beyond_content={"flag":"true","beyond_num":"5"}
                  <#--关闭横向滚动条-->
                  scrollx_flag=“false”
+                 scrolly=“400”
              ]
                 />
   <!-- 所有提交的url地址的前缀都要加上 ${base}
@@ -153,6 +154,7 @@ query\_bar配合table标签使用，类似于form标签
   27. scrollx_flag【2.4】：该属性为控制表格是否需要滚动条功能，在表格列数据比较多的时候开启，可填值为true和false，默认true
   28. banner_have【2.4】：该属性为控制是否给全局的文字加底纹旗帜，可填值为true和false，默认false
   29. total_row【2.4】：该属性用于控制合计行，合计行可以合并，在开启该功能时后台必须自行加一行对应的数据，前台可以进行合并total_row=[{"x_coordinate":"2","colspan":"3"}]，其他不合并的都默认占一列，x_coordinate为x起始坐标（从0开始，这里是排除了冻结列的起始坐标）,colspan为占用的列数，如果合计行开启又不需要合并列，可以total_row=[]，具体见文档
+  30. scrolly【2.7】： 该属性开启纵向滚动条，需要指定固定的高度，默认不开启该属性
   ，**注意：该方法必须在表格加载前被定义**
   ```
 * 表格数据显示例子如下图：  
