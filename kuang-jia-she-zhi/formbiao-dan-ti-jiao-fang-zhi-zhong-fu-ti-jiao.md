@@ -1,4 +1,5 @@
-* 1.后台写法：controller方法名必须以add，update，save，update，del开头
+
+* 1.后台写法：controller方法名必须以add，update，save，del开头
 ![](/assets/repeat.png)
 * 2.前台控制，前台通过button控制：
   ![](/assets/repeat1.png)
