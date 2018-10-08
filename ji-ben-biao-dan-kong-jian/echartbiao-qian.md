@@ -21,6 +21,8 @@
 > > **position:** 为位置，可以填写的值为left，center，right，默认left
 > >
 > > **interval_time:** 为定时器刷新时间，单位毫秒，如果有值则实时刷新图表
+>>
+> > **auth\_key【2.7】:** 权限属性，如auth\_key="brch\_add",非必填项，如果没有该属性，则为非权限按钮，如果存在，
 
 
 #### echarts标签的引入方式 :
