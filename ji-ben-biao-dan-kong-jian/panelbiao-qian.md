@@ -32,6 +32,11 @@
 
 >> ** background【2.3】：** background属性支持内容的背景定义，可填值success，danger,warning,default,info参照button组件的颜色，该功能在classical风格下存在，如background="success"
 >> ** height【2.3】：** height属性支持控制面板的高度，如height="300"
+
+> > **auth\_key【2.7】:** 权限属性，如auth\_key="brch\_add",非必填项，如果没有该属性，则为非权限按钮，如果存在，
+
+
+
 #### panel标签的引入方式 :
 
 
