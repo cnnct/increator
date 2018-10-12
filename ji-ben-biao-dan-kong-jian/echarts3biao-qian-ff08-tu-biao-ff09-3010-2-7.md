@@ -41,7 +41,7 @@
 ![](/assets/echart3_1.png)
 
 #### echarts3标签后台加载option数据：
-![](/assets/echart3.png)
+![](/assets/echart3_2.png)
 后台写法参照
 平台demo示例或
 https://oss.sonatype.org/content/repositories/releases/com/github/abel533/ECharts/3.0.0/
