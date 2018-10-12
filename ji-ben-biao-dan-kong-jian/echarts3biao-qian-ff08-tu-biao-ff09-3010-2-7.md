@@ -54,7 +54,7 @@ Ctrl写法：
     }
 
 Service写法：
- public String queryOnline() {		
+     public String queryOnline() {		
         Option basic = new Option();
         basic.title().text("公交公司配车数量对比").x("center").y("top");
         basic.tooltip().trigger(Trigger.item).formatter("{a} <br/>{b} : {c} ({d}%)");
