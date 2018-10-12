@@ -28,7 +28,7 @@
 ```
  <@init_page title="公交公司在线车辆数展示" echarts_version="3">
     <@echarts3
-        id="echarts_bar"
+        id="echarts_pie"
         size="12"
         option_url="${base}/term/busInfo/queryOnline"
         position="center"
