@@ -44,11 +44,17 @@
 ![](/assets/echart3_2.png)
 ```
 Ctrl写法：
-
+    @RequestMapping("/queryOnline")
+    @ResponseBody
+    public ResultData queryOnline(Model model) {
+        ResultData resultData = new ResultData(Result_Code.SUCCESS);
+        String option = busInfoServ.queryOnline();
+        resultData.put("option", option);
+        return resultData;
+    }
 
 Service写法：
- public String queryOnline() {
-		
+ public String queryOnline() {		
         Option basic = new Option();
         basic.title().text("公交公司配车数量对比").x("center").y("top");
         basic.tooltip().trigger(Trigger.item).formatter("{a} <br/>{b} : {c} ({d}%)");
