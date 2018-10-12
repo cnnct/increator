@@ -42,6 +42,36 @@
 
 #### echarts3标签后台加载option数据：
 ![](/assets/echart3_2.png)
+```
+Ctrl写法：
+
+
+Service写法：
+ public String queryOnline() {
+		
+        Option basic = new Option();
+        basic.title().text("公交公司配车数量对比").x("center").y("top");
+        basic.tooltip().trigger(Trigger.item).formatter("{a} <br/>{b} : {c} ({d}%)");
+        //获取配车数据
+        List<Map<String,Object>> childMerchList=mapper.getChildMerchData();
+        List<String> legendList=new ArrayList<>();
+        List<PieData> pieDataList=new ArrayList<>();
+        for(int i=0;i<childMerchList.size();i++){
+        	Map<String,Object> childMerchMap=childMerchList.get(i);
+        	legendList.add(Tools.processNull(childMerchMap.get("MERCH_NAME")));
+        	pieDataList.add(new PieData(Tools.processNull(childMerchMap.get("MERCH_NAME")),Tools.processNull(childMerchMap.get("BUS_COUNT"))));
+        }
+        //抬头
+        basic.legend().data(legendList.toArray()).x("left").orient(Orient.vertical);
+
+        basic.series(new Pie().name("配车数").data(pieDataList.toArray()).center("50%", "55%").radius("50%"));
+       
+       Gson gson = new Gson();
+      return  gson.toJson(basic);
+	}
+```
+
+
 后台写法参照
 平台demo示例或
 https://oss.sonatype.org/content/repositories/releases/com/github/abel533/ECharts/3.0.0/
