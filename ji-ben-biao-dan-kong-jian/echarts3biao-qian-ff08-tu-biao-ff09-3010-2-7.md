@@ -26,18 +26,19 @@
 #### echarts标签的引入方式 :
 
 ```
-  <@echarts3 
-		id="echarts_post" 
-		size="6" 
-		option_url="${base}/tag/echarts" 
-		position="center"
-		interval_time="10000"		
-		/>
+ <@init_page title="公交公司在线车辆数展示" echarts_version="3">
+    <@echarts3
+        id="echarts_bar"
+        size="12"
+        option_url="${base}/term/busInfo/queryOnline"
+        position="center"
+    />
+</@init_page>
 ```
 
 #### echarts标签的显示结果 :
 
-![](/assets/echarts1.png)
+![](/assets/echart3_1.png)
 
 #### echarts标签后台加载option数据：
 ![](/assets/echart3.png)
