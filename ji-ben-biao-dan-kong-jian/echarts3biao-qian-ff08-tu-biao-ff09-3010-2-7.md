@@ -23,7 +23,7 @@
 > > **interval_time:** 为定时器刷新时间，单位毫秒，如果有值则实时刷新图表
 
 
-#### echarts标签的引入方式 :
+#### echarts3标签的引入方式 :
 
 ```
  <@init_page title="公交公司在线车辆数展示" echarts_version="3">
@@ -36,11 +36,11 @@
 </@init_page>
 ```
 
-#### echarts标签的显示结果 :
+#### echarts3标签的显示结果 :
 
 ![](/assets/echart3_1.png)
 
-#### echarts标签后台加载option数据：
+#### echarts3标签后台加载option数据：
 ![](/assets/echart3.png)
 后台写法参照
 平台demo示例或
