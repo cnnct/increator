@@ -1,6 +1,6 @@
 # block\_table标签
 
-###注：不兼容IE8及以下版本浏览器。
+### 注：不兼容IE8及以下版本浏览器。
 
 #### block\_table**标签的属性 :**
 
@@ -14,13 +14,11 @@
 > > **col：**总并排列数  
 > > **first\_field：**第一个字段，是一个类似合并行的div。name--字段名，type--字段显示类型：图片、超链接、文本，color--颜色，同button，size\_type--大小类型：大、中、小，bold--是否加粗，icon--图标，同button，i\_color--图标颜色，同button。  
 > > **btn：**右上角的操作按钮，同table中的cust\_btn，只是没有转义和切换显示隐藏功能，【2.6】版本后加入title（提示属性），dynswitch动态切换按钮（参考table标签），  
-> > \***rows：**每行的字段属性：name--字段名，type--字段显示类型：超链接、文本，color--颜色，同button，size\_type--大小类型：大、中、小，bold--是否加粗，icon--图标，同button，i\_color--图标颜色，同button。  
+> > \***rows：**每行的字段属性：name--字段名，type--字段显示类型：超链接、文本，color--颜色，同button，size\_type--大小类型：大、中、小，bold--是否加粗，icon--图标，同button，i\_color--图标颜色，同button。注：此处颜色指定的是一整列，还可以单独指定某个值的颜色，key为valColor。  
 > > **\*row\_id：**指定每列的id项  
 > > **load\_data\_init:【2.6】** load\_data\_init属性为是否初始化加载数据开关属性，默认为true（首次进页面加载数据）,【1.4】版本后，支持传入的值为“true”，“false”，或指定查询条件的formId，当值为“true”或不填该属性时，默认不带查询条件初始化加载数据，为“false”时不加载数据，为formId时，会带查询条件加载数据,如load\_data\_init="queryForm"  
-> > **refresh\_table\_after\_func:【2.6】** refresh\_table\_after\_func 属性用于表格刷新后调用的方法，需要指定方法名，该方法只有一个对象参数，如refresh\_table\_after\_func="doTest1"，详细见示例demo
+> > **refresh\_table\_after\_func:【2.6】** refresh\_table\_after\_func 属性用于表格刷新后调用的方法，需要指定方法名，该方法只有一个对象参数，如refresh\_table\_after\_func="doTest1"，详细见示例demo  
 > > **auth\_key【2.7】:** 权限属性，如auth\_key="brch\_add",非必填项，如果没有该属性，则为非权限按钮，如果存在，
-
-
 
 #### block\_table标签的引入方式 :
 
