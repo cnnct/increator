@@ -33,7 +33,7 @@ gitbook在线手册地址：[https://increator.gitbooks.io/dev\_guide/content](h
 
 # 发布gitbook
 
-发布手册有两种方式
+发布手册如下：
 
 ### 方式一：使用离线工具发布成本地的html的web目录手册。\(2018-12彭敏验证会报错，废弃\)
 
