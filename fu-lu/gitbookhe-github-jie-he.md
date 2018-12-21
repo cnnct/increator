@@ -10,11 +10,11 @@ github仓库地址：[https://github.com/cnnct/increator.git](https://github.com
 
 gitbook在线手册地址：[https://increator.gitbooks.io/dev\_guide/content](https://increator.gitbooks.io/dev_guide/content)
 
-
-
 ### 方式三：本地命令行发布：
 
-本地安装notejs， 
+本地安装notejs，百度下载安装。
+
+安 
 
 # 使用方法：
 
@@ -53,7 +53,7 @@ gitbook在线手册地址：[https://increator.gitbooks.io/dev\_guide/content](h
 
 ### 方式三：本地命令行发布：
 
-本地安装notejs， 
+本地安装notejs，
 
 # gitbook的组织管理
 
