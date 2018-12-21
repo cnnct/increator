@@ -45,7 +45,9 @@ gitbook在线手册地址：[https://increator.gitbooks.io/dev\_guide/content](h
 
 ![](/assets/publish2.png)![](/assets/publish3.png)
 
-### 方式三：本地命令行发布，发布，详见下图：
+### 方式三：本地命令行发布：
+
+本地安装
 
 # gitbook的组织管理
 
