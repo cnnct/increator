@@ -1,4 +1,4 @@
-# github引入的原因说明：
+``# github引入的原因说明：
 
 本来是使用公司的svn版本管理进行手册版本管理的，但最后发现git和svn还是存在冲突，没找到共存的方案，因此转到github上。
 
@@ -18,6 +18,15 @@ gitbook在线手册地址：[https://increator.gitbooks.io/dev\_guide/content](h
 
 再 再到gitbook的源文件目录，如\increator\dev\_guide下，执行命令：gitbook serve，等提示启动成功，再CTRL+C结束服务。会在本地当前目录中生成一个\_book的目录，即为编译后的静态手册文件。
 可可把这个目录作为静态web资源发布，使用nginx，配置如下，根据实际情况修改目录名称
+
+
+
+```
+	location /book {
+		#alias  E:\work\_book\;
+		#index index.html;		
+        }
+```
 
 
 
