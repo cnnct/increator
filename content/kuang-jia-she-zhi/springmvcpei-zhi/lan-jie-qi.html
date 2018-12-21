@@ -1,0 +1,2697 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>拦截器 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="yi-chang-chu-li.html" />
+    
+    
+    <link rel="prev" href="../springmvcpei-zhi.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    概述
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.1" data-path="../../ban-ben-geng-xin-shuo-ming.html">
+            
+                <a href="../../ban-ben-geng-xin-shuo-ming.html">
+            
+                    
+                    版本更新说明
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.1.1" data-path="../../ban-ben-geng-xin-shuo-ming/v10.html">
+            
+                <a href="../../ban-ben-geng-xin-shuo-ming/v10.html">
+            
+                    
+                    V1.0
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.2" data-path="../../ban-ben-geng-xin-shuo-ming/v11.html">
+            
+                <a href="../../ban-ben-geng-xin-shuo-ming/v11.html">
+            
+                    
+                    V1.1
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.3" data-path="../../ban-ben-geng-xin-shuo-ming/v12.html">
+            
+                <a href="../../ban-ben-geng-xin-shuo-ming/v12.html">
+            
+                    
+                    V1.2
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.4" data-path="../../ban-ben-geng-xin-shuo-ming/v121.html">
+            
+                <a href="../../ban-ben-geng-xin-shuo-ming/v121.html">
+            
+                    
+                    V1.2.1
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.5" data-path="../../ban-ben-geng-xin-shuo-ming/v122.html">
+            
+                <a href="../../ban-ben-geng-xin-shuo-ming/v122.html">
+            
+                    
+                    V1.2.2
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.6" data-path="../../ban-ben-geng-xin-shuo-ming/v123.html">
+            
+                <a href="../../ban-ben-geng-xin-shuo-ming/v123.html">
+            
+                    
+                    V1.2.3
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.7" data-path="../../ban-ben-geng-xin-shuo-ming/v13.html">
+            
+                <a href="../../ban-ben-geng-xin-shuo-ming/v13.html">
+            
+                    
+                    V1.3
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.8" data-path="../../ban-ben-geng-xin-shuo-ming/v14.html">
+            
+                <a href="../../ban-ben-geng-xin-shuo-ming/v14.html">
+            
+                    
+                    V1.4
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.9" data-path="../../ban-ben-geng-xin-shuo-ming/v15.html">
+            
+                <a href="../../ban-ben-geng-xin-shuo-ming/v15.html">
+            
+                    
+                    V1.5
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.10" data-path="../../ban-ben-geng-xin-shuo-ming/v16.html">
+            
+                <a href="../../ban-ben-geng-xin-shuo-ming/v16.html">
+            
+                    
+                    V1.6
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.11" data-path="../../ban-ben-geng-xin-shuo-ming/v17.html">
+            
+                <a href="../../ban-ben-geng-xin-shuo-ming/v17.html">
+            
+                    
+                    V1.7
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.12" data-path="../../ban-ben-geng-xin-shuo-ming/v18.html">
+            
+                <a href="../../ban-ben-geng-xin-shuo-ming/v18.html">
+            
+                    
+                    V1.8
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.13" data-path="../../ban-ben-geng-xin-shuo-ming/v19.html">
+            
+                <a href="../../ban-ben-geng-xin-shuo-ming/v19.html">
+            
+                    
+                    V1.9
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.14" data-path="../../ban-ben-geng-xin-shuo-ming/v20.html">
+            
+                <a href="../../ban-ben-geng-xin-shuo-ming/v20.html">
+            
+                    
+                    V2.0
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.15" data-path="../../ban-ben-geng-xin-shuo-ming/v21.html">
+            
+                <a href="../../ban-ben-geng-xin-shuo-ming/v21.html">
+            
+                    
+                    V2.1
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.16" data-path="../../ban-ben-geng-xin-shuo-ming/v22.html">
+            
+                <a href="../../ban-ben-geng-xin-shuo-ming/v22.html">
+            
+                    
+                    V2.2
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.17" data-path="../../ban-ben-geng-xin-shuo-ming/v23.html">
+            
+                <a href="../../ban-ben-geng-xin-shuo-ming/v23.html">
+            
+                    
+                    V2.3
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.18" data-path="../../ban-ben-geng-xin-shuo-ming/v24.html">
+            
+                <a href="../../ban-ben-geng-xin-shuo-ming/v24.html">
+            
+                    
+                    V2.4
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.19" data-path="../../ban-ben-geng-xin-shuo-ming/v25.html">
+            
+                <a href="../../ban-ben-geng-xin-shuo-ming/v25.html">
+            
+                    
+                    V2.5
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.20" data-path="../../ban-ben-geng-xin-shuo-ming/v26.html">
+            
+                <a href="../../ban-ben-geng-xin-shuo-ming/v26.html">
+            
+                    
+                    V2.6
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.2" data-path="../../kuang-jia-dai-ma-huo-qu.html">
+            
+                <a href="../../kuang-jia-dai-ma-huo-qu.html">
+            
+                    
+                    框架代码获取
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.3" data-path="../../kuang-jia-key-guan-li.html">
+            
+                <a href="../../kuang-jia-key-guan-li.html">
+            
+                    
+                    框架key管理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.4" data-path="../../zuo-zhe-jie-shao.html">
+            
+                <a href="../../zuo-zhe-jie-shao.html">
+            
+                    
+                    团队介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../../ji-ben-biao-dan-kong-jian.html">
+            
+                <a href="../../ji-ben-biao-dan-kong-jian.html">
+            
+                    
+                    基本标签控件
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../../ji-ben-biao-dan-kong-jian/initpage-biao-qian-3010-shi-3011.html">
+            
+                <a href="../../ji-ben-biao-dan-kong-jian/initpage-biao-qian-3010-shi-3011.html">
+            
+                    
+                    init_page标签(页面加载相关)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../../ji-ben-biao-dan-kong-jian/spanbiao-qian.html">
+            
+                <a href="../../ji-ben-biao-dan-kong-jian/spanbiao-qian.html">
+            
+                    
+                    span标签(文本块)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../../ji-ben-biao-dan-kong-jian/textarea-biao-qian-3010-shi-3011.html">
+            
+                <a href="../../ji-ben-biao-dan-kong-jian/textarea-biao-qian-3010-shi-3011.html">
+            
+                    
+                    text_area标签(文本域)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="../../ji-ben-biao-dan-kong-jian/buttonbiao-qian-3010-shi-3011.html">
+            
+                <a href="../../ji-ben-biao-dan-kong-jian/buttonbiao-qian-3010-shi-3011.html">
+            
+                    
+                    button标签(按钮)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="../../ji-ben-biao-dan-kong-jian/labelbiao-qian-3010-shi-3011.html">
+            
+                <a href="../../ji-ben-biao-dan-kong-jian/labelbiao-qian-3010-shi-3011.html">
+            
+                    
+                    label标签(标签、标记)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6" data-path="../../ji-ben-biao-dan-kong-jian/inputbiao-qian-3010-shi-3011.html">
+            
+                <a href="../../ji-ben-biao-dan-kong-jian/inputbiao-qian-3010-shi-3011.html">
+            
+                    
+                    input标签(输入框)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7" data-path="../../ji-ben-biao-dan-kong-jian/searchinput-biao-qian-3010-lu-3011.html">
+            
+                <a href="../../ji-ben-biao-dan-kong-jian/searchinput-biao-qian-3010-lu-3011.html">
+            
+                    
+                    search_input标签(自动搜索输入框)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.8" data-path="../../ji-ben-biao-dan-kong-jian/toastbiao-qian-3010-shi-3011.html">
+            
+                <a href="../../ji-ben-biao-dan-kong-jian/toastbiao-qian-3010-shi-3011.html">
+            
+                    
+                    toast提示标签(提示)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.9" data-path="../../ji-ben-biao-dan-kong-jian/radiobiao-qian-3010-lu-3011.html">
+            
+                <a href="../../ji-ben-biao-dan-kong-jian/radiobiao-qian-3010-lu-3011.html">
+            
+                    
+                    radio标签(单选)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.10" data-path="../../ji-ben-biao-dan-kong-jian/checkboxbiao-qian-3010-lu-3011.html">
+            
+                <a href="../../ji-ben-biao-dan-kong-jian/checkboxbiao-qian-3010-lu-3011.html">
+            
+                    
+                    checkbox标签(复选)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.11" data-path="../../ji-ben-biao-dan-kong-jian/coderadio-biao-qian-3010-lu-3011.html">
+            
+                <a href="../../ji-ben-biao-dan-kong-jian/coderadio-biao-qian-3010-lu-3011.html">
+            
+                    
+                    code_radio标签(sys_code表单选)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.12" data-path="../../ji-ben-biao-dan-kong-jian/codecheckbox-biao-qian-3010-lu-3011.html">
+            
+                <a href="../../ji-ben-biao-dan-kong-jian/codecheckbox-biao-qian-3010-lu-3011.html">
+            
+                    
+                    code_checkbox标签(sys_code表复选)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.13" data-path="../../ji-ben-biao-dan-kong-jian/selectbiao-qian.html">
+            
+                <a href="../../ji-ben-biao-dan-kong-jian/selectbiao-qian.html">
+            
+                    
+                    select标签(下拉选择)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.14" data-path="../../ji-ben-biao-dan-kong-jian/codeselect-biao-qian-3010-shi-3011.html">
+            
+                <a href="../../ji-ben-biao-dan-kong-jian/codeselect-biao-qian-3010-shi-3011.html">
+            
+                    
+                    code_select标签(sys_code表下拉选择)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.15" data-path="../../ji-ben-biao-dan-kong-jian/datetime-biao-qian-3010-lu-3011.html">
+            
+                <a href="../../ji-ben-biao-dan-kong-jian/datetime-biao-qian-3010-lu-3011.html">
+            
+                    
+                    date_time标签(日期时间选择)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.16" data-path="../../ji-ben-biao-dan-kong-jian/formbiao-dan-biao-qian.html">
+            
+                <a href="../../ji-ben-biao-dan-kong-jian/formbiao-dan-biao-qian.html">
+            
+                    
+                    form标签(表单)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.17" data-path="../../ji-ben-biao-dan-kong-jian/formgroup-biao-qian.html">
+            
+                <a href="../../ji-ben-biao-dan-kong-jian/formgroup-biao-qian.html">
+            
+                    
+                    form_group标签(表单内格式化特定内容)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.18" data-path="../../ji-ben-biao-dan-kong-jian/ueditorbiao-qian.html">
+            
+                <a href="../../ji-ben-biao-dan-kong-jian/ueditorbiao-qian.html">
+            
+                    
+                    ueditor标签(富文本编辑器)【1.1】
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.19" data-path="../../ji-ben-biao-dan-kong-jian/selectinput-biao-qian-3010-1-2.html">
+            
+                <a href="../../ji-ben-biao-dan-kong-jian/selectinput-biao-qian-3010-1-2.html">
+            
+                    
+                    select_input标签(自动搜索输入框)【1.2】
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.20" data-path="../../ji-ben-biao-dan-kong-jian/fileupload-biao-qian-3010-1-2.html">
+            
+                <a href="../../ji-ben-biao-dan-kong-jian/fileupload-biao-qian-3010-1-2.html">
+            
+                    
+                    file_upload标签(文件上传)【1.2】
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.21" data-path="../../ji-ben-biao-dan-kong-jian/initload-biao-qian-3010-1-2.html">
+            
+                <a href="../../ji-ben-biao-dan-kong-jian/initload-biao-qian-3010-1-2.html">
+            
+                    
+                    init_load标签(首页加载相关)【1.2】
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.22" data-path="../../ji-ben-biao-dan-kong-jian/imgbiao-qian-3010-1-3.html">
+            
+                <a href="../../ji-ben-biao-dan-kong-jian/imgbiao-qian-3010-1-3.html">
+            
+                    
+                    img标签(图片)【1.2.2】
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.23" data-path="../../ji-ben-biao-dan-kong-jian/readcard-biao-qian.html">
+            
+                <a href="../../ji-ben-biao-dan-kong-jian/readcard-biao-qian.html">
+            
+                    
+                    read_card标签(读卡控件)【1.2.2】
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.24" data-path="../../ji-ben-biao-dan-kong-jian/panelbiao-qian.html">
+            
+                <a href="../../ji-ben-biao-dan-kong-jian/panelbiao-qian.html">
+            
+                    
+                    panel标签(容器)【1.2.3】
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.25" data-path="../../ji-ben-biao-dan-kong-jian/downloadbiao-qian.html">
+            
+                <a href="../../ji-ben-biao-dan-kong-jian/downloadbiao-qian.html">
+            
+                    
+                    download标签(文件下载)【1.3】
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.26" data-path="../../ji-ben-biao-dan-kong-jian/zipperbiao-qian-3010-1-5.html">
+            
+                <a href="../../ji-ben-biao-dan-kong-jian/zipperbiao-qian-3010-1-5.html">
+            
+                    
+                    zipper标签(展开收起)【1.5】
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.27" data-path="../../ji-ben-biao-dan-kong-jian/buttongroup-biao-qian-3010-2-2.html">
+            
+                <a href="../../ji-ben-biao-dan-kong-jian/buttongroup-biao-qian-3010-2-2.html">
+            
+                    
+                    button_group标签(一组按钮)【2.2】
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.28" data-path="../../ji-ben-biao-dan-kong-jian/panelcontainer-biao-qian-3010-2-2.html">
+            
+                <a href="../../ji-ben-biao-dan-kong-jian/panelcontainer-biao-qian-3010-2-2.html">
+            
+                    
+                    panel_container标签(存放容器的大容器)【2.2】
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.29" data-path="../../ji-ben-biao-dan-kong-jian/hrbiao-qian.html">
+            
+                <a href="../../ji-ben-biao-dan-kong-jian/hrbiao-qian.html">
+            
+                    
+                    hr标签(横线)【2.3】
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.30" data-path="../../ji-ben-biao-dan-kong-jian/datetime-range-biao-qian.html">
+            
+                <a href="../../ji-ben-biao-dan-kong-jian/datetime-range-biao-qian.html">
+            
+                    
+                    date_time_range标签(日期时间范围选择)【2.4】
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.31" data-path="../../ji-ben-biao-dan-kong-jian/sliderbiao-qian-3010-2-4.html">
+            
+                <a href="../../ji-ben-biao-dan-kong-jian/sliderbiao-qian-3010-2-4.html">
+            
+                    
+                    slider标签(进度百分比)【2.4】
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.32" data-path="../../ji-ben-biao-dan-kong-jian/timerange-biao-qian-3010-2-4.html">
+            
+                <a href="../../ji-ben-biao-dan-kong-jian/timerange-biao-qian-3010-2-4.html">
+            
+                    
+                    time_range标签(时间范围选择)【2.4】
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.33" data-path="../../ji-ben-biao-dan-kong-jian/scrollup-biao-qian-3010-2-4.html">
+            
+                <a href="../../ji-ben-biao-dan-kong-jian/scrollup-biao-qian-3010-2-4.html">
+            
+                    
+                    scroll_up标签(回到顶部)【2.4】
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.34" data-path="../../ji-ben-biao-dan-kong-jian/spinnerbiao-qian-3010-2-4.html">
+            
+                <a href="../../ji-ben-biao-dan-kong-jian/spinnerbiao-qian-3010-2-4.html">
+            
+                    
+                    spinner标签(可调节大小数字)【2.4】
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../../fu-za-2018-zu-he-biao-qian-kong-jian-3010-shi-3001-lu-3011.html">
+            
+                <a href="../../fu-za-2018-zu-he-biao-qian-kong-jian-3010-shi-3001-lu-3011.html">
+            
+                    
+                    复杂、组合标签控件
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../../ji-ben-biao-dan-kong-jian/casselect-parent-biao-qian-3010-shi-3011.html">
+            
+                <a href="../../ji-ben-biao-dan-kong-jian/casselect-parent-biao-qian-3010-shi-3011.html">
+            
+                    
+                    cas_select_parent和cas_select_child(级联标签组)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../../ji-ben-biao-dan-kong-jian/zi-tab-biao-qian-zu-3010-shi-3011.html">
+            
+                <a href="../../ji-ben-biao-dan-kong-jian/zi-tab-biao-qian-zu-3010-shi-3011.html">
+            
+                    
+                    child_tab和child_tab_content(子tab标签组)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../../ji-ben-biao-dan-kong-jian/tree.html">
+            
+                <a href="../../ji-ben-biao-dan-kong-jian/tree.html">
+            
+                    
+                    tree标签(树)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../../ji-ben-biao-dan-kong-jian/inputtreebiao-qian-3010-shi-3011.html">
+            
+                <a href="../../ji-ben-biao-dan-kong-jian/inputtreebiao-qian-3010-shi-3011.html">
+            
+                    
+                    input_tree标签(输入框弹出树)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="../../ji-ben-biao-dan-kong-jian/searchtreebiao-qian-3010-lu-3011.html">
+            
+                <a href="../../ji-ben-biao-dan-kong-jian/searchtreebiao-qian-3010-lu-3011.html">
+            
+                    
+                    search_tree标签(支持搜索的输入框弹出树)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="../../ji-ben-biao-dan-kong-jian/dualselect-list-biao-qian-3010-lu-3011.html">
+            
+                <a href="../../ji-ben-biao-dan-kong-jian/dualselect-list-biao-qian-3010-lu-3011.html">
+            
+                    
+                    dual_select_list标签(双向选择列表)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7" data-path="../../ji-ben-biao-dan-kong-jian/modalbody-biao-qian-3010-lu-3011.html">
+            
+                <a href="../../ji-ben-biao-dan-kong-jian/modalbody-biao-qian-3010-lu-3011.html">
+            
+                    
+                    modal_body和modal_foot标签(模态框)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.8" data-path="../../ji-ben-biao-dan-kong-jian/modaliframe-biao-qian-3010-lu-3011.html">
+            
+                <a href="../../ji-ben-biao-dan-kong-jian/modaliframe-biao-qian-3010-lu-3011.html">
+            
+                    
+                    modal_iframe标签(嵌入iframe的模态框)(已过时)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.9" data-path="../../ji-ben-biao-dan-kong-jian/filemult-upload-biao-qian-3010-lu-3011.html">
+            
+                <a href="../../ji-ben-biao-dan-kong-jian/filemult-upload-biao-qian-3010-lu-3011.html">
+            
+                    
+                    file_mult_upload标签(多文件上传)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.10" data-path="../../ji-ben-biao-dan-kong-jian/tabletoolbar-biao-qian-3010-shi-3011.html">
+            
+                <a href="../../ji-ben-biao-dan-kong-jian/tabletoolbar-biao-qian-3010-shi-3011.html">
+            
+                    
+                    table_toolbar标签(表格顶部工具栏)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.11" data-path="../../ji-ben-biao-dan-kong-jian/tablebiao-qian-3010-zhu-3011.html">
+            
+                <a href="../../ji-ben-biao-dan-kong-jian/tablebiao-qian-3010-zhu-3011.html">
+            
+                    
+                    table标签(表格)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.12" data-path="../../ji-ben-biao-dan-kong-jian/searchselect-biao-qian.html">
+            
+                <a href="../../ji-ben-biao-dan-kong-jian/searchselect-biao-qian.html">
+            
+                    
+                    search_select标签(支持搜索的下拉选择)【1.2】
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.13" data-path="../../ji-ben-biao-dan-kong-jian/echartbiao-qian.html">
+            
+                <a href="../../ji-ben-biao-dan-kong-jian/echartbiao-qian.html">
+            
+                    
+                    echarts标签(图表)【1.2.2】
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.14" data-path="../../ji-ben-biao-dan-kong-jian/navpage-biao-qian.html">
+            
+                <a href="../../ji-ben-biao-dan-kong-jian/navpage-biao-qian.html">
+            
+                    
+                    nav_page标签(左侧导航栏)【1.2.3】
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.15" data-path="../../ji-ben-biao-dan-kong-jian/selectlist-biao-qian.html">
+            
+                <a href="../../ji-ben-biao-dan-kong-jian/selectlist-biao-qian.html">
+            
+                    
+                    select_list标签(选择列表)【1.5】
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.16" data-path="../../ji-ben-biao-dan-kong-jian/relatedfunction-biao-qian.html">
+            
+                <a href="../../ji-ben-biao-dan-kong-jian/relatedfunction-biao-qian.html">
+            
+                    
+                    related_function标签(关联功能)【1.5】
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.17" data-path="../../ji-ben-biao-dan-kong-jian/mapbiao-qian-3010-1-5.html">
+            
+                <a href="../../ji-ben-biao-dan-kong-jian/mapbiao-qian-3010-1-5.html">
+            
+                    
+                    map标签(地图)【1.5】
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.18" data-path="../../ji-ben-biao-dan-kong-jian/navpage-second-zu-jian-3010-1-9.html">
+            
+                <a href="../../ji-ben-biao-dan-kong-jian/navpage-second-zu-jian-3010-1-9.html">
+            
+                    
+                    nav_page_second标签(左侧导航栏增强)【1.9】
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.19" data-path="../../ji-ben-biao-dan-kong-jian/tablesecond-biao-qian-3010-1-9.html">
+            
+                <a href="../../ji-ben-biao-dan-kong-jian/tablesecond-biao-qian-3010-1-9.html">
+            
+                    
+                    edit_table标签(可编辑表格)【2.5】由table_second改名
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.20" data-path="../../ji-ben-biao-dan-kong-jian/stephe-step-element-biao-qian.html">
+            
+                <a href="../../ji-ben-biao-dan-kong-jian/stephe-step-element-biao-qian.html">
+            
+                    
+                    step和step_element标签(分步)【2.2】
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.21" data-path="../../ji-ben-biao-dan-kong-jian/spantable-he-span-tr-he-span-td-biao-qian-3010-2-3.html">
+            
+                <a href="../../ji-ben-biao-dan-kong-jian/spantable-he-span-tr-he-span-td-biao-qian-3010-2-3.html">
+            
+                    
+                    span_table和span_tr和span_td标签(信息展示)【2.3】
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.22" data-path="../../ji-ben-biao-dan-kong-jian/calendarbiao-qian.html">
+            
+                <a href="../../ji-ben-biao-dan-kong-jian/calendarbiao-qian.html">
+            
+                    
+                    calendar标签(日历)【2.4】
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.23" data-path="../../ji-ben-biao-dan-kong-jian/blocktable.html">
+            
+                <a href="../../ji-ben-biao-dan-kong-jian/blocktable.html">
+            
+                    
+                    block_table(信息列表)【2.4】
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.24" data-path="../../ji-ben-biao-dan-kong-jian/timeline-biao-qian-3010-2-5.html">
+            
+                <a href="../../ji-ben-biao-dan-kong-jian/timeline-biao-qian-3010-2-5.html">
+            
+                    
+                    time_line标签(时间进程)【2.5】
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.25" data-path="../../ji-ben-biao-dan-kong-jian/cropperbiao-qian.html">
+            
+                <a href="../../ji-ben-biao-dan-kong-jian/cropperbiao-qian.html">
+            
+                    
+                    cropper标签(图片裁剪)【2.5】
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.26" data-path="../../ji-ben-biao-dan-kong-jian/imagetable-biao-qian-3010-2-5.html">
+            
+                <a href="../../ji-ben-biao-dan-kong-jian/imagetable-biao-qian-3010-2-5.html">
+            
+                    
+                    image_table标签(图片表格)【2.5】
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.27" data-path="../../ji-ben-biao-dan-kong-jian/modalbiao-7b7e28-xin-xing-mo-tai-684629-3010-2-6.html">
+            
+                <a href="../../ji-ben-biao-dan-kong-jian/modalbiao-7b7e28-xin-xing-mo-tai-684629-3010-2-6.html">
+            
+                    
+                    modal标签(新型模态框)【2.6】
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.28" data-path="../../ji-ben-biao-dan-kong-jian/echarts3biao-qian-ff08-tu-biao-ff09-3010-2-7.html">
+            
+                <a href="../../ji-ben-biao-dan-kong-jian/echarts3biao-qian-ff08-tu-biao-ff09-3010-2-7.html">
+            
+                    
+                    echarts3标签（图表）【2.7】
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../../ying-yong-gong-ju-fang-fa-diao-yong-3010-shi-3001-lu-3011.html">
+            
+                <a href="../../ying-yong-gong-ju-fang-fa-diao-yong-3010-shi-3001-lu-3011.html">
+            
+                    
+                    应用工具方法调用
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../../ying-yong-gong-ju-fang-fa-diao-yong-3010-shi-3001-lu-3011/mo-tai-dan-kuang-3010-shi-3011.html">
+            
+                <a href="../../ying-yong-gong-ju-fang-fa-diao-yong-3010-shi-3001-lu-3011/mo-tai-dan-kuang-3010-shi-3011.html">
+            
+                    
+                    模态弹框
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../../ying-yong-gong-ju-fang-fa-diao-yong-3010-shi-3001-lu-3011/formbiao-dan-yan-zheng-3010-1-3.html">
+            
+                <a href="../../ying-yong-gong-ju-fang-fa-diao-yong-3010-shi-3001-lu-3011/formbiao-dan-yan-zheng-3010-1-3.html">
+            
+                    
+                    form表单验证【1.3】
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../../ying-yong-gong-ju-fang-fa-diao-yong-3010-shi-3001-lu-3011/jsding-shi-qi-de-qing-chu.html">
+            
+                <a href="../../ying-yong-gong-ju-fang-fa-diao-yong-3010-shi-3001-lu-3011/jsding-shi-qi-de-qing-chu.html">
+            
+                    
+                    JS定时器的清除
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="../../ying-yong-gong-ju-fang-fa-diao-yong-3010-shi-3001-lu-3011/addtabsfang-fa.html">
+            
+                <a href="../../ying-yong-gong-ju-fang-fa-diao-yong-3010-shi-3001-lu-3011/addtabsfang-fa.html">
+            
+                    
+                    openNewMenuTab方法(首页打开新tab页)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="../../ying-yong-gong-ju-fang-fa-diao-yong-3010-shi-3001-lu-3011/modalfootercontentpositionfang-fa.html">
+            
+                <a href="../../ying-yong-gong-ju-fang-fa-diao-yong-3010-shi-3001-lu-3011/modalfootercontentpositionfang-fa.html">
+            
+                    
+                    modalFooterContentPosition方法(添加了modal-footer样式的容器设置内容位置)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6" data-path="../../ying-yong-gong-ju-fang-fa-diao-yong-3010-shi-3001-lu-3011/iframezi-shi-ying-gao-du-diao-yong-fang-fa-3010-2-5.html">
+            
+                <a href="../../ying-yong-gong-ju-fang-fa-diao-yong-3010-shi-3001-lu-3011/iframezi-shi-ying-gao-du-diao-yong-fang-fa-3010-2-5.html">
+            
+                    
+                    iframe自适应高度调用方法【2.5】
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../../kuang-jia-she-zhi.html">
+            
+                <a href="../../kuang-jia-she-zhi.html">
+            
+                    
+                    后端框架使用
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../springpei-zhi-ji-shi-wu.html">
+            
+                <a href="../springpei-zhi-ji-shi-wu.html">
+            
+                    
+                    spring配置及事务
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../springmvcpei-zhi.html">
+            
+                <a href="../springmvcpei-zhi.html">
+            
+                    
+                    springmvc配置
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.5.2.1" data-path="lan-jie-qi.html">
+            
+                <a href="lan-jie-qi.html">
+            
+                    
+                    拦截器
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2.2" data-path="yi-chang-chu-li.html">
+            
+                <a href="yi-chang-chu-li.html">
+            
+                    
+                    异常处理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2.3" data-path="ye-wu-3001-cuo-wu-ri-zhi.html">
+            
+                <a href="ye-wu-3001-cuo-wu-ri-zhi.html">
+            
+                    
+                    业务、错误日志
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2.4" data-path="springmvcde-shi-yong.html">
+            
+                <a href="springmvcde-shi-yong.html">
+            
+                    
+                    springmvc的使用
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="../mybatis.html">
+            
+                <a href="../mybatis.html">
+            
+                    
+                    mybatis及数据源的配置和使用
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.3.1" data-path="../duo-shu-ju-yuan-de-pei-zhi.html">
+            
+                <a href="../duo-shu-ju-yuan-de-pei-zhi.html">
+            
+                    
+                    多数据源及逆向工程配置【1.2】
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3.2" data-path="../mybatis/mybatisre-bu-shu.html">
+            
+                <a href="../mybatis/mybatisre-bu-shu.html">
+            
+                    
+                    mybatis热部署
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3.3" data-path="../druidnei-zhi-jian-kong-gong-neng-de-pei-zhi-he-shi-yong.html">
+            
+                <a href="../druidnei-zhi-jian-kong-gong-neng-de-pei-zhi-he-shi-yong.html">
+            
+                    
+                    Druid内置监控功能的配置和使用
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="../ehcachede-shi-yong.html">
+            
+                <a href="../ehcachede-shi-yong.html">
+            
+                    
+                    Ehcache的使用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5" data-path="../httpjie-kou-fu-wu-shi-yong-pei-zhi.html">
+            
+                <a href="../httpjie-kou-fu-wu-shi-yong-pei-zhi.html">
+            
+                    
+                    http接口服务使用配置【1.1】
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6" data-path="../springding-shi-ren-wu-de-shi-yong.html">
+            
+                <a href="../springding-shi-ren-wu-de-shi-yong.html">
+            
+                    
+                    spring定时任务的使用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.7" data-path="../httpclientde-shi-yong.html">
+            
+                <a href="../httpclientde-shi-yong.html">
+            
+                    
+                    HttpClient的使用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.8" data-path="../bao-biao-he-da-yin.html">
+            
+                <a href="../bao-biao-he-da-yin.html">
+            
+                    
+                    报表和打印
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.8.1" data-path="../bao-biao-he-da-yin/ireportzheng-he-kai-fa-pdf-bao-biao.html">
+            
+                <a href="../bao-biao-he-da-yin/ireportzheng-he-kai-fa-pdf-bao-biao.html">
+            
+                    
+                    ireport整合开发pdf报表【1.2】
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.8.1.1" data-path="../bao-biao-he-da-yin/ireportzheng-he-kai-fa-pdf-bao-biao/dai-ma-kai-fa-shuo-ming.html">
+            
+                <a href="../bao-biao-he-da-yin/ireportzheng-he-kai-fa-pdf-bao-biao/dai-ma-kai-fa-shuo-ming.html">
+            
+                    
+                    代码开发说明
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.8.1.2" data-path="../bao-biao-he-da-yin/ireportzheng-he-kai-fa-pdf-bao-biao/ireportshi-yong-shuo-ming.html">
+            
+                <a href="../bao-biao-he-da-yin/ireportzheng-he-kai-fa-pdf-bao-biao/ireportshi-yong-shuo-ming.html">
+            
+                    
+                    ireport使用说明
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.8.2" data-path="../bao-biao-he-da-yin/echarstu-biao-kai-fa.html">
+            
+                <a href="../bao-biao-he-da-yin/echarstu-biao-kai-fa.html">
+            
+                    
+                    echars图表开发【1.2.2】
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.8.3" data-path="../bao-biao-he-da-yin/dan-ye-ping-zheng-bao-biao-da-yin-kai-fa.html">
+            
+                <a href="../bao-biao-he-da-yin/dan-ye-ping-zheng-bao-biao-da-yin-kai-fa.html">
+            
+                    
+                    单页凭证报表打印开发
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.9" data-path="../gong-ju-shi-yong.html">
+            
+                <a href="../gong-ju-shi-yong.html">
+            
+                    
+                    工具类使用【1.2】
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.9.1" data-path="../jia-jie-mi-gong-ju-shi-yong-3010-1-2.html">
+            
+                <a href="../jia-jie-mi-gong-ju-shi-yong-3010-1-2.html">
+            
+                    
+                    加解密工具使用【1.2】【施】
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.9.2" data-path="../serviceji-lei-baseservimpl.html">
+            
+                <a href="../serviceji-lei-baseservimpl.html">
+            
+                    
+                    Service基类BaseServImpl【陆】
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.9.3" data-path="../kong-zhi-qi-ji-lei-basectrl.html">
+            
+                <a href="../kong-zhi-qi-ji-lei-basectrl.html">
+            
+                    
+                    控制器基类BaseCtrl【陆】
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.9.4" data-path="../exceldao-ru-dao-chu-gong-ju-shi-yong-3010-1-2.html">
+            
+                <a href="../exceldao-ru-dao-chu-gong-ju-shi-yong-3010-1-2.html">
+            
+                    
+                    excel导入导出工具使用【1.2】
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.9.5" data-path="../zi-fu-chuan-gong-ju-lei-tools-shi-yong.html">
+            
+                <a href="../zi-fu-chuan-gong-ju-lei-tools-shi-yong.html">
+            
+                    
+                    字符串工具类Tools使用【陆】
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.9.6" data-path="../dateutilshi-yong.html">
+            
+                <a href="../dateutilshi-yong.html">
+            
+                    
+                    日期工具类DateUtil使用【陆】
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.9.7" data-path="../mybatisni-xiangsheng-cheng-gong-ju-lei-generatorsqlmap.html">
+            
+                <a href="../mybatisni-xiangsheng-cheng-gong-ju-lei-generatorsqlmap.html">
+            
+                    
+                    mybatis逆向生成工具类GeneratorSqlmap【陆】
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.9.8" data-path="../huan-cun-cacheutil.html">
+            
+                <a href="../huan-cun-cacheutil.html">
+            
+                    
+                    缓存CacheUtil
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.9.9" data-path="../httpclientgong-ju-lei.html">
+            
+                <a href="../httpclientgong-ju-lei.html">
+            
+                    
+                    HttpClient工具类【施】
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.9.10" data-path="../ipcao-zuo-gong-ju-lei.html">
+            
+                <a href="../ipcao-zuo-gong-ju-lei.html">
+            
+                    
+                    IP操作工具类【施】
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.9.11" data-path="../pei-zhi-wen-jian-du-qu-gong-ju-readconfig.html">
+            
+                <a href="../pei-zhi-wen-jian-du-qu-gong-ju-readconfig.html">
+            
+                    
+                    配置文件读取工具ReadConfig【施】
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.9.12" data-path="../kong-zhi-qi-ji-lei-basectrl.html">
+            
+                <a href="../kong-zhi-qi-ji-lei-basectrl.html">
+            
+                    
+                    控制器基类BaseCtrl【陆】
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.10" data-path="../redisde-shi-yong.html">
+            
+                <a href="../redisde-shi-yong.html">
+            
+                    
+                    Redis的使用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.11" data-path="../dong-tai-sql-de-shi-yong.html">
+            
+                <a href="../dong-tai-sql-de-shi-yong.html">
+            
+                    
+                    动态sql的使用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.12" data-path="../formbiao-dan-ti-jiao-fang-zhi-zhong-fu-ti-jiao.html">
+            
+                <a href="../formbiao-dan-ti-jiao-fang-zhi-zhong-fu-ti-jiao.html">
+            
+                    
+                    form表单提交防止重复提交【1.2.2】
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.13" data-path="../chang-yong-cai-535528-gong-80fd29-pei-zhi.html">
+            
+                <a href="../chang-yong-cai-535528-gong-80fd29-pei-zhi.html">
+            
+                    
+                    首页风格配置【1.2.3】
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.14" data-path="../fang-zhi-ding-shi-qi-bing-fa-shi-xian-3010-1-2-3.html">
+            
+                <a href="../fang-zhi-ding-shi-qi-bing-fa-shi-xian-3010-1-2-3.html">
+            
+                    
+                    防止定时器并发实现【1.2.3】
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.15" data-path="../sqlcha-xun-fan-hui-jie-guo-da-xiao-xie-wen-ti.html">
+            
+                <a href="../sqlcha-xun-fan-hui-jie-guo-da-xiao-xie-wen-ti.html">
+            
+                    
+                    SQL查询返回结果大小写问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.16" data-path="../ri-zhi-biao-fen-ku-fen-biao.html">
+            
+                <a href="../ri-zhi-biao-fen-ku-fen-biao.html">
+            
+                    
+                    日志表分库分表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.17" data-path="../cun-chu-guo-cheng-he-han-shu-de-shi-yong.html">
+            
+                <a href="../cun-chu-guo-cheng-he-han-shu-de-shi-yong.html">
+            
+                    
+                    存储过程和函数的使用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.18" data-path="../yan-zheng-ma-pei-zhi-3010-2-6.html">
+            
+                <a href="../yan-zheng-ma-pei-zhi-3010-2-6.html">
+            
+                    
+                    验证码配置【2.6】
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../wei-xin-kai-fa.html">
+            
+                <a href="../wei-xin-kai-fa.html">
+            
+                    
+                    微信公众号开发
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../wei-xin-kai-fa/shou-quan.html">
+            
+                <a href="../wei-xin-kai-fa/shou-quan.html">
+            
+                    
+                    授权【2.2】
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../wei-xin-kai-fa/fen-xiang.html">
+            
+                <a href="../wei-xin-kai-fa/fen-xiang.html">
+            
+                    
+                    分享【2.2】
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="../wei-xin-kai-fa/zhi-fu.html">
+            
+                <a href="../wei-xin-kai-fa/zhi-fu.html">
+            
+                    
+                    支付【2.2】
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4" data-path="../wei-xin-kai-fa/wei-xin-xiao-cheng-xu.html">
+            
+                <a href="../wei-xin-kai-fa/wei-xin-xiao-cheng-xu.html">
+            
+                    
+                    微信小程序【2.2】
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../../tong-yi-zhi-fu.html">
+            
+                <a href="../../tong-yi-zhi-fu.html">
+            
+                    
+                    统一支付接口
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../../tong-yi-zhi-fu/zhi-fu-bao.html">
+            
+                <a href="../../tong-yi-zhi-fu/zhi-fu-bao.html">
+            
+                    
+                    支付宝
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1.1" data-path="../../tong-yi-zhi-fu/zhi-fu-bao/jie-kou-lei-ming.html">
+            
+                <a href="../../tong-yi-zhi-fu/zhi-fu-bao/jie-kou-lei-ming.html">
+            
+                    
+                    接口类名
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.1.2" data-path="../../tong-yi-zhi-fu/zhi-fu-bao/pei-zhi-wen-jian.html">
+            
+                <a href="../../tong-yi-zhi-fu/zhi-fu-bao/pei-zhi-wen-jian.html">
+            
+                    
+                    配置文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.1.3" data-path="../../tong-yi-zhi-fu/zhi-fu-bao/jie-kou.html">
+            
+                <a href="../../tong-yi-zhi-fu/zhi-fu-bao/jie-kou.html">
+            
+                    
+                    接口
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1.3.1" data-path="../../tong-yi-zhi-fu/zhi-fu-bao/jie-kou/appzhi-fu.html">
+            
+                <a href="../../tong-yi-zhi-fu/zhi-fu-bao/jie-kou/appzhi-fu.html">
+            
+                    
+                    App支付
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.1.3.2" data-path="../../tong-yi-zhi-fu/zhi-fu-bao/jie-kou/sao-ma-zhi-fu.html">
+            
+                <a href="../../tong-yi-zhi-fu/zhi-fu-bao/jie-kou/sao-ma-zhi-fu.html">
+            
+                    
+                    扫码支付
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.1.3.3" data-path="../../tong-yi-zhi-fu/zhi-fu-bao/jie-kou/dian-nao-wang-zhan-zhi-fu.html">
+            
+                <a href="../../tong-yi-zhi-fu/zhi-fu-bao/jie-kou/dian-nao-wang-zhan-zhi-fu.html">
+            
+                    
+                    电脑网站支付
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.1.3.4" data-path="../../tong-yi-zhi-fu/zhi-fu-bao/jie-kou/cha-xun-zhi-fu-jie-guo.html">
+            
+                <a href="../../tong-yi-zhi-fu/zhi-fu-bao/jie-kou/cha-xun-zhi-fu-jie-guo.html">
+            
+                    
+                    查询支付结果
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.1.3.5" data-path="../../tong-yi-zhi-fu/zhi-fu-bao/jie-kou/tui-kuan.html">
+            
+                <a href="../../tong-yi-zhi-fu/zhi-fu-bao/jie-kou/tui-kuan.html">
+            
+                    
+                    退款
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.1.3.6" data-path="../../tong-yi-zhi-fu/zhi-fu-bao/jie-kou/cha-xun-tui-kuan-jie-guo.html">
+            
+                <a href="../../tong-yi-zhi-fu/zhi-fu-bao/jie-kou/cha-xun-tui-kuan-jie-guo.html">
+            
+                    
+                    查询退款结果
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.1.3.7" data-path="../../tong-yi-zhi-fu/zhi-fu-bao/jie-kou/cha-xun-zhang-dan-di-zhi.html">
+            
+                <a href="../../tong-yi-zhi-fu/zhi-fu-bao/jie-kou/cha-xun-zhang-dan-di-zhi.html">
+            
+                    
+                    查询账单地址
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.1.4" data-path="../../tong-yi-zhi-fu/zhi-fu-bao/yi-bu-tong-zhi.html">
+            
+                <a href="../../tong-yi-zhi-fu/zhi-fu-bao/yi-bu-tong-zhi.html">
+            
+                    
+                    异步通知
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="../../tong-yi-zhi-fu/wei-xin.html">
+            
+                <a href="../../tong-yi-zhi-fu/wei-xin.html">
+            
+                    
+                    微信
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.2.1" data-path="../../tong-yi-zhi-fu/wei-xin/jie-kou-lei-ming.html">
+            
+                <a href="../../tong-yi-zhi-fu/wei-xin/jie-kou-lei-ming.html">
+            
+                    
+                    接口类名
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2.2" data-path="../../tong-yi-zhi-fu/wei-xin/pei-zhi-wen-jian.html">
+            
+                <a href="../../tong-yi-zhi-fu/wei-xin/pei-zhi-wen-jian.html">
+            
+                    
+                    配置文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2.3" data-path="../../tong-yi-zhi-fu/wei-xin/jie-kou.html">
+            
+                <a href="../../tong-yi-zhi-fu/wei-xin/jie-kou.html">
+            
+                    
+                    接口
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2.4" >
+            
+                <span>
+            
+                    
+                    异步通知
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3" data-path="../../tong-yi-zhi-fu/yin-lian.html">
+            
+                <a href="../../tong-yi-zhi-fu/yin-lian.html">
+            
+                    
+                    银联
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.4" data-path="../../tong-yi-zhi-fu/yi-zhi-fu.html">
+            
+                <a href="../../tong-yi-zhi-fu/yi-zhi-fu.html">
+            
+                    
+                    翼支付
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../../gong-zuo-liu-yun-ping-tai-zheng-he-kai-fa.html">
+            
+                <a href="../../gong-zuo-liu-yun-ping-tai-zheng-he-kai-fa.html">
+            
+                    
+                    工作流云平台整合开发
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.1" data-path="../../gong-zuo-liu-zheng-he/gong-zuo-liu-yun-ping-tai-jian-jie.html">
+            
+                <a href="../../gong-zuo-liu-zheng-he/gong-zuo-liu-yun-ping-tai-jian-jie.html">
+            
+                    
+                    工作流云平台简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.2" data-path="../../gong-zuo-liu-zheng-he/liu-cheng-tu-hui-zhi-gui-fan.html">
+            
+                <a href="../../gong-zuo-liu-zheng-he/liu-cheng-tu-hui-zhi-gui-fan.html">
+            
+                    
+                    流程图绘制规范
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.3" data-path="../../gong-zuo-liu-zheng-he/zheng-he-gong-zuo-liu-ping-tai-bu-zou.html">
+            
+                <a href="../../gong-zuo-liu-zheng-he/zheng-he-gong-zuo-liu-ping-tai-bu-zou.html">
+            
+                    
+                    整合工作流平台步骤
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="../../kai-fa-gui-fan.html">
+            
+                <a href="../../kai-fa-gui-fan.html">
+            
+                    
+                    开发规范
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.1" data-path="../../kai-fa-huan-jing.html">
+            
+                <a href="../../kai-fa-huan-jing.html">
+            
+                    
+                    开发环境
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.2" data-path="../../kai-fa-gui-fan/ji-ben-bian-ma-gui-fan.html">
+            
+                <a href="../../kai-fa-gui-fan/ji-ben-bian-ma-gui-fan.html">
+            
+                    
+                    基本编码规范
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.3" data-path="../../kai-fa-gui-fan/shu-ju-ku-gui-fan.html">
+            
+                <a href="../../kai-fa-gui-fan/shu-ju-ku-gui-fan.html">
+            
+                    
+                    数据库规范
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.4" data-path="../../kai-fa-gui-fan/qian-duan-kai-fa-gui-fan.html">
+            
+                <a href="../../kai-fa-gui-fan/qian-duan-kai-fa-gui-fan.html">
+            
+                    
+                    font icon规范
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.5" data-path="../../kai-fa-gui-fan/dan-yuan-ce-shi.html">
+            
+                <a href="../../kai-fa-gui-fan/dan-yuan-ce-shi.html">
+            
+                    
+                    单元测试
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.6" data-path="../../kai-fa-gui-fan/hou-duan-kai-fa-gui-fan.html">
+            
+                <a href="../../kai-fa-gui-fan/hou-duan-kai-fa-gui-fan.html">
+            
+                    
+                    开始coding啦...
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="../../bei-zhu-zhu-yi.html">
+            
+                <a href="../../bei-zhu-zhu-yi.html">
+            
+                    
+                    附录
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.10.1" data-path="../../fu-lu/lombozzhu-jie-shi-yong.html">
+            
+                <a href="../../fu-lu/lombozzhu-jie-shi-yong.html">
+            
+                    
+                    lombok注解使用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.2" data-path="../../fu-lu/gitsvn.html">
+            
+                <a href="../../fu-lu/gitsvn.html">
+            
+                    
+                    gitbook使用注意事项【废弃】
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.3" data-path="../../fu-lu/mybatisshu-ju-lian-jie-chuan-yin-qi-luan-ma-wen-ti.html">
+            
+                <a href="../../fu-lu/mybatisshu-ju-lian-jie-chuan-yin-qi-luan-ma-wen-ti.html">
+            
+                    
+                    mybatis乱码问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.4" data-path="../../fu-lu/gitbookhe-github-jie-he.html">
+            
+                <a href="../../fu-lu/gitbookhe-github-jie-he.html">
+            
+                    
+                    gitbook和github结合
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="../../zhu-yi-shi-xiang.html">
+            
+                <a href="../../zhu-yi-shi-xiang.html">
+            
+                    
+                    注意事项！！！
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >拦截器</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <p>&#x7528;&#x4E8E;&#x5728;&#x7528;&#x6237;&#x64CD;&#x4F5C;&#x65F6;&#x5224;&#x65AD;&#x7528;&#x6237;&#x6709;&#x6CA1;&#x6709;&#x6743;&#x9650;&#x8BBF;&#x95EE;&#x3002;</p>
+<p><img src="../../assets/springmvc-interceptor-log.png" alt="">&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x7C7B;&#xFF0C;&#x5B9E;&#x73B0;HandlerInterceptor&#xFF0C;&#x5E76;&#x5728;springmvc&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x4E2D;&#x914D;&#x7F6E;&#x3002;</p>
+<p>&#x7136;&#x540E;&#x9700;&#x8981;&#x5B9E;&#x73B0;&#x4E09;&#x4E2A;&#x65B9;&#x6CD5;preHandle&#x3001;postHandle&#x3001;afterCompletion&#x3002;</p>
+<p>preHandle&#x65B9;&#x6CD5;&#x5728;controller&#x65B9;&#x6CD5;&#x6267;&#x884C;&#x524D;&#x6267;&#x884C;&#xFF0C;postHandler&#x65B9;&#x6CD5;&#x5728;&#x65B9;&#x6CD5;&#x6267;&#x884C;&#x540E;&#x56DE;&#x8C03;&#xFF0C;afterCompletion&#x65B9;&#x6CD5;&#x5728;&#x89C6;&#x56FE;&#x6E32;&#x67D3;&#x540E;&#x6267;&#x884C;&#x3002;</p>
+<p>&#x5728;&#x8FD9;&#x91CC;&#x505A;&#x62E6;&#x622A;&#x5668;&#xFF0C;&#x6211;&#x662F;&#x8C03;&#x4E86;loginService&#x7684;&#x6821;&#x9A8C;&#x65B9;&#x6CD5;&#xFF1A;</p>
+<p><img src="../../assets/loginservice-interceptor.png" alt="">&#x5982;&#x679C;&#x662F;start&#x3001;login&#x3001;toLogin&#x3001;logout&#x65B9;&#x6CD5;&#x548C;nofunc&#x5F00;&#x5934;&#x7684;&#x65B9;&#x6CD5;&#x90FD;&#x4E0D;&#x62E6;&#x622A;&#xFF0C;&#x5982;&#x679C;&#x6709;&#x4E9B;&#x65B9;&#x6CD5;&#x4E0D;&#x9700;&#x8981;&#x5224;&#x65AD;&#x6743;&#x9650;&#xFF0C;&#x5C31;&#x53EF;&#x4EE5;&#x52A0;&#x4E0A;nofunc&#xFF0C;&#x5982;&#x679C;&#x65B9;&#x6CD5;&#x9700;&#x8981;&#x505A;&#x6743;&#x9650;&#x6821;&#x9A8C;&#xFF0C;&#x90A3;&#x4E48;&#x6267;&#x884C;judegParmit&#x65B9;&#x6CD5;&#x3002;</p>
+<p>&#x7528;&#x6237;&#x5728;&#x767B;&#x5F55;&#x65F6;&#xFF0C;&#x90FD;&#x4F1A;&#x5148;&#x901A;&#x8FC7;operId&#x67E5;&#x4E4B;&#x524D;&#x6709;&#x6CA1;&#x6709;&#x7528;&#x6237;&#x767B;&#x5F55;&#xFF0C;&#x6709;&#x7684;&#x8BDD;&#x5C06;&#x4E4B;&#x524D;&#x7684;&#x7528;&#x6237;cache&#x6E05;&#x9664;&#xFF0C;&#x518D;&#x5B58;&#x5165;&#x5F53;&#x524D;sessionId &#x548C;&#x5BF9;&#x5E94;&#x7684;operId&#x4EE5;&#x53CA;&#x5F53;&#x524D;operId&#x5BF9;&#x5E94;&#x7684;map&#x96C6;&#x5408;&#x3002;</p>
+<p>&#x5982;&#x56FE;&#x6CE8;&#x91CA;&#x5F88;&#x8BE6;&#x7EC6;&#xFF1A;</p>
+<p><img src="../../assets/login.png" alt=""></p>
+<p>&#x6267;&#x884C;judegParmit&#x65B9;&#x6CD5;&#x65F6;&#x901A;&#x8FC7;operId&#x627E;&#x5230;&#x5BF9;&#x5E94;&#x7684;&#x7528;&#x6237;&#x4FE1;&#x606F;&#xFF0C;&#x8FDB;&#x884C;&#x767B;&#x5F55;&#x3002;</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../springmvcpei-zhi.html" class="navigation navigation-prev " aria-label="Previous page: springmvc配置">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="yi-chang-chu-li.html" class="navigation navigation-next " aria-label="Next page: 异常处理">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"拦截器","level":"1.5.2.1","depth":3,"next":{"title":"异常处理","level":"1.5.2.2","depth":3,"path":"kuang-jia-she-zhi/springmvcpei-zhi/yi-chang-chu-li.md","ref":"kuang-jia-she-zhi/springmvcpei-zhi/yi-chang-chu-li.md","articles":[]},"previous":{"title":"springmvc配置","level":"1.5.2","depth":2,"path":"kuang-jia-she-zhi/springmvcpei-zhi.md","ref":"kuang-jia-she-zhi/springmvcpei-zhi.md","articles":[{"title":"拦截器","level":"1.5.2.1","depth":3,"path":"kuang-jia-she-zhi/springmvcpei-zhi/lan-jie-qi.md","ref":"kuang-jia-she-zhi/springmvcpei-zhi/lan-jie-qi.md","articles":[]},{"title":"异常处理","level":"1.5.2.2","depth":3,"path":"kuang-jia-she-zhi/springmvcpei-zhi/yi-chang-chu-li.md","ref":"kuang-jia-she-zhi/springmvcpei-zhi/yi-chang-chu-li.md","articles":[]},{"title":"业务、错误日志","level":"1.5.2.3","depth":3,"path":"kuang-jia-she-zhi/springmvcpei-zhi/ye-wu-3001-cuo-wu-ri-zhi.md","ref":"kuang-jia-she-zhi/springmvcpei-zhi/ye-wu-3001-cuo-wu-ri-zhi.md","articles":[]},{"title":"springmvc的使用","level":"1.5.2.4","depth":3,"path":"kuang-jia-she-zhi/springmvcpei-zhi/springmvcde-shi-yong.md","ref":"kuang-jia-she-zhi/springmvcpei-zhi/springmvcde-shi-yong.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"kuang-jia-she-zhi/springmvcpei-zhi/lan-jie-qi.md","mtime":"2018-10-29T02:01:20.330Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-12-21T03:25:07.141Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
