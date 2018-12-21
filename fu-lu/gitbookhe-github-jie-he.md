@@ -61,9 +61,23 @@ gitbook在线手册地址：[https://increator.gitbooks.io/dev\_guide/content](h
 
 ![](/assets/publish2.png)![](/assets/publish3.png)
 
-### 方式三：本地命令行发布：
+### 方式三：本地命令行发布（测试可用）：
 
-本地安装notejs，
+本地安装notejs，百度下载安装。
+
+安装成功后，在命令行中执行npm install gitbook-cli -g，安装gitbook编译工具包，待完成。
+
+再 再到gitbook的源文件目录，如\increator\dev\_guide下，执行命令：gitbook serve，等提示启动成功，再CTRL+C结束服务。会在本地当前目录中生成一个\_book的目录，即为编译后的静态手册文件。  
+可可把这个目录作为静态web资源发布，使用nginx，配置如下，根据实际情况修改目录名称
+
+```
+    location /book {
+        #alias  E:\work\_book\;
+        #index index.html;        
+     }
+```
+
+
 
 # gitbook的组织管理
 
