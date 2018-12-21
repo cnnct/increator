@@ -25,7 +25,7 @@
   * [框架代码获取](kuang-jia-dai-ma-huo-qu.md)
   * [框架key管理](kuang-jia-key-guan-li.md)
   * [团队介绍](zuo-zhe-jie-shao.md)
-* [！！注意事项，必看！！！](zhu-yi-shi-xiang.md)
+* [！！！注意事项，必看！！！](zhu-yi-shi-xiang.md)
 * [基本标签控件](ji-ben-biao-dan-kong-jian.md)
   * [init\_page标签\(页面加载相关\)](ji-ben-biao-dan-kong-jian/initpage-biao-qian-3010-shi-3011.md)
   * [span标签\(文本块\)](ji-ben-biao-dan-kong-jian/spanbiao-qian.md)
