@@ -25,6 +25,7 @@
   * [框架代码获取](kuang-jia-dai-ma-huo-qu.md)
   * [框架key管理](kuang-jia-key-guan-li.md)
   * [团队介绍](zuo-zhe-jie-shao.md)
+* [！！注意事项，必看！！！](zhu-yi-shi-xiang.md)
 * [基本标签控件](ji-ben-biao-dan-kong-jian.md)
   * [init\_page标签\(页面加载相关\)](ji-ben-biao-dan-kong-jian/initpage-biao-qian-3010-shi-3011.md)
   * [span标签\(文本块\)](ji-ben-biao-dan-kong-jian/spanbiao-qian.md)
@@ -180,5 +181,4 @@
   * [gitbook使用注意事项【废弃】](fu-lu/gitsvn.md)
   * [mybatis乱码问题](fu-lu/mybatisshu-ju-lian-jie-chuan-yin-qi-luan-ma-wen-ti.md)
   * [gitbook和github结合](fu-lu/gitbookhe-github-jie-he.md)
-* [注意事项！！！](zhu-yi-shi-xiang.md)
 
