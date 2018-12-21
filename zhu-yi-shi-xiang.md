@@ -10,7 +10,7 @@
 
 **如果不使用button标签，在提交表单等操作前，须调用JS函数validateUser\(\)进行验证，以免误导用户。**
 
-由调用JS函数validateUser\(\)进行验证示例：
+调用JS函数validateUser\(\)进行验证示例：
 
 在ajax调用后台之前即可，最好写在第一行。
 
@@ -20,17 +20,17 @@ function save() {
 
     //比如在此处调用验证
     validateUser();
-    
+
     //表单验证
     if (!$("#edit_form").valid()) {
         return;
     }
     //提交表单
     postform({
-    	"tableId":"mytable",
-    	"url":"${base}/sys/auth/role/save/edit",
-    	"formId":"edit_form",
-    	"modalId":"modal_edit"
+        "tableId":"mytable",
+        "url":"${base}/sys/auth/role/save/edit",
+        "formId":"edit_form",
+        "modalId":"modal_edit"
     });
 }
 ```
