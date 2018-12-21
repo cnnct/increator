@@ -45,6 +45,8 @@ gitbook在线手册地址：[https://increator.gitbooks.io/dev\_guide/content](h
 
 ![](/assets/publish2.png)![](/assets/publish3.png)
 
+### 方式三：本地命令行发布，发布，详见下图：
+
 # gitbook的组织管理
 
 可通过gitbook的组织将手册进行管理，且与github进行关联，目的是再发布手册时通过这个组织进行发布即可，在线手册访问地址为：[https://increator.gitbooks.io/dev\_guide/content](https://increator.gitbooks.io/dev_guide/content)
