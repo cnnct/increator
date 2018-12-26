@@ -72,4 +72,5 @@
 
   > #####接口日志异步记录：【2.7】
   2.7版本后加入接口日志异步记录：
-
+![](/assets/httplog1.png)
+![](/assets/httplog2.png)
