@@ -65,8 +65,11 @@
   > ```
   
   > #####接口版本控制：【2.7】
-  >
-  
+  2.7版本后加入接口版本控制开关：
+  >![](/assets/httpversion5.png)
+  ![](/assets/httpversion6.png)
+  ![](/assets/httpversion7.png)
 
-
+  > #####接口日志异步记录：【2.7】
+  2.7版本后加入接口日志异步记录：
 
