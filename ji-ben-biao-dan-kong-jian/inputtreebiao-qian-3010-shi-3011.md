@@ -39,7 +39,7 @@
 > > **child_sql_condition【1.3】：**该属性是为了解决el表达式在ftl数组属性中解析不了的问题，即child_info属性中的sql_condition属性被该属性替换，引入方式：child_sql_condition="${operVo.brch.brchId},2;4"，child_info属性中不同不同元素的sql_condition属性需要的值用‘；’分割
 
 >>** select_click_node_only【1.7】：**该属性主要是为了控制input_tree组件解除父子级节点的关联，即点击节点文字时只获取点击节点的值，父节点和子节点的值不获取
-**注意：**该标签在【1.7】后，复选框树点击文字项，只会选中本节点和关联的父节点，不会勾选子节点，而勾选复选框时和原先的功能一致，单选框功能和原先的不变
+**注意：**该标签在【1.7】后，复选框树点击文字项，只会选中本节点和关联的父节点，不会勾选子节点，而勾选复选框时和原先的功能一致，**该功能针对复选框**
 
 > > **cust_get_data_clazz【2.1】：** 该功能用于支持自定义加载tree的初始化数据，如果该项存在，则将屏蔽sql_key的加载数据功能，指定加载类和方法,规则示例将在下面展示，具体示例见2.0平台基础项目demo页
 > >
@@ -48,10 +48,10 @@
 > > **search_have【2.1】:** search_have属性为是否开启搜索功能，默认false，当为true时搜索功能可用
 > >
 > >
-> > **parent_multiselect_child_single【2.4】:** parent_multiselect_child_single属性为是否开启子级解除关联，且只能单选
+> > **parent_multiselect_child_single【2.4】:** parent_multiselect_child_single属性为是否开启子级解除关联，且只能单选，**该功能针对复选框**
 > >
 > > **cust_relation【2.4】:** cust_relation属性用于控制上下级关系的解除与否，如cust_relation={"cancel_parent_relation":"false","cancel_children_relation":"true","select_more":"false"}
-其中cancel_parent_relation为是否解除父级关联，默认false，cancel_children_relation为是否解除子级关联，默认false，select_more为被点击的节点是否可以多选，默认true
+其中cancel_parent_relation为是否解除父级关联，默认false，cancel_children_relation为是否解除子级关联，默认false，select_more为被点击的节点是否可以多选，默认true，**该功能针对复选框**
 > >
 > > **expand_tree【2.4】：** 该属性为控制初始化是否展开树节点，默认true
 > >
