@@ -10,7 +10,7 @@ github仓库地址：[https://github.com/cnnct/increator.git](https://github.com
 
 gitbook在线手册地址：[https://increator.gitbooks.io/dev\_guide/content](https://increator.gitbooks.io/dev_guide/content)
 
-公司在线手册地址：   **（注意：手动更新部署，可能不是最新版本）**
+公司在线手册地址： http://soeasycn.com/dev\_guide/content/  **（注意：手动更新部署，可能不是最新版本）**
 
 # 使用方法：
 
