@@ -10,6 +10,8 @@ github仓库地址：[https://github.com/cnnct/increator.git](https://github.com
 
 gitbook在线手册地址：[https://increator.gitbooks.io/dev\_guide/content](https://increator.gitbooks.io/dev_guide/content)
 
+公司在线手册地址：[https://increator.gitbooks.io/dev\_guide/content](https://increator.gitbooks.io/dev_guide/content)    （注意：更新可能不及时）
+
 # 使用方法：
 
 * 1、注册github账号，并在gitbook中使用此账号登录，不登录也可，但在同步项目时还是会提示登录。
@@ -55,7 +57,7 @@ gitbook在线手册地址：[https://increator.gitbooks.io/dev\_guide/content](h
 
 **注意：执行gitbook serve命令时，若提示Error: EPERM: operation not permitted, mkdir 错误，可尝试使用管理员运行命令行解决此问题。**
 
-*  可把这个目录作为静态web资源发布，使用nginx，配置如下，根据实际情况修改目录名称
+* 可把这个目录作为静态web资源发布，使用nginx，配置如下，根据实际情况修改目录名称
 
 ```
     location /book {
