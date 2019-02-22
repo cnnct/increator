@@ -81,5 +81,7 @@ String returnStr = Tools.processNull(FastJsonClient.doPost(caller));
 
 4、如果流程成功启动，在用户登录时，调用”用户任务查询“接口（R005），获取用户待办和已办任务。
 
-5、
+5、同时，可以调用”用户任务数量查询“接口，查询用户待办和已办任务的数量。
+
+6、
 
