@@ -77,5 +77,7 @@ String returnStr = Tools.processNull(FastJsonClient.doPost(caller));
 
 2、调用”确认流程实例是否启动“接口（R003）确认流程是否启动成功。
 
-3、
+3、如果想结束流程，调用”终止流程实例“接口（R004）。
+
+3、如果流程成功启动，在用户登录时，调用”用户任务查询“接口（R005），获取用户待办和已办任务。
 
