@@ -71,7 +71,11 @@ FastJsonClient.setJSONSERVERURL("http://soeasycn.com/icwf/interf/workflow/R/R001
 String returnStr = Tools.processNull(FastJsonClient.doPost(caller));
 ```
 
-##### 
+##### 3、使用流程
 
+1、调用”启动流程“接口（R001）或”启动流程并自动连续完成任务“接口（R002）来启动流程。
 
+2、调用”确认流程实例是否启动“接口（R003）确认流程是否启动成功。
+
+3、
 
