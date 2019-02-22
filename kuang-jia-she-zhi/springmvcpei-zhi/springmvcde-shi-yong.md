@@ -1,4 +1,4 @@
-所有controlloer都要继承BsesCtrl
+所有controlloer都要继承BsseCtrl
 
 ![](/assets/ModelAttribute.png)
 
