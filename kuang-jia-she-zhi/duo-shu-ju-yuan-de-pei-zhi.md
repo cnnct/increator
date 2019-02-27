@@ -299,9 +299,9 @@ private SysRoleMapper sysRoleMapperOracle;
 
 ```
 <!-- 默认false，根据数据库中字段类型长度把JDBC DECIMAL 和 NUMERIC 类型解析为对应的类型；为 true时把JDBC DECIMAL 和
-	NUMERIC 类型解析为java.math.BigDecimal -->
+    NUMERIC 类型解析为java.math.BigDecimal -->
 <javaTypeResolver>
-	<property name="forceBigDecimals" value="false" />
+    <property name="forceBigDecimals" value="false" />
 </javaTypeResolver>
 ```
 

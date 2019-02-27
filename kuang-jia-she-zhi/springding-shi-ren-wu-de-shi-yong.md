@@ -19,21 +19,27 @@
 #### 定时任务类示例：
 
 ```
+// 用于将定时任务时间配置在文件中
+@PropertySource("classpath:config/parameter/para.properties")
 @Component
-
 public class TestTask {
 
-/**
-*  定时任务demo,每隔5秒执行一次
-*/
+    /**
+     * 使定时任务可以解析${}（用于将cron表达式配置在配置文件中时）
+     */
+    @Bean
+    public static PropertySourcesPlaceholderConfigurer propertyConfigInDev() {
+        return new PropertySourcesPlaceholderConfigurer();
+    }
 
-    @Scheduled(cron = "0/5 * * * * ?")
-
-    public void execute() {
-
-        // do something
-
-    }    
+    /**
+     * 定时任务demo,每隔5秒执行一次
+     */
+    // @Scheduled(cron = "0/5 * * * * ?")
+    @Scheduled(cron = "${test_task_cron}")
+    public void execute() throws Exception {
+        System.err.println("test!!!");
+    }
 }
 ```
 
