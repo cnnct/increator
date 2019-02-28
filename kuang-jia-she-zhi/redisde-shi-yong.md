@@ -12,7 +12,7 @@
 
 3.打开src/config/parameter目录下的redis.properties文件，将hostName和port修改为redis服务器对应的参数值。
 
-#### 三、新增缓存
+#### 三、新增缓存方法
 
 1、在RedisFactory类中新增一个ValueOperations和一个静态ValueOperations，再在init\(\)方法中将ValueOperations值赋给静态ValueOperations：
 
