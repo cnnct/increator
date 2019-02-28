@@ -12,3 +12,9 @@
 
 3.打开src/config/parameter目录下的redis.properties文件，将hostName和port修改为redis服务器对应的参数值。
 
+#### 三、新增缓存
+
+
+
+
+
