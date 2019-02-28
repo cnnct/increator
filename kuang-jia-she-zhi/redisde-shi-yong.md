@@ -14,7 +14,23 @@
 
 #### 三、新增缓存
 
+1、在RedisFactory类中新增一个ValueOperations和一个静态ValueOperations，再在init\(\)方法中将ValueOperations值赋给静态ValueOperations：
 
+![](/assets/redis1.png)
 
+2、在RedisFactory类中新增此ValueOperations的静态get方法：
 
+![](/assets/redis2.png)
+
+3、在RedisUtil类中新增一个ValueOperations：
+
+![](/assets/redis3.png)
+
+4、在RedisUtil类中新增此ValueOperations的静态get、put、remove等方法：
+
+![](/assets/redis4.png)
+
+5、在CacheUtil类中调用此缓存：
+
+![](/assets/redis5.png)
 
