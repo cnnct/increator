@@ -43,5 +43,9 @@ openNewMenuTab(options);
 funcId = URLDecoder.decode(funcId, "utf-8");
 ```
 
+# function openNewMenuTabSimple\(funcId,para,refresh\) 
+
+对 
+
 
 
