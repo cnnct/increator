@@ -52,9 +52,9 @@
 > >
 > > ** delete\_confirm【2.8】**：可以控制删除前是否要弹出确认提示，默认为true
 > >
-> > insert\_button【2.8】：控制是否显示右上角的+加号按钮，默认true
+> > **insert\_button【2.8】：**控制是否显示右上角的+加号按钮，默认true
 > >
-> > delete\_button【2.8】：控制是否显示表格中的删除按钮，默认true
+> > **delete\_button【2.8】：**控制是否显示表格中的删除按钮，默认true
 
 #### table\_second标签的引入方式 :
 
@@ -80,7 +80,7 @@
 
 #### 提供的可供调用的js方法：
 
-/_\*            
+/_\*              
 _修改表格处于编辑状态行的行数据,obj为对象类型，其中包含两个固定属性tableId和data，且data为对象类型 ，包含需要修改的值：如：obj={“tableId”：“mytable”，“data”：{“id”:"123456","name":"zhangsan"}}  
 \*/  
 1.updateJsGridEditRow\(obj\)【2.4】;
