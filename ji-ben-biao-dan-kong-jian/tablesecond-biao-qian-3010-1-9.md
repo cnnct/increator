@@ -101,6 +101,11 @@ function getJsGridEditState(obj)【2.8】；
  * obj中包含tableId，格式如：{"tableId":"mytable2"}
  */
 function getJsGridCurRowDataJson(obj)【2.8】；
+/**
+ * 判断表格是否包含明细行，包含正在添加和编辑但还未提交的都算有
+ * @param obj
+ */
+function getJsGridHasRow(obj)
 ```
 
 
