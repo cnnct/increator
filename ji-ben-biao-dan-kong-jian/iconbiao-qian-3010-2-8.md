@@ -18,7 +18,7 @@
 > >
 > > position**：位置，left、center、right**
 
-#### text\_area标签的引入方式 :
+#### icon标签的引入方式 :
 
 ```
 <@text_area label="文本域1：,false" id="username1" name="textname" value="name"  size="5" />
