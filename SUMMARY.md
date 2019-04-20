@@ -63,7 +63,7 @@
   * [time\_range标签\(时间范围选择\)【2.4】](ji-ben-biao-dan-kong-jian/timerange-biao-qian-3010-2-4.md)
   * [scroll\_up标签\(回到顶部\)【2.4】](ji-ben-biao-dan-kong-jian/scrollup-biao-qian-3010-2-4.md)
   * [spinner标签\(可调节大小数字\)【2.4】](ji-ben-biao-dan-kong-jian/spinnerbiao-qian-3010-2-4.md)
-  * icon标签【2.8】
+  * [icon标签【2.8】](ji-ben-biao-dan-kong-jian/iconbiao-qian-3010-2-8.md)
 * [复杂、组合标签控件](fu-za-2018-zu-he-biao-qian-kong-jian-3010-shi-3001-lu-3011.md)
   * [cas\_select\_parent和cas\_select\_child\(级联标签组\)](ji-ben-biao-dan-kong-jian/casselect-parent-biao-qian-3010-shi-3011.md)
   * [child\_tab和child\_tab\_content\(子tab标签组\)](ji-ben-biao-dan-kong-jian/zi-tab-biao-qian-zu-3010-shi-3011.md)
