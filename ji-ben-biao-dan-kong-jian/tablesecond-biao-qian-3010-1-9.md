@@ -1,12 +1,14 @@
-## edit_table*标签**
+## edit\_table_标签\*_
 
 ### 【！！！注意：此控件不兼容IE8】
-###【2.5版本后从table_second改名为edit_table,table_second不再维护】
-####edit_table**标签的属性 :**
+
+### 【2.5版本后从table\_second改名为edit\_table,table\_second不再维护】
+
+#### edit\_table**标签的属性 :**
 
 **注意：该属性组件不支持ie8，ie9等浏览器**
 
-> edit_table标签为含第二样式的表格标签，相对于table标签，功能比较单一，但是比较灵活，支持表格行数据的拖拽，新增行数据，修改行内数据，删除数据，含有的属性如下：  
+> edit\_table标签为含第二样式的表格标签，相对于table标签，功能比较单一，但是比较灵活，支持表格行数据的拖拽，新增行数据，修改行内数据，删除数据，含有的属性如下：  
 > ** 注意【2.1】：由于freemarker的数组和对象类型不能解析el表达式，所以为了配套普通select类型的sql\_key执行，在【2.1】版本后，支持属性sql\_condition的扩展，详情见下面标签引入示例**
 
 &gt;
@@ -19,7 +21,7 @@
 > >
 > > **height【2.0】：** 高度属性，默认全部展示，可填数值
 > >
-> > **\*fields:** 表格的加载字段属性，为数组对象，单个字段对象包含属性：name\(加载的字段名\)，title\(字段标题\),type\(编辑时的类型，现支持text,textarea,checkbox,code\_select,myDateField\(日期\)【2.4】版本后该属性名替换为date，【2.4版本】支持multiselect类型（多选类型）和time时间类型（仅时分），注意当为code\_select类型时必须指定code\_type,当type为空且不存在时，将冻结列\),width\(宽度，默认100\)，position为列的位置，默认center，可填值center，left，right,【2.0】版本后调整type有select，code\_select项，code\_select需要指定code\_type；如果是select和multiselect类型，需要指定sql\_key（配套sql\_condition），value\_field，show\_field,checkbox类型只支持传入的值为boolean类型；需要指出的是【2.4】版本后日期类型date和time支持控制两个时间类型或两个日期类型的对比，**注意：date和time类型后台数据必须返回Date类型**如有属性before_than（早于）和late_than（迟于）属性，如："before_than":"end_time"，值为指定的字段列；【2.4】版本后text类型支持运算功能，可加属性calculation_type，支持两个类型term（远算列）和result-term（接收结果的列）类型，详细看demo示例
+> > **\*fields:** 表格的加载字段属性，为数组对象，单个字段对象包含属性：name\(加载的字段名\)，title\(字段标题\),type\(编辑时的类型，现支持text,textarea,checkbox,code\_select,myDateField\(日期\)【2.4】版本后该属性名替换为date，【2.4版本】支持multiselect类型（多选类型）和time时间类型（仅时分），注意当为code\_select类型时必须指定code\_type,当type为空且不存在时，将冻结列\),width\(宽度，默认100\)，position为列的位置，默认center，可填值center，left，right,【2.0】版本后调整type有select，code\_select项，code\_select需要指定code\_type；如果是select和multiselect类型，需要指定sql\_key（配套sql\_condition），value\_field，show\_field,checkbox类型只支持传入的值为boolean类型；需要指出的是【2.4】版本后日期类型date和time支持控制两个时间类型或两个日期类型的对比，**注意：date和time类型后台数据必须返回Date类型**如有属性before\_than（早于）和late\_than（迟于）属性，如："before\_than":"end\_time"，值为指定的字段列；【2.4】版本后text类型支持运算功能，可加属性calculation\_type，支持两个类型term（远算列）和result-term（接收结果的列）类型，详细看demo示例
 > >
 > > **editor\_flag:【2.0】** 编辑功能开关，默认false，即编辑功能冻结，当为true时可以新增行，修改行，删除行，移动行
 > >
@@ -47,6 +49,14 @@
 > > ** search\_have:【2.0】** 是否拥有搜索功能，默认false
 > >
 > > ** delete\_message:【2.1】** 删除提示，默认提示“确定要删除记录？”
+> >
+> > ** delete\_confirm【2.8】**：可以控制删除前是否要弹出确认提示，默认为true
+> >
+> > insert\_button【2.8】：控制是否显示右上角的+加号按钮，默认true
+> >
+> > delete\_button【2.8】：控制是否显示表格中的删除按钮，默认true
+> >
+> > 				   delete\_button="false"
 
 #### table\_second标签的引入方式 :
 
@@ -65,13 +75,14 @@
 ![](/assets/table_second5.png)
 
 #### 【2.4】后的前台变动
-![](/assets/table_second.png)
-![](/assets/table_second12.png)
+
+![](/assets/table_second.png)  
+![](/assets/table_second12.png)  
 ![](/assets/table_sconde15.png)
 
 #### 提供的可供调用的js方法：
 
-/_\*        
+/_\*          
 _修改表格处于编辑状态行的行数据,obj为对象类型，其中包含两个固定属性tableId和data，且data为对象类型 ，包含需要修改的值：如：obj={“tableId”：“mytable”，“data”：{“id”:"123456","name":"zhangsan"}}  
 \*/  
 1.updateJsGridEditRow\(obj\)【2.4】;
