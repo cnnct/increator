@@ -76,7 +76,8 @@ query\_bar配合table标签使用，类似于form标签
                          "icon":"ext_assessedbadge",
                          "color":"success",
                          "auth_key":"brch_cust",
-                         "title":"提示"
+                         "title":"提示",
+                         "sort":"1",
                           "dynswitch":{"dynbind_field":"brch_state","show_condition":["0",“1”]}
                          }]
                 sort=["oper_id", "oper_name"]
@@ -212,29 +213,35 @@ query\_bar配合table标签使用，类似于form标签
             "closeModal":"false"
         });
   ```
-* ####加载静态表格示例【1.4】：  
+* #### 加载静态表格示例【1.4】：
+
   ![](/assets/table8.png)  
   ![](/assets/table11.png)  
   ![](/assets/table10.png)  
   **注意**：加载静态的表格需要is\_static,fields,id,thead等**必要**属性，使用静态表格后url,translate,load\_data\_init,callback等属性不可使用，详细代码见全量包，静态表格支持首列是否有勾选列，也支持单选，复选
 
-* ####自定义默认脱敏方法：  
+* #### 自定义默认脱敏方法：
+
   1.需要配置table\_default\_sensitive\_custom\_class参数：  
   ![](/assets/table12.png)  
   2.自定义方法：  
   ![](/assets/table13.png)  
   注意：只加载获取方法名为chineseName（脱敏姓名），idCardNum（脱敏身份证），fixedPhone（固定电话），mobilePhone（手机），email（邮箱），bankCard（银行卡号）的方法
 
-* ####表格组件脱敏支持后台表数据配置脱敏【2.2】：  
+* #### 表格组件脱敏支持后台表数据配置脱敏【2.2】：
+
   1. 后台配置脱敏的对应的表为sys\_data\_des：  
      ![](/assets/table14.png)  
   2. 后台需要支持脱敏功能，在进入页面的时候，后台需要加入一句如下语句：  
-  注意：上面表中加入数据的规则和表格中的fields\_sec属性中的数据形式一致，且脱敏的优先级为前台脱敏&gt;后台脱敏，即如果前台已经对该字段进行脱敏，后台对相同字段的脱敏将失效，如前后台都对brch\_name字段脱敏，则前台的脱敏规则生效，后台的脱敏规则失效
+     注意：上面表中加入数据的规则和表格中的fields\_sec属性中的数据形式一致，且脱敏的优先级为前台脱敏&gt;后台脱敏，即如果前台已经对该字段进行脱敏，后台对相同字段的脱敏将失效，如前后台都对brch\_name字段脱敏，则前台的脱敏规则生效，后台的脱敏规则失效
 
+* #### 表格的treegrid树级联结构功能开启方法【2.6】：
 
-* ####表格的treegrid树级联结构功能开启方法【2.6】：
   1. 前台在table标签的fields属性中加入treegrid字段，注意该字段暂时不支持在第一列
-  ![](/assets/table_treegrid1.png)
+     ![](/assets/table_treegrid1.png)
   2. 后台中必须回传的数据带children数据：（示例图如下）
-  ![](/assets/table_treegrid2.png)
-  **3. 注意该功能暂时不支持和表格冻结列功能同时开启**
+     ![](/assets/table_treegrid2.png)
+     **3. 注意该功能暂时不支持和表格冻结列功能同时开启**
+
+
+
