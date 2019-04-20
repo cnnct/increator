@@ -122,6 +122,7 @@ query\_bar配合table标签使用，类似于form标签
      detail 查看详情，edit 修改，delete 删除，active 激活，cancel 注销，显示按钮必须开启操作栏
      每个按钮有三个属性，name属性只有以上六种值，auth_key为权限属性，匹配sys_func表中的url，cust_label属性为自定义按钮的名字，存在默认名，onclick属性绑定执行的方法**必填**,【2.1】版本后加入提示title属性，
      【2.2】版本后加入style_type属性，可填值“icon”,按钮变成图标风格，不填为默认风格
+     【2.8】版本后增加sort属性，可以和自定义按钮cust_btn进行混合排序显示
   9. cust_btn【1.1】:cust_btn属性是除了以上常用按钮的自定义按钮,五项属性中name属性和onclick属性为必填项，且onclick的值现在只支持
       "doTest('sd')"这种传参方式，不支持'doTest("sd")'方式，text属性为button的显示值，icon属性为图标，默认为搜索图标，【2.0】版本后支持图标扩展可以使用font-increator下的图标，前缀"ext_"加图标样式名即可以使用，如"ext_assessedbadge"，详细可以参考button标签
       color属性为颜色属性，可以填写的值为"success"、"danger"、"info"、"warning"、"primary"，默认为蓝色,auth_key为权限属性，匹配sys_func表中的url,
@@ -129,6 +130,7 @@ query\_bar配合table标签使用，类似于form标签
       值为数组，如上"show_condition":["0","1"],指当在sys_code表中valuecode为“0”或“1”时显示，对应的还存在noshow_condition属性为不显示的情况，
       show_condition和noshow_condition属性不能同时使用，同时存在时遵循show_condition属性，
       【2.1】版本后加入提示title属性，【2.2】版本后加入style_type属性，可填值“icon”,按钮变成图标风格，不填为默认风格
+      【2.8】版本后增加sort属性，可以和缺省按钮btn进行混合排序显示
   10. sort：支持排序功能的字段，默认除了id列和操作列外所有字段都支持
   11. img_fields【1.1】:支持缩略图功能，img_fields={"img_wrap":"img"},"img_wrap"为缩略图字段，"img"为原图字段,点击缩略图弹出原图
   12. id【1.2】:指定表格id，【1.2】以后页面支持多表格，若未指定id属性时，id默认值为"mytable"，因此在多表格并存时，只能有一个表格可以不指定id。
@@ -234,7 +236,6 @@ query\_bar配合table标签使用，类似于form标签
      ![](/assets/table14.png)  
   2. 后台需要支持脱敏功能，在进入页面的时候，后台需要加入一句如下语句：  
      注意：上面表中加入数据的规则和表格中的fields\_sec属性中的数据形式一致，且脱敏的优先级为前台脱敏&gt;后台脱敏，即如果前台已经对该字段进行脱敏，后台对相同字段的脱敏将失效，如前后台都对brch\_name字段脱敏，则前台的脱敏规则生效，后台的脱敏规则失效
-
 * #### 表格的treegrid树级联结构功能开启方法【2.6】：
 
   1. 前台在table标签的fields属性中加入treegrid字段，注意该字段暂时不支持在第一列
