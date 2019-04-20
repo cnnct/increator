@@ -17,6 +17,10 @@
 > > label="name" ；label="name,,2" 即三个值都非必填项，【2.5】版本后在view\_para文件里的must\_star\_position属性可以控制must\_star的加载左右位置，默认left
 > >
 > > **value  ：** value属性
+> >
+> > **maxlength【2.8】：**最大长度属性
+> >
+> > **rows【2.8】：**行数，相当于高度，若不指定，默认值5
 
 #### text\_area标签的引入方式 :
 
