@@ -10,11 +10,13 @@
 > >
 > > **size ：** size为尺寸标签,可以填的数值范围为（1-12）,如size="6",text\_area标签的默认size为12
 > >
+> > body\_size：图标大小，large、middle、small
+> >
 > > color**：** bootstrap默认的几种颜色
 > >
 > > icon：图标，可使用默认以及扩展ext\_开头的图标
 > >
-> > **label ：** 默认的bootstrap默认的几种颜色  
+> > position**：位置，left、center、right**  
 > > 可填的数值范围为（1-12）,默认尺寸为1；引入方式：label="name,true,2" ； label="name,true" ；  
 > > label="name" ；label="name,,2" 即三个值都非必填项，【2.5】版本后在view\_para文件里的must\_star\_position属性可以控制must\_star的加载左右位置，默认left
 > >
