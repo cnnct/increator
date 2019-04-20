@@ -34,7 +34,7 @@
 > >
 > > **maxlength【2.8】**：最大长度属性
 > >
-> > **translate\_**_**co**_**de\_type【2.8】：按sys\_code表中的code值进行转义**
+> > **translate\_**_**co**_**de\_type【2.8】：**按sys\_code表中的code值进行转义
 
 #### input标签的引入方式 :
 
