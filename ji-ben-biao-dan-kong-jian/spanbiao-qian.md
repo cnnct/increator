@@ -32,7 +32,7 @@
 > >
 > > **font\_strong【2.4】：** font\_strong属性，用于控制是否加粗，可填值true，false，默认false
 > >
-> > position\[2.8\]：位置，取值为：left、center、right
+> > **position\[2.8\]：**位置，取值为：left、center、right
 
 #### span标签的引入方式 :
 
