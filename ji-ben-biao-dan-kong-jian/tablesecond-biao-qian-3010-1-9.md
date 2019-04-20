@@ -87,13 +87,20 @@
 修改表格处于编辑状态行的行数据,obj为对象类型，其中包含两个固定属性tableId和data，且data为对象类型 ，包含需要修改的值：如：obj={“tableId”：“mytable”，“data”：{“id”:"123456","name":"zhangsan"}}
 */
 updateJsGridEditRow(obj)【2.4】;
+
 /**
 * 获取edit_table编辑状态，true:表示正在edit或insert
 *
 * obj中包含tableId，格式如：{"tableId":"mytable2"}
 */
-function getJsGridEditState(obj)【2.8】
+function getJsGridEditState(obj)【2.8】；
 
+/**
+ * 获取edit_table组件激活状态的行数据，以json方式返回
+ * 
+ * obj中包含tableId，格式如：{"tableId":"mytable2"}
+ */
+function getJsGridCurRowDataJson(obj)【2.8】；
 ```
 
 
