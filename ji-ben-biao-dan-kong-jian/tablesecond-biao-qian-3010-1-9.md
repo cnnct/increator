@@ -23,7 +23,7 @@
 > >
 > > **\*fields:** 表格的加载字段属性，为数组对象，单个字段对象包含属性：name\(加载的字段名\)，title\(字段标题\),type\(编辑时的类型，现支持text,textarea,checkbox,code\_select,myDateField\(日期\)【2.4】版本后该属性名替换为date，【2.4版本】支持multiselect类型（多选类型）和time时间类型（仅时分），注意当为code\_select类型时必须指定code\_type,当type为空且不存在时，将冻结列\),width\(宽度，默认100\)，position为列的位置，默认center，可填值center，left，right,【2.0】版本后调整type有select，code\_select项，code\_select需要指定code\_type；如果是select和multiselect类型，需要指定sql\_key（配套sql\_condition），value\_field，show\_field,checkbox类型只支持传入的值为boolean类型；需要指出的是【2.4】版本后日期类型date和time支持控制两个时间类型或两个日期类型的对比，**注意：date和time类型后台数据必须返回Date类型**如有属性before\_than（早于）和late\_than（迟于）属性，如："before\_than":"end\_time"，值为指定的字段列；【2.4】版本后text类型支持运算功能，可加属性calculation\_type，支持两个类型term（远算列）和result-term（接收结果的列）类型，详细看demo示例
 > >
-> > 【2.8】版本后增加select\_ext控件，用法同select
+> > 【2.8】版本后增加select\_ext控件，用法同select，详见demo示例
 > >
 > > **editor\_flag:【2.0】** 编辑功能开关，默认false，即编辑功能冻结，当为true时可以新增行，修改行，删除行，移动行
 > >
@@ -82,7 +82,7 @@
 
 #### 提供的可供调用的js方法：
 
-/_\*                
+/_\*                  
 _修改表格处于编辑状态行的行数据,obj为对象类型，其中包含两个固定属性tableId和data，且data为对象类型 ，包含需要修改的值：如：obj={“tableId”：“mytable”，“data”：{“id”:"123456","name":"zhangsan"}}  
 \*/  
 1.updateJsGridEditRow\(obj\)【2.4】;
