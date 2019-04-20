@@ -33,6 +33,8 @@
 > > **email\_tootip【2.5】：** 该属性是为了控制是否开启邮箱输入提示，默认false，可填值true和false
 > >
 > > **maxlength【2.8】**：最大长度属性
+> >
+> > **translate\_**_**co**_**de\_type【2.8】：按sys\_code表中的code值进行转义**
 
 #### input标签的引入方式 :
 
