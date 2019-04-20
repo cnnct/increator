@@ -43,9 +43,7 @@ openNewMenuTab(options);
 funcId = URLDecoder.decode(funcId, "utf-8");
 ```
 
-# function openNewMenuTabSimple\(funcId,para,refresh\) 
+# function openNewMenuTabSimple\(funcId,para,refresh\)
 
-对 
-
-
+对openNewMenuTab的简化版本，可直传入funcid，即可。
 
