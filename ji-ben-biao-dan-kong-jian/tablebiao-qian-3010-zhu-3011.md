@@ -159,6 +159,8 @@ query\_bar配合table标签使用，类似于form标签
   29. total_row【2.4】：该属性用于控制合计行，合计行可以合并，在开启该功能时后台必须自行加一行对应的数据，前台可以进行合并total_row=[{"x_coordinate":"2","colspan":"3"}]，其他不合并的都默认占一列，x_coordinate为x起始坐标（从0开始，这里是排除了冻结列的起始坐标）,colspan为占用的列数，如果合计行开启又不需要合并列，可以total_row=[]，具体见文档
   30. scrolly【2.7】： 该属性开启纵向滚动条，需要指定固定的高度，默认不开启该属性，
   ，**注意：该方法必须在表格加载前被定义**
+  31. banner_class【2.8】:全局字段背景旗帜样式，配合banner_have=true时使用。
+  31. fields_banner【2.8】:自定义字段旗帜背景，优先级高于全局banner_class属性。
   ```
 * 表格数据显示例子如下图：  
   ![](/assets/table.png)![](/assets/table2.png)
