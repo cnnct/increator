@@ -21,7 +21,8 @@
 #### icon标签的引入方式 :
 
 ```
-<@text_area label="文本域1：,false" id="username1" name="textname" value="name"  size="5" />
+<@icon icon="ext_check" color="danger" body_size="middle" position="left"/>
+<@icon size="1" icon="remove" color="info" body_size="large" position="center"/>
 ```
 
 #### text\_area标签的显示结果 :
