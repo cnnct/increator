@@ -27,5 +27,5 @@
 
 #### text\_area标签的显示结果 :
 
-
+![](/assets/icon_demo.png)
 
