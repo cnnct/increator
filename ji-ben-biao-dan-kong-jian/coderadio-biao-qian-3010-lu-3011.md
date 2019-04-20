@@ -10,9 +10,9 @@
 > >
 > > **name ：** name属性
 > >
-> > **label：** label为select标签的前缀标签属性,如label="name,true,2"；其中label属性中含有三个值，第一个值为前缀标签的名字；第二个值为前缀标签是否加红色星号\*即必填项标志；第三个值为前缀标签的尺寸,
-> > 可填的数值范围为（1-12）,默认尺寸为1；引入方式：label="name,true,2" ； label="name,true" ；
-> >label="name" ；label="name,,2" 即三个值都非必填项，【2.5】版本后在view_para文件里的must_star_position属性可以控制must_star的加载左右位置，默认left
+> > **label：** label为select标签的前缀标签属性,如label="name,true,2"；其中label属性中含有三个值，第一个值为前缀标签的名字；第二个值为前缀标签是否加红色星号\*即必填项标志；第三个值为前缀标签的尺寸,  
+> > 可填的数值范围为（1-12）,默认尺寸为1；引入方式：label="name,true,2" ； label="name,true" ；  
+> > label="name" ；label="name,,2" 即三个值都非必填项，【2.5】版本后在view\_para文件里的must\_star\_position属性可以控制must\_star的加载左右位置，默认left
 > >
 > > \***code\_type：** 从Sys\_Code表查询的字段
 > >
@@ -26,10 +26,9 @@
 > >
 > > **size ：** size为尺寸标签,可以填的数值范围为（1-12）,如size="6",code\_radio标签的默认size为12
 > >
-> > **body_size【2.4】 ：** body_size为尺寸属性，用于控制大小，可填值small和large,默认small
+> > **body\_size【2.4】 ：** body\_size为尺寸属性，用于控制大小，可填值small和large,默认small
 > >
-
-
+> > **color【2.8】**：背景色属性，值按照json格式，如：color='{"09":"info","28":"danger"}'
 
 #### code\_radio标签的引入方式 :
 
