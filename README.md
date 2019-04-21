@@ -36,9 +36,9 @@
 
 # 开发开手册地址
 
-> [https://increator.gitbooks.io/dev\_guide/content](https://increator.gitbooks.io/dev_guide/content)
-
-> [http://soeasycn.com/dev\_guide/content/](http://soeasycn.com/dev_guide/content/)
+> gitbook官网地址，实时更新：[https://increator.gitbooks.io/dev\_guide/content](https://increator.gitbooks.io/dev_guide/content)
+>
+> 公司地址，定期更新：[http://soeasycn.com/dev\_guide/content/](http://soeasycn.com/dev_guide/content/)
 
 # 重要说明
 
