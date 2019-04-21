@@ -1,4 +1,4 @@
-\`\`\# github引入的原因说明：
+#  github引入的原因说明：
 
 本来是使用公司的svn版本管理进行手册版本管理的，但最后发现git和svn还是存在冲突，没找到共存的方案，因此转到github上。
 
@@ -10,7 +10,7 @@ github仓库地址：[https://github.com/cnnct/increator.git](https://github.com
 
 gitbook在线手册地址：[https://increator.gitbooks.io/dev\_guide/content](https://increator.gitbooks.io/dev_guide/content)
 
-公司在线手册地址： http://soeasycn.com/dev\_guide/content/  **（注意：手动更新部署，可能不是最新版本）**
+公司在线手册地址： [http://soeasycn.com/dev\_guide/content/](http://soeasycn.com/dev_guide/content/)  **（注意：手动更新部署，可能不是最新版本）**
 
 # 使用方法：
 
