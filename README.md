@@ -34,6 +34,12 @@
 >
 > [http://ip:端口/manageplat/demo](#)  【1.8及以后版本】
 
+# 开发开手册地址
+
+> [https://increator.gitbooks.io/dev\_guide/content](https://increator.gitbooks.io/dev_guide/content)
+
+> [http://soeasycn.com/dev\_guide/content/](http://soeasycn.com/dev_guide/content/)
+
 # 重要说明
 
 > 由于视频的时效性，无法实时更新或重录，因此视频是作为框架学习的辅助，若遇到视频与手册有不一致之处，以手册为准，手册是会不定期调整更新。
