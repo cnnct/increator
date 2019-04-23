@@ -109,6 +109,7 @@
     * [springmvc的使用](kuang-jia-she-zhi/springmvcpei-zhi/springmvcde-shi-yong.md)
   * [mybatis及数据源的配置和使用](kuang-jia-she-zhi/mybatis.md)
     * [多数据源及逆向工程配置【1.2】](kuang-jia-she-zhi/duo-shu-ju-yuan-de-pei-zhi.md)
+    * [数据库密码加密](kuang-jia-she-zhi/shu-ju-ku-mi-ma-jia-mi.md)
     * [mybatis热部署](kuang-jia-she-zhi/mybatis/mybatisre-bu-shu.md)
     * [Druid内置监控功能的配置和使用](kuang-jia-she-zhi/druidnei-zhi-jian-kong-gong-neng-de-pei-zhi-he-shi-yong.md)
     * [二级缓存控制](kuang-jia-she-zhi/er-ji-huan-cun-kong-zhi.md)
