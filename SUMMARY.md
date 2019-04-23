@@ -113,7 +113,6 @@
     * [mybatis热部署](kuang-jia-she-zhi/mybatis/mybatisre-bu-shu.md)
     * [Druid内置监控功能的配置和使用](kuang-jia-she-zhi/druidnei-zhi-jian-kong-gong-neng-de-pei-zhi-he-shi-yong.md)
     * [二级缓存控制](kuang-jia-she-zhi/er-ji-huan-cun-kong-zhi.md)
-  * sql打印输出
   * [http接口服务使用配置【1.1】](kuang-jia-she-zhi/httpjie-kou-fu-wu-shi-yong-pei-zhi.md)
   * [Ehcache的使用](kuang-jia-she-zhi/ehcachede-shi-yong.md)
   * [spring定时任务的使用](kuang-jia-she-zhi/springding-shi-ren-wu-de-shi-yong.md)
