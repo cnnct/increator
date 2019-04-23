@@ -8,5 +8,5 @@
 java -cp druid-1.0.18.jar com.alibaba.druid.filter.config.ConfigTools 密码值
 ```
 
-将执行结果中的publicKey和password分别拷贝到db.properties对应的项中即可![](/assets/dbpwd_encrypt2.png)
+将执行结果中的**publicKey**和**password**分别拷贝到db.properties对应的项中即可![](/assets/dbpwd_encrypt2.png)
 
