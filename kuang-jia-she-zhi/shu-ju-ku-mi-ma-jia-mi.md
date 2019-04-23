@@ -8,5 +8,7 @@
 java -cp druid-1.0.18.jar com.alibaba.druid.filter.config.ConfigTools 密码值
 ```
 
+命令行显示如下
+
 
 
