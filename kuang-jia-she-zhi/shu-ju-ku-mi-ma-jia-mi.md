@@ -4,5 +4,9 @@
 
 在druid.x.y.z.jar所在的目录进入命令行，执行
 
+```
+java -cp druid-1.0.18.jar com.alibaba.druid.filter.config.ConfigTools 密码值
+```
+
 
 
