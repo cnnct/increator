@@ -45,7 +45,5 @@ public class TestTask {
 
 2018年优化改造，可以将时间配置改到配置文件中，如下图所示
 
-
-
 ![](/assets/task1.png)
 
