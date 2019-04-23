@@ -47,5 +47,3 @@ public class TestTask {
 
 ![](/assets/task1.png)
 
-
-
