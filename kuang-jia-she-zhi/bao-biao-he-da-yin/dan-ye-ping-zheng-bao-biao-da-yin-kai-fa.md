@@ -14,18 +14,20 @@
 >
 > ```
 > <@print backurl="modal_print" id="modal_print" modaliframe="true"> 
-> 	<table>
-> 		<tr> 
-> 			<td><b>姓名:</b>${resultData.perName}</td> 
-> 			<td><b>性别:</b>${resultData.sex}</td> 
-> 	    </tr>
->     	<tr>
-> 	        <td><b>证件号:</b>${resultData.certNO}</td> </tr> <tr> 
-> 			<td><b>手机号:</b>${resultData.mobile}</td> 
->     	</tr>
-> 	</table>
+>     <table>
+>         <tr> 
+>             <td><b>姓名:</b>${resultData.perName}</td> 
+>             <td><b>性别:</b>${resultData.sex}</td> 
+>         </tr>
+>         <tr>
+>             <td><b>证件号:</b>${resultData.certNO}</td> </tr> <tr> 
+>             <td><b>手机号:</b>${resultData.mobile}</td> 
+>         </tr>
+>     </table>
 > </@print>
 > ```
+>
+> ![](/assets/print1.png)
 >
 > > 发的水电费 奇才
 >
