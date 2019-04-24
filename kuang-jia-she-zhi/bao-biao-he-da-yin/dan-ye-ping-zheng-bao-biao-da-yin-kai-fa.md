@@ -2,7 +2,7 @@
 
 # print**标签**
 
-#### init\_page**标签的属性 :**
+#### print**标签的属性 :**
 
 > init\_page标签为初始化加载标签，有3个属性分别为title、link、script
 >
