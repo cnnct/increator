@@ -35,5 +35,22 @@
 
 # 后端配合**使用：保存report表，组装打印显示数据**
 
+> Ctrl代码
+>
+> ```
+> JSONObject jsonObject = cardServiceServ.getSysReportContent(Long.valueOf(actionNo));
+> model.addAttribute("jsonObject", jsonObject);
+> return "/counter/cardservice/loss_reloss_print";
+> ```
+>
+> Service代码
+>
+> ```
+> //业务代码,略
+>
+> ```
+>
+> 的
+
 
 
