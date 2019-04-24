@@ -45,14 +45,7 @@
 >
 > Service代码
 >
-> 调用
->
-> ```
-> //业务代码,略
-> //保存report表
-> ```
->
-> 的
+> 调用baseServImpl.saveSysReport方法保存report
 
 
 
