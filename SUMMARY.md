@@ -122,7 +122,7 @@
       * [代码开发说明](kuang-jia-she-zhi/bao-biao-he-da-yin/ireportzheng-he-kai-fa-pdf-bao-biao/dai-ma-kai-fa-shuo-ming.md)
       * [ireport使用说明](kuang-jia-she-zhi/bao-biao-he-da-yin/ireportzheng-he-kai-fa-pdf-bao-biao/ireportshi-yong-shuo-ming.md)
     * [echars图表开发【1.2.2】](kuang-jia-she-zhi/bao-biao-he-da-yin/echarstu-biao-kai-fa.md)
-    * [单页凭证报表打印开发](kuang-jia-she-zhi/bao-biao-he-da-yin/dan-ye-ping-zheng-bao-biao-da-yin-kai-fa.md)
+    * [单页凭证打印开发-smsx.cab](kuang-jia-she-zhi/bao-biao-he-da-yin/dan-ye-ping-zheng-bao-biao-da-yin-kai-fa.md)
   * [工具类使用【1.2】](kuang-jia-she-zhi/gong-ju-shi-yong.md)
     * [加解密工具使用【1.2】【施】](kuang-jia-she-zhi/jia-jie-mi-gong-ju-shi-yong-3010-1-2.md)
     * [Service基类BaseServImpl【陆】](kuang-jia-she-zhi/serviceji-lei-baseservimpl.md)
