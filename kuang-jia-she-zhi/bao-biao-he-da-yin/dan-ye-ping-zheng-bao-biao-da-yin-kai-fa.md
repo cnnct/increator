@@ -11,7 +11,7 @@
 > > **badkurl ：** 用于非模态框打开打印窗口时，点击返回按钮返回原页面的url
 >
 > ```
-> <@print backurl="modal_print" id="modal_print" modaliframe="true"> 
+> <@print backurl="${base}${jsonObject.backurl}" id="modal_print" modaliframe="true"> 
 >     <table>
 >         <tr> 
 >             <td><b>姓名:</b>${resultData.perName}</td> 
