@@ -68,36 +68,36 @@
 
 #### ![](/assets/form1.png)form表单的引入方式 :
 
-![](/assets/validate1.png)
-![](/assets/form8.png)
+![](/assets/validate1.png)  
+![](/assets/form8.png)  
 注意：哪些标签使用remote需要上图同步验证将会在标签中提醒
 
 ![](/assets/validate2.png)
 
 自定义表单正则表达式验证，文件名为custom\_validate.js
 
-![](/assets/validate3.png)
-【1.3】版本后支持自定义方法验证，注意自定的方法返回值只支持true和false
+![](/assets/validate3.png)  
+【1.3】版本后支持自定义方法验证，注意自定的方法返回值只支持true和false  
 ![](/assets/form_validation5.png)
 
-对于自定义的正则表达式验证和自定义的方法验证都采用如下形式使用：
+对于自定义的正则表达式验证和自定义的方法验证都采用如下形式使用：  
 ![](/assets/form_validation6.png)
 
 * 动态删除，新增验证规则，示例【1.4】：
-![](/assets/validate9.png)
-![](/assets/validate8.png)
-#### form表单的验证显示结果 :
+  ![](/assets/validate9.png)
+  ![](/assets/validate8.png)
+  #### form表单的验证显示结果 :
 
 ![](/assets/validate5.png)
 
 #### form表单清空 :
 
-可以调用让button调用formReset\('formId'\)方法清空指定form表单，或者在button加入class属性值'form-reset',清空当前表单（该清空为非使用modal框情况）；或者在button加入class属性'modal-form-reset'(【1.3】针对被modal包裹的清空)
+可以调用让button调用formReset\('formId'\)方法清空指定form表单，或者在button加入class属性值'form-reset',清空当前表单（该清空为非使用modal框情况）；或者在button加入class属性'modal-form-reset'\(【1.3】针对被modal包裹的清空\)
+
 ```
 <@button id="repeat" type="button" value="清空" icon="repeat"  class="form-reset"/>
 <@button id="repeat" type="button" value="清空" icon="repeat"  onclick="formReset('add_form')"/>
 【1.3】<@button id="repeat" type="button" value="清空" icon="repeat"  class="modal-form-reset"/>
-
 ```
 
 
