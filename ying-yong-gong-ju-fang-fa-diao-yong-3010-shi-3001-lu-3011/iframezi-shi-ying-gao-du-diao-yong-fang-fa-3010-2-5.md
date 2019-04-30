@@ -2,10 +2,10 @@
 
 调用方式：
 
-iframeAutoFit(iframeObj);
+iframeAutoFit\(iframeObj\);
 
-参数：
-iframeObj:为iframe jquery对象
+参数：  
+iframeObj:为iframe jquery对象  
 调用示例：
 
 ```
@@ -13,8 +13,6 @@ var iframeObj=$("#iframeId");
 
 iframeAutoFit(iframeObj);
 ```
-
-
 
 
 
